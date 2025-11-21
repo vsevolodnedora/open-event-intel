@@ -1,101 +1,53 @@
-# ⚡ Energy Heartbeat  
+# Open Event Intel
 
-_A personal project to track and summarize the pulse of the European energy industry._  
-
----
-
-## 📌 Motivation  
-
-After moving from academia into the energy industry, I quickly realized how fragmented and overwhelming it can be to stay up to date with both technical and business news. Unlike academia—where all relevant work is centralized—industry knowledge is spread across regulators, TSOs, exchanges, think tanks, and specialized media.  
-
-**Energy Heartbeat** addresses this by:  
-- Collecting news across key European (Germany-focused) sources  
-- Cleaning and normalizing content into consistent text  
-- Using NLP and LLMs to chunk, analyze, and summarize events  
-- Building a **temporally-aware knowledge graph** to highlight how entities and relationships evolve over time  
-- Delivering short, digestible updates and quantitative metrics through a web interface  
+A personal research project exploring structured event extraction, temporal reasoning, and agentic workflows built on top of a continuously updated corpus of publicly available industry news. The project follows principles from the OpenAI Temporal Knowledge Graph framework while extending it with tooling for provenance, contradiction detection, and temporal claim management.
 
 ---
 
-## 🏗️ Project Structure  
+## Motivation
 
-1. **Data Collection (Scraping)**  
-   Scrapers (running via GitHub Actions) pull content daily from major European energy sources, including:  
-   - Bundesnetzagentur (German regulator)  
-   - SMARD (market data platform)  
-   - ENTSO-E (European TSOs association)  
-   - 50Hertz, TenneT, Amprion, TransnetBW (German TSOs)  
-   - European Commission (DG Energy) & ACER  
-   - Agora Energiewende (think tank)  
-   - EEX (European Energy Exchange)  
-   - ICIS (market analytics)  
-   - Clean Energy Wire (journalism)  
+Industry domains with fast-moving regulatory, technical, and infrastructure developments generate a large volume of unstructured information. Understanding what changed, when it changed, and how claims evolve over time is difficult without automation.
 
-   ⚠️ **Note:** All scraped data is stored privately (GitHub private repo). No raw text is exposed to avoid any legal issues.  
+This project investigates how modern LLMs, structured extraction, and agent-based pipelines can be applied to:
 
-2. **Cleaning & Pre-processing**  
-   - HTML and links removed with regex rules  
-   - Dynamic pages handled with Playwright (e.g., 50Hertz, Bundesnetzagentur)  
-   - German-language content automatically translated to English  
+- normalize heterogeneous news and regulatory updates,
+- extract entities, events, and time-scoped claims,
+- maintain a temporally aware knowledge graph,
+- detect updates, contradictions, and invalidations,
+- provide grounded explanations based on structured information.
 
-3. **Semantic Chunking**  
-   - Each article is split into **meaningful chunks** using OpenAI embeddings  
-   - Similarity-based chunking ensures sections correspond to ideas, not arbitrary lengths  
-   - Chunking output forms the basis for knowledge graph extraction  
-
-4. **Knowledge Graph (Temporal)**  
-   - Following the [OpenAI Cookbook](https://cookbook.openai.com/examples/partners/temporal_agents_with_knowledge_graphs/temporal_agents_with_knowledge_graphs)  
-   - Entities, relations, and events are extracted with **timestamps**  
-   - Enables time-aware reasoning and tracking of evolving relationships  
-
-5. **Summarization & Output**  
-   - LLM-powered summaries of recent news (weekly focus)  
-   - Numeric and textual insights (e.g., keyword frequency, coherence scores, new entities introduced)  
-   - Final deliverable: **static webpage dashboard** with recent updates + key metrics  
+The goal is to demonstrate capabilities in LLM tooling, agent-oriented architectures, and temporal knowledge systems that generalize beyond the current domain focus.
 
 ---
 
-## 🔧 Key Technologies  
+## Current Stage
 
-- **Scraping & Automation**: [Crawl4AI](https://github.com/yourgithub/crawl4ai), Playwright, GitHub Actions  
-- **Data Processing**: Python, SQL  
-- **NLP & LLMs**: OpenAI Embeddings + GPT models  
-- **Visualization**: Temporal knowledge graphs, keyword frequency charts, semantic coherence metrics  
-- **Deployment**: Static site (frontend in progress)  
+The project is under active development and includes:
 
----
+- automated daily ingestion of selected public news sources,
+- standardized cleaning and normalization pipelines,
+- structured extraction of entities and events,
+- early components for temporal claim tracking and provenance-aware storage.
 
-## 🚀 Current Status  
-
-- ✅ Scrapers for 13+ sources live on GitHub Actions  
-- ✅ Cleaned & translated SQL database of posts  
-- ✅ Prototype semantic chunker (`Chunker.generate_transcripts_and_chunks`) implemented  
-- 🔄 In progress: temporal knowledge graph pipeline & visualization dashboard  
+The system is evolving toward an event-intelligence stack built on temporal representations, modular agents, and continuous evaluation.
 
 ---
 
-## 📊 Planned Preliminary Results  
+## Planned Direction
 
-Initial analysis will focus on **ENTSO-E** as a single-source case study:  
-- Distribution of semantic chunk sizes  
-- Coherence and similarity across chunks  
-- Temporal keyword frequency (e.g., “TYNDP”, “ERAA”, “market coupling”)  
-- Evolution of entity/relationship coverage in the knowledge graph  
+The next development stages explore an extensible framework tentatively referred to as **Grid Intel Lab** — a research-oriented platform for change detection and temporal reasoning over public information. Planned components include:
 
----
+- a “what changed” feed powered by temporal diffing of claims,
+- contradiction and supersession detection across sources,
+- an event explainer agent grounded in the knowledge graph,
+- evaluation suites for extraction accuracy and temporal consistency,
+- a minimal web interface for querying and browsing time-scoped events,
+- clean APIs and small OSS-style libraries for temporal claim models and extraction utilities.
 
-## 🌍 Vision  
-
-Ultimately, **Energy Heartbeat** aims to be a personal “industry intelligence companion”:  
-- **Bite-sized weekly summaries** of the German & European energy landscape  
-- **Interactive knowledge graph** to explore evolving policies, projects, and companies  
-- **Quantitative indicators** (topic frequencies, novelty detection, coherence metrics)  
+These features aim to provide a demonstration of modern LLM operations, agentic orchestration, and structured reasoning workflows in a compact, well-engineered system suitable as a public portfolio project.
 
 ---
 
-## 📖 License  
+## License
 
-This project is for **personal, educational, and non-commercial use only**.  
-All rights to the original articles remain with their respective publishers.  
-
----
+This project is for personal, educational, and non-commercial use. All rights to original source documents remain with their respective publishers.
