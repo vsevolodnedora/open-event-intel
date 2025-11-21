@@ -15,7 +15,7 @@ logger = get_logger(__name__)
 class Publication(BaseModel):
     """Data model for a news publication."""
 
-    id: str # Analogous to Chunk, this gives us a unique identifier
+    id: str # Unique identifier
     url:str # Original publication URL
     text: str # The full text of the post publication
     publisher: str # The name of the publication source (e.g., entsoe, acer etc)

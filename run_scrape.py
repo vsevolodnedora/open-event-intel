@@ -168,7 +168,6 @@ def main_scrape(source:str):  # noqa: C901
         logger.info(f"Scraping {src} done.")
 
 if __name__ == "__main__":
-
     print("launching run_scrape.py")   # noqa: T201
 
     if len(sys.argv) != 2:
