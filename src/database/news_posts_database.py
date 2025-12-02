@@ -42,15 +42,26 @@ class PostsDatabase:
     def __init__(self, db_path: str) -> None:
         """Initialize the database connection."""
         self.db_path = db_path
-        if not os.path.exists(self.db_path):
-            raise FileNotFoundError(f"Database path does not exist: {self.db_path}")
-        # connect and enable parsing of timestamps
+
+        # Check if database file already exists
+        db_existed = os.path.exists(self.db_path)
+
+        # Ensure parent directory exists (if any)
+        parent_dir = os.path.dirname(self.db_path)
+        if parent_dir and not os.path.exists(parent_dir):
+            os.makedirs(parent_dir, exist_ok=True)
+
+        # Connect and enable parsing of timestamps
         self.conn = sqlite3.connect(
             self.db_path,
             detect_types=sqlite3.PARSE_DECLTYPES | sqlite3.PARSE_COLNAMES
         )
         self.conn.execute("PRAGMA foreign_keys = ON;")
-        logger.info(f"Connected to database: {db_path}")
+
+        if db_existed:
+            logger.info(f"Connected to existing database: {self.db_path}")
+        else:
+            logger.info(f"Database did not exist. Created new database at: {self.db_path}")
 
     def close(self) -> None:
         """Close the database connection."""
