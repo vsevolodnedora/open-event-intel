@@ -1,7 +1,12 @@
 # large raw posts should not be tracked and database lives in the separate repo
 /output/posts_raw/
 /output/posts_cleaned/
+/output/tkg/
+/output/tkg_eval/
 /database/scraped_posts.db
+/database/preprocessed_posts.db
+/database/tkg.db
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

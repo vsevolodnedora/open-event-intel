@@ -1,25 +1,27 @@
+import asyncio
 import os
 import sys
-import asyncio
 from pathlib import Path
 from typing import Callable
 
-from src.scrapers import main_scrape_acer_posts
-from src.scrapers.scrape_agora_posts import main_scrape_agora_posts
-from src.scrapers import main_scrape_bnetza_posts
-from src.scrapers import main_scrape_ec_posts
-from src.scrapers import main_scrape_eex_posts
-from src.scrapers import main_scrape_energy_wire_posts
-from src.scrapers import main_scrape_entsoe_posts
-from src.scrapers import main_scrape_icis_posts
-from src.scrapers.scrape_smard_posts import main_scrape_smard_posts
-from src.scrapers import main_scrape_transnetbw_posts
-from src.scrapers import main_scrape_tennet_posts
-from src.scrapers import main_scrape_amprion_posts
-from src.scrapers import main_scrape_50hz_posts
 from src.database import PostsDatabase
-
 from src.logger import get_logger
+from src.scrapers import (
+    main_scrape_50hz_posts,
+    main_scrape_acer_posts,
+    main_scrape_amprion_posts,
+    main_scrape_bnetza_posts,
+    main_scrape_ec_posts,
+    main_scrape_eex_posts,
+    main_scrape_energy_wire_posts,
+    main_scrape_entsoe_posts,
+    main_scrape_icis_posts,
+    main_scrape_tennet_posts,
+    main_scrape_transnetbw_posts,
+)
+from src.scrapers.scrape_agora_posts import main_scrape_agora_posts
+from src.scrapers.scrape_smard_posts import main_scrape_smard_posts
+
 logger = get_logger(__name__)
 
 def main_scrape_posts(scraper:Callable, db_path: str, table_name: str, out_dir: str, root_url: str, max_runtime:int) -> None:
@@ -142,6 +144,7 @@ def main_scrape(source:str):  # noqa: C901
     # exit(1)
 
     db_path = "./database/scraped_posts.db"
+    out_dir_public_view = "./output/public_view/"
 
     if source == "all":
         targets = list(SOURCE_CONFIG.keys())
@@ -167,11 +170,16 @@ def main_scrape(source:str):  # noqa: C901
 
         logger.info(f"Scraping {src} done.")
 
+        # Save current database content metadata for public view
+        news_db = PostsDatabase(db_path=db_path)
+        news_db.export_all_publications_metadata(out_dir=out_dir_public_view, format="json", filename="scraped_publications_metadata")
+        logger.info(f"Updated metadata file at {out_dir_public_view}")
+
 if __name__ == "__main__":
     print("launching run_scrape.py")   # noqa: T201
 
     if len(sys.argv) != 2:
-        source = "entsoe"
+        source = "amprion"
     else:
         source = str(sys.argv[1])
 

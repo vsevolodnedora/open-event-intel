@@ -1,6 +1,7 @@
 import os
 import sys
 
+from src.database import PostsDatabase
 from src.logger import get_logger
 from src.preprocessing.preprocess_raw_posts import Preprocessor
 
@@ -318,8 +319,9 @@ black_list_starters_energy_wire = [
     "[International](https://www.cleanenergywire.org/topics/International)",
 ]
 
-def main_preprocess(source:str):  # noqa: C901
+def main_preprocess(source:str, allow_failed:bool):  # noqa: C901
     """Scrape the news source."""
+    out_dir_public_view = "./output/public_view/"
     # Configuration for all sources
     source_config = {
         "entsoe": {
@@ -582,6 +584,7 @@ def main_preprocess(source:str):  # noqa: C901
         "amprion": {
             "table_name": "amprion",
             "preprocessor_config": {
+                "start_marker_constructs": {"date": Preprocessor.date_to_dd_mm_yyyy},
                 "start_markers": [
                     "  2. [ ](https://www.amprion.net/Presse/Pressemitteilungen",
                 ],
@@ -624,9 +627,15 @@ def main_preprocess(source:str):  # noqa: C901
             target_db_path=target_db_path,
             table_name=config["table_name"],
             out_dir=out_dir,
+            allow_failed=allow_failed
         )
 
         logger.info(f"Preprocessing {src} done.")
+
+    # Save current database content metadata for public view
+    news_db = PostsDatabase(db_path=target_db_path)
+    news_db.export_all_publications_metadata(out_dir=out_dir_public_view, format="json", filename="preprocessed_publications_metadata")
+    logger.info(f"Updated metadata file at {out_dir_public_view}")
 
 if __name__ == "__main__":
 
@@ -634,7 +643,9 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 2:
         source = "all"
+        allow_failed = False
     else:
         source = str(sys.argv[1])
+        allow_failed = True
 
-    main_preprocess(source=source)
+    main_preprocess(source=source, allow_failed=allow_failed)

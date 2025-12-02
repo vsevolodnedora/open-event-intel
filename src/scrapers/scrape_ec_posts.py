@@ -60,7 +60,7 @@ async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsData
                 # Extract the title and date from the URL
                 match = re.match(r"(.+)-(\d{4}-\d{2}-\d{2})_en", url.split("/")[-1])
                 if not match:
-                    raise ValueError("URL format is unexpected.")
+                    raise ValueError(f"URL format is unexpected. No match for date is found. URL: {url}")
 
                 title = match.group(1)
                 date_iso = match.group(2)

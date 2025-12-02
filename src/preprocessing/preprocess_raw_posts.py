@@ -14,7 +14,14 @@ logger = get_logger(__name__)
 
 
 def process_one_article_text(  # noqa: C901
-        publisher:str, text:str, date:datetime, title:str, start_markers: List[str], end_markers: List[str],
+        id:str,
+        publisher:str,
+        text:str,
+        date:datetime,
+        title:str,
+        url:str,
+        start_markers: List[str],
+        end_markers: List[str],
         start_marker_constructs:Dict|None,
         skip_start_lines:int|None, max_lines:int|None,
         custom_black_list_starters:List,
@@ -46,7 +53,7 @@ def process_one_article_text(  # noqa: C901
 
     if len(start_markers)>0 and len(end_markers) > 0:
         if not start_idx or start_idx == -1 or start_idx == len(text)-1:
-            raise ValueError(f"Start marker {start_markers} not found in {title}, skipping.")
+            raise ValueError(f"Start marker {start_markers} not found in Publication from {publisher}: {date} {title} | ID='{id}' | {url}")
 
 
     # find end point up to which to cut the article
@@ -60,7 +67,7 @@ def process_one_article_text(  # noqa: C901
             break
     if len(start_markers)>0 and len(end_markers) > 0:
         if not end_idx or end_idx == -1 or end_idx == len(text)-1:
-            raise ValueError(f"End marker not found in {title}, skipping. Publication from {publisher}: {date} {title} ")
+            raise ValueError(f"End marker not found in {title}, skipping. Publication from {publisher}: {date} {title} | ID='{id}' | {url}")
 
         # sanity check
         if start_idx > end_idx:
@@ -234,6 +241,7 @@ def preprocess_posts_for_a_table(
     black_list_blocks: Optional[List[str]] = None,
     prefer_german: bool = False,
     title_blacklist: list = [],
+    allow_failed:bool = False,
 ) -> None:
     """
     For each article in `table_name`, fetch `raw_post` from the DB, run it through
@@ -253,6 +261,7 @@ def preprocess_posts_for_a_table(
 
     # 2) Iterate and process
     for publication in publications:
+        pub_id      = publication.id
         published_on= publication.published_on
         title       = publication.title
         url         = publication.url
@@ -271,34 +280,44 @@ def preprocess_posts_for_a_table(
             continue
 
         # 4) Clean/process the text
-        cleaned = process_one_article_text(
-            publisher=table_name,
-            text=post,
-            date=published_on,
-            title=title,
-            start_markers=start_markers,
-            start_marker_constructs=start_marker_constructs,
-            end_markers=end_markers,
-            custom_black_list_starters=custom_black_list_starters,
-            black_list_single_word_lines=black_list_single_word_lines,
-            skip_start_lines=skip_start_lines,
-            black_list_blocks=black_list_blocks,
-            max_lines=max_lines,
-            remove_image_links=True,
-            strip_links=True,
-            remove_empty_links = True,
-            strip_generic_page_links = True,
-        )
+        try:
+            cleaned = process_one_article_text(
+                id=pub_id,
+                publisher=table_name,
+                text=post,
+                date=published_on,
+                title=title,
+                url=url,
+                start_markers=start_markers,
+                start_marker_constructs=start_marker_constructs,
+                end_markers=end_markers,
+                custom_black_list_starters=custom_black_list_starters,
+                black_list_single_word_lines=black_list_single_word_lines,
+                skip_start_lines=skip_start_lines,
+                black_list_blocks=black_list_blocks,
+                max_lines=max_lines,
+                remove_image_links=True,
+                strip_links=True,
+                remove_empty_links = True,
+                strip_generic_page_links = True,
+            )
 
-        # 5) Store compressed cleaned text back into target DB
-        target_db.add_post(
-            table_name=table_name,
-            published_on=published_on,
-            title=title,
-            post_url=url,
-            post=cleaned,
-            overwrite=True, # replace previous preprocessed post
-        )
+            # 5) Store compressed cleaned text back into target DB
+            target_db.add_post(
+                table_name=table_name,
+                published_on=published_on,
+                title=title,
+                post_url=url,
+                post=cleaned,
+                overwrite=True, # replace previous preprocessed post
+            )
+
+        except Exception as e:
+            logger.error(f"Failed to process post for Publication from {publication.publisher}: {published_on} {title} | ID='{pub_id}' | {url}")
+            if allow_failed:
+                continue
+            else:
+                raise e
 
     logger.info(f"Completed cleaning for table '{table_name}'.")
 
@@ -329,7 +348,7 @@ class Preprocessor:
         formatted_date = f"{month:02d}/{day:02d}/{year}"
         return formatted_date
 
-    def __call__(self, source_db_path: str, target_db_path: str, table_name:str, out_dir:str) -> None:
+    def __call__(self, source_db_path: str, target_db_path: str, table_name:str, out_dir:str, allow_failed:bool) -> None:
         """Process agora raw posts."""
         if not os.path.isfile(source_db_path):
             raise FileNotFoundError(f"source_db not found: {source_db_path}")
@@ -343,29 +362,22 @@ class Preprocessor:
         else:
             target_db = PostsDatabase(target_db_path)
 
-        # process posts raw posts and save clean versions into new folder
-        try:
-            preprocess_posts_for_a_table(
-                source_db=source_db,
-                target_db=target_db,
-                table_name=table_name,
-                start_markers=self.config["start_markers"],
-                end_markers=self.config["end_markers"],
-                start_marker_constructs=self.config.get("start_marker_constructs", None),
-                custom_black_list_starters=self.config.get("custom_black_list_starters", None),
-                black_list_single_word_lines=self.config.get("black_list_single_word_lines", None),
-                black_list_blocks=self.config.get("black_list_blocks", None),
-                skip_start_lines=self.config.get("skip_start_lines", 0),
-                max_lines=self.config.get("max_lines", None),
-                prefer_german=self.config.get("prefer_german", False),
-                title_blacklist=self.config.get("title_blacklist", []),
-            )
-        except Exception as e:
-            logger.error(f"Failed preprocessing for {table_name} with exception raised: {e}")
-            source_db.close()
-            target_db.close()
-            raise e
-
+        preprocess_posts_for_a_table(
+            source_db=source_db,
+            target_db=target_db,
+            table_name=table_name,
+            start_markers=self.config["start_markers"],
+            end_markers=self.config["end_markers"],
+            start_marker_constructs=self.config.get("start_marker_constructs", None),
+            custom_black_list_starters=self.config.get("custom_black_list_starters", None),
+            black_list_single_word_lines=self.config.get("black_list_single_word_lines", None),
+            black_list_blocks=self.config.get("black_list_blocks", None),
+            skip_start_lines=self.config.get("skip_start_lines", 0),
+            max_lines=self.config.get("max_lines", None),
+            prefer_german=self.config.get("prefer_german", False),
+            title_blacklist=self.config.get("title_blacklist", []),
+            allow_failed=allow_failed
+        )
         # save scraped posts as raw .md files for analysis
         target_db.dump_publications_as_markdown(table_name=table_name, out_dir=out_dir)
 
