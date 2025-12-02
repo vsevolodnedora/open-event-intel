@@ -66,7 +66,7 @@ async def main_scrape_amprion_posts(root_url:str, table_name:str, database: Post
                 logger.info(f"Post already exists in the database. Skipping: {url}")
                 continue
 
-            if fnmatch.fnmatch(url, "*Presse*"):
+            if fnmatch.fnmatch(url, "*Presse*") and not fnmatch.fnmatch(url, "*Pressemitteilungen-[0-9][0-9][0-9][0-9]*"):
 
                 date_iso = find_and_format_numeric_date(text=result.markdown.raw_markdown)
                 if date_iso is None:

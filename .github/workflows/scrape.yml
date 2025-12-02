@@ -1,4 +1,6 @@
-name: Scrape
+# Note: the database has to be in a separate private GitHub repo for copyright reasons, then copied, updated, and pushed there
+
+name: Scrape_Preprocess
 
 on:
   push:
@@ -40,8 +42,11 @@ jobs:
           mkdir -p database
           cp data_repo/database/scraped_posts.db database/scraped_posts.db
 
-      - name: Scrape Data
+      - name: Scrape Publications from Publishers
         run: pipenv run python run_scrape.py all
+
+      - name: Preprocess Publications to clean the HTML and extract text
+        run: pipenv run python run_preprocess.py all
 
       # Copy updated DB back into private repo and push
       - name: Push Updated DB to Private Repo
