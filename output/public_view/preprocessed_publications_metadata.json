@@ -1,5 +1,5 @@
 {
-  "total_publications": 2275,
+  "total_publications": 2284,
   "total_publishers": 13,
   "publishers": [
     "50hz",
@@ -25,6 +25,51 @@
       "published_on": "2025-12-08T12:00:00",
       "added_on": "2025-12-02T15:34:40.282687",
       "title": "empowerment_through_openness_the_future_of_energy_modelling"
+    },
+    {
+      "id": "5a7cf18080b7112d94162b968dde657e00280d4d51a37589bd6ee0618c8c43c7",
+      "url": "https://www.cleanenergywire.org/news/germany-present-new-plans-renewables-expansion-targets-support-schemes-early-2026-official",
+      "length": 2167,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-03T12:16:00",
+      "added_on": "2025-12-03T18:44:16.799827",
+      "title": "germany_present_new_plans_renewables_expansion_targets_support_schemes_early_2026_official"
+    },
+    {
+      "id": "0fa00f87a09c942b2198c2b92c53a77e930eb8d08060a380518c6fc467899a49",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251203_BiomasseSolar.html",
+      "length": 4188,
+      "publisher": "bnetza",
+      "published_on": "2025-12-03T12:00:00",
+      "added_on": "2025-12-03T18:44:14.557893",
+      "title": "BiomasseSolar"
+    },
+    {
+      "id": "4bc57795a683161498c02a989ef7ba7778d660c61fd5558a0cc9555782fdfc04",
+      "url": "https://www.cleanenergywire.org/news/german-ministry-tables-ban-new-oil-and-gas-projects-protected-maritime-zones",
+      "length": 2482,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-03T11:55:00",
+      "added_on": "2025-12-03T18:44:16.802387",
+      "title": "german_ministry_tables_ban_new_oil_and_gas_projects_protected_maritime_zones"
+    },
+    {
+      "id": "183731a6e9fef54871c86c1e95a832e3aafa1a03c39f21cf7c38e4a40a912666",
+      "url": "https://www.cleanenergywire.org/news/cities-germany-and-poland-agree-climate-friendly-cross-border-district-heating",
+      "length": 2036,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-03T11:40:00",
+      "added_on": "2025-12-03T18:44:16.804816",
+      "title": "cities_germany_and_poland_agree_climate_friendly_cross_border_district_heating"
+    },
+    {
+      "id": "66d30e34894d37635d5caac5aa25ca1aec5e0b8ee69b160a833c58de944e271e",
+      "url": "https://www.cleanenergywire.org/news/brief-3-december-25",
+      "length": 1312,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-03T10:11:00",
+      "added_on": "2025-12-03T18:44:16.807133",
+      "title": "brief_3_december_25"
     },
     {
       "id": "a65e7a2a30a6530ce6c22c3b8c1130e4bcec50aed664060876d643b1ab765226",
@@ -169,6 +214,15 @@
       "published_on": "2025-12-01T12:00:00",
       "added_on": "2025-12-02T15:34:41.795002",
       "title": "bundesnetzagentur_gibt_untersuchungsrahmen_auf"
+    },
+    {
+      "id": "09faf579459e97900d9fd690bd6209d9435e936f7c0bb751555f9fe957361df7",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89285.html",
+      "length": 2385,
+      "publisher": "amprion",
+      "published_on": "2025-12-01T12:00:00",
+      "added_on": "2025-12-03T18:44:16.957936",
+      "title": "Presse_Detailseite_89285"
     },
     {
       "id": "abab98b3dd91ad8168277c0490977ca797173a285f3b19ff8d6930d0482febb1",
@@ -1377,6 +1431,15 @@
       "title": "zweiter_antrag_fuer_380_kv_provisorium"
     },
     {
+      "id": "5f5608e4a91515583acac73df94bc7a9c5f10787f9bcce726a3e68bd7f135fdb",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89284.html",
+      "length": 1663,
+      "publisher": "amprion",
+      "published_on": "2025-11-17T12:00:00",
+      "added_on": "2025-12-03T18:44:16.960076",
+      "title": "Presse_Detailseite_89284"
+    },
+    {
       "id": "ae76fd45608335dee22364844e14e2ec0114a50376a7017346806ca6c44dda0c",
       "url": "https://energy.ec.europa.eu/news/focus-data-centres-energy-hungry-challenge-2025-11-17_en",
       "length": 4906,
@@ -2583,6 +2646,15 @@
       "title": "Presse_Detailseite_88192"
     },
     {
+      "id": "067ccda82043b2d02722b031262c367007a9b8b2565d0dc57491e27e18ca0564",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89283.html",
+      "length": 2191,
+      "publisher": "amprion",
+      "published_on": "2025-11-03T12:00:00",
+      "added_on": "2025-12-03T18:44:16.961618",
+      "title": "Presse_Detailseite_89283"
+    },
+    {
       "id": "2b6c7e11ed3cc27b0391420117a3b02f67a52d50142fcc7566fda107a8a1ced9",
       "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251103_Sicherheitskatalog.html",
       "length": 3058,
@@ -3229,6 +3301,15 @@
       "published_on": "2025-10-27T12:00:00",
       "added_on": "2025-12-02T15:34:41.856129",
       "title": "Presse_Detailseite_87488"
+    },
+    {
+      "id": "c7c5721f1bf248fb83137b42b50bd073b34e6ae6c9854172935433bd7390cb57",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89282.html",
+      "length": 1661,
+      "publisher": "amprion",
+      "published_on": "2025-10-27T12:00:00",
+      "added_on": "2025-12-03T18:44:16.963419",
+      "title": "Presse_Detailseite_89282"
     },
     {
       "id": "d8085ee39e506aa766c868955e675d030e274720c93a3747cc1ecce67b6a9517",
