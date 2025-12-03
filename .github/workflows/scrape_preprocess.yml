@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths-ignore:
-      - 'site/**'            # or 'cite/**' if that's your actual folder
+      - 'docs/**'            # or 'cite/**' if that's your actual folder
       - '.github/workflows/build_deploy.yml'  # editing deploy workflow shouldn't rerun pipeline
       - 'README.md'          # docs-only changes
   schedule:

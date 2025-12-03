@@ -6,7 +6,7 @@ on:
   push:
     branches: ['main']
     paths:
-      - 'site/**'
+      - 'docs/**'
       - 'output/public_view/**'
 
   # Also rebuild after the Scrape_Preprocess workflow completes successfully
@@ -46,25 +46,25 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Build static site folder
+      - name: Build static docs folder
         run: |
-          mkdir -p _site
+          mkdir -p _docs
 
           # Copy static site (HTML/CSS/JS)
-          if [ -d "site" ]; then
-            cp -r site/* _site/
+          if [ -d "docs" ]; then
+            cp -r docs/* _docs/
           fi
 
           # Copy JSON data (if present)
           if [ -d "output/public_view" ]; then
-            mkdir -p _site/output/public_view
-            cp -r output/public_view/* _site/output/public_view/
+            mkdir -p _docs/output/public_view
+            cp -r output/public_view/* _docs/output/public_view/
           fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: _site
+          path: _docs
 
       - name: Deploy to GitHub Pages
         id: deployment
