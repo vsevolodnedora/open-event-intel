@@ -1,5 +1,5 @@
 {
-  "total_publications": 2284,
+  "total_publications": 2285,
   "total_publishers": 13,
   "publishers": [
     "50hz",
@@ -43,6 +43,15 @@
       "published_on": "2025-12-03T12:00:00",
       "added_on": "2025-12-03T18:44:14.557893",
       "title": "BiomasseSolar"
+    },
+    {
+      "id": "a6d8b133d9793e4f19230f1195d31d142c05a0aa48f8521dba4ebda6efb48a2d",
+      "url": "https://www.entsoe.eu/news/2025/12/03/entso-e-and-dso-entity-launch-12-new-factsheets-on-the-updated-tso-dso-technopedia-platform",
+      "length": 1674,
+      "publisher": "entsoe",
+      "published_on": "2025-12-03T12:00:00",
+      "added_on": "2025-12-03T19:32:37.874284",
+      "title": "entso_e_and_dso_entity_launch_12_new_factsheets_on_the_updated_tso_dso_technopedia_platform"
     },
     {
       "id": "4bc57795a683161498c02a989ef7ba7778d660c61fd5558a0cc9555782fdfc04",
