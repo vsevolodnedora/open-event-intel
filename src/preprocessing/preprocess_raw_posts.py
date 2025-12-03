@@ -242,13 +242,9 @@ def preprocess_posts_for_a_table(
     prefer_german: bool = False,
     title_blacklist: list = [],
     allow_failed:bool = False,
+    overwrite: bool = False,
 ) -> None:
-    """
-    For each article in `table_name`, fetch `raw_post` from the DB, run it through
-    `process_one_article_text()`, and store the result (compressed) into `clean_post`
-    via the `add_clean_post()` method.
-    """
-
+    """Process publications for one publisher and add them to the new database."""
     # 1) Get all article metadata (ID, date, title, url)
     publications:List[Publication] = source_db.list_publications(table_name=table_name, sort_date=True)
     logger.info(f"Found {len(publications)} publications in table '{table_name}'.")
@@ -279,6 +275,10 @@ def preprocess_posts_for_a_table(
             logger.warning(f"Post for url={url}; is blacklisted. Skipping.")
             continue
 
+        if target_db.is_table(table_name=table_name) and target_db.is_publication(table_name=table_name, publication_id=pub_id) and not overwrite:
+            logger.info(f"Post for url={url}; is already a the preprocessed database; skipping.")
+            continue
+
         # 4) Clean/process the text
         try:
             cleaned = process_one_article_text(
@@ -303,13 +303,13 @@ def preprocess_posts_for_a_table(
             )
 
             # 5) Store compressed cleaned text back into target DB
-            target_db.add_post(
+            target_db.add_publication(
                 table_name=table_name,
                 published_on=published_on,
                 title=title,
                 post_url=url,
                 post=cleaned,
-                overwrite=True, # replace previous preprocessed post
+                overwrite=overwrite,
             )
 
         except Exception as e:
@@ -348,7 +348,7 @@ class Preprocessor:
         formatted_date = f"{month:02d}/{day:02d}/{year}"
         return formatted_date
 
-    def __call__(self, source_db_path: str, target_db_path: str, table_name:str, out_dir:str, allow_failed:bool) -> None:
+    def __call__(self, source_db_path: str, target_db_path: str, table_name:str, out_dir:str, allow_failed:bool, overwrite:bool) -> None:
         """Process agora raw posts."""
         if not os.path.isfile(source_db_path):
             raise FileNotFoundError(f"source_db not found: {source_db_path}")
@@ -376,7 +376,8 @@ class Preprocessor:
             max_lines=self.config.get("max_lines", None),
             prefer_german=self.config.get("prefer_german", False),
             title_blacklist=self.config.get("title_blacklist", []),
-            allow_failed=allow_failed
+            allow_failed=allow_failed,
+            overwrite=overwrite
         )
         # save scraped posts as raw .md files for analysis
         target_db.dump_publications_as_markdown(table_name=table_name, out_dir=out_dir)

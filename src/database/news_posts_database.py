@@ -87,7 +87,7 @@ class PostsDatabase:
         logger.info(f"Ensured table exists: {table_name}")
 
     def is_table(self, table_name: str) -> bool:
-        """Returns whether the given table is present in the database."""
+        """Return whether the given table is present in the database."""
         if not re.match(r"^[A-Za-z0-9_]+$", table_name):
             return False
         cursor = self.conn.execute(
@@ -96,19 +96,17 @@ class PostsDatabase:
         exists = cursor.fetchone()[0] > 0
         return exists
 
-    def create_post_id(self, post_url: str) -> str:
-        """Creates a new post id for the given URL which is assumed to be unique."""
+    def create_publication_id(self, post_url: str) -> str:
+        """Create a new post id for the given URL which is assumed to be unique."""
         return hashlib.sha256(post_url.encode("utf-8")).hexdigest()
 
-    def compress_post_text(self, article_id: str, text: str) -> bytes:
-        """Compresses the given article ID and text into bytes."""
-
+    def compress_publication_text(self, article_id: str, text: str) -> bytes:
+        """Compress the given article ID and text into bytes."""
         logger.debug(f"Compressing article ID: {article_id}")
-        return zlib.compress(text.encode('utf-8'), level=6)
+        return zlib.compress(text.encode("utf-8"), level=6)
 
-    def decompress_post_text(self, article_id: str, text: bytes) -> str:
-        """Decompresses the given article ID and text into bytes."""
-
+    def decompress_publication_text(self, article_id: str, text: bytes) -> str:
+        """Decompress the given article ID and text into bytes."""
         logger.debug(f"Decompressing article ID: {article_id}")
         try:
             return zlib.decompress(text).decode("utf-8")
@@ -121,17 +119,16 @@ class PostsDatabase:
                 f"Failed to decompress article (ID={article_id})."
             ) from e
 
-    def is_post(self, table_name: str, post_id: str) -> bool:
-        """Returns whether the given article ID is present in the database in the given table."""
-
+    def is_publication(self, table_name: str, publication_id: str) -> bool:
+        """Return whether the given article ID is present in the database in the given table."""
         if not self.is_table(table_name):
             return False
         cursor = self.conn.execute(
-            f"SELECT COUNT(ID) FROM \"{table_name}\" WHERE ID = ?;", (post_id,)
+            f"SELECT COUNT(ID) FROM \"{table_name}\" WHERE ID = ?;", (publication_id,)
         )
         return cursor.fetchone()[0] > 0
 
-    def add_post(
+    def add_publication(
         self,
         table_name: str,
         published_on: datetime,
@@ -146,8 +143,8 @@ class PostsDatabase:
         if not self.is_table(table_name):
             raise ValueError(f"Table {table_name} does not exist.")
         # determine post ID
-        post_id = self.create_post_id(post_url)
-        exists = self.is_post(table_name, post_id)
+        post_id = self.create_publication_id(post_url)
+        exists = self.is_publication(table_name, post_id)
         if exists and not overwrite:
             logger.debug(
                 f"Post exists in {table_name} (url={post_url}, id={post_id}), skipping."
@@ -156,7 +153,7 @@ class PostsDatabase:
 
         # timestamp for insertion
         added_dt = datetime.now()
-        compressed = self.compress_post_text(post_id, post)
+        compressed = self.compress_publication_text(post_id, post)
         if exists and overwrite:
             sql = f"""
             UPDATE "{table_name}"
@@ -191,9 +188,8 @@ class PostsDatabase:
             f"Post {'updated' if exists else 'added'} in {table_name}: id={post_id}, title={title}"
         )
 
-    def get_all_post_dates(self, table_name: str) -> list[datetime]:
-        """Returns a list of all post dates in the given table."""
-
+    def get_all_publication_dates(self, table_name: str) -> list[datetime]:
+        """Return a list of all post dates in the given table."""
         if not self.is_table(table_name):
             raise ValueError(f"Table {table_name} does not exist.")
 
@@ -213,7 +209,7 @@ class PostsDatabase:
 
         if not self.is_table(table_name):
             raise ValueError(f"Table {table_name} does not exist.")
-        if not self.is_post(table_name, publication_id):
+        if not self.is_publication(table_name, publication_id):
             raise ValueError(f"Post id {publication_id} does not exist in table {table_name}.")
 
         sql = f'SELECT ID, published_on, title, added_on, url, post FROM "{table_name}" WHERE ID = ?;'
@@ -223,7 +219,7 @@ class PostsDatabase:
             raise ValueError(f"No data retrieved for post id {publication_id} in table {table_name}.")
 
         pid, pub_dt, title, add_dt, url, blob = row
-        text = self.decompress_post_text(pid, blob)
+        text = self.decompress_publication_text(pid, blob)
 
         try:
             return Publication(
@@ -255,7 +251,7 @@ class PostsDatabase:
 
         cursor = self.conn.execute(sql)
         for pid, pub_dt, title, add_dt, url, blob in cursor.fetchall():
-            text = self.decompress_post_text(pid, blob)
+            text = self.decompress_publication_text(pid, blob)
             try:
                 publications.append(
                     Publication(
@@ -293,7 +289,7 @@ class PostsDatabase:
             raise ValueError(f"Table {table_name} does not exist.")
 
         # Check if post exists
-        if not self.is_post(table_name, publication_id):
+        if not self.is_publication(table_name, publication_id):
             raise ValueError(f"Post id {publication_id} does not exist in table {table_name}.")
 
         # Delete the post
@@ -304,7 +300,7 @@ class PostsDatabase:
         logger.info(f"Successfully deleted post from {table_name}: id={publication_id}")
 
     def dump_publications_as_markdown(self, table_name: str, out_dir: str) -> None:
-        """Saves each Publication as a markdown file in out_dir."""
+        """Save each Publication as a markdown file in out_dir."""
         if not self.is_table(table_name):
             raise ValueError(f"Table {table_name} does not exist.")
 

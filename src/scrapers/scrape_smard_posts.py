@@ -79,7 +79,7 @@ async def main_scrape_smard_posts(root_url:str, database: PostsDatabase, table_n
             if url in known_bad_links:
                 continue
 
-            if database.is_table(table_name=table_name) and database.is_post(table_name=table_name, post_id=database.create_post_id(post_url=url)):
+            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=url)):
                 logger.info(f"Post already exists in the database '{url}' Skipping...")
                 continue
 
@@ -110,7 +110,7 @@ async def main_scrape_smard_posts(root_url:str, database: PostsDatabase, table_n
                 published_on = format_date_to_datetime(date_iso)
 
                 # store full article in the database
-                database.add_post(
+                database.add_publication(
                     table_name=table_name,
                     published_on=published_on,
                     title=title,

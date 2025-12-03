@@ -5,11 +5,12 @@ cd "$(dirname "$0")"
 
 # Relative path to the actual database
 TARGET="../../nlp_news_summary_data/database/scraped_posts.db"
-
-# Link name in the current directory
 LINK_NAME="scraped_posts.db"
-
-# Create the symbolic link
 ln -sf "$TARGET" "$LINK_NAME"
+echo "Symlink created: $LINK_NAME → $TARGET"
 
+
+TARGET="../../nlp_news_summary_data/database/preprocessed_posts.db"
+LINK_NAME="preprocessed_posts.db"
+ln -sf "$TARGET" "$LINK_NAME"
 echo "Symlink created: $LINK_NAME → $TARGET"

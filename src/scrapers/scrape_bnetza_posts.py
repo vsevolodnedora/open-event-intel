@@ -61,7 +61,7 @@ async def main_scrape_bnetza_posts(
         new_links = []
         for link in links:
             article_url = link.split("?", 1)[0]
-            if database.is_table(table_name=table_name) and database.is_post(table_name=table_name, post_id=database.create_post_id(post_url=article_url)):
+            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=article_url)):
                 logger.info(f"Post already exists in the database. Skipping: {article_url}")
                 continue
             new_links.append(article_url)
@@ -110,7 +110,7 @@ async def main_scrape_bnetza_posts(
             published_on = format_date_to_datetime(date_iso)
 
             # store full article in the database
-            database.add_post(
+            database.add_publication(
                 table_name="bnetza",
                 published_on=published_on,
                 title=title,

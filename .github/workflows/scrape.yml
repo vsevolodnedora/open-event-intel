@@ -1,5 +1,3 @@
-# Note: the database has to be in a separate private GitHub repo for copyright reasons, then copied, updated, and pushed there
-
 name: Scrape_Preprocess
 
 on:
@@ -19,6 +17,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # needed so we can pull/merge before pushing
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -41,10 +41,15 @@ jobs:
           git clone https://${{ secrets.NLP_NEWS_SUMMARY_DATA }}@github.com/vsevolodnedora/nlp_news_summary_data.git data_repo
           mkdir -p database
           cp data_repo/database/scraped_posts.db database/scraped_posts.db
+          cp data_repo/database/preprocessed_posts.db database/preprocessed_posts.db
+          # if you also have tkg.db in the private repo, add:
+          # cp data_repo/database/tkg.db database/tkg.db
 
+      # Run scrapers and dump summary of the database into the public_view/
       - name: Scrape Publications from Publishers
         run: pipenv run python run_scrape.py all
 
+      # Run preprocessor on the raw publication database and dump summary into public_view/
       - name: Preprocess Publications to clean the HTML and extract text
         run: pipenv run python run_preprocess.py all
 
@@ -52,9 +57,40 @@ jobs:
       - name: Push Updated DB to Private Repo
         run: |
           cp database/scraped_posts.db data_repo/database/scraped_posts.db
+          cp database/preprocessed_posts.db data_repo/database/preprocessed_posts.db
+
           cd data_repo
-          git config --global user.name 'Collector'
-          git config --global user.email 'noreply@nedora.digital'
+          git config user.name 'Collector'
+          git config user.email 'noreply@nedora.digital'
           git add database/scraped_posts.db
-          git commit -m "Update scraped_posts.db from scraper run at $(date -u)"
+          git add database/preprocessed_posts.db
+          git commit -m "Update databases from scrape & preprocess run at $(date -u)" || echo "No changes to commit in private repo"
           git push
+
+      # Commit and push generated public_view files to this repo
+      - name: Commit and Push public_view outputs
+        run: |
+          # Configure git for this repo
+          git config user.name 'Collector'
+          git config user.email 'noreply@nedora.digital'
+
+          # Make sure output/public_view exists (avoid 'pathspec did not match' errors)
+          mkdir -p output/public_view
+
+          # Stage only the public_view output directory
+          git add output/public_view || echo "No output/public_view directory to add"
+
+          # If nothing staged, bail out early
+          if git diff --cached --quiet; then
+            echo "No changes in output/public_view to commit"
+            exit 0
+          fi
+
+          # Pull remote changes first to avoid non-fast-forward push
+          git pull --no-edit -X ours origin main || echo "No remote changes to merge or merge failed"
+
+          # Commit
+          git commit -m "Update output/public_view from scraper run at $(date -u)"
+
+          # Push back to main
+          git push origin HEAD:main

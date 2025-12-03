@@ -319,7 +319,7 @@ black_list_starters_energy_wire = [
     "[International](https://www.cleanenergywire.org/topics/International)",
 ]
 
-def main_preprocess(source:str, allow_failed:bool):  # noqa: C901
+def main_preprocess(source:str, allow_failed:bool, overwrite:bool):  # noqa: C901
     """Scrape the news source."""
     out_dir_public_view = "./output/public_view/"
     # Configuration for all sources
@@ -627,7 +627,8 @@ def main_preprocess(source:str, allow_failed:bool):  # noqa: C901
             target_db_path=target_db_path,
             table_name=config["table_name"],
             out_dir=out_dir,
-            allow_failed=allow_failed
+            allow_failed=allow_failed,
+            overwrite=overwrite # overwrite existing publication in the preprocessed database if any
         )
 
         logger.info(f"Preprocessing {src} done.")
@@ -648,4 +649,4 @@ if __name__ == "__main__":
         source = str(sys.argv[1])
         allow_failed = True
 
-    main_preprocess(source=source, allow_failed=allow_failed)
+    main_preprocess(source=source, allow_failed=allow_failed, overwrite=False)

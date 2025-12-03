@@ -230,7 +230,7 @@ async def main_scrape_tennet_posts(root_url: str, table_name: str, database: Pos
             # check if file exists and if so, skip
             if database is not None \
                     and database.is_table(table_name=table_name) \
-                    and database.is_post(table_name=table_name, post_id=database.create_post_id(post_url=link)):
+                    and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=link)):
                 logger.info(f"Post already exists in the database. Skipping: {link}")
                 continue
 
@@ -304,7 +304,7 @@ async def main_scrape_tennet_posts(root_url: str, table_name: str, database: Pos
 
             # addd to the database
             if database is not None:
-                database.add_post(
+                database.add_publication(
                     table_name=table_name,
                     published_on=published_on,
                     title=article_title,

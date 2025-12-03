@@ -72,7 +72,7 @@ async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, 
             formatted_datetime = dt.strftime("%Y-%m-%d %H:%M")
 
             # check if file exists and if so, skip
-            if database.is_table(table_name=table_name) and database.is_post(table_name=table_name, post_id=database.create_post_id(post_url=article_url)):
+            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=article_url)):
                 logger.info(f"Post already exists in the database. Skipping: {article_url}")
                 continue
 
@@ -119,7 +119,7 @@ async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, 
             # convert date "YYYY-MM-DD:HH:MM:SS" to datetime
             published_on = format_date_to_datetime(formatted_datetime)
 
-            database.add_post(
+            database.add_publication(
                 table_name=table_name,
                 published_on=published_on,
                 title=article_title,
