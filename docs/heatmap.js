@@ -1,7 +1,7 @@
 const SCRAPED_URL =
-  "public_view/scraped_publications_metadata.json";
+  "docs/public_view/scraped_publications_metadata.json";
 const PREPROCESSED_URL =
-  "public_view/preprocessed_publications_metadata.json";
+  "docs/public_view/preprocessed_publications_metadata.json";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadAndRenderHeatmap().catch((err) => {
