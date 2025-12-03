@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Publication Timeline</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Energy Publications Dashboard</h1>
+    <p>
+      Visual overview of scraped and preprocessed publications from news sources.
+    </p>
+  </header>
+
+  <main>
+    <details class="panel" open>
+      <summary class="panel-summary">
+        Scraped vs. preprocessed publications heatmap
+      </summary>
+      <div class="panel-body">
+        <section class="legend">
+          <span class="legend-item">
+            <span class="square square-both"></span>
+            <span>In <strong>scraped</strong> &amp; <strong>preprocessed</strong></span>
+          </span>
+          <span class="legend-item">
+            <span class="square square-scraped-only"></span>
+            <span>In <strong>scraped only</strong></span>
+          </span>
+        </section>
+
+        <div id="heatmap-container" class="heatmap-wrapper">
+          <p>Loading publication metadata…</p>
+        </div>
+      </div>
+    </details>
+  </main>
+
+  <script src="heatmap.js"></script>
+</body>
+</html>
