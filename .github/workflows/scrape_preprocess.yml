@@ -3,8 +3,12 @@ name: Scrape_Preprocess
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - 'site/**'            # or 'cite/**' if that's your actual folder
+      - '.github/workflows/build_deploy.yml'  # editing deploy workflow shouldn't rerun pipeline
+      - 'README.md'          # docs-only changes
   schedule:
-    - cron: '0 18 * * *'  # Runs at 18:00 UTC daily
+    - cron: '0 18 * * *'     # still runs daily regardless of paths
 
 jobs:
   update_data:

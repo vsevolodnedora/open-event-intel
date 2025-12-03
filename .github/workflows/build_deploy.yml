@@ -1,0 +1,71 @@
+# Simple workflow for deploying your static site + JSON data to GitHub Pages
+name: Deploy static site to Pages
+
+on:
+  # Rebuild site when frontend or public_view data changes on main
+  push:
+    branches: ['main']
+    paths:
+      - 'site/**'
+      - 'output/public_view/**'
+
+  # Also rebuild after the Scrape_Preprocess workflow completes successfully
+  workflow_run:
+    workflows: ['Scrape_Preprocess']
+    types: [completed]
+
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+
+# Permissions needed for Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # For workflow_run: only proceed when Scrape_Preprocess succeeded
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site folder
+        run: |
+          mkdir -p _site
+
+          # Copy static site (HTML/CSS/JS)
+          if [ -d "site" ]; then
+            cp -r site/* _site/
+          fi
+
+          # Copy JSON data (if present)
+          if [ -d "output/public_view" ]; then
+            mkdir -p _site/output/public_view
+            cp -r output/public_view/* _site/output/public_view/
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
