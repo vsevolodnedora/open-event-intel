@@ -1,9 +1,9 @@
 import os
 import sys
 
-from src.database import PostsDatabase
 from src.logger import get_logger
-from src.preprocessing.preprocess_raw_posts import Preprocessor
+from src.publication_preprocessor import Preprocessor
+from src.publications_database import PostsDatabase
 
 logger = get_logger(__name__)
 
@@ -321,7 +321,7 @@ black_list_starters_energy_wire = [
 
 def main_preprocess(source:str, allow_failed:bool, overwrite:bool):  # noqa: C901
     """Scrape the news source."""
-    out_dir_public_view = "./output/public_view/"
+    out_dir_public_view = "./docs/public_view/"
     # Configuration for all sources
     source_config = {
         "entsoe": {

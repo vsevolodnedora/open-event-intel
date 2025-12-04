@@ -4,16 +4,15 @@ import urllib.parse
 
 import aiohttp
 from bs4 import BeautifulSoup
-from crawl4ai import CrawlerRunConfig, AsyncWebCrawler, CacheMode
+from crawl4ai import AsyncWebCrawler, CacheMode, CrawlerRunConfig
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
 from crawl4ai.deep_crawling.filters import (
     FilterChain,
 )
 
-from src.database import PostsDatabase
-
 from src.logger import get_logger
+from src.publications_database import PostsDatabase
 from src.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
@@ -24,11 +23,10 @@ async def main_scrape_bnetza_posts(
     table_name:str
 ) -> None:
     """
-    Fetch the root page HTML, extract all links to BNetzA with news_href_part (press-releases)
-    then scrape each article as Markdown using crawl4AI and save new ones.
+    Fetch the root page HTML, extract all links to BNetzA with news_href_part (press-releases) then scrape each article as Markdown using crawl4AI and save new ones.
+
     Special approach is needed due to old HTML page technology.
     """
-
     # Step 1: Download and parse root HTML
     async with aiohttp.ClientSession() as session:
         async with session.get(root_url) as response:

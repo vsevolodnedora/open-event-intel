@@ -4,8 +4,8 @@ import sys
 from pathlib import Path
 from typing import Callable
 
-from src.database import PostsDatabase
 from src.logger import get_logger
+from src.publications_database import PostsDatabase
 from src.scrapers import (
     main_scrape_50hz_posts,
     main_scrape_acer_posts,
@@ -144,7 +144,7 @@ def main_scrape(source:str):  # noqa: C901
     # exit(1)
 
     db_path = "./database/scraped_posts.db"
-    out_dir_public_view = "./output/public_view/"
+    out_dir_public_view = "./docs/public_view/"
 
     if source == "all":
         targets = list(SOURCE_CONFIG.keys())
@@ -179,8 +179,10 @@ if __name__ == "__main__":
     print("launching run_scrape.py")   # noqa: T201
 
     if len(sys.argv) != 2:
+        # Local execution
         source = "amprion"
     else:
+        # GitHub actions execution
         source = str(sys.argv[1])
 
     main_scrape(source=source)

@@ -7,8 +7,9 @@ from typing import Callable, Dict, List, Optional, Tuple
 
 from langid import langid
 
-from src.database import PostsDatabase, Publication
+from src.data_models import Publication
 from src.logger import get_logger
+from src.publications_database import PostsDatabase
 
 logger = get_logger(__name__)
 

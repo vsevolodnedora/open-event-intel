@@ -1,5 +1,7 @@
 """
-Scraping SMARD news I had to fall back on processing each HTML manually since
+Scraping SMARD news.
+
+I had to fall back on processing each HTML manually since
 information is commonly spread our between charts which themselves are not loaded.
 In order to prevent overloading LLMs with useless chart technical messeges I remove them manually
 using two lists of blacklisted strings as well as manually removing whole blocks of text that contain
@@ -11,7 +13,7 @@ import fnmatch
 import re
 from datetime import datetime
 
-from crawl4ai import CrawlerRunConfig, AsyncWebCrawler, CacheMode
+from crawl4ai import AsyncWebCrawler, CacheMode, CrawlerRunConfig
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
 from crawl4ai.deep_crawling.filters import (
@@ -19,8 +21,8 @@ from crawl4ai.deep_crawling.filters import (
     URLPatternFilter,
 )
 
-from src.database import PostsDatabase
 from src.logger import get_logger
+from src.publications_database import PostsDatabase
 from src.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)

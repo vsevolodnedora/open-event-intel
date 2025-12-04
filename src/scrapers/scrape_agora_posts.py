@@ -3,7 +3,7 @@ import fnmatch
 import re
 from datetime import datetime
 
-from crawl4ai import CrawlerRunConfig, AsyncWebCrawler, CacheMode
+from crawl4ai import AsyncWebCrawler, CacheMode, CrawlerRunConfig
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
 from crawl4ai.deep_crawling.filters import (
@@ -11,9 +11,8 @@ from crawl4ai.deep_crawling.filters import (
     URLPatternFilter,
 )
 
-from src.database import PostsDatabase
-
 from src.logger import get_logger
+from src.publications_database import PostsDatabase
 from src.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)

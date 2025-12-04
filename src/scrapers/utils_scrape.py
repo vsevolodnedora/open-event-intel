@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 def format_date_to_datetime(published_on:str):
-    # parse published_on
+    """Format date to datetime format."""
     # if only date, add default time 12:00
     if re.match(r"^\d{4}-\d{2}-\d{2}$", published_on):
         published_on = published_on + " 12:00:00"

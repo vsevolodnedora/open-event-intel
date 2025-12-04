@@ -19,6 +19,8 @@ if LOG_LEVEL not in VALID_LOG_LEVELS:
 
 # ANSI color codes for terminal output
 class ANSIColors:
+    """Options for colors."""
+
     DEBUG = "\033[36m"    # Cyan
     INFO = "\033[32m"     # Green
     WARNING = "\033[33m"  # Yellow
@@ -28,7 +30,10 @@ class ANSIColors:
 
 # Custom formatter with ANSI colors (if not in GitHub Actions)
 class CustomFormatter(logging.Formatter):
+    """Custom formatter that includes colors."""
+
     def format(self, record):
+        """Perform formatting of record."""
         log_message = super().format(record)
 
         if GITHUB_ACTIONS:
@@ -64,5 +69,5 @@ logging.basicConfig(
 )
 
 def get_logger(name: str):
-    """Returns a configured logger for the given module."""
+    """Return a configured logger for the given module."""
     return logging.getLogger(name.split(".")[-1])

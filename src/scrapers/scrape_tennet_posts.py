@@ -4,13 +4,11 @@ import random
 import re
 from datetime import datetime
 from typing import Optional
-
-from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import httpx  # async HTTP client
 
-from crawl4ai import AsyncWebCrawler, CacheMode, CrawlerRunConfig, MemoryAdaptiveDispatcher, RateLimiter
-from crawl4ai import BrowserConfig
+import httpx  # async HTTP client
+from bs4 import BeautifulSoup
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig, MemoryAdaptiveDispatcher, RateLimiter
 from crawl4ai.components.crawler_monitor import CrawlerMonitor
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
@@ -18,8 +16,8 @@ from crawl4ai.deep_crawling.filters import (
     FilterChain,
 )
 
-from src.database import PostsDatabase
 from src.logger import get_logger
+from src.publications_database import PostsDatabase
 from src.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
