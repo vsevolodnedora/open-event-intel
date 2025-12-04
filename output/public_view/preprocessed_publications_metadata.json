@@ -1,5 +1,5 @@
 {
-  "total_publications": 2285,
+  "total_publications": 2296,
   "total_publishers": 13,
   "publishers": [
     "50hz",
@@ -27,6 +27,96 @@
       "title": "empowerment_through_openness_the_future_of_energy_modelling"
     },
     {
+      "id": "44ab1a498b72bfa2fcfb85d82a314ba41babddcc30e324851f07937a30e9d0e1",
+      "url": "https://www.cleanenergywire.org/news/current-climate-policy-risks-increasing-social-tensions-warns-german-government-report",
+      "length": 2675,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-04T12:28:00",
+      "added_on": "2025-12-04T18:25:26.817905",
+      "title": "current_climate_policy_risks_increasing_social_tensions_warns_german_government_report"
+    },
+    {
+      "id": "0760e58a2fa17865ebcf417962d0c9d4e833a7b5be6b46f7dabaf5f34cbb918a",
+      "url": "https://www.acer.europa.eu/news/regulators-request-more-time-decide-minimum-activation-period-frequency-containment-reserves-providers",
+      "length": 1873,
+      "publisher": "acer",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:24.386054",
+      "title": "regulators_request_more_time_decide_minimum_activation_period_frequency_containment_reserves_providers"
+    },
+    {
+      "id": "2315fe7b40d82b3b16f43b42412857ffc91d1134204d497edd7921e7c2ecfd20",
+      "url": "https://www.agora-energiewende.org/news-events/getting-2040-right-managing-flexibilities-to-safeguard-europes-climate-ambition",
+      "length": 6517,
+      "publisher": "agora",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:26.663598",
+      "title": "getting_2040_right_managing_flexibilities_to_safeguard_europes_climate_ambition"
+    },
+    {
+      "id": "15db9f6b8c9398942853bb2071ef4b0307025160934819f677eff6687bdf5cc1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89349.html",
+      "length": 4424,
+      "publisher": "amprion",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:26.976405",
+      "title": "Presse_Detailseite_89349"
+    },
+    {
+      "id": "a0d26ceb3330f36cf4ad0c6556ba0de1c988810c135502cea5b7a94e84b2f42f",
+      "url": "https://energy.ec.europa.eu/news/commission-consults-energy-labelling-and-ecodesign-household-and-commercial-fridges-2025-12-04_en",
+      "length": 898,
+      "publisher": "ec",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:24.415908",
+      "title": "commission_consults_energy_labelling_and_ecodesign_household_and_commercial_fridges"
+    },
+    {
+      "id": "8a52976a2f868b678977ad0ed2921d9d00520ccc41d8e807352333232ab55ef8",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161701/insight-us-leaves-out-chems-in-growing-list-of-tariff-exclusions",
+      "length": 9299,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:24.490775",
+      "title": "insight_us_leaves_out_chems_in_growing_list_of_tariff_exclusions"
+    },
+    {
+      "id": "ac313f537148b5e1e6621e9f68956be8128b97dadd341ebf5774753012643df9",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161676/higher-charter-rates-push-ttf-further-below-asia-spot-lng-what-next",
+      "length": 3841,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:24.492928",
+      "title": "higher_charter_rates_push_ttf_further_below_asia_spot_lng_what_next"
+    },
+    {
+      "id": "0cb71c05ce7a11d1776df19cac6fac8d921dd6aca386b833ef1d07b8b35cd83e",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161614/blog-the-illusion-of-protection-why-europe-needs-more-than-adds-to-compete",
+      "length": 1821,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:24.494442",
+      "title": "blog_the_illusion_of_protection_why_europe_needs_more_than_adds_to_compete"
+    },
+    {
+      "id": "a2ccfb044e87dce945fb9ff5a192dd10b028fe02828d4a34d03fa2db526fed01",
+      "url": "https://www.cleanenergywire.org/news/no-longer-competitive-china-consultancy-forecasts-decline-european-carmakers",
+      "length": 2603,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-04T11:06:00",
+      "added_on": "2025-12-04T18:25:26.819799",
+      "title": "no_longer_competitive_china_consultancy_forecasts_decline_european_carmakers"
+    },
+    {
+      "id": "5d721c37dc9763deb622833f403a2d3446b0204eb6ef5ba3714c47845d2c3b25",
+      "url": "https://www.cleanenergywire.org/news/brief-4-december-25",
+      "length": 2797,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-04T09:10:00",
+      "added_on": "2025-12-04T18:25:26.821358",
+      "title": "brief_4_december_25"
+    },
+    {
       "id": "5a7cf18080b7112d94162b968dde657e00280d4d51a37589bd6ee0618c8c43c7",
       "url": "https://www.cleanenergywire.org/news/germany-present-new-plans-renewables-expansion-targets-support-schemes-early-2026-official",
       "length": 2167,
@@ -52,6 +142,15 @@
       "published_on": "2025-12-03T12:00:00",
       "added_on": "2025-12-03T19:32:37.874284",
       "title": "entso_e_and_dso_entity_launch_12_new_factsheets_on_the_updated_tso_dso_technopedia_platform"
+    },
+    {
+      "id": "2806c1d52214e67906736d61e48a39d5c85736af8e295e3c7b16de1a420a3ff8",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/03/11161576/lyondellbasell-sees-weakening-in-autos-europe",
+      "length": 2281,
+      "publisher": "icis",
+      "published_on": "2025-12-03T12:00:00",
+      "added_on": "2025-12-04T18:25:24.495465",
+      "title": "lyondellbasell_sees_weakening_in_autos_europe"
     },
     {
       "id": "4bc57795a683161498c02a989ef7ba7778d660c61fd5558a0cc9555782fdfc04",
