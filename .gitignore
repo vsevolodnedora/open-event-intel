@@ -6,6 +6,7 @@
 /database/scraped_posts.db
 /database/preprocessed_posts.db
 /database/tkg.db
+/src/tkg/prompts_and_definitions
 
 
 # Byte-compiled / optimized / DLL files

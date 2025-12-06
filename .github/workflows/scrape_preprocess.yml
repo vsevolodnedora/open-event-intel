@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths-ignore:
-      - 'docs/**'            # or 'cite/**' if that's your actual folder
+      - 'docs/**'            # contains webpage files that are deployed by another workflow
       - '.github/workflows/build_deploy.yml'  # editing deploy workflow shouldn't rerun pipeline
       - 'README.md'          # docs-only changes
   schedule:
@@ -43,11 +43,15 @@ jobs:
       - name: Clone Private Data Repo
         run: |
           git clone https://${{ secrets.NLP_NEWS_SUMMARY_DATA }}@github.com/vsevolodnedora/nlp_news_summary_data.git data_repo
+          
+          # Copy databases
           mkdir -p database
           cp data_repo/database/scraped_posts.db database/scraped_posts.db
           cp data_repo/database/preprocessed_posts.db database/preprocessed_posts.db
-          # if you also have tkg.db in the private repo, add:
-          # cp data_repo/database/tkg.db database/tkg.db
+
+          # Copy private prompts and definitions into src tree
+          mkdir -p src/tkg
+          cp -r data_repo/prompts_and_definitions src/tkg/prompts_and_definitions
 
       # Run scrapers and dump summary of the database into the public_view/
       - name: Scrape Publications from Publishers
@@ -70,6 +74,11 @@ jobs:
           git add database/preprocessed_posts.db
           git commit -m "Update databases from scrape & preprocess run at $(date -u)" || echo "No changes to commit in private repo"
           git push
+
+      # Clean up copied private prompts/definitions so they are not committed
+      - name: Remove private prompts_and_definitions
+        if: always()
+        run: rm -rf src/tkg/prompts_and_definitions
 
       # Commit and push generated public_view files to this repo
       - name: Commit and Push public_view outputs

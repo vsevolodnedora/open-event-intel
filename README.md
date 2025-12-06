@@ -2,6 +2,7 @@
 
 A personal research project exploring structured event extraction, temporal reasoning, and agentic workflows built on top of a continuously updated corpus of publicly available industry news. The project follows principles from the OpenAI Temporal Knowledge Graph framework while extending it with tooling for provenance, contradiction detection, and temporal claim management.
 
+Live version: [Open Event Intel](https://vsevolodnedora.github.io/open-event-intel/)
 ---
 
 ## Motivation
@@ -45,6 +46,16 @@ The next development stages explore an extensible framework tentatively referred
 - clean APIs and small OSS-style libraries for temporal claim models and extraction utilities.
 
 These features aim to provide a demonstration of modern LLM operations, agentic orchestration, and structured reasoning workflows in a compact, well-engineered system suitable as a public portfolio project.
+
+---
+
+## Notes on local use
+
+Due to copyright and compliance, full text of publications cannot be provided on a public repository.  
+Databases with raw publications as well as with components of the temporally-aware knowledge graph will be 
+built in `/database/` automatically when running `run_scrape.py`.  
+
+However, in order to run `run_tkg.py` prompts and definitions are required which can be provided by the project author upon reasonable request.
 
 ---
 
