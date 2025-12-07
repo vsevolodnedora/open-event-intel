@@ -55,11 +55,11 @@ jobs:
 
       # Run scrapers and dump summary of the database into the public_view/
       - name: Scrape Publications from Publishers
-        run: pipenv run python run_scrape.py all
+        run: pipenv run python run_scrape.py eex
 
       # Run preprocessor on the raw publication database and dump summary into public_view/
       - name: Preprocess Publications to clean the HTML and extract text
-        run: pipenv run python run_preprocess.py all
+        run: pipenv run python run_preprocess.py eex
 
       # Copy updated DB back into private repo and push
       - name: Push Updated DB to Private Repo

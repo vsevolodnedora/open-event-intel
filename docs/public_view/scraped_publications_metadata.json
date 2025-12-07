@@ -1,5 +1,5 @@
 {
-  "total_publications": 2395,
+  "total_publications": 2431,
   "total_publishers": 13,
   "publishers": [
     "50hz",
@@ -27,6 +27,240 @@
       "title": "empowerment_through_openness_the_future_of_energy_modelling"
     },
     {
+      "id": "606023f6afeb5b42d8b5335c38f61991e27c8b96dac0f8cec84c0be2d6f1cd66",
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-december-25",
+      "length": 19434,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-05T15:30:00",
+      "added_on": "2025-12-05T18:20:38.154905",
+      "title": "dispatch_european_union_december_25"
+    },
+    {
+      "id": "35aaf681348164419d1290fd855fd2fcbe52e87dad78d30b1ecdde3e37f64de9",
+      "url": "https://www.cleanenergywire.org/news/germanys-utilities-need-eu68-bln-new-equity-grid-upgrades-report",
+      "length": 25756,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-05T13:45:00",
+      "added_on": "2025-12-05T18:20:49.028943",
+      "title": "germanys_utilities_need_eu68_bln_new_equity_grid_upgrades_report"
+    },
+    {
+      "id": "6c4d27cfdf62444a6cd21094c412da573f9a3bf84ececced02f8fc82ad70b531",
+      "url": "https://www.cleanenergywire.org/news/two-three-germans-are-against-eus-2035-ban-new-petrol-and-diesel-cars",
+      "length": 26110,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-05T12:17:00",
+      "added_on": "2025-12-05T18:21:00.096456",
+      "title": "two_three_germans_are_against_eus_2035_ban_new_petrol_and_diesel_cars"
+    },
+    {
+      "id": "7b8a62c2ff14082190b16ef81d91c2bb22af03dfecb33502085e57bf900fc209",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251205_DSC.html",
+      "length": 23843,
+      "publisher": "bnetza",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-05T18:18:09.789093",
+      "title": "DSC"
+    },
+    {
+      "id": "ac422b9db0dd74ef364bbe7d774784e8a06366ccd7af6311c7874cb45cef6f19",
+      "url": "https://energy.ec.europa.eu/news/5-things-you-should-know-about-heat-pumps-2025-12-05_en",
+      "length": 22060,
+      "publisher": "ec",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-05T18:17:13.685238",
+      "title": "5_things_you_should_know_about_heat_pumps"
+    },
+    {
+      "id": "7c360c4a0dd57ffc229f299b84fe483ac0a9e6148253f75316e5c4d5e1763a42",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14752&cHash=951f2acdafc36138b61d577c64892d88",
+      "length": 32606,
+      "publisher": "eex",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-07T18:51:39.761987",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "d9926e64c9da906a6377e39b57c113b6344ba6b2fc9add292d1b2008aa720d2f",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162175/podcast-trump-s-trade-war-is-driving-new-business-models-for-chemicals",
+      "length": 21245,
+      "publisher": "icis",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-05T18:18:00.004354",
+      "title": "podcast_trump_s_trade_war_is_driving_new_business_models_for_chemicals"
+    },
+    {
+      "id": "f7419abf8c7d42ee5819a7960f444fa34d84449c24a8637fa2e13668f7ad31b6",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162105/india-central-bank-cuts-interest-rates-hikes-full-year-gdp-growth-forecast",
+      "length": 22404,
+      "publisher": "icis",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-05T18:18:00.007179",
+      "title": "india_central_bank_cuts_interest_rates_hikes_full_year_gdp_growth_forecast"
+    },
+    {
+      "id": "ab7c44051853fa5c21771327c702e6deea49c810eec5b90d14e43319b6d76666",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162056/india-industries-get-boost-as-gov-t-withdraws-chems-import-barrier",
+      "length": 23588,
+      "publisher": "icis",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-05T18:18:00.009256",
+      "title": "india_industries_get_boost_as_gov_t_withdraws_chems_import_barrier"
+    },
+    {
+      "id": "a5517c280f9f1d881a242defa96a48896d699df17a24acf52eb8aa2889aa9419",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162232/asia-us-container-rates-mixed-as-carriers-use-smaller-more-frequent-hikes-to-halt-slide",
+      "length": 27463,
+      "publisher": "icis",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-06T08:23:52.498241",
+      "title": "asia_us_container_rates_mixed_as_carriers_use_smaller_more_frequent_hikes_to_halt_slide"
+    },
+    {
+      "id": "58f969b682a81ae3d8379a130135a2891ab60ab61ac3053ff3a8b58cbdd269a8",
+      "url": "https://www.cleanenergywire.org/news/utilities-give-hope-using-hydrogen-their-gas-grids-report",
+      "length": 27655,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-05T10:43:00",
+      "added_on": "2025-12-05T18:21:11.171605",
+      "title": "utilities_give_hope_using_hydrogen_their_gas_grids_report"
+    },
+    {
+      "id": "5f60efe58d1a3053466de66438609a40a5f0765cefd54d9964793acfc9399326",
+      "url": "https://www.cleanenergywire.org/news/brief-5-december-25",
+      "length": 19513,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-05T09:05:00",
+      "added_on": "2025-12-05T18:21:22.691265",
+      "title": "brief_5_december_25"
+    },
+    {
+      "id": "44ab1a498b72bfa2fcfb85d82a314ba41babddcc30e324851f07937a30e9d0e1",
+      "url": "https://www.cleanenergywire.org/news/current-climate-policy-risks-increasing-social-tensions-warns-german-government-report",
+      "length": 16928,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-04T12:28:00",
+      "added_on": "2025-12-04T18:23:11.335241",
+      "title": "current_climate_policy_risks_increasing_social_tensions_warns_german_government_report"
+    },
+    {
+      "id": "0760e58a2fa17865ebcf417962d0c9d4e833a7b5be6b46f7dabaf5f34cbb918a",
+      "url": "https://www.acer.europa.eu/news/regulators-request-more-time-decide-minimum-activation-period-frequency-containment-reserves-providers",
+      "length": 49250,
+      "publisher": "acer",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:19:34.405119",
+      "title": "regulators_request_more_time_decide_minimum_activation_period_frequency_containment_reserves_providers"
+    },
+    {
+      "id": "2315fe7b40d82b3b16f43b42412857ffc91d1134204d497edd7921e7c2ecfd20",
+      "url": "https://www.agora-energiewende.org/news-events/getting-2040-right-managing-flexibilities-to-safeguard-europes-climate-ambition",
+      "length": 19563,
+      "publisher": "agora",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:23:03.457654",
+      "title": "getting_2040_right_managing_flexibilities_to_safeguard_europes_climate_ambition"
+    },
+    {
+      "id": "15db9f6b8c9398942853bb2071ef4b0307025160934819f677eff6687bdf5cc1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89349.html",
+      "length": 14460,
+      "publisher": "amprion",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:25:18.215973",
+      "title": "Presse_Detailseite_89349"
+    },
+    {
+      "id": "a0d26ceb3330f36cf4ad0c6556ba0de1c988810c135502cea5b7a94e84b2f42f",
+      "url": "https://energy.ec.europa.eu/news/commission-consults-energy-labelling-and-ecodesign-household-and-commercial-fridges-2025-12-04_en",
+      "length": 17463,
+      "publisher": "ec",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:19:46.247933",
+      "title": "commission_consults_energy_labelling_and_ecodesign_household_and_commercial_fridges"
+    },
+    {
+      "id": "9f7bc08044021349ae53172495bfdd521f7f47fbfe8b12a07a29f4ada9dd0ce5",
+      "url": "https://cinea.ec.europa.eu/news-events/news/pci-energy-days-2025-two-days-meaningful-discussions-shape-europes-energy-future-2025-12-04_en",
+      "length": 19684,
+      "publisher": "ec",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-05T18:17:13.687725",
+      "title": "pci_energy_days_2025_two_days_meaningful_discussions_shape_europes_energy_future"
+    },
+    {
+      "id": "8a52976a2f868b678977ad0ed2921d9d00520ccc41d8e807352333232ab55ef8",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161701/insight-us-leaves-out-chems-in-growing-list-of-tariff-exclusions",
+      "length": 28530,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:20:27.968060",
+      "title": "insight_us_leaves_out_chems_in_growing_list_of_tariff_exclusions"
+    },
+    {
+      "id": "ac313f537148b5e1e6621e9f68956be8128b97dadd341ebf5774753012643df9",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161676/higher-charter-rates-push-ttf-further-below-asia-spot-lng-what-next",
+      "length": 25997,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:20:27.974339",
+      "title": "higher_charter_rates_push_ttf_further_below_asia_spot_lng_what_next"
+    },
+    {
+      "id": "0cb71c05ce7a11d1776df19cac6fac8d921dd6aca386b833ef1d07b8b35cd83e",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161614/blog-the-illusion-of-protection-why-europe-needs-more-than-adds-to-compete",
+      "length": 23987,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-04T18:20:27.976622",
+      "title": "blog_the_illusion_of_protection_why_europe_needs_more_than_adds_to_compete"
+    },
+    {
+      "id": "fa371afd7b1d69914005ac32df21360e48d3db5347450302aed971291393b320",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161722/us-nov-auto-sales-fall-by-5-5-year-on-year-still-expected-to-top-16-million-for-2025",
+      "length": 25478,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-05T18:18:00.010979",
+      "title": "us_nov_auto_sales_fall_by_5_5_year_on_year_still_expected_to_top_16_million_for_2025"
+    },
+    {
+      "id": "94aa96cdc27650cb94d8c19c3d108bde11be7751f4c2dd153e4aa57fd7f5e4e2",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161715/focus-canada-chemical-industry-sees-opportunity-in-proposed-oil-export-pipeline",
+      "length": 33810,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-05T18:18:00.014328",
+      "title": "focus_canada_chemical_industry_sees_opportunity_in_proposed_oil_export_pipeline"
+    },
+    {
+      "id": "978186157b194f04cddb54bf05fa2224001366740186a5ae057c8141b1e80345",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161730/up-ns-rail-merger-could-have-negative-impact-on-smaller-developing-ports-trade-group",
+      "length": 27046,
+      "publisher": "icis",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-05T18:18:00.016559",
+      "title": "up_ns_rail_merger_could_have_negative_impact_on_smaller_developing_ports_trade_group"
+    },
+    {
+      "id": "a2ccfb044e87dce945fb9ff5a192dd10b028fe02828d4a34d03fa2db526fed01",
+      "url": "https://www.cleanenergywire.org/news/no-longer-competitive-china-consultancy-forecasts-decline-european-carmakers",
+      "length": 26300,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-04T11:06:00",
+      "added_on": "2025-12-04T18:23:22.249072",
+      "title": "no_longer_competitive_china_consultancy_forecasts_decline_european_carmakers"
+    },
+    {
+      "id": "5d721c37dc9763deb622833f403a2d3446b0204eb6ef5ba3714c47845d2c3b25",
+      "url": "https://www.cleanenergywire.org/news/brief-4-december-25",
+      "length": 20420,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-04T09:10:00",
+      "added_on": "2025-12-04T18:23:32.987416",
+      "title": "brief_4_december_25"
+    },
+    {
       "id": "5a7cf18080b7112d94162b968dde657e00280d4d51a37589bd6ee0618c8c43c7",
       "url": "https://www.cleanenergywire.org/news/germany-present-new-plans-renewables-expansion-targets-support-schemes-early-2026-official",
       "length": 16569,
@@ -52,6 +286,15 @@
       "published_on": "2025-12-03T12:00:00",
       "added_on": "2025-12-03T19:26:14.739348",
       "title": "entso_e_and_dso_entity_launch_12_new_factsheets_on_the_updated_tso_dso_technopedia_platform"
+    },
+    {
+      "id": "2806c1d52214e67906736d61e48a39d5c85736af8e295e3c7b16de1a420a3ff8",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/03/11161576/lyondellbasell-sees-weakening-in-autos-europe",
+      "length": 23827,
+      "publisher": "icis",
+      "published_on": "2025-12-03T12:00:00",
+      "added_on": "2025-12-04T18:20:27.972301",
+      "title": "lyondellbasell_sees_weakening_in_autos_europe"
     },
     {
       "id": "4bc57795a683161498c02a989ef7ba7778d660c61fd5558a0cc9555782fdfc04",
@@ -2385,6 +2628,15 @@
       "title": "north_seas_energy_cooperation_marks_15_years_progress_and_ambition"
     },
     {
+      "id": "b12a26ff264930e415d7b6cd9d1c5b1e0b91f04adbf3977b9d565b967eaf4777",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14713&cHash=587ab5b7d2a8d1c30a9f35fd1c9ad632",
+      "length": 34433,
+      "publisher": "eex",
+      "published_on": "2025-11-06T12:00:00",
+      "added_on": "2025-12-07T18:51:39.769815",
+      "title": "eex_press_release"
+    },
+    {
       "id": "00ecbbc42159f6a951c20a2c64cde9cc8f3473477ca4d113f9ae61725676e235",
       "url": "https://www.icis.com/explore/resources/news/2025/11/06/11152607/belgium-s-solvay-q3-net-profit-down-on-lower-soda-ash-sales-volumes",
       "length": 23570,
@@ -2581,6 +2833,15 @@
       "published_on": "2025-11-04T12:00:00",
       "added_on": "2025-11-04T18:33:05.969014",
       "title": "energy_union_task_force_examines_measures_bring_down_energy_prices"
+    },
+    {
+      "id": "c89f8aafee7fe3cc1b71898fd42cece7cb6cab8125d391a600b7ed0b3f4a217a",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14709&cHash=8ce1d45934a188763419ee3b27b5f2de",
+      "length": 32858,
+      "publisher": "eex",
+      "published_on": "2025-11-04T12:00:00",
+      "added_on": "2025-12-07T18:51:39.770536",
+      "title": "eex_press_release"
     },
     {
       "id": "ac3b483c7e46878e919a194c93246aa3a3305d0ed51564551ff443143831a88a",
@@ -4176,6 +4437,15 @@
       "title": "Presse_Detailseite_88129"
     },
     {
+      "id": "dace6f4619444eab0c94f7648aeeb98a665be0cb0759e9b6b9deed11fabcfb23",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14685&cHash=9ff8e0647951d703c3f65c4641e6e5bb",
+      "length": 32755,
+      "publisher": "eex",
+      "published_on": "2025-10-16T12:00:00",
+      "added_on": "2025-12-07T18:51:39.767414",
+      "title": "eex_press_release"
+    },
+    {
       "id": "36a94adb03cc43ba8c1930d1e314b13de0efea71d8e5df85a6247cdc761e1bdb",
       "url": "https://www.icis.com/explore/resources/news/2025/10/16/11146273/dutch-nouryon-completes-metal-alkyls-capacity-expansion-in-china",
       "length": 20023,
@@ -4354,6 +4624,15 @@
       "published_on": "2025-10-14T12:00:00",
       "added_on": "2025-10-16T18:33:47.815951",
       "title": "focus_hydrogen"
+    },
+    {
+      "id": "8b130c37836a7228aae82144903aaa5546c9b1b1a5025b1555408f0065275641",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14683&cHash=849d5affe81b678098436b31b8780b90",
+      "length": 32167,
+      "publisher": "eex",
+      "published_on": "2025-10-14T12:00:00",
+      "added_on": "2025-12-07T18:51:39.766578",
+      "title": "eex_press_release"
     },
     {
       "id": "c040a128b0aa8d76434b36f081a395afffd6215fcdb5d6c8237095fb4e7452d0",
@@ -4615,6 +4894,15 @@
       "published_on": "2025-10-10T12:00:00",
       "added_on": "2025-10-10T18:32:00.465812",
       "title": "energy_efficiency_directive_advancing_eus_energy_efficiency_goals"
+    },
+    {
+      "id": "b5d358fac55cfba5e260ce1cb9eba3c1415cd4cae0b66d93c6c64327280afb30",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14679&cHash=3b6f3b6fb8a4dccdb3ae2e538bf5bfb2",
+      "length": 32834,
+      "publisher": "eex",
+      "published_on": "2025-10-10T12:00:00",
+      "added_on": "2025-12-07T18:51:39.769052",
+      "title": "eex_press_release"
     },
     {
       "id": "a771315c3fcfec9cdefa948a4e06917bee723aac98d395df78cdb83cb7e91de7",
@@ -4968,6 +5256,15 @@
       "title": "october_infringement_package_key_decisions_energy"
     },
     {
+      "id": "f619998b4afdaf0b7c6e671da71af525d7a32968f6b79e40d0fa00f8192865f4",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14678&cHash=43129023681e907656e10419c33202cf",
+      "length": 31799,
+      "publisher": "eex",
+      "published_on": "2025-10-08T12:00:00",
+      "added_on": "2025-12-07T18:51:39.768253",
+      "title": "eex_press_release"
+    },
+    {
       "id": "8c2bd5fe6a3704533c551537252640f4f5dfa58ee47366fc987068491e057755",
       "url": "https://www.icis.com/explore/resources/news/2025/10/08/11144237/brazil-s-unigel-files-for-judicial-recovery-after-protective-measures-prove-insufficient",
       "length": 22338,
@@ -5074,6 +5371,15 @@
       "published_on": "2025-10-07T12:00:00",
       "added_on": "2025-10-07T18:33:09.077656",
       "title": "consultation_danish_market_reform_plan"
+    },
+    {
+      "id": "49c6ed2b497e4416f74e464f4a4c6ba95367270365e1a04277e810d51c2b4cca",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14675&cHash=a825e61c92bb0ec66998eb72d9406896",
+      "length": 33261,
+      "publisher": "eex",
+      "published_on": "2025-10-07T12:00:00",
+      "added_on": "2025-12-07T18:51:39.765856",
+      "title": "eex_press_release"
     },
     {
       "id": "a6b8590b59e0c656c18e13fe2fcccddefb16b92835db849dd46807c2c1ba635b",
@@ -5407,6 +5713,15 @@
       "published_on": "2025-10-02T12:00:00",
       "added_on": "2025-10-02T18:32:04.100571",
       "title": "commissions_assessment_estonia_and_slovakia_national_energy_and_climate_plans_shows_improvements"
+    },
+    {
+      "id": "1b6ab73785aeb821865bf741d45b2b2437ef3a14194eceddf873e662c2af57b5",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14667&cHash=a5117c8c0f489e961a43a3d1b51a76d4",
+      "length": 33435,
+      "publisher": "eex",
+      "published_on": "2025-10-02T12:00:00",
+      "added_on": "2025-12-07T18:51:39.764186",
+      "title": "eex_press_release"
     },
     {
       "id": "a780f765ddb85678c6f3f956ceb0b29d9f74d1ff69a444b85f164f5bbb02e35a",
@@ -7369,6 +7684,15 @@
       "published_on": "2025-09-10T12:00:00",
       "added_on": "2025-09-10T18:38:11.012272",
       "title": "Presse_Detailseite_85505"
+    },
+    {
+      "id": "219fd76a71408471278d408afc43aa1466e47ad128d3c5401fae65fa0a330a25",
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14644&cHash=076cdc82dbeb138ce6f2b49d120ef010",
+      "length": 33776,
+      "publisher": "eex",
+      "published_on": "2025-09-10T12:00:00",
+      "added_on": "2025-12-07T18:51:39.765005",
+      "title": "eex_press_release"
     },
     {
       "id": "45252f33b1e96a1e35e9b22b76cabc7fb08e45d8aae42f358d2656d542e25439",

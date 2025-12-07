@@ -180,7 +180,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 2:
         # Local execution
-        source = "amprion"
+        source = "eex"
     else:
         # GitHub actions execution
         source = str(sys.argv[1])
