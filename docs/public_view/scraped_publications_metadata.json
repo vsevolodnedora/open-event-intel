@@ -1,5 +1,5 @@
 {
-  "total_publications": 2431,
+  "total_publications": 2768,
   "total_publishers": 13,
   "publishers": [
     "50hz",
@@ -18,6 +18,1536 @@
   ],
   "publications": [
     {
+      "id": "e6c73031023522b523521afb7919789416596c8c71abaf15a2e9378c46c4fc74",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/31/11168548/outlook-26-china-slowdown-and-india-resilience-to-shape-asia-growth",
+      "length": 25042,
+      "publisher": "icis",
+      "published_on": "2025-12-31T12:00:00",
+      "added_on": "2025-12-31T18:19:10.261929",
+      "title": "outlook_26_china_slowdown_and_india_resilience_to_shape_asia_growth"
+    },
+    {
+      "id": "2df8e757964fda8be83e3e5486423bbac32aa2d4c6055c40e86fa207a40fd142",
+      "url": "https://www.50hertz.com/de/News/Details/16613/suedostlink-abschliessende-baumfaellungen-im-tautenhainer-wald-ab-januar",
+      "length": 2182,
+      "publisher": "50hz",
+      "published_on": "2025-12-30T12:00:00",
+      "added_on": "2025-12-30T18:24:30.437289",
+      "title": "suedostlink_abschliessende_baumfaellungen_im_tautenhainer_wald_ab_januar"
+    },
+    {
+      "id": "c5aed5e7ec7785f8c9215b98cdb3a09b2b0ea12c29acbf863bf98a040fc8702a",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/30/11168190/analysis-china-s-lng-imports-fell-12-in-2025-despite-remaining-world-s-top-buyer",
+      "length": 24694,
+      "publisher": "icis",
+      "published_on": "2025-12-30T12:00:00",
+      "added_on": "2025-12-30T18:19:52.373489",
+      "title": "analysis_china_s_lng_imports_fell_12_in_2025_despite_remaining_world_s_top_buyer"
+    },
+    {
+      "id": "bd47fd397a507eda1cb944c253fcab975a8ca6a47d3970607bee16387725aeaa",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/26/11167501/outlook-26-latin-american-petrochemicals-brace-for-another-year-of-survival",
+      "length": 27026,
+      "publisher": "icis",
+      "published_on": "2025-12-26T12:00:00",
+      "added_on": "2025-12-27T18:18:16.816160",
+      "title": "outlook_26_latin_american_petrochemicals_brace_for_another_year_of_survival"
+    },
+    {
+      "id": "d45f90ff3a5419df42d37a46baf797b958b0f1f1b29ca1eaa0fe8461aa6f4a72",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/24/11167503/asia-us-container-rates-mixed-as-2025-ends-with-rates-near-year-s-lows",
+      "length": 22462,
+      "publisher": "icis",
+      "published_on": "2025-12-24T12:00:00",
+      "added_on": "2025-12-25T18:19:12.023911",
+      "title": "asia_us_container_rates_mixed_as_2025_ends_with_rates_near_year_s_lows"
+    },
+    {
+      "id": "e61e3d4da22ad6f067212b41a85fae1d7c2625b3ae4be8af4be71a148c07e457",
+      "url": "https://www.acer.europa.eu/news/compensation-cross-border-power-losses-fell-2024-after-2023-peak",
+      "length": 46942,
+      "publisher": "acer",
+      "published_on": "2025-12-23T12:00:00",
+      "added_on": "2025-12-23T18:18:46.043337",
+      "title": "compensation_cross_border_power_losses_fell_2024_after_2023_peak"
+    },
+    {
+      "id": "1bffa58f6bb85f62e0bf051d691812f53b680724100dd27b68455fb94aa8da27",
+      "url": "https://www.acer.europa.eu/news/acer-will-consult-design-remit-exposure-data-reporting",
+      "length": 44956,
+      "publisher": "acer",
+      "published_on": "2025-12-23T12:00:00",
+      "added_on": "2025-12-23T18:18:46.047480",
+      "title": "acer_will_consult_design_remit_exposure_data_reporting"
+    },
+    {
+      "id": "f015a747a4a77d8d99a338a07935e369bbec7515a74653d3da785b3f5629c2c1",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/23/11166791/insight-brazil-s-chemicals-incentive-program-presiq-signed-into-law-but-vetoes-tighten-access-kill-reiq-transition",
+      "length": 27928,
+      "publisher": "icis",
+      "published_on": "2025-12-23T12:00:00",
+      "added_on": "2025-12-24T18:19:26.578156",
+      "title": "insight_brazil_s_chemicals_incentive_program_presiq_signed_into_law_but_vetoes_tighten_access_kill_reiq_transition"
+    },
+    {
+      "id": "16f08437ef0b5e477307317c176ed46d1bac117485b9080ee14879893920ceb7",
+      "url": "https://www.50hertz.com/de/News/Details/16611/grosse-zahlen-fuer-lange-leitung",
+      "length": 1470,
+      "publisher": "50hz",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:26:23.838834",
+      "title": "grosse_zahlen_fuer_lange_leitung"
+    },
+    {
+      "id": "1a6ce04f8e44e17addc68e53889dcd736019624ebbd8f911a6cbe6d8d376772d",
+      "url": "https://www.acer.europa.eu/news/acer-decide-entso-es-european-resource-adequacy-assessment-2025",
+      "length": 45624,
+      "publisher": "acer",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:18:23.673091",
+      "title": "acer_decide_entso_es_european_resource_adequacy_assessment_2025"
+    },
+    {
+      "id": "d3fca48a4ff8cb26911067f5983fdd82c0ed779cddd8b5d14f75916b7df2ed98",
+      "url": "https://www.acer.europa.eu/news/acer-greenlights-30-minute-intraday-electricity-gate-closure-time-across-eu-borders",
+      "length": 48492,
+      "publisher": "acer",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:18:23.677180",
+      "title": "acer_greenlights_30_minute_intraday_electricity_gate_closure_time_across_eu_borders"
+    },
+    {
+      "id": "cfaa78d8c5cd1d13d5fdf0fa0581b17542e2305a93f300a943adf6484ddb151e",
+      "url": "https://www.entsoe.eu/news/2025/12/22/entso-e-closes-2025-with-a-successful-programme-of-achievements-and-looks-forward-to-the-new-annual-work-programme-for-2026",
+      "length": 11241,
+      "publisher": "entsoe",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-26T18:17:42.896990",
+      "title": "entso_e_closes_2025_with_a_successful_programme_of_achievements_and_looks_forward_to_the_new_annual_work_programme_for_2026"
+    },
+    {
+      "id": "a47b90794114d28b829cec4d62496f8797439be686b93f0c6df70421ebbe8f30",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/22/11166292/south-korea-petrochemical-firms-submit-restructuring-plans-to-government-review-to-follow",
+      "length": 20129,
+      "publisher": "icis",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:21:40.814073",
+      "title": "south_korea_petrochemical_firms_submit_restructuring_plans_to_government_review_to_follow"
+    },
+    {
+      "id": "6fff0ff082d417fcceeab1a4e569f931e48fdc3a83b7a75d00e48db48623df50",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/22/11165881/europe-top-stories-weekly-summary",
+      "length": 18645,
+      "publisher": "icis",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:21:40.816875",
+      "title": "europe_top_stories_weekly_summary"
+    },
+    {
+      "id": "97c86e280ccce73502ac015a284eec5ffc860fc56953cb277c9b7950ed8d13ae",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/22/11166327/insight-us-auto-lightweighting-won-t-stop-under-looser-regulations",
+      "length": 25191,
+      "publisher": "icis",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:21:40.818713",
+      "title": "insight_us_auto_lightweighting_won_t_stop_under_looser_regulations"
+    },
+    {
+      "id": "28ac74fdcb8fbf6c71bc2ea0f2815f5abbdeacbb079b873d66b23eb13f7bd105",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/22/11166307/blog-stabilizing-china-s-property-crisis-tops-beijing-s-priority-list-for-2026-but-will-not-be-easy",
+      "length": 18820,
+      "publisher": "icis",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:21:40.820492",
+      "title": "blog_stabilizing_china_s_property_crisis_tops_beijing_s_priority_list_for_2026_but_will_not_be_easy"
+    },
+    {
+      "id": "e813aae0fa10b7f294b93884a7cad152a66b12db269a0393bd7aa6db015b4ac7",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/22/11165766/asia-top-stories-weekly-summary",
+      "length": 20547,
+      "publisher": "icis",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-22T18:21:40.822006",
+      "title": "asia_top_stories_weekly_summary"
+    },
+    {
+      "id": "f76d82ee0a1a0e96a5a18ca150dd065b1cf67edc477ddca45aea541f7148bcc1",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/22/11166428/brazil-s-braskem-lacks-funds-time-to-overhaul-plants-now-but-mid-term-recovery-possible-fitch",
+      "length": 31954,
+      "publisher": "icis",
+      "published_on": "2025-12-22T12:00:00",
+      "added_on": "2025-12-23T18:19:41.659693",
+      "title": "brazil_s_braskem_lacks_funds_time_to_overhaul_plants_now_but_mid_term_recovery_possible_fitch"
+    },
+    {
+      "id": "3c92eebb7c19e1c0e410ffcb4d73d6b054b6148fbdd2cf1cfa2037f14ca723fa",
+      "url": "https://www.cleanenergywire.org/news/dispatch-germany-december-25",
+      "length": 33340,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-19T15:00:00",
+      "added_on": "2025-12-19T18:22:00.799389",
+      "title": "dispatch_germany_december_25"
+    },
+    {
+      "id": "b581ffafb61963252ba4318a0b4d53e5b4b1a680e07307985ec8232695aefc94",
+      "url": "https://www.cleanenergywire.org/news/german-regulator-mulls-variable-electricity-grid-fees-determined-load",
+      "length": 27731,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-19T12:01:00",
+      "added_on": "2025-12-19T18:22:11.729261",
+      "title": "german_regulator_mulls_variable_electricity_grid_fees_determined_load"
+    },
+    {
+      "id": "ad8b3166db3c235c8bb2009fb03691159b9a75039879d37aac920959eb292073",
+      "url": "https://www.50hertz.com/de/News/Details/16602/gruenes-darlehen-ueber-850-millionen-euro-zur-finanzierung-des-aus-und-neubaus-von-umspannwerken",
+      "length": 3466,
+      "publisher": "50hz",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:24:58.491551",
+      "title": "gruenes_darlehen_ueber_850_millionen_euro_zur_finanzierung_des_aus_und_neubaus_von_umspannwerken"
+    },
+    {
+      "id": "83676fb8c7cbeef638f5bfa83eca15c340f940a8b2853272972d4047a8bdfb39",
+      "url": "https://www.acer.europa.eu/news/acer-decide-amending-implementation-frameworks-two-european-electricity-balancing-platforms",
+      "length": 49397,
+      "publisher": "acer",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:18:16.870946",
+      "title": "acer_decide_amending_implementation_frameworks_two_european_electricity_balancing_platforms"
+    },
+    {
+      "id": "c55f1de40b8e43a4d0f8ebc855fb50c667dcc8cd4d791b64a2ecff8f232df817",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251219_GBK_QM.html",
+      "length": 26868,
+      "publisher": "bnetza",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:19:26.358466",
+      "title": "GBK_QM"
+    },
+    {
+      "id": "d7148088f2277a4501f3eadd66c6cfff9397cb2697cb44fdfe37ce845b90b48d",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251219_Marktuntersuchung_EB.html",
+      "length": 23004,
+      "publisher": "bnetza",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:19:31.993448",
+      "title": "Marktuntersuchung_EB"
+    },
+    {
+      "id": "aa9f6b85b8c170a7ab221a36a8fb5ffd40973854f5863da0a21608dfde87f8c0",
+      "url": "https://www.entsoe.eu/news/2025/12/19/entso-e-publishes-non-confidential-version-of-the-responses-from-the-tso-group-to-technical-questions-on-multi-region-loose-volume-coupling-between-eu-and-uk",
+      "length": 9882,
+      "publisher": "entsoe",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-26T18:17:42.891841",
+      "title": "entso_e_publishes_non_confidential_version_of_the_responses_from_the_tso_group_to_technical_questions_on_multi_region_loose_volume_coupling_between_eu_and_uk"
+    },
+    {
+      "id": "385c4409d04bc93f64ed55669017c80e06fb795b9e7abb588603d704b4fd52b2",
+      "url": "https://www.entsoe.eu/news/2025/12/19/4-july-grid-incident-in-the-czech-republic-expert-panel-releases-factual-report",
+      "length": 11400,
+      "publisher": "entsoe",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-26T18:17:42.895325",
+      "title": "4_july_grid_incident_in_the_czech_republic_expert_panel_releases_factual_report"
+    },
+    {
+      "id": "3bd66d85eb86fea9950a315dc142d2a61dd203d3df3d754ff2beed25c1e375b9",
+      "url": "https://www.entsoe.eu/news/2025/12/19/progress-report-on-the-dso-entity-and-entso-e-joint-portal-on-grid-hosting-capacities",
+      "length": 9760,
+      "publisher": "entsoe",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-26T18:17:42.898638",
+      "title": "progress_report_on_the_dso_entity_and_entso_e_joint_portal_on_grid_hosting_capacities"
+    },
+    {
+      "id": "a676808fa103953b21e87d685452820fafd8bc7fcc1e1d78f4371ff482767afc",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165771/clariant-sells-venezuela-business-as-part-of-restructuring",
+      "length": 18406,
+      "publisher": "icis",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:19:17.609389",
+      "title": "clariant_sells_venezuela_business_as_part_of_restructuring"
+    },
+    {
+      "id": "7cb22a76f9e8e6b5edb8c60cec84178a1765933f06a313b70e080a8b43b1bd05",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165718/brazil-s-petrobras-braskem-sign-18-billion-long-term-naphtha-ngls-supply-deals",
+      "length": 21163,
+      "publisher": "icis",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:19:17.611071",
+      "title": "brazil_s_petrobras_braskem_sign_18_billion_long_term_naphtha_ngls_supply_deals"
+    },
+    {
+      "id": "96c16dd69385123fb4d14f9729b85e58f629e252e5032ef9d55e5bf0dde2867b",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165865/insight-eu-auto-sector-concessions-fail-to-meet-the-moment",
+      "length": 24570,
+      "publisher": "icis",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-19T18:19:17.612775",
+      "title": "insight_eu_auto_sector_concessions_fail_to_meet_the_moment"
+    },
+    {
+      "id": "ff710118cc53f96403c228ae7a57b3ae50bc955072cf9476f9ac137c8b874a68",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165908/opposition-mounts-as-up-ns-rail-merger-application-submitted-to-us-regulator",
+      "length": 1,
+      "publisher": "icis",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-20T18:19:23.201704",
+      "title": "opposition_mounts_as_up_ns_rail_merger_application_submitted_to_us_regulator"
+    },
+    {
+      "id": "5b026c9ffd0c6742e3549df49a7944414f9bb6c60f230ddfa7ee7ae65cf9463c",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165915/asia-us-container-rates-mixed-will-end-year-down-by-almost-50-from-january",
+      "length": 22846,
+      "publisher": "icis",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-20T18:19:23.203813",
+      "title": "asia_us_container_rates_mixed_will_end_year_down_by_almost_50_from_january"
+    },
+    {
+      "id": "d21a7af1b230df81f439a14bac8dad47bd2e67334eac4c20fbf467f46649e4ca",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165909/upm-starts-sugar-production-at-german-biomass-to-glycols-refinery",
+      "length": 19582,
+      "publisher": "icis",
+      "published_on": "2025-12-19T12:00:00",
+      "added_on": "2025-12-20T18:19:23.206733",
+      "title": "upm_starts_sugar_production_at_german_biomass_to_glycols_refinery"
+    },
+    {
+      "id": "57f3fec37da6e6961a7e9d1503739fe36d7088d9cfb5d4ea0cda1512372816b1",
+      "url": "https://www.cleanenergywire.org/news/preview-2026-softening-eu-fleet-limits-step-backwards-europes-car-industry-ngo",
+      "length": 31395,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-19T11:30:00",
+      "added_on": "2025-12-19T18:22:22.595998",
+      "title": "preview_2026_softening_eu_fleet_limits_step_backwards_europes_car_industry_ngo"
+    },
+    {
+      "id": "a397b7e1906e61b8d630f286fca4b4088fdc4267736e6ddbdd4e1acef94492af",
+      "url": "https://www.cleanenergywire.org/news/germany-fund-energy-infrastructure-falls-short-business-initiative",
+      "length": 22327,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-19T11:00:00",
+      "added_on": "2025-12-19T18:22:33.380092",
+      "title": "germany_fund_energy_infrastructure_falls_short_business_initiative"
+    },
+    {
+      "id": "ab834e165691773a0d21be2e6f7d7a37e54d43fc277fe12ab96d746a7bd91d62",
+      "url": "https://www.cleanenergywire.org/news/brief-19-december-25",
+      "length": 17921,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-19T10:16:00",
+      "added_on": "2025-12-19T18:22:44.115265",
+      "title": "brief_19_december_25"
+    },
+    {
+      "id": "e714d6666f09d3e43db43c8fd598ceb210565763668b2753623722fec86d577b",
+      "url": "https://www.cleanenergywire.org/news/preview-2026-merz-government-must-deliver-key-energy-projects-patience-wears-thin",
+      "length": 54640,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-18T14:30:00",
+      "added_on": "2025-12-18T18:22:55.068851",
+      "title": "preview_2026_merz_government_must_deliver_key_energy_projects_patience_wears_thin"
+    },
+    {
+      "id": "364a0af0188ff9d7b99704ead737deb94937c58ca87cb7b647dea84c72cd853e",
+      "url": "https://www.50hertz.com/de/News/Details/16597/suedostlink-baufortschritt-in-luftiger-hoehe",
+      "length": 3577,
+      "publisher": "50hz",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:25:56.688676",
+      "title": "suedostlink_baufortschritt_in_luftiger_hoehe"
+    },
+    {
+      "id": "84f1fc65f88443d13c817c85e3a518e6a98199a2a570146f8ba1a6088632f312",
+      "url": "https://www.acer.europa.eu/news/acer-welcomes-improved-polish-gas-transmission-tariff-methodology-and-merger-single-entry-exit-zone",
+      "length": 50202,
+      "publisher": "acer",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:19:25.163476",
+      "title": "acer_welcomes_improved_polish_gas_transmission_tariff_methodology_and_merger_single_entry_exit_zone"
+    },
+    {
+      "id": "9b81bf1d149167fa74e2cd2179b016613194647eacb0c23c54bcaef27dcbcc22",
+      "url": "https://www.agora-energiewende.org/news-events/investing-eu-carbon-revenues-in-affordable-clean-heating-for-all",
+      "length": 20238,
+      "publisher": "agora",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:22:47.033002",
+      "title": "investing_eu_carbon_revenues_in_affordable_clean_heating_for_all"
+    },
+    {
+      "id": "d644595cc6bdfaec320d9b9296da31d8ac3039e97ff284f53ccd4cdd02f0b8c1",
+      "url": "https://energy.ec.europa.eu/news/review-governance-regulation-energy-union-and-climate-action-public-consultation-launched-2025-12-18_en",
+      "length": 20273,
+      "publisher": "ec",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:19:36.531818",
+      "title": "review_governance_regulation_energy_union_and_climate_action_public_consultation_launched"
+    },
+    {
+      "id": "6cb2cc4d0d579af32285447f8fb9ec321f0800be5d2f0e34c6a486af5e24d093",
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-vienna-discuss-energy-policy-and-start-european-affordable-housing-tour-2025-12-18_en",
+      "length": 18945,
+      "publisher": "ec",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:19:36.534204",
+      "title": "commissioner_jorgensen_vienna_discuss_energy_policy_and_start_european_affordable_housing_tour"
+    },
+    {
+      "id": "1e24401d192599a6ee1ebcb35c8f798f2a76c66a39e0e2975ac44942725ac719",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165306/s-korea-s-lg-energy-solution-shares-slump-after-ford-scraps-6-5bn-ev-battery-deal",
+      "length": 1,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:20:20.678404",
+      "title": "s_korea_s_lg_energy_solution_shares_slump_after_ford_scraps_6_5bn_ev_battery_deal"
+    },
+    {
+      "id": "11c403c0412a328da819d8a6f1abd5ae644e929d281ab04f8ce427d5a7e3092a",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165378/eu-eurozone-construction-output-rebounds-in-october-after-two-months-of-decline",
+      "length": 20679,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:20:20.680387",
+      "title": "eu_eurozone_construction_output_rebounds_in_october_after_two_months_of_decline"
+    },
+    {
+      "id": "1865d19d8f9f8ee9b6925c169bb13a43062ef35d29c5adb6812b71fc7f976f4f",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165396/ecb-holds-interest-rates-as-eurozone-economy-expands",
+      "length": 19576,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:20:20.682710",
+      "title": "ecb_holds_interest_rates_as_eurozone_economy_expands"
+    },
+    {
+      "id": "e6f37bd31a7ffb63b7f19e36969b2deca3c0c2d396944ca937a2c10b88b9814e",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165286/indian-rupee-hits-record-lows-amid-delays-in-us-trade-deal",
+      "length": 24208,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:20:20.684817",
+      "title": "indian_rupee_hits_record_lows_amid_delays_in_us_trade_deal"
+    },
+    {
+      "id": "fb78a8043dbe08163a9393666382d8b0f29290827f9cd9ce967b4839395d0b62",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165339/thai-central-bank-cuts-interest-rate-lowers-2026-gdp-forecast",
+      "length": 25478,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:20:20.687062",
+      "title": "thai_central_bank_cuts_interest_rate_lowers_2026_gdp_forecast"
+    },
+    {
+      "id": "ee8b9da1e34495910c4f6cfef1807cd63d789fbd16c9660b0b4722df47a48249",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165388/bank-of-england-cuts-interest-rate-as-uk-economy-struggles",
+      "length": 23066,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-18T18:20:20.693094",
+      "title": "bank_of_england_cuts_interest_rate_as_uk_economy_struggles"
+    },
+    {
+      "id": "31a050d63ac5d21b50afc1dea9605c0e3420b1ece365b57d9677719fe0e98266",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165426/outlook-26-insight-us-to-review-usmca-roll-out-new-trade-deals-tariffs",
+      "length": 3547,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-19T18:19:17.605561",
+      "title": "outlook_26_insight_us_to_review_usmca_roll_out_new_trade_deals_tariffs"
+    },
+    {
+      "id": "6f651d114eb38aa5d5f740cf5494bdde760c323dec56c79351cd24f6a2cfb564",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/18/11165423/union-pacific-norfolk-southern-to-submit-merger-application-to-regulator-on-friday",
+      "length": 20896,
+      "publisher": "icis",
+      "published_on": "2025-12-18T12:00:00",
+      "added_on": "2025-12-19T18:19:17.607732",
+      "title": "union_pacific_norfolk_southern_to_submit_merger_application_to_regulator_on_friday"
+    },
+    {
+      "id": "af0289dd9dc3f132028b1e0ff0e5f549c0a032d7473d79c58eca0e0c898c70b4",
+      "url": "https://www.cleanenergywire.org/news/german-railway-needs-extra-funding-profit-law-reform-speed-infrastructure-buildout-ngo",
+      "length": 26692,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-18T10:45:00",
+      "added_on": "2025-12-18T18:23:05.966575",
+      "title": "german_railway_needs_extra_funding_profit_law_reform_speed_infrastructure_buildout_ngo"
+    },
+    {
+      "id": "d347148eb0c20522e54f301ea29f5365f42fad3da279d1f354bf213ad7b5b53e",
+      "url": "https://www.cleanenergywire.org/news/preview-2026-energy-storage-assocation-expects-strong-growth-every-segment",
+      "length": 31442,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-18T10:30:00",
+      "added_on": "2025-12-18T18:23:16.842478",
+      "title": "preview_2026_energy_storage_assocation_expects_strong_growth_every_segment"
+    },
+    {
+      "id": "1abc2457668c7de6dcd9e676450d5e1ad315b4cc6b63b688cef946e7b6438260",
+      "url": "https://www.cleanenergywire.org/news/brief-18-december-25",
+      "length": 17918,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-18T10:02:00",
+      "added_on": "2025-12-18T18:23:27.617753",
+      "title": "brief_18_december_25"
+    },
+    {
+      "id": "00424502567b6d0dae49414516c0a3dc7f870f615f5a8cbb44bdaa421ac4d63e",
+      "url": "https://www.cleanenergywire.org/news/wind-turbines-installed-southern-germany-buffer-doldrums-northern-states-analysis",
+      "length": 17988,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-17T13:39:00",
+      "added_on": "2025-12-17T18:24:03.468796",
+      "title": "wind_turbines_installed_southern_germany_buffer_doldrums_northern_states_analysis"
+    },
+    {
+      "id": "2be1f43d17d2f4a7bc67b17405eb2a4441336d29d4037dfcde4f9c05ce59449a",
+      "url": "https://www.cleanenergywire.org/news/eu-eases-stance-post-2035-car-emissions-rules-drawing-mixed-reactions-germany",
+      "length": 27432,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-17T13:16:00",
+      "added_on": "2025-12-17T18:24:14.371489",
+      "title": "eu_eases_stance_post_2035_car_emissions_rules_drawing_mixed_reactions_germany"
+    },
+    {
+      "id": "a2ad706621e18cfb8fff0558f5a6fff383850aa4ce87bad27b6a1b154998ca5e",
+      "url": "https://www.cleanenergywire.org/news/germanys-co2-emissions-set-fall-slightly-2025-energy-demand-stagnates",
+      "length": 26828,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-17T13:05:00",
+      "added_on": "2025-12-17T18:24:25.290155",
+      "title": "germanys_co2_emissions_set_fall_slightly_2025_energy_demand_stagnates"
+    },
+    {
+      "id": "6b7997aec2463cd8c3b932ccef0a0958cc14c3c3daf3e888ef3580ca25efbfeb",
+      "url": "https://www.50hertz.com/de/News/Details/16582/neues-rechenzentrum-50hertz-und-vantage-unterzeichnen-anschlusserrichtungs-vertrag",
+      "length": 4723,
+      "publisher": "50hz",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:27:15.003874",
+      "title": "neues_rechenzentrum_50hertz_und_vantage_unterzeichnen_anschlusserrichtungs_vertrag"
+    },
+    {
+      "id": "c5340af4bacbf9614089775ddc24a4454131004e6d9c0c0af1c2fa4b2785ac51",
+      "url": "https://www.acer.europa.eu/news/acer-criticises-delays-receiving-entsogs-2024-draft-ten-year-gas-and-hydrogen-network-development-plan-and-recommends-improvements",
+      "length": 53640,
+      "publisher": "acer",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:20:18.543929",
+      "title": "acer_criticises_delays_receiving_entsogs_2024_draft_ten_year_gas_and_hydrogen_network_development_plan_and_recommends_improvements"
+    },
+    {
+      "id": "e6ad47d226ae375c0322b79b37fe1410cfff52ad444c5ea3e5f247bc3d37dbee",
+      "url": "https://www.acer.europa.eu/news/europe-reshapes-capacity-calculation-regions-improve-cross-border-power-flows",
+      "length": 47983,
+      "publisher": "acer",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:20:18.550710",
+      "title": "europe_reshapes_capacity_calculation_regions_improve_cross_border_power_flows"
+    },
+    {
+      "id": "9e348941cc8fd5754ffa7e2fd51b25502f0e2df3306292e291c89d83464f27fc",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89927.html",
+      "length": 37580,
+      "publisher": "amprion",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.503140",
+      "title": "Presse_Detailseite_89927"
+    },
+    {
+      "id": "1f137d63f76f978aaec6c2305aa63a80849ad6ae3569432f1d7f04072e5ea632",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89986.html",
+      "length": 37339,
+      "publisher": "amprion",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-18T18:28:35.695212",
+      "title": "Presse_Detailseite_89986"
+    },
+    {
+      "id": "11e796627472fd28dab817cc269b9dfbce6aceeb0a3b16397a153f3a08e8c197",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89985.html",
+      "length": 37208,
+      "publisher": "amprion",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-18T18:28:35.702365",
+      "title": "Presse_Detailseite_89985"
+    },
+    {
+      "id": "6f7fa651983a1d109a561f29f041cf2bd1c13d0329e17782e594a85e46b80694",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251217_RaVT.html",
+      "length": 22594,
+      "publisher": "bnetza",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:13.238723",
+      "title": "RaVT"
+    },
+    {
+      "id": "532d1a68966e6ad5959e87cb381c23afa0ef03cdf73ded7de24086b201f2f115",
+      "url": "https://energy.ec.europa.eu/news/5-things-you-should-know-about-energy-efficient-products-2025-12-17_en",
+      "length": 23167,
+      "publisher": "ec",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-19T18:18:32.855605",
+      "title": "5_things_you_should_know_about_energy_efficient_products"
+    },
+    {
+      "id": "1ec95825e08370148eab8421714eec53f2a9ce7b06a1f176d12729e734c14a46",
+      "url": "https://www.cleanenergywire.org/news/2026-set-shape-future-eus-climate-and-energy-architecture",
+      "length": 34209,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:24:36.184021",
+      "title": "2026_set_shape_future_eus_climate_and_energy_architecture"
+    },
+    {
+      "id": "bd69101fb0e5a32f775bfcfb7d46e6e0e063908286b96be78fc88df4ead11579",
+      "url": "https://www.entsoe.eu/news/2025/12/17/entso-e-releases-latest-european-resource-adequacy-assessment",
+      "length": 10635,
+      "publisher": "entsoe",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:19:15.684881",
+      "title": "entso_e_releases_latest_european_resource_adequacy_assessment"
+    },
+    {
+      "id": "bda8b8778709235d66b88529ec1647e81fee817971c265d51dc750cba2a3f92f",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165160/insight-europe-may-turn-more-to-chemical-imports-as-asia-mideast-output-grows",
+      "length": 25431,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:04.098568",
+      "title": "insight_europe_may_turn_more_to_chemical_imports_as_asia_mideast_output_grows"
+    },
+    {
+      "id": "18a34398f60d0787b35b926bec4750716bd0074461cd4af620f8cad1959277e1",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165257/podcast-sustainably-speaking-examining-europe-s-recycling-sector-part-2",
+      "length": 22890,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:04.101725",
+      "title": "podcast_sustainably_speaking_examining_europe_s_recycling_sector_part_2"
+    },
+    {
+      "id": "3065810bab4c74bd38d3059bbe5dbcb7df2a1998aedca3f6550e346b5ae6ec38",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165140/us-crude-climbs-as-trump-orders-oil-tanker-blockade-on-venezuela",
+      "length": 24056,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:04.105829",
+      "title": "us_crude_climbs_as_trump_orders_oil_tanker_blockade_on_venezuela"
+    },
+    {
+      "id": "f7eccba3c5f5a7814554b5acdbd22b1cc9f2db5986ccf8478267136570bcc3e9",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165151/singapore-nov-petrochemical-exports-fall-26-6-even-with-nodx-surge",
+      "length": 20563,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:04.107557",
+      "title": "singapore_nov_petrochemical_exports_fall_26_6_even_with_nodx_surge"
+    },
+    {
+      "id": "b360ab5884b4430e8d1de7701606e42426647373cbf0d6076e039727cfaf0e21",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165159/uk-ineos-pledge-150-million-to-save-grangemouth-cracker",
+      "length": 23394,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:04.109046",
+      "title": "uk_ineos_pledge_150_million_to_save_grangemouth_cracker"
+    },
+    {
+      "id": "294139f33313883c477fc85c5ce4fc874ac0e336e3b1f393e5fba06d3392388b",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165139/blog-from-commodities-to-specialities-hard-truths-for-chemicals-players",
+      "length": 23772,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-17T18:21:04.110738",
+      "title": "blog_from_commodities_to_specialities_hard_truths_for_chemicals_players"
+    },
+    {
+      "id": "9f9c84dab79d7ab3433efa1b8ca7cbad97ef351b7721dbcfa3e9b0e893577a51",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165285/woodside-ceo-meg-o-neill-to-take-top-job-at-bp",
+      "length": 25307,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-18T18:20:20.689093",
+      "title": "woodside_ceo_meg_o_neill_to_take_top_job_at_bp"
+    },
+    {
+      "id": "140bd7009575367b5902ca99f674f87d8f60c3432baad2828e992cb9c868bc50",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/17/11165274/outlook-26-us-economy-to-see-tailwinds-from-rate-cuts-tax-bill-tariff-clarity",
+      "length": 31689,
+      "publisher": "icis",
+      "published_on": "2025-12-17T12:00:00",
+      "added_on": "2025-12-18T18:20:20.690933",
+      "title": "outlook_26_us_economy_to_see_tailwinds_from_rate_cuts_tax_bill_tariff_clarity"
+    },
+    {
+      "id": "9fb31b61885d20a4a31bb446bf8af78219b438761c6a1fd1036c175341508e42",
+      "url": "https://www.cleanenergywire.org/news/preview-2026-germany-should-use-electricity-market-reform-efficient-renewables-additions-researcher",
+      "length": 34771,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-17T11:00:00",
+      "added_on": "2025-12-17T18:24:47.124000",
+      "title": "preview_2026_germany_should_use_electricity_market_reform_efficient_renewables_additions_researcher"
+    },
+    {
+      "id": "0d9c6ae975d8cf9294af68722ca7a353d248743bab96a345e1dd269213141e23",
+      "url": "https://www.cleanenergywire.org/news/brief-17-december-25",
+      "length": 19789,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-17T10:27:00",
+      "added_on": "2025-12-17T18:24:57.910143",
+      "title": "brief_17_december_25"
+    },
+    {
+      "id": "4c65ab9cd2d53416581ea35f08f1157c5247e838bed45036bc65c7bb1eab6908",
+      "url": "https://www.cleanenergywire.org/news/ngos-demand-clear-funding-and-finance-strategy-part-upcoming-german-climate-action-programme",
+      "length": 15738,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-16T12:47:00",
+      "added_on": "2025-12-16T18:23:25.865870",
+      "title": "ngos_demand_clear_funding_and_finance_strategy_part_upcoming_german_climate_action_programme"
+    },
+    {
+      "id": "5c424168451927f6a6e67884a6f5ec49631f00219609c6a65a931631150177f3",
+      "url": "https://www.cleanenergywire.org/news/climate-fund-offers-limited-support-lower-income-households-think-tank",
+      "length": 26981,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-16T12:22:00",
+      "added_on": "2025-12-16T18:23:36.857617",
+      "title": "climate_fund_offers_limited_support_lower_income_households_think_tank"
+    },
+    {
+      "id": "ba5ad65866a56bc068535bbef8e738076359dcc02a6ee52a8633a2f67e415fc7",
+      "url": "https://www.cleanenergywire.org/news/weak-economy-and-shift-focus-push-germanys-corporations-reduce-climate-investments-kfw",
+      "length": 27166,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-16T12:20:00",
+      "added_on": "2025-12-16T18:23:47.818224",
+      "title": "weak_economy_and_shift_focus_push_germanys_corporations_reduce_climate_investments_kfw"
+    },
+    {
+      "id": "85fe488a782d9d1d6c726cae48513cdda30133cca009a7710ddb85d58267555c",
+      "url": "https://www.acer.europa.eu/news/acer-recognises-good-practices-french-national-resource-adequacy-assessment-and-provides-suggestions-strengthen-it",
+      "length": 52315,
+      "publisher": "acer",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:46.530339",
+      "title": "acer_recognises_good_practices_french_national_resource_adequacy_assessment_and_provides_suggestions_strengthen_it"
+    },
+    {
+      "id": "c495014e81029e83d5f67fe50d256f128f3830d206928780250f2381ef623c4c",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251216_KOSMO.html",
+      "length": 22398,
+      "publisher": "bnetza",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:20:40.742885",
+      "title": "KOSMO"
+    },
+    {
+      "id": "850ba1c4fb153b6f9d4b31048e19bc1fa0afe29387431bc21803f28d13147b72",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251216_Hoechstwerte.html",
+      "length": 23641,
+      "publisher": "bnetza",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:20:46.580306",
+      "title": "Hoechstwerte"
+    },
+    {
+      "id": "1eaab44c7529fdef814dcdf24eae4486fbd8de0db57139df57a972885d250168",
+      "url": "https://energy.ec.europa.eu/news/commission-encourages-low-carbon-construction-materials-calculation-framework-life-cycle-global-2025-12-16_en",
+      "length": 19761,
+      "publisher": "ec",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:56.233356",
+      "title": "commission_encourages_low_carbon_construction_materials_calculation_framework_life_cycle_global"
+    },
+    {
+      "id": "e45e67511ea65d433a10429db199f0dc0cd1b81d9e360a955548c2ac3914bc4e",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=b880e71f3e572d9a4c61cd908cbf33ac&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14782",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.360565",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "acaa17a582cba2580ddd7cf3a28a8d6e471999224d951bd1296cfd1c655510b8",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=cf4ec3f25c256cf748b6e471cf6a0e39&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14784",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.365293",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "bfcff5af5f3e82a4d189dd159e4ca2e7af22b2d7afdde64eb458ac9c558454f8",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=f9e917b211cba6e9b1565d914b7a63f3&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14783",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.367882",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "56c371fb5a5150a45043893d2dc4362000766fc194dd83cb9dae312f9afc81b7",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=ed7391cd81e2c99747728d463b5a9eef&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14781",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.370260",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "0aa0e502948cf1cac6675f6cd6fe5a68f76af5f63d74f7eda7d5fb566df34fbe",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=0ad87c00e7dba8d3b8e9832ac4e4e751&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14772",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.373058",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "f40f6164a8895f9f83287c6d7307f48473143dc1c3a41a5caf900e1bb96a1904",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=7585d62458df2e261b26e4a085dc3cd2&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14770",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.375440",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "2a56086a0b5df2436d15e29c4a0d3aabf7b5764b3eae08c298d6d3a77e7009ab",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=cfd92b36866cda1f60385454b0115791&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14771",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.378124",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "5b65c730cc4cc8999f7b8fa6abb766d6099590849669ad7988d819322b39c003",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=a1f6365de2f1cca5fdc9999c6526b88f&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14773",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.380151",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "58c37c2a0e037b675357c5f0618ade88ad19c424258cb5ceb280de6af29ef311",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=142e7c188bbe8b65e3cf3bbe2733ab6c&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14780",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.382178",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "b6b2847a9bceb69757028af8c51a8c7bcf4400b8886ce4f1c8848dfc5df64f47",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=75e9e0596a962257e725377fb529fc77&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14779",
+      "length": 32538,
+      "publisher": "eex",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:19:06.384281",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "de4b109af8f67fa39e2b22badfae60cd161bee9d7c4a81697cffc35c09d485b9",
+      "url": "https://www.entsoe.eu/news/2025/12/16/entso-e-policy-paper-on-market-design-for-utility-scale-energy-storage",
+      "length": 10695,
+      "publisher": "entsoe",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-17T18:19:15.683389",
+      "title": "entso_e_policy_paper_on_market_design_for_utility_scale_energy_storage"
+    },
+    {
+      "id": "049207431f3cc5b498164422a5423592a494b757136d29796105391a37291bf9",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164651/podcast-middle-east-chemicals-look-beyond-2030-for-new-growth",
+      "length": 20556,
+      "publisher": "icis",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:20:31.484693",
+      "title": "podcast_middle_east_chemicals_look_beyond_2030_for_new_growth"
+    },
+    {
+      "id": "1723a2d3203967badb02686c66e8332781a72620776a3b599634e9a7618d8a0d",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164639/germany-s-economic-outlook-improves-in-december-with-positive-signs-for-chems",
+      "length": 20855,
+      "publisher": "icis",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:20:31.486896",
+      "title": "germany_s_economic_outlook_improves_in_december_with_positive_signs_for_chems"
+    },
+    {
+      "id": "e241497c24f4d7a81483b692cf7f80f80d0cf0c578eca7aadec49dfbcb7ddd95",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164667/no-upside-yet-from-german-infrastructure-and-defense-spending-vci-economists",
+      "length": 23688,
+      "publisher": "icis",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-16T18:20:31.488948",
+      "title": "no_upside_yet_from_german_infrastructure_and_defense_spending_vci_economists"
+    },
+    {
+      "id": "1b615840131c2f67d109acb4381b3937dcf946af3686e66afadef8c526e44769",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164691/us-home-builder-sentiment-remains-negative-for-20th-consecutive-month",
+      "length": 24130,
+      "publisher": "icis",
+      "published_on": "2025-12-16T12:00:00",
+      "added_on": "2025-12-17T18:21:04.103898",
+      "title": "us_home_builder_sentiment_remains_negative_for_20th_consecutive_month"
+    },
+    {
+      "id": "1d13cfd53b3827ca14780f5bba4d5529fe9158b679633b4ec46e3cab120cef71",
+      "url": "https://www.cleanenergywire.org/news/brief-16-december-25",
+      "length": 18397,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-16T10:27:00",
+      "added_on": "2025-12-16T18:23:58.625699",
+      "title": "brief_16_december_25"
+    },
+    {
+      "id": "0ad7fc425ee477c44afe415295d4b1c1a1ad328ac22d60f638273bc465f476b9",
+      "url": "https://www.cleanenergywire.org/news/preview-2026-germanys-climate-action-programme-must-focus-social-dimension-researcher",
+      "length": 31364,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-16T09:30:00",
+      "added_on": "2025-12-16T18:24:09.563477",
+      "title": "preview_2026_germanys_climate_action_programme_must_focus_social_dimension_researcher"
+    },
+    {
+      "id": "eb220da09f617cc0c9be026d79205549acc6c063f32fa488311452040024f2f6",
+      "url": "https://www.cleanenergywire.org/news/german-energy-and-climate-regulation-should-not-exceed-eu-requirements-business",
+      "length": 16722,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-15T12:32:00",
+      "added_on": "2025-12-15T18:23:34.567138",
+      "title": "german_energy_and_climate_regulation_should_not_exceed_eu_requirements_business"
+    },
+    {
+      "id": "b466ddb1e564b9a511fbb3079274756908a327e9f8e7c41ba4c317b476fd4253",
+      "url": "https://www.50hertz.com/de/News/Details/16572/netzverstaerkung-helmstedtwolmirstedt-oeffentlichkeitsbeteiligung-der-bundesnetzagentur-beginnt",
+      "length": 2664,
+      "publisher": "50hz",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:26:55.327187",
+      "title": "netzverstaerkung_helmstedtwolmirstedt_oeffentlichkeitsbeteiligung_der_bundesnetzagentur_beginnt"
+    },
+    {
+      "id": "40a1b996f4fe7b8f6aa0b2be9f17ff7f14ce7fe83930703a88d96f78adfd66b9",
+      "url": "https://www.acer.europa.eu/news/acer-amends-methodology-procuring-electricity-balancing-capacity",
+      "length": 45869,
+      "publisher": "acer",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:19:53.833835",
+      "title": "acer_amends_methodology_procuring_electricity_balancing_capacity"
+    },
+    {
+      "id": "eab3c3ee40b1115665ba1df5099f39197cd4762d3f787a14ea55ff3cfd03c8bb",
+      "url": "https://www.acer.europa.eu/news/regional-coordination-centres-reporting-progress-made-more-improvements-needed",
+      "length": 48690,
+      "publisher": "acer",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:19:53.840202",
+      "title": "regional_coordination_centres_reporting_progress_made_more_improvements_needed"
+    },
+    {
+      "id": "8fdd74b95d5ee275ddd3e13c1ed8f27aff8d49d8fbf282079eb355c582c4bf3f",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89792.html",
+      "length": 12707,
+      "publisher": "amprion",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:28:07.944158",
+      "title": "Presse_Detailseite_89792"
+    },
+    {
+      "id": "fb7a1381a6a12f58bd59c700de9457c8d4515d5bde1cdbec4214c69f9495e2b2",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251215_5G.html",
+      "length": 22735,
+      "publisher": "bnetza",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:56.155859",
+      "title": "5G"
+    },
+    {
+      "id": "5729a88a658eb5c8a2997eec7dfc4daa63a27a924305f5b8b45bc2673fdd87dd",
+      "url": "https://energy.ec.europa.eu/news/commission-welcomes-ministerial-support-pragmatic-implementation-methane-regulation-import-2025-12-15_en",
+      "length": 17629,
+      "publisher": "ec",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:09.407123",
+      "title": "commission_welcomes_ministerial_support_pragmatic_implementation_methane_regulation_import"
+    },
+    {
+      "id": "1eaaa7e5768f3bc10b5d8dac701407dbfd980617c2da2e1cdd9f865c7f29b7db",
+      "url": "https://www.entsoe.eu/news/2025/12/15/go-live-of-the-explicit-monthly-long-term-auctions-on-ukrainian-borders",
+      "length": 9376,
+      "publisher": "entsoe",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-17T18:19:15.680279",
+      "title": "go_live_of_the_explicit_monthly_long_term_auctions_on_ukrainian_borders"
+    },
+    {
+      "id": "e370c0abd39fbc8c3ec8abdca9615a0ca24a9da417dc227cbe638bbd0ff04bd3",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11163773/europe-top-stories-weekly-summary",
+      "length": 20389,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.011507",
+      "title": "europe_top_stories_weekly_summary"
+    },
+    {
+      "id": "b0b8c719f62fb2563ecaacc7ba62517ce11dce95d70d601ce04fe3c33a262a72",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164213/blog-us-automakers-running-out-of-road-due-to-lack-of-ev-and-robotaxi-options",
+      "length": 1,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.015098",
+      "title": "blog_us_automakers_running_out_of_road_due_to_lack_of_ev_and_robotaxi_options"
+    },
+    {
+      "id": "9e0669c9f5b34ccb37abc11cae3f617246d35a5abb5a644d21fb95c9c18c9af1",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164156/americas-top-stories-weekly-summary",
+      "length": 2925,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.016391",
+      "title": "americas_top_stories_weekly_summary"
+    },
+    {
+      "id": "12d0c73e5ebd601abe59e1ac7cb2ea5f1712bf005b9f1b7dff4ed8022046aad3",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164293/westlake-to-shut-down-us-pvc-chlor-alkali-styrene-plants-in-december",
+      "length": 21387,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.017753",
+      "title": "westlake_to_shut_down_us_pvc_chlor_alkali_styrene_plants_in_december"
+    },
+    {
+      "id": "6cead9eb4a65b97fecc54b39e5002a191ce907a78641a1e8d0845fe569be1fe5",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164299/podcast-sustainably-speaking-examining-europe-s-recycling-sector-part-1",
+      "length": 20175,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.019905",
+      "title": "podcast_sustainably_speaking_examining_europe_s_recycling_sector_part_1"
+    },
+    {
+      "id": "9f2aa80cb691edfaa0851c1373e611482fc661058de306bf73bbbdf52801496d",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164284/podcast-cee-gas-transmission-tariff-dilemma-needs-visionary-approach",
+      "length": 22845,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.022206",
+      "title": "podcast_cee_gas_transmission_tariff_dilemma_needs_visionary_approach"
+    },
+    {
+      "id": "3c2e0a4f8a64700a7f9b3afbca01184ec0157200aa1f4abf93e9b13cea184769",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164259/icis-whitepaper-russia-s-quest-to-reach-gas-markets-from-kazakhstan-to-turkey",
+      "length": 20194,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.024550",
+      "title": "icis_whitepaper_russia_s_quest_to_reach_gas_markets_from_kazakhstan_to_turkey"
+    },
+    {
+      "id": "338b95c440ef482eb0e947dda9b226c2bcd7ab1ccf11dcdf38e53b9fa2196715",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164181/south-korea-petrochemical-exports-to-fall-6-1-in-2026-kcci",
+      "length": 22466,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.026403",
+      "title": "south_korea_petrochemical_exports_to_fall_6_1_in_2026_kcci"
+    },
+    {
+      "id": "a4ee077821f0876f41cc2ae24f403c62c2339662b88893fd02dd1906d0227250",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164298/brazil-s-novonor-to-divest-braskem-stake-to-investment-fund-in-r20-billion-credit-deal",
+      "length": 26880,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-15T18:20:45.028590",
+      "title": "brazil_s_novonor_to_divest_braskem_stake_to_investment_fund_in_r20_billion_credit_deal"
+    },
+    {
+      "id": "2464dc0c04e6bf57a70103ad5fc432ac9ffff3ecdcedeb3babf961d7c322c61c",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164305/westlake-shuts-pvc-plant-on-costly-logistics-age-low-export-margins",
+      "length": 23825,
+      "publisher": "icis",
+      "published_on": "2025-12-15T12:00:00",
+      "added_on": "2025-12-16T18:20:31.481301",
+      "title": "westlake_shuts_pvc_plant_on_costly_logistics_age_low_export_margins"
+    },
+    {
+      "id": "fb8a85f0ffe4a19db2ebd05fb043db6f1a172d5d2903a17fb241ae1c9bc325d1",
+      "url": "https://www.cleanenergywire.org/news/nuclear-fusion-companies-call-germany-participate-eu-support-scheme",
+      "length": 25967,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-15T11:29:00",
+      "added_on": "2025-12-15T18:23:45.739979",
+      "title": "nuclear_fusion_companies_call_germany_participate_eu_support_scheme"
+    },
+    {
+      "id": "611df161f24b294085a8cf0e2383270596feee1d0458a6ae10d3a50a571058f9",
+      "url": "https://www.cleanenergywire.org/news/brief-15-december-25",
+      "length": 18985,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-15T10:40:00",
+      "added_on": "2025-12-15T18:23:56.665995",
+      "title": "brief_15_december_25"
+    },
+    {
+      "id": "c0092aaf2981c12f1711a90cfd748bf25e506dc6dc45d0b748fc0f846288f11e",
+      "url": "https://www.cleanenergywire.org/news/preview-2026-germany-urged-fight-harder-protect-eu-emissions-trading-ambition-researcher",
+      "length": 34553,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-15T10:00:00",
+      "added_on": "2025-12-15T18:24:07.822264",
+      "title": "preview_2026_germany_urged_fight_harder_protect_eu_emissions_trading_ambition_researcher"
+    },
+    {
+      "id": "9371a6d311b67943b00a52f0b37c93aa94714e9e104635b95245542949aadb5f",
+      "url": "https://www.cleanenergywire.org/news/special-dispatch-europe-preview-2026",
+      "length": 32808,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-12T14:20:00",
+      "added_on": "2025-12-12T18:24:03.825222",
+      "title": "special_dispatch_europe_preview_2026"
+    },
+    {
+      "id": "f6940e0c6ec8f5b577557dd0b66848e41de416ef9462cf2e654e6610ea2b563f",
+      "url": "https://www.cleanenergywire.org/news/eastern-germany-must-benefit-more-its-renewable-power-riches-state-leader-says",
+      "length": 29413,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-12T12:59:00",
+      "added_on": "2025-12-12T18:24:14.833725",
+      "title": "eastern_germany_must_benefit_more_its_renewable_power_riches_state_leader_says"
+    },
+    {
+      "id": "1b5bd1f7b4103e1486f0c987cfa5122405de325e18093226c9b4c67d018ac6ee",
+      "url": "https://www.cleanenergywire.org/news/ev-registrations-germany-stabilising-again-after-drop-following-scrapped-support-scheme-analysis",
+      "length": 28640,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-12T12:40:00",
+      "added_on": "2025-12-12T18:24:25.840945",
+      "title": "ev_registrations_germany_stabilising_again_after_drop_following_scrapped_support_scheme_analysis"
+    },
+    {
+      "id": "4a34677f6ad9fd5628462e2d4c1da8853fd7cc64b73cb3da0e72688dcfaba25c",
+      "url": "https://www.cleanenergywire.org/news/ngo-demands-clarity-major-industrial-greenhouse-gas-source-southern-germany",
+      "length": 27604,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-12T12:26:00",
+      "added_on": "2025-12-12T18:24:36.825983",
+      "title": "ngo_demands_clarity_major_industrial_greenhouse_gas_source_southern_germany"
+    },
+    {
+      "id": "14aadade8d963037eb2fa43f2df6403462afd634d5b056ec54aee58bb808adff",
+      "url": "https://www.acer.europa.eu/news/first-step-towards-mandatory-eu-wide-cost-efficiency-comparison-gas-transmission-operators",
+      "length": 50218,
+      "publisher": "acer",
+      "published_on": "2025-12-12T12:00:00",
+      "added_on": "2025-12-12T18:20:24.827910",
+      "title": "first_step_towards_mandatory_eu_wide_cost_efficiency_comparison_gas_transmission_operators"
+    },
+    {
+      "id": "7e683c019ccb9660d8db7e520dbe3c33d8a03f504ba96af760efe246bbfa109f",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251212_Trassenpreise.html",
+      "length": 26459,
+      "publisher": "bnetza",
+      "published_on": "2025-12-12T12:00:00",
+      "added_on": "2025-12-12T18:21:21.566320",
+      "title": "Trassenpreise"
+    },
+    {
+      "id": "b32dc3c4676c2e72fef125cc0caa679385704697731569d0592725a745ce8ed2",
+      "url": "https://energy.ec.europa.eu/news/many-europeans-want-better-protection-against-energy-poverty-2025-12-12_en",
+      "length": 16420,
+      "publisher": "ec",
+      "published_on": "2025-12-12T12:00:00",
+      "added_on": "2025-12-12T18:20:37.946881",
+      "title": "many_europeans_want_better_protection_against_energy_poverty"
+    },
+    {
+      "id": "0a55004932c665a5b8ae643a2bb6f535a2df9dd0aa78523b2a381180c9913cf0",
+      "url": "https://www.entsoe.eu/news/2025/12/12/entso-e-publishes-a-third-progress-report-on-probabilistic-risk-assessment-in-europe",
+      "length": 9489,
+      "publisher": "entsoe",
+      "published_on": "2025-12-12T12:00:00",
+      "added_on": "2025-12-13T18:15:36.434040",
+      "title": "entso_e_publishes_a_third_progress_report_on_probabilistic_risk_assessment_in_europe"
+    },
+    {
+      "id": "bc47906fab8b67bf1306145c7dfafa4ef8c1da56bd2e2905e0ac0479eba7a6b5",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/12/11163662/podcast-signs-of-more-protectionist-approach-as-global-chemicals-slide-towards-a-2028-trough-europe-and-asia-fight-for-survival",
+      "length": 24980,
+      "publisher": "icis",
+      "published_on": "2025-12-12T12:00:00",
+      "added_on": "2025-12-12T18:21:11.967691",
+      "title": "podcast_signs_of_more_protectionist_approach_as_global_chemicals_slide_towards_a_2028_trough_europe_and_asia_fight_for_survival"
+    },
+    {
+      "id": "4c733fc1ad8a6a5799ba868f60ddbd83082cb959704b5c6bf1aa8a32398b102f",
+      "url": "https://www.cleanenergywire.org/news/security-supply-focus-germany-must-move-fast-new-gas-power-plants-2026-analysts",
+      "length": 35192,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-12T11:30:00",
+      "added_on": "2025-12-12T18:24:47.787690",
+      "title": "security_supply_focus_germany_must_move_fast_new_gas_power_plants_2026_analysts"
+    },
+    {
+      "id": "939fc51ea8311a1eca706546938884f27018562f277c69d67a0761fee55ba68d",
+      "url": "https://www.cleanenergywire.org/news/brief-12-december-25",
+      "length": 18932,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-12T11:04:00",
+      "added_on": "2025-12-12T18:24:58.654986",
+      "title": "brief_12_december_25"
+    },
+    {
+      "id": "e3008262bf6c7cee183c9b5d53acf1d5d92c86734c3801b93b37116e8a7f2cdc",
+      "url": "https://www.cleanenergywire.org/news/germany-and-italy-launch-joint-call-soften-2035-new-eu-combustion-engine-car-ban",
+      "length": 16191,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-11T13:27:00",
+      "added_on": "2025-12-11T18:21:27.403729",
+      "title": "germany_and_italy_launch_joint_call_soften_2035_new_eu_combustion_engine_car_ban"
+    },
+    {
+      "id": "1e990755da53582c46b9a0ca6983a552c64ab4b0efe0e2801a9ef22d6e056602",
+      "url": "https://www.cleanenergywire.org/news/heat-pumps-have-become-most-popular-heating-technology-germany-survey",
+      "length": 25494,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-11T12:40:00",
+      "added_on": "2025-12-11T18:21:38.379119",
+      "title": "heat_pumps_have_become_most_popular_heating_technology_germany_survey"
+    },
+    {
+      "id": "9a8d127e883f4c77338a633639a57cbc0c3f3783643253775ae97b61bd0942fb",
+      "url": "https://www.cleanenergywire.org/news/reform-germanys-heating-law-be-tabled-february-2026",
+      "length": 27135,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-11T12:13:00",
+      "added_on": "2025-12-11T18:21:49.325182",
+      "title": "reform_germanys_heating_law_be_tabled_february_2026"
+    },
+    {
+      "id": "48b9de6fda2d44da652e540d4de990544747f605adc3b6fc724c6bef15119e5c",
+      "url": "https://energy.ec.europa.eu/news/december-infringements-package-key-decisions-energy-2025-12-11_en",
+      "length": 20177,
+      "publisher": "ec",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-11T18:18:01.239306",
+      "title": "december_infringements_package_key_decisions_energy"
+    },
+    {
+      "id": "ba7530bc8881fc75e52671704a8f25c879fef05c443a47f2a2fc6e2b0af63f5c",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163320/gpca-25-indorama-ceo-urges-co-ordinated-state-private-action-to-tackle-petrochemical-overcapacity",
+      "length": 25675,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-11T18:18:38.935668",
+      "title": "gpca_25_indorama_ceo_urges_co_ordinated_state_private_action_to_tackle_petrochemical_overcapacity"
+    },
+    {
+      "id": "136d679a4ae584f99cf657fe89008d2932ac344846075a2d948a3cac75e26b83",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163236/imf-ups-china-2025-gdp-growth-forecast-on-policy-lower-us-tariffs",
+      "length": 23517,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-11T18:18:38.938540",
+      "title": "imf_ups_china_2025_gdp_growth_forecast_on_policy_lower_us_tariffs"
+    },
+    {
+      "id": "675241f015915a33567dd84daf1a5ac6fb50a517e9f370c1852fb4351b17834d",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163359/opinion-bulgarian-government-resignation-raises-questions-about-russian-gas-phaseout-plans",
+      "length": 25389,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-11T18:18:38.940906",
+      "title": "opinion_bulgarian_government_resignation_raises_questions_about_russian_gas_phaseout_plans"
+    },
+    {
+      "id": "42b6952a34a1dec2679435d9ef0d73d1c44aa5b8f1a00040d64bd5f5b3edbc89",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163336/iea-cuts-crude-supply-forecasts-as-surplus-narrows",
+      "length": 24626,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-11T18:18:38.943232",
+      "title": "iea_cuts_crude_supply_forecasts_as_surplus_narrows"
+    },
+    {
+      "id": "9456bcfad4749d2525979675e082a15cd50c6bc8e09a7d5fd90729bee2d5a1e1",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163350/brazil-s-central-bank-holds-rates-at-15-despite-improving-inflation-dims-hopes-for-january-cut",
+      "length": 25575,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-12T18:21:11.970542",
+      "title": "brazil_s_central_bank_holds_rates_at_15_despite_improving_inflation_dims_hopes_for_january_cut"
+    },
+    {
+      "id": "2db2ab9b31c42e5b840b56a537a740b313a8dc6a37f916b3c175bb9cf62670d0",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163377/basf-to-start-up-commercial-scale-3d-printed-catalyst-plant-in-q1-2026",
+      "length": 25454,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-12T18:21:11.972905",
+      "title": "basf_to_start_up_commercial_scale_3d_printed_catalyst_plant_in_q1_2026"
+    },
+    {
+      "id": "7da23e593d255eff29cfec3918ca7111780513b3300a1caf2f92951d67ba14c4",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163370/insight-exxonmobil-expects-earnings-growth-from-its-chem-refining-segment",
+      "length": 28882,
+      "publisher": "icis",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-12T18:21:11.974915",
+      "title": "insight_exxonmobil_expects_earnings_growth_from_its_chem_refining_segment"
+    },
+    {
+      "id": "a14d335646cc5f11af59399221d790a2c47c8dc53754fae04c5b52185b77194a",
+      "url": "https://www.tennet.eu/de/news/tennet-germany-hebt-offshore-ausbau-auf-neues-niveau-balwin5-setzt-massstaebe-bei-leistung-und-kosten",
+      "length": 22905,
+      "publisher": "tennet",
+      "published_on": "2025-12-11T12:00:00",
+      "added_on": "2025-12-17T18:25:25.383428",
+      "title": "tennet_germany_hebt_offshore_ausbau_auf_neues_niveau_balwin5_setzt_massstaebe_bei_leistung_und_kosten"
+    },
+    {
+      "id": "00b82a57df72f5bfd0343f094dd74bc415ba780277068119fbb12179c0ee8408",
+      "url": "https://www.cleanenergywire.org/news/germany-introduces-new-gas-and-electricity-grid-rules-spur-investments-lower-costs",
+      "length": 29124,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-11T11:04:00",
+      "added_on": "2025-12-11T18:22:00.268287",
+      "title": "germany_introduces_new_gas_and_electricity_grid_rules_spur_investments_lower_costs"
+    },
+    {
+      "id": "91e109047aa326785838229e73c6140e773d6fd1d39ac5e0602cf6e2231ff63c",
+      "url": "https://www.cleanenergywire.org/news/brief-11-december-25-0",
+      "length": 18398,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-11T10:51:00",
+      "added_on": "2025-12-11T18:22:11.089224",
+      "title": "brief_11_december_25_0"
+    },
+    {
+      "id": "729d216e1f4ffffa8e255e758dee9b080458c31c544f5240c7d0fb810f120d3b",
+      "url": "https://www.cleanenergywire.org/news/quick-launch-carbon-removal-key-germanys-net-zero-target-researchers",
+      "length": 16633,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-10T13:30:00",
+      "added_on": "2025-12-10T18:23:07.281329",
+      "title": "quick_launch_carbon_removal_key_germanys_net_zero_target_researchers"
+    },
+    {
+      "id": "beea076f2c1a36a133fa69adf52c0b60966d3c2fc07aa2ae9a5ad1b72f6671ce",
+      "url": "https://www.cleanenergywire.org/news/germanys-env-min-hails-eu-unity-2040-climate-target-ngos-warn-loophole",
+      "length": 26937,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-10T12:28:00",
+      "added_on": "2025-12-10T18:23:18.423680",
+      "title": "germanys_env_min_hails_eu_unity_2040_climate_target_ngos_warn_loophole"
+    },
+    {
+      "id": "49c795c6e39427a1bfd8eea561dbc7f33426c2ed6d0fa4ec79c62077a020d7de",
+      "url": "https://www.cleanenergywire.org/news/germany-covers-nearly-56-percent-2025-electricity-use-renewables",
+      "length": 29253,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-10T12:11:00",
+      "added_on": "2025-12-10T18:23:29.523779",
+      "title": "germany_covers_nearly_56_percent_2025_electricity_use_renewables"
+    },
+    {
+      "id": "d074cac003b11fb1a5a696ebaa7ea691589958da4b29dfa2611037612bec4fa4",
+      "url": "https://www.50hertz.com/de/News/Details/16535/uebertragungsnetzbetreiber-starten-oeffentliche-konsultation-zum-ersten-entwurf-des-netzentwicklungsplans-strom-20372045-2025",
+      "length": 7253,
+      "publisher": "50hz",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-10T18:27:04.989770",
+      "title": "uebertragungsnetzbetreiber_starten_oeffentliche_konsultation_zum_ersten_entwurf_des_netzentwicklungsplans_strom_20372045_2025"
+    },
+    {
+      "id": "4231ba25fcac8487bec67d26ee539c2f329df5bcb26c9429e63ecbe46317d86f",
+      "url": "https://www.agora-energiewende.org/news-events/a-statement-on-the-european-grids-package",
+      "length": 14331,
+      "publisher": "agora",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-10T18:22:58.299214",
+      "title": "a_statement_on_the_european_grids_package"
+    },
+    {
+      "id": "4fedf82e1bd068754dbc569608f57d581f47cc1b4889754f18f0886d70e0806e",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89536.html",
+      "length": 16870,
+      "publisher": "amprion",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-10T18:28:14.789108",
+      "title": "Presse_Detailseite_89536"
+    },
+    {
+      "id": "894053dc955b35620c585464a23827c576f312cb780558c2690bead3a9864d7b",
+      "url": "https://www.entsoe.eu/news/2025/12/10/entso-e-welcomes-the-focus-on-infrastructure-challenges-raises-concerns-over-governance-proposals",
+      "length": 11629,
+      "publisher": "entsoe",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-13T18:15:36.423749",
+      "title": "entso_e_welcomes_the_focus_on_infrastructure_challenges_raises_concerns_over_governance_proposals"
+    },
+    {
+      "id": "f54a0a44f0f1b89337fe252d20e78149af5c3c2d0787280e995084d6d6bcf7d8",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/10/11162912/german-chems-sales-to-drop-in-2026-after-exhausting-year-vci",
+      "length": 21752,
+      "publisher": "icis",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-10T18:20:38.127957",
+      "title": "german_chems_sales_to_drop_in_2026_after_exhausting_year_vci"
+    },
+    {
+      "id": "6b901255ff99a4800e9678174b50baa66818143e7764cba84c61be4899127914",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/10/11162804/gpca-25-gcc-to-expand-intermediates-non-asian-export-growth-to-2030-gpca-chief",
+      "length": 24427,
+      "publisher": "icis",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-10T18:20:38.134619",
+      "title": "gpca_25_gcc_to_expand_intermediates_non_asian_export_growth_to_2030_gpca_chief"
+    },
+    {
+      "id": "875132eca871955ebb256203acef745d1c358024b3668ffc2e7b9ffdf8e8d109",
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-starten-oeffentliche-konsultation-zum-ersten-entwurf-des-netzentwicklungsplans-strom-2037-2045-2025",
+      "length": 29735,
+      "publisher": "transnetbw",
+      "published_on": "2025-12-10T12:00:00",
+      "added_on": "2025-12-13T18:20:21.063941",
+      "title": "uebertragungsnetzbetreiber_starten_oeffentliche_konsultation_zum_ersten_entwurf_des_netzentwicklungsplans_strom_2037_2045_2025"
+    },
+    {
+      "id": "394aa057c635ac48aa4cf0ef1c5a8b71fd5da64a4896c5818a76b1dd1377c2c6",
+      "url": "https://www.cleanenergywire.org/news/brief-10-december-25",
+      "length": 18157,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-10T10:32:00",
+      "added_on": "2025-12-10T18:23:40.481492",
+      "title": "brief_10_december_25"
+    },
+    {
+      "id": "49b36de937e869c2a57ec1eff365da353036a0704cfda7181c55959a676b0172",
+      "url": "https://www.cleanenergywire.org/news/germany-needs-gas-and-oil-phase-out-strategies-coal-exit-track-now-govt-advisors",
+      "length": 33840,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-10T09:30:00",
+      "added_on": "2025-12-10T18:23:51.616196",
+      "title": "germany_needs_gas_and_oil_phase_out_strategies_coal_exit_track_now_govt_advisors"
+    },
+    {
+      "id": "e94aa2a4b3173fc78800db9ed056acce7f606f0398e67491ca2af09fad824261",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251209_TB_TK_Post.html",
+      "length": 23830,
+      "publisher": "bnetza",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-10T18:20:48.213456",
+      "title": "TB_TK_Post"
+    },
+    {
+      "id": "9c5e726409726279685cd724901d3f7024a7d1512102fa01cf0af02e108e19a3",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251209_NEST.html",
+      "length": 27911,
+      "publisher": "bnetza",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-10T18:20:54.050584",
+      "title": "NEST"
+    },
+    {
+      "id": "12579cbd1646c253b4713e5232d19121df6a7b5cbe3a2d20bd37c1ee4a5425a5",
+      "url": "https://energy.ec.europa.eu/news/energy-union-task-force-addresses-energy-price-challenges-and-implementation-eu-methane-regulation-2025-12-09_en",
+      "length": 21378,
+      "publisher": "ec",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-09T18:17:04.709924",
+      "title": "energy_union_task_force_addresses_energy_price_challenges_and_implementation_eu_methane_regulation"
+    },
+    {
+      "id": "f73cdd94572d652cbace15f0476ede9652f05843efb9d2904326addf8ace0a78",
+      "url": "https://energy-efficient-products.ec.europa.eu/news/time-think-about-winter-tyres-2025-12-09_en",
+      "length": 14344,
+      "publisher": "ec",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-19T18:18:32.858148",
+      "title": "time_think_about_winter_tyres"
+    },
+    {
+      "id": "f7d3ca8e309067e2c3d4d7290697cc83701fd7c9b99835387184294da8a07536",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/09/11162712/gpca-25-oman-s-duqm-petchem-complex-may-not-be-integrated-with-refinery-kpc",
+      "length": 24159,
+      "publisher": "icis",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-09T18:17:45.456709",
+      "title": "gpca_25_oman_s_duqm_petchem_complex_may_not_be_integrated_with_refinery_kpc"
+    },
+    {
+      "id": "cf4eaf8b371901cbac7a51e9ad71c10ebf33b4510b009e48e4d7a72b88b6b770",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/09/11162813/alagoas-liabilities-haunt-braskem-debt-talks-putting-mexico-venture-stake-at-risk-moody-s",
+      "length": 36278,
+      "publisher": "icis",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-10T18:20:38.130795",
+      "title": "alagoas_liabilities_haunt_braskem_debt_talks_putting_mexico_venture_stake_at_risk_moody_s"
+    },
+    {
+      "id": "b473ae968f4a1a224fcf08462f0157444f79193e4f65c55646d8a6e8d76fa32f",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/09/11162794/gpca-25-china-will-be-patient-amid-current-economic-downturn-huntsman-ceo",
+      "length": 23288,
+      "publisher": "icis",
+      "published_on": "2025-12-09T12:00:00",
+      "added_on": "2025-12-10T18:20:38.132946",
+      "title": "gpca_25_china_will_be_patient_amid_current_economic_downturn_huntsman_ceo"
+    },
+    {
+      "id": "208c6e78675a59801f69a54c43405436fa03e88a796c4b96a16d7d547e9756b5",
+      "url": "https://www.cleanenergywire.org/news/german-state-ministers-back-industry-call-delay-2026-offshore-wind-auctions",
+      "length": 17284,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-09T11:55:00",
+      "added_on": "2025-12-09T18:19:54.249262",
+      "title": "german_state_ministers_back_industry_call_delay_2026_offshore_wind_auctions"
+    },
+    {
+      "id": "c54b25504a111705043ca22064c41852e43a14c1e5d5dcfa6afa7785d286d3ba",
+      "url": "https://www.cleanenergywire.org/news/last-gas-heated-homes-germany-could-face-extra-costs-4000-euros-year-analysis",
+      "length": 28446,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-09T10:50:00",
+      "added_on": "2025-12-09T18:20:05.328051",
+      "title": "last_gas_heated_homes_germany_could_face_extra_costs_4000_euros_year_analysis"
+    },
+    {
+      "id": "b8fb05298466f24b58cc524d27f4a1290007c6997eb744e3d2badaab23eeb149",
+      "url": "https://www.cleanenergywire.org/news/brief-9-december-25",
+      "length": 18471,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-09T10:33:00",
+      "added_on": "2025-12-09T18:20:16.209080",
+      "title": "brief_9_december_25"
+    },
+    {
+      "id": "b26e3cbabb1bdb94932490132a3858837f4ae8763eac3e6b8e843b165d6a3dc3",
+      "url": "https://www.cleanenergywire.org/news/germany-sources-two-thirds-public-electricity-renewables-third-quarter-2025",
+      "length": 17967,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-08T13:30:00",
+      "added_on": "2025-12-08T18:22:42.873969",
+      "title": "germany_sources_two_thirds_public_electricity_renewables_third_quarter_2025"
+    },
+    {
+      "id": "1b4688f1435b0ef19f66d47c219ba8a97ec5c9cb0619ebf3ab3dc099e164d802",
+      "url": "https://www.cleanenergywire.org/news/demand-home-pv-slows-germany-industry-sees-lower-grid-expansion-need",
+      "length": 27509,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-08T12:01:00",
+      "added_on": "2025-12-08T18:22:53.770328",
+      "title": "demand_home_pv_slows_germany_industry_sees_lower_grid_expansion_need"
+    },
+    {
       "id": "0aac486a8305057b950c1bd85168c2fce3bb3c1a1cc5ada2b72420481904c597",
       "url": "https://www.agora-energiewende.org/news-events/empowerment-through-openness-the-future-of-energy-modelling",
       "length": 15422,
@@ -25,6 +1555,123 @@
       "published_on": "2025-12-08T12:00:00",
       "added_on": "2025-11-11T18:36:19.472467",
       "title": "empowerment_through_openness_the_future_of_energy_modelling"
+    },
+    {
+      "id": "d040fccc58d29d016047968af954694db918d51f4f9dc492f980616031689c30",
+      "url": "https://www.agora-energiewende.org/news-events/agora-debuts-pypsa-spice-framework-to-strengthen-open-source-energy-modelling",
+      "length": 17489,
+      "publisher": "agora",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:22:35.025928",
+      "title": "agora_debuts_pypsa_spice_framework_to_strengthen_open_source_energy_modelling"
+    },
+    {
+      "id": "ed31aab476b50b213722a5bd1c2e639f3e195900b4e96019e1f30b227a6311ef",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89478.html",
+      "length": 13612,
+      "publisher": "amprion",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-09T18:22:20.954147",
+      "title": "Presse_Detailseite_89478"
+    },
+    {
+      "id": "1a35e783132cd3793cfe550a7a962036b4df3718f691e0c267e779fba7d5c221",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89988.html",
+      "length": 38003,
+      "publisher": "amprion",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-18T18:28:35.732300",
+      "title": "Presse_Detailseite_89988"
+    },
+    {
+      "id": "c17a5e381df5d338e08ec608c7283e6902ee82fd58b4e58d29997b50fc9d94ef",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162198/europe-top-stories-weekly-summary",
+      "length": 20399,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.193023",
+      "title": "europe_top_stories_weekly_summary"
+    },
+    {
+      "id": "bfdca6accbf12abd93a6ab0849042797a5e33ed0d0160dce15c7c0453f311246",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162278/americas-top-stories-weekly-summary",
+      "length": 20274,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.195415",
+      "title": "americas_top_stories_weekly_summary"
+    },
+    {
+      "id": "2d5a563aa8d98bea3932880e363cfd869328ea62518c5d3d7b6c7609748d9614",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162330/blog-one-door-opens-as-another-closes-for-the-chemical-industry",
+      "length": 22262,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.197222",
+      "title": "blog_one_door_opens_as_another_closes_for_the_chemical_industry"
+    },
+    {
+      "id": "849c463baf755f11121176c33ede0ca5087f8ee020f2e4149f0ccfa25fbef2f7",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162412/gpca-25-strategic-collaboration-is-gcc-s-growth-catalyst-sabic-ceo",
+      "length": 24613,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.198999",
+      "title": "gpca_25_strategic_collaboration_is_gcc_s_growth_catalyst_sabic_ceo"
+    },
+    {
+      "id": "80476c2810b2af95cac486e5b24153f303d99087e47cb2ff3bf70826f20c52e3",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162304/china-exports-swing-back-to-growth-up-5-9-in-november",
+      "length": 20327,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.201081",
+      "title": "china_exports_swing_back_to_growth_up_5_9_in_november"
+    },
+    {
+      "id": "4d3ca25a095177e7011eeda218f0f6d040b1cd2afa1f92de08ee9de3f1ea8eb1",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162074/asia-top-stories-weekly-summary",
+      "length": 22733,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.202940",
+      "title": "asia_top_stories_weekly_summary"
+    },
+    {
+      "id": "0de35b802e63941b8c27494cd0cdbe8befa8281ae967498197252c5023f4ba33",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162413/gpca-25-gcc-partnerships-vital-amid-global-shifts-challenges-minister",
+      "length": 23264,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-08T18:19:57.204906",
+      "title": "gpca_25_gcc_partnerships_vital_amid_global_shifts_challenges_minister"
+    },
+    {
+      "id": "9dff3fccafd8a49245bb2b02200f87a8e9fda61f629ede4b3ea671afd1538ffb",
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162429/us-ingevity-mulls-sales-of-road-markings-caprolactone-businesses",
+      "length": 24464,
+      "publisher": "icis",
+      "published_on": "2025-12-08T12:00:00",
+      "added_on": "2025-12-09T18:17:45.459804",
+      "title": "us_ingevity_mulls_sales_of_road_markings_caprolactone_businesses"
+    },
+    {
+      "id": "fdc1334699dc274adc758ab3c6043e4377e3b1eb70a5cc4608dbcd23d8fd365e",
+      "url": "https://www.cleanenergywire.org/news/geothermal-lithium-extraction-plant-southern-germany-starts-taking-shape",
+      "length": 25857,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-08T11:31:00",
+      "added_on": "2025-12-08T18:23:04.662128",
+      "title": "geothermal_lithium_extraction_plant_southern_germany_starts_taking_shape"
+    },
+    {
+      "id": "416cb8c9a87c4e2cc687ddddb769c66dc3ab574cdb9c7c262ea5f638d0fe821f",
+      "url": "https://www.cleanenergywire.org/news/brief-8-december-25",
+      "length": 18556,
+      "publisher": "energy_wire",
+      "published_on": "2025-12-08T10:12:00",
+      "added_on": "2025-12-08T18:23:15.424532",
+      "title": "brief_8_december_25"
     },
     {
       "id": "606023f6afeb5b42d8b5335c38f61991e27c8b96dac0f8cec84c0be2d6f1cd66",
@@ -79,6 +1726,15 @@
       "published_on": "2025-12-05T12:00:00",
       "added_on": "2025-12-07T18:51:39.761987",
       "title": "eex_press_release"
+    },
+    {
+      "id": "96286d4f7e53e1ff9af57ab0d121ac43b5cd17f1a0d2204339e5a00b8dd24d79",
+      "url": "https://www.entsoe.eu/news/2025/12/05/connecting-eu-climate-targets-to-electricity-grid-development-entso-e-releases-grid-planning-hub",
+      "length": 9784,
+      "publisher": "entsoe",
+      "published_on": "2025-12-05T12:00:00",
+      "added_on": "2025-12-08T06:35:00.101086",
+      "title": "connecting_eu_climate_targets_to_electricity_grid_development_entso_e_releases_grid_planning_hub"
     },
     {
       "id": "d9926e64c9da906a6377e39b57c113b6344ba6b2fc9add292d1b2008aa720d2f",
@@ -243,6 +1899,15 @@
       "title": "up_ns_rail_merger_could_have_negative_impact_on_smaller_developing_ports_trade_group"
     },
     {
+      "id": "6938b4a747ca94799a031bacf1b4a20eafa14ce818fdb1717bfb7f844d40af54",
+      "url": "https://www.tennet.eu/de/news/bergfest-unter-der-elbe-tunnel-bohrmaschine-von-suedlink-hat-bereits-mehr-als-die-haelfte-der-strecke-geschafft",
+      "length": 24977,
+      "publisher": "tennet",
+      "published_on": "2025-12-04T12:00:00",
+      "added_on": "2025-12-10T18:24:25.630611",
+      "title": "bergfest_unter_der_elbe_tunnel_bohrmaschine_von_suedlink_hat_bereits_mehr_als_die_haelfte_der_strecke_geschafft"
+    },
+    {
       "id": "a2ccfb044e87dce945fb9ff5a192dd10b028fe02828d4a34d03fa2db526fed01",
       "url": "https://www.cleanenergywire.org/news/no-longer-competitive-china-consultancy-forecasts-decline-european-carmakers",
       "length": 26300,
@@ -295,6 +1960,15 @@
       "published_on": "2025-12-03T12:00:00",
       "added_on": "2025-12-04T18:20:27.972301",
       "title": "lyondellbasell_sees_weakening_in_autos_europe"
+    },
+    {
+      "id": "0ac3a6870bb38751b7f52fdc9b6b0ce1233ab6ebce1faf7ba23efb1e3558e85b",
+      "url": "https://www.tennet.eu/de/news/tennet-germany-legt-debt-issuance-programme-ueber-35-milliarden-euro-auf",
+      "length": 22180,
+      "publisher": "tennet",
+      "published_on": "2025-12-03T12:00:00",
+      "added_on": "2025-12-10T18:24:43.084271",
+      "title": "tennet_germany_legt_debt_issuance_programme_ueber_35_milliarden_euro_auf"
     },
     {
       "id": "4bc57795a683161498c02a989ef7ba7778d660c61fd5558a0cc9555782fdfc04",
@@ -2617,6 +4291,15 @@
       "published_on": "2025-11-06T12:00:00",
       "added_on": "2025-10-27T18:36:28.553488",
       "title": "shanghai_dialogue_on_pressing_energy_and_climate_issues_2025"
+    },
+    {
+      "id": "da6836f01fe7aaa7f087f6ccde4f2fbd3f1e98636f5467acd05494f28f14b3c3",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89479.html",
+      "length": 12902,
+      "publisher": "amprion",
+      "published_on": "2025-11-06T12:00:00",
+      "added_on": "2025-12-09T18:22:20.950359",
+      "title": "Presse_Detailseite_89479"
     },
     {
       "id": "45f9c5dc2019439e5766025b660966f751f4c4807885ef070f53d6d37a1be25d",
@@ -14724,6 +16407,96 @@
       "title": "eex_press_release"
     },
     {
+      "id": "fae56e00d6d71aea4acf0aa0419d70912134554d4559276ae3215fc08a06f64b",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=53a46d709595d3b3d12ac866734639dd&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14762",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.030115",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "88bded167049df7f96ca53e93515b768a744558d76c94d03000aa3ca29ca9f0a",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=bb3ea060e4732487c3d885c0564d62f6&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14767",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.034346",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "61461e1dfc15f92f0fcff90cb936497d9dffc573b7b72a657573cbbe04dd671d",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=996e69ef0500e964770b9488c6427535&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14763",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.036824",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "b192c37c25707dafdb82cb4d07b20f341dc47ac9851ca64f587d2fe637544a20",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=606beda0689e1c633cf4e04d7cefd4a0&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14768",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.039341",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "68ddb0a86fd53c98a5fe50bb59972ba92da6a82c06191f626621a263d9a81eb7",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=237668be0b4225718a905a0e77b4193a&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14765",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.042192",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "d00c9d2f04d180728db1f12f3c7bb6ab27a592267758c64eceaf005274e55302",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=40c14027394da40cb8e415777096bbb6&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14759",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.044711",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "f9fd05242faed4f7c62f640f72a09a5cc57bfa77ef2ea99145dfcdb015539822",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=9d55bf85af604a2f39522e78742a6d8e&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14758",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.047256",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "9f8727914942290824d287365690756c73944af59ebdebe624dec11c66c2361a",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=df8f6e09af6a3928398bb4eeec92c76d&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14764",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.049743",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "7b0b36d08bac444dbd20b9a0aabbf09a5c35efc45999ee3ea7d93d189db3a217",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=badd9578f1cf133bf480add2e9fc9b86&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14766",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.052665",
+      "title": "eex_press_release"
+    },
+    {
+      "id": "8a66227e8ef848748a06a833f3957a9b608c32b62a965a319de1ebf372fa52dd",
+      "url": "https://www.eex.com/en/newsroom/detail?chash=4b4b52597fc63ea98308210aaed2d8de&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14760",
+      "length": 34327,
+      "publisher": "eex",
+      "published_on": "2025-04-28T12:00:00",
+      "added_on": "2025-12-12T18:19:44.055234",
+      "title": "eex_press_release"
+    },
+    {
       "id": "48d7835a7bc4958243b1e4f2b9815d46fc5d4d8b047cc51a0b3df2a7409fd9bb",
       "url": "https://www.entsoe.eu/news/2025/04/28/bidding-zone-study-released",
       "length": 14386,
@@ -19233,6 +21006,24 @@
       "title": "lower_expected_electricity_demand_germany_could_cut_grid_expansion_costs_report"
     },
     {
+      "id": "292700b60f56ff556925eb484e863b5e847bdc9c5ec2e58e3b6df98c25c15aaa",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76673.html",
+      "length": 40622,
+      "publisher": "amprion",
+      "published_on": "2024-12-20T12:00:00",
+      "added_on": "2025-12-17T18:29:55.838426",
+      "title": "Presse_Detailseite_76673"
+    },
+    {
+      "id": "504b96c75bdbc648e829990e99815adde76853a2931145c82676507459820eea",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76675.html",
+      "length": 38049,
+      "publisher": "amprion",
+      "published_on": "2024-12-20T12:00:00",
+      "added_on": "2025-12-17T18:29:55.861330",
+      "title": "Presse_Detailseite_76675"
+    },
+    {
       "id": "c6257c3434eb55fd320a7d0855a11be28ca8e217a6f58172d622ca68195ed2d7",
       "url": "https://www.cleanenergywire.org/news/brief-20-december-24",
       "length": 17851,
@@ -19332,6 +21123,15 @@
       "title": "2024_hottest_year_record_germany_meteorological_service"
     },
     {
+      "id": "6266a61ea33c54b751a42d5dc813244d19ccbf2cdfeb8c7af55240e65e9afa3a",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_83648.html",
+      "length": 36476,
+      "publisher": "amprion",
+      "published_on": "2024-12-18T12:00:00",
+      "added_on": "2025-12-17T18:29:55.872089",
+      "title": "Presse_Detailseite_83648"
+    },
+    {
       "id": "94e433eb037876b5f061a0b7405fcfadd08807964ecc18bead3c1608ffa8f08c",
       "url": "https://www.cleanenergywire.org/news/brief-18-december-24",
       "length": 18141,
@@ -19402,6 +21202,15 @@
       "published_on": "2024-12-17T12:00:00",
       "added_on": "2025-08-07T15:51:09.674429",
       "title": "Pressemitteilungen_2024"
+    },
+    {
+      "id": "136a3c297ba7131b2d7896aca9ea0c81a4bd4661ee0ae7694d51b1f9d90b13e1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76545.html",
+      "length": 38573,
+      "publisher": "amprion",
+      "published_on": "2024-12-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.848619",
+      "title": "Presse_Detailseite_76545"
     },
     {
       "id": "dfa78a9aefe4922fc5c915ac8171bafe71571e0ff11b7b5abf33c13129d3695c",
@@ -19512,6 +21321,24 @@
       "title": "transition_for_coal_regions"
     },
     {
+      "id": "e2c4596e05ac8ba20792264aa90ab68a2a9027927ff21e8a1ac8e6441ea4e2f9",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76416.html",
+      "length": 36550,
+      "publisher": "amprion",
+      "published_on": "2024-12-13T12:00:00",
+      "added_on": "2025-12-17T18:29:55.843481",
+      "title": "Presse_Detailseite_76416"
+    },
+    {
+      "id": "e856b3a6b3ad3fc5b67ce4f7c2b5f5d49117a18d49d77dac0b3b234cb927b1aa",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76929.html",
+      "length": 37298,
+      "publisher": "amprion",
+      "published_on": "2024-12-13T12:00:00",
+      "added_on": "2025-12-17T18:29:55.866192",
+      "title": "Presse_Detailseite_76929"
+    },
+    {
       "id": "ddfebc0d9eade35ed95e8176eee8e4c99986754ef23a777499f6053c977f2962",
       "url": "https://www.cleanenergywire.org/news/sustainability-reporting-still-black-box-many-smaller-companies-germany-survey",
       "length": 27180,
@@ -19546,6 +21373,15 @@
       "published_on": "2024-12-12T13:23:00",
       "added_on": "2025-07-31T12:02:47.853810",
       "title": "brief_12_december_24"
+    },
+    {
+      "id": "0a7754b37c23d4ee9e3dc53fc96a900637b93ed2162eca40470c112b3686bc11",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76353.html",
+      "length": 37253,
+      "publisher": "amprion",
+      "published_on": "2024-12-12T12:00:00",
+      "added_on": "2025-12-17T18:29:55.851098",
+      "title": "Presse_Detailseite_76353"
     },
     {
       "id": "63c6ecf269199db967f81f02d1e40f59cce8a7d298d5f7f4ed74552cb98fedbd",
@@ -19665,6 +21501,51 @@
       "title": "no_gas_power_plant_deal_election_threat_east_german_coal_exit_labour_union"
     },
     {
+      "id": "9e742a149140efca568b943e84061a1db8d57c1699f744a750f686e94de02e5d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76160.html",
+      "length": 37654,
+      "publisher": "amprion",
+      "published_on": "2024-12-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.836045",
+      "title": "Presse_Detailseite_76160"
+    },
+    {
+      "id": "5307fa5c44dd02fb101b726fa960a894952b3b19b781abe8255f063da05bb69c",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76224.html",
+      "length": 37448,
+      "publisher": "amprion",
+      "published_on": "2024-12-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.841031",
+      "title": "Presse_Detailseite_76224"
+    },
+    {
+      "id": "c50dff495904639b4ca8b6ed440ee87a02cd696d976429786533c750b22f0c14",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76992.html",
+      "length": 37868,
+      "publisher": "amprion",
+      "published_on": "2024-12-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.858750",
+      "title": "Presse_Detailseite_76992"
+    },
+    {
+      "id": "cf2495a1157bf3c60e3e9b03ee429313fc7c8c9833fbf7c7a21a8ecaade6b53d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76032.html",
+      "length": 37297,
+      "publisher": "amprion",
+      "published_on": "2024-12-04T12:00:00",
+      "added_on": "2025-12-17T18:29:55.804175",
+      "title": "Presse_Detailseite_76032"
+    },
+    {
+      "id": "0ae6c5b5635c26da90a9ac9790692bee414bd4313ddcccc46f3abdf12f78b644",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75840.html",
+      "length": 37221,
+      "publisher": "amprion",
+      "published_on": "2024-12-02T12:00:00",
+      "added_on": "2025-12-17T18:29:55.831479",
+      "title": "Presse_Detailseite_75840"
+    },
+    {
       "id": "734b6ea91eb9255b80d271d4c001b3ae6662ea7d5bd5f991eb2c4c1fcf089b42",
       "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/Inbetriebnahme-ULTRANET-Konverter",
       "length": 31764,
@@ -19672,6 +21553,15 @@
       "published_on": "2024-11-29T12:00:00",
       "added_on": "2025-08-03T06:43:32.633473",
       "title": "Inbetriebnahme_ULTRANET_Konverter"
+    },
+    {
+      "id": "33ab62acb75af32dd46badd2be3f73b2537f8ca3e3e7e6fd8f4ffc775f05f250",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75712.html",
+      "length": 37615,
+      "publisher": "amprion",
+      "published_on": "2024-11-28T12:00:00",
+      "added_on": "2025-12-17T18:29:55.809314",
+      "title": "Presse_Detailseite_75712"
     },
     {
       "id": "57eaed341b52545889608dc712a5b91c90e993e0b7f6ae4150cf4e169d48efa1",
@@ -19719,6 +21609,15 @@
       "title": "transitioning_to_climate_neutral_power_a_new_approach_to_system_stability"
     },
     {
+      "id": "cfd0b0dc0b784a0dc70f70be52a4a8d10bed895e0ba84fc83567c615608830e2",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75521.html",
+      "length": 37727,
+      "publisher": "amprion",
+      "published_on": "2024-11-21T12:00:00",
+      "added_on": "2025-12-17T18:29:55.828977",
+      "title": "Presse_Detailseite_75521"
+    },
+    {
       "id": "acba56c0f7b0fc19ed0e1970fa28de54a8b9564ef9d48215bdb741793b762995",
       "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/StromGedacht-startet-PowerLaendle-Kampagne",
       "length": 27927,
@@ -19755,6 +21654,15 @@
       "title": "shanghai_dialogue_on_pressing_energy_and_climate_issues_2024"
     },
     {
+      "id": "072c70b7a905969d93d77f0f0f6cffefa80f0d03c53c17631449a461e2677261",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75265.html",
+      "length": 39868,
+      "publisher": "amprion",
+      "published_on": "2024-11-05T12:00:00",
+      "added_on": "2025-12-17T18:29:55.816572",
+      "title": "Presse_Detailseite_75265"
+    },
+    {
       "id": "b8cd5e359ef4d9a1418b0fe79328356dae2f4883b91d20ab463e34d53d45930c",
       "url": "https://www.smard.de/page/home/topic-article/211784/215226/status-quo-zur-verbreitung-des-bidirektionalen-ladens-",
       "length": 13417,
@@ -19764,6 +21672,15 @@
       "title": "status_quo_zur_verbreitung_des_bidirektionalen_ladens_"
     },
     {
+      "id": "17404209fb61350752a27535a9b2f4881510e0e4510fcb3e17113d789a23783e",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75264.html",
+      "length": 41603,
+      "publisher": "amprion",
+      "published_on": "2024-11-04T12:00:00",
+      "added_on": "2025-12-17T18:29:55.814061",
+      "title": "Presse_Detailseite_75264"
+    },
+    {
       "id": "112867400ef076ece39df369ee45dbf9d58e67ee31eef2b25ad3abe647639af6",
       "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/netzplanungsgrundsaetze-der-vier-deutschen-uebertragungsnetzbetreiber",
       "length": 24375,
@@ -19771,6 +21688,42 @@
       "published_on": "2024-11-04T12:00:00",
       "added_on": "2025-08-03T06:43:32.657410",
       "title": "netzplanungsgrundsaetze_der_vier_deutschen_uebertragungsnetzbetreiber"
+    },
+    {
+      "id": "adc2e4e0965f9f6aef00babe698f7762cf50c2377cd8f23db1ddd4522fd6da7d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75072.html",
+      "length": 37397,
+      "publisher": "amprion",
+      "published_on": "2024-10-31T12:00:00",
+      "added_on": "2025-12-17T18:29:55.789719",
+      "title": "Presse_Detailseite_75072"
+    },
+    {
+      "id": "79f4df3a32b916c27c872dd626eab4d07b8298e9618a2ffe1c5129767e8c11f1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75074.html",
+      "length": 38535,
+      "publisher": "amprion",
+      "published_on": "2024-10-31T12:00:00",
+      "added_on": "2025-12-17T18:29:55.806692",
+      "title": "Presse_Detailseite_75074"
+    },
+    {
+      "id": "240f41c81c42794dc82c879dd67220642648b54639000bb943eb369b4d1e6c1b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75073.html",
+      "length": 37582,
+      "publisher": "amprion",
+      "published_on": "2024-10-31T12:00:00",
+      "added_on": "2025-12-17T18:29:55.818919",
+      "title": "Presse_Detailseite_75073"
+    },
+    {
+      "id": "9502f6cb06034343c58d5bb6b56a95fa4ba7f6d8c2d95a790a8e28f1b4ac8990",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76352.html",
+      "length": 40129,
+      "publisher": "amprion",
+      "published_on": "2024-10-31T12:00:00",
+      "added_on": "2025-12-17T18:29:55.845855",
+      "title": "Presse_Detailseite_76352"
     },
     {
       "id": "d94ff98f24f26d7066ff5373eb68caa411cae6887f7017e89f5786895d757571",
@@ -19809,6 +21762,24 @@
       "title": "netzengpassmanagement_im_2_quartal_2024"
     },
     {
+      "id": "4db657d81e514e8a57b1ebfe5d2996962b0617ee9e5675ab44c1e2abd57b0926",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_74880.html",
+      "length": 37885,
+      "publisher": "amprion",
+      "published_on": "2024-10-22T12:00:00",
+      "added_on": "2025-12-17T18:29:55.784928",
+      "title": "Presse_Detailseite_74880"
+    },
+    {
+      "id": "7d13ebfcc200db26ed629c31a829085e9b2c9b2cbb21809d347ffb146f9ad931",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_74816.html",
+      "length": 37739,
+      "publisher": "amprion",
+      "published_on": "2024-10-22T12:00:00",
+      "added_on": "2025-12-17T18:29:55.801832",
+      "title": "Presse_Detailseite_74816"
+    },
+    {
       "id": "32e58783ad0b7c128ef1f67ad7d662cd0795819cad06cd6cd4d367254fbbe9fb",
       "url": "https://www.agora-energiewende.org/news-events/new-leadership-at-agora-energiewende-europe",
       "length": 15046,
@@ -19816,6 +21787,15 @@
       "published_on": "2024-10-21T12:00:00",
       "added_on": "2025-07-31T11:00:00.422804",
       "title": "new_leadership_at_agora_energiewende_europe"
+    },
+    {
+      "id": "b6b380f54c5c1e75da017282beec26d08b6c4bb3ba1b48a1e1732c8191fc1e4c",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76993.html",
+      "length": 36603,
+      "publisher": "amprion",
+      "published_on": "2024-10-18T12:00:00",
+      "added_on": "2025-12-17T18:29:55.863797",
+      "title": "Presse_Detailseite_76993"
     },
     {
       "id": "c9749dd330fbeb392f8135a097d9408ac9425ea6defadec30fd3e64180c88793",
@@ -19899,6 +21879,33 @@
       "title": "eex_press_release"
     },
     {
+      "id": "4e28fb5dbaac2c403e80f0cdb90ddeec5d66909ee723ad529bc8e068896031c6",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_74305.html",
+      "length": 38154,
+      "publisher": "amprion",
+      "published_on": "2024-10-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.794493",
+      "title": "Presse_Detailseite_74305"
+    },
+    {
+      "id": "eea48a690e0536ff2133cdb4a8b95a16ed5e870399b6dcce88af69a6ac143264",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_74112.html",
+      "length": 36895,
+      "publisher": "amprion",
+      "published_on": "2024-10-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.792034",
+      "title": "Presse_Detailseite_74112"
+    },
+    {
+      "id": "981db41d014d42f02a699f68526f88d9a52a5274e5878bf666749a04d2392dbe",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_74048.html",
+      "length": 37588,
+      "publisher": "amprion",
+      "published_on": "2024-10-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.796876",
+      "title": "Presse_Detailseite_74048"
+    },
+    {
       "id": "aa615829a9e3a30d0535ff25b1f03947a2fea032e1f8e724c2d5d391bf8fea98",
       "url": "https://www.smard.de/page/home/topic-article/211784/215056/hoechstwerte-bei-erneuerbaren",
       "length": 28550,
@@ -19908,6 +21915,78 @@
       "title": "hoechstwerte_bei_erneuerbaren"
     },
     {
+      "id": "f2cdc3bf809082f3338ad4fb673b53b58377a8180b6036fa42d967e973ea0a50",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73600.html",
+      "length": 37800,
+      "publisher": "amprion",
+      "published_on": "2024-10-09T12:00:00",
+      "added_on": "2025-12-17T18:29:55.787287",
+      "title": "Presse_Detailseite_73600"
+    },
+    {
+      "id": "3dd9629047df18c1995f76de20dc0bb870949af36f8d5fe354db2c0a0500bb3f",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73472.html",
+      "length": 37481,
+      "publisher": "amprion",
+      "published_on": "2024-10-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.782648",
+      "title": "Presse_Detailseite_73472"
+    },
+    {
+      "id": "5f0d35690dee297139c0b326a1041679b1e04bf57ef96a5526f0ff80cfba7893",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73536.html",
+      "length": 39872,
+      "publisher": "amprion",
+      "published_on": "2024-10-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.799406",
+      "title": "Presse_Detailseite_73536"
+    },
+    {
+      "id": "3229e16863e2c64b9377c866aea4ff735ddda2de4695b305b7289e4e4ac5e8d9",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73408.html",
+      "length": 38352,
+      "publisher": "amprion",
+      "published_on": "2024-10-02T12:00:00",
+      "added_on": "2025-12-17T18:29:55.744852",
+      "title": "Presse_Detailseite_73408"
+    },
+    {
+      "id": "02ef0052dbc43ac6b6b30091063fe7d47a52fccc1c716e2a0f3e46206494d3d3",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73409.html",
+      "length": 39740,
+      "publisher": "amprion",
+      "published_on": "2024-10-02T12:00:00",
+      "added_on": "2025-12-17T18:29:55.749939",
+      "title": "Presse_Detailseite_73409"
+    },
+    {
+      "id": "bd8d1be1021a4d44d5831202bb474cb15c1fae5cc198212aefbf6a0808e9f17d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73216.html",
+      "length": 38799,
+      "publisher": "amprion",
+      "published_on": "2024-10-01T12:00:00",
+      "added_on": "2025-12-17T18:29:55.734931",
+      "title": "Presse_Detailseite_73216"
+    },
+    {
+      "id": "97ce9daf252cd00db63db1ef0a0e6fb23174d8aad601ff56cee36d5b1062c395",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73344.html",
+      "length": 37065,
+      "publisher": "amprion",
+      "published_on": "2024-10-01T12:00:00",
+      "added_on": "2025-12-17T18:29:55.742549",
+      "title": "Presse_Detailseite_73344"
+    },
+    {
+      "id": "c75e3877eb34b95c0a7cc0814a29435f958a10028b6333ccbcd1e468355b59c8",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73345.html",
+      "length": 38484,
+      "publisher": "amprion",
+      "published_on": "2024-10-01T12:00:00",
+      "added_on": "2025-12-17T18:29:55.754829",
+      "title": "Presse_Detailseite_73345"
+    },
+    {
       "id": "5acdbcd6f0d7908da68b303adaae66fc6bb9638a35b047688793d31ed31e445e",
       "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-veroeffentlichen-vorlaeufige-netzentgelte-fuer-2025",
       "length": 26650,
@@ -19915,6 +21994,213 @@
       "published_on": "2024-10-01T12:00:00",
       "added_on": "2025-08-03T06:43:32.668258",
       "title": "uebertragungsnetzbetreiber_veroeffentlichen_vorlaeufige_netzentgelte_fuer_2025"
+    },
+    {
+      "id": "42d63400a62042167c16210abab410da6a94c4807b5d10113ef2d08dcb8190e5",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73152.html",
+      "length": 38301,
+      "publisher": "amprion",
+      "published_on": "2024-09-26T12:00:00",
+      "added_on": "2025-12-17T18:29:55.732499",
+      "title": "Presse_Detailseite_73152"
+    },
+    {
+      "id": "b667999c66495069c4bdece5aff9abccb4e5afc28cb2434186d178bca1e771df",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73088.html",
+      "length": 39074,
+      "publisher": "amprion",
+      "published_on": "2024-09-25T12:00:00",
+      "added_on": "2025-12-17T18:29:55.757750",
+      "title": "Presse_Detailseite_73088"
+    },
+    {
+      "id": "72fe38c737d7f44779925f5f89dead00ac489e45d866f3480a45ae1e841ea4ed",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_73024.html",
+      "length": 39708,
+      "publisher": "amprion",
+      "published_on": "2024-09-20T12:00:00",
+      "added_on": "2025-12-17T18:29:55.747484",
+      "title": "Presse_Detailseite_73024"
+    },
+    {
+      "id": "bec47d5ad0c5d9035a95293cdb36813e5a2b30c73ec9f73d4b53e930a21588f1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72960.html",
+      "length": 37142,
+      "publisher": "amprion",
+      "published_on": "2024-09-19T12:00:00",
+      "added_on": "2025-12-17T18:29:55.737592",
+      "title": "Presse_Detailseite_72960"
+    },
+    {
+      "id": "f775acfa70b4cd759ccf685fc1e392a8c40833eec60bdcea6d215679b9e71ae5",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72832.html",
+      "length": 37957,
+      "publisher": "amprion",
+      "published_on": "2024-09-13T12:00:00",
+      "added_on": "2025-12-17T18:29:55.739835",
+      "title": "Presse_Detailseite_72832"
+    },
+    {
+      "id": "c1901ac4f72cb84ad050fe033d02d454928c46959786fe1cf56cb5e85b74c826",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72768.html",
+      "length": 36998,
+      "publisher": "amprion",
+      "published_on": "2024-09-12T12:00:00",
+      "added_on": "2025-12-17T18:29:55.760357",
+      "title": "Presse_Detailseite_72768"
+    },
+    {
+      "id": "17906d67a473683cf6349f720f7e29c878f91d5898e8e0dd165033a7bad11814",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72576.html",
+      "length": 38715,
+      "publisher": "amprion",
+      "published_on": "2024-09-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.752473",
+      "title": "Presse_Detailseite_72576"
+    },
+    {
+      "id": "86afb6e3ae4c1abfaf77a8045b374b300f37f13171c9b675b3df12e55365fefc",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72448.html",
+      "length": 40636,
+      "publisher": "amprion",
+      "published_on": "2024-09-10T12:00:00",
+      "added_on": "2025-12-17T18:29:55.772775",
+      "title": "Presse_Detailseite_72448"
+    },
+    {
+      "id": "57d850a8c921d911b33911b51f27cab11d3be499b342517cb7de79065cc1e45d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72449.html",
+      "length": 38742,
+      "publisher": "amprion",
+      "published_on": "2024-09-10T12:00:00",
+      "added_on": "2025-12-17T18:29:55.777628",
+      "title": "Presse_Detailseite_72449"
+    },
+    {
+      "id": "6b3c948702d03de28e820f72a5cfa8e138aa19cab71e0e2fac74949e62cedd13",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72512.html",
+      "length": 38170,
+      "publisher": "amprion",
+      "published_on": "2024-09-10T12:00:00",
+      "added_on": "2025-12-17T18:29:55.780129",
+      "title": "Presse_Detailseite_72512"
+    },
+    {
+      "id": "c9f95641f54fed08121b4ce475e2108b7b57ae7f02b3bf4d6f474c95aa3b4af6",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72384.html",
+      "length": 38243,
+      "publisher": "amprion",
+      "published_on": "2024-09-09T12:00:00",
+      "added_on": "2025-12-17T18:29:55.765380",
+      "title": "Presse_Detailseite_72384"
+    },
+    {
+      "id": "b41188cecfeeb2f866a2c4072b1b733711f901a42b2e1312309991e63bfc8b3b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72320.html",
+      "length": 40182,
+      "publisher": "amprion",
+      "published_on": "2024-09-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.770209",
+      "title": "Presse_Detailseite_72320"
+    },
+    {
+      "id": "3e9c31356814695d2eada876fdad9403e7320be78f84ea7ecdaac47b7503d7ff",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72128.html",
+      "length": 37409,
+      "publisher": "amprion",
+      "published_on": "2024-09-02T12:00:00",
+      "added_on": "2025-12-17T18:29:55.767737",
+      "title": "Presse_Detailseite_72128"
+    },
+    {
+      "id": "e676c90379aa92413ed30666311f0620739654ee4270ba1e1da03fd45849be39",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72064.html",
+      "length": 39664,
+      "publisher": "amprion",
+      "published_on": "2024-08-29T12:00:00",
+      "added_on": "2025-12-17T18:29:55.762787",
+      "title": "Presse_Detailseite_72064"
+    },
+    {
+      "id": "dedffee3de5f15d4eeaba394a7638aa2a52200b581a0422594499c8fb7c0f446",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_72000.html",
+      "length": 38445,
+      "publisher": "amprion",
+      "published_on": "2024-08-22T12:00:00",
+      "added_on": "2025-12-17T18:29:55.775295",
+      "title": "Presse_Detailseite_72000"
+    },
+    {
+      "id": "b4a3573c7dce9b49a73ddbd2e4209fd7c47e10f8b4a7a0237068025145ddb555",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71872.html",
+      "length": 41049,
+      "publisher": "amprion",
+      "published_on": "2024-08-20T12:00:00",
+      "added_on": "2025-12-17T18:29:55.717853",
+      "title": "Presse_Detailseite_71872"
+    },
+    {
+      "id": "0e9ff762a01ee4aaaf0f2a1ee2073aa57ee77a1ea4c78fa6e41b06a17ff1ee7e",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71938.html",
+      "length": 37260,
+      "publisher": "amprion",
+      "published_on": "2024-08-20T12:00:00",
+      "added_on": "2025-12-17T18:29:55.730132",
+      "title": "Presse_Detailseite_71938"
+    },
+    {
+      "id": "951263581c7cfbc4803055749531e7375544b6b3452cecee5f072841118c7582",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71744.html",
+      "length": 38023,
+      "publisher": "amprion",
+      "published_on": "2024-08-16T12:00:00",
+      "added_on": "2025-12-17T18:29:55.727721",
+      "title": "Presse_Detailseite_71744"
+    },
+    {
+      "id": "c6614d76c29b373eb0eae778813f595ebc7fc65ca0906b694f78be3c86babf7d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71681.html",
+      "length": 39449,
+      "publisher": "amprion",
+      "published_on": "2024-08-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.720428",
+      "title": "Presse_Detailseite_71681"
+    },
+    {
+      "id": "3ccccea930943f56395004f3abf1592762acfe92aab880cadd4b28f662ba71cb",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71616.html",
+      "length": 39278,
+      "publisher": "amprion",
+      "published_on": "2024-08-14T12:00:00",
+      "added_on": "2025-12-17T18:29:55.705553",
+      "title": "Presse_Detailseite_71616"
+    },
+    {
+      "id": "9fcf746b0f1cc0e182a8770a20ba90269e13e19b4bbbd19ca9b5dafaaf354d47",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71489.html",
+      "length": 43521,
+      "publisher": "amprion",
+      "published_on": "2024-08-12T12:00:00",
+      "added_on": "2025-12-17T18:29:55.680808",
+      "title": "Presse_Detailseite_71489"
+    },
+    {
+      "id": "eca80d60d88a681b2a336fad34d29068b6c5ba0a19e0d900fd13daf6ef0ab443",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_71424.html",
+      "length": 37511,
+      "publisher": "amprion",
+      "published_on": "2024-08-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.688338",
+      "title": "Presse_Detailseite_71424"
+    },
+    {
+      "id": "4b4020b0ac99b6cf94fa875a943f8841362bba9dd2c02bc1ea80232aed5ca930",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_70848.html",
+      "length": 37371,
+      "publisher": "amprion",
+      "published_on": "2024-07-31T12:00:00",
+      "added_on": "2025-12-17T18:29:55.690681",
+      "title": "Presse_Detailseite_70848"
     },
     {
       "id": "4ccb1766d64df7e783331138c750a06d4ac84ec5ac2cf4573ffd747280b4fb6e",
@@ -19933,6 +22219,24 @@
       "published_on": "2024-07-26T12:00:00",
       "added_on": "2025-11-10T18:32:55.954122",
       "title": "compensation_surged_grid_operators_covering_losses_cross_border_transit_flows_2022"
+    },
+    {
+      "id": "be0362cebb61594b452ca107647b2a6b792bbeb2af98910838f8668bace8e834",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_70784.html",
+      "length": 38744,
+      "publisher": "amprion",
+      "published_on": "2024-07-26T12:00:00",
+      "added_on": "2025-12-17T18:29:55.685841",
+      "title": "Presse_Detailseite_70784"
+    },
+    {
+      "id": "aa4f1c4cf5da09ad0b35e6ac2ce2670484aa785f617740db87a45c2b78cb7dea",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76928.html",
+      "length": 36333,
+      "publisher": "amprion",
+      "published_on": "2024-07-25T12:00:00",
+      "added_on": "2025-12-17T18:29:55.853623",
+      "title": "Presse_Detailseite_76928"
     },
     {
       "id": "af33f967ceb210d1432cf0a52dacd9ff2d287bede4645546cf1ec34b00159612",
@@ -19960,6 +22264,24 @@
       "published_on": "2024-07-19T12:00:00",
       "added_on": "2025-09-01T18:31:30.889733",
       "title": "cef_energy_eur_674_million_support_works_studies_cross_border_renewable_energy_projects"
+    },
+    {
+      "id": "61f7067e5134d59959585b99831017e3e2d892f42102035f887f49899c7ad632",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_70209.html",
+      "length": 37176,
+      "publisher": "amprion",
+      "published_on": "2024-07-18T12:00:00",
+      "added_on": "2025-12-17T18:29:55.725422",
+      "title": "Presse_Detailseite_70209"
+    },
+    {
+      "id": "6d385b5d1088542fd100098c7bbcd6c7fe389020f752afac33625d43c71fb901",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_70208.html",
+      "length": 36352,
+      "publisher": "amprion",
+      "published_on": "2024-07-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.707927",
+      "title": "Presse_Detailseite_70208"
     },
     {
       "id": "0f88b6fd2d75399304426fe4865c0073ec5743512729fc7f7971e17c0356fd07",
@@ -20007,6 +22329,15 @@
       "title": "eex_press_release"
     },
     {
+      "id": "1c745b616a0150ecb6400c53bb7de823b92253db163e414063ef5f8ac7b71a15",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_70016.html",
+      "length": 43971,
+      "publisher": "amprion",
+      "published_on": "2024-07-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.712760",
+      "title": "Presse_Detailseite_70016"
+    },
+    {
       "id": "95ec37c06a3b6ebe8f0c5f474cc8dd25cf96f4c78357167f36e7f9d689d4a527",
       "url": "https://www.smard.de/page/en/topic-article/5892/217372/monitoring-survey-2025",
       "length": 22809,
@@ -20014,6 +22345,42 @@
       "published_on": "2024-07-14T12:00:00",
       "added_on": "2025-07-31T14:55:45.466015",
       "title": "monitoring_survey_2025"
+    },
+    {
+      "id": "844e07c0dea4706de7e3ddf1ee3f8d0fc4e61073db1dc2a6eeb3d3fca6c0f1e8",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76994.html",
+      "length": 37107,
+      "publisher": "amprion",
+      "published_on": "2024-07-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.856114",
+      "title": "Presse_Detailseite_76994"
+    },
+    {
+      "id": "085b5ad3bcf688a002d1caf586892bd1d5772cbcaa2caa06c2bb2106e9b6f60b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69952.html",
+      "length": 37062,
+      "publisher": "amprion",
+      "published_on": "2024-07-10T12:00:00",
+      "added_on": "2025-12-17T18:29:55.700862",
+      "title": "Presse_Detailseite_69952"
+    },
+    {
+      "id": "2ac8ab8237f07d0ac315e54a2385b5114e30c18eb8f39bbce43716f25dd59c64",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69696.html",
+      "length": 37038,
+      "publisher": "amprion",
+      "published_on": "2024-07-09T12:00:00",
+      "added_on": "2025-12-17T18:29:55.696192",
+      "title": "Presse_Detailseite_69696"
+    },
+    {
+      "id": "bf097b565b3fcf1cf8c9c3d9dcaea9a30d7a8e6ec526fc82bd8b8d9325776445",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69632.html",
+      "length": 40006,
+      "publisher": "amprion",
+      "published_on": "2024-07-05T12:00:00",
+      "added_on": "2025-12-17T18:29:55.710280",
+      "title": "Presse_Detailseite_69632"
     },
     {
       "id": "dd60a043a895b824fb76e6741ec6da53c58ee118e8c74ebda4d064c8d36b214c",
@@ -20025,6 +22392,42 @@
       "title": "commission_guidance_facilitate_common_approach_data_interoperability_repository"
     },
     {
+      "id": "77625921af1100fc90c43dfa71f73024007c86b25ec7f16f224e72cb5068588e",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69377.html",
+      "length": 38470,
+      "publisher": "amprion",
+      "published_on": "2024-07-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.698554",
+      "title": "Presse_Detailseite_69377"
+    },
+    {
+      "id": "4d72ab015c5c3d6866c30fb3981d352677f2fd01a45a73a10134b36abb2f4169",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69376.html",
+      "length": 36879,
+      "publisher": "amprion",
+      "published_on": "2024-07-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.703236",
+      "title": "Presse_Detailseite_69376"
+    },
+    {
+      "id": "d5460573e1d890d7462f19029c1e95b5427449a52dffde1242e50d317471841f",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69442.html",
+      "length": 41706,
+      "publisher": "amprion",
+      "published_on": "2024-07-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.722816",
+      "title": "Presse_Detailseite_69442"
+    },
+    {
+      "id": "a122a72775535fd96ccada7707bf77da9df87a0557b2eb00e02cc1c15d434011",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69312.html",
+      "length": 38372,
+      "publisher": "amprion",
+      "published_on": "2024-07-01T12:00:00",
+      "added_on": "2025-12-17T18:29:55.715480",
+      "title": "Presse_Detailseite_69312"
+    },
+    {
       "id": "bc095e2cfb650d82d197e470e5655106a09dd98b846cd1340adb7f7f444868df",
       "url": "https://www.smard.de/page/en/topic-article/5892/215214/status-quo-for-the-availability-of-bidirectional-charging",
       "length": 13629,
@@ -20032,6 +22435,33 @@
       "published_on": "2024-06-30T12:00:00",
       "added_on": "2025-07-31T14:55:45.448049",
       "title": "status_quo_for_the_availability_of_bidirectional_charging"
+    },
+    {
+      "id": "76101ee017ab99a4c80f1770096e757b4b8f4bd6f6a903998cee4f40f9f138b1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_69056.html",
+      "length": 37078,
+      "publisher": "amprion",
+      "published_on": "2024-06-25T12:00:00",
+      "added_on": "2025-12-17T18:29:55.683510",
+      "title": "Presse_Detailseite_69056"
+    },
+    {
+      "id": "25bad9f7f07b670e8f0e25f6774917a778f11a93f7ecbf08e53c501f60f5dbd9",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68993.html",
+      "length": 39866,
+      "publisher": "amprion",
+      "published_on": "2024-06-25T12:00:00",
+      "added_on": "2025-12-17T18:29:55.693125",
+      "title": "Presse_Detailseite_68993"
+    },
+    {
+      "id": "a99331af274af67d4d94ed327bf3669b8cbb6560c5d6e895208a802c6634aaff",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68928.html",
+      "length": 38526,
+      "publisher": "amprion",
+      "published_on": "2024-06-24T12:00:00",
+      "added_on": "2025-12-17T18:29:55.675455",
+      "title": "Presse_Detailseite_68928"
     },
     {
       "id": "84e396512b86760d9fc56c39a22f18dc6c9d74324c35452b338c38dda613eeec",
@@ -20043,6 +22473,42 @@
       "title": "commission_welcomes_council_agreement_revision_euratom_safeguards_regulation"
     },
     {
+      "id": "57c88b8568441b1dbb4effd64cffd6167fc76159f1ccd60e15b8ca07f964cfc9",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68800.html",
+      "length": 36893,
+      "publisher": "amprion",
+      "published_on": "2024-06-20T12:00:00",
+      "added_on": "2025-12-17T18:29:55.673195",
+      "title": "Presse_Detailseite_68800"
+    },
+    {
+      "id": "4fb419d47cb00d8f11135e9512c455861b484de9c66822b3b6c2dcbec7441e37",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68737.html",
+      "length": 39419,
+      "publisher": "amprion",
+      "published_on": "2024-06-19T12:00:00",
+      "added_on": "2025-12-17T18:29:55.670708",
+      "title": "Presse_Detailseite_68737"
+    },
+    {
+      "id": "2d65f6fc964af32582c2e111adbdb203302e70c4a024e7dd44cca3e56ce3b0b8",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68736.html",
+      "length": 38911,
+      "publisher": "amprion",
+      "published_on": "2024-06-19T12:00:00",
+      "added_on": "2025-12-17T18:29:55.678114",
+      "title": "Presse_Detailseite_68736"
+    },
+    {
+      "id": "8ec0681936919650968e8806e4775517767269aa723f3a9ead78ab3b409f8e25",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_75456.html",
+      "length": 39235,
+      "publisher": "amprion",
+      "published_on": "2024-06-19T12:00:00",
+      "added_on": "2025-12-17T18:29:55.826573",
+      "title": "Presse_Detailseite_75456"
+    },
+    {
       "id": "92280afe431b03ea866f82fcad3269597d23fcbc0c93386cc3d60bf7aaa3fdc2",
       "url": "https://www.smard.de/page/en/topic-article/5892/213734/monitoring-report-2024",
       "length": 20222,
@@ -20050,6 +22516,24 @@
       "published_on": "2024-06-19T12:00:00",
       "added_on": "2025-07-31T14:55:45.454779",
       "title": "monitoring_report_2024"
+    },
+    {
+      "id": "041358e88b21d2b814c914cee8cab72bef743831710b0c0329f5d997857bb1c1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68672.html",
+      "length": 39701,
+      "publisher": "amprion",
+      "published_on": "2024-06-18T12:00:00",
+      "added_on": "2025-12-17T18:29:55.668372",
+      "title": "Presse_Detailseite_68672"
+    },
+    {
+      "id": "9175cbb04a85ba3f7c7a79635f082b56e9aad42730763705bd9eec96da52d3cb",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68416.html",
+      "length": 36800,
+      "publisher": "amprion",
+      "published_on": "2024-06-14T12:00:00",
+      "added_on": "2025-12-17T18:29:55.665898",
+      "title": "Presse_Detailseite_68416"
     },
     {
       "id": "cec785a2deaa73553362d4d2240cf6aa6fb7b1bb0643f62fe42f330bf7f20879",
@@ -20061,6 +22545,114 @@
       "title": "clean_and_secure_energy_supplies_competitive_industry_key_priorities_for_the_next_eu_lawmakers_1"
     },
     {
+      "id": "bab9e75b2f5a1da54a3984c9030eb3498c8db81ddbe95f30d02f5e90ab6fe570",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68160.html",
+      "length": 39056,
+      "publisher": "amprion",
+      "published_on": "2024-06-10T12:00:00",
+      "added_on": "2025-12-17T18:29:55.639172",
+      "title": "Presse_Detailseite_68160"
+    },
+    {
+      "id": "4fe2f5431d801575be97cbace9dcb84b9f99914842aa42998d9ac00e60538181",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_68096.html",
+      "length": 37669,
+      "publisher": "amprion",
+      "published_on": "2024-06-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.641538",
+      "title": "Presse_Detailseite_68096"
+    },
+    {
+      "id": "b716df7121e9f9e7456cc52101f133ace2f5e655013a0a343bc7f58c1d953ceb",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67968.html",
+      "length": 39804,
+      "publisher": "amprion",
+      "published_on": "2024-06-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.656147",
+      "title": "Presse_Detailseite_67968"
+    },
+    {
+      "id": "554dd3ca614dd31fe4a0f175b0e44428edfcd2ffff401b9e72eb9dfe04df3647",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67840.html",
+      "length": 38749,
+      "publisher": "amprion",
+      "published_on": "2024-06-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.620735",
+      "title": "Presse_Detailseite_67840"
+    },
+    {
+      "id": "0e62d9bbcd1c4ed64363047e3873fa7be7492d78d0171a51b047c28e70bb9283",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67904.html",
+      "length": 39402,
+      "publisher": "amprion",
+      "published_on": "2024-06-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.646411",
+      "title": "Presse_Detailseite_67904"
+    },
+    {
+      "id": "314169ce7fd295fdd0fe15731d74a4e9bf59b70886dcdc81a8ce3948350607df",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76096.html",
+      "length": 40454,
+      "publisher": "amprion",
+      "published_on": "2024-05-29T12:00:00",
+      "added_on": "2025-12-17T18:29:55.821778",
+      "title": "Presse_Detailseite_76096"
+    },
+    {
+      "id": "b0d59f4e088c20a1081c20fd41524ec931f303b5600324c027b7ea9f996d4eb2",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67520.html",
+      "length": 37135,
+      "publisher": "amprion",
+      "published_on": "2024-05-24T12:00:00",
+      "added_on": "2025-12-17T18:29:55.625644",
+      "title": "Presse_Detailseite_67520"
+    },
+    {
+      "id": "7f5d907222a785c26633ac4e420029358f928f32cf3f4bb4029c4ad0d69efb19",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67648.html",
+      "length": 38556,
+      "publisher": "amprion",
+      "published_on": "2024-05-24T12:00:00",
+      "added_on": "2025-12-17T18:29:55.636522",
+      "title": "Presse_Detailseite_67648"
+    },
+    {
+      "id": "c3e5afe3c2599a8b9561e742d0aa595d2bb78f894f2a332cd5dd60e15ed9aea5",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67456.html",
+      "length": 37204,
+      "publisher": "amprion",
+      "published_on": "2024-05-23T12:00:00",
+      "added_on": "2025-12-17T18:29:55.623211",
+      "title": "Presse_Detailseite_67456"
+    },
+    {
+      "id": "d3443e7a6c137463f71c5a1f3e7bf8e43dae2c470e28aa48cd524e80e36b653c",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67776.html",
+      "length": 37485,
+      "publisher": "amprion",
+      "published_on": "2024-05-22T12:00:00",
+      "added_on": "2025-12-17T18:29:55.618293",
+      "title": "Presse_Detailseite_67776"
+    },
+    {
+      "id": "58ac828c7c0262fbf5071786b3f71a3844b7c0130d1631ba95d1aaad4c122eb4",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67328.html",
+      "length": 38726,
+      "publisher": "amprion",
+      "published_on": "2024-05-21T12:00:00",
+      "added_on": "2025-12-17T18:29:55.627935",
+      "title": "Presse_Detailseite_67328"
+    },
+    {
+      "id": "10864980637af382fd356fabdcd8936da35e0974c0118dbe157e9e40fe33a8e1",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67200.html",
+      "length": 38948,
+      "publisher": "amprion",
+      "published_on": "2024-05-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.648891",
+      "title": "Presse_Detailseite_67200"
+    },
+    {
       "id": "5d75904c1e41db2d368580e51648a0af243a5c4dd650b197300917d5bd08fe62",
       "url": "https://www.smard.de/page/home/topic-article/209944/213590/netzengpassmanagement-im-jahr-2023",
       "length": 16526,
@@ -20070,6 +22662,24 @@
       "title": "netzengpassmanagement_im_jahr_2023"
     },
     {
+      "id": "d0979cb89c261ee32da2edd392b2f1391880da83e9acd79ae70ed262dd2db275",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67073.html",
+      "length": 37817,
+      "publisher": "amprion",
+      "published_on": "2024-05-14T12:00:00",
+      "added_on": "2025-12-17T18:29:55.660906",
+      "title": "Presse_Detailseite_67073"
+    },
+    {
+      "id": "55f43e5cddc72aa9091482c248bad5c9a8a9b7077a5af66efb6fa9a3806e7d26",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_67072.html",
+      "length": 39699,
+      "publisher": "amprion",
+      "published_on": "2024-05-13T12:00:00",
+      "added_on": "2025-12-17T18:29:55.651342",
+      "title": "Presse_Detailseite_67072"
+    },
+    {
       "id": "02c29cd7f3104314ea395ecb277a2aebbfbfcb20503d783280445f7fe03bf373",
       "url": "https://www.acer.europa.eu/news/acer-approves-european-resource-adequacy-assessment-eraa-marking-milestone-security-electricity-supply-across-eu-member-states",
       "length": 56668,
@@ -20077,6 +22687,24 @@
       "published_on": "2024-05-08T12:00:00",
       "added_on": "2025-08-14T18:35:21.684979",
       "title": "acer_approves_european_resource_adequacy_assessment_eraa_marking_milestone_security_electricity_supply_across_eu_member_states"
+    },
+    {
+      "id": "be62dca35b9a1957c8bceddfeeea40d1c29b7865ac2ae35c7156541fe48036e4",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66944.html",
+      "length": 36927,
+      "publisher": "amprion",
+      "published_on": "2024-05-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.643869",
+      "title": "Presse_Detailseite_66944"
+    },
+    {
+      "id": "790dec7a86cd86c4b1a495450900c2d1569cddb9fd14d8c541912787237bee9c",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66880.html",
+      "length": 40481,
+      "publisher": "amprion",
+      "published_on": "2024-05-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.663430",
+      "title": "Presse_Detailseite_66880"
     },
     {
       "id": "337218e9df21e2576a0ddf8553c28949d8dc12f887e802a91f83a545dece2cc9",
@@ -20178,6 +22806,15 @@
       "title": "how_renewables_ramp_up_and_no_regret_use_of_hydrogen_can_boost_southeast_asian_industry"
     },
     {
+      "id": "3b4e35d46af898266d816c63303cdf5a10a9eca20135f9acdcd0f7f24425615b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66498.html",
+      "length": 38184,
+      "publisher": "amprion",
+      "published_on": "2024-04-26T12:00:00",
+      "added_on": "2025-12-17T18:29:55.658653",
+      "title": "Presse_Detailseite_66498"
+    },
+    {
       "id": "8a220b78180d16c7de79bbe0b050de37c325ad93557f3dd84472015bd5b724a6",
       "url": "https://energy.ec.europa.eu/news/commission-publishes-new-recommendations-draft-national-energy-and-climate-plans-bulgaria-and-poland-2024-04-26_en",
       "length": 21263,
@@ -20194,6 +22831,87 @@
       "published_on": "2024-04-24T12:00:00",
       "added_on": "2025-07-31T11:00:00.442361",
       "title": "new_partnership_to_accelerate_the_transition_to_net_zero_in_southeast_asia"
+    },
+    {
+      "id": "6ec4291cc8e66472cf8044373a8892e294c510597fcda0b215129d80dd189cd2",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66240.html",
+      "length": 38100,
+      "publisher": "amprion",
+      "published_on": "2024-04-24T12:00:00",
+      "added_on": "2025-12-17T18:29:55.633536",
+      "title": "Presse_Detailseite_66240"
+    },
+    {
+      "id": "7be670f025a70909e4d3442a3328cd9ecd9708743f5bd8a3941b4bb5751e616b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66048.html",
+      "length": 36792,
+      "publisher": "amprion",
+      "published_on": "2024-04-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.613364",
+      "title": "Presse_Detailseite_66048"
+    },
+    {
+      "id": "cf44955f6e3a15796660df4ac8c919d7125f5023ce11ddfd3e5d0b38a3ba8753",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66112.html",
+      "length": 36302,
+      "publisher": "amprion",
+      "published_on": "2024-04-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.630482",
+      "title": "Presse_Detailseite_66112"
+    },
+    {
+      "id": "ab984b1073e3f4d3084737de777e357740c4069cde2d4541df48dfc1172c1dab",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_66049.html",
+      "length": 37783,
+      "publisher": "amprion",
+      "published_on": "2024-04-17T12:00:00",
+      "added_on": "2025-12-17T18:29:55.653751",
+      "title": "Presse_Detailseite_66049"
+    },
+    {
+      "id": "22adc18c837fc58bab49610508f6904fd31993d280b0a4476956924d41ebf04b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65984.html",
+      "length": 38918,
+      "publisher": "amprion",
+      "published_on": "2024-04-16T12:00:00",
+      "added_on": "2025-12-17T18:29:55.615733",
+      "title": "Presse_Detailseite_65984"
+    },
+    {
+      "id": "060fad4361b6b5cd38ee4bcea1f5ee655fa2d30b061bfab05047eb61c9bdedd8",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65856.html",
+      "length": 39697,
+      "publisher": "amprion",
+      "published_on": "2024-04-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.610631",
+      "title": "Presse_Detailseite_65856"
+    },
+    {
+      "id": "4ec660381fc2b360e8c7b0d30fe43a921b79463277fa8d2cf2a55ea74357ee3d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65792.html",
+      "length": 38199,
+      "publisher": "amprion",
+      "published_on": "2024-04-12T12:00:00",
+      "added_on": "2025-12-17T18:29:55.605410",
+      "title": "Presse_Detailseite_65792"
+    },
+    {
+      "id": "c0cb2f5316a76e9be69ef08346d2d3b8392370fde085e0c2fa906d9aa944ef2d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65793.html",
+      "length": 37633,
+      "publisher": "amprion",
+      "published_on": "2024-04-12T12:00:00",
+      "added_on": "2025-12-17T18:29:55.608249",
+      "title": "Presse_Detailseite_65793"
+    },
+    {
+      "id": "50b5f76fa6315f7970a59c683a4171c5506e21dab11ce8eb932eff9d066c7ff8",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65664.html",
+      "length": 41714,
+      "publisher": "amprion",
+      "published_on": "2024-04-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.602060",
+      "title": "Presse_Detailseite_65664"
     },
     {
       "id": "9465180f0764b5c1e2720d2d3632b5f653f8442087d7ed5908203ea401609e1e",
@@ -20223,6 +22941,15 @@
       "title": "boosting_flexibility_in_distribution_systems"
     },
     {
+      "id": "557ace7edcb7de9d1d546809ffef0b9be16d7014951d03dcb1b8bc0c5f1d2745",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65600.html",
+      "length": 37857,
+      "publisher": "amprion",
+      "published_on": "2024-04-10T12:00:00",
+      "added_on": "2025-12-17T18:29:55.592231",
+      "title": "Presse_Detailseite_65600"
+    },
+    {
       "id": "4ba0a338915f2ea884fb66848d700eb2aedb55e414f7901f9ed15fa0f3e5cdec",
       "url": "https://www.agora-energiewende.org/news-events/implications-of-cop28-for-the-energy-transition",
       "length": 14746,
@@ -20241,6 +22968,69 @@
       "title": "166_key_cross_border_energy_projects_published"
     },
     {
+      "id": "b148998e4d7eb569edc19afbdf202844d76cc0959f17f7668990052d90224079",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65216.html",
+      "length": 36168,
+      "publisher": "amprion",
+      "published_on": "2024-04-05T12:00:00",
+      "added_on": "2025-12-17T18:29:55.572874",
+      "title": "Presse_Detailseite_65216"
+    },
+    {
+      "id": "6023f9b07615e644c3a5fa6016fa4b6dcae72db7c4c478bd09777dee01d6e2b9",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65217.html",
+      "length": 36008,
+      "publisher": "amprion",
+      "published_on": "2024-04-05T12:00:00",
+      "added_on": "2025-12-17T18:29:55.599769",
+      "title": "Presse_Detailseite_65217"
+    },
+    {
+      "id": "3f403c74d26932315f8c1cca96a83748bcd4baa872bdd946c435f46d5ac3e671",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76104.html",
+      "length": 39455,
+      "publisher": "amprion",
+      "published_on": "2024-04-05T12:00:00",
+      "added_on": "2025-12-17T18:29:55.833720",
+      "title": "Presse_Detailseite_76104"
+    },
+    {
+      "id": "d3284ac5d993e5d2d14f8fb9d1243c264a9910b0c8ef897c18ff7a96597bbe5c",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65152.html",
+      "length": 39129,
+      "publisher": "amprion",
+      "published_on": "2024-04-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.560712",
+      "title": "Presse_Detailseite_65152"
+    },
+    {
+      "id": "89941f276185964f4b2416100bb3573a269234cf9e46d7aa5b92ce1364d76d6b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65088.html",
+      "length": 38642,
+      "publisher": "amprion",
+      "published_on": "2024-04-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.563214",
+      "title": "Presse_Detailseite_65088"
+    },
+    {
+      "id": "4ab1e0fca25d776f84ed5273db5293a81f82548917bed98094f23d0ab6557e5d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_65024.html",
+      "length": 37452,
+      "publisher": "amprion",
+      "published_on": "2024-03-27T12:00:00",
+      "added_on": "2025-12-17T18:29:55.568188",
+      "title": "Presse_Detailseite_65024"
+    },
+    {
+      "id": "14f86b2487f606546bc2b84b06ef00df1ce38b25a701da1cd82d4dcf975ecf43",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64769.html",
+      "length": 38952,
+      "publisher": "amprion",
+      "published_on": "2024-03-25T12:00:00",
+      "added_on": "2025-12-17T18:29:55.570536",
+      "title": "Presse_Detailseite_64769"
+    },
+    {
       "id": "e457451a2c58959d60ee889f16c6e59d1fb1e4ec12f623754b3b67f3f7a960d8",
       "url": "https://www.agora-energiewende.org/news-events/between-cbam-equity-and-ambition",
       "length": 29730,
@@ -20248,6 +23038,123 @@
       "published_on": "2024-03-21T12:00:00",
       "added_on": "2025-08-13T18:37:19.903665",
       "title": "between_cbam_equity_and_ambition"
+    },
+    {
+      "id": "054ed0722c384406833bc05568219c8479e90fe5690907805fdca5ba7c248f29",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64704.html",
+      "length": 37103,
+      "publisher": "amprion",
+      "published_on": "2024-03-19T12:00:00",
+      "added_on": "2025-12-17T18:29:55.555748",
+      "title": "Presse_Detailseite_64704"
+    },
+    {
+      "id": "2233c608de2e1de3304a91df00f61bdb2e3f1985ac90f6f3ade159254b0812ab",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64449.html",
+      "length": 37839,
+      "publisher": "amprion",
+      "published_on": "2024-03-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.553378",
+      "title": "Presse_Detailseite_64449"
+    },
+    {
+      "id": "82debefa957abb6b25dccae597564512aeee349b1dd4be92e757f62f912f9926",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64448.html",
+      "length": 37477,
+      "publisher": "amprion",
+      "published_on": "2024-03-14T12:00:00",
+      "added_on": "2025-12-17T18:29:55.565552",
+      "title": "Presse_Detailseite_64448"
+    },
+    {
+      "id": "e180a86796b930e03926ec07393d6090db15852327fc287bd6a23957a79ff956",
+      "url": "https://www.acer.europa.eu/news/acer-suggests-improvements-electricity-regional-coordination-centres-reporting",
+      "length": 48736,
+      "publisher": "acer",
+      "published_on": "2024-03-13T12:00:00",
+      "added_on": "2025-12-15T18:19:53.866961",
+      "title": "acer_suggests_improvements_electricity_regional_coordination_centres_reporting"
+    },
+    {
+      "id": "a98fde99d06d263fffa46cfbd36fb64c9cb1facf211303fea734a763cb8df9e6",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64320.html",
+      "length": 38423,
+      "publisher": "amprion",
+      "published_on": "2024-03-13T12:00:00",
+      "added_on": "2025-12-17T18:29:55.558305",
+      "title": "Presse_Detailseite_64320"
+    },
+    {
+      "id": "a92e4639958d7956664baf69f30884adc3de130528d7b2760d1413a438167ce3",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64192.html",
+      "length": 39798,
+      "publisher": "amprion",
+      "published_on": "2024-03-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.575121",
+      "title": "Presse_Detailseite_64192"
+    },
+    {
+      "id": "676383f1e11074fa70d5af2022f92b90bc0b9df002e00ab469d325b2836b4b56",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64128.html",
+      "length": 39766,
+      "publisher": "amprion",
+      "published_on": "2024-03-07T12:00:00",
+      "added_on": "2025-12-17T18:29:55.577567",
+      "title": "Presse_Detailseite_64128"
+    },
+    {
+      "id": "bfb1b63a139c48c60ed374b6e55dc2406bf0541d1b2ce3b75ff924a60c53c65b",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76097.html",
+      "length": 37587,
+      "publisher": "amprion",
+      "published_on": "2024-03-07T12:00:00",
+      "added_on": "2025-12-17T18:29:55.824275",
+      "title": "Presse_Detailseite_76097"
+    },
+    {
+      "id": "af1e8a2f2fb8e0a7a5543f3e299bb87cea86135e579a9cb2625baf45c692e6ec",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_64000.html",
+      "length": 39452,
+      "publisher": "amprion",
+      "published_on": "2024-03-06T12:00:00",
+      "added_on": "2025-12-17T18:29:55.589720",
+      "title": "Presse_Detailseite_64000"
+    },
+    {
+      "id": "9d930a23ff4a95c5217e11be90fbd21358065f6e577d930b461da117d98e83b0",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_63936.html",
+      "length": 38632,
+      "publisher": "amprion",
+      "published_on": "2024-03-05T12:00:00",
+      "added_on": "2025-12-17T18:29:55.582426",
+      "title": "Presse_Detailseite_63936"
+    },
+    {
+      "id": "45606457bff3777aa1b59b510d90ba120687a0608498d42d7844b4e50af5ec0d",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_63872.html",
+      "length": 37249,
+      "publisher": "amprion",
+      "published_on": "2024-03-04T12:00:00",
+      "added_on": "2025-12-17T18:29:55.587384",
+      "title": "Presse_Detailseite_63872"
+    },
+    {
+      "id": "ce71033c743666c2fd21f168b6ba56e4b38d8c6eb815f1daa9e5a1a53e093bff",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_63680.html",
+      "length": 37311,
+      "publisher": "amprion",
+      "published_on": "2024-03-01T12:00:00",
+      "added_on": "2025-12-17T18:29:55.580148",
+      "title": "Presse_Detailseite_63680"
+    },
+    {
+      "id": "c9103f3062075728d14254535ecd2d93e157dfce29eb8bc640a2b39c622cd658",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_63616.html",
+      "length": 38964,
+      "publisher": "amprion",
+      "published_on": "2024-03-01T12:00:00",
+      "added_on": "2025-12-17T18:29:55.597190",
+      "title": "Presse_Detailseite_63616"
     },
     {
       "id": "471945c9cd63dcac257e9c77bfb7dd9076683cbfdb1d828c264ca265bd9d4be5",
@@ -20277,6 +23184,15 @@
       "title": "facilitating_green_loans_for_a_sustainable_energy_transition_in_pakistan"
     },
     {
+      "id": "eb99b43e8f117daea317fb385d220b5c5e61d7212a92c704eb2a79daeb1656c6",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_63232.html",
+      "length": 37430,
+      "publisher": "amprion",
+      "published_on": "2024-02-23T12:00:00",
+      "added_on": "2025-12-17T18:29:55.594736",
+      "title": "Presse_Detailseite_63232"
+    },
+    {
       "id": "3640607895913323c1261ea0940343d5f2528d5fa0645730033d792468a83739",
       "url": "https://energy.ec.europa.eu/news/commission-publishes-new-recommendations-draft-necps-belgium-ireland-and-latvia-2024-02-23_en",
       "length": 22370,
@@ -20286,6 +23202,60 @@
       "title": "commission_publishes_new_recommendations_draft_necps_belgium_ireland_and_latvia"
     },
     {
+      "id": "e0775bfadb4d390316a536843eba47cbf27c759cec00f63fbe1afe7e9f6093bc",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62912.html",
+      "length": 39790,
+      "publisher": "amprion",
+      "published_on": "2024-02-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.548576",
+      "title": "Presse_Detailseite_62912"
+    },
+    {
+      "id": "0f94efdcfab27eb08ecbd0863abd3c98f7bdb38522e54ef31223322ade117379",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62976.html",
+      "length": 37276,
+      "publisher": "amprion",
+      "published_on": "2024-02-15T12:00:00",
+      "added_on": "2025-12-17T18:29:55.551108",
+      "title": "Presse_Detailseite_62976"
+    },
+    {
+      "id": "b02896f8d0cf3c4769b9b0fc4706620cfc9134aa07b434e0df0dbca9cfa2a2f7",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62784.html",
+      "length": 39135,
+      "publisher": "amprion",
+      "published_on": "2024-02-13T12:00:00",
+      "added_on": "2025-12-17T18:29:55.541161",
+      "title": "Presse_Detailseite_62784"
+    },
+    {
+      "id": "41bcf1cdbb9011b6f0f6d061d320ba281846d8bdcea3b41ebb013e150f514507",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_76098.html",
+      "length": 37254,
+      "publisher": "amprion",
+      "published_on": "2024-02-08T12:00:00",
+      "added_on": "2025-12-17T18:29:55.811608",
+      "title": "Presse_Detailseite_76098"
+    },
+    {
+      "id": "c399a645889fcc3968112ced567d3274f38b733b578032760a9dcd2dd9a9a6fb",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62400.html",
+      "length": 37104,
+      "publisher": "amprion",
+      "published_on": "2024-02-07T12:00:00",
+      "added_on": "2025-12-17T18:29:55.538785",
+      "title": "Presse_Detailseite_62400"
+    },
+    {
+      "id": "149e40fbe66c6a48cddbbbdbf39c9927c139da1f72c40579b28546836fcdb995",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62464.html",
+      "length": 37423,
+      "publisher": "amprion",
+      "published_on": "2024-02-07T12:00:00",
+      "added_on": "2025-12-17T18:29:55.546176",
+      "title": "Presse_Detailseite_62464"
+    },
+    {
       "id": "a5d6ee997b18700fb95a13e465963eccb26d56055709501a9b45ed78496a8a21",
       "url": "https://www.smard.de/page/home/topic-article/209944/212762/hohe-einspeisung-durch-windkraft",
       "length": 18423,
@@ -20293,6 +23263,24 @@
       "published_on": "2024-02-07T12:00:00",
       "added_on": "2025-07-31T15:55:58.221416",
       "title": "hohe_einspeisung_durch_windkraft"
+    },
+    {
+      "id": "584f92cc50ee6ff9b12edf6cd9a91f139a177131973be04f8cff7a03236bc85a",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62336.html",
+      "length": 37335,
+      "publisher": "amprion",
+      "published_on": "2024-01-31T12:00:00",
+      "added_on": "2025-12-17T18:29:55.536446",
+      "title": "Presse_Detailseite_62336"
+    },
+    {
+      "id": "2fa7f9369b1d490ed36de417dd79e0540cf06e2c661de1029b2adb8bf39da687",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62272.html",
+      "length": 38983,
+      "publisher": "amprion",
+      "published_on": "2024-01-29T12:00:00",
+      "added_on": "2025-12-17T18:29:55.533868",
+      "title": "Presse_Detailseite_62272"
     },
     {
       "id": "1f68175854a9452f4fe2e557be2952dcefa073501e2108a62a9b1bf7c738a53d",
@@ -20376,6 +23364,24 @@
       "title": "eu_climate_and_energy_policy_in_the_decisive_decade"
     },
     {
+      "id": "ceab6344ad1d18cceb27a422fb8f2c0256d75ae46f4c204d95c2a52a49ec39d0",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62208.html",
+      "length": 37063,
+      "publisher": "amprion",
+      "published_on": "2024-01-24T12:00:00",
+      "added_on": "2025-12-17T18:29:55.543706",
+      "title": "Presse_Detailseite_62208"
+    },
+    {
+      "id": "ab310fd0795de54f147bf4f1b0087fc7225f9ac9906c5a5f53ede35d944085f5",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_62144.html",
+      "length": 36669,
+      "publisher": "amprion",
+      "published_on": "2024-01-19T12:00:00",
+      "added_on": "2025-12-17T18:29:55.519240",
+      "title": "Presse_Detailseite_62144"
+    },
+    {
       "id": "b725859348da86613e4af1365482148a1ac21a0c30b5dfee72b3c017dd963885",
       "url": "https://www.smard.de/page/home/topic-article/211784/215774/volumen-und-kosten-gesunken",
       "length": 22278,
@@ -20403,6 +23409,24 @@
       "title": "lower_volume_and_costs"
     },
     {
+      "id": "eac734985f56f2ce24140953d4599e7eeaa19de31166358a6db8ce6d7df06a5f",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_61888.html",
+      "length": 36378,
+      "publisher": "amprion",
+      "published_on": "2024-01-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.514616",
+      "title": "Presse_Detailseite_61888"
+    },
+    {
+      "id": "973687755c6195d2e6214e0541510590f44546cc4ff2d147d28354cf1cdda938",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_61952.html",
+      "length": 40044,
+      "publisher": "amprion",
+      "published_on": "2024-01-11T12:00:00",
+      "added_on": "2025-12-17T18:29:55.528223",
+      "title": "Presse_Detailseite_61952"
+    },
+    {
       "id": "a8e0ed48434f05e79aa337b0db45544121f9a93213d0dab48c70f33c45d248d5",
       "url": "https://www.eex.com/en/newsroom/detail?chash=00ad07ff4bc06a0bd5209d69f0480ab0&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14657",
       "length": 33446,
@@ -20419,6 +23443,15 @@
       "published_on": "2024-01-04T12:00:00",
       "added_on": "2025-07-31T15:55:58.219979",
       "title": "gasversorgung_im_jahr_2023"
+    },
+    {
+      "id": "111e75c41e0bcd7f928292c292ccbb7c912db78bc33d4fec1c704695b91d3554",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_61632.html",
+      "length": 38740,
+      "publisher": "amprion",
+      "published_on": "2024-01-03T12:00:00",
+      "added_on": "2025-12-17T18:29:55.521637",
+      "title": "Presse_Detailseite_61632"
     },
     {
       "id": "fbea2a06f1340c0f6914be01b668e48c4dd5cca039ea80a7fc53b9e370955854",

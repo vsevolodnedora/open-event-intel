@@ -8,6 +8,7 @@ import uuid
 from contextlib import contextmanager
 from datetime import datetime
 from typing import Any, Generator, Iterable, Iterator, List, Optional, Tuple
+from zoneinfo import ZoneInfo
 
 from src.data_models import Publication
 from src.logger import get_logger
@@ -22,6 +23,8 @@ from src.tkg.data_models import (
     Triplet,
     parse_date_str,
 )
+from src.tkg.utils import ensure_tz
+from src.tkg.config import TZ
 
 logger = get_logger(__name__)
 
@@ -29,28 +32,31 @@ logger = get_logger(__name__)
 
 class TKGDatabaseError(Exception):
     """Base exception for all database errors."""
+
     pass
 
 
 class ValidationError(TKGDatabaseError):
     """Raised when data validation fails."""
+
     pass
 
 
 class IntegrityError(TKGDatabaseError):
     """Raised when referential integrity is violated."""
+
     pass
 
 
 class NotFoundError(TKGDatabaseError):
     """Raised when a required entity is not found."""
+
     pass
 
 
 # ==================== Database Version ====================
 
 DB_VERSION = 3  # Incremented due to addition of confidence fields
-
 
 # ==================== Production-Ready TKGDatabase ====================
 
@@ -91,11 +97,10 @@ class TKGDatabase:
         """
         Initialize database with proper configuration.
 
-        Args:
-            db_path: Path to SQLite database file
-            memory: Use in-memory database (for testing)
-            refresh: Drop and recreate all tables
-            enable_wal: Enable Write-Ahead Logging for better concurrency
+        :param db_path: Path to SQLite database file
+        :param memory: Use in-memory database (for testing)
+        :param refresh: Drop and recreate all tables
+        :param enable_wal: Enable Write-Ahead Logging for better concurrency
         """
         self.db_path = db_path
         self._conn: Optional[sqlite3.Connection] = None
@@ -369,11 +374,11 @@ class TKGDatabase:
         table = f"raw_{table_name}" if raw else table_name
 
         cursor = self._conn.cursor()
-        cursor.execute(f"DELETE FROM {table};")
+        cursor.execute(f"DELETE FROM {table};")  # noqa: S608
         self._conn.commit()
 
         # Get the count of remaining rows to verify deletion
-        cursor.execute(f"SELECT COUNT(*) FROM {table};")
+        cursor.execute(f"SELECT COUNT(*) FROM {table};")  # noqa: S608
         count = cursor.fetchone()[0]
 
         logger.info(f"Cleared table '{table}'. Remaining rows: {count}")
@@ -437,14 +442,13 @@ class TKGDatabase:
 
     # ==================== Validation ====================
 
-    def _validate_temporal_range(
-            self, valid_at: Optional[datetime], invalid_at: Optional[datetime]
-    ) -> None:
-        """Validate temporal range is coherent."""
+    def _validate_temporal_range(self, valid_at: Optional[datetime], invalid_at: Optional[datetime]) -> None:
+        """Validate temporal range is coherent (TZ)."""
+        valid_at = ensure_tz(valid_at, "valid_at")
+        invalid_at = ensure_tz(invalid_at, "invalid_at")
+
         if valid_at and invalid_at and valid_at > invalid_at:
-            raise ValidationError(
-                f"valid_at ({valid_at}) must be before invalid_at ({invalid_at})"
-            )
+            raise ValidationError(f"valid_at ({valid_at}) must be before invalid_at ({invalid_at})")
 
     def _validate_embedding(self, embedding: Optional[List[float]]) -> None:
         """Validate embedding dimensions and values."""
@@ -465,7 +469,7 @@ class TKGDatabase:
         cursor = self._conn.cursor()
         cursor.execute("SELECT 1 FROM publications WHERE id = ? LIMIT 1;", (publication_id,))
         if not cursor.fetchone():
-            raise NotFoundError(f"Publication {publication_id} not found")
+            raise NotFoundError(f"Required publication: '{publication_id}' not found")
 
     def _validate_statement_exists(self, statement_id: uuid.UUID) -> None:
         """Ensure statement exists in database."""
@@ -584,15 +588,11 @@ class TKGDatabase:
         """
         Insert or update a publication.
 
-        Args:
-            publication: Publication to insert
-            overwrite: If True, update existing publication
-
-        Returns:
-            True if publication already existed, False otherwise
-
-        Raises:
-            ValidationError: If publication data is invalid
+        :param publication: Publication to insert
+        :param overwrite: If True, update existing publication
+        :returns: True if publication already existed, False otherwise
+        :raises ValidationError: If publication data is invalid
+        :return bool: True if publication was inserted, False otherwise
         """
         # Validate
         if not publication.id:
@@ -657,8 +657,8 @@ class TKGDatabase:
         """
         Get publication by ID.
 
-        Raises:
-            NotFoundError: If publication doesn't exist
+        :raises NotFoundError: If publication doesn't exist
+        :returns: Publication
         """
         cursor = self._conn.cursor()
         cursor.execute(
@@ -690,12 +690,9 @@ class TKGDatabase:
         """
         Iterate over all publications in batches (memory efficient).
 
-        Args:
-            batch_size: Number of publications per batch
-            order_by: SQL ORDER BY clause
-
-        Yields:
-            Publication objects
+        :param batch_size: Number of publications per batch
+        :param order_by: SQL ORDER BY clause
+        :yields: Publication
         """
         cursor = self._conn.cursor()
         cursor.execute(
@@ -728,22 +725,15 @@ class TKGDatabase:
 
     # ==================== Statement Operations ====================
 
-    def insert_statement(
-            self, publication_id: str, statement: RawStatement
-    ) -> uuid.UUID:
+    def insert_statement(self, publication_id: str, statement: RawStatement) -> uuid.UUID:
         """
         Insert a statement and return its ID.
 
-        Args:
-            publication_id: ID of the parent publication
-            statement: Statement to insert
-
-        Returns:
-            UUID of inserted statement (which will also be the event ID)
-
-        Raises:
-            ValidationError: If data is invalid
-            NotFoundError: If publication doesn't exist
+        :param publication_id: ID of the parent publication
+        :param statement: Statement to insert
+        :returns: UUID of inserted statement (which will also be the event ID)
+        :raises ValidationError: If data is invalid or statement ID already exists
+        :raises NotFoundError: If publication doesn't exist
         """
         # Validate
         self._validate_publication_exists(publication_id)
@@ -751,11 +741,66 @@ class TKGDatabase:
         if not statement.statement:
             raise ValidationError("Statement text cannot be empty")
 
-        stmt_id = statement.id if hasattr(statement, "id") and statement.id else uuid.uuid4()
-        created_at = datetime.utcnow()
+        stmt_id = statement.id
+        if stmt_id is None:
+            raise ValidationError("Statement ID cannot be None")
+
+        # Check if statement ID already exists
+        cursor = self._conn.cursor()
+        cursor.execute(
+            """
+            SELECT publication_id
+            FROM statements
+            WHERE id = ?;
+            """,
+            (self._uuid_to_blob(stmt_id),),
+        )
+        existing_row = cursor.fetchone()
+
+        if existing_row:
+            existing_pub_id = existing_row["publication_id"]
+
+            # Get publication details
+            pub_cursor = self._conn.cursor()
+            pub_cursor.execute(
+                """
+                SELECT published_on, title
+                FROM publications
+                WHERE id = ?;
+                """,
+                (existing_pub_id,),
+            )
+            pub_row = pub_cursor.fetchone()
+
+            if pub_row:
+                pub_date = pub_row["published_on"] or "unknown_date"
+                pub_title = pub_row["title"] or "unknown_title"
+                pub_info = f"{pub_date}__{pub_title}"
+            else:
+                pub_info = f"{existing_pub_id}__unknown"
+
+            # Get all statement IDs for that publication
+            stmt_cursor = self._conn.cursor()
+            stmt_cursor.execute(
+                """
+                SELECT id
+                FROM statements
+                WHERE publication_id = ?;
+                """,
+                (existing_pub_id,),
+            )
+            all_stmt_ids = [self._blob_to_uuid(row["id"]) for row in stmt_cursor.fetchall()]
+
+            # Log the conflict
+            logger.error(f"Statement ID conflict detected!\nExisting publication: {pub_info}\nAll statement IDs in publication: {all_stmt_ids}\nConflicting ID being inserted: {stmt_id}")
+
+            raise ValidationError(f"Statement ID {stmt_id} already exists in publication {existing_pub_id}")
+
+        # Current creation time with right timezone
+        created_at = datetime.now(TZ)
 
         # Get temporal_confidence with default if not present
-        temporal_confidence = getattr(statement, 'temporal_confidence', TemporalConfidence.MEDIUM)
+        temporal_confidence = getattr(statement, "temporal_confidence", TemporalConfidence.MEDIUM)
 
         with self.transaction():
             self._conn.execute(
@@ -782,11 +827,8 @@ class TKGDatabase:
         """
         Get statement by ID.
 
-        Returns:
-            Tuple of (publication_id, statement)
-
-        Raises:
-            NotFoundError: If statement doesn't exist
+        :returns: Tuple of (publication_id, statement)
+        :raises NotFoundError: If statement doesn't exist
         """
         cursor = self._conn.cursor()
         cursor.execute(
@@ -822,8 +864,7 @@ class TKGDatabase:
         """
         Iterate over statements for a publication (memory efficient).
 
-        Yields:
-            Tuples of (statement_id, statement)
+        :yields: Tuples of (statement_id, statement)
         """
         cursor = self._conn.cursor()
         cursor.execute(
@@ -869,13 +910,10 @@ class TKGDatabase:
         """
         Insert an event (event.id must equal the statement.id).
 
-        Args:
-            event: TemporalEvent to insert (event.id is used as both event and statement ID)
-            raw: Insert into raw_events table
-
-        Raises:
-            ValidationError: If data is invalid
-            NotFoundError: If referenced entities don't exist
+        :param event: TemporalEvent to insert (event.id is used as both event and statement ID)
+        :param raw: Insert into raw_events table
+        :raises ValidationError: If data is invalid
+        :raises NotFoundError: If referenced entities don't exist
         """
         # Validate that the statement exists with the same ID
         self._validate_statement_exists(event.id)
@@ -898,9 +936,9 @@ class TKGDatabase:
         table = "raw_events" if raw else "events"
 
         # Get confidence fields with defaults
-        temporal_confidence = getattr(event, 'temporal_confidence', TemporalConfidence.MEDIUM)
-        valid_at_confidence = getattr(event, 'valid_at_confidence', TemporalConfidence.LOW)
-        invalid_at_confidence = getattr(event, 'invalid_at_confidence', TemporalConfidence.LOW)
+        temporal_confidence = getattr(event, "temporal_confidence", TemporalConfidence.MEDIUM)
+        valid_at_confidence = getattr(event, "valid_at_confidence", TemporalConfidence.LOW)
+        invalid_at_confidence = getattr(event, "invalid_at_confidence", TemporalConfidence.LOW)
 
         with self.transaction():
             # Insert event with id that matches statement_id
@@ -908,7 +946,7 @@ class TKGDatabase:
                 f"""
                 INSERT INTO {table}
                 (id, publication_id, statement, statement_type, temporal_type, temporal_confidence,
-                 created_at, valid_at, valid_at_confidence, expired_at, invalid_at, 
+                 created_at, valid_at, valid_at_confidence, expired_at, invalid_at,
                  invalid_at_confidence, invalidated_by, embedding)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                 """,  # noqa: S608
@@ -936,15 +974,10 @@ class TKGDatabase:
         """
         Get event by ID with linked triplets.
 
-        Args:
-            event_id: ID of the event (same as statement ID)
-            raw: Use raw_events table
-
-        Returns:
-            TemporalEvent with associated triplets
-
-        Raises:
-            NotFoundError: If event doesn't exist
+        :param event_id: ID of the event (same as statement ID)
+        :param raw: Use raw_events table
+        :returns: TemporalEvent with associated triplets
+        :raises NotFoundError: If event doesn't exist
         """
         table = "raw_events" if raw else "events"
         triplet_table = "raw_triplets" if raw else "triplets"
@@ -953,7 +986,7 @@ class TKGDatabase:
         cursor.execute(
             f"""
             SELECT id, publication_id, statement, statement_type, temporal_type, temporal_confidence,
-                   created_at, valid_at, valid_at_confidence, expired_at, invalid_at, 
+                   created_at, valid_at, valid_at_confidence, expired_at, invalid_at,
                    invalid_at_confidence, invalidated_by, embedding
             FROM {table}
             WHERE id = ?;
@@ -1013,7 +1046,7 @@ class TKGDatabase:
                 [
                     (
                         self._datetime_to_text(event.invalid_at),
-                        self._enum_to_text(getattr(event, 'invalid_at_confidence', TemporalConfidence.LOW)),
+                        self._enum_to_text(getattr(event, "invalid_at_confidence", TemporalConfidence.LOW)),
                         self._datetime_to_text(event.expired_at),
                         self._uuid_to_blob(event.invalidated_by),
                         self._uuid_to_blob(event.id),
@@ -1039,10 +1072,10 @@ class TKGDatabase:
         cursor = self._conn.cursor()
         cursor.execute(
             f"""
-            SELECT 
+            SELECT
                 e.id, e.publication_id, e.statement, e.statement_type,
-                e.temporal_type, e.temporal_confidence, e.created_at, 
-                e.valid_at, e.valid_at_confidence, e.expired_at, 
+                e.temporal_type, e.temporal_confidence, e.created_at,
+                e.valid_at, e.valid_at_confidence, e.expired_at,
                 e.invalid_at, e.invalid_at_confidence, e.invalidated_by, e.embedding,
                 GROUP_CONCAT(HEX(t.id)) as triplet_ids
             FROM {table} e
@@ -1103,17 +1136,13 @@ class TKGDatabase:
     ) -> TemporalEvent:
         """
         Get the event for a given statement.
+
         Since event.id == statement.id, this is equivalent to get_event_by_id.
 
-        Args:
-            statement_id: ID of the statement (same as event ID)
-            raw: Use raw_events table
-
-        Returns:
-            TemporalEvent
-
-        Raises:
-            NotFoundError: If event doesn't exist
+        :param statement_id: ID of the statement (same as event ID)
+        :param raw: Use raw_events table
+        :returns: TemporalEvent
+        :raises NotFoundError: If event doesn't exist
         """
         # Since event.id == statement.id, we can directly use get_event_by_id
         return self.get_event_by_id(statement_id, raw=raw)
@@ -1126,14 +1155,11 @@ class TKGDatabase:
         """
         Insert a triplet linked to an event.
 
-        Args:
-            triplet: Triplet to insert
-            event_id: ID of the associated event (same as statement ID)
-            raw: Insert into raw_triplets table
-
-        Raises:
-            ValidationError: If data is invalid
-            NotFoundError: If statement/event doesn't exist
+        :param triplet: Triplet to insert
+        :param event_id: ID of the associated event (same as statement ID)
+        :param raw: Insert into raw_triplets table
+        :raises ValidationError: If data is invalid
+        :raises NotFoundError: If statement/event doesn't exist
         """
         # Validate that the statement/event exists
         self._validate_statement_exists(event_id)
@@ -1207,12 +1233,9 @@ class TKGDatabase:
         """
         Get all triplets for an event.
 
-        Args:
-            event_id: ID of the event (same as statement ID)
-            raw: Use raw_triplets table
-
-        Returns:
-            List of triplets associated with the event
+        :param event_id: ID of the event (same as statement ID)
+        :param raw: Use raw_triplets table
+        :returns: List of triplets associated with the event
         """
         table = "raw_triplets" if raw else "triplets"
 
@@ -1246,14 +1269,12 @@ class TKGDatabase:
     ) -> List[Triplet]:
         """
         Get all triplets for a statement.
+
         Since event.id == statement.id, this is equivalent to get_triplets_for_event.
 
-        Args:
-            statement_id: ID of the statement (same as event ID)
-            raw: Use raw_triplets table
-
-        Returns:
-            List of triplets
+        :param statement_id: ID of the statement (same as event ID)
+        :param raw: Use raw_triplets table
+        :returns: List of triplets
         """
         return self.get_triplets_for_event(statement_id, raw=raw)
 
@@ -1281,22 +1302,19 @@ class TKGDatabase:
           - Predicate is in the same group (if predicate_groups provided)
           - Associated event is a FACT
 
-        Args:
-            incoming_triplets: List of triplets to find related triplets for
-            predicate_groups: Optional list of predicate group sets. If None, all predicates match.
-                             Example: [{Predicate.IS_A, Predicate.INSTANCE_OF}, {Predicate.HAS, Predicate.OWNS}]
-            raw: Use raw tables if True
-
-        Returns:
-            Tuple of (triplets, events) where events are associated with the triplets
+        :param incoming_triplets: List of triplets to find related triplets for
+        :param predicate_groups: Optional list of predicate group sets. If None, all predicates match.
+                                 Example: [{Predicate.IS_A, Predicate.INSTANCE_OF}, {Predicate.HAS, Predicate.OWNS}]
+        :param raw: Use raw tables if True
+        :returns: Tuple of (triplets, events) where events are associated with the triplets
         """
         if not incoming_triplets:
             logger.info("No incoming triplets found. Returning empty list.")
             return [], []
 
         # 1. Build sets of all relevant entity IDs and predicate groups
-        entity_id_blobs = set()
-        predicate_to_group = {}
+        entity_id_blobs: set = set()
+        predicate_to_group: dict = {}
 
         if predicate_groups:
             for group in predicate_groups:
@@ -1304,7 +1322,7 @@ class TKGDatabase:
                 for pred in group_list:
                     predicate_to_group[pred] = group_list
 
-        relevant_predicates = set()
+        relevant_predicates: set = set()
         for triplet in incoming_triplets:
             entity_id_blobs.add(self._uuid_to_blob(triplet.subject_id))
             entity_id_blobs.add(self._uuid_to_blob(triplet.object_id))
@@ -1320,7 +1338,10 @@ class TKGDatabase:
             logger.warning("No relevant predicates found for incoming triplets")
             return [], []
 
-        logger.info(f"Searching for triplets with {len(relevant_predicates)} relevant predicates and {len(entity_id_blobs)} entity IDs")
+        logger.info(
+            f"Searching for triplets with {len(relevant_predicates)} relevant predicates "
+            f"and {len(entity_id_blobs)} entity IDs"
+        )
 
         # 2. Prepare SQL query
         table_prefix = "raw_" if raw else ""
@@ -1361,19 +1382,31 @@ class TKGDatabase:
                 AND e.statement_type = ?
         """  # noqa: S608
 
-        params = entity_ids_list + entity_ids_list + relevant_predicates_list + [self._enum_to_text(StatementType.FACT)]
+        params = (
+            entity_ids_list
+            + entity_ids_list
+            + relevant_predicates_list
+            + [self._enum_to_text(StatementType.FACT)]
+        )
 
         cursor = self._conn.cursor()
         cursor.execute(query, params)
         rows = cursor.fetchall()
         if len(rows) == 0:
-            logger.warning("No triplets found in the database that matched the predicates. Returning empty list.")
+            logger.warning(
+                "No triplets found in the database that matched the predicates. Returning empty list."
+            )
             return [], []
 
-        # 3. Process results - build triplets and collect event data
-        triplets = []
-        events_by_id = {}
-        event_triplet_ids = {}  # event_id -> list of triplet_ids
+        return self._process_related_triplet_rows(rows)
+
+    def _process_related_triplet_rows(
+        self, rows: List[sqlite3.Row]
+    ) -> Tuple[List[Triplet], List[TemporalEvent]]:
+        """Process database rows into triplets and their associated temporal events."""
+        triplets: List[Triplet] = []
+        events_by_id: dict[uuid.UUID, TemporalEvent] = {}
+        event_triplet_ids: dict[uuid.UUID, List[uuid.UUID]] = {}  # event_id -> list of triplet_ids
 
         for row in rows:
             # Construct triplet
@@ -1404,15 +1437,25 @@ class TKGDatabase:
                     publication_id=row["publication_id"],
                     statement=row["statement"],
                     triplets=[],  # Will be filled below
-                    statement_type=self._text_to_enum(StatementType, row["statement_type"]),
-                    temporal_type=self._text_to_enum(TemporalType, row["temporal_type"]),
-                    temporal_confidence=self._text_to_enum(TemporalConfidence, row["temporal_confidence"]),
+                    statement_type=self._text_to_enum(
+                        StatementType, row["statement_type"]
+                    ),
+                    temporal_type=self._text_to_enum(
+                        TemporalType, row["temporal_type"]
+                    ),
+                    temporal_confidence=self._text_to_enum(
+                        TemporalConfidence, row["temporal_confidence"]
+                    ),
                     created_at=self._text_to_datetime(row["created_at"]),
                     valid_at=self._text_to_datetime(row["valid_at"]),
-                    valid_at_confidence=self._text_to_enum(TemporalConfidence, row["valid_at_confidence"]),
+                    valid_at_confidence=self._text_to_enum(
+                        TemporalConfidence, row["valid_at_confidence"]
+                    ),
                     expired_at=self._text_to_datetime(row["expired_at"]),
                     invalid_at=self._text_to_datetime(row["invalid_at"]),
-                    invalid_at_confidence=self._text_to_enum(TemporalConfidence, row["invalid_at_confidence"]),
+                    invalid_at_confidence=self._text_to_enum(
+                        TemporalConfidence, row["invalid_at_confidence"]
+                    ),
                     invalidated_by=self._blob_to_uuid(row["invalidated_by"]),
                     embedding=self._deserialize_embedding(row["embedding"]),
                 )
@@ -1424,7 +1467,9 @@ class TKGDatabase:
 
         events = list(events_by_id.values())
 
-        logger.info(f"Fetched {len(triplets)} related triplets and {len(events)} events")
+        logger.info(
+            f"Fetched {len(triplets)} related triplets and {len(events)} events"
+        )
 
         return triplets, events
 
@@ -1436,14 +1481,11 @@ class TKGDatabase:
         """
         Insert an entity linked to an event.
 
-        Args:
-            entity: Entity to insert
-            event_id: ID of the associated event (same as statement ID)
-            raw: Insert into raw_entities table
-
-        Raises:
-            ValidationError: If data is invalid
-            NotFoundError: If statement/event doesn't exist
+        :param entity: Entity to insert
+        :param event_id: ID of the associated event (same as statement ID)
+        :param raw: Insert into raw_entities table
+        :raises ValidationError: If data is invalid
+        :raises NotFoundError: If statement/event doesn't exist
         """
         # Validate that the statement/event exists
         self._validate_statement_exists(event_id)
@@ -1486,10 +1528,9 @@ class TKGDatabase:
         """
         Iterate over entities efficiently.
 
-        Args:
-            raw: Use raw_entities table
-            canonical_only: Only return canonical entities (resolved_id IS NULL)
-            batch_size: Number of entities per batch
+        :param raw: Use raw_entities table
+        :param canonical_only: Only return canonical entities (resolved_id IS NULL)
+        :param batch_size: Number of entities per batch
         """
         table = "raw_entities" if raw else "entities"
         where_clause = "WHERE resolved_id IS NULL" if canonical_only else ""
@@ -1530,12 +1571,9 @@ class TKGDatabase:
         """
         Get all entities for an event.
 
-        Args:
-            event_id: ID of the event (same as statement ID)
-            raw: Use raw_entities table
-
-        Returns:
-            List of entities associated with the event
+        :param event_id: ID of the event (same as statement ID)
+        :param raw: Use raw_entities table
+        :returns: List of entities associated with the event
         """
         table = "raw_entities" if raw else "entities"
 
@@ -1566,14 +1604,12 @@ class TKGDatabase:
     ) -> List[Entity]:
         """
         Get all entities for a statement.
+
         Since event.id == statement.id, this is equivalent to get_entities_for_event.
 
-        Args:
-            statement_id: ID of the statement (same as event ID)
-            raw: Use raw_entities table
-
-        Returns:
-            List of entities
+        :param statement_id: ID of the statement (same as event ID)
+        :param raw: Use raw_entities table
+        :returns: List of entities
         """
         return self.get_entities_for_event(statement_id, raw=raw)
 
@@ -1597,9 +1633,8 @@ class TKGDatabase:
         """
         Batch update entity references from old IDs to new IDs.
 
-        Args:
-            entity_mapping: Dict mapping old_id -> new_id
-            raw: Update raw tables
+        :param entity_mapping: Dict mapping old_id -> new_id
+        :param raw: Update raw tables
 
         This is used during entity resolution to merge duplicate entities.
         """
@@ -1659,13 +1694,10 @@ class TKGDatabase:
         """
         Dump a publication with all extracted data to a JSON file.
 
-        Args:
-            fpath: Output file path
-            publication_id: ID of publication to dump
-            raw: Use raw tables
-
-        Raises:
-            NotFoundError: If publication doesn't exist
+        :param fpath: Output file path
+        :param publication_id: ID of publication to dump
+        :param raw: Use raw tables
+        :raises NotFoundError: If publication doesn't exist
         """
         # Get publication
         publication = self.get_publication_by_id(publication_id)
@@ -1745,13 +1777,10 @@ class TKGDatabase:
         Creates a CSV with one row per event, including publication metadata
         and event-specific information (temporal data, counts, etc.).
 
-        Args:
-            output_path: Path to output CSV file
-            raw: Use raw tables if True (default: False)
-            batch_size: Number of publications to process at once (default: 100)
-
-        Raises:
-            TKGDatabaseError: If export fails
+        :param output_path: Path to output CSV file
+        :param raw: Use raw tables if True (default: False)
+        :param batch_size: Number of publications to process at once (default: 100)
+        :raises TKGDatabaseError: If export fails
         """
         import csv
 
@@ -1773,7 +1802,7 @@ class TKGDatabase:
                 }
 
                 # Iterate through statements for this publication
-                for stmt_id, statement in self.iter_statements_for_publication(publication.id):
+                for stmt_id, _ in self.iter_statements_for_publication(publication.id):
                     try:
                         # Get event (using stmt_id since event.id == statement.id)
                         event = self.get_event_by_id(stmt_id, raw=raw)
@@ -1864,6 +1893,209 @@ class TKGDatabase:
         except Exception as e:
             logger.error(f"Failed to export to CSV: {e}")
             raise TKGDatabaseError(f"CSV export failed: {e}") from e
+
+    def export_public_view_to_json(
+        self,
+        output_path: str,
+        raw: bool = False,
+        batch_size: int = 100,
+    ) -> None:
+        """
+        Export a public summary view of the database state to a JSON file.
+
+        The JSON schema is:
+
+        {
+          "total_publications": int,
+          "total_publishers": int,
+          "publishers": [str, ...],
+          "publications": [
+            {
+              "id": str,
+              "url": str,
+              "length": int,
+              "publisher": str,
+              "published_on": str,
+              "added_on": str,
+              "title": str,
+              "n_events": int,
+              "events": [
+                {
+                  "length_statement": int,
+                  "statement_type": str,
+                  "temporal_type": str,
+                  "temporal_confidence": str,
+                  "created_at": str,
+                  "valid_at": str,
+                  "valid_at_confidence": str,
+                  "expired_at": str,
+                  "invalid_at": str,
+                  "invalid_at_confidence": str,
+                  "invalidated_by": str,
+                  "n_triplets": int,
+                  "n_entities": int,
+                  "n_resolved_entities": int
+                },
+                ...
+              ]
+            },
+            ...
+          ]
+        }
+
+        :param output_path: Path to the output JSON file
+        :param raw: Use raw tables if True (default: False)
+        :param batch_size: Number of publications to process at once (default: 100)
+        :raises TKGDatabaseError: If export fails
+        """
+        logger.info(
+            f"Starting public view JSON export to {output_path} (raw={raw}, batch_size={batch_size})"
+        )
+
+        # Root structure
+        data: dict[str, Any] = {
+            "total_publications": 0,
+            "total_publishers": 0,
+            "publishers": [],
+            "publications": [],
+        }
+
+        publishers: set[str] = set()
+        total_publications = 0
+
+        try:
+            # Iterate through all publications
+            for publication in self.iter_publications(batch_size=batch_size):
+                total_publications += 1
+                if publication.publisher:
+                    publishers.add(publication.publisher)
+
+                # Publication-level summary
+                pub_dict: dict[str, Any] = {
+                    "id": str(publication.id),
+                    "url": publication.url,
+                    "length": len(publication.text or ""),
+                    "publisher": publication.publisher,
+                    "published_on": (
+                        self._datetime_to_text(publication.published_on)
+                        if getattr(publication, "published_on", None)
+                        else ""
+                    ),
+                    "added_on": (
+                        self._datetime_to_text(publication.added_on)
+                        if getattr(publication, "added_on", None)
+                        else ""
+                    ),
+                    "title": publication.title or "",
+                    "n_events": 0,
+                    "events": [],
+                }
+
+                events_for_pub: list[dict[str, Any]] = []
+
+                # Iterate through statements (events) for this publication
+                for stmt_id, _ in self.iter_statements_for_publication(publication.id):
+                    try:
+                        # Event is keyed by statement id (event.id == statement.id)
+                        event = self.get_event_by_id(stmt_id, raw=raw)
+                    except NotFoundError as e:
+                        logger.warning(
+                            f"Skipping statement/event {stmt_id} in publication {publication.id}: {e}"
+                        )
+                        continue
+
+                    # Triplets and entities for counts
+                    triplets = self.get_triplets_for_event(stmt_id, raw=raw)
+                    entities = self.get_entities_for_event(stmt_id, raw=raw)
+
+                    # Count resolved entities (resolved_id is not None)
+                    n_resolved_entities = sum(
+                        1 for ent in entities if getattr(ent, "resolved_id", None) is not None
+                    )
+
+                    event_dict: dict[str, Any] = {
+                        "length_statement": len(getattr(event, "statement", "") or ""),
+                        "statement_type": (
+                            event.statement_type.value
+                            if getattr(event, "statement_type", None)
+                            else ""
+                        ),
+                        "temporal_type": (
+                            event.temporal_type.value
+                            if getattr(event, "temporal_type", None)
+                            else ""
+                        ),
+                        "temporal_confidence": (
+                            event.temporal_confidence.value
+                            if getattr(event, "temporal_confidence", None)
+                            else ""
+                        ),
+                        "created_at": (
+                            self._datetime_to_text(event.created_at)
+                            if getattr(event, "created_at", None)
+                            else ""
+                        ),
+                        "valid_at": (
+                            self._datetime_to_text(event.valid_at)
+                            if getattr(event, "valid_at", None)
+                            else ""
+                        ),
+                        "valid_at_confidence": (
+                            event.valid_at_confidence.value
+                            if getattr(event, "valid_at_confidence", None)
+                            else ""
+                        ),
+                        "expired_at": (
+                            self._datetime_to_text(event.expired_at)
+                            if getattr(event, "expired_at", None)
+                            else ""
+                        ),
+                        "invalid_at": (
+                            self._datetime_to_text(event.invalid_at)
+                            if getattr(event, "invalid_at", None)
+                            else ""
+                        ),
+                        "invalid_at_confidence": (
+                            event.invalid_at_confidence.value
+                            if getattr(event, "invalid_at_confidence", None)
+                            else ""
+                        ),
+                        "invalidated_by": (
+                            str(event.invalidated_by)
+                            if getattr(event, "invalidated_by", None)
+                            else ""
+                        ),
+                        "n_triplets": len(triplets),
+                        "n_entities": len(entities),
+                        "n_resolved_entities": n_resolved_entities,
+                    }
+
+                    events_for_pub.append(event_dict)
+
+                pub_dict["events"] = events_for_pub
+                pub_dict["n_events"] = len(events_for_pub)
+
+                data["publications"].append(pub_dict)
+
+            # Finalize top-level summary fields
+            data["total_publications"] = total_publications
+            data["publishers"] = sorted(publishers)
+            data["total_publishers"] = len(publishers)
+
+            # Write to JSON
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+
+            logger.info(
+                f"Successfully exported public view JSON with "
+                f"{total_publications} publications and {len(publishers)} publishers "
+                f"to {output_path}"
+            )
+
+        except Exception as e:
+            logger.error(f"Failed to export public view JSON: {e}")
+            raise TKGDatabaseError(f"Public view JSON export failed: {e}") from e
+
 
     # ==================== Connection Management ====================
 

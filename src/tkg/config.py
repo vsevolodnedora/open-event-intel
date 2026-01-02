@@ -1,6 +1,8 @@
 """Configuration class for TKG."""
 from enum import StrEnum
+from zoneinfo import ZoneInfo
 
+TZ = ZoneInfo("Europe/Berlin")
 
 class LlmOptions(StrEnum):
     """LLM options for API calls."""
@@ -61,6 +63,7 @@ class Config:
     invalidation_agent_similarity_threshold: float = 0.5
 
     # IO
+    public_view_path = "./docs/public_view/"
     prompts_path: str = "src/tkg/prompts_and_definitions/"
     preprocessed_db_fpath: str = "database/preprocessed_posts.db"
     tkg_db_fpath: str = "database/tkg.db"

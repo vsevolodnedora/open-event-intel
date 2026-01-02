@@ -5,11 +5,13 @@ import uuid
 from datetime import datetime, timezone
 from enum import StrEnum
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from dateutil.parser import parse
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 from src.logger import get_logger
+from src.tkg.config import TZ
 
 logger = get_logger(__name__)
 
@@ -95,7 +97,7 @@ class RawStatement(BaseModel):
     Raw statements serve as intermediate representations and are intended to be transformed into TemporalEvent objects in later processing stages.
     """
 
-    id: uuid.UUID # ID of the statement generated
+    id: uuid.UUID = Field(default_factory=uuid.uuid4) # Auto-generate a unique UUID if not provided
     statement: str  # The textual content of the extracted statement
     temporal_type: TemporalType  # The temporal classification of the statement (Static, Dynamic, Atemporal), drawn from the TemporalType enum
     statement_type: StatementType # The type of statement (Fact, Opinion, Prediction), based on the StatementType enum
@@ -123,7 +125,6 @@ class RawStatement(BaseModel):
             return StatementType(cleaned_value)
         except ValueError as e:
             raise ValueError(f"Invalid statement type: {value}. Must be one of {[t.value for t in StatementType]}") from e
-
 
     @field_validator("temporal_confidence", mode="before")
     @classmethod
@@ -173,36 +174,46 @@ class RawTemporalRange(BaseModel):
         """
         Accept None or a string for datetime-like values coming from the LLM.
 
-        - None -> None
-        - "" (empty/whitespace-only) -> None
-        - Non-empty strings are validated as ISO 8601 datetimes (with basic support for 'Z').
+        - None / empty -> None
+        - Non-empty string:
+            * Validate as ISO 8601
+            * Attach or convert to Europe/Berlin (CET/CEST)
+            * Return ISO 8601 string with offset for Europe/Berlin
         """
         if value is None:
             return None
 
-        if isinstance(value, str):
-            cleaned_value = value.strip()
-            if cleaned_value == "":
-                # Treat empty string as "no bound"
-                return None
+        if not isinstance(value, str):
+            raise TypeError(
+                f"Invalid type for datetime field: {type(value).__name__}. "
+                "Expected str or None."
+            )
 
-            # Allow 'Z' suffix by normalizing to +00:00 for validation.
-            normalized = cleaned_value.replace("Z", "+00:00")
-            try:
-                # Validation only – we keep the original canonical string.
-                datetime.fromisoformat(normalized)
-            except ValueError as e:
-                raise ValueError(
-                    f"Invalid datetime value: {value!r}. "
-                    "Expected an ISO 8601 datetime string, e.g. '2023-10-24T00:00:00Z'."
-                ) from e
+        cleaned_value = value.strip()
+        if cleaned_value == "":
+            return None
 
-            return cleaned_value
+        # Allow 'Z' suffix by normalizing to +00:00 for parsing.
+        normalized_for_parse = cleaned_value.replace("Z", "+00:00")
 
-        raise TypeError(
-            f"Invalid type for datetime field: {type(value).__name__}. "
-            "Expected str or None."
-        )
+        try:
+            dt = datetime.fromisoformat(normalized_for_parse)
+        except ValueError as e:
+            raise ValueError(
+                f"Invalid datetime value: {value!r}. "
+                "Expected an ISO 8601 datetime string, e.g. '2023-10-24T00:00:00Z'."
+            ) from e
+
+        # Attach or convert to Europe/Berlin timezone
+        if dt.tzinfo is None:
+            # Interpret naive as local Berlin time
+            dt = dt.replace(tzinfo=ZoneInfo("Europe/Berlin"))
+        else:
+            # Normalize everything to Berlin
+            dt = dt.astimezone(ZoneInfo("Europe/Berlin"))
+
+        # Store a canonical ISO 8601 string with Berlin offset (+01:00 / +02:00)
+        return dt.isoformat()
 
     @field_validator("valid_at_confidence", "invalid_at_confidence", mode="before")
     @classmethod
@@ -250,9 +261,28 @@ class TemporalValidityRange(BaseModel):
     @field_validator("valid_at", "invalid_at", mode="before")
     @classmethod
     def _parse_date_string(cls, value: str | datetime | None) -> datetime | None:
-        if isinstance(value, datetime) or value is None:
-            return value
-        return parse_date_str(value)
+        # Nothing to parse
+        if value is None:
+            return None
+
+        # Already a datetime -> use it as is
+        if isinstance(value, datetime):
+            dt = value
+        else:
+            # Your existing string parser
+            dt = parse_date_str(value)
+
+        if dt is None:
+            return None
+
+        # If naive: interpret as Europe/Berlin local time (CET/CEST as appropriate)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=ZoneInfo("Europe/Berlin"))
+        else:
+            # Optional: normalize everything to Europe/Berlin
+            dt = dt.astimezone(ZoneInfo("Europe/Berlin"))
+
+        return dt
 
 
 class Predicate(StrEnum):
@@ -434,29 +464,37 @@ class TemporalEvent(BaseModel):
 
 def parse_date_str(value: str | datetime | None) -> datetime | None:
     """
-    Parse a date string into a datetime object.
+    Parse a date string into a TZ-aware datetime.
 
-    If the value is a 4-digit year, it returns January 1 of that year in UTC.
-    Otherwise, it attempts to parse the date string using dateutil.parser.parse.
-    If the resulting datetime has no timezone, it defaults to UTC.
+    - If value is a 4-digit year, return January 1 of that year in TZ.
+    - Otherwise, parse using dateutil.parser.parse.
+    - If the resulting datetime has no timezone, interpret it as TZ local time.
+    - If it has a timezone, convert it to TZ.
     """
     if not value:
         return None
 
+    # Already a datetime
     if isinstance(value, datetime):
-        return value
+        dt = value
+    else:
+        # value is str here
+        s = value.strip()
 
-    try:
-        # Year Handling
-        if re.fullmatch(r"\d{4}", value.strip()):
-            year = int(value.strip())
-            return datetime(year, 1, 1, tzinfo=timezone.utc)
+        # Year-only handling: "2025" -> 2025-01-01T00:00:00
+        if re.fullmatch(r"\d{4}", s):
+            year = int(s)
+            return datetime(year, 1, 1, tzinfo=TZ)
 
-        #  General Handing
-        dt: datetime = parse(value)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt
+        try:
+            dt = parse(s)
+        except Exception:
+            return None
 
-    except Exception:
-        return None
+    # Normalize to Europe/Berlin
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=TZ)
+    else:
+        dt = dt.astimezone(TZ)
+
+    return dt

@@ -33,7 +33,7 @@ def main_tkg(task:str, publisher:str):
         # )
 
     if task == "process":
-        asyncio.run(main_tkg_pipeline(config=config, prompt_registry=prompt_registry, publisher=publisher,  limit_publications=1, limit_n_statements=5))
+        asyncio.run(main_tkg_pipeline(config=config, prompt_registry=prompt_registry, publisher=publisher,  limit_publications=2, limit_n_statements=None))
 
 
 if __name__ == "__main__":
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     print("launching run_tkg.py")   # noqa: T201
 
     if len(sys.argv) != 2:
-        task = "eval"
+        task = "process"
         publisher = "entsoe"
     else:
         task = str(sys.argv[1])

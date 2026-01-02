@@ -1,204 +1,156 @@
-from datetime import datetime, timedelta
-from typing import Dict, List
-
+import re
+import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.patches import Rectangle
 
-from src.data_models import Publication
+def parse_slack_log(filepath: str) -> pd.DataFrame:
+    # 1) Read file
+    with open(filepath, "r", encoding="utf-8") as f:
+        lines = [line.rstrip("\n") for line in f]
 
-# Make sure PostsDatabase is imported or defined in this module
-from src.publications_database import PostsDatabase
-from src.tkg.tkg_utls import count_tokens
+    # 2) How we detect the start of a new event/message
+    def is_event_start(line: str) -> bool:
+        return (
+            ":red_circle:" in line
+            or ":white_check_mark:" in line
+            or "Successful bidding for" in line
+        )
 
-# map the key names from visualize_posts_heatmap to their proper names, e.g., "entsoe":"ENTSO-E"
-name_mapping: Dict[str, str] = {
-    "entsoe": "ENTSO-E",
-    "eex": "EEX",
-    "acer": "ACER",
-    "ec": "European Commission",
-    "icis": "ICIS",
-    "bnetza": "BNetzA",
-    "smard": "SMARD",
-    "agora": "Agora Energiewende",
-    "energy_wire": "Clean Energy Wire",
-    "transnetbw": "TransnetBW",
-    "tennet": "TenneT",
-    "50hz": "50Hertz",
-    "amprion": "Amprion"
-}
+    # 3) Group lines into event blocks
+    events = []
+    current_block = None
 
-def print_publications_stats(
-    table_names: List[str],
-    db_path: str = "../database/preprocessed_posts.db",
-    n_past_days:int = 30
-) -> None:
-    """
-    For each table in table_names, fetch all post dates from the past 30 days.
-
-    Draw a GitHub-style commit heatmap: a 30-column grid (most recent day on the right),
-    one row per table, with color intensity = post count on that day.
-    """
-    # --- 1) open database and collect counts per day ---
-    db = PostsDatabase(db_path)
-    today = datetime.now().date()
-    days = [today - timedelta(days=i) for i in reversed(range(n_past_days))]
-    date_to_idx = {d: idx for idx, d in enumerate(days)}
-    n_tables = len(table_names)
-    counts = np.zeros((n_tables, n_past_days), dtype=int)
-
-    for i, tbl in enumerate(table_names):
-        if not db.is_table(tbl):
-            raise ValueError(f"Table '{tbl}' does not exist in {db_path}")
-        all_dates = db.get_all_publication_dates(tbl)
-        all_publications:list[Publication] = db.list_publications(tbl, sort_date=True)
-
-        rows = []
-        for publication in all_publications:
-            text = publication.text
-            length = len(text)
-            tokens = count_tokens(text, model="gpt-4.1")
-
-            # keep your date → count update
-            try:
-                d = publication.published_on.date()
-                if d in date_to_idx:
-                    counts[i, date_to_idx[d]] += 1
-            except Exception:
-                print(f"Could not extract date from {publication}")
-                pass  # ignore bad/missing dates
-
-            rows.append((length, tokens, publication.published_on, publication.title))
-
-        # print top 5 by length
-        for length, tokens, pub_on, title in sorted(rows, key=lambda r: r[0], reverse=True)[:5]:
-            print(f"{pub_on}__{title} ({length}, {tokens})")
-
-    db.close()
-
-def visualize_posts_heatmap(
-    table_names: List[str],
-    db_path: str = "../database/preprocessed_posts.db",
-    n_past_days:int = 30
-) -> None:
-    """
-    For each table in table_names, fetch all post dates from the past 30 days.
-
-    Draw a GitHub-style commit heatmap: a 30-column grid (most recent day on the right),
-    one row per table, with color intensity = post count on that day.
-    """
-    # --- 1) open database and collect counts per day ---
-    db = PostsDatabase(db_path)
-    today = datetime.now().date()
-    days = [today - timedelta(days=i) for i in reversed(range(n_past_days))]
-    date_to_idx = {d: idx for idx, d in enumerate(days)}
-    n_tables = len(table_names)
-    counts = np.zeros((n_tables, n_past_days), dtype=int)
-
-    for i, tbl in enumerate(table_names):
-        if not db.is_table(tbl):
-            raise ValueError(f"Table '{tbl}' does not exist in {db_path}")
-        all_dates = db.get_all_publication_dates(tbl)
-        all_publications:list[Publication] = db.list_publications(tbl, sort_date=True)
-        """                "ID": pid,
-                "published_on": pub_dt.isoformat() if isinstance(pub_dt, datetime) else str(pub_dt),
-                "title": title,
-                "added_on": add_dt.isoformat() if isinstance(add_dt, datetime) else str(add_dt),
-                "url": url,
-                "post": text,"""
-        print(tbl, end=": ")
-
-        lengths = []
-        for publication in all_publications:
-            lengths.append(str(len(publication.text)))
-            d = publication.published_on.date()
-            if d in date_to_idx:
-                counts[i, date_to_idx[d]] += 1
-
-        print(", ".join(lengths))
-    db.close()
-
-    # --- 2) determine color thresholds ---
-    colors = ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
-    non_zero = counts[counts > 0]
-    if non_zero.size:
-        q1, q2, q3 = np.percentile(non_zero, [25, 50, 75])
-    else:
-        q1 = q2 = q3 = 0
-
-    def pick_color(c: int) -> str:
-        if c == 0:
-            return colors[0]
-        elif c <= q1:
-            return colors[1]
-        elif c <= q2:
-            return colors[2]
-        elif c <= q3:
-            return colors[3]
+    for line in lines:
+        if is_event_start(line):
+            # Close previous block (if any)
+            if current_block is not None:
+                events.append(current_block)
+            current_block = [line]
         else:
-            return colors[4]
+            # Continue current block
+            if current_block is not None:
+                current_block.append(line)
 
-    color_grid = np.empty_like(counts, dtype=object)
-    for i in range(n_tables):
-        for j in range(n_past_days):
-            color_grid[i, j] = pick_color(counts[i, j])
+    # Append the last one
+    if current_block is not None:
+        events.append(current_block)
 
-    # --- 3) draw the heatmap grid ---
-    # Use constrained layout to let Matplotlib compute exact space for rotated tick labels.
-    fig, ax = plt.subplots(
-        figsize=(12, n_tables * 0.45 + 0.6),  # slightly tighter base height
-        constrained_layout=True
-    )
+    # 4) Classify block and extract date + error flag
+    def classify_event(block_lines):
+        block = "\n".join(block_lines)
 
-    for i in range(n_tables):
-        for j in range(n_past_days):
-            rect = Rectangle((j, i), 0.7, 0.7, facecolor=color_grid[i, j], edgecolor='none')
-            ax.add_patch(rect)
-
-    # axes formatting
-    ax.set_xlim(0, n_past_days)
-    ax.set_ylim(0, n_tables)
-    ax.invert_yaxis()
-    ax.set_aspect("equal")
-    ax.set_xticks(np.arange(n_past_days) + 0.5)
-
-    # Generate the tick labels with conditional formatting
-    tick_labels = []
-    for i, d in enumerate(days):
-        if i == 0 or d.month != days[i - 1].month:  # First day of a new month
-            tick_labels.append(d.strftime("%b-%d"))
+        # ---- event_name classification ----
+        if "Strategy execution check failed for check_strategy_status" in block:
+            event_name = "Strategy Execution Failed"
+        elif "idc_mvp_preprocessing failed in task preprocess_idc_mvp_data" in block:
+            event_name = "IDC MVP Preprocessing Failed"
+        elif "Retrieved IDA1-Granularity.QUARTER_HOURLY auction" in block:
+            event_name = "Successful Data Retrieval"
+        elif "aggregate_bidfiles succeeded" in block:
+            event_name = "Aggregation Successful"
+        elif "disaggregate_auction_results" in block:
+            if "failed" in block:
+                event_name = "Disaggregation Failed"
+            elif "succeeded" in block:
+                event_name = "Disaggregation Successful"
+            else:
+                event_name = "Disaggregation"
+        elif "Successful bidding for" in block:
+            event_name = "Bidding Successful"
+        elif "failed in task check_positions" in block:
+            event_name = "Position Check Failed"
         else:
-            tick_labels.append(d.strftime("%d"))
+            # Fallbacks in case a new pattern appears
+            if ":red_circle:" in block:
+                event_name = "Unknown Error"
+            elif ":white_check_mark:" in block:
+                event_name = "Unknown Success"
+            else:
+                event_name = "Unknown"
 
-    ax.set_xticklabels(tick_labels, rotation=45, ha="right")
-    ax.set_yticks(np.arange(n_tables) + 0.5)
-    ax.set_yticklabels([name_mapping[key] for key in table_names])
+        # ---- date extraction: prefer 'Execution Date', else 'Delivery Day' ----
+        m_exec = re.search(r"Execution Date:\s*(.*)", block)
+        if m_exec:
+            date_str = m_exec.group(1).strip()
+            date = pd.to_datetime(date_str, errors="coerce")
+        else:
+            m_deliv = re.search(r"Delivery Day:\s*(.*)", block)
+            if m_deliv:
+                date_str = m_deliv.group(1).strip()
+                # offset by 1 day back (e.g., -1 day)
+                date = pd.to_datetime(date_str, errors="coerce") - pd.Timedelta(days=1)
+            else:
+                date = pd.NaT
 
-    # Tighten tick/label spacing without clipping
-    ax.tick_params(bottom=False, left=False, labelsize=10, pad=1)
+        # ---- error flag ----
+        is_error = ":red_circle:" in block
 
-    # Remove spines
-    for spine in ax.spines.values():
-        spine.set_visible(False)
+        return event_name, date, is_error
 
-    # Title with minimal padding to reduce top whitespace
-    # ax.set_title("Posts per Day (Last n_past_days Days)", pad=2)
+    rows = []
+    for ev in events:
+        event_name, date, is_error = classify_event(ev)
+        rows.append(
+            {
+                "event_name": event_name,
+                "date": date,          # datetime64[ns]
+                "is_error": is_error,  # True if :red_circle: present
+            }
+        )
 
-    # IMPORTANT: do NOT call plt.tight_layout() together with constrained layout.
-    # Instead, set minimal global pads so the figure hugs the axes+labels.
-    fig.set_constrained_layout_pads(w_pad=0.01, h_pad=0.01, wspace=0.0, hspace=0.0)
-
-    # Save with a tight bounding box (keeps tick labels) and a tiny extra pad
-    fig.savefig("./figs/posts_per_day_heatmap.png", bbox_inches="tight", pad_inches=0.08, dpi=600)
-
-    plt.show()
+    df = pd.DataFrame(rows, columns=["event_name", "date", "is_error"])
+    return df
 
 
-print_publications_stats([
-    'entsoe', 'eex', 'acer', 'ec', 'icis', 'bnetza', 'smard', 'agora', 'energy_wire', 'transnetbw', 'tennet', '50hz', 'amprion'
-])
+# Point this to your Slack-export .txt file
+input_path = "slack_channel.txt"
 
-visualize_posts_heatmap([
-    'entsoe', 'eex', 'acer', 'ec', 'icis', 'bnetza', 'smard', 'agora', 'energy_wire', 'transnetbw', 'tennet', '50hz', 'amprion'
-])
+df = parse_slack_log(input_path)
 
+# --- Plot: number of errors per day with weekend shading ---
+
+# Ensure date is datetime (no-op if already correct)
+df["date"] = pd.to_datetime(df["date"], errors="coerce")
+
+# Aggregate to daily error counts (including zeros)
+daily_errors = (
+    df.set_index("date")["is_error"]
+    .resample("D")
+    .sum()
+    .fillna(0)
+    .astype(int)
+)
+
+fig, ax = plt.subplots(figsize=(10, 5))
+
+# Line plot of error counts
+ax.plot(daily_errors.index, daily_errors.values, marker="o", linewidth=2)
+
+# Gray shaded areas for weekends
+start = daily_errors.index.min().normalize()
+end = daily_errors.index.max().normalize()
+current = start
+
+while current <= end:
+    if current.weekday() >= 5:  # 5 = Saturday, 6 = Sunday
+        ax.axvspan(
+            current,
+            current + pd.Timedelta(days=1),
+            facecolor="lightgray",
+            alpha=0.3,
+        )
+    current += pd.Timedelta(days=1)
+
+ax.set_title("Number of Errors per Day")
+ax.set_xlabel("Date")
+ax.set_ylabel("Number of Errors")
+ax.grid(True, which="major", linestyle="--", alpha=0.5)
+fig.autofmt_xdate()
+plt.tight_layout()
+plt.show()
+
+# Show the table in the console
+print(df.to_string(index=False))
+
+# Optionally dump to CSV for further analysis
+df.to_csv("slack_events.csv", index=False)
+print("\nSaved to slack_events.csv")

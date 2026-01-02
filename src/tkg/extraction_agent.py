@@ -1,6 +1,7 @@
 """Agentic workflows using OpenAI API."""
 
 import asyncio
+import uuid
 from typing import Any
 
 from jinja2 import DictLoader, Environment
@@ -129,6 +130,10 @@ class TemporalAgent:
         raw_statements:RawStatementList = response.output_parsed
         logger.info(f"Extracted {len(raw_statements.statements)} raw statements from the publication")
 
+        # Enforce unique IDs for statements after extraction
+        for stmt in raw_statements.statements:
+            stmt.id = uuid.uuid4()
+
         for i_stmt, statement in enumerate(raw_statements.statements):
             logger.info(
                 f"\t\t{i_stmt}/{len(raw_statements.statements)} | {statement.statement_type} "
@@ -137,6 +142,20 @@ class TemporalAgent:
 
         statements = RawStatementList.model_validate(raw_statements)
         return statements
+
+    async def _return_atemporal_event_temporal_range(self, statement: RawStatement):
+        logger.info(f"Skipping temporal range extraction for {statement.temporal_type} and setting confidence to: LOW")
+        raw_range = RawTemporalRange(
+            valid_at=None,
+            invalid_at=None,
+            valid_at_confidence=TemporalConfidence.LOW,
+            invalid_at_confidence=TemporalConfidence.LOW,
+            rationale="Statement is ATEMPORAL - no temporal bounds applicable",
+        )
+        temp_validity = TemporalValidityRange(
+            valid_at=None, invalid_at=None, valid_at_confidence=TemporalConfidence.LOW, invalid_at_confidence=TemporalConfidence.LOW, temporal_extraction_rationale=raw_range.rationale
+        )
+        return raw_range, temp_validity
 
     @retry(wait=wait_random_exponential(multiplier=1, min=1, max=30), stop=stop_after_attempt(3))
     async def extract_temporal_range(self, statement: RawStatement, metadata: dict[str, Any]) -> tuple[RawTemporalRange, TemporalValidityRange]:
@@ -149,19 +168,9 @@ class TemporalAgent:
         :return: Tuple of (RawTemporalRange, TemporalValidityRange).
         """
         if statement.temporal_type == TemporalType.ATEMPORAL:
-            logger.info(f"Skipping temporal range extraction for {statement.temporal_type} and setting confidence to: LOW")
-            raw_range = RawTemporalRange(
-                valid_at=None,
-                invalid_at=None,
-                valid_at_confidence=TemporalConfidence.LOW,
-                invalid_at_confidence=TemporalConfidence.LOW,
-                rationale="Statement is ATEMPORAL - no temporal bounds applicable",
-            )
-            temp_validity = TemporalValidityRange(
-                valid_at=None, invalid_at=None, valid_at_confidence=TemporalConfidence.LOW, invalid_at_confidence=TemporalConfidence.LOW, temporal_extraction_rationale=raw_range.rationale
-            )
-            return raw_range, temp_validity
+            return await self._return_atemporal_event_temporal_range(statement)
 
+        # Generate prompt from the template and data
         template = self._env.get_template("date_extraction_prompt.jinja")
         inputs = metadata | statement.model_dump()
 
@@ -195,23 +204,41 @@ class TemporalAgent:
 
         # Convert RawTemporalRange to TemporalValidityRange
         temp_validity = TemporalValidityRange(
-            valid_at=parse_date_str(raw_validity.valid_at) if raw_validity.valid_at else None,
-            invalid_at=parse_date_str(raw_validity.invalid_at) if raw_validity.invalid_at else None,
+            valid_at=parse_date_str(raw_validity.valid_at) if raw_validity.valid_at else None, # -> datetime | None
+            invalid_at=parse_date_str(raw_validity.invalid_at) if raw_validity.invalid_at else None, # -> datetime | None
             valid_at_confidence=raw_validity.valid_at_confidence,
             invalid_at_confidence=raw_validity.invalid_at_confidence,
             temporal_extraction_rationale=raw_validity.rationale,
         )
 
-        # Fallback: if valid_at is still None after extraction, use publication_date
         if temp_validity.valid_at is None:
-            logger.warning(f"No valid_at found. Setting publication_date as valid_at={inputs['publication_date']} with LOW confidence")
-            temp_validity.valid_at = inputs["publication_date"]
-            temp_validity.valid_at_confidence = TemporalConfidence.LOW
+            pub_raw = inputs.get("publication_date")
+            pub_dt = parse_date_str(pub_raw) if pub_raw is not None else None
+            if pub_dt is not None:
+                logger.warning(f"No valid_at found. Setting publication_date as valid_at={pub_dt} with LOW confidence")
+                temp_validity.valid_at = pub_dt
+                temp_validity.valid_at_confidence = TemporalConfidence.LOW
+            else:
+                logger.warning(f"No valid_at found and publication_date={pub_raw!r} could not be parsed; leaving valid_at=None")
 
-        # EVENT temporal type should not have invalid_at (past events remain true)
-        if statement.temporal_type == TemporalType.EVENT:
+        # Heuristic: if range is inverted, drop invalid_at and keep an open-ended 'valid_from'
+        if temp_validity.valid_at is not None and temp_validity.invalid_at is not None and temp_validity.valid_at > temp_validity.invalid_at:
+            logger.warning(
+                "Date range invalid for statement: %s | %s | temporal_conf=%s | valid_at=%s | invalid_at=%s | pub_id=%s. Resetting invalid_at=None (open-ended validity).",
+                statement.statement_type,
+                statement.temporal_type,
+                statement.temporal_confidence,
+                temp_validity.valid_at,
+                temp_validity.invalid_at,
+                statement.publication_id,
+            )
             temp_validity.invalid_at = None
             temp_validity.invalid_at_confidence = TemporalConfidence.LOW
+
+        # # EVENT temporal type should not have invalid_at (past events remain true)
+        # if statement.temporal_type == TemporalType.EVENT:
+        #     temp_validity.invalid_at = None
+        #     temp_validity.invalid_at_confidence = TemporalConfidence.LOW
 
         return raw_validity, temp_validity
 
@@ -234,11 +261,11 @@ class TemporalAgent:
                 )
 
                 response = await self._client.responses.parse(
-                        model=self._triple_extraction_model,
-                        temperature=0,
-                        input=prompt,
-                        text_format=RawExtraction,
-                    )
+                    model=self._triple_extraction_model,
+                    temperature=0,
+                    input=prompt,
+                    text_format=RawExtraction,
+                )
                 raw_extraction:RawExtraction = response.output_parsed
 
                 logger.info(
@@ -317,7 +344,7 @@ class TemporalAgent:
         # Step 2: process each statement to extract events and triplets from each of them
         logger.info(f"Processing {len(statements_list)} extracted statements in the publication: {publication.published_on}__{publication.title}")
         for i_stmt, stmt in enumerate(statements_list):
-            logger.info(f"Processing {i_stmt}/{len(statements_list)} statement")
+            logger.info(f"Processing {i_stmt}/{len(statements_list)} statement...")
 
             raw_temporal_range, event, triplets, entities = await self._process_statement(publication, stmt, doc_summary)
 
@@ -326,12 +353,14 @@ class TemporalAgent:
             chunk_triplets.extend(triplets)
             chunk_entities.extend(entities)
 
-        logger.info(f"Chunk is processed. Extracted {len(events)} events, {len(chunk_triplets)} triplets and {len(chunk_entities)} entities.")
+        logger.info(f"Publication is processed. Extracted {len(events)} events, {len(chunk_triplets)} triplets and {len(chunk_entities)} entities.")
         return temporal_ranges, events, chunk_triplets, chunk_entities
 
     async def extract_publication_events(self, publication: Publication, limit_n_statements: int|None=None) -> \
             tuple[list[RawStatement], list[RawTemporalRange], list[TemporalEvent], list[Triplet], list[Entity]]:
         """Process a publication and extract, first, statements, then, temporal events, triplets, and entities."""
+        publication_id = publication.id
+
         logger.info(
             f"Extracting publication events from publications with ID {publication.id} "
             f"published on {publication.published_on} titled {publication.title} "
@@ -342,6 +371,7 @@ class TemporalAgent:
         # Extract statements from the publication
         statements_list = await self.extract_statements(publication, doc_summary)
 
+        # Select only subsample of statements for further processing if required
         if limit_n_statements is not None:
             logger.info(f"Limiting number of statements to {limit_n_statements} statements out of {len(statements_list.statements)} total statements found in the publication.")
             statements:list[RawStatement] = statements_list.statements[:limit_n_statements]

@@ -1,16 +1,27 @@
 import os
 import pickle
 import re
+from datetime import datetime
 from pathlib import Path
 from typing import List
+from zoneinfo import ZoneInfo
 
 import tiktoken
 
 from src.logger import get_logger
 from src.publications_database import Publication
-from src.tkg.config import MODEL_PRICES, LlmOptions
+from src.tkg.config import MODEL_PRICES, LlmOptions, TZ
 
 logger = get_logger(__name__)
+
+def ensure_tz(dt: datetime, name: str) -> datetime|None:
+    """Ensure the given datetime is tz-aware or not."""
+    if dt is None:
+        return None
+    if dt.tzinfo != TZ:
+        logger.warning("%s (%r) not in the requested timzone; normalizing.", name, dt)
+        dt = dt.replace(tzinfo=TZ) if dt.tzinfo is None else dt.astimezone(TZ)
+    return dt
 
 def create_file_name(publication: Publication) -> str:
     """Generate user-friendly filename for a publication of a given publication."""

@@ -54,6 +54,7 @@ def process_one_article_text(  # noqa: C901
 
     if len(start_markers)>0 and len(end_markers) > 0:
         if not start_idx or start_idx == -1 or start_idx == len(text)-1:
+            logger.error(f"Start marker {start_markers} not found in Publication from {publisher}: {date} {title} | ID='{id}' | {url}")
             raise ValueError(f"Start marker {start_markers} not found in Publication from {publisher}: {date} {title} | ID='{id}' | {url}")
 
 

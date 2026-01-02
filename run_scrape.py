@@ -180,7 +180,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 2:
         # Local execution
-        source = "eex"
+        source = "entsoe"
     else:
         # GitHub actions execution
         source = str(sys.argv[1])

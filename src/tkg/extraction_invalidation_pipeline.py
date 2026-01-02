@@ -14,7 +14,7 @@ from src.tkg.extraction_agent import TemporalAgent
 from src.tkg.invalidation_agent import InvalidationAgent, batch_process_invalidation
 from src.tkg.prompt_registry import PromptRegistry
 from src.tkg.tkg_database import TKGDatabase
-from src.tkg.utils import create_file_name
+from src.tkg.utils import create_file_name, ensure_tz
 
 logger = get_logger(__name__)
 
@@ -30,6 +30,9 @@ async def process_publication(publication: Publication, prompt_registry:PromptRe
 
     processed_publications: list[Publication] = tkg_database.get_all_publications()
     logger.info(f"Found {len(processed_publications)} already processed publications in the database.")
+
+    # Ensure that the datetime TZ in publication is as required
+    publication.published_on = ensure_tz(publication.published_on, name="published_on")
 
     # === STAGE 1 Extraction Agent ===
 
@@ -166,11 +169,20 @@ async def main_tkg_pipeline(config: Config, prompt_registry:PromptRegistry, publ
     for publication in publications:
         await process_publication(publication=publication, prompt_registry=prompt_registry, tkg_config=config, memory=False, refresh_database=refresh_database, limit_n_statements=limit_n_statements)
 
-    # Save the database overview as a .csv
+    # Save/update the database overview and metadata
     tkg_database = TKGDatabase(db_path=config.tkg_db_fpath, memory=False, refresh=refresh_database)
+
+    # Save database content in .json in a human-readable format
     complete_path = config.output_path_pub + "/" + "db_summary_raw.csv"
     tkg_database.export_to_csv(output_path=complete_path, raw=True)
 
+    # Save the database (raw) public view as a .json
+    complete_path = config.public_view_path + "/" + "tkg_raw_metadata.json"
+    tkg_database.export_public_view_to_json(output_path=complete_path, raw=True)
+
+    # Save the database public view as a .json
+    complete_path = config.public_view_path + "/" + "tkg_metadata.json"
+    tkg_database.export_public_view_to_json(output_path=complete_path, raw=False)
 
 # if __name__ == "__main__":
 #     asyncio.run(main_tkg_pipeline())
