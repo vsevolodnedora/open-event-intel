@@ -13,9 +13,9 @@ from crawl4ai.deep_crawling.filters import (
     FilterChain,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
@@ -51,7 +51,7 @@ async def fetch_articles(page_url: str):
 
     return articles
 
-async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, table_name: str) -> None:
+async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, table_name: str, params: dict) -> None:
     """Scrape news posts from clean energy wire website one by one to avoid IP blocking."""
     articles = await fetch_articles(page_url=root_url)
     for article_ in articles:

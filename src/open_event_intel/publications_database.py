@@ -6,12 +6,12 @@ import re
 import sqlite3
 import zlib
 from datetime import datetime
-from typing import Any, List
+from typing import List
 
-from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
+from pydantic import ValidationError
 
-from src.data_models import Publication
-from src.logger import get_logger
+from open_event_intel.data_models import Publication
+from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -313,8 +313,6 @@ class PostsDatabase:
             with open(path, "w", encoding="utf-8") as f:
                 f.write(content)
 
-            logger.info("Wrote markdown: %s", path)
-
     def export_all_publications_metadata(self, out_dir: str, format: str = "json", filename: str = "all_publications") -> None:
         """
         Export metadata from all publications across all publishers to a single CSV or JSON file.
@@ -374,7 +372,7 @@ class PostsDatabase:
                 continue
 
         if not all_metadata:
-            logger.warning("No publications found across all tables")
+            logger.warning(f"No publications found (for all tables: {table_names}) for metadata (.json) saving. Nothing will be saved.")
             return
 
         # Sort all metadata by published_on date (newest first)

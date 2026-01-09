@@ -1,12 +1,8 @@
-import asyncio
-import json
 import os
-import pickle
-import sqlite3
 
-from src.data_models import Publication
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
+from open_event_intel.data_models import Publication
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
 from src.tkg.config import Config
 from src.tkg.data_models import Entity, RawStatement, RawTemporalRange, StatementType, TemporalEvent, Triplet
 from src.tkg.entity_resolution import EntityResolution

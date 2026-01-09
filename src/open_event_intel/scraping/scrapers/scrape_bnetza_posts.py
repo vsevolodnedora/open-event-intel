@@ -11,16 +11,17 @@ from crawl4ai.deep_crawling.filters import (
     FilterChain,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
 async def main_scrape_bnetza_posts(
     root_url: str,
     database: PostsDatabase,
-    table_name:str
+    table_name:str,
+    params: dict
 ) -> None:
     """
     Fetch the root page HTML, extract all links to BNetzA with news_href_part (press-releases) then scrape each article as Markdown using crawl4AI and save new ones.
@@ -38,10 +39,10 @@ async def main_scrape_bnetza_posts(
     # Step 2: Collect all hrefs matching news_href_part
     links = set()
     root_url_=root_url.replace("DE/Allgemeines/Aktuelles/", "")  # remove part not in the news article link...
-    news_href_part: str = "SharedDocs/Pressemitteilungen/DE/2025"
+    news_href_pattern = re.compile(r"SharedDocs/Pressemitteilungen/DE/\d{4}")
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if news_href_part in href:
+        if news_href_pattern.search(href):
             # create full news artcile url
             full_url = urllib.parse.urljoin(root_url_, href)
             links.add(full_url)

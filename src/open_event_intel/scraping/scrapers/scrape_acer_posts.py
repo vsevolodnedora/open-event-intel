@@ -10,59 +10,64 @@ from crawl4ai.deep_crawling.filters import (
     URLPatternFilter,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
-async def main_scrape_entsoe_posts(root_url: str, database: PostsDatabase,table_name:str) -> None:
-    """Get news articles from ENTSO-E."""
+async def main_scrape_acer_posts(
+    root_url: str,
+    database: PostsDatabase,
+    table_name:str,
+    params:dict
+) -> None:
+    """Scrape acer news posts from news-and-engagement database."""
     async with AsyncWebCrawler() as crawler:
-
-        # Create a filter that only allows URLs with 'guide' in them
         url_filter = URLPatternFilter(patterns=["*news*"])
-
         config = CrawlerRunConfig(
             deep_crawl_strategy=BFSDeepCrawlStrategy(
                 max_depth=2,
                 include_external=False,
-                filter_chain=FilterChain([url_filter]),  # Single filter
+                filter_chain=FilterChain([url_filter]),
             ),
             scraping_strategy=LXMLWebScrapingStrategy(),
             cache_mode=CacheMode.BYPASS,
             verbose=True,
         )
 
-        # collect all results from the webpage
         results = await crawler.arun(url=root_url, config=config)
         if len(results) == 1:
             logger.warning(f"Only one result found for {root_url}. Suspected limit.")
 
         logger.info(f"Crawled {len(results)} pages matching '*news*'")
+        for result in results:
+            logger.debug(f"\tCrawled {result.url}")
+
         new_articles = []
-        for result in results:  # Show first 3 results\
+        for result in results:
             url = result.url
-            if fnmatch.fnmatch(result.url, "*news/2025/*"):
-                prefix = "https://www.entsoe.eu/news/"
-                if url.startswith(prefix):
-                    url_ = url[len(prefix) :]
-                else:
-                    url_ = url
+            if (
+                fnmatch.fnmatch(url, "*news*")
+                and "news-and-events" not in url
+                and "news-and-engagement" not in url
+                and "events-and-engagement" not in url
+            ):
+                url = url.split("?")[0]
 
-                # Extract the date and article title
-                match = re.match(r"(\d{4}/\d{2}/\d{2})/(.+)", url_)
+                match = re.search(r"\b\d{1,2}\.\d{1,2}\.\d{4}\b", result.markdown)
                 if not match:
-                    raise ValueError("URL format is unexpected.")
-                date_iso = match.group(1).replace("/", "-")  # Format: YYYY-MM-DD
-
-                title_part = match.group(2)
-                # Replace hyphens with underscores in the title for readability
-                title = title_part.replace("-", "_")
+                    logger.warning(f"No date found in {url}; skipping.")
+                    continue
 
                 if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=url)):
                     logger.info(f"Post already exists in the database. Skipping: {url}")
                     continue
+
+                # parse date DD.MM.YYYY -> YYYY-MM-DD
+                day, month, year = match.group().split(".")
+                date_iso = f"{year}-{int(month):02d}-{int(day):02d} 12:00" # YYYY-MM-DD HH:MM
+                title = url.rstrip("/").split("/")[-1].replace("-", "_")
 
                 # convert date "YYYY-MM-DD" to datetime as "YYYY-MM-DD:12:00:00" for uniformity
                 published_on = format_date_to_datetime(date_iso)
@@ -78,5 +83,6 @@ async def main_scrape_entsoe_posts(root_url: str, database: PostsDatabase,table_
                 new_articles.append(url)
 
         await asyncio.sleep(5) # to avoid IP blocking
-
-        logger.info(f"Finished saving {len(new_articles)} new articles out of {len(results)} articles")
+        logger.info(
+            f"Finished: {len(new_articles)} new articles out of {len(results)} crawled."
+        )

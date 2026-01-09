@@ -16,9 +16,9 @@ from crawl4ai.deep_crawling.filters import (
     FilterChain,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
@@ -158,7 +158,7 @@ def is_challenge_page(markdown: str) -> bool:
         or "please enable javascript" in lowered and "security check" in lowered
     )
 
-async def main_scrape_tennet_posts(root_url: str, table_name: str, database: PostsDatabase|None) -> None:
+async def main_scrape_tennet_posts(root_url: str, table_name: str, database: PostsDatabase|None, params: dict) -> None:
     """Scrape tennet news pages."""
     html = await fetch_html(url=root_url)
     links = extract_news_links_from_html(html=html, base_url=root_url)

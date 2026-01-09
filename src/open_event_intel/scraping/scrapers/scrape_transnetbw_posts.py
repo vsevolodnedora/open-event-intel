@@ -1,6 +1,7 @@
 import asyncio
 import fnmatch
 import re
+from datetime import datetime
 
 from crawl4ai import AsyncWebCrawler, CacheMode, CrawlerRunConfig
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
@@ -10,29 +11,27 @@ from crawl4ai.deep_crawling.filters import (
     URLPatternFilter,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
-async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsDatabase) -> None:
-    """Scrape posts from ec news page."""
+async def main_scrape_transnetbw_posts(root_url:str, table_name:str, database: PostsDatabase, params: dict) -> None:
+    """Scrape posts from transnetbw news page."""
     async with AsyncWebCrawler() as crawler:
 
         # Create a filter that only allows URLs with 'guide' in them
-        url_filter_news = URLPatternFilter(patterns=["*/news/*"])
-        url_filter_en = URLPatternFilter(patterns=["*_en"])
+        url_filter_news = URLPatternFilter(patterns=["*pressemitteilungen*"])
 
         # Chain them so all must pass (AND logic)
         filter_chain = FilterChain([
             url_filter_news,
-            url_filter_en,
         ])
 
         config = CrawlerRunConfig(
             deep_crawl_strategy=BFSDeepCrawlStrategy(
-                max_depth=3,
+                max_depth=2,
                 include_external=False,
                 filter_chain=filter_chain,  # Single filter
             ),
@@ -56,20 +55,32 @@ async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsData
                 logger.info(f"Post already exists in the database. Skipping: {url}")
                 continue
 
-            if fnmatch.fnmatch(url, "*news*") and "news_en" not in url:
+            min_url = "https://www.transnetbw.de/de/newsroom/pressemitteilungen"
+            if fnmatch.fnmatch(url, "*pressemitteilungen*") and len(result.url) > len(min_url):
                 # Extract the title and date from the URL
-                match = re.match(r"(.+)-(\d{4}-\d{2}-\d{2})_en", url.split("/")[-1])
-                if not match:
-                    raise ValueError(f"URL format is unexpected. No match for date is found. URL: {url}")
+                german_months = {
+                    "Januar": 1, "Februar": 2, "März": 3, "April": 4,
+                    "Mai": 5, "Juni": 6, "Juli": 7, "August": 8,
+                    "September": 9, "Oktober": 10, "November": 11, "Dezember": 12
+                }
 
-                title = match.group(1)
-                date_iso = match.group(2)
+                pattern = r"\b(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(\d{4})\b"
+                match = re.search(pattern, result.markdown.raw_markdown)
+
+                if not match:
+                    logger.warning(f"Could not extract date in article in {url}")
+                    continue
+
+                # build date
+                day, month_str, year = match.groups()
+                month = german_months[month_str]
+                date_iso = datetime(int(year), month, int(day)).strftime("%Y-%m-%d")
+
+                # Replace hyphens with underscores in the title for readability
+                title = url.split("/")[-1].replace("-", "_")
 
                 # convert date "YYYY-MM-DD" to datetime as "YYYY-MM-DD:12:00:00" for uniformity
                 published_on = format_date_to_datetime(date_iso)
-
-                # Replace hyphens with underscores in the title for readability
-                title = title.replace("-", "_")
 
                 # store full article in the database
                 database.add_publication(
@@ -80,6 +91,6 @@ async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsData
                     post=result.markdown.raw_markdown,
                 )
 
-        await asyncio.sleep(5) # to avoid IP blocking
+        await asyncio.sleep(5) # to avoid hitting IP limits
 
         logger.info(f"Finished saving {len(new_articles)} new articles out of {len(results)} articles")

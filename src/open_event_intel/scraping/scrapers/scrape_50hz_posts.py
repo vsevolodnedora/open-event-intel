@@ -24,9 +24,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.publications_database import PostsDatabase
 
 logger = get_logger(__name__)
 
@@ -272,9 +272,10 @@ async def scrape_page_with_playwright(url: str, content_selector: str = ".n-grid
     markdown = md(str(soup), heading_style="ATX")
     return markdown
 
-async def main_scrape_50hz_posts(root_url: str, table_name: str, database: PostsDatabase|None) -> None:
+async def main_scrape_50hz_posts(root_url: str, table_name: str, database: PostsDatabase|None, params: dict) -> None:
     """Scrape 50hz news pages."""
     links = await fetch_news_links_with_playwright_async(url=root_url) # get list of unique links in the page
+
     if len(links) > 20:
         logger.warning(f"Too many links to scrape for {table_name} ({len(links)} links)")
     for link in links:
@@ -282,7 +283,7 @@ async def main_scrape_50hz_posts(root_url: str, table_name: str, database: Posts
     if len(links) == 0:
         raise Exception("No links found")
 
-    default_date = "1990-01-01"
+    default_date: str = params["default_date"]
 
     new_articles = []
     for link in links:

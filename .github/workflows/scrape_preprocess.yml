@@ -53,13 +53,17 @@ jobs:
           mkdir -p src/tkg
           cp -r data_repo/prompts_and_definitions src/tkg/prompts_and_definitions
 
+      # Since we want to call scripts deep in the project tree we install the package
+      - name: Install this package (editable)
+        run: pipenv run pip install -e .
+
       # Run scrapers and dump summary of the database into the public_view/
       - name: Scrape Publications from Publishers
-        run: pipenv run python run_scrape.py all
+        run: pipenv run python -m open_event_intel.scraping.run_scrape --source acer --db-path database/scraped_posts.db --output-dir output/posts_raw/ --metadata-dir docs/public_view/
 
       # Run preprocessor on the raw publication database and dump summary into public_view/
       - name: Preprocess Publications to clean the HTML and extract text
-        run: pipenv run python run_preprocess.py all
+        run: pipenv run python -m open_event_intel.scraping.run_preprocessor --source all --source-db database/scraped_posts.db --target-db database/preprocessed_posts.db --output-dir output/posts_cleaned/ --failed-dir output/failed_preprocess/ --overwrite --metadata-output docs/public_view/
 
       # Copy updated DB back into private repo and push
       - name: Push Updated DB to Private Repo

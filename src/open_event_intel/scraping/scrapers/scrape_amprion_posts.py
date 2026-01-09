@@ -11,18 +11,29 @@ from crawl4ai.deep_crawling.filters import (
     URLPatternFilter,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
-async def main_scrape_transnetbw_posts(root_url:str, table_name:str, database: PostsDatabase) -> None:
-    """Scrape posts from transnetbw news page."""
+def find_and_format_numeric_date(text:str)->str|None:
+    """Extract date from markdown."""
+    pattern = r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b"
+    match = re.search(pattern, text)
+
+    if not match:
+        return None
+
+    day, month, year = match.groups()
+    return datetime(int(year), int(month), int(day)).strftime("%Y-%m-%d")
+
+async def main_scrape_amprion_posts(root_url:str, table_name:str, database: PostsDatabase, params: dict) -> None:
+    """Scrape posts from amprion news page."""
     async with AsyncWebCrawler() as crawler:
 
         # Create a filter that only allows URLs with 'guide' in them
-        url_filter_news = URLPatternFilter(patterns=["*pressemitteilungen*"])
+        url_filter_news = URLPatternFilter(patterns=["*Presse*"])
 
         # Chain them so all must pass (AND logic)
         filter_chain = FilterChain([
@@ -55,29 +66,16 @@ async def main_scrape_transnetbw_posts(root_url:str, table_name:str, database: P
                 logger.info(f"Post already exists in the database. Skipping: {url}")
                 continue
 
-            min_url = "https://www.transnetbw.de/de/newsroom/pressemitteilungen"
-            if fnmatch.fnmatch(url, "*pressemitteilungen*") and len(result.url) > len(min_url):
-                # Extract the title and date from the URL
-                german_months = {
-                    "Januar": 1, "Februar": 2, "März": 3, "April": 4,
-                    "Mai": 5, "Juni": 6, "Juli": 7, "August": 8,
-                    "September": 9, "Oktober": 10, "November": 11, "Dezember": 12
-                }
+            if fnmatch.fnmatch(url, "*Presse*") and not fnmatch.fnmatch(url, "*Pressemitteilungen-[0-9][0-9][0-9][0-9]*") and not url.endswith(".jpg") and not url.endswith(".pdf"):
 
-                pattern = r"\b(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(\d{4})\b"
-                match = re.search(pattern, result.markdown.raw_markdown)
-
-                if not match:
-                    logger.warning(f"Could not extract date in article in {url}")
+                date_iso = find_and_format_numeric_date(text=result.markdown.raw_markdown)
+                if date_iso is None:
+                    logger.warning(f"No date found. Skipping: {url}")
                     continue
-
-                # build date
-                day, month_str, year = match.groups()
-                month = german_months[month_str]
-                date_iso = datetime(int(year), month, int(day)).strftime("%Y-%m-%d")
 
                 # Replace hyphens with underscores in the title for readability
                 title = url.split("/")[-1].replace("-", "_")
+                title = title.replace(".html", "")
 
                 # convert date "YYYY-MM-DD" to datetime as "YYYY-MM-DD:12:00:00" for uniformity
                 published_on = format_date_to_datetime(date_iso)
@@ -91,6 +89,6 @@ async def main_scrape_transnetbw_posts(root_url:str, table_name:str, database: P
                     post=result.markdown.raw_markdown,
                 )
 
-        await asyncio.sleep(5) # to avoid hitting IP limits
+        await asyncio.sleep(5) # to avoid IP blocking
 
         logger.info(f"Finished saving {len(new_articles)} new articles out of {len(results)} articles")

@@ -1,20 +1,19 @@
 import asyncio
 import logging
-import pickle
 from collections import Counter, defaultdict
 from collections.abc import Coroutine
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from typing import Any
 
-from jinja2 import DictLoader, Environment
+from jinja2 import Environment
 from openai import AsyncOpenAI
 from scipy.spatial.distance import cosine
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 
-from src.logger import get_logger
+from open_event_intel.logger import get_logger
 from src.tkg.config import Config
-from src.tkg.data_models import Predicate, StatementType, TemporalConfidence, TemporalEvent, TemporalType, Triplet
+from src.tkg.data_models import StatementType, TemporalConfidence, TemporalEvent, TemporalType, Triplet
 from src.tkg.prompt_registry import PromptRegistry
 from src.tkg.tkg_database import TKGDatabase
 

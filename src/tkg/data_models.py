@@ -2,7 +2,7 @@
 import json
 import re
 import uuid
-from datetime import datetime, timezone
+from datetime import datetime
 from enum import StrEnum
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 from dateutil.parser import parse
 from pydantic import BaseModel, Field, field_validator, model_validator
 
-from src.logger import get_logger
+from open_event_intel.logger import get_logger
 from src.tkg.config import TZ
 
 logger = get_logger(__name__)

@@ -4,12 +4,11 @@ import re
 from datetime import datetime
 from pathlib import Path
 from typing import List
-from zoneinfo import ZoneInfo
 
 import tiktoken
 
-from src.logger import get_logger
-from src.publications_database import Publication
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import Publication
 from src.tkg.config import MODEL_PRICES, LlmOptions, TZ
 
 logger = get_logger(__name__)

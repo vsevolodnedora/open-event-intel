@@ -2,7 +2,7 @@ import string
 
 from rapidfuzz import fuzz
 
-from src.logger import get_logger
+from open_event_intel.logger import get_logger
 from src.tkg.config import Config
 from src.tkg.data_models import Entity
 from src.tkg.tkg_database import TKGDatabase

@@ -14,9 +14,9 @@ from pydantic import BaseModel
 from rapidfuzz import fuzz
 from scipy.spatial.distance import cosine
 
-from src.data_models import Publication
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
+from open_event_intel.data_models import Publication
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
 from src.tkg.config import Config, LlmOptions
 from src.tkg.data_models import (
     RawEntity,

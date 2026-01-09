@@ -4,12 +4,12 @@ import asyncio
 import uuid
 from typing import Any
 
-from jinja2 import DictLoader, Environment
+from jinja2 import Environment
 from openai import AsyncOpenAI
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 
-from src.logger import get_logger
-from src.publications_database import Publication
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import Publication
 from src.tkg.config import Config
 from src.tkg.data_models import (
     Entity,

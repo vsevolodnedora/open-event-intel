@@ -8,10 +8,9 @@ import uuid
 from contextlib import contextmanager
 from datetime import datetime
 from typing import Any, Generator, Iterable, Iterator, List, Optional, Tuple
-from zoneinfo import ZoneInfo
 
-from src.data_models import Publication
-from src.logger import get_logger
+from open_event_intel.data_models import Publication
+from open_event_intel.logger import get_logger
 from src.tkg.data_models import (
     Entity,
     Predicate,

@@ -10,9 +10,9 @@ from crawl4ai.deep_crawling.filters import (
     URLPatternFilter,
 )
 
-from src.logger import get_logger
-from src.publications_database import PostsDatabase
-from src.scrapers.utils_scrape import format_date_to_datetime
+from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
@@ -48,7 +48,7 @@ def invert_date_format(date_str:str):
     # Rearrange and return in MM-DD-YYYY format
     return f"{month}-{day}-{year}"
 
-async def main_scrape_eex_posts(root_url:str, table_name:str, database: PostsDatabase) -> None:
+async def main_scrape_eex_posts(root_url:str, table_name:str, database: PostsDatabase, params: dict) -> None:
     """
     Scrape EEX news posts.
 
