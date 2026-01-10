@@ -59,7 +59,7 @@ jobs:
 
       # Run scrapers and dump summary of the database into the public_view/
       - name: Scrape Publications from Publishers
-        run: pipenv run python -m open_event_intel.scraping.run_scrape --source acer --db-path database/scraped_posts.db --output-dir output/posts_raw/ --metadata-dir docs/public_view/
+        run: pipenv run python -m open_event_intel.scraping.run_scrape --source all --db-path database/scraped_posts.db --output-dir output/posts_raw/ --metadata-dir docs/public_view/
 
       # Run preprocessor on the raw publication database and dump summary into public_view/
       - name: Preprocess Publications to clean the HTML and extract text

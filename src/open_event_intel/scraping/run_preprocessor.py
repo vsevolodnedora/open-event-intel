@@ -1222,27 +1222,27 @@ def main():
     parser.add_argument(
         "--source",
         nargs="?",
-        default="amprion",
+        default="all",
         help="Publisher to process (default: all)"
     )
     parser.add_argument(
         "--source-db",
-        default="database/scraped_posts.db",
+        default="../../../database/scraped_posts.db",
         help="Path to source database"
     )
     parser.add_argument(
         "--target-db",
-        default="database/preprocessed_posts.db",
+        default="../../../database/preprocessed_posts.db",
         help="Path to target database"
     )
     parser.add_argument(
         "--output-dir",
-        default="./output/posts_cleaned",
+        default="../../../output/posts_cleaned",
         help="Directory for markdown exports"
     )
     parser.add_argument(
         "--failed-dir",
-        default="./output/failed_preprocess/",
+        default="../../../output/failed_preprocess/",
         help="Directory for failed preprocessing outputs"
     )
     parser.add_argument(
@@ -1264,7 +1264,7 @@ def main():
     )
     parser.add_argument(
         "--metadata-output",
-        default="./docs/public_view/",
+        default="../../docs/public_view/",
         help="Directory for metadata export"
     )
 
