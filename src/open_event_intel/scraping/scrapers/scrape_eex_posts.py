@@ -116,6 +116,7 @@ async def main_scrape_eex_posts(root_url:str, table_name:str, database: PostsDat
                     published_on=published_on,
                     title=title,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
                 new_articles.append(url)

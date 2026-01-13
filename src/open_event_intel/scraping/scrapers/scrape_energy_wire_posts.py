@@ -124,6 +124,7 @@ async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, 
                 published_on=published_on,
                 title=article_title,
                 post_url=article_url,
+                language=params["language"],
                 post=raw_md,
             )
 

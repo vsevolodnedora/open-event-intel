@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 from open_event_intel.logger import get_logger
+from open_event_intel.publications_database import PostsDatabase
 from src.open_event_intel.scraping.scrapers.scrape_50hz_posts import main_scrape_50hz_posts
 from src.open_event_intel.scraping.scrapers.scrape_acer_posts import main_scrape_acer_posts
 from src.open_event_intel.scraping.scrapers.scrape_agora_posts import main_scrape_agora_posts
@@ -27,7 +28,6 @@ from src.open_event_intel.scraping.scrapers.scrape_icis_posts import main_scrape
 from src.open_event_intel.scraping.scrapers.scrape_smard_posts import main_scrape_smard_posts
 from src.open_event_intel.scraping.scrapers.scrape_tennet_posts import main_scrape_tennet_posts
 from src.open_event_intel.scraping.scrapers.scrape_transnetbw_posts import main_scrape_transnetbw_posts
-from open_event_intel.publications_database import PostsDatabase
 
 logger = get_logger(__name__)
 
@@ -37,67 +37,67 @@ SCRAPER_CONFIGS = {
     "entsoe": {
         "root_url": "https://www.entsoe.eu/news-events/",
         "scraper_func": main_scrape_entsoe_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "eex": {
         "root_url": "https://www.eex.com/en/newsroom/",
         "scraper_func": main_scrape_eex_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "acer": {
         "root_url": "https://www.acer.europa.eu/news-and-events/news",
         "scraper_func": main_scrape_acer_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "ec": {
         "root_url": "https://energy.ec.europa.eu/news_en",
         "scraper_func": main_scrape_ec_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "icis": {
         "root_url": "https://www.icis.com/explore/resources/news/",
         "scraper_func": main_scrape_icis_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "bnetza": {
         "root_url": "https://www.bundesnetzagentur.de/DE/Allgemeines/Aktuelles/start.html",
         "scraper_func": main_scrape_bnetza_posts,
-        "params": {},
+        "params": {"language":"de"},
     },
     "smard": {
         "root_url": "https://www.smard.de/home/energiemarkt-aktuell/energiemarkt-aktuell",
         "scraper_func": main_scrape_smard_posts,
-        "params": {},
+        "params": {"language":"de"},
     },
     "agora": {
         "root_url": "https://www.agora-energiewende.org/news-events",
         "scraper_func": main_scrape_agora_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "energy_wire": {
         "root_url": "https://www.cleanenergywire.org/news/",
         "scraper_func": main_scrape_energy_wire_posts,
-        "params": {},
+        "params": {"language":"en"},
     },
     "transnetbw": {
         "root_url": "https://www.transnetbw.de/de/newsroom/",
         "scraper_func": main_scrape_transnetbw_posts,
-        "params": {},
+        "params": {"language":"de"},
     },
     "tennet": {
         "root_url": "https://www.tennet.eu/de/news-de",
         "scraper_func": main_scrape_tennet_posts,
-        "params": {},
+        "params": {"language":"de"},
     },
     "50hz": {
         "root_url": "https://www.50hertz.com/de/Medien/",
         "scraper_func": main_scrape_50hz_posts,
-        "params": {"default_date": "1990-01-01"},
+        "params": {"default_date": "1990-01-01", "language":"de"},
     },
     "amprion": {
         "root_url": "https://www.amprion.net/",
         "scraper_func": main_scrape_amprion_posts,
-        "params": {},
+        "params": {"language":"de"},
     },
 }
 
@@ -259,7 +259,7 @@ Examples:
         "--source",
         "-s",
         nargs="+",
-        default=["acer"],
+        default=["smard"],
         metavar="SOURCE",
         help='Source(s) to scrape or "all" for all sources',
     )

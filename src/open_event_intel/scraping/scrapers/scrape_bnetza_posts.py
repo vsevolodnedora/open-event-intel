@@ -114,6 +114,7 @@ async def main_scrape_bnetza_posts(
                 published_on=published_on,
                 title=title,
                 post_url=url,
+                language=params["language"],
                 post=result.markdown.raw_markdown,
             )
 

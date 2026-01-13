@@ -28,6 +28,7 @@ Usage:
 import logging
 import os
 import re
+from langid import langid
 from abc import ABC
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -395,6 +396,8 @@ class GenericPublisherStrategy(BasePublisherStrategy):
     pass
 
 
+
+
 # Publisher-Specific Strategies
 
 
@@ -423,6 +426,7 @@ class SmardStrategy(BasePublisherStrategy):
         text = re.sub(r"\n{3,}", "\n\n", text)
         return text.strip()
 
+
 class EexStrategy(BasePublisherStrategy):
     """Strategy for EEX press releases."""
 
@@ -430,6 +434,7 @@ class EexStrategy(BasePublisherStrategy):
         # EEX has specific header format: "# EEX Press Release - MM/DD/YYYY"
         # The dynamic_start_marker handles this, but we clean up any remaining artifacts
         return text
+
 
 class CLEWStrategy(BasePublisherStrategy):
     """Strategy for CLEW press releases."""
@@ -444,6 +449,7 @@ class CLEWStrategy(BasePublisherStrategy):
         # Clean up excessive blank lines created by removals
         text = re.sub(r"\n{3,}", "\n\n", text)
         return text
+
 
 class BnetzaStrategy(BasePublisherStrategy):
     """Strategy for EEX press releases."""
@@ -654,7 +660,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "Read the complete report here ", "Visit the ENTSO-E Technopedia here .",
                 "* * *",
             ],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "eex": PublisherConfig(
@@ -666,7 +672,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "**Kontakt:**", "Related Files",
             ],
             dynamic_start_marker=DateFormats.mm_dd_yyyy,
-            max_lines=30,
+            max_lines=100,
         ),
 
         "acer": PublisherConfig(
@@ -676,7 +682,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             prefix_blacklist=["Share on: [Share]"],
             exact_blacklist=["Image", "ACER Report"],
             dynamic_start_marker=DateFormats.d_m_yyyy,
-            max_lines=30,
+            max_lines=100,
         ),
 
         "ec": PublisherConfig(
@@ -690,7 +696,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "## **Source list for the article data**", "Share this page ",
                 "info(at)acer.europa.eu",
             ],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "icis": PublisherConfig(
@@ -705,7 +711,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "[Try ICIS](https://www.icis.com/explore/contact",
             ],
             exact_blacklist=["Jump to"],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "bnetza": PublisherConfig(
@@ -714,7 +720,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             end_markers=["[](javascript:void(0);) **Inhalte teilen**", "[](javascript:void\(0\);) **Inhalte teilen**"],
             skip_first_lines=1,
             dynamic_start_marker=DateFormats.dd_mm_yyyy,
-            max_lines=30,
+            max_lines=100,
         ),
 
         "smard": PublisherConfig(
@@ -725,7 +731,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             exact_blacklist=SMARD_EXACT_BLACKLIST,
             block_blacklist=SMARD_BLOCK_BLACKLIST,
             prefer_german=True,
-            max_lines=30,
+            max_lines=100,
         ),
 
         "agora": PublisherConfig(
@@ -736,7 +742,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "##  Further reading",
             ],
             title_blacklist=["harvesting_policy_recipes_for_aseans_coal_to_clean_transition"],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "energy_wire": PublisherConfig(
@@ -748,7 +754,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             end_markers=["#### Further Reading", "### Ask CLEW"],
             prefix_blacklist=ENERGY_WIRE_PREFIX_BLACKLIST,
             dynamic_start_marker=DateFormats.dd_month_YYYY_comma_HH_MM,
-            max_lines=30,
+            max_lines=100,
         ),
 
         "transnetbw": PublisherConfig(
@@ -757,7 +763,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             end_markers=["https://de.linkedin.com/company/transnetbw-gmbh"],
             prefix_blacklist=TRANSNETBW_PREFIX_BLACKLIST,
             exact_blacklist=["Mathias Bloch", "Pressesprecher", "m.bloch@sonnen.de", "ZurückWeiter"],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "tennet": PublisherConfig(
@@ -765,7 +771,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             start_markers=["Zuletzt aktualisiert"],
             end_markers=["## Downloads", "Notwendige Cookies akzeptieren"],
             prefix_blacklist=["[Cookies](https://www.tennet.eu/de/datenschutz)"],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "50hz": PublisherConfig(
@@ -776,7 +782,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "![](/DesktopModules/LotesNewsXSP",
                 "[Download der Pressemitteilung als PDF-Datei]",
             ],
-            max_lines=30,
+            max_lines=100,
         ),
 
         "amprion": PublisherConfig(
@@ -794,7 +800,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
                 "[](tel:+",
             ],
             dynamic_start_marker=DateFormats.dd_mm_yyyy,
-            max_lines=30,
+            max_lines=100,
         ),
     }
 
@@ -833,27 +839,19 @@ class StrategyFactory:
 class LanguageFilter:
     """Filter publications by language preference."""
 
-    def __init__(self):
-        self._langid_available = False
-        try:
-            from langid import langid
-            self._langid = langid
-            self._langid_available = True
-        except ImportError:
-            logger.warning("langid not available, language filtering disabled")
-
-    def detect_language(self, text: str) -> tuple[str, float]:
+    @staticmethod
+    def detect_language(text: str) -> tuple[str, float]:
         """Detect language of text. Returns (language_code, confidence)."""
-        if not self._langid_available:
-            return ("en", 0.0)
         try:
-            return self._langid.classify(text)
+            return langid.classify(text)
         except Exception as e:
             logger.warning(f"Language detection failed: {e}")
             return ("en", 0.0)
 
+
+    @staticmethod
     def filter_prefer_german(
-            self, publications: list[Publication]
+            publications: list[Publication]
     ) -> list[Publication]:
         """
         Filter publications preferring German versions when both EN/DE exist for same date.
@@ -867,7 +865,7 @@ class LanguageFilter:
         # Detect languages
         lang_cache: dict[str, tuple[str, float]] = {}
         for pub in publications:
-            lang_cache[pub.id] = self.detect_language(pub.text)
+            lang_cache[pub.id] = LanguageFilter.detect_language(pub.text)
 
         # Group by date
         by_date: dict[str, list[Publication]] = defaultdict(list)
@@ -895,6 +893,141 @@ class LanguageFilter:
         return selected
 
 
+# Corruption detection
+
+class CharacterCorruptionFixer:
+    """
+    Fixes common character encoding corruption issues.
+
+    Loads corruption mappings from an external file to allow easy updates
+    without code changes.
+    """
+
+    def __init__(self, mappings_file: str):
+        """
+        Initialize the fixer by loading corruption mappings from file.
+
+        Args:
+            mappings_file: Path to file containing corruption mappings
+                          Format: "corrupted → correct" (one per line)
+                          Lines starting with # are comments
+
+        Raises:
+            FileNotFoundError: If mappings file doesn't exist
+            ValueError: If file format is invalid
+        """
+        self.mappings = self._load_mappings(mappings_file)
+        logger.info(f"Loaded {len(self.mappings)} corruption mappings from {mappings_file}")
+
+    def _load_mappings(self, filepath: str) -> dict[str, str]:
+        """
+        Load corruption mappings from file.
+
+        Expected format:
+            # Comments start with #
+            Ã¼ → ü
+            Ã¶ → ö
+            â€˜ → '
+
+        Also supports tab-separated format:
+            Ã¼	ü
+
+        Returns:
+            Dictionary mapping corrupted strings to correct strings
+        """
+        if not os.path.isfile(filepath):
+            raise FileNotFoundError(f"Corruption mappings file not found: {filepath}")
+
+        mappings = {}
+        line_num = 0
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                line_num += 1
+                line = line.strip()
+
+                # Skip empty lines and comments
+                if not line or line.startswith("#"):
+                    continue
+
+                # Try arrow format first: "corrupted → correct"
+                if "→" in line:
+                    parts = line.split("→", 1)
+                    if len(parts) == 2:
+                        corrupted = parts[0].strip()
+                        correct = parts[1].strip()
+                        mappings[corrupted] = correct
+                        continue
+
+                # Try tab-separated format: "corrupted\tcorrect"
+                if "\t" in line:
+                    parts = line.split("\t", 1)
+                    if len(parts) == 2:
+                        corrupted = parts[0].strip()
+                        correct = parts[1].strip()
+                        mappings[corrupted] = correct
+                        continue
+
+                # Invalid format
+                logger.warning(f"Skipping invalid line {line_num} in {filepath}: {line[:50]}")
+
+        if not mappings:
+            raise ValueError(f"No valid mappings found in {filepath}")
+
+        return mappings
+
+    def fix_text(self, text: str) -> tuple[str, int]:
+        """
+        Fix character corruption in text.
+
+        Args:
+            text: Text with potential character corruption
+
+        Returns:
+            Tuple of (corrected_text, total_replacements)
+        """
+        corrected_text = text
+        total_replacements = 0
+
+        for corrupted, correct in self.mappings.items():
+            count = corrected_text.count(corrupted)
+            if count > 0:
+                corrected_text = corrected_text.replace(corrupted, correct)
+                total_replacements += count
+
+        return corrected_text, total_replacements
+
+    def scan_result_for_corruption(self, result: ProcessingResult, publication: Publication) -> ProcessingResult:
+        """
+        Scan and fix character corruption in the processing result.
+
+        Detects and corrects common UTF-8/Latin-1 encoding mismatches and logs
+        any corrections made.
+
+        Args:
+            result: The processing result to check
+            publication: The publication being processed (for logging)
+
+        Returns:
+            Updated ProcessingResult with corrected text and additional warnings
+        """
+        if not result.success or not result.text:
+            return result
+
+        corrected_text, total_replacements = self.fix_text(result.text)
+
+        if total_replacements > 0:
+            date_str = publication.published_on.strftime("%Y-%m-%d_%H-%M")
+            # Truncate title to 50 chars for logging
+            title_short = publication.title[:50] if publication.title else "untitled"
+
+            logger.info(f"Character corruption fixed: {publication.publisher} | {date_str} | {title_short} | {total_replacements} characters replaced")
+
+            result.warnings.append(f"Fixed {total_replacements} corrupted characters")
+            result.text = corrected_text
+
+        return result
+
 
 # Main Preprocessor Class
 
@@ -909,7 +1042,8 @@ class PublicationPreprocessor:
     Usage:
         from src.publications_database import PostsDatabase
 
-        preprocessor = PublicationPreprocessor()
+        corruption_fixer = CharacterCorruptionFixer("possible_corruptions.txt")
+        preprocessor = PublicationPreprocessor(corruption_fixer=corruption_fixer)
         source_db = PostsDatabase("scraped.db")
         target_db = PostsDatabase("preprocessed.db")
 
@@ -917,9 +1051,7 @@ class PublicationPreprocessor:
     """
 
     def __init__(
-            self,
-            custom_configs: Optional[dict[str, PublisherConfig]] = None,
-            failed_output_dir: str = "./output/failed_preprocess/"
+        self, custom_configs: Optional[dict[str, PublisherConfig]] = None, failed_output_dir: str = "./output/failed_preprocess/", corruption_fpath: str | None = None
     ):
         """
         Initialize preprocessor with optional custom configurations.
@@ -927,6 +1059,7 @@ class PublicationPreprocessor:
         Args:
             custom_configs: Custom publisher configs to override defaults
             failed_output_dir: Directory to save publications that fail preprocessing
+            corruption_fixer: CharacterCorruptionFixer instance for fixing encoding issues
 
         """
         self.configs = create_default_configs()
@@ -934,8 +1067,8 @@ class PublicationPreprocessor:
             self.configs.update(custom_configs)
 
         self._strategies: dict[str, BasePublisherStrategy] = {}
-        self._language_filter = LanguageFilter()
         self._failed_output_dir = failed_output_dir
+        self.corruption_fixer = CharacterCorruptionFixer(corruption_fpath)
 
     def _get_strategy(self, publisher: str) -> BasePublisherStrategy:
         """Get or create strategy for publisher."""
@@ -1010,14 +1143,7 @@ class PublicationPreprocessor:
         return filepath
 
     def process_table(
-            self,
-            source_db: PostsDatabase,
-            target_db: PostsDatabase,
-            table_name: str,
-            *,
-            overwrite: bool = False,
-            allow_failures: bool = False,
-            prefer_german: Optional[bool] = None
+        self, source_db: PostsDatabase, target_db: PostsDatabase, table_name: str, *, overwrite: bool = False, allow_failures: bool = False, prefer_german: Optional[bool] = None
     ) -> dict[str, int]:
         """
         Process all publications in a source table and store in target.
@@ -1060,7 +1186,7 @@ class PublicationPreprocessor:
 
         # Apply German preference filter if needed
         if use_german_preference:
-            publications = self._language_filter.filter_prefer_german(publications)
+            publications = LanguageFilter.filter_prefer_german(publications)
             logger.info(f"After language filter: {len(publications)} publications")
 
         # Track date range
@@ -1108,19 +1234,25 @@ class PublicationPreprocessor:
                     raise ProcessingError(f"Failed to process {pub.title}: {result.error}")
                 continue
 
+            # Check if there are corrupted characters in the text and fix
+            if self.corruption_fixer:
+                result = self.corruption_fixer.scan_result_for_corruption(result, pub)
+
             # Log warnings
             for warning in result.warnings:
                 logger.warning(f"{pub.title}: {warning}")
 
+            # Check if languages match
+            inferred_language, language_certainty = LanguageFilter.detect_language(pub.text)
+            if not inferred_language == pub.language:
+                logger.error(
+                    f"Expected language '{pub.language}' does not match inferred '{inferred_language}' "
+                    f"(certainty {language_certainty}) for "
+                    f"{pub.published_on.strftime('%Y-%m-%d_%H-%M')}_{pub.publisher}_{pub.title}"
+                )
+
             # Store result using existing database interface
-            target_db.add_publication(
-                table_name=table_name,
-                published_on=pub.published_on,
-                title=pub.title,
-                post_url=pub.url,
-                post=result.text,
-                overwrite=overwrite
-            )
+            target_db.add_publication(table_name=table_name, published_on=pub.published_on, title=pub.title, post_url=pub.url, post=result.text, language=inferred_language, overwrite=overwrite)
             stats["processed"] += 1
             processing_results.append("o")
 
@@ -1138,10 +1270,7 @@ class PublicationPreprocessor:
                 for failed_file in failed_files:
                     logger.info(f"  - {failed_file}")
 
-        logger.info(
-            f"Completed {table_name}: "
-            f"{stats['processed']} processed, {stats['skipped']} skipped, {stats['failed']} failed"
-        )
+        logger.info(f"Completed {table_name}: {stats['processed']} processed, {stats['skipped']} skipped, {stats['failed']} failed")
         return stats
 
     def process_all_tables(
@@ -1216,61 +1345,21 @@ def main():
     """Command-line interface for the preprocessor."""
     import argparse
 
-    parser = argparse.ArgumentParser(
-        description="Preprocess scraped publications from various publishers"
-    )
-    parser.add_argument(
-        "--source",
-        nargs="?",
-        default="all",
-        help="Publisher to process (default: all)"
-    )
-    parser.add_argument(
-        "--source-db",
-        default="../../../database/scraped_posts.db",
-        help="Path to source database"
-    )
-    parser.add_argument(
-        "--target-db",
-        default="../../../database/preprocessed_posts.db",
-        help="Path to target database"
-    )
-    parser.add_argument(
-        "--output-dir",
-        default="../../../output/posts_cleaned",
-        help="Directory for markdown exports"
-    )
-    parser.add_argument(
-        "--failed-dir",
-        default="../../../output/failed_preprocess/",
-        help="Directory for failed preprocessing outputs"
-    )
-    parser.add_argument(
-        "--overwrite",
-        default=True,
-        action="store_true",
-        help="Overwrite existing publications"
-    )
-    parser.add_argument(
-        "--allow-failures",
-        default=True,
-        action="store_true",
-        help="Continue processing on failures"
-    )
-    parser.add_argument(
-        "--list-publishers",
-        action="store_true",
-        help="List available publishers and exit"
-    )
-    parser.add_argument(
-        "--metadata-output",
-        default="../../docs/public_view/",
-        help="Directory for metadata export"
-    )
+    parser = argparse.ArgumentParser(description="Preprocess scraped publications from various publishers")
+    parser.add_argument("--source", nargs="?", default="all", help="Publisher to process (default: all)")
+    parser.add_argument("--source-db", default="../../../database/scraped_posts.db", help="Path to source database")
+    parser.add_argument("--target-db", default="../../../database/preprocessed_posts.db", help="Path to target database")
+    parser.add_argument("--output-dir", default="../../../output/posts_cleaned", help="Directory for markdown exports")
+    parser.add_argument("--failed-dir", default="../../../output/failed_preprocess/", help="Directory for failed preprocessing outputs")
+    parser.add_argument("--corruptions-file", default="../../../config/possible_corruptions.txt", help="Path to file containing character corruption mappings")
+    parser.add_argument("--overwrite", default=True, action="store_true", help="Overwrite existing publications")
+    parser.add_argument("--allow-failures", default=True, action="store_true", help="Continue processing on failures")
+    parser.add_argument("--list-publishers", action="store_true", help="List available publishers and exit")
+    parser.add_argument("--metadata-output", default="../../docs/public_view/", help="Directory for metadata export")
 
     args = parser.parse_args()
 
-    preprocessor = PublicationPreprocessor(failed_output_dir=args.failed_dir)
+    preprocessor = PublicationPreprocessor(failed_output_dir=args.failed_dir, corruption_fpath=args.corruptions_file)
 
     logger.info("Starting preprocessor...")
     if args.list_publishers:
@@ -1300,14 +1389,7 @@ def main():
 
     try:
         # Process and export
-        all_stats = preprocessor.process_all_tables(
-            source_db,
-            target_db,
-            tables=publishers,
-            overwrite=args.overwrite,
-            allow_failures=args.allow_failures,
-            output_base_dir=args.output_dir
-        )
+        all_stats = preprocessor.process_all_tables(source_db, target_db, tables=publishers, overwrite=args.overwrite, allow_failures=args.allow_failures, output_base_dir=args.output_dir)
 
         # Print summary
         total = {"processed": 0, "skipped": 0, "failed": 0}
@@ -1316,17 +1398,10 @@ def main():
                 for key in total:
                     total[key] += stats.get(key, 0)
 
-        logger.info(
-            f"Total: {total['processed']} processed, "
-            f"{total['skipped']} skipped, {total['failed']} failed"
-        )
+        logger.info(f"Total: {total['processed']} processed, {total['skipped']} skipped, {total['failed']} failed")
 
         # Export metadata
-        target_db.export_all_publications_metadata(
-            out_dir=args.metadata_output,
-            format="json",
-            filename="preprocessed_publications_metadata"
-        )
+        target_db.export_all_publications_metadata(out_dir=args.metadata_output, format="json", filename="preprocessed_publications_metadata")
         logger.info(f"Updated metadata file at {args.metadata_output}")
 
     finally:

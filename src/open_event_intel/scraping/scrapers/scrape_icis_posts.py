@@ -80,6 +80,7 @@ async def main_scrape_icis_posts(root_url:str, database: PostsDatabase, table_na
                     published_on=published_on,
                     title=title,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
                 new_articles.append(url)

@@ -1,0 +1,159 @@
+# Character Corruption Mappings
+# Format: corrupted → correct
+# Lines starting with # are comments
+
+# German umlauts (lowercase)
+Ã¼ → ü
+Ã¶ → ö
+Ã¤ → ä
+ÃŸ → ß
+
+# German umlauts (uppercase)
+Ã„ → Ä
+Ã– → Ö
+Ãœ → Ü
+
+# French/European accents (lowercase)
+Ã© → é
+Ã¨ → è
+Ãª → ê
+Ã« → ë
+Ã¡ → á
+Ã  → à
+Ã¢ → â
+Ã£ → ã
+Ã­ → í
+Ã¬ → ì
+Ã® → î
+Ã¯ → ï
+Ã³ → ó
+Ã² → ò
+Ã´ → ô
+Ãµ → õ
+Ãº → ú
+Ã¹ → ù
+Ã» → û
+Ã± → ñ
+Ã§ → ç
+Ã¦ → æ
+Å" → œ
+
+# French/European accents (uppercase)
+à → Ã
+à‰ → É
+àˆ → È
+àŠ → Ê
+à‹ → Ë
+à → Á
+à€ → À
+à‚ → Â
+àƒ → Ã
+à → Í
+àŒ → Ì
+àŽ → Î
+à → Ï
+à" → Ó
+à' → Ò
+à" → Ô
+à• → Õ
+àš → Ú
+à™ → Ù
+à› → Û
+à' → Ñ
+à‡ → Ç
+à† → Æ
+Å' → Œ
+
+# Smart quotes and apostrophes
+â€˜ → '
+â€™ → '
+â€œ → "
+â€ → "
+â€ž → „
+â€º → ›
+â€¹ → ‹
+Â´ → ´
+â€° → ‰
+
+# Dashes and hyphens
+â€" → —
+â€" → –
+â€' → ‑
+
+# Other punctuation and symbols
+â€¦ → …
+â€¢ → •
+Â· → ·
+Â§ → §
+Â¶ → ¶
+â€  → †
+â€¡ → ‡
+â„¢ → ™
+Â® → ®
+Â© → ©
+Â° → °
+Â± → ±
+Ã— → ×
+Ã· → ÷
+âˆ' → −
+âˆš → √
+âˆž → ∞
+â‰¤ → ≤
+â‰¥ → ≥
+â‰  → ≠
+â‰ˆ → ≈
+
+# Currency symbols
+â‚¬ → €
+Â£ → £
+Â¥ → ¥
+Â¢ → ¢
+
+# Superscripts and subscripts
+Â¹ → ¹
+Â² → ²
+Â³ → ³
+Â½ → ½
+Â¼ → ¼
+Â¾ → ¾
+
+# Scandinavian characters
+Ã¥ → å
+Ã˜ → Ø
+Ã¸ → ø
+Ã… → Å
+
+# Greek letters
+Î± → α
+Î² → β
+Î³ → γ
+Î´ → δ
+Îµ → ε
+Î¸ → θ
+Î» → λ
+Î¼ → μ
+Ï€ → π
+Ïƒ → σ
+Ï„ → τ
+Ï† → φ
+Ï‰ → ω
+
+# Arrows
+â†' → →
+â† → ←
+â†' → ↑
+â†" → ↓
+â‡' → ⇒
+â‡ → ⇐
+
+# Spaces
+Â  →
+â€‚ →
+â€ƒ →
+â€‰ →
+
+# Other
+ï¿½ → �
+â— → ◦
+âœ" → ✓
+âœ– → ✖

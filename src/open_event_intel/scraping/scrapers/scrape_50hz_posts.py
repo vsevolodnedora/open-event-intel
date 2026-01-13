@@ -25,8 +25,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 from open_event_intel.logger import get_logger
-from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 from open_event_intel.publications_database import PostsDatabase
+from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
 
@@ -323,6 +323,7 @@ async def main_scrape_50hz_posts(root_url: str, table_name: str, database: Posts
                 published_on=published_on,
                 title=article_title,
                 post_url=link,
+                language=params["language"],
                 post=raw_md,
             )
 

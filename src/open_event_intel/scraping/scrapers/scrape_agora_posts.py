@@ -94,6 +94,7 @@ async def main_scrape_agora_posts(root_url:str, database: PostsDatabase, table_n
                     published_on=published_on,
                     title=title_part,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
 

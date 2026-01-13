@@ -63,7 +63,7 @@ jobs:
 
       # Run preprocessor on the raw publication database and dump summary into public_view/
       - name: Preprocess Publications to clean the HTML and extract text
-        run: pipenv run python -m open_event_intel.scraping.run_preprocessor --source all --source-db database/scraped_posts.db --target-db database/preprocessed_posts.db --output-dir output/posts_cleaned/ --failed-dir output/failed_preprocess/ --overwrite --metadata-output docs/public_view/
+        run: pipenv run python -m open_event_intel.scraping.run_preprocessor --source all --source-db database/scraped_posts.db --target-db database/preprocessed_posts.db --output-dir output/posts_cleaned/ --failed-dir output/failed_preprocess/ --overwrite --metadata-output docs/public_view/ --corruptions-file config/possible_corruptions.txt
 
       # Copy updated DB back into private repo and push
       - name: Push Updated DB to Private Repo

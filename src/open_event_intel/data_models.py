@@ -14,6 +14,7 @@ class Publication(BaseModel):
     published_on: datetime # The date when the post was published
     added_on: datetime  # date when the post was added to the database
     title: str | None = None # title of the post
+    language: str | None = None # DE or EN (for now)
 
     @field_validator("published_on","added_on", mode="before")
     @classmethod

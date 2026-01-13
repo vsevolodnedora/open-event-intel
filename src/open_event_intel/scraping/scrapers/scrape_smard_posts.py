@@ -26,7 +26,6 @@ from open_event_intel.publications_database import PostsDatabase
 from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)
-
 async def main_scrape_smard_posts(root_url:str, database: PostsDatabase, table_name:str, params: dict) -> None:
 
     known_bad_links = [
@@ -117,6 +116,7 @@ async def main_scrape_smard_posts(root_url:str, database: PostsDatabase, table_n
                     published_on=published_on,
                     title=title,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
                 new_articles.append(url)

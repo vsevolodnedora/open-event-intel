@@ -59,6 +59,7 @@ class PostsDatabase:
             title TEXT NOT NULL,
             added_on TIMESTAMP NOT NULL,
             url TEXT NOT NULL,
+            language TEXT NOT NULL,
             post BLOB NOT NULL
         );
         """
@@ -114,6 +115,7 @@ class PostsDatabase:
         published_on: datetime,
         title: str,
         post_url: str,
+        language: str,
         post: str,
         overwrite: bool = False
     ) -> None:
@@ -137,7 +139,7 @@ class PostsDatabase:
         if exists and overwrite:
             sql = f"""
             UPDATE "{table_name}"
-               SET published_on = ?, title = ?, added_on = ?, url = ?, post = ?
+               SET published_on = ?, title = ?, added_on = ?, url = ?, language = ?, post = ?
              WHERE ID = ?;
             """  # noqa: S608
             params = (
@@ -145,14 +147,15 @@ class PostsDatabase:
                 title,
                 added_dt,
                 post_url,
+                language,
                 compressed,
                 post_id,
             )
         else:
             sql = f"""
             INSERT INTO "{table_name}"
-                   (ID, published_on, title, added_on, url, post)
-            VALUES (?, ?, ?, ?, ?, ?);
+                   (ID, published_on, title, added_on, url, language, post)
+            VALUES (?, ?, ?, ?, ?, ?, ?);
             """  # noqa: S608
             params = (
                 post_id,
@@ -160,11 +163,12 @@ class PostsDatabase:
                 title,
                 added_dt,
                 post_url,
+                language,
                 compressed,
             )
         self.conn.execute(sql, params)
         self.conn.commit()
-        logger.info(
+        logger.debug(
             f"Post {'updated' if exists else 'added'} in {table_name}: id={post_id}, title={title}"
         )
 
@@ -198,7 +202,7 @@ class PostsDatabase:
         if not row:
             raise ValueError(f"No data retrieved for post id {publication_id} in table {table_name}.")
 
-        pid, pub_dt, title, add_dt, url, blob = row
+        pid, pub_dt, title, add_dt, url, language, blob = row
         text = self.decompress_publication_text(pid, blob)
 
         try:
@@ -209,6 +213,7 @@ class PostsDatabase:
                 publisher=table_name,  # adjust if you store publisher elsewhere
                 published_on=pub_dt,
                 added_on=add_dt,
+                language=language,
                 title=title,
             )
         except ValidationError as e:
@@ -222,7 +227,7 @@ class PostsDatabase:
 
         logger.debug("Listing all posts in table: %s", table_name)
 
-        sql = f'SELECT ID, published_on, title, added_on, url, post FROM "{table_name}"'
+        sql = f'SELECT ID, published_on, title, added_on, url, language, post FROM "{table_name}"' # noqa S608
         if sort_date:
             sql += " ORDER BY published_on DESC"
         sql += ";"
@@ -230,7 +235,7 @@ class PostsDatabase:
         publications: List[Publication] = []
 
         cursor = self.conn.execute(sql)
-        for pid, pub_dt, title, add_dt, url, blob in cursor.fetchall():
+        for pid, pub_dt, title, add_dt, url, language, blob in cursor.fetchall():
             text = self.decompress_publication_text(pid, blob)
             try:
                 publications.append(
@@ -241,6 +246,7 @@ class PostsDatabase:
                         publisher=table_name,  # change if you store publisher elsewhere
                         published_on=pub_dt,
                         added_on=add_dt,
+                        language=language,
                         title=title,
                     )
                 )
@@ -361,6 +367,7 @@ class PostsDatabase:
                         "published_on": pub.published_on.isoformat(),
                         "added_on": pub.added_on.isoformat(),
                         "title": pub.title or "",
+                        "language": pub.language or "",
                     }
                     all_metadata.append(metadata)
 
@@ -382,7 +389,7 @@ class PostsDatabase:
         if format == "csv":
             output_path = os.path.join(out_dir, f"{filename}.csv")
             with open(output_path, "w", encoding="utf-8", newline="") as f:
-                fieldnames = ["id", "url", "length", "publisher", "published_on", "added_on", "title"]
+                fieldnames = ["id", "url", "length", "publisher", "published_on", "added_on", "title", "language"]
                 writer = csv.DictWriter(f, fieldnames=fieldnames)
                 writer.writeheader()
                 writer.writerows(all_metadata)

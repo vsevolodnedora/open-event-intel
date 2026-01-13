@@ -86,6 +86,7 @@ async def main_scrape_amprion_posts(root_url:str, table_name:str, database: Post
                     published_on=published_on,
                     title=title,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
 

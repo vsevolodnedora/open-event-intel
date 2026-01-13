@@ -72,6 +72,7 @@ async def main_scrape_entsoe_posts(root_url: str, database: PostsDatabase, table
                     published_on=published_on,
                     title=title,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
                 new_articles.append(url)

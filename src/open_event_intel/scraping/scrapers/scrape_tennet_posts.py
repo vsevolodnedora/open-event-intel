@@ -307,6 +307,7 @@ async def main_scrape_tennet_posts(root_url: str, table_name: str, database: Pos
                     published_on=published_on,
                     title=article_title,
                     post_url=link,
+                    language=params["language"],
                     post=raw_md,
                 )
 

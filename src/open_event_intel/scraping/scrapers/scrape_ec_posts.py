@@ -77,6 +77,7 @@ async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsData
                     published_on=published_on,
                     title=title,
                     post_url=url,
+                    language=params["language"],
                     post=result.markdown.raw_markdown,
                 )
 
