@@ -225,11 +225,17 @@ async def main_scrape_tennet_posts(root_url: str, table_name: str, database: Pos
         for link in selected_links:
             logger.info(f"Processing {link}")
 
-            # check if file exists and if so, skip
-            if database is not None \
-                    and database.is_table(table_name=table_name) \
-                    and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=link)):
-                logger.info(f"Post already exists in the database. Skipping: {link}")
+            # check for post in the database before trying to pull it as it is long
+            if (
+                database is not None
+                and database.is_table(table_name=table_name)
+                and database.is_publication(
+                    table_name=table_name,
+                    publication_id=database.create_publication_id(post_url=link),
+                )
+                and not params["overwrite"]
+            ):
+                logger.info(f"Post already exists in the database for {table_name}. Skipping: {link} (overwrite={params['overwrite']})")
                 continue
 
             attempt = 0
@@ -309,6 +315,7 @@ async def main_scrape_tennet_posts(root_url: str, table_name: str, database: Pos
                     post_url=link,
                     language=params["language"],
                     post=raw_md,
+                    overwrite=params["overwrite"],
                 )
 
             new_articles.append(link)

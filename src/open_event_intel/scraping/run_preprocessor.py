@@ -731,7 +731,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             exact_blacklist=SMARD_EXACT_BLACKLIST,
             block_blacklist=SMARD_BLOCK_BLACKLIST,
             prefer_german=True,
-            max_lines=100,
+            max_lines=2500, # tables can be long
         ),
 
         "agora": PublisherConfig(
@@ -1355,7 +1355,7 @@ def main():
     parser.add_argument("--overwrite", default=True, action="store_true", help="Overwrite existing publications")
     parser.add_argument("--allow-failures", default=True, action="store_true", help="Continue processing on failures")
     parser.add_argument("--list-publishers", action="store_true", help="List available publishers and exit")
-    parser.add_argument("--metadata-output", default="../../docs/public_view/", help="Directory for metadata export")
+    parser.add_argument("--metadata-output", default="../../../docs/public_view/", help="Directory for metadata export")
 
     args = parser.parse_args()
 

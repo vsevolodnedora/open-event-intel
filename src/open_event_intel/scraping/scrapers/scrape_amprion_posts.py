@@ -62,8 +62,17 @@ async def main_scrape_amprion_posts(root_url:str, table_name:str, database: Post
         for result in results:  # Show first 3 results
             url = result.url
 
-            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=url)):
-                logger.info(f"Post already exists in the database. Skipping: {url}")
+            # check for post in the database before trying to pull it as it is long
+            if (
+                database is not None
+                and database.is_table(table_name=table_name)
+                and database.is_publication(
+                    table_name=table_name,
+                    publication_id=database.create_publication_id(post_url=url),
+                )
+                and not params["overwrite"]
+            ):
+                logger.info(f"Post already exists in the database for {table_name}. Skipping: {url} (overwrite={params['overwrite']})")
                 continue
 
             if fnmatch.fnmatch(url, "*Presse*") and not fnmatch.fnmatch(url, "*Pressemitteilungen-[0-9][0-9][0-9][0-9]*") and not url.endswith(".jpg") and not url.endswith(".pdf"):
@@ -88,6 +97,7 @@ async def main_scrape_amprion_posts(root_url:str, table_name:str, database: Post
                     post_url=url,
                     language=params["language"],
                     post=result.markdown.raw_markdown,
+                    overwrite=params["overwrite"]
                 )
 
         await asyncio.sleep(5) # to avoid IP blocking

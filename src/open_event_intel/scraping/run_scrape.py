@@ -37,67 +37,67 @@ SCRAPER_CONFIGS = {
     "entsoe": {
         "root_url": "https://www.entsoe.eu/news-events/",
         "scraper_func": main_scrape_entsoe_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "eex": {
         "root_url": "https://www.eex.com/en/newsroom/",
         "scraper_func": main_scrape_eex_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "acer": {
         "root_url": "https://www.acer.europa.eu/news-and-events/news",
         "scraper_func": main_scrape_acer_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "ec": {
         "root_url": "https://energy.ec.europa.eu/news_en",
         "scraper_func": main_scrape_ec_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "icis": {
         "root_url": "https://www.icis.com/explore/resources/news/",
         "scraper_func": main_scrape_icis_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "bnetza": {
         "root_url": "https://www.bundesnetzagentur.de/DE/Allgemeines/Aktuelles/start.html",
         "scraper_func": main_scrape_bnetza_posts,
-        "params": {"language":"de"},
+        "params": {"language":"de", "overwrite":False},
     },
     "smard": {
         "root_url": "https://www.smard.de/home/energiemarkt-aktuell/energiemarkt-aktuell",
         "scraper_func": main_scrape_smard_posts,
-        "params": {"language":"de"},
+        "params": {"language":"de", "overwrite":False},
     },
     "agora": {
         "root_url": "https://www.agora-energiewende.org/news-events",
         "scraper_func": main_scrape_agora_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "energy_wire": {
         "root_url": "https://www.cleanenergywire.org/news/",
         "scraper_func": main_scrape_energy_wire_posts,
-        "params": {"language":"en"},
+        "params": {"language":"en", "overwrite":False},
     },
     "transnetbw": {
         "root_url": "https://www.transnetbw.de/de/newsroom/",
         "scraper_func": main_scrape_transnetbw_posts,
-        "params": {"language":"de"},
+        "params": {"language":"de", "overwrite":False},
     },
     "tennet": {
         "root_url": "https://www.tennet.eu/de/news-de",
         "scraper_func": main_scrape_tennet_posts,
-        "params": {"language":"de"},
+        "params": {"language":"de", "overwrite":False},
     },
     "50hz": {
         "root_url": "https://www.50hertz.com/de/Medien/",
         "scraper_func": main_scrape_50hz_posts,
-        "params": {"default_date": "1990-01-01", "language":"de"},
+        "params": {"default_date": "1990-01-01", "language":"de", "overwrite":False},
     },
     "amprion": {
         "root_url": "https://www.amprion.net/",
         "scraper_func": main_scrape_amprion_posts,
-        "params": {"language":"de"},
+        "params": {"language":"de", "overwrite":False},
     },
 }
 
@@ -268,27 +268,27 @@ Examples:
         "--db-path",
         type=Path,
         default=Path("../../../database/scraped_posts.db"),
-        help="Path to SQLite database (default: ../../database/scraped_posts.db)",
+        help="Path to SQLite database (default: ../../../database/scraped_posts.db)",
     )
 
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("../output/posts_raw"),
-        help="Base directory for raw markdown outputs (default: ./output/posts_raw)",
+        default=Path("../../../output/posts_raw"),
+        help="Base directory for raw markdown outputs (default: ../../../output/posts_raw)",
     )
 
     parser.add_argument(
         "--metadata-dir",
         type=Path,
         default=Path("../../../docs/public_view"),
-        help="Directory for metadata JSON export (default: ../../docs/public_view)",
+        help="Directory for metadata JSON export (default: ../../../docs/public_view)",
     )
 
     parser.add_argument(
         "--max-runtime",
         type=int,
-        default=1800,
+        default=18000,
         help="Maximum runtime per scraper in seconds (default: 1800)",
     )
 

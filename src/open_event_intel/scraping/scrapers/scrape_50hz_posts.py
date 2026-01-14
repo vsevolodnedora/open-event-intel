@@ -289,9 +289,19 @@ async def main_scrape_50hz_posts(root_url: str, table_name: str, database: Posts
     for link in links:
         logger.info(f"Processing {link}")
 
+
+
         # check for post in the database before trying to pull it as it is long
-        if database is not None and database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=link)):
-            logger.info(f"Post already exists in the database. Skipping: {link}")
+        if (
+            database is not None
+            and database.is_table(table_name=table_name)
+            and database.is_publication(
+                table_name=table_name,
+                publication_id=database.create_publication_id(post_url=link),
+            )
+            and not params["overwrite"]
+        ):
+            logger.info(f"Post already exists in the database. Skipping: {link} and overwrite: {params['overwrite']}")
             continue
 
         # attempt scraping with crawl4ai
@@ -325,6 +335,7 @@ async def main_scrape_50hz_posts(root_url: str, table_name: str, database: Posts
                 post_url=link,
                 language=params["language"],
                 post=raw_md,
+                overwrite=params["overwrite"],
             )
 
         new_articles.append(link)

@@ -71,9 +71,17 @@ async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, 
             dt = datetime.strptime(article["date"], "%d %b %Y - %H:%M")
             formatted_datetime = dt.strftime("%Y-%m-%d %H:%M")
 
-            # check if file exists and if so, skip
-            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=article_url)):
-                logger.info(f"Post already exists in the database. Skipping: {article_url}")
+            # check for post in the database before trying to pull it as it is long
+            if (
+                database is not None
+                and database.is_table(table_name=table_name)
+                and database.is_publication(
+                    table_name=table_name,
+                    publication_id=database.create_publication_id(post_url=article_url),
+                )
+                and not params["overwrite"]
+            ):
+                logger.info(f"Post already exists in the database for {table_name}. Skipping: {article_url} (overwrite={params['overwrite']})")
                 continue
 
             logger.info(f"Processing {article['date']} {article_url}")
@@ -126,6 +134,7 @@ async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, 
                 post_url=article_url,
                 language=params["language"],
                 post=raw_md,
+                overwrite=params["overwrite"],
             )
 
             new_articles.append(article_url)

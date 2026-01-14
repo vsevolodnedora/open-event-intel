@@ -60,8 +60,17 @@ async def main_scrape_acer_posts(
                     logger.warning(f"No date found in {url}; skipping.")
                     continue
 
-                if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=url)):
-                    logger.info(f"Post already exists in the database. Skipping: {url}")
+                # check for post in the database before trying to pull it as it is long
+                if (
+                    database is not None
+                    and database.is_table(table_name=table_name)
+                    and database.is_publication(
+                        table_name=table_name,
+                        publication_id=database.create_publication_id(post_url=url),
+                    )
+                    and not params["overwrite"]
+                ):
+                    logger.info(f"Post already exists in the database for {table_name}. Skipping: {url} (overwrite={params['overwrite']})")
                     continue
 
                 # parse date DD.MM.YYYY -> YYYY-MM-DD
@@ -80,6 +89,7 @@ async def main_scrape_acer_posts(
                     post_url=url,
                     language=params["language"],
                     post=result.markdown.raw_markdown,
+                    overwrite=params["overwrite"],
                 )
                 new_articles.append(url)
 

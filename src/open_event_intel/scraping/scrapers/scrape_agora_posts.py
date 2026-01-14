@@ -73,8 +73,17 @@ async def main_scrape_agora_posts(root_url:str, database: PostsDatabase, table_n
                     and "/page/" not in url \
                     and "pdf" not in url:
 
-                if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=url)):
-                    logger.info(f"Post already exists in the database. Skipping: {url}")
+                # check for post in the database before trying to pull it as it is long
+                if (
+                    database is not None
+                    and database.is_table(table_name=table_name)
+                    and database.is_publication(
+                        table_name=table_name,
+                        publication_id=database.create_publication_id(post_url=url),
+                    )
+                    and not params["overwrite"]
+                ):
+                    logger.info(f"Post already exists in the database for {table_name}. Skipping: {url} (overwrite={params['overwrite']})")
                     continue
 
                 logger.info(f"Processing {url}")
@@ -96,6 +105,7 @@ async def main_scrape_agora_posts(root_url:str, database: PostsDatabase, table_n
                     post_url=url,
                     language=params["language"],
                     post=result.markdown.raw_markdown,
+                    overwrite=params["overwrite"],
                 )
 
         await asyncio.sleep(5) # to avoid IP blocking

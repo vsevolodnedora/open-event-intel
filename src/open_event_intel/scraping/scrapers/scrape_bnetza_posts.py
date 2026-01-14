@@ -60,9 +60,20 @@ async def main_scrape_bnetza_posts(
         new_links = []
         for link in links:
             article_url = link.split("?", 1)[0]
-            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=article_url)):
-                logger.info(f"Post already exists in the database. Skipping: {article_url}")
+
+            # check for post in the database before trying to pull it as it is long
+            if (
+                database is not None
+                and database.is_table(table_name=table_name)
+                and database.is_publication(
+                    table_name=table_name,
+                    publication_id=database.create_publication_id(post_url=article_url),
+                )
+                and not params["overwrite"]
+            ):
+                logger.info(f"Post already exists in the database for {table_name}. Skipping: {article_url} (overwrite={params['overwrite']})")
                 continue
+
             new_links.append(article_url)
 
     logger.info(f"Selected {len(new_links)} out of {len(links)} new links")
@@ -92,6 +103,7 @@ async def main_scrape_bnetza_posts(
             result = results[0]
 
             url = url.split("?", 1)[0]
+
             date_title = url.split("/")[-1]
             # Match the pattern: date (YYYYMMDD) + underscore + title + optional extension
             match = re.match(r"(\d{4})(\d{2})(\d{2})_([^\.]+)", date_title)
@@ -116,6 +128,7 @@ async def main_scrape_bnetza_posts(
                 post_url=url,
                 language=params["language"],
                 post=result.markdown.raw_markdown,
+                overwrite=params["overwrite"]
             )
 
             await asyncio.sleep(5) # to avoid IP blocking

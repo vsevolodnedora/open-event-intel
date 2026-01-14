@@ -52,8 +52,17 @@ async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsData
         for result in results:  # Show first 3 results
             url = result.url
 
-            if database.is_table(table_name=table_name) and database.is_publication(table_name=table_name, publication_id=database.create_publication_id(post_url=url)):
-                logger.info(f"Post already exists in the database. Skipping: {url}")
+            # check for post in the database before trying to pull it as it is long
+            if (
+                database is not None
+                and database.is_table(table_name=table_name)
+                and database.is_publication(
+                    table_name=table_name,
+                    publication_id=database.create_publication_id(post_url=url),
+                )
+                and not params["overwrite"]
+            ):
+                logger.info(f"Post already exists in the database for {table_name}. Skipping: {url} (overwrite={params['overwrite']})")
                 continue
 
             if fnmatch.fnmatch(url, "*news*") and "news_en" not in url:
@@ -79,6 +88,7 @@ async def main_scrape_ec_posts(root_url:str, table_name:str, database: PostsData
                     post_url=url,
                     language=params["language"],
                     post=result.markdown.raw_markdown,
+                    overwrite=params["overwrite"]
                 )
 
         await asyncio.sleep(5) # to avoid IP blocking
