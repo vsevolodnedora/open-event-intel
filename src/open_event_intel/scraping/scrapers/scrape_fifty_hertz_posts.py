@@ -272,7 +272,7 @@ async def scrape_page_with_playwright(url: str, content_selector: str = ".n-grid
     markdown = md(str(soup), heading_style="ATX")
     return markdown
 
-async def main_scrape_50hz_posts(root_url: str, table_name: str, database: PostsDatabase|None, params: dict) -> None:
+async def main_scrape_fifty_hertz_posts(root_url: str, table_name: str, database: PostsDatabase | None, params: dict) -> None:
     """Scrape 50hz news pages."""
     links = await fetch_news_links_with_playwright_async(url=root_url) # get list of unique links in the page
 

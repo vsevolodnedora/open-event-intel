@@ -15,7 +15,6 @@ from typing import Any, Dict
 
 from open_event_intel.logger import get_logger
 from open_event_intel.publications_database import PostsDatabase
-from src.open_event_intel.scraping.scrapers.scrape_50hz_posts import main_scrape_50hz_posts
 from src.open_event_intel.scraping.scrapers.scrape_acer_posts import main_scrape_acer_posts
 from src.open_event_intel.scraping.scrapers.scrape_agora_posts import main_scrape_agora_posts
 from src.open_event_intel.scraping.scrapers.scrape_amprion_posts import main_scrape_amprion_posts
@@ -24,6 +23,7 @@ from src.open_event_intel.scraping.scrapers.scrape_ec_posts import main_scrape_e
 from src.open_event_intel.scraping.scrapers.scrape_eex_posts import main_scrape_eex_posts
 from src.open_event_intel.scraping.scrapers.scrape_energy_wire_posts import main_scrape_energy_wire_posts
 from src.open_event_intel.scraping.scrapers.scrape_entsoe_posts import main_scrape_entsoe_posts
+from src.open_event_intel.scraping.scrapers.scrape_fifty_hertz_posts import main_scrape_fifty_hertz_posts
 from src.open_event_intel.scraping.scrapers.scrape_icis_posts import main_scrape_icis_posts
 from src.open_event_intel.scraping.scrapers.scrape_smard_posts import main_scrape_smard_posts
 from src.open_event_intel.scraping.scrapers.scrape_tennet_posts import main_scrape_tennet_posts
@@ -89,9 +89,9 @@ SCRAPER_CONFIGS = {
         "scraper_func": main_scrape_tennet_posts,
         "params": {"language":"de", "overwrite":False},
     },
-    "50hz": {
+    "fifty_hertz": {
         "root_url": "https://www.50hertz.com/de/Medien/",
-        "scraper_func": main_scrape_50hz_posts,
+        "scraper_func": main_scrape_fifty_hertz_posts,
         "params": {"default_date": "1990-01-01", "language":"de", "overwrite":False},
     },
     "amprion": {

@@ -774,8 +774,8 @@ def create_default_configs() -> dict[str, PublisherConfig]:
             max_lines=100,
         ),
 
-        "50hz": PublisherConfig(
-            name="50hz",
+        "fifty_hertz": PublisherConfig(
+            name="fifty_hertz",
             start_markers=["Projektmeldung", "Pressemitteilung"],
             end_markers=["Artikel teilen:"],
             prefix_blacklist=[
@@ -1346,7 +1346,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="Preprocess scraped publications from various publishers")
-    parser.add_argument("--source", nargs="?", default="all", help="Publisher to process (default: all)")
+    parser.add_argument("--source", nargs="?", default="smard", help="Publisher to process (default: all)")
     parser.add_argument("--source-db", default="../../../database/scraped_posts.db", help="Path to source database")
     parser.add_argument("--target-db", default="../../../database/preprocessed_posts.db", help="Path to target database")
     parser.add_argument("--output-dir", default="../../../output/posts_cleaned", help="Directory for markdown exports")
