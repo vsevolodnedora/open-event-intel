@@ -328,13 +328,14 @@ _ARTIFACT_STAGE_QUERIES: dict[str, list[tuple[str, str]]] = {
 }
 
 
-def _diagnose_run_scoped_stages(
+def _diagnose_run_scoped_stages(  # noqa: C901
     conn: sqlite3.Connection,
     run_id: str,
     run_stage_map: dict[str, dict],
     artifact_counts: dict[str, int],
 ) -> None:
-    """Log detailed diagnostics explaining why run-scoped stage cells may be empty.
+    """
+    Log detailed diagnostics explaining why run-scoped stage cells may be empty.
 
     This is the primary troubleshooting output.  It compares:
       • what RUN_STAGES the frontend expects
@@ -446,8 +447,8 @@ def _synthesize_artifact_status(
     stage_id: str,
     run_id: str,
 ) -> Optional[dict]:
-    """For stages with artifact-table fallback, build a synthetic
-    status entry from the artifact tables so the frontend can show a marker.
+    """
+    For stages with artifact-table fallback, build a synthetic status entry from the artifact tables so the frontend can show a marker.
 
     Returns a dict shaped like a run_stage_status row, or None.
     """
@@ -558,13 +559,13 @@ def _get_new_counts_for_doc(conn: sqlite3.Connection, dvid: str, run_id: str) ->
 
 
 def export_run(conn: sqlite3.Connection, run_id: str, docs: list[dict], out: Path) -> None:
-    """Export runs/<run_id>.json with run stage status, new counts, and artifact counts.
+    """
+    Export runs/<run_id>.json with run stage status, new counts, and artifact counts.
 
     This function also runs detailed diagnostics (logged at INFO/WARNING)
     explaining why individual run-scoped stage cells may appear empty in
     the overview matrix.
     """
-
     log.info("── Run %s: collecting run-scoped stage status ──", run_id)
 
     # ── 1. Fetch actual run_stage_status rows ────────────────────────
@@ -867,7 +868,7 @@ def export_impact(conn: sqlite3.Connection, dvid: str, run_id: str, out: Path) -
 
 # ── Main ────────────────────────────────────────────────────────────────
 
-def main(argv: Sequence[str] | None = None) -> int:
+def main(argv: Sequence[str] | None = None) -> int:  # noqa: D103
     parser = argparse.ArgumentParser(description="Export processed_posts.db → static JSON for Run Explorer")
     parser.add_argument("--db", default=Path("../../../database/processed_posts.db"), help="Path to processed_posts.db")
     parser.add_argument("--out", default=Path("../../../docs/data/"), help="Output directory (e.g. docs/data)")
