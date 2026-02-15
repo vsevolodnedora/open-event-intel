@@ -15,6 +15,22 @@ from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
 
+def compress_publication_text(article_id: str, text: str) -> bytes:
+    """Compress the given article ID and text into bytes."""
+    logger.debug(f"Compressing article ID: {article_id}")
+    return zlib.compress(text.encode("utf-8"), level=6)
+
+def decompress_publication_text(article_id: str, text: bytes) -> str:
+    """Decompress the given article ID and text into bytes."""
+    logger.debug(f"Decompressing article ID: {article_id}")
+    try:
+        return zlib.decompress(text).decode("utf-8")
+    except zlib.error:
+        # fallback: assume text is plain bytes
+        return text.decode("utf-8", errors="ignore")
+    except Exception as e:
+        logger.error(f"Failed to decompress article ID {article_id}: {e}")
+        raise ValueError(f"Failed to decompress article (ID={article_id}).") from e
 
 class PostsDatabase:
     """Connects to the Posts database."""
@@ -81,25 +97,6 @@ class PostsDatabase:
         """Create a new post id for the given URL which is assumed to be unique."""
         return hashlib.sha256(post_url.encode("utf-8")).hexdigest()
 
-    def compress_publication_text(self, article_id: str, text: str) -> bytes:
-        """Compress the given article ID and text into bytes."""
-        logger.debug(f"Compressing article ID: {article_id}")
-        return zlib.compress(text.encode("utf-8"), level=6)
-
-    def decompress_publication_text(self, article_id: str, text: bytes) -> str:
-        """Decompress the given article ID and text into bytes."""
-        logger.debug(f"Decompressing article ID: {article_id}")
-        try:
-            return zlib.decompress(text).decode("utf-8")
-        except zlib.error:
-            # fallback: assume text is plain bytes
-            return text.decode("utf-8", errors="ignore")
-        except Exception as e:
-            logger.error(f"Failed to decompress article ID {article_id}: {e}")
-            raise ValueError(
-                f"Failed to decompress article (ID={article_id})."
-            ) from e
-
     def is_publication(self, table_name: str, publication_id: str) -> bool:
         """Return whether the given article ID is present in the database in the given table."""
         if not self.is_table(table_name):
@@ -135,7 +132,7 @@ class PostsDatabase:
 
         # timestamp for insertion
         added_dt = datetime.now()
-        compressed = self.compress_publication_text(post_id, post)
+        compressed = compress_publication_text(post_id, post)
         if exists and overwrite:
             sql = f"""
             UPDATE "{table_name}"
@@ -203,7 +200,7 @@ class PostsDatabase:
             raise ValueError(f"No data retrieved for post id {publication_id} in table {table_name}.")
 
         pid, pub_dt, title, add_dt, url, language, blob = row
-        text = self.decompress_publication_text(pid, blob)
+        text = decompress_publication_text(pid, blob)
 
         try:
             return Publication(
@@ -236,7 +233,7 @@ class PostsDatabase:
 
         cursor = self.conn.execute(sql)
         for pid, pub_dt, title, add_dt, url, language, blob in cursor.fetchall():
-            text = self.decompress_publication_text(pid, blob)
+            text = decompress_publication_text(pid, blob)
             try:
                 publications.append(
                     Publication(

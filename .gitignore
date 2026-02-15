@@ -8,6 +8,8 @@
 /database/tkg.db
 /src/tkg/prompts_and_definitions
 
+# Quantized LLM
+*.gguf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

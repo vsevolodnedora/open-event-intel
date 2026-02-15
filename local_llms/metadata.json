@@ -1,0 +1,118 @@
+    {
+      "name": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+      "model": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+      "type": "local",
+      "optimal_for_tasks": ["general", "summarization", "generation"],
+      "quantized": true,
+      "License": "apache-2.0",
+      "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+      "cost_per_mil_tokens": 0
+    },
+    {
+      "name": "limcheekin/snowflake-arctic-embed-l-v2.0-GGUF",
+      "model": "snowflake-arctic-embed-l-v2.0.F16.gguf",
+      "type": "local",
+      "optimal_for_tasks": ["embedding"],
+      "quantized": true,
+      "License": "apache-2.0",
+      "url": "https://huggingface.co/limcheekin/snowflake-arctic-embed-l-v2.0-GGUF",
+      "cost_per_mil_tokens": 0
+    },
+    {
+      "name": "QuantFactory/EuroLLM-9B-Instruct-GGUF",
+      "model": "EuroLLM-9B-Instruct.Q3_K_M.gguf",
+      "type": "multilingual_translation_model",
+      "optimal_for_tasks": ["translation"],
+      "quantized": true,
+      "License": "apache-2.0",
+      "url": "https://huggingface.co/QuantFactory/EuroLLM-9B-Instruct-GGUF",
+      "local_server": "http://localhost:8080/v1",
+      "cost_per_mil_tokens": 0
+    }
+    {
+      "name": "gpt-4.1",
+      "model": "gpt-4.1",
+      "type": "remote",
+      "optimal_for_tasks": ["general","summarization","generation","translation"],
+      "License":"None",
+      "url": "https://openai.com/api",
+      "local_server":"None",
+      "cost_per_mil_tokens_input_usd": 2.00,
+      "cost_per_mil_tokens_output_usd": 8.00
+    },
+    {
+      "name": "gpt-4.1-mini",
+      "model": "gpt-4.1-mini",
+      "type": "remote",
+      "optimal_for_tasks": ["general","summarization","generation","translation"],
+      "License":"None",
+      "url": "https://openai.com/api",
+      "local_server":"None",
+      "cost_per_mil_tokens_input_usd": 0.40,
+      "cost_per_mil_tokens_output_usd": 1.60
+    },
+
+
+{
+  "nlp_gguf_general": [
+    {
+      "name": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+      "model": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+      "type": "general_llm",
+      "optimal_for_tasks": ["general","summarization","generation"],
+      "quantized": true,
+      "License": "apache-2.0",
+      "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+      "cost_per_mil_tokens": 0
+    }
+  ],
+  "embedding_gguf": [
+    {
+      "name": "limcheekin/snowflake-arctic-embed-l-v2.0-GGUF",
+      "model": "snowflake-arctic-embed-l-v2.0.F16.gguf",
+      "type": "multilingual_embedding_model",
+      "optimal_for_tasks": ["embedding"],
+      "quantized": true,
+      "License": "apache-2.0",
+      "url": "https://huggingface.co/limcheekin/snowflake-arctic-embed-l-v2.0-GGUF",
+      "cost_per_mil_tokens": 0
+    }
+  ],
+  "translation_gguf": [
+    {
+      "name": "QuantFactory/EuroLLM-9B-Instruct-GGUF",
+      "model": "EuroLLM-9B-Instruct.Q3_K_M.gguf",
+      "type": "multilingual_translation_model",
+      "optimal_for_tasks": ["translation"],
+      "quantized": true,
+      "License": "apache-2.0",
+      "url": "https://huggingface.co/QuantFactory/EuroLLM-9B-Instruct-GGUF",
+      "local_server": "http://localhost:8080/v1",
+      "cost_per_mil_tokens": 0
+    }
+  ],
+  "nlp_openai": [
+    {
+      "name": "gpt-4.1",
+      "model": "gpt-4.1",
+      "type": "remote",
+      "optimal_for_tasks": ["general","summarization","generation","translation"],
+      "License":"None",
+      "url": "https://openai.com/api",
+      "local_server":"None",
+      "cost_per_mil_tokens_input_usd": 2.00,
+      "cost_per_mil_tokens_output_usd": 8.00
+    },
+        {
+      "name": "gpt-4.1",
+      "model": "gpt-4.1",
+      "type": "remote",
+      "optimal_for_tasks": ["general","summarization","generation","translation"],
+      "License":"None",
+      "url": "https://openai.com/api",
+      "local_server":"None",
+      "cost_per_mil_tokens_input_usd": 2.00,
+      "cost_per_mil_tokens_output_usd": 8.00
+    }
+  ]
+}
