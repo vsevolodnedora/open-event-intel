@@ -14,6 +14,7 @@ representation: blocks, chunks with evidence anchoring, and table extracts.
   * Table extraction → `table_extract`: parse the raw table region (still anchored to the original text) into: row/col counts, header row index, headers JSON (best-effort), parse_method (e.g., markdown_pipe, html_table if any survived cleaning)
 """
 import argparse
+import bisect
 import math
 import re
 import sys
@@ -93,7 +94,6 @@ class Stage02DatabaseInterface(DatabaseInterface):
     }
 
     def __init__(self, working_db_path: Path, source_db_path: Path | None = None) -> None:
-        """Initialize Stage02DatabaseInterface."""
         super().__init__(working_db_path, source_db_path, STAGE_NAME)
 
     def get_iteration_set(self, run_id: str) -> list[tuple[str, str, str]]:
@@ -180,7 +180,6 @@ class DocumentParser:
     TABLE_SEPARATOR_PATTERN = re.compile(r"^\|[-:| ]+\|$", re.MULTILINE)
 
     def __init__(self, clean_content: str, primary_language: str | None = None) -> None:
-        """Initialize the document."""
         self._content = clean_content
         self._language = primary_language
         self._content_length = len(clean_content)
@@ -293,7 +292,7 @@ class DocumentParser:
         blocks.sort(key=lambda b: (b.span_start, b.span_end))
         return blocks, tables
 
-    def _find_uncovered_regions(  # noqa: C901
+    def _find_uncovered_regions(
         self, consumed_ranges: list[tuple[int, int]]
     ) -> list[ParsedBlock]:
         """
@@ -516,8 +515,26 @@ class DocumentParser:
     def _in_consumed_range(
         self, start: int, end: int, consumed: list[tuple[int, int]]
     ) -> bool:
-        """Check if a span overlaps with any consumed range."""
-        for cs, ce in consumed:
+        """
+        Check if a span overlaps with any consumed range.
+
+        Uses binary search on merged intervals when the list is large
+        (>20 entries), falling back to linear scan for small lists.
+        """
+        if not consumed:
+            return False
+        # For small lists, linear scan is faster than sorting overhead
+        if len(consumed) <= 20:
+            for cs, ce in consumed:
+                if start < ce and end > cs:
+                    return True
+            return False
+        # For larger lists, build sorted merged intervals and bisect
+        merged = self._merge_ranges(consumed)
+        ends = [ce for _, ce in merged]
+        idx = bisect.bisect_right(ends, start)
+        if idx < len(merged):
+            cs, ce = merged[idx]
             if start < ce and end > cs:
                 return True
         return False
@@ -546,7 +563,6 @@ class DocumentChunker:
     _TOKEN_SAFETY_MARGIN: float = 0.85
 
     def __init__(self, settings) -> None:  # ChunkingSettings type
-        """Initialize Chunker."""
         self._target_tokens = settings.target_tokens
         self._overlap_tokens = settings.overlap_tokens
         self._min_tokens = settings.min_tokens
@@ -556,7 +572,7 @@ class DocumentChunker:
         self._table_handling = settings.table_handling
         self._sentence_chars = settings.sentence_boundary_chars
 
-    def chunk(self, clean_content: str, blocks: list) -> list[tuple[int, int, str, list[int]]]:  # noqa: C901
+    def chunk(self, clean_content: str, blocks: list) -> list[tuple[int, int, str, list[int]]]:
         """
         Generate chunks from content using block structure.
 
@@ -703,7 +719,16 @@ class DocumentChunker:
                         elif overlap_chars > 0:
                             overlap_start = max(current_start, chunk_end - overlap_chars)
                             current_start = overlap_start
-                            current_blocks = [i]
+                            # FIX: Collect all block indices whose spans overlap
+                            # [overlap_start, chunk_end), not just block [i].
+                            current_blocks = [
+                                j for j, b in enumerate(blocks)
+                                if b.span_start < chunk_end
+                                and b.span_end > overlap_start
+                                and b.block_type != "HEADING"
+                            ]
+                            if not current_blocks:
+                                current_blocks = [i]
                             current_text = clean_content[overlap_start:chunk_end]
                         else:
                             current_start = None
@@ -822,7 +847,7 @@ class DocumentChunker:
 
     def _shrink_to_fit(self, text: str, start: int, end: int) -> int:
         """
-        Perform Binary-search for the largest sub-span [start, result) whose estimate_tokens() <= max_tokens.
+        Set Binary-search for the largest sub-span [start, result) whose estimate_tokens() <= max_tokens.
 
         Tries sentence then word boundaries at the found length so the
         cut is human-readable.  Falls back to a hard character cut as a
@@ -1001,7 +1026,7 @@ class DocumentChunker:
         - Handles tables/CSV/markdown reasonably.
         - Avoids underestimation by combining heuristics and adding a buffer.
         """
-        _WORD_RE = re.compile(r"\S+", re.UNICODE)  # noqa: N806
+        _WORD_RE = re.compile(r"\S+", re.UNICODE)
         if not text:
             return 0
 
@@ -1189,6 +1214,37 @@ def process_document(  # noqa: C901
     clean_content = doc_version.clean_content
     primary_language = doc_version.primary_language
 
+    # -----------------------------------------------------------
+    # FIX: Early exit for empty or trivially small content.
+    # Avoids running the full parse/chunk pipeline on content that
+    # can never produce meaningful output, and prevents the hard
+    # failure at the chunk validation gate below.
+    # -----------------------------------------------------------
+    content_stripped = clean_content.strip() if clean_content else ""
+    if not content_stripped:
+        logger.info(
+            "[skip:empty] doc=%s content_len=%d — empty or whitespace-only content",
+            doc_version_id[:12],
+            len(clean_content) if clean_content else 0,
+        )
+        return True, None  # nothing to parse; success with 0 artifacts
+
+    content_length = len(clean_content)
+    min_tokens = config.global_settings.chunking.min_tokens
+
+    # Estimate tokens for the entire content once up-front
+    _est_tokens_upfront = DocumentChunker(config.global_settings.chunking)._estimate_tokens(content_stripped)
+    if _est_tokens_upfront < min_tokens and content_length < 200:
+        logger.info(
+            "[skip:trivial] doc=%s content_len=%d est_tokens=%d < min_tokens=%d "
+            "— content too small for meaningful chunks",
+            doc_version_id[:12],
+            content_length,
+            _est_tokens_upfront,
+            min_tokens,
+        )
+        return True, None  # too small to chunk; success with 0 artifacts
+
     logger.info(
         "[diag:input] doc=%s content_len=%d language=%s",
         doc_version_id[:12],
@@ -1325,6 +1381,19 @@ def process_document(  # noqa: C901
     chunk_rows: list[ChunkRow] = []
     evidence_spans: list[tuple[int, int]] = []
 
+    # Pre-compute heading context index for O(log n) lookups per chunk
+    # (sorted list of (span_end, heading_text) for headings).
+    _heading_index: list[tuple[int, str]] = []
+    for br in block_rows:
+        if br.block_type == "HEADING":
+            _heading_index.append(
+                (br.span_end, clean_content[br.span_start : br.span_end].lstrip("#").strip())
+            )
+    _heading_index.sort(key=lambda h: h[0])
+
+    # Reuse the chunker's _estimate_tokens for consistent token counting
+    _token_estimator = chunker._estimate_tokens
+
     for span_start, span_end, chunk_type, block_indices in raw_chunks:
         if span_end <= span_start:
             continue
@@ -1350,10 +1419,12 @@ def process_document(  # noqa: C901
         chunk_id = compute_sha256_id(doc_version_id, span_start, span_end, chunk_type)
         evidence_id = compute_sha256_id(doc_version_id, span_start, span_end)
 
+        # O(log n) heading context lookup via bisect on pre-sorted index
         heading_ctx = None
-        for br in block_rows:
-            if br.block_type == "HEADING" and br.span_end <= span_start:
-                heading_ctx = clean_content[br.span_start : br.span_end].lstrip("#").strip()
+        if _heading_index:
+            idx = bisect.bisect_right([h[0] for h in _heading_index], span_start)
+            if idx > 0:
+                heading_ctx = _heading_index[idx - 1][1]
 
         chunk_rows.append(
             ChunkRow(
@@ -1368,7 +1439,7 @@ def process_document(  # noqa: C901
                 heading_context=heading_ctx,
                 retrieval_exclude=0,
                 mention_boundary_safe=1,
-                token_count_approx=len(chunk_text) // 4,
+                token_count_approx=_token_estimator(chunk_text),
                 created_in_run_id=run_id,
             )
         )
@@ -1404,6 +1475,34 @@ def process_document(  # noqa: C901
                 created_in_run_id=run_id,
             )
         )
+
+    # -----------------------------------------------------------
+    # FIX: Deduplicate blocks by their natural key before insertion.
+    # Gap recovery can (rarely) produce a PARAGRAPH block whose span
+    # coincides with an existing block due to position-tracking edge
+    # cases in _find_uncovered_regions.  A UNIQUE constraint failure
+    # would roll back the entire document, so deduplicate up front.
+    # -----------------------------------------------------------
+    _seen_block_keys: set[tuple] = set()
+    deduped_block_rows: list[BlockRow] = []
+    for br in block_rows:
+        key = (br.doc_version_id, br.span_start, br.span_end, br.block_type,
+               br.block_level if br.block_level is not None else -1)
+        if key not in _seen_block_keys:
+            _seen_block_keys.add(key)
+            deduped_block_rows.append(br)
+        else:
+            logger.debug(
+                "[dedup:block] Skipping duplicate block: type=%s span=%d-%d",
+                br.block_type, br.span_start, br.span_end,
+            )
+    if len(deduped_block_rows) < len(block_rows):
+        logger.info(
+            "[dedup:block] Removed %d duplicate block(s) for doc=%s",
+            len(block_rows) - len(deduped_block_rows),
+            doc_version_id[:12],
+        )
+    block_rows = deduped_block_rows
 
     for br in block_rows:
         db.insert_block(br)
@@ -1532,7 +1631,7 @@ def run_stage(
     _diag_tables_with_headers = 0
     _diag_tables_with_temporal_headers = 0
 
-    for _publisher_id, _url_normalized, doc_version_id in iteration_set:
+    for publisher_id, url_normalized, doc_version_id in iteration_set:
         prereq_status = db.get_prerequisite_status(doc_version_id)
 
         if prereq_status is None or prereq_status.status != "ok":
@@ -1642,7 +1741,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     """
-    Set the main entry point for stage 02 parse.
+    Main entry point for stage 02 parse.
 
     :returns: Exit code (0 for success, 1 for fatal error).
     """
