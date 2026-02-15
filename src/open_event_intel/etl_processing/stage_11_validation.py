@@ -1247,7 +1247,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--run-id",
         type=str,
-        required=True,
+        default="9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
         help="Pipeline run ID (64-char hex SHA256). Required.",
     )
     parser.add_argument(

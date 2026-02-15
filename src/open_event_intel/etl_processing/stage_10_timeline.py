@@ -42,11 +42,9 @@ from database_interface import (
 )
 from pydantic import BaseModel, ConfigDict
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
-logger = logging.getLogger(__name__)
+from open_event_intel.logger import get_logger
+
+logger = get_logger(__name__)
 
 # Module-level constants — values that are structural to the pipeline and not
 # expected to change via config.  Collected here so they are never silently
@@ -1052,7 +1050,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--run-id",
         type=str,
-        required=True,
+        default="9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
         help="Pipeline run ID (required; reused for resumption)",
     )
     parser.add_argument(

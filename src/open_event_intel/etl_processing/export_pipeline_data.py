@@ -8,9 +8,6 @@ docs/public_view/ so GitHub Pages can serve the Run Explorer directly.
 Usage:
     python public_view_extraction.py --db path/to/processed_posts.db --out docs/public_view
 """
-
-from __future__ import annotations
-
 import argparse
 import hashlib
 import json
@@ -22,6 +19,8 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional, Sequence
+
+from open_event_intel.logger import get_logger
 
 EXPORT_VERSION = "1.0.0"
 
@@ -52,7 +51,7 @@ RUN_STAGE_IDS = [s["stage_id"] for s in RUN_STAGES]
 
 SAMPLE_LIMIT = 5
 
-log = logging.getLogger("public_view_extraction")
+log = get_logger(__name__)
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────
