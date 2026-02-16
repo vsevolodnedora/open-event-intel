@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run Explorer — Pipeline Health &amp; Trace Debugger</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app" class="app" aria-busy="true">
+
+    <!-- ── Top Bar (global controls) ──────────────────────────── -->
+    <header class="topbar" role="banner">
+      <div class="topbar__brand">
+        <h1 class="topbar__title">Run Explorer</h1>
+        <span class="topbar__subtitle">Pipeline Health &amp; Trace</span>
+      </div>
+
+      <!-- ── Tab switcher ─────────────────────────────────────── -->
+      <nav class="tab-bar" role="tablist" aria-label="Pipeline explorer tabs">
+        <button class="tab-bar__tab tab-bar__tab--active" role="tab"
+                id="tab-scrape" aria-selected="true" aria-controls="tab-panel-scrape"
+                data-tab="scrape">Scrape &amp; Preprocess</button>
+        <button class="tab-bar__tab" role="tab"
+                id="tab-etl" aria-selected="false" aria-controls="tab-panel-etl"
+                data-tab="etl">ETL Run Explorer</button>
+      </nav>
+
+      <div class="topbar__stats" id="topbar-stats" aria-live="polite"></div>
+    </header>
+
+    <!-- ── Main content area ──────────────────────────────────── -->
+    <main class="main-layout">
+
+      <!-- ══════════════════════════════════════════════════════════
+           TAB PANEL: ETL Run Explorer
+           ══════════════════════════════════════════════════════════ -->
+      <div id="tab-panel-etl" class="tab-panel" role="tabpanel" aria-labelledby="tab-etl" hidden>
+
+        <!-- ETL Controls -->
+        <div class="tab-controls" aria-label="ETL filters">
+          <div class="control-group">
+            <label class="control-label" for="run-select">Run</label>
+            <select id="run-select" class="control-select" aria-label="Select pipeline run">
+              <option value="">Loading…</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" id="diff-label">
+              <input type="checkbox" id="diff-toggle" class="control-checkbox" aria-describedby="diff-hint">
+              Diff mode
+            </label>
+            <span id="diff-hint" class="control-hint">Show only new data in selected run</span>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="publisher-select">Publisher</label>
+            <select id="publisher-select" class="control-select" aria-label="Filter by publisher">
+              <option value="ALL">All Publishers</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="filter-input">Filter</label>
+            <input type="search" id="filter-input" class="control-input"
+                   placeholder="Title / URL substring…" aria-label="Quick filter by title or URL">
+          </div>
+        </div>
+
+        <!-- View A: Overview Matrix -->
+        <section id="matrix-panel" class="panel panel--matrix" aria-labelledby="matrix-heading">
+          <div class="panel__header">
+            <h2 id="matrix-heading" class="panel__title">Overview Matrix</h2>
+            <div class="panel__actions">
+              <span id="matrix-doc-count" class="badge" aria-live="polite"></span>
+              <button id="matrix-collapse-btn" class="btn btn--icon" aria-expanded="true"
+                      aria-controls="matrix-body" title="Collapse matrix">
+                <span aria-hidden="true">▼</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="matrix-body" class="panel__body">
+            <div id="matrix-stage-header" class="matrix__stage-header" role="row" aria-label="Stage columns"></div>
+            <div id="matrix-viewport" class="matrix__viewport" role="grid"
+                 aria-label="Document × Stage status matrix" tabindex="0">
+              <div id="matrix-content" class="matrix__content"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- View B: Document Trace Graph -->
+        <section id="trace-panel" class="panel panel--trace" aria-labelledby="trace-heading">
+          <div class="panel__header">
+            <h2 id="trace-heading" class="panel__title">Document Trace</h2>
+            <button id="trace-close-btn" class="btn btn--icon" title="Close trace" aria-label="Close trace panel">
+              <span aria-hidden="true">✕</span>
+            </button>
+          </div>
+
+          <div id="trace-body" class="panel__body">
+            <div id="trace-placeholder" class="trace__placeholder">
+              <p>Select a document row in the matrix to view its pipeline trace.</p>
+            </div>
+            <div id="trace-content" class="trace__content" hidden>
+              <div id="trace-header" class="trace__header"></div>
+              <div id="trace-graph" class="trace__graph" role="img" aria-label="Pipeline trace graph"></div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ══════════════════════════════════════════════════════════
+           TAB PANEL: Scrape & Preprocess Explorer
+           ══════════════════════════════════════════════════════════ -->
+      <div id="tab-panel-scrape" class="tab-panel tab-panel--active" role="tabpanel" aria-labelledby="tab-scrape">
+
+        <!-- Scrape Controls -->
+        <div class="tab-controls" aria-label="Scrape filters">
+          <div class="control-group">
+            <label class="control-label" for="scrape-date-select">End date</label>
+            <input type="date" id="scrape-date-select" class="control-input"
+                   aria-label="Window end date">
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="scrape-window-size">Window</label>
+            <select id="scrape-window-size" class="control-select" aria-label="Window size">
+              <option value="7">7 days</option>
+              <option value="14" selected>14 days</option>
+              <option value="21">21 days</option>
+              <option value="30">30 days</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <button id="scrape-preset-last-week" class="btn btn--preset" title="Monday–Sunday of last week">Last week</button>
+            <button id="scrape-preset-last-month" class="btn btn--preset" title="Full previous calendar month">Last month</button>
+          </div>
+          <div class="control-group">
+            <span class="control-label scrape-tz-label">CET</span>
+          </div>
+        </div>
+
+        <!-- KPI strip -->
+        <div id="scrape-kpi-strip" class="kpi-strip" aria-label="Pipeline KPIs">
+          <div class="kpi-card">
+            <span class="kpi-card__value" id="kpi-publishers">—</span>
+            <span class="kpi-card__label">Publishers</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-card__value" id="kpi-scraped">—</span>
+            <span class="kpi-card__label">Scraped</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-card__value" id="kpi-preprocessed">—</span>
+            <span class="kpi-card__label">Preprocessed</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-card__value" id="kpi-yesterday">—</span>
+            <span class="kpi-card__label">Yesterday</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-card__value" id="kpi-size-range">—</span>
+            <span class="kpi-card__label">Post size range</span>
+          </div>
+        </div>
+
+        <!-- Scrape Matrix: publisher × date -->
+        <section id="scrape-matrix-panel" class="panel panel--matrix" aria-labelledby="scrape-matrix-heading">
+          <div class="panel__header">
+            <h2 id="scrape-matrix-heading" class="panel__title">Publisher × Date Matrix</h2>
+            <div class="panel__actions">
+              <span id="scrape-matrix-info" class="badge" aria-live="polite"></span>
+            </div>
+          </div>
+
+          <div id="scrape-matrix-body" class="panel__body">
+            <div id="scrape-matrix-viewport" class="scrape-matrix__viewport">
+              <table id="scrape-matrix-table" class="scrape-matrix__table" role="grid"
+                     aria-label="Publisher × Date scrape status matrix">
+                <thead id="scrape-matrix-thead"></thead>
+                <tbody id="scrape-matrix-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- Publications detail panel -->
+        <section id="scrape-detail-panel" class="panel panel--trace" aria-labelledby="scrape-detail-heading">
+          <div class="panel__header">
+            <h2 id="scrape-detail-heading" class="panel__title">Publications</h2>
+            <button id="scrape-detail-close-btn" class="btn btn--icon" title="Close detail"
+                    aria-label="Close publications panel">
+              <span aria-hidden="true">✕</span>
+            </button>
+          </div>
+
+          <div id="scrape-detail-body" class="panel__body">
+            <div id="scrape-detail-placeholder" class="trace__placeholder">
+              <p>Click a cell in the matrix to view publications for that publisher and date.</p>
+            </div>
+            <div id="scrape-detail-content" class="scrape-detail__content" hidden>
+              <div id="scrape-detail-header" class="trace__header"></div>
+              <div id="scrape-detail-table-wrap" class="scrape-detail__table-wrap">
+                <table id="scrape-detail-table" class="scrape-detail__table">
+                  <thead>
+                    <tr>
+                      <th>Title</th>
+                      <th>Published</th>
+                      <th>Scraped</th>
+                      <th>Lang</th>
+                      <th>Len (before)</th>
+                      <th>Len (after)</th>
+                      <th>URL</th>
+                    </tr>
+                  </thead>
+                  <tbody id="scrape-detail-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </main>
+
+    <!-- ── Tooltip (shared, positioned via JS) ────────────────── -->
+    <div id="tooltip" class="tooltip" role="tooltip" hidden>
+      <div id="tooltip-content" class="tooltip__content"></div>
+    </div>
+
+    <!-- ── Loading / Error overlays ───────────────────────────── -->
+    <div id="loading-overlay" class="overlay overlay--loading" aria-live="assertive">
+      <div class="overlay__spinner" aria-hidden="true"></div>
+      <p class="overlay__text">Loading pipeline data…</p>
+    </div>
+
+    <div id="error-overlay" class="overlay overlay--error" hidden aria-live="assertive">
+      <p class="overlay__text" id="error-message">An error occurred.</p>
+      <button id="error-retry-btn" class="btn btn--primary">Retry</button>
+    </div>
+  </div>
+
+  <!-- JS modules -->
+  <script type="module" src="schema.js"></script>
+  <script type="module" src="state.js"></script>
+  <script type="module" src="data.js"></script>
+  <script type="module" src="matrix.js"></script>
+  <script type="module" src="trace.js"></script>
+  <script type="module" src="tooltip.js"></script>
+  <script type="module" src="scrape_matrix.js"></script>
+  <script type="module" src="scrape_detail.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

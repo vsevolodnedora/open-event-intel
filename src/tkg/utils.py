@@ -8,7 +8,7 @@ from typing import List
 import tiktoken
 
 from open_event_intel.logger import get_logger
-from open_event_intel.publications_database import Publication
+from open_event_intel.scraping.publications_database import Publication
 from src.tkg.config import MODEL_PRICES, LlmOptions, TZ
 
 logger = get_logger(__name__)

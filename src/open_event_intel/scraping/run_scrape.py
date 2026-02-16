@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 from open_event_intel.logger import get_logger
-from open_event_intel.publications_database import PostsDatabase
+from open_event_intel.scraping.publications_database import PostsDatabase
 from src.open_event_intel.scraping.scrapers.scrape_acer_posts import main_scrape_acer_posts
 from src.open_event_intel.scraping.scrapers.scrape_agora_posts import main_scrape_agora_posts
 from src.open_event_intel.scraping.scrapers.scrape_amprion_posts import main_scrape_amprion_posts
@@ -112,13 +112,11 @@ def scrape_single_source(
     """
     Scrape a single news source and save results to database and markdown files.
 
-    Args:
-        source_name: Name/identifier of the source
-        config: Configuration dict containing root_url, scraper_func, and params
-        db_path: Path to SQLite database
-        output_base_dir: Base directory for output markdown files
-        max_runtime: Maximum runtime in seconds before timeout
-
+    :param source_name: Name/identifier of the source
+    :param config: Configuration dict containing root_url, scraper_func, and params
+    :param db_path: Path to SQLite database
+    :param output_base_dir: Base directory for output markdown files
+    :param max_runtime: Maximum runtime in seconds before timeout
     """
     logger.info(f"Starting scraper for '{source_name}'...")
 
@@ -167,10 +165,9 @@ def export_metadata(db_path: Path, output_dir: Path, filename: str = "scraped_pu
     """
     Export metadata for all scraped publications.
 
-    Args:
-        db_path: Path to SQLite database
-        output_dir: Directory to save metadata file
-        filename: Base filename (without extension) for metadata
+    :param db_path: Path to SQLite database
+    :param output_dir: Directory to save metadata file
+    :param filename: Base filename (without extension) for metadata
 
     """
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -196,13 +193,11 @@ def scrape_sources(
     """
     Scrape one or more news sources.
 
-    Args:
-        sources: List of source names to scrape
-        db_path: Path to SQLite database
-        output_base_dir: Base directory for raw markdown outputs
-        metadata_output_dir: Directory for metadata export
-        max_runtime: Maximum runtime per scraper in seconds
-
+    :param sources: List of source names to scrape
+    :param db_path: Path to SQLite database
+    :param output_base_dir: Base directory for raw markdown outputs
+    :param metadata_output_dir: Directory for metadata export
+    :param max_runtime: Maximum runtime per scraper in seconds
     """
     # Validate sources
     invalid_sources = [s for s in sources if s not in SCRAPER_CONFIGS]
@@ -281,8 +276,8 @@ Examples:
     parser.add_argument(
         "--metadata-dir",
         type=Path,
-        default=Path("../../../docs/public_view"),
-        help="Directory for metadata JSON export (default: ../../../docs/public_view)",
+        default=Path("../../../output/public_view"),
+        help="Directory for metadata JSON export (default: ../../../output/public_view)",
     )
 
     parser.add_argument(
@@ -302,7 +297,7 @@ Examples:
 
 
 def main() -> int:
-    """Main entry point for the scraper."""
+    """Set main entry point for the scraper."""
     args = parse_arguments()
 
     # Handle --list-sources

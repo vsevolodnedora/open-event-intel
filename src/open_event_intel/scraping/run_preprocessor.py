@@ -1,6 +1,6 @@
 """
-Publication Preprocessor v2.0
-=============================
+Publication Preprocessor.
+
 A clean, optimized pipeline for preprocessing scraped publications from various publishers.
 Extracts actual publication text by removing links, HTML/CSS/JS artifacts, navigation elements,
 and other non-content elements.
@@ -24,28 +24,20 @@ Usage:
     preprocessor.process_table(source_db, target_db, "entsoe")
 """
 
-
-import logging
 import os
 import re
-from langid import langid
 from abc import ABC
 from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Callable, Optional, Sequence
 
-from open_event_intel.data_models import Publication
+from langid import langid
 
-# Import existing infrastructure
-from open_event_intel.publications_database import PostsDatabase
+from open_event_intel.logger import get_logger
+from open_event_intel.scraping.publications_database import PostsDatabase, Publication
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 # Data Models for Processing Results
 
@@ -133,14 +125,11 @@ class TextProcessor:
         """
         Find the position of the first (or last) matching marker in text.
 
-        Args:
-            text: Text to search in
-            markers: Sequence of marker strings to look for
-            find_last: If True, return position of last match; otherwise first
+        :param text: Text to search in
+        :param markers: Sequence of marker strings to look for
+        :param find_last: If True, return position of last match; otherwise first
 
-        Returns:
-            Position of marker, or None if not found
-
+        :returns: Position of marker, or None if not found
         """
         positions = []
         for marker in markers:
@@ -168,9 +157,7 @@ class TextProcessor:
         """
         Extract text between start and end markers.
 
-        Returns:
-            Tuple of (extracted_text, success)
-
+        :returns: Tuple of (extracted_text, success)
         """
         if not start_markers and not end_markers:
             return text, True, True
@@ -212,16 +199,12 @@ class TextProcessor:
         """
         Filter lines based on various criteria in a single pass.
 
-        Args:
-            text: Input text
-            prefix_blacklist: Remove lines starting with these strings
-            exact_blacklist: Remove lines exactly matching these strings
-            contains_blacklist: Remove lines containing these strings
-            skip_first_n: Skip first N lines
-
-        Returns:
-            Filtered text
-
+        :param text: Input text
+        :param prefix_blacklist: Remove lines starting with these strings
+        :param exact_blacklist: Remove lines exactly matching these strings
+        :param contains_blacklist: Remove lines containing these strings
+        :param skip_first_n: Skip first N lines
+        :returns: Filtered text
         """
         lines = text.split("\n")
 
@@ -275,8 +258,6 @@ class TextProcessor:
 
 
 # Publisher Strategy Protocol and Base Class
-
-
 @dataclass
 class PublisherConfig:
     """Configuration for a publisher's preprocessing rules."""
@@ -298,7 +279,7 @@ class PublisherConfig:
     dynamic_start_marker: Optional[Callable[[datetime], str]] = None
 
 
-class BasePublisherStrategy(ABC):
+class BasePublisherStrategy(ABC):  # noqa: B024
     """Base class for publisher-specific preprocessing strategies."""
 
     def __init__(self, config: PublisherConfig):
@@ -310,7 +291,7 @@ class BasePublisherStrategy(ABC):
         """Return the name of the publisher strategy."""
         return self.config.name
 
-    def process(self, text: str, publication: Publication) -> ProcessingResult:
+    def process(self, text: str, publication: Publication) -> ProcessingResult:  # noqa: C901
         """Process publication text with common pipeline + publisher-specific customization."""
         warnings = []
 
@@ -382,11 +363,11 @@ class BasePublisherStrategy(ABC):
             return ProcessingResult(success=False, error=str(e))
 
     def pre_process(self, text: str, publication: Publication) -> str:
-        """Hook for publisher-specific pre-processing. Override in subclasses."""
+        """Set a hook for publisher-specific pre-processing. Override in subclasses."""
         return text
 
     def post_process(self, text: str, publication: Publication) -> str:
-        """Hook for publisher-specific post-processing. Override in subclasses."""
+        """Set a hook for publisher-specific post-processing. Override in subclasses."""
         return text
 
 
@@ -399,12 +380,11 @@ class GenericPublisherStrategy(BasePublisherStrategy):
 
 
 # Publisher-Specific Strategies
-
-
 class SmardStrategy(BasePublisherStrategy):
     """Strategy for SMARD publications with extensive boilerplate."""
 
     def pre_process(self, text: str, publication: Publication) -> str:
+        """Perform preprocessing on text."""
         # SMARD has a lot of chart-related content that should be removed
         # Remove Highcharts artifacts early
         text = re.sub(r"Created with Highcharts.*?(?=\n|$)", "", text, flags=re.DOTALL)
@@ -431,6 +411,7 @@ class EexStrategy(BasePublisherStrategy):
     """Strategy for EEX press releases."""
 
     def pre_process(self, text: str, publication: Publication) -> str:
+        """Perform preprocessing on text."""
         # EEX has specific header format: "# EEX Press Release - MM/DD/YYYY"
         # The dynamic_start_marker handles this, but we clean up any remaining artifacts
         return text
@@ -440,6 +421,7 @@ class CLEWStrategy(BasePublisherStrategy):
     """Strategy for CLEW press releases."""
 
     def post_process(self, text: str, publication: Publication) -> str:
+        """Perform postprocessing on text."""
         patterns = [
             r"(?m)^\s*\*\s*\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4},\s+\d{2}:\d{2}\s*$",
             "(?m)^\s*\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4},\s+\d{2}:\d{2}\s*$"
@@ -455,6 +437,7 @@ class BnetzaStrategy(BasePublisherStrategy):
     """Strategy for EEX press releases."""
 
     def pre_process(self, text: str, publication: Publication) -> str:
+        """Perform preprocessing on text."""
         # BNETZA has specific header format: "Erscheinungsdatum 28.04.2025"
         # The dynamic_start_marker handles this, but we clean up any remaining artifacts
         text = re.sub(
@@ -469,6 +452,7 @@ class EntsoeStrategy(BasePublisherStrategy):
     """Strategy for ENTSO-E publications."""
 
     def post_process(self, text: str, publication: Publication) -> str:
+        """Perform postprocessing on text."""
         # Remove disclaimer markers that might have been partially removed
         text = re.sub(r"❗.*?❗", "", text)
         return text
@@ -478,6 +462,7 @@ class TransnetBWStrategy(BasePublisherStrategy):
     """Strategy for TransnetBW press releases."""
 
     def post_process(self, text: str, publication: Publication) -> str:
+        """Perform postprocessing on text."""
         # Remove contact info patterns common in TransnetBW releases
         contact_patterns = [
             r"Andrea Jung.*?Unternehmenskommunikation.*?(?=\n\n|\Z)",
@@ -490,8 +475,6 @@ class TransnetBWStrategy(BasePublisherStrategy):
 
 
 # Date Formatting Utilities
-
-
 class DateFormats:
     """Date formatting utilities for dynamic markers."""
 
@@ -516,7 +499,7 @@ class DateFormats:
         return dt.strftime("%Y-%m-%d")
 
     @staticmethod
-    def dd_month_YYYY_comma_HH_MM(dt: datetime):
+    def dd_month_YYYY_comma_HH_MM(dt: datetime):  # noqa: N802
         """Format as DD-MM-YYYY comma-HH-MM."""
         return dt.strftime("%d %b %Y, %H:%M")
 
@@ -526,7 +509,7 @@ class DateFormats:
 def create_default_configs() -> dict[str, PublisherConfig]:
     """Create default configurations for all supported publishers."""
     # Common blacklists
-    SMARD_PREFIX_BLACKLIST = [
+    SMARD_PREFIX_BLACKLIST = [  # noqa: N806
         "Suchbegriff eingeben", "[Direkt zum Inhalt", "![Logo der Bundesnetzagentur]",
         "[ ![Logo der Bundesnetzagentur]", "### Suchformular", "[ ![Strommarktdaten Logo]",
         "## Menü", "[ Menü Menu ]", "  * [Startseite]", "  * [Bundesnetzagentur.de]",
@@ -563,7 +546,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
         "![Ein Umspannwerk",
     ]
 
-    SMARD_EXACT_BLACKLIST = [
+    SMARD_EXACT_BLACKLIST = [  # noqa: N806
         "Deutschland/Luxemburg", "Dänemark 1", "Dänemark 2", "Frankreich", "Niederlande",
         "Österreich", "Polen", "Schweden 4", "Schweiz", "Tschechien", "DE/AT/LU",
         "Italien (Nord)", "Slowenien", "Ungarn", "Biomasse", "Wasserkraft",
@@ -575,9 +558,9 @@ def create_default_configs() -> dict[str, PublisherConfig]:
         "Annehmen ", "Es trat ein Fehler bei der Erstellung der Exportdatei auf.",
     ]
 
-    SMARD_BLOCK_BLACKLIST = ["Created with Highcharts", "Chart Created with Highstock"]
+    SMARD_BLOCK_BLACKLIST = ["Created with Highcharts", "Chart Created with Highstock"]  # noqa: N806
 
-    ENERGY_WIRE_PREFIX_BLACKLIST = [
+    ENERGY_WIRE_PREFIX_BLACKLIST = [  # noqa: N806
         "### ", "  * ", "[News](https://www.cleanenergywire.org/news",
         "[« previous news]", "[](https://www.facebook.com", "[](https://twitter.com/",
         "[](https://www.linkedin.com", "All texts created by the Clean Energy Wire",
@@ -587,7 +570,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
     ]
 
     # Add author links dynamically
-    ENERGY_WIRE_AUTHORS = [
+    ENERGY_WIRE_AUTHORS = [  # noqa: N806
         "Benjamin Wehrmann", "Carolina Kyllmann", "Kira Taylor", "Sören Amelang",
         "Julian Wettengel", "Ruby Russel", "Ferdinando Cotugno", "Sam Morgan",
         "Dave Keating", "Kerstine Appunn", "Edgar Meza", "Jack McGovan",
@@ -600,7 +583,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
         ENERGY_WIRE_PREFIX_BLACKLIST.append(f"[{author}](https://www.cleanenergywire.org/about-us-clew-team)")
 
     # Topic links
-    ENERGY_WIRE_TOPICS = [
+    ENERGY_WIRE_TOPICS = [  # noqa: N806
         "Electricity", "Business & Jobs", "Factsheet", "Dossier", "Cars", "Cost & Prices",
         "Interview", "Elections & Politics", "Renewables", "Wind", "Industry",
         "Climate & CO2", "Municipal heat planning", "Heating", "Business", "Technology",
@@ -612,7 +595,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
     for topic in ENERGY_WIRE_TOPICS:
         ENERGY_WIRE_PREFIX_BLACKLIST.append(f"[{topic}](https://www.cleanenergywire.org")
 
-    TRANSNETBW_PREFIX_BLACKLIST = [
+    TRANSNETBW_PREFIX_BLACKLIST = [  # noqa: N806
         "  * [Impressum]", "  * [Datenschutz]", "  * [Nutzungsbedingungen]",
         "  * [AEB]", "  * [Kontakt]", "  * [Netiquette ]",
         "![](https://www.transnetbw.de/_Resources", "Andrea JungLeiterin",
@@ -625,7 +608,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
         "/ / / / / / / / ", "<https://ip.ai/",
     ]
 
-    ENTSOE_PREFIX_BLACKLIST = [
+    ENTSOE_PREFIX_BLACKLIST = [  # noqa: N806
         "Share this article", "For more information", "You can register to the Public Webinar",
         "Read the complete report here ", "**_R﻿ead the full report", "Visit the ENTSO-E Technopedia",
         "Read the full report", "[Access the ERAA", "No registration is needed",
@@ -642,7 +625,7 @@ def create_default_configs() -> dict[str, PublisherConfig]:
     ]
 
     # Add year-based tariff links
-    for year in range(2019, 2027):
+    for year in range(2019, 2028):
         ENTSOE_PREFIX_BLACKLIST.append(f"**{year}** Transmission Tariffs")
 
     configs = {
@@ -894,7 +877,6 @@ class LanguageFilter:
 
 
 # Corruption detection
-
 class CharacterCorruptionFixer:
     """
     Fixes common character encoding corruption issues.
@@ -907,12 +889,11 @@ class CharacterCorruptionFixer:
         """
         Initialize the fixer by loading corruption mappings from file.
 
-        Args:
-            mappings_file: Path to file containing corruption mappings
+        :param mappings_file: Path to file containing corruption mappings
                           Format: "corrupted → correct" (one per line)
                           Lines starting with # are comments
 
-        Raises:
+        :raises:
             FileNotFoundError: If mappings file doesn't exist
             ValueError: If file format is invalid
         """
@@ -932,7 +913,7 @@ class CharacterCorruptionFixer:
         Also supports tab-separated format:
             Ã¼	ü
 
-        Returns:
+        :returns:
             Dictionary mapping corrupted strings to correct strings
         """
         if not os.path.isfile(filepath):
@@ -980,10 +961,8 @@ class CharacterCorruptionFixer:
         """
         Fix character corruption in text.
 
-        Args:
-            text: Text with potential character corruption
-
-        Returns:
+        :param text: Text with potential character corruption
+        :returns:
             Tuple of (corrected_text, total_replacements)
         """
         corrected_text = text
@@ -1004,12 +983,10 @@ class CharacterCorruptionFixer:
         Detects and corrects common UTF-8/Latin-1 encoding mismatches and logs
         any corrections made.
 
-        Args:
-            result: The processing result to check
-            publication: The publication being processed (for logging)
+        :param result: The processing result to check
+        :param publication: The publication being processed (for logging)
 
-        Returns:
-            Updated ProcessingResult with corrected text and additional warnings
+        :returns: Updated ProcessingResult with corrected text and additional warnings
         """
         if not result.success or not result.text:
             return result
@@ -1030,8 +1007,6 @@ class CharacterCorruptionFixer:
 
 
 # Main Preprocessor Class
-
-
 class PublicationPreprocessor:
     """
     Main preprocessor class that orchestrates publication cleaning.
@@ -1056,11 +1031,9 @@ class PublicationPreprocessor:
         """
         Initialize preprocessor with optional custom configurations.
 
-        Args:
-            custom_configs: Custom publisher configs to override defaults
-            failed_output_dir: Directory to save publications that fail preprocessing
-            corruption_fixer: CharacterCorruptionFixer instance for fixing encoding issues
-
+        :param custom_configs: Custom publisher configs to override defaults
+        :param failed_output_dir: Directory to save publications that fail preprocessing
+        :param corruption_fixer: CharacterCorruptionFixer instance for fixing encoding issues
         """
         self.configs = create_default_configs()
         if custom_configs:
@@ -1086,13 +1059,10 @@ class PublicationPreprocessor:
         """
         Process a single publication.
 
-        Args:
-            publisher: Publisher identifier
-            publication: Publication object to process
+        :param publisher: Publisher identifier
+        :param publication: Publication object to process
 
-        Returns:
-            ProcessingResult with cleaned text or error
-
+        :returns: ProcessingResult with cleaned text or error
         """
         strategy = self._get_strategy(publisher)
         return strategy.process(publication.text, publication)
@@ -1107,13 +1077,10 @@ class PublicationPreprocessor:
 
         Uses same filename format as dump_publications_as_markdown for consistency.
 
-        Args:
-            publication: The publication that failed processing
-            error_message: The error message describing why it failed
+        :param publication: The publication that failed processing
+        :param error_message: The error message describing why it failed
 
-        Returns:
-            The filepath where the failed publication was saved
-
+        :returns: The filepath where the failed publication was saved
         """
         # Create publisher-specific subdirectory
         output_dir = os.path.join(self._failed_output_dir, publication.publisher)
@@ -1142,7 +1109,7 @@ class PublicationPreprocessor:
         logger.info(f"Saved failed publication to: {filepath}")
         return filepath
 
-    def process_table(
+    def process_table(  # noqa: C901
         self, source_db: PostsDatabase, target_db: PostsDatabase, table_name: str, *, overwrite: bool = False, allow_failures: bool = False, prefer_german: Optional[bool] = None
     ) -> dict[str, int]:
         """
@@ -1151,17 +1118,14 @@ class PublicationPreprocessor:
         Failed publications are automatically saved to the failed output directory
         as markdown files for debugging purposes.
 
-        Args:
-            source_db: Source PostsDatabase instance
-            target_db: Target PostsDatabase for cleaned publications
-            table_name: Table name (publisher)
-            overwrite: Overwrite existing publications in target
-            allow_failures: Continue on processing failures
-            prefer_german: Use German version when both EN/DE exist (overrides config)
+        :param source_db: Source PostsDatabase instance
+        :param target_db: Target PostsDatabase for cleaned publications
+        :param table_name: Table name (publisher)
+        :param overwrite: Overwrite existing publications in target
+        :param allow_failures: Continue on processing failures
+        :param prefer_german: Use German version when both EN/DE exist (overrides config)
 
-        Returns:
-            Statistics dict with counts of processed/skipped/failed
-
+        :returns: Statistics dict with counts of processed/skipped/failed
         """
         stats = {"processed": 0, "skipped": 0, "failed": 0, "total": 0}
         processing_results = []  # Track individual results: '.' = skipped, 'o' = success, 'x' = failed
@@ -1277,7 +1241,6 @@ class PublicationPreprocessor:
             self,
             source_db: PostsDatabase,
             target_db: PostsDatabase,
-            *,
             tables: Optional[list[str]] = None,
             overwrite: bool = False,
             allow_failures: bool = False,
@@ -1286,17 +1249,14 @@ class PublicationPreprocessor:
         """
         Process multiple tables and export as markdown.
 
-        Args:
-            source_db: Source database
-            target_db: Target database
-            tables: List of tables to process (default: all configured)
-            overwrite: Overwrite existing publications
-            allow_failures: Continue on failures
-            output_base_dir: Base directory for markdown exports
+        :param source_db: Source database
+        :param target_db: Target database
+        :param tables: List of tables to process (default: all configured)
+        :param overwrite: Overwrite existing publications
+        :param allow_failures: Continue on failures
+        :param output_base_dir: Base directory for markdown exports
 
-        Returns:
-            Dict mapping table names to their stats
-
+        :returns: Dict mapping table names to their stats
         """
         if tables is None:
             tables = list(self.configs.keys())
@@ -1355,7 +1315,7 @@ def main():
     parser.add_argument("--overwrite", default=True, action="store_true", help="Overwrite existing publications")
     parser.add_argument("--allow-failures", default=True, action="store_true", help="Continue processing on failures")
     parser.add_argument("--list-publishers", action="store_true", help="List available publishers and exit")
-    parser.add_argument("--metadata-output", default="../../../docs/public_view/", help="Directory for metadata export")
+    parser.add_argument("--metadata-output", default="../../../output/public_view/", help="Directory for metadata export")
 
     args = parser.parse_args()
 
@@ -1393,7 +1353,7 @@ def main():
 
         # Print summary
         total = {"processed": 0, "skipped": 0, "failed": 0}
-        for table_name, stats in all_stats.items():
+        for _table_name, stats in all_stats.items():
             if isinstance(stats, dict) and "error" not in stats:
                 for key in total:
                     total[key] += stats.get(key, 0)

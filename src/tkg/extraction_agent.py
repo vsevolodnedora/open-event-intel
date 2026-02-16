@@ -9,7 +9,7 @@ from openai import AsyncOpenAI
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 
 from open_event_intel.logger import get_logger
-from open_event_intel.publications_database import Publication
+from open_event_intel.scraping.publications_database import Publication
 from src.tkg.config import Config
 from src.tkg.data_models import (
     Entity,

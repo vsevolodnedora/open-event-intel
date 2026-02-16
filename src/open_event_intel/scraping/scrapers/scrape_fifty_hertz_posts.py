@@ -25,7 +25,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 from open_event_intel.logger import get_logger
-from open_event_intel.publications_database import PostsDatabase
+from open_event_intel.scraping.publications_database import PostsDatabase
 from src.open_event_intel.scraping.scrapers.utils_scrape import format_date_to_datetime
 
 logger = get_logger(__name__)

@@ -17,7 +17,7 @@ from typing import Any, ClassVar, Iterator, List, Literal, Sequence
 from pydantic import BaseModel, ConfigDict, ValidationError, field_validator, model_validator
 
 from open_event_intel.logger import get_logger
-from open_event_intel.publications_database import decompress_publication_text
+from open_event_intel.scraping.publications_database import decompress_publication_text
 
 SCHEMA_PATH = Path(__file__).resolve().parent / "database_schema.sql"
 

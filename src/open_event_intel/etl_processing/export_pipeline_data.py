@@ -870,7 +870,7 @@ def export_impact(conn: sqlite3.Connection, dvid: str, run_id: str, out: Path) -
 def main(argv: Sequence[str] | None = None) -> int:  # noqa: D103
     parser = argparse.ArgumentParser(description="Export processed_posts.db → static JSON for Run Explorer")
     parser.add_argument("--db", default=Path("../../../database/processed_posts.db"), help="Path to processed_posts.db")
-    parser.add_argument("--out", default=Path("../../../docs/data/"), help="Output directory (e.g. docs/data)")
+    parser.add_argument("--out", default=Path("../../../docs/etl_data/"), help="Output directory (e.g. docs/data)")
     parser.add_argument("--runs", type=int, default=None, help="Max runs to export (default: all non-aborted)")
     parser.add_argument("--skip-traces", action="store_true", help="Skip per-document trace export (faster)")
     parser.add_argument("--completed-only", action="store_true",

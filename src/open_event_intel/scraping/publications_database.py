@@ -6,14 +6,38 @@ import re
 import sqlite3
 import zlib
 from datetime import datetime
-from typing import List
+from pathlib import Path
+from typing import Any, List
 
-from pydantic import ValidationError
+from pydantic import BaseModel, ValidationError, field_validator
 
-from open_event_intel.data_models import Publication
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
+
+SCHEMA_PATH = Path(__file__).resolve().parent / "database_schema.sql"
+
+class Publication(BaseModel):
+    """Data model for a news publication."""
+
+    id: str # Unique identifier
+    url:str # Original publication URL
+    text: str # The full text of the post publication
+    publisher: str # The name of the publication source (e.g., entsoe, acer etc)
+    published_on: datetime # The date when the post was published
+    added_on: datetime  # date when the post was added to the database
+    title: str | None = None # title of the post
+    language: str | None = None # DE or EN (for now)
+
+    @field_validator("published_on","added_on", mode="before")
+    @classmethod
+    def to_datetime(cls, d: Any) -> datetime:
+        """Convert input to a datetime object."""
+        if isinstance(d, datetime):
+            return d
+        if hasattr(d, "isoformat"):
+            return datetime.fromisoformat(d.isoformat())
+        return datetime.fromisoformat(str(d))
 
 def compress_publication_text(article_id: str, text: str) -> bytes:
     """Compress the given article ID and text into bytes."""
@@ -68,17 +92,8 @@ class PostsDatabase:
         # Validate table name
         if not re.match(r"^[A-Za-z0-9_]+$", table_name):
             raise ValueError(f"Invalid table name: {table_name}")
-        sql = f"""
-        CREATE TABLE IF NOT EXISTS "{table_name}" (
-            ID TEXT PRIMARY KEY,
-            published_on TIMESTAMP NOT NULL,
-            title TEXT NOT NULL,
-            added_on TIMESTAMP NOT NULL,
-            url TEXT NOT NULL,
-            language TEXT NOT NULL,
-            post BLOB NOT NULL
-        );
-        """
+        sql_template = SCHEMA_PATH.read_text(encoding="utf-8")
+        sql = sql_template.format(table_name=table_name)
         self.conn.execute(sql)
         self.conn.commit()
         logger.info(f"Ensured table exists: {table_name}")
@@ -323,13 +338,11 @@ class PostsDatabase:
         For each publication, exports: ID, url, length (of text), publisher,
         published_on, added_on, and title.
 
-        Args:
-            out_dir: Output directory path
-            format: Export format - either 'csv' or 'json' (default: 'json')
-            filename: Base filename without extension (default: 'all_publications')
+        :param out_dir: Output directory path
+        :param format: Export format - either 'csv' or 'json' (default: 'json')
+        :param filename: Base filename without extension (default: 'all_publications')
 
-        Raises:
-            ValueError: If format is invalid
+        Raises: ValueError: If format is invalid
         """
         if format not in ["csv", "json"]:
             raise ValueError(f"Format must be 'csv' or 'json', got: {format}")
