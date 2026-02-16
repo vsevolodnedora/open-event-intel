@@ -95,15 +95,15 @@ jobs:
           git config user.name 'Collector'
           git config user.email 'noreply@nedora.digital'
 
-          # Make sure output/public_view exists (avoid 'pathspec did not match' errors)
-          mkdir -p output/public_view
+          # Make sure docs/scrape_data exists (avoid 'pathspec did not match' errors)
+          mkdir -p docs/scrape_data
 
           # Stage only the public_view output directory
-          git add output/public_view || echo "No output/public_view directory to add"
+          git add docs/scrape_data || echo "No docs/scrape_data directory to add"
 
           # If nothing staged, bail out early
           if git diff --cached --quiet; then
-            echo "No changes in output/public_view to commit"
+            echo "No changes in docs/scrape_data to commit"
             exit 0
           fi
 
@@ -111,7 +111,7 @@ jobs:
           git pull --no-edit -X ours origin main || echo "No remote changes to merge or merge failed"
 
           # Commit
-          git commit -m "Update output/public_view from scraper run at $(date -u)"
+          git commit -m "Update docs/scrape_data from scraper run at $(date -u)"
 
           # Push back to main
           git push origin HEAD:main
