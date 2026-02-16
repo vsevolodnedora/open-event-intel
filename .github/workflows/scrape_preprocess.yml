@@ -67,7 +67,7 @@ jobs:
 
       # Run separate code to export raw and pre-processed publication databases for the webpage (into docs/...)
       - name: Preprocess Publications to clean the HTML and extract text
-        run: pipenv run python -m open_event_intel.scraping.export_pipeline_data --source-db database/scraped_posts.db --preprocessed-db database/preprocessed_posts.db --output-dir docs/scrape_data/ --window-days 60
+        run: pipenv run python -m open_event_intel.scraping.export_pipeline_data --scraped-db database/scraped_posts.db --preprocessed-db database/preprocessed_posts.db --output-dir docs/scrape_data/ --window-days 60
 
       # Copy updated DB back into private repo and push
       - name: Push Updated DB to Private Repo
