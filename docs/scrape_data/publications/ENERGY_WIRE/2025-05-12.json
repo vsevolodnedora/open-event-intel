@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-12",
+  "publications": [
+    {
+      "id": "53af16684b543ccb20fc0e96832fd23f5b7d12c69b02c16746e2b6e9cd75a5fc",
+      "title": "most_germans_doubt_country_will_meet_own_2045_climate_neutrality_target_survey",
+      "published_on": "2025-05-12 13:54:00",
+      "scraped_on": "2025-07-31 13:20:15.952768",
+      "language": "en",
+      "length_before_preprocessing": 6868,
+      "length_after_preprocessing": 1008,
+      "url": "https://www.cleanenergywire.org/news/most-germans-doubt-country-will-meet-own-2045-climate-neutrality-target-survey"
+    },
+    {
+      "id": "b8214562f3a2683d6cff1e6c39f53dd54122dc3c51f29ef4ab57ac770b88f747",
+      "title": "climate_action_still_priority_most_germans_other_crises_overshadow_global_warming_uba",
+      "published_on": "2025-05-12 13:47:00",
+      "scraped_on": "2025-07-31 13:20:27.600163",
+      "language": "en",
+      "length_before_preprocessing": 6834,
+      "length_after_preprocessing": 1123,
+      "url": "https://www.cleanenergywire.org/news/climate-action-still-priority-most-germans-other-crises-overshadow-global-warming-uba"
+    },
+    {
+      "id": "003ad37ab9f5f56549782b630b97d7dff799317c7abb40e8441730997a46db7f",
+      "title": "germanys_new_energy_minister_rules_out_return_conventional_nuclear",
+      "published_on": "2025-05-12 13:44:00",
+      "scraped_on": "2025-07-31 13:20:39.352821",
+      "language": "en",
+      "length_before_preprocessing": 7247,
+      "length_after_preprocessing": 1360,
+      "url": "https://www.cleanenergywire.org/news/germanys-new-energy-minister-rules-out-return-conventional-nuclear"
+    },
+    {
+      "id": "cb0028d9ad13269712ccbbf4838db04c28debb7377f46299e813a0b134888b31",
+      "title": "iberian_blackout_must_trigger_preparation_measures_also_germany_researchers",
+      "published_on": "2025-05-12 13:40:00",
+      "scraped_on": "2025-07-31 13:20:50.946038",
+      "language": "en",
+      "length_before_preprocessing": 7091,
+      "length_after_preprocessing": 1197,
+      "url": "https://www.cleanenergywire.org/news/iberian-blackout-must-trigger-preparation-measures-also-germany-researchers"
+    },
+    {
+      "id": "2fe17fbe3487c35039067d7cea4fa5c0bfac7a1bcefe8fd0e1c736faef6591af",
+      "title": "brief_12_may_25",
+      "published_on": "2025-05-12 12:08:00",
+      "scraped_on": "2025-07-31 13:21:02.432227",
+      "language": "en",
+      "length_before_preprocessing": 5013,
+      "length_after_preprocessing": 619,
+      "url": "https://www.cleanenergywire.org/news/brief-12-may-25"
+    }
+  ]
+}

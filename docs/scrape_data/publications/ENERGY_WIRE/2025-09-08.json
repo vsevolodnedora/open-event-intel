@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-08",
+  "publications": [
+    {
+      "id": "8ed5683388603764b8b1d1d359e9d979ee54ed76f48e487a2791add16c55ce5b",
+      "title": "german_environment_minister_warns_against_delaying_eus_2040_climate_target_decision",
+      "published_on": "2025-09-08 13:39:00",
+      "scraped_on": "2025-09-08 18:36:13.390893",
+      "language": "en",
+      "length_before_preprocessing": 4181,
+      "length_after_preprocessing": 1070,
+      "url": "https://www.cleanenergywire.org/news/german-environment-minister-warns-against-delaying-eus-2040-climate-target-decision"
+    },
+    {
+      "id": "082a4d8042ec6b7fcf2aa0513c7e8635456e9e4ae3deaa296328d890955c8f6b",
+      "title": "vw_bmw_mercedes_showcase_new_evs_stem_downturn_ngos_warn_greenwashing",
+      "published_on": "2025-09-08 12:06:00",
+      "scraped_on": "2025-09-08 18:36:24.304393",
+      "language": "en",
+      "length_before_preprocessing": 8402,
+      "length_after_preprocessing": 2552,
+      "url": "https://www.cleanenergywire.org/news/vw-bmw-mercedes-showcase-new-evs-stem-downturn-ngos-warn-greenwashing"
+    },
+    {
+      "id": "30a7940af6b1d4e46a4034f1cbde774a7abaff28f144b64b358a1a476aa05b84",
+      "title": "brief_8_september_25",
+      "published_on": "2025-09-08 11:12:00",
+      "scraped_on": "2025-09-08 18:36:35.062421",
+      "language": "en",
+      "length_before_preprocessing": 5216,
+      "length_after_preprocessing": 834,
+      "url": "https://www.cleanenergywire.org/news/brief-8-september-25"
+    }
+  ]
+}

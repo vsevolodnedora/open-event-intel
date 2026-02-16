@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-11-28",
+  "publications": [
+    {
+      "id": "515f1ae10230e01b81f5553dd64e64489a4f3824590b0c5929fb0d0a70a37c5e",
+      "title": "DSC_OnlineHandel",
+      "published_on": "2025-11-28 12:00:00",
+      "scraped_on": "2025-11-28 18:34:38.474035",
+      "language": "de",
+      "length_before_preprocessing": 4411,
+      "length_after_preprocessing": 1771,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251128_DSC_OnlineHandel.html"
+    }
+  ]
+}

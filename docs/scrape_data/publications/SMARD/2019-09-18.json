@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-09-18",
+  "publications": [
+    {
+      "id": "1164ca506d31970da49ab4f2de5d53e517114be6b91dfcd24ad3b0338e8666e3",
+      "title": "der_stromhandel_im_juli_und_august_2019",
+      "published_on": "2019-09-18 12:00:00",
+      "scraped_on": "2026-01-14 09:16:47.293902",
+      "language": "de",
+      "length_before_preprocessing": 7009,
+      "length_after_preprocessing": 3793,
+      "url": "https://www.smard.de/page/home/topic-article/204972/14110/der-stromhandel-im-juli-und-august-2019"
+    }
+  ]
+}

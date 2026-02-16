@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-26",
+  "publications": [
+    {
+      "id": "8078ea657763ff40d6b55026666d9fad00dfd4c906f39d24f628ed02d168ae56",
+      "title": "berlin_court_allows_referendum_making_german_capital_largely_car_free",
+      "published_on": "2025-06-26 13:56:00",
+      "scraped_on": "2025-07-31 13:45:11.277642",
+      "language": "en",
+      "length_before_preprocessing": 6820,
+      "length_after_preprocessing": 1238,
+      "url": "https://www.cleanenergywire.org/news/berlin-court-allows-referendum-making-german-capital-largely-car-free"
+    },
+    {
+      "id": "da4a64fc744b00873f7061b4d7ecc4f79a5af18029afc2e324bfa20f401ffbe2",
+      "title": "households_left_out_cold_germany_set_lower_companies_power_bills",
+      "published_on": "2025-06-26 13:49:00",
+      "scraped_on": "2025-07-31 13:45:22.960272",
+      "language": "en",
+      "length_before_preprocessing": 8539,
+      "length_after_preprocessing": 2346,
+      "url": "https://www.cleanenergywire.org/news/households-left-out-cold-germany-set-lower-companies-power-bills"
+    },
+    {
+      "id": "5f9b67498bb71ca931d95e758ab0924a5b8802534bc79e05cedfd9b2c2d48d43",
+      "title": "germany_cancels_first_emissions_allowances_freed_coal_exit",
+      "published_on": "2025-06-26 13:49:00",
+      "scraped_on": "2025-07-31 13:45:34.854343",
+      "language": "en",
+      "length_before_preprocessing": 6319,
+      "length_after_preprocessing": 712,
+      "url": "https://www.cleanenergywire.org/news/germany-cancels-first-emissions-allowances-freed-coal-exit"
+    },
+    {
+      "id": "81e9070234682296922f5e52177a32239963a92b1b1e3f49b5a660bd5cdcdfb3",
+      "title": "brief_26_june_25",
+      "published_on": "2025-06-26 12:27:00",
+      "scraped_on": "2025-07-31 13:45:46.540931",
+      "language": "en",
+      "length_before_preprocessing": 5463,
+      "length_after_preprocessing": 978,
+      "url": "https://www.cleanenergywire.org/news/brief-26-june-25"
+    }
+  ]
+}

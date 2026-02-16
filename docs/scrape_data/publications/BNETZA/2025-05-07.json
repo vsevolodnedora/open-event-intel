@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-05-07",
+  "publications": [
+    {
+      "id": "00e065f198ac732e83240054a8cd426c34848028786d54bb5bee6b99ce290143",
+      "title": "ITsicherheitskatalog",
+      "published_on": "2025-05-07 12:00:00",
+      "scraped_on": "2025-07-31 11:11:07.925357",
+      "language": "de",
+      "length_before_preprocessing": 3839,
+      "length_after_preprocessing": 1214,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250507_ITsicherheitskatalog.html"
+    }
+  ]
+}

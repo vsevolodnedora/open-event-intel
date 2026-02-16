@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-08-13",
+  "publications": [
+    {
+      "id": "c4c0d8a113e8d553d799dd47e10df02677ca170761306fc220d87e50d8b234cc",
+      "title": "european_union_mobilises_eu500_million_ukraines_emergency_winter_gas_purchases",
+      "published_on": "2025-08-13 12:00:00",
+      "scraped_on": "2025-08-13 18:33:58.463945",
+      "language": "en",
+      "length_before_preprocessing": 4130,
+      "length_after_preprocessing": 819,
+      "url": "https://enlargement.ec.europa.eu/news/european-union-mobilises-eu500-million-ukraines-emergency-winter-gas-purchases-2025-08-13_en"
+    }
+  ]
+}

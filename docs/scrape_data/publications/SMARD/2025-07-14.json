@@ -1,0 +1,26 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-07-14",
+  "publications": [
+    {
+      "id": "763ea3102aa737d6e19e2d3baabac45f6696d47f902c0d0823786fe1ed1781cb",
+      "title": "monitoringerhebung_2025",
+      "published_on": "2025-07-14 12:00:00",
+      "scraped_on": "2026-01-14 09:23:53.835991",
+      "language": "de",
+      "length_before_preprocessing": 7458,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/217350/monitoringerhebung-2025"
+    },
+    {
+      "id": "7565c1df1254e1dab485f237b872c1651db21a9c3b489172d6fc6c210caf8a5d",
+      "title": "monitoringerhebung_2025",
+      "published_on": "2025-07-14 12:00:00",
+      "scraped_on": "2026-01-14 09:25:03.977871",
+      "language": "de",
+      "length_before_preprocessing": 7455,
+      "length_after_preprocessing": 4978,
+      "url": "https://www.smard.de/page/home/topic-article/444/217350/monitoringerhebung-2025"
+    }
+  ]
+}

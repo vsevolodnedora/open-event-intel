@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-12-18",
+  "publications": [
+    {
+      "id": "364a0af0188ff9d7b99704ead737deb94937c58ca87cb7b647dea84c72cd853e",
+      "title": "suedostlink_baufortschritt_in_luftiger_hoehe",
+      "published_on": "2025-12-18 12:00:00",
+      "scraped_on": "2025-12-18 18:25:56.688676",
+      "language": "de",
+      "length_before_preprocessing": 1714,
+      "length_after_preprocessing": 1366,
+      "url": "https://www.50hertz.com/de/News/Details/16597/suedostlink-baufortschritt-in-luftiger-hoehe"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-19",
+  "publications": [
+    {
+      "id": "a676808fa103953b21e87d685452820fafd8bc7fcc1e1d78f4371ff482767afc",
+      "title": "clariant_sells_venezuela_business_as_part_of_restructuring",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-19 18:19:17.609389",
+      "language": "en",
+      "length_before_preprocessing": 4382,
+      "length_after_preprocessing": 606,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165771/clariant-sells-venezuela-business-as-part-of-restructuring"
+    },
+    {
+      "id": "7cb22a76f9e8e6b5edb8c60cec84178a1765933f06a313b70e080a8b43b1bd05",
+      "title": "brazil_s_petrobras_braskem_sign_18_billion_long_term_naphtha_ngls_supply_deals",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-19 18:19:17.611071",
+      "language": "en",
+      "length_before_preprocessing": 5314,
+      "length_after_preprocessing": 1495,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165718/brazil-s-petrobras-braskem-sign-18-billion-long-term-naphtha-ngls-supply-deals"
+    },
+    {
+      "id": "96c16dd69385123fb4d14f9729b85e58f629e252e5032ef9d55e5bf0dde2867b",
+      "title": "insight_eu_auto_sector_concessions_fail_to_meet_the_moment",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-19 18:19:17.612775",
+      "language": "en",
+      "length_before_preprocessing": 6964,
+      "length_after_preprocessing": 3234,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165865/insight-eu-auto-sector-concessions-fail-to-meet-the-moment"
+    },
+    {
+      "id": "ff710118cc53f96403c228ae7a57b3ae50bc955072cf9476f9ac137c8b874a68",
+      "title": "opposition_mounts_as_up_ns_rail_merger_application_submitted_to_us_regulator",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-20 18:19:23.201704",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165908/opposition-mounts-as-up-ns-rail-merger-application-submitted-to-us-regulator"
+    },
+    {
+      "id": "5b026c9ffd0c6742e3549df49a7944414f9bb6c60f230ddfa7ee7ae65cf9463c",
+      "title": "asia_us_container_rates_mixed_will_end_year_down_by_almost_50_from_january",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-20 18:19:23.203813",
+      "language": "en",
+      "length_before_preprocessing": 6321,
+      "length_after_preprocessing": 2190,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165915/asia-us-container-rates-mixed-will-end-year-down-by-almost-50-from-january"
+    },
+    {
+      "id": "d21a7af1b230df81f439a14bac8dad47bd2e67334eac4c20fbf467f46649e4ca",
+      "title": "upm_starts_sugar_production_at_german_biomass_to_glycols_refinery",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-20 18:19:23.206733",
+      "language": "en",
+      "length_before_preprocessing": 4704,
+      "length_after_preprocessing": 877,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/19/11165909/upm-starts-sugar-production-at-german-biomass-to-glycols-refinery"
+    }
+  ]
+}

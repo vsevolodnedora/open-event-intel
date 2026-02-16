@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2024-12-09",
+  "publications": [
+    {
+      "id": "4c4867f5318a5128cfd2596d2eed73fb973c3adea3176410314beecfe92eab28",
+      "title": "vote25_affordability_transition_key_topic_next_government_researcher",
+      "published_on": "2024-12-09 14:00:00",
+      "scraped_on": "2025-07-31 12:04:43.100157",
+      "language": "en",
+      "length_before_preprocessing": 10158,
+      "length_after_preprocessing": 3808,
+      "url": "https://www.cleanenergywire.org/news/vote25-affordability-transition-key-topic-next-government-researcher"
+    },
+    {
+      "id": "404b370720253daf5e2dd5c4157eea980beefdb49503491edfc04b60c95b1f5f",
+      "title": "carbon_capturing_plans_stall_amid_ongoing_talks_after_german_coalition_break",
+      "published_on": "2024-12-09 13:58:00",
+      "scraped_on": "2025-07-31 12:04:54.845951",
+      "language": "en",
+      "length_before_preprocessing": 6773,
+      "length_after_preprocessing": 980,
+      "url": "https://www.cleanenergywire.org/news/carbon-capturing-plans-stall-amid-ongoing-talks-after-german-coalition-break"
+    },
+    {
+      "id": "aeb9254c30adf4fc5f8c8d02270c596f6e31a921b92bc7a4ab587a3963d2fa67",
+      "title": "no_gas_power_plant_deal_election_threat_east_german_coal_exit_labour_union",
+      "published_on": "2024-12-09 13:49:00",
+      "scraped_on": "2025-07-31 12:05:06.529373",
+      "language": "en",
+      "length_before_preprocessing": 6801,
+      "length_after_preprocessing": 912,
+      "url": "https://www.cleanenergywire.org/news/no-gas-power-plant-deal-election-threat-east-german-coal-exit-labour-union"
+    }
+  ]
+}

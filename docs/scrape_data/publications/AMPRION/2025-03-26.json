@@ -1,0 +1,16 @@
+{
+  "publisher": "AMPRION",
+  "published_on": "2025-03-26",
+  "publications": [
+    {
+      "id": "3909133dd77b256a299f48493750b14ee22a59a1514f21204ec1bc664389403e",
+      "title": "Presse_Detailseite_79808",
+      "published_on": "2025-03-26 12:00:00",
+      "scraped_on": "2025-08-07 15:33:51.670081",
+      "language": "de",
+      "length_before_preprocessing": 3638,
+      "length_after_preprocessing": 1127,
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_79808.html"
+    }
+  ]
+}

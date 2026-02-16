@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-13",
+  "publications": [
+    {
+      "id": "757f48c092903c16c4deb815c294ec3724ab50e59cab51b11b2b2b83dc1b6af5",
+      "title": "dispatch_france_june_25",
+      "published_on": "2025-06-13 15:30:00",
+      "scraped_on": "2025-07-31 13:42:16.617926",
+      "language": "en",
+      "length_before_preprocessing": 11069,
+      "length_after_preprocessing": 3852,
+      "url": "https://www.cleanenergywire.org/news/dispatch-france-june-25"
+    },
+    {
+      "id": "33b837467e37511d171400c53f46b9389c562416357d583a6bd8315652b85158",
+      "title": "world_must_unite_bonn_talks_deliver_climate_goals_despite_us_exit_ngo",
+      "published_on": "2025-06-13 12:07:00",
+      "scraped_on": "2025-07-31 13:42:28.317300",
+      "language": "en",
+      "length_before_preprocessing": 6638,
+      "length_after_preprocessing": 1025,
+      "url": "https://www.cleanenergywire.org/news/world-must-unite-bonn-talks-deliver-climate-goals-despite-us-exit-ngo"
+    },
+    {
+      "id": "cde8b7e437acf946fce20dc19f1969903905c917599188c320bbbc71b5ca3ed0",
+      "title": "millions_germanys_cities_affected_extreme_heat_environmental_ngo",
+      "published_on": "2025-06-13 12:05:00",
+      "scraped_on": "2025-07-31 13:42:40.029362",
+      "language": "en",
+      "length_before_preprocessing": 6836,
+      "length_after_preprocessing": 888,
+      "url": "https://www.cleanenergywire.org/news/millions-germanys-cities-affected-extreme-heat-environmental-ngo"
+    },
+    {
+      "id": "4a17c552e74da50450b70c0cfdc0cbf555c3e098a16791bfa2b44f901fe8fa4f",
+      "title": "brief_13_june_25",
+      "published_on": "2025-06-13 12:00:00",
+      "scraped_on": "2025-07-31 13:42:51.723216",
+      "language": "en",
+      "length_before_preprocessing": 5936,
+      "length_after_preprocessing": 1313,
+      "url": "https://www.cleanenergywire.org/news/brief-13-june-25"
+    }
+  ]
+}

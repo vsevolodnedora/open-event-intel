@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-07-10",
+  "publications": [
+    {
+      "id": "1d9f7206ba520bd2ebb7bab5e595b92f12ba15c6e92a499eb8a877d37f4c5bbb",
+      "title": "mehr_als_zwei_drittel_erneuerbare",
+      "published_on": "2025-07-10 12:00:00",
+      "scraped_on": "2026-01-14 09:24:00.062574",
+      "language": "de",
+      "length_before_preprocessing": 8289,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/217468/mehr-als-zwei-drittel-erneuerbare"
+    },
+    {
+      "id": "413328319c1fdb679df92e6bcd105905d42fef97ab38cfe3c630d08449414503",
+      "title": "mehr_als_zwei_drittel_erneuerbare",
+      "published_on": "2025-07-10 12:00:00",
+      "scraped_on": "2026-01-14 09:25:09.394204",
+      "language": "de",
+      "length_before_preprocessing": 8279,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/444/217468/mehr-als-zwei-drittel-erneuerbare"
+    },
+    {
+      "id": "b861b58048344c430c6144bb82c177c9e7ac9247d3b4a079bcb583a7b111b3e5",
+      "title": "more_than_two_thirds_renewables",
+      "published_on": "2025-07-10 12:00:00",
+      "scraped_on": "2026-01-14 09:11:58.902935",
+      "language": "de",
+      "length_before_preprocessing": 7559,
+      "length_after_preprocessing": 5211,
+      "url": "https://www.smard.de/page/en/topic-article/5892/217608/more-than-two-thirds-renewables"
+    }
+  ]
+}

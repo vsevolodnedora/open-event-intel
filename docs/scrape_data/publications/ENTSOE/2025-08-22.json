@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-08-22",
+  "publications": [
+    {
+      "id": "6c26c1241b7793275fc3cfff8f8cf4cd5693d97cac7da0d9b3cd54ec324f4d59",
+      "title": "european_resource_adequacy_assessment_2024_approved",
+      "published_on": "2025-08-22 12:00:00",
+      "scraped_on": "2025-08-22 18:30:20.650842",
+      "language": "en",
+      "length_before_preprocessing": 2941,
+      "length_after_preprocessing": 825,
+      "url": "https://www.entsoe.eu/news/2025/08/22/european-resource-adequacy-assessment-2024-approved"
+    }
+  ]
+}

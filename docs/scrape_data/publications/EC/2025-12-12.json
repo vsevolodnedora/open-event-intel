@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-12",
+  "publications": [
+    {
+      "id": "b32dc3c4676c2e72fef125cc0caa679385704697731569d0592725a745ce8ed2",
+      "title": "many_europeans_want_better_protection_against_energy_poverty",
+      "published_on": "2025-12-12 12:00:00",
+      "scraped_on": "2025-12-12 18:20:37.946881",
+      "language": "en",
+      "length_before_preprocessing": 3701,
+      "length_after_preprocessing": 867,
+      "url": "https://energy.ec.europa.eu/news/many-europeans-want-better-protection-against-energy-poverty-2025-12-12_en"
+    }
+  ]
+}

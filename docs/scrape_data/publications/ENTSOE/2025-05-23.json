@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-05-23",
+  "publications": [
+    {
+      "id": "5d89d6542cdab091976aedce88bddd9bd7923262a7bfe4e2914a5b2cd0d0bb79",
+      "title": "entso_e_publishes_its_position_paper_on_vendor_agnostic_solutions_vas_for_next_generation_control_room_eco_systems",
+      "published_on": "2025-05-23 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.522906",
+      "language": "en",
+      "length_before_preprocessing": 3264,
+      "length_after_preprocessing": 957,
+      "url": "https://www.entsoe.eu/news/2025/05/23/entso-e-publishes-its-position-paper-on-vendor-agnostic-solutions-vas-for-next-generation-control-room-eco-systems"
+    }
+  ]
+}

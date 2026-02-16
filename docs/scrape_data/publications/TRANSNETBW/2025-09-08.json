@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-09-08",
+  "publications": [
+    {
+      "id": "4c95f15f2f41f63c78f360201d54d729a76fc006826e5a9ba0470750825195d5",
+      "title": "die_bundesregierung_plant_fuer_das_jahr_2026_einen_zuschuss_zu_den_uebertragungsnetzkosten",
+      "published_on": "2025-09-08 12:00:00",
+      "scraped_on": "2025-09-13 18:30:46.381542",
+      "language": "de",
+      "length_before_preprocessing": 4388,
+      "length_after_preprocessing": 1054,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/die-bundesregierung-plant-fuer-das-jahr-2026-einen-zuschuss-zu-den-uebertragungsnetzkosten"
+    }
+  ]
+}

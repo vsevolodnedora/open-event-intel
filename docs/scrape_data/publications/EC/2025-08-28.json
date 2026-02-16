@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-08-28",
+  "publications": [
+    {
+      "id": "ffbab6e0d330b8b7ec16f164d2517950f69d696b23f9d376d1b0a4be44458454",
+      "title": "have_your_say_eus_electrification_action_plan_and_heating_and_cooling_strategy",
+      "published_on": "2025-08-28 12:00:00",
+      "scraped_on": "2025-08-28 18:32:47.775715",
+      "language": "en",
+      "length_before_preprocessing": 4566,
+      "length_after_preprocessing": 1649,
+      "url": "https://energy.ec.europa.eu/news/have-your-say-eus-electrification-action-plan-and-heating-and-cooling-strategy-2025-08-28_en"
+    }
+  ]
+}

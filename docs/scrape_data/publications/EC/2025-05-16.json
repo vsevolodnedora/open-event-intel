@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-05-16",
+  "publications": [
+    {
+      "id": "9ad11f9bb7e937ef8b422e36713adc6b2dc11b9c00b6e01075c9e3dc0e2e0119",
+      "title": "important_step_towards_establishing_european_network_network_operators_hydrogen",
+      "published_on": "2025-05-16 12:00:00",
+      "scraped_on": "2025-07-31 11:18:22.101682",
+      "language": "en",
+      "length_before_preprocessing": 4035,
+      "length_after_preprocessing": 990,
+      "url": "https://energy.ec.europa.eu/news/important-step-towards-establishing-european-network-network-operators-hydrogen-2025-05-16_en"
+    },
+    {
+      "id": "c19d5827eded6f6de0b66e6895606f258e5be04f3e133bcff7951def76bc5fd9",
+      "title": "repowereu_3_years_commission_takes_stock_progress_phase_out_russian_fossil_fuels",
+      "published_on": "2025-05-16 12:00:00",
+      "scraped_on": "2025-07-31 11:18:30.974271",
+      "language": "en",
+      "length_before_preprocessing": 3853,
+      "length_after_preprocessing": 942,
+      "url": "https://energy.ec.europa.eu/news/repowereu-3-years-commission-takes-stock-progress-phase-out-russian-fossil-fuels-2025-05-16_en"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-15",
+  "publications": [
+    {
+      "id": "e370c0abd39fbc8c3ec8abdca9615a0ca24a9da417dc227cbe638bbd0ff04bd3",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.011507",
+      "language": "en",
+      "length_before_preprocessing": 4733,
+      "length_after_preprocessing": 890,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11163773/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "b0b8c719f62fb2563ecaacc7ba62517ce11dce95d70d601ce04fe3c33a262a72",
+      "title": "blog_us_automakers_running_out_of_road_due_to_lack_of_ev_and_robotaxi_options",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.015098",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164213/blog-us-automakers-running-out-of-road-due-to-lack-of-ev-and-robotaxi-options"
+    },
+    {
+      "id": "9e0669c9f5b34ccb37abc11cae3f617246d35a5abb5a644d21fb95c9c18c9af1",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.016391",
+      "language": "en",
+      "length_before_preprocessing": 1234,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164156/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "12d0c73e5ebd601abe59e1ac7cb2ea5f1712bf005b9f1b7dff4ed8022046aad3",
+      "title": "westlake_to_shut_down_us_pvc_chlor_alkali_styrene_plants_in_december",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.017753",
+      "language": "en",
+      "length_before_preprocessing": 4803,
+      "length_after_preprocessing": 1020,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164293/westlake-to-shut-down-us-pvc-chlor-alkali-styrene-plants-in-december"
+    },
+    {
+      "id": "6cead9eb4a65b97fecc54b39e5002a191ce907a78641a1e8d0845fe569be1fe5",
+      "title": "podcast_sustainably_speaking_examining_europe_s_recycling_sector_part_1",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.019905",
+      "language": "en",
+      "length_before_preprocessing": 4384,
+      "length_after_preprocessing": 570,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164299/podcast-sustainably-speaking-examining-europe-s-recycling-sector-part-1"
+    },
+    {
+      "id": "9f2aa80cb691edfaa0851c1373e611482fc661058de306bf73bbbdf52801496d",
+      "title": "podcast_cee_gas_transmission_tariff_dilemma_needs_visionary_approach",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.022206",
+      "language": "en",
+      "length_before_preprocessing": 5508,
+      "length_after_preprocessing": 627,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164284/podcast-cee-gas-transmission-tariff-dilemma-needs-visionary-approach"
+    },
+    {
+      "id": "3c2e0a4f8a64700a7f9b3afbca01184ec0157200aa1f4abf93e9b13cea184769",
+      "title": "icis_whitepaper_russia_s_quest_to_reach_gas_markets_from_kazakhstan_to_turkey",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.024550",
+      "language": "en",
+      "length_before_preprocessing": 4353,
+      "length_after_preprocessing": 444,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164259/icis-whitepaper-russia-s-quest-to-reach-gas-markets-from-kazakhstan-to-turkey"
+    },
+    {
+      "id": "338b95c440ef482eb0e947dda9b226c2bcd7ab1ccf11dcdf38e53b9fa2196715",
+      "title": "south_korea_petrochemical_exports_to_fall_6_1_in_2026_kcci",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.026403",
+      "language": "en",
+      "length_before_preprocessing": 5608,
+      "length_after_preprocessing": 1438,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164181/south-korea-petrochemical-exports-to-fall-6-1-in-2026-kcci"
+    },
+    {
+      "id": "a4ee077821f0876f41cc2ae24f403c62c2339662b88893fd02dd1906d0227250",
+      "title": "brazil_s_novonor_to_divest_braskem_stake_to_investment_fund_in_r20_billion_credit_deal",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:45.028590",
+      "language": "en",
+      "length_before_preprocessing": 7067,
+      "length_after_preprocessing": 2222,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164298/brazil-s-novonor-to-divest-braskem-stake-to-investment-fund-in-r20-billion-credit-deal"
+    },
+    {
+      "id": "2464dc0c04e6bf57a70103ad5fc432ac9ffff3ecdcedeb3babf961d7c322c61c",
+      "title": "westlake_shuts_pvc_plant_on_costly_logistics_age_low_export_margins",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-16 18:20:31.481301",
+      "language": "en",
+      "length_before_preprocessing": 5891,
+      "length_after_preprocessing": 2091,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/15/11164305/westlake-shuts-pvc-plant-on-costly-logistics-age-low-export-margins"
+    }
+  ]
+}

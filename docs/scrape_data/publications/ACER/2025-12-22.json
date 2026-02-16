@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-12-22",
+  "publications": [
+    {
+      "id": "1a6ce04f8e44e17addc68e53889dcd736019624ebbd8f911a6cbe6d8d376772d",
+      "title": "acer_decide_entso_es_european_resource_adequacy_assessment_2025",
+      "published_on": "2025-12-22 12:00:00",
+      "scraped_on": "2025-12-22 18:18:23.673091",
+      "language": "en",
+      "length_before_preprocessing": 7769,
+      "length_after_preprocessing": 820,
+      "url": "https://www.acer.europa.eu/news/acer-decide-entso-es-european-resource-adequacy-assessment-2025"
+    },
+    {
+      "id": "d3fca48a4ff8cb26911067f5983fdd82c0ed779cddd8b5d14f75916b7df2ed98",
+      "title": "acer_greenlights_30_minute_intraday_electricity_gate_closure_time_across_eu_borders",
+      "published_on": "2025-12-22 12:00:00",
+      "scraped_on": "2025-12-22 18:18:23.677180",
+      "language": "en",
+      "length_before_preprocessing": 8169,
+      "length_after_preprocessing": 1178,
+      "url": "https://www.acer.europa.eu/news/acer-greenlights-30-minute-intraday-electricity-gate-closure-time-across-eu-borders"
+    }
+  ]
+}

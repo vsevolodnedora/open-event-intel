@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-06-06",
+  "publications": [
+    {
+      "id": "b590d0184ae9ca6ca46fcf5ad197ac53358080cdd627a61503b0fdcc193e214d",
+      "title": "entso_e_expert_panel_continues_collection_of_data_and_identifies_next_steps_on_iberian_peninsula_blackout_investigation",
+      "published_on": "2025-06-06 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.526825",
+      "language": "en",
+      "length_before_preprocessing": 3616,
+      "length_after_preprocessing": 834,
+      "url": "https://www.entsoe.eu/news/2025/06/06/entso-e-expert-panel-continues-collection-of-data-and-identifies-next-steps-on-iberian-peninsula-blackout-investigation"
+    }
+  ]
+}

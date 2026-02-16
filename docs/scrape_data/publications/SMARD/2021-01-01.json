@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2021-01-01",
+  "publications": [
+    {
+      "id": "375e41ba0f53983dc23df62d0efe524963a8b50f31d7021d7293e474a207a021",
+      "title": "das_jahr_2020",
+      "published_on": "2021-01-01 12:00:00",
+      "scraped_on": "2026-01-14 09:15:40.763401",
+      "language": "de",
+      "length_before_preprocessing": 10182,
+      "length_after_preprocessing": 6145,
+      "url": "https://www.smard.de/page/home/topic-article/204970/202398/das-jahr-2020"
+    }
+  ]
+}

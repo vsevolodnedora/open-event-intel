@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-05-22",
+  "publications": [
+    {
+      "id": "4f36f3b4e7a30171f356b77228a0dc18f2f096c6dfca3a8c93ccc09726d0affe",
+      "title": "eus_reliance_spot_lng_likely_continue_without_stronger_decarbonisation",
+      "published_on": "2025-05-22 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.265696",
+      "language": "en",
+      "length_before_preprocessing": 8185,
+      "length_after_preprocessing": 1083,
+      "url": "https://www.acer.europa.eu/news/eus-reliance-spot-lng-likely-continue-without-stronger-decarbonisation"
+    }
+  ]
+}

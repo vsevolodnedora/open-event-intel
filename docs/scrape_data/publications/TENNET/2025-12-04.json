@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-12-04",
+  "publications": [
+    {
+      "id": "6938b4a747ca94799a031bacf1b4a20eafa14ce818fdb1717bfb7f844d40af54",
+      "title": "bergfest_unter_der_elbe_tunnel_bohrmaschine_von_suedlink_hat_bereits_mehr_als_die_haelfte_der_strecke_geschafft",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-10 18:24:25.630611",
+      "language": "de",
+      "length_before_preprocessing": 7030,
+      "length_after_preprocessing": 2407,
+      "url": "https://www.tennet.eu/de/news/bergfest-unter-der-elbe-tunnel-bohrmaschine-von-suedlink-hat-bereits-mehr-als-die-haelfte-der-strecke-geschafft"
+    }
+  ]
+}

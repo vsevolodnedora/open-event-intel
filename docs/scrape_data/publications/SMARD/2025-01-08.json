@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-01-08",
+  "publications": [
+    {
+      "id": "22d95bc22bc90fc0848aad470cbbc8feb820aff53b6729509c67ad83e2868359",
+      "title": "der_gasmarkt_im_jahr_2024",
+      "published_on": "2025-01-08 12:00:00",
+      "scraped_on": "2026-01-14 09:22:40.098116",
+      "language": "de",
+      "length_before_preprocessing": 21694,
+      "length_after_preprocessing": 17786,
+      "url": "https://www.smard.de/page/home/topic-article/211784/215644/der-gasmarkt-im-jahr-2024"
+    }
+  ]
+}

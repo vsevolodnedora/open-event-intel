@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2026-02-12",
+  "publications": [
+    {
+      "id": "7efbcfa8fe3fb2214a2b8d3e2c8bd6ef57fa7cd56c510730a7c23c63f7a2ad99",
+      "title": "strategic_partnership_between_peoples_democratic_republic_algeria_and_european_union_field_energy",
+      "published_on": "2026-02-12 12:00:00",
+      "scraped_on": "2026-02-12 18:47:18.942431",
+      "language": "en",
+      "length_before_preprocessing": 5445,
+      "length_after_preprocessing": 2467,
+      "url": "https://energy.ec.europa.eu/news/strategic-partnership-between-peoples-democratic-republic-algeria-and-european-union-field-energy-2026-02-12_en"
+    }
+  ]
+}

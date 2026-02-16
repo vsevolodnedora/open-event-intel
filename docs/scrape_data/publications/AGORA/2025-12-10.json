@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-12-10",
+  "publications": [
+    {
+      "id": "4231ba25fcac8487bec67d26ee539c2f329df5bcb26c9429e63ecbe46317d86f",
+      "title": "a_statement_on_the_european_grids_package",
+      "published_on": "2025-12-10 12:00:00",
+      "scraped_on": "2025-12-10 18:22:58.299214",
+      "language": "en",
+      "length_before_preprocessing": 4196,
+      "length_after_preprocessing": 974,
+      "url": "https://www.agora-energiewende.org/news-events/a-statement-on-the-european-grids-package"
+    }
+  ]
+}

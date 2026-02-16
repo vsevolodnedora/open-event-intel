@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-29",
+  "publications": [
+    {
+      "id": "953fd1532ce4c4ba7661e2557c0d65702e39816ba93e355d8a0b53dcfe56d296",
+      "title": "eu_must_stick_expansion_emissions_trading_curb_price_jumps_german_state_sec",
+      "published_on": "2025-07-29 14:53:00",
+      "scraped_on": "2025-07-31 14:00:31.896519",
+      "language": "en",
+      "length_before_preprocessing": 7514,
+      "length_after_preprocessing": 1551,
+      "url": "https://www.cleanenergywire.org/news/eu-must-stick-expansion-emissions-trading-curb-price-jumps-german-state-sec"
+    },
+    {
+      "id": "7eb76b7c0d729ab8e9fba10eba5bfc02ea54107314dbe00935852fbf0fee0ea5",
+      "title": "germanys_companies_support_climate_neutrality_demand_clearer_energy_policies_survey",
+      "published_on": "2025-07-29 13:00:00",
+      "scraped_on": "2025-07-31 14:00:43.592456",
+      "language": "en",
+      "length_before_preprocessing": 7444,
+      "length_after_preprocessing": 1217,
+      "url": "https://www.cleanenergywire.org/news/germanys-companies-support-climate-neutrality-demand-clearer-energy-policies-survey"
+    },
+    {
+      "id": "f84d010d56ea9acfd1eebe62444a48d0078ba1b294393969f2b1173b59294323",
+      "title": "train_accident_after_heavy_rain_highlights_need_adapt_growing_climate_risks",
+      "published_on": "2025-07-29 12:57:00",
+      "scraped_on": "2025-07-31 14:00:55.203979",
+      "language": "en",
+      "length_before_preprocessing": 6559,
+      "length_after_preprocessing": 1129,
+      "url": "https://www.cleanenergywire.org/news/train-accident-after-heavy-rain-highlights-need-adapt-growing-climate-risks"
+    },
+    {
+      "id": "bfcf873543d4dbd7c04fb6ec936909c1fceac9714b698d9af196cee7e73fc489",
+      "title": "brief_29_july_25",
+      "published_on": "2025-07-29 12:00:00",
+      "scraped_on": "2025-07-31 14:01:06.733884",
+      "language": "en",
+      "length_before_preprocessing": 4881,
+      "length_after_preprocessing": 552,
+      "url": "https://www.cleanenergywire.org/news/brief-29-july-25"
+    }
+  ]
+}

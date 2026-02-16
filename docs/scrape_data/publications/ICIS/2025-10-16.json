@@ -1,0 +1,46 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-16",
+  "publications": [
+    {
+      "id": "36a94adb03cc43ba8c1930d1e314b13de0efea71d8e5df85a6247cdc761e1bdb",
+      "title": "dutch_nouryon_completes_metal_alkyls_capacity_expansion_in_china",
+      "published_on": "2025-10-16 12:00:00",
+      "scraped_on": "2025-10-16 18:34:25.130374",
+      "language": "en",
+      "length_before_preprocessing": 4468,
+      "length_after_preprocessing": 691,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/16/11146273/dutch-nouryon-completes-metal-alkyls-capacity-expansion-in-china"
+    },
+    {
+      "id": "6d5a51c211e4fae7aeff1ad167f06dcac720f0f1047499359d2baed5d2fe829e",
+      "title": "podcast_2026_asia_olefins_term_talks_kick_off_at_china_trade_conference",
+      "published_on": "2025-10-16 12:00:00",
+      "scraped_on": "2025-10-16 18:34:25.134805",
+      "language": "en",
+      "length_before_preprocessing": 4294,
+      "length_after_preprocessing": 477,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/16/11146327/podcast-2026-asia-olefins-term-talks-kick-off-at-china-trade-conference"
+    },
+    {
+      "id": "0fbc00fd3d0ff0b5679b8650fd2d4678d4f37d43002bd5dd8d929fc06dea935a",
+      "title": "uk_economy_grew_slightly_in_august_with_gdp_up_by_0_1",
+      "published_on": "2025-10-16 12:00:00",
+      "scraped_on": "2025-10-16 18:34:25.136691",
+      "language": "en",
+      "length_before_preprocessing": 4321,
+      "length_after_preprocessing": 534,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/16/11146339/uk-economy-grew-slightly-in-august-with-gdp-up-by-0-1"
+    },
+    {
+      "id": "361a58b46db182ca69b9b672a6d155d3d150f2b9608009963b5a7dfed2c3e3b7",
+      "title": "trump_ties_argentina_aid_to_milei_s_party_result_making_investors_wary_while_inflation_ticks_up",
+      "published_on": "2025-10-16 12:00:00",
+      "scraped_on": "2025-10-17 18:31:03.441547",
+      "language": "en",
+      "length_before_preprocessing": 8666,
+      "length_after_preprocessing": 3833,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/16/11146429/trump-ties-argentina-aid-to-milei-s-party-result-making-investors-wary-while-inflation-ticks-up"
+    }
+  ]
+}

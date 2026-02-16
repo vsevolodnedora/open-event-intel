@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-15",
+  "publications": [
+    {
+      "id": "4bc4c526fc505c2601d318ea8d65550b4dcdd719205e496981475aeef57ad7b1",
+      "title": "merz_governments_first_100_days_clouded_lingering_energy_transition_uncertainty",
+      "published_on": "2025-08-15 14:30:00",
+      "scraped_on": "2025-08-15 18:37:52.557609",
+      "language": "en",
+      "length_before_preprocessing": 15969,
+      "length_after_preprocessing": 8894,
+      "url": "https://www.cleanenergywire.org/news/merz-governments-first-100-days-clouded-lingering-energy-transition-uncertainty"
+    },
+    {
+      "id": "e98cbf08f11fe4c2f0714ea6cba395e3ee21a7db5baa06fedc237b843e3d39a0",
+      "title": "landmark_icj_opinion_could_have_implications_german_climate_policy_govt_advisors",
+      "published_on": "2025-08-15 11:15:00",
+      "scraped_on": "2025-08-15 18:38:03.495012",
+      "language": "en",
+      "length_before_preprocessing": 6396,
+      "length_after_preprocessing": 909,
+      "url": "https://www.cleanenergywire.org/news/landmark-icj-opinion-could-have-implications-german-climate-policy-govt-advisors"
+    },
+    {
+      "id": "4cd0bae413b0a4cd8da64715409ef5c54b2d2446c14d5146a1b6c63b818acbd7",
+      "title": "brief_15_august_25",
+      "published_on": "2025-08-15 11:00:00",
+      "scraped_on": "2025-08-15 18:38:14.289027",
+      "language": "en",
+      "length_before_preprocessing": 4808,
+      "length_after_preprocessing": 464,
+      "url": "https://www.cleanenergywire.org/news/brief-15-august-25"
+    },
+    {
+      "id": "2c7ee7f566d5bc24e25b76bc10015405a60c6df5b6466970c849ca6f5136b690",
+      "title": "dispatch_germany_august_25",
+      "published_on": "2025-08-15 15:30:00",
+      "scraped_on": "2025-08-18 12:04:19.862568",
+      "language": "en",
+      "length_before_preprocessing": 10029,
+      "length_after_preprocessing": 3558,
+      "url": "https://www.cleanenergywire.org/news/dispatch-germany-august-25"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-14",
+  "publications": [
+    {
+      "id": "aac53f68ec98533d4700f33ac668430035622a74cef1b35aabde07c331a1e405",
+      "title": "realistic_political_strategy_needed_green_hydrogen_market_ramp_report",
+      "published_on": "2025-01-14 13:08:00",
+      "scraped_on": "2025-07-31 12:18:46.885252",
+      "language": "en",
+      "length_before_preprocessing": 6825,
+      "length_after_preprocessing": 942,
+      "url": "https://www.cleanenergywire.org/news/realistic-political-strategy-needed-green-hydrogen-market-ramp-report"
+    },
+    {
+      "id": "433d8db51396adddbe4d14b20b107865e2487d1c589b9141ca514caa4e658a8d",
+      "title": "unrestricted_small_scale_solar_power_feed_threatens_german_grid_stability_energy_industry",
+      "published_on": "2025-01-14 13:06:00",
+      "scraped_on": "2025-07-31 12:18:58.401878",
+      "language": "en",
+      "length_before_preprocessing": 7175,
+      "length_after_preprocessing": 1217,
+      "url": "https://www.cleanenergywire.org/news/unrestricted-small-scale-solar-power-feed-threatens-german-grid-stability-energy-industry"
+    },
+    {
+      "id": "6ea772803dfb502996fa9b2f112860eede1596f0832d84d3ded7a5eb7c9f9a31",
+      "title": "majority_germans_agree_next_govt_should_ramp_climate_protection_efforts_survey",
+      "published_on": "2025-01-14 13:04:00",
+      "scraped_on": "2025-07-31 12:19:10.055679",
+      "language": "en",
+      "length_before_preprocessing": 7310,
+      "length_after_preprocessing": 1213,
+      "url": "https://www.cleanenergywire.org/news/majority-germans-agree-next-govt-should-ramp-climate-protection-efforts-survey"
+    },
+    {
+      "id": "06ca6b3251f387b53c6e68de5f8c3e69d21144bd720f0eb457de40d3fc89c4ca",
+      "title": "brief_14_january_25",
+      "published_on": "2025-01-14 11:26:00",
+      "scraped_on": "2025-07-31 12:19:21.514545",
+      "language": "en",
+      "length_before_preprocessing": 5487,
+      "length_after_preprocessing": 1004,
+      "url": "https://www.cleanenergywire.org/news/brief-14-january-25"
+    }
+  ]
+}

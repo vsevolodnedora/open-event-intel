@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-28",
+  "publications": [
+    {
+      "id": "65d7d87e056f3f6734a2e9b2fa5f92f8d2fc355941d8440f4b14adfaf9c146d9",
+      "title": "young_germans_more_optimistic_about_energy_transition_other_age_groups_survey",
+      "published_on": "2025-08-28 13:39:00",
+      "scraped_on": "2025-08-28 18:36:07.943633",
+      "language": "en",
+      "length_before_preprocessing": 3928,
+      "length_after_preprocessing": 931,
+      "url": "https://www.cleanenergywire.org/news/young-germans-more-optimistic-about-energy-transition-other-age-groups-survey"
+    },
+    {
+      "id": "496e31361fe144e2d76905a1dfd3578f2bb391d2387a9bc64c306d44786eee5e",
+      "title": "record_numbers_onshore_wind_turbines_approved_first_half_2025_germany_industry_analysis",
+      "published_on": "2025-08-28 11:45:00",
+      "scraped_on": "2025-08-28 18:36:19.096848",
+      "language": "en",
+      "length_before_preprocessing": 6182,
+      "length_after_preprocessing": 893,
+      "url": "https://www.cleanenergywire.org/news/record-numbers-onshore-wind-turbines-approved-first-half-2025-germany-industry-analysis"
+    },
+    {
+      "id": "7c8fbb105a104c1aa2fe18446a166766833990d32662b80d550f30f7f4dfdf81",
+      "title": "short_term_climate_impacts_permanently_change_waterway_supply_chains_report",
+      "published_on": "2025-08-28 11:44:00",
+      "scraped_on": "2025-08-28 18:36:30.259625",
+      "language": "en",
+      "length_before_preprocessing": 7070,
+      "length_after_preprocessing": 1317,
+      "url": "https://www.cleanenergywire.org/news/short-term-climate-impacts-permanently-change-waterway-supply-chains-report"
+    },
+    {
+      "id": "88a8becab7eb88c377de593d9d7f4dc180fa2dfb6ee602fc0ab871f64de4b7e5",
+      "title": "brief_28_august_25",
+      "published_on": "2025-08-28 11:01:00",
+      "scraped_on": "2025-08-28 18:36:41.243521",
+      "language": "en",
+      "length_before_preprocessing": 5428,
+      "length_after_preprocessing": 967,
+      "url": "https://www.cleanenergywire.org/news/brief-28-august-25"
+    }
+  ]
+}

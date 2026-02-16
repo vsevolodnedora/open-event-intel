@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2026-01-20",
+  "publications": [
+    {
+      "id": "a1533782e5321ead46db53f1e87484a46a0a3e4a764834eeff3be4aeee1df880",
+      "title": "eu_energy_and_raw_materials_platform_hydrogen_mechanism_phase_launched_eu_buyers_consult_supply",
+      "published_on": "2026-01-20 12:00:00",
+      "scraped_on": "2026-01-22 18:20:29.530288",
+      "language": "en",
+      "length_before_preprocessing": 4290,
+      "length_after_preprocessing": 1251,
+      "url": "https://energy.ec.europa.eu/news/eu-energy-and-raw-materials-platform-hydrogen-mechanism-phase-launched-eu-buyers-consult-supply-2026-01-20_en"
+    }
+  ]
+}

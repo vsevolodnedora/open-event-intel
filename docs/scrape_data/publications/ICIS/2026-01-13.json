@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-13",
+  "publications": [
+    {
+      "id": "990273affd7dabaee39d4cbe02bc5f965de31fa833619da9ab5767a6a32ac874",
+      "title": "china_ends_export_tax_rebates_for_chemicals_related_to_solar_battery_products",
+      "published_on": "2026-01-13 12:00:00",
+      "scraped_on": "2026-01-13 18:22:24.829266",
+      "language": "en",
+      "length_before_preprocessing": 5452,
+      "length_after_preprocessing": 1674,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/13/11170924/china-ends-export-tax-rebates-for-chemicals-related-to-solar-battery-products"
+    },
+    {
+      "id": "fad17e887d0a9da58eb4b12d5b09b5d9240dcafa3767f527156ceb537268345a",
+      "title": "podcast_race_for_arctic_region_sparks_heated_debate",
+      "published_on": "2026-01-13 12:00:00",
+      "scraped_on": "2026-01-13 18:22:24.830894",
+      "language": "en",
+      "length_before_preprocessing": 4440,
+      "length_after_preprocessing": 587,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/13/11171000/podcast-race-for-arctic-region-sparks-heated-debate"
+    },
+    {
+      "id": "f3f5fca6fd77e0c3b0d2a31a6403f3c1f366a02a71efc0b4f6637c7573357ae7",
+      "title": "iran_protests_on_third_week_oil_spike_dampens_mideast_s_asia_petrochemical_demand",
+      "published_on": "2026-01-13 12:00:00",
+      "scraped_on": "2026-01-13 18:22:24.832523",
+      "language": "en",
+      "length_before_preprocessing": 6945,
+      "length_after_preprocessing": 2227,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/13/11170915/iran-protests-on-third-week-oil-spike-dampens-mideast-s-asia-petrochemical-demand"
+    },
+    {
+      "id": "3aab89b667786c79ca7730b7eed947e3964a28d6f490166d67e11598b08e4a60",
+      "title": "india_s_national_stock_exchange_aims_to_develop_gas_futures_contract",
+      "published_on": "2026-01-13 12:00:00",
+      "scraped_on": "2026-01-13 18:22:24.834582",
+      "language": "en",
+      "length_before_preprocessing": 6304,
+      "length_after_preprocessing": 2186,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/13/11170901/india-s-national-stock-exchange-aims-to-develop-gas-futures-contract"
+    },
+    {
+      "id": "f58c3baa354ef947639d85f950bab374fee2314c10620eca83f5d07a07d6e943",
+      "title": "how_did_we_do_did_icis_recent_gas_lng_market_forecasts_come_true",
+      "published_on": "2026-01-13 12:00:00",
+      "scraped_on": "2026-01-14 08:43:23.818182",
+      "language": "en",
+      "length_before_preprocessing": 6837,
+      "length_after_preprocessing": 1844,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/13/11170990/how-did-we-do-did-icis-recent-gas-lng-market-forecasts-come-true"
+    }
+  ]
+}

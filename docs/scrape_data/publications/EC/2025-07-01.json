@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-07-01",
+  "publications": [
+    {
+      "id": "9f1dd36d236f5e3896d96a4dfb4a7957db32f87738d63b1751424fa9a69929b4",
+      "title": "new_measures_more_energy_efficient_household_tumble_dryers_1_july",
+      "published_on": "2025-07-01 12:00:00",
+      "scraped_on": "2025-07-31 11:18:57.021827",
+      "language": "en",
+      "length_before_preprocessing": 4321,
+      "length_after_preprocessing": 1308,
+      "url": "https://energy.ec.europa.eu/news/new-measures-more-energy-efficient-household-tumble-dryers-1-july-2025-07-01_en"
+    }
+  ]
+}

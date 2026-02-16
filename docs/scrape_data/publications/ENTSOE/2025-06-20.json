@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-06-20",
+  "publications": [
+    {
+      "id": "23f3e71b3d9703f384c26a9b4ee087c604399aca8aa4fdd55cefa28e0db587e6",
+      "title": "entso_e_publishes_its_annual_overview_of_transmission_tariffs_in_europe_for_2022_and_2023",
+      "published_on": "2025-06-20 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.530917",
+      "language": "en",
+      "length_before_preprocessing": 3072,
+      "length_after_preprocessing": 827,
+      "url": "https://www.entsoe.eu/news/2025/06/20/entso-e-publishes-its-annual-overview-of-transmission-tariffs-in-europe-for-2022-and-2023"
+    }
+  ]
+}

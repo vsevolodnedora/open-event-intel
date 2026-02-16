@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2023-11-30",
+  "publications": [
+    {
+      "id": "e5d030d6de3c63d5d4ed62437a096261d777b07afb1532d55fc0aa8f37567727",
+      "title": "commission_confirms_participants_30_renewable_islands_2030_initiative",
+      "published_on": "2023-11-30 12:00:00",
+      "scraped_on": "2025-07-31 11:18:22.104935",
+      "language": "en",
+      "length_before_preprocessing": 4583,
+      "length_after_preprocessing": 1812,
+      "url": "https://energy.ec.europa.eu/news/commission-confirms-participants-30-renewable-islands-2030-initiative-2023-11-30_en"
+    }
+  ]
+}

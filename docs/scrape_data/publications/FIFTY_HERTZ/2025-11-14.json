@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-14",
+  "publications": [
+    {
+      "id": "c23192655d3639da21005a6782dc53e887b67a0d06be98880baa2119111f0873",
+      "title": "netzanbindungen_lanwin2_lanwin3_einladung_zum_infomarkt",
+      "published_on": "2025-11-14 12:00:00",
+      "scraped_on": "2025-11-14 18:38:51.775076",
+      "language": "de",
+      "length_before_preprocessing": 1102,
+      "length_after_preprocessing": 773,
+      "url": "https://www.50hertz.com/de/News/Details/16460/netzanbindungen-lanwin2-lanwin3-einladung-zum-infomarkt"
+    },
+    {
+      "id": "bfe4ab9eff658de377384a3ba8cbf3e86b5267ce745d68f4c38b1e2319b611fc",
+      "title": "erneuerbare_stabilisieren_stromnetz_pv_park_erfolgreich_fuer_den_regelleistungsmarkt_praequalifiziert",
+      "published_on": "2025-11-14 12:00:00",
+      "scraped_on": "2025-11-17 18:39:36.605511",
+      "language": "de",
+      "length_before_preprocessing": 2330,
+      "length_after_preprocessing": 1954,
+      "url": "https://www.50hertz.com/de/News/Details/16461/erneuerbare-stabilisieren-stromnetz-pv-park-erfolgreich-fuer-den-regelleistungsmarkt-praequalifiziert"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-09-11",
+  "publications": [
+    {
+      "id": "b980f30ae2d47ecbd5f12315ae12609791764ef319a95481f91dec7906ef8ca8",
+      "title": "more_350000_european_companies_get_energy_efficiency_support_under_major_eu_financing_initiative",
+      "published_on": "2025-09-11 12:00:00",
+      "scraped_on": "2025-09-11 18:28:02.282444",
+      "language": "en",
+      "length_before_preprocessing": 4611,
+      "length_after_preprocessing": 1491,
+      "url": "https://energy.ec.europa.eu/news/more-350000-european-companies-get-energy-efficiency-support-under-major-eu-financing-initiative-2025-09-11_en"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-18",
+  "publications": [
+    {
+      "id": "d644595cc6bdfaec320d9b9296da31d8ac3039e97ff284f53ccd4cdd02f0b8c1",
+      "title": "review_governance_regulation_energy_union_and_climate_action_public_consultation_launched",
+      "published_on": "2025-12-18 12:00:00",
+      "scraped_on": "2025-12-18 18:19:36.531818",
+      "language": "en",
+      "length_before_preprocessing": 4545,
+      "length_after_preprocessing": 1527,
+      "url": "https://energy.ec.europa.eu/news/review-governance-regulation-energy-union-and-climate-action-public-consultation-launched-2025-12-18_en"
+    },
+    {
+      "id": "6cb2cc4d0d579af32285447f8fb9ec321f0800be5d2f0e34c6a486af5e24d093",
+      "title": "commissioner_jorgensen_vienna_discuss_energy_policy_and_start_european_affordable_housing_tour",
+      "published_on": "2025-12-18 12:00:00",
+      "scraped_on": "2025-12-18 18:19:36.534204",
+      "language": "en",
+      "length_before_preprocessing": 3950,
+      "length_after_preprocessing": 1050,
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-vienna-discuss-energy-policy-and-start-european-affordable-housing-tour-2025-12-18_en"
+    }
+  ]
+}

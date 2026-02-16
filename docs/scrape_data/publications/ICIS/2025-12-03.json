@@ -1,0 +1,16 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-03",
+  "publications": [
+    {
+      "id": "2806c1d52214e67906736d61e48a39d5c85736af8e295e3c7b16de1a420a3ff8",
+      "title": "lyondellbasell_sees_weakening_in_autos_europe",
+      "published_on": "2025-12-03 12:00:00",
+      "scraped_on": "2025-12-04 18:20:27.972301",
+      "language": "en",
+      "length_before_preprocessing": 5871,
+      "length_after_preprocessing": 1052,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/03/11161576/lyondellbasell-sees-weakening-in-autos-europe"
+    }
+  ]
+}

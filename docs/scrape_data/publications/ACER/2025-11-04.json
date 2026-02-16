@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-11-04",
+  "publications": [
+    {
+      "id": "a82de2c55dddfe06f7327df94a55b498d43a2c1739e5762db0fdcb09f00351ff",
+      "title": "remit_breach_spanish_energy_regulator_fines_enet_energy_sa_eu1_million_attempting_manipulate_wholesale_gas_market",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-04 18:32:55.509412",
+      "language": "en",
+      "length_before_preprocessing": 8783,
+      "length_after_preprocessing": 1360,
+      "url": "https://www.acer.europa.eu/news/remit-breach-spanish-energy-regulator-fines-enet-energy-sa-eu1-million-attempting-manipulate-wholesale-gas-market"
+    }
+  ]
+}

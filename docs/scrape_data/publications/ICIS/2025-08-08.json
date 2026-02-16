@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-08",
+  "publications": [
+    {
+      "id": "a3cab5a3ecf430432882096e22bd212ef4540851f6ce74a15a6f20c5e4bb6b2e",
+      "title": "s_korea_lg_chem_swings_to_q2_net_loss_on_us_tariffs_mideast_instability",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.145382",
+      "language": "en",
+      "length_before_preprocessing": 4605,
+      "length_after_preprocessing": 892,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126687/s-korea-lg-chem-swings-to-q2-net-loss-on-us-tariffs-mideast-instability"
+    },
+    {
+      "id": "7c1e77a1ae076786515db4bf2074503c7728489be505c3c40eecd4fc2f0d202b",
+      "title": "podcast_outlook_h2_global_base_oil_drivers",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.148687",
+      "language": "en",
+      "length_before_preprocessing": 4026,
+      "length_after_preprocessing": 271,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126871/podcast-outlook-h2-global-base-oil-drivers"
+    },
+    {
+      "id": "f8ba5f6808a060e6d83f987db468a934d32b2cc34cbb5304524ed5fb07a73935",
+      "title": "germany_s_2_5gw_failed_offshore_wind_auction_threatens_2030_target_sparks_debate_on_auction_design_reform",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.152314",
+      "language": "en",
+      "length_before_preprocessing": 7406,
+      "length_after_preprocessing": 2106,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126838/germany-s-2-5gw-failed-offshore-wind-auction-threatens-2030-target-sparks-debate-on-auction-design-reform"
+    },
+    {
+      "id": "4630fbb1c264b64f9566b9204ac79613b5636d2f28f146d21ca27a5f9cdc1ad6",
+      "title": "podcast_overcapacity_ai_protectionism_will_transform_chemical_companies_markets",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.155900",
+      "language": "en",
+      "length_before_preprocessing": 4696,
+      "length_after_preprocessing": 923,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126828/podcast-overcapacity-ai-protectionism-will-transform-chemical-companies-markets"
+    },
+    {
+      "id": "0beb6d89db0d9a7fdfb75767a73be5196992c2fd157f6c41df47985ef0e9a360",
+      "title": "brazil_braskem_in_talks_with_unipar_about_assets_equity_deal",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.159805",
+      "language": "en",
+      "length_before_preprocessing": 4778,
+      "length_after_preprocessing": 988,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126864/brazil-braskem-in-talks-with-unipar-about-assets-equity-deal"
+    },
+    {
+      "id": "ab0f4c425c71084eefeb85ce743e0b24fd343f2103b28071b50a07d7d0c197fb",
+      "title": "video_europe_r_pet_august_prices_drop_across_most_markets",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.163197",
+      "language": "en",
+      "length_before_preprocessing": 4124,
+      "length_after_preprocessing": 396,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126809/video-europe-r-pet-august-prices-drop-across-most-markets"
+    },
+    {
+      "id": "add0be07a0e53aa58026bf6a7f958622d091d0e6f644e5b5ff954b2b06de957c",
+      "title": "shipping_asia_us_container_rates_still_falling_tanker_rates_mostly_steady",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.170844",
+      "language": "en",
+      "length_before_preprocessing": 6198,
+      "length_after_preprocessing": 2449,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/08/11126875/shipping-asia-us-container-rates-still-falling-tanker-rates-mostly-steady"
+    }
+  ]
+}

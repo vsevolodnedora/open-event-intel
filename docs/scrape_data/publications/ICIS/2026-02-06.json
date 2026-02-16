@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-02-06",
+  "publications": [
+    {
+      "id": "e15f8f93d9e569d90b0e68ed8fb5471681a036ba366fb968503582e2cd343cf8",
+      "title": "indonesia_q4_economy_grows_5_39_on_better_household_spending",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-06 18:36:04.966260",
+      "language": "en",
+      "length_before_preprocessing": 5538,
+      "length_after_preprocessing": 1270,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178207/indonesia-q4-economy-grows-5-39-on-better-household-spending"
+    },
+    {
+      "id": "83a16727969092a4ea23fbd630d68538291c6ecfa0d7e703a32a6612a4763711",
+      "title": "podcast_light_at_the_end_of_the_tunnel_for_economy_but_europe_chemicals_still_in_crisis",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-06 18:36:04.968864",
+      "language": "en",
+      "length_before_preprocessing": 4656,
+      "length_after_preprocessing": 659,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178341/podcast-light-at-the-end-of-the-tunnel-for-economy-but-europe-chemicals-still-in-crisis"
+    },
+    {
+      "id": "aee96541765c10a12f4d308f533436b2531c9d9cc3c4e5686e2a528d5451afb0",
+      "title": "insight_reshaping_china_us_power_architecture_amid_ai_shift",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-06 18:36:04.970709",
+      "language": "en",
+      "length_before_preprocessing": 10819,
+      "length_after_preprocessing": 5764,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178274/insight-reshaping-china-us-power-architecture-amid-ai-shift"
+    },
+    {
+      "id": "4d33089561da090aa6182d1840f200352a1e11eccc51bae5e43b1582a59eb076",
+      "title": "podcast_global_oleochemical_market_sees_looming_supply_led_pressure",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-06 18:36:04.973118",
+      "language": "en",
+      "length_before_preprocessing": 5758,
+      "length_after_preprocessing": 529,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178214/podcast-global-oleochemical-market-sees-looming-supply-led-pressure"
+    },
+    {
+      "id": "8fccff6c179650ad3bdc114861813c79752c646d17dd8de9be7046f0a018d59e",
+      "title": "asia_us_container_rates_fall_as_new_ships_enter_market_at_record_pace_scrapping_wanes",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-07 18:21:55.411363",
+      "language": "en",
+      "length_before_preprocessing": 6865,
+      "length_after_preprocessing": 2526,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178372/asia-us-container-rates-fall-as-new-ships-enter-market-at-record-pace-scrapping-wanes"
+    },
+    {
+      "id": "c148bb8992b9ca06c999d3b41d96bc512c08b8ce897c465fabd9b9ddb5a885a0",
+      "title": "us_chem_shares_continue_rally_amid_stock_market_recovery",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-07 18:21:55.414041",
+      "language": "en",
+      "length_before_preprocessing": 6587,
+      "length_after_preprocessing": 1283,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178373/us-chem-shares-continue-rally-amid-stock-market-recovery"
+    },
+    {
+      "id": "d0c41b393af975934aa704dcfcb66c844b4a2b1c8350e7f5e360e920a9174bb9",
+      "title": "us_argentina_sign_trade_deal_focused_on_critical_minerals_beef_access",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-07 18:21:55.416161",
+      "language": "en",
+      "length_before_preprocessing": 6644,
+      "length_after_preprocessing": 2656,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/06/11178365/us-argentina-sign-trade-deal-focused-on-critical-minerals-beef-access"
+    }
+  ]
+}

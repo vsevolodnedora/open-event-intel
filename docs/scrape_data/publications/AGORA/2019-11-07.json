@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2019-11-07",
+  "publications": [
+    {
+      "id": "c597a8214ec3cc7f6a8f3e4cea0545a7c400a4669e2718d9fc44c7b3971857f0",
+      "title": "eu_wide_innovation_support_is_key_to_the_success_of_electrolysis_manufacturing_in_europe",
+      "published_on": "2019-11-07 12:00:00",
+      "scraped_on": "2025-07-31 18:40:03.689181",
+      "language": "en",
+      "length_before_preprocessing": 6587,
+      "length_after_preprocessing": 3057,
+      "url": "https://www.agora-energiewende.org/news-events/eu-wide-innovation-support-is-key-to-the-success-of-electrolysis-manufacturing-in-europe"
+    }
+  ]
+}

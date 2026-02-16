@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-01",
+  "publications": [
+    {
+      "id": "537802dd90a822181076c85689eff039468acd3873a331a5ca19e585294f19e7",
+      "title": "japan_s_mitsui_chemicals_acquires_co_catalyst_producer_nippon_aluminum_alkyls",
+      "published_on": "2025-10-01 12:00:00",
+      "scraped_on": "2025-10-01 18:32:55.861306",
+      "language": "en",
+      "length_before_preprocessing": 4371,
+      "length_after_preprocessing": 675,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/01/11142381/japan-s-mitsui-chemicals-acquires-co-catalyst-producer-nippon-aluminum-alkyls"
+    },
+    {
+      "id": "fe79cd54aca21a2ccc4f055bce4961f0d4d029dbc016507a5cc62eb8aede2dad",
+      "title": "us_exxonmobil_to_delay_proposed_pe_project_on_market_conditions",
+      "published_on": "2025-10-01 12:00:00",
+      "scraped_on": "2025-10-01 18:32:55.869252",
+      "language": "en",
+      "length_before_preprocessing": 5136,
+      "length_after_preprocessing": 1358,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/01/11142426/us-exxonmobil-to-delay-proposed-pe-project-on-market-conditions"
+    },
+    {
+      "id": "33bf2a5c5153c7ea9269b79ef33a4b53f68a72da3b1d479b0c0473aaa4219c19",
+      "title": "brazil_s_braskem_shares_up_as_regulator_clears_novonor_s_state_acquisition",
+      "published_on": "2025-10-01 12:00:00",
+      "scraped_on": "2025-10-02 18:32:44.645725",
+      "language": "en",
+      "length_before_preprocessing": 5880,
+      "length_after_preprocessing": 1057,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/01/11142446/brazil-s-braskem-shares-up-as-regulator-clears-novonor-s-state-acquisition"
+    }
+  ]
+}

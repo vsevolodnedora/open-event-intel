@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-10-14",
+  "publications": [
+    {
+      "id": "3100694d5d8c900756277c68302455ded65d12e35e65e678f70cdab454ef5214",
+      "title": "homeowners_are_driving_germanys_energy_transition_across_party_lines_survey",
+      "published_on": "2025-10-14 13:46:00",
+      "scraped_on": "2025-10-14 18:36:28.403291",
+      "language": "en",
+      "length_before_preprocessing": 4139,
+      "length_after_preprocessing": 972,
+      "url": "https://www.cleanenergywire.org/news/homeowners-are-driving-germanys-energy-transition-across-party-lines-survey"
+    },
+    {
+      "id": "577037e96fcff8dfcbd9277b9c270e5c86eca65c690859013dac95299b30b1cd",
+      "title": "interest_smart_meter_installation_rising_sharply_germany_survey",
+      "published_on": "2025-10-14 13:38:00",
+      "scraped_on": "2025-10-14 18:36:39.434839",
+      "language": "en",
+      "length_before_preprocessing": 6572,
+      "length_after_preprocessing": 1171,
+      "url": "https://www.cleanenergywire.org/news/interest-smart-meter-installation-rising-sharply-germany-survey"
+    },
+    {
+      "id": "99577945b6b5c926596f27bb168928cff8f93a742a71440d70e7b515f9ba5136",
+      "title": "industry_warns_challenges_tied_hamburgs_2040_climate_neutrality_vote",
+      "published_on": "2025-10-14 11:29:00",
+      "scraped_on": "2025-10-14 18:36:50.432594",
+      "language": "en",
+      "length_before_preprocessing": 7242,
+      "length_after_preprocessing": 1494,
+      "url": "https://www.cleanenergywire.org/news/industry-warns-challenges-tied-hamburgs-2040-climate-neutrality-vote"
+    },
+    {
+      "id": "1730551d094dc4b6242023b41ece654c64f9ff0fc88d8c293e35bc46df72fe52",
+      "title": "spike_vandalised_ev_charging_stations_raises_suspicions_ideological_offenders_germany",
+      "published_on": "2025-10-14 11:22:00",
+      "scraped_on": "2025-10-14 18:37:01.451208",
+      "language": "en",
+      "length_before_preprocessing": 6984,
+      "length_after_preprocessing": 972,
+      "url": "https://www.cleanenergywire.org/news/spike-vandalised-ev-charging-stations-raises-suspicions-ideological-offenders-germany"
+    },
+    {
+      "id": "8a160973d596a481c4b94c9519afc29a8e6b46385fbabba1e80e925a778e4ab5",
+      "title": "brief_14_october_25",
+      "published_on": "2025-10-14 11:00:00",
+      "scraped_on": "2025-10-14 18:37:12.330843",
+      "language": "en",
+      "length_before_preprocessing": 5104,
+      "length_after_preprocessing": 550,
+      "url": "https://www.cleanenergywire.org/news/brief-14-october-25"
+    }
+  ]
+}

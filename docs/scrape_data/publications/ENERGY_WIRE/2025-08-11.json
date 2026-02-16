@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-11",
+  "publications": [
+    {
+      "id": "2ca5cc9efd43631b157231fe158fd5fbe2b8b1050f52be3829d8c24907d1b68e",
+      "title": "germanys_increased_spending_plans_call_green_public_procurement_criteria_report",
+      "published_on": "2025-08-11 12:16:00",
+      "scraped_on": "2025-08-11 18:40:58.354313",
+      "language": "en",
+      "length_before_preprocessing": 4589,
+      "length_after_preprocessing": 1359,
+      "url": "https://www.cleanenergywire.org/news/germanys-increased-spending-plans-call-green-public-procurement-criteria-report"
+    },
+    {
+      "id": "c01de0a4078487b0a5cb14a13aa223ad1de65ddd369e18c788c8359ed10bab50",
+      "title": "german_econ_min_considers_phasing_out_subsidies_new_small_scale_solar_pv",
+      "published_on": "2025-08-11 11:21:00",
+      "scraped_on": "2025-08-11 18:41:10.298198",
+      "language": "en",
+      "length_before_preprocessing": 7283,
+      "length_after_preprocessing": 1374,
+      "url": "https://www.cleanenergywire.org/news/german-econ-min-considers-phasing-out-subsidies-new-small-scale-solar-pv"
+    },
+    {
+      "id": "b3739632583b86af0b411d2fcd37c1aec218b608e00f28d90bfa2c556557b507",
+      "title": "brief_11_august_25",
+      "published_on": "2025-08-11 11:00:00",
+      "scraped_on": "2025-08-11 18:41:22.121206",
+      "language": "en",
+      "length_before_preprocessing": 4953,
+      "length_after_preprocessing": 574,
+      "url": "https://www.cleanenergywire.org/news/brief-11-august-25"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-20",
+  "publications": [
+    {
+      "id": "c5f7e64c629c7a4baa095b8432e41b64207cb470edfa2f7b3c9cd541c832abb7",
+      "title": "brief_20_august_25",
+      "published_on": "2025-08-20 13:45:00",
+      "scraped_on": "2025-08-20 18:38:15.301849",
+      "language": "en",
+      "length_before_preprocessing": 2403,
+      "length_after_preprocessing": 467,
+      "url": "https://www.cleanenergywire.org/news/brief-20-august-25"
+    },
+    {
+      "id": "1fedbc51252d08ab0aac7fdb77f2ecc1265511deb184b20b46a3b0ad8e5e5b92",
+      "title": "grain_harvest_recovering_germany_farming_lobby_warns_climate_change_dangers",
+      "published_on": "2025-08-20 12:20:00",
+      "scraped_on": "2025-08-20 18:38:26.463756",
+      "language": "en",
+      "length_before_preprocessing": 6383,
+      "length_after_preprocessing": 1159,
+      "url": "https://www.cleanenergywire.org/news/grain-harvest-recovering-germany-farming-lobby-warns-climate-change-dangers"
+    },
+    {
+      "id": "f0fdaffbf23ec675374f403b9bb560ba56a746eefaf0aa7a73e949bd19ac4dad",
+      "title": "researchers_germany_use_ai_map_urban_heat_stress_detail",
+      "published_on": "2025-08-20 12:00:00",
+      "scraped_on": "2025-08-20 18:38:37.624103",
+      "language": "en",
+      "length_before_preprocessing": 6559,
+      "length_after_preprocessing": 1133,
+      "url": "https://www.cleanenergywire.org/news/researchers-germany-use-ai-map-urban-heat-stress-detail"
+    },
+    {
+      "id": "c76f50c32c960723acb125fd24ccb5466dbe5a71c7f4c0e61f992485a5947f83",
+      "title": "us_rejection_sustainable_finance_offers_europe_chance_step_bank_manager",
+      "published_on": "2025-08-20 11:49:00",
+      "scraped_on": "2025-08-20 18:38:48.789309",
+      "language": "en",
+      "length_before_preprocessing": 6885,
+      "length_after_preprocessing": 1223,
+      "url": "https://www.cleanenergywire.org/news/us-rejection-sustainable-finance-offers-europe-chance-step-bank-manager"
+    }
+  ]
+}

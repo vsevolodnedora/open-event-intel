@@ -1,0 +1,26 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2023-11-15",
+  "publications": [
+    {
+      "id": "8892ebeb9f5c59b9c51540224f925c60ebe8cdbeebe918c8941f9027957c5763",
+      "title": "how_asian_economies_can_achieve_a_fivefold_growth_in_renewable_power_by_2030",
+      "published_on": "2023-11-15 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.423542",
+      "language": "en",
+      "length_before_preprocessing": 6359,
+      "length_after_preprocessing": 2657,
+      "url": "https://www.agora-energiewende.org/news-events/how-asian-economies-can-achieve-a-fivefold-growth-in-renewable-power-by-2030"
+    },
+    {
+      "id": "92718dcbd01e68dfadedf0e02986099d106f1b33437ea96bdbe04140cc826fbb",
+      "title": "asian_economies_need_a_fivefold_increase_in_renewable_energy_deployment_by_2030_to_align_with_net_zero_pathways",
+      "published_on": "2023-11-15 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.443897",
+      "language": "en",
+      "length_before_preprocessing": 6252,
+      "length_after_preprocessing": 2643,
+      "url": "https://www.agora-energiewende.org/news-events/asian-economies-need-a-fivefold-increase-in-renewable-energy-deployment-by-2030-to-align-with-net-zero-pathways"
+    }
+  ]
+}

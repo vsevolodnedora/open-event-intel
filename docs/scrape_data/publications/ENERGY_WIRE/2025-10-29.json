@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-10-29",
+  "publications": [
+    {
+      "id": "0b3535869e3b17bf8f521b820d49ee8205410e5012431012d50c61de3829562b",
+      "title": "germans_worried_about_new_data_centres_environmental_impact_favour_clean_power_sources_survey",
+      "published_on": "2025-10-29 11:39:00",
+      "scraped_on": "2025-10-29 18:38:37.766725",
+      "language": "en",
+      "length_before_preprocessing": 4806,
+      "length_after_preprocessing": 1208,
+      "url": "https://www.cleanenergywire.org/news/germans-worried-about-new-data-centres-environmental-impact-favour-clean-power-sources-survey"
+    },
+    {
+      "id": "d46414c52b6115a7d522ea286af180f6d8c3aed1877c4818d3d20ea922e88053",
+      "title": "germany_must_revise_hydrogen_strategy_view_slow_ramp_auditors",
+      "published_on": "2025-10-29 10:01:00",
+      "scraped_on": "2025-10-29 18:38:48.783685",
+      "language": "en",
+      "length_before_preprocessing": 7573,
+      "length_after_preprocessing": 1424,
+      "url": "https://www.cleanenergywire.org/news/germany-must-revise-hydrogen-strategy-view-slow-ramp-auditors"
+    },
+    {
+      "id": "28ea8815c94ca170ed1acec161d5f107808cf8ea40edd6af074680fc056ba06f",
+      "title": "brief_29_october_25",
+      "published_on": "2025-10-29 08:58:00",
+      "scraped_on": "2025-10-29 18:38:59.655926",
+      "language": "en",
+      "length_before_preprocessing": 5524,
+      "length_after_preprocessing": 843,
+      "url": "https://www.cleanenergywire.org/news/brief-29-october-25"
+    }
+  ]
+}

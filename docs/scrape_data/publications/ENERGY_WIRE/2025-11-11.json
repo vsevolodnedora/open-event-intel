@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-11",
+  "publications": [
+    {
+      "id": "f831c8c3e198cbee3957021c6ceffbcd1a7c8868989d0e33278e7ac59966dc2a",
+      "title": "germans_still_see_global_warming_threat_many_resist_lifestyle_changes_survey",
+      "published_on": "2025-11-11 13:03:00",
+      "scraped_on": "2025-11-11 18:36:27.006853",
+      "language": "en",
+      "length_before_preprocessing": 4100,
+      "length_after_preprocessing": 1008,
+      "url": "https://www.cleanenergywire.org/news/germans-still-see-global-warming-threat-many-resist-lifestyle-changes-survey"
+    },
+    {
+      "id": "2ad954d2cfe2ef94352f59985f79280e4caf2d76ef4070a229a5afaebb686412",
+      "title": "offshore_wind_industry_urges_postponement_germanys_2026_auctions_optimise_bids",
+      "published_on": "2025-11-11 12:30:00",
+      "scraped_on": "2025-11-11 18:36:37.905546",
+      "language": "en",
+      "length_before_preprocessing": 7293,
+      "length_after_preprocessing": 1303,
+      "url": "https://www.cleanenergywire.org/news/offshore-wind-industry-urges-postponement-germanys-2026-auctions-optimise-bids"
+    },
+    {
+      "id": "41b5aba2a7666988a0a65f5b3ffdfee789c239969cea6c7e3dbeca55942f3748",
+      "title": "coalition_row_over_future_germanys_climate_friendly_heating_rules_looming",
+      "published_on": "2025-11-11 12:15:00",
+      "scraped_on": "2025-11-11 18:36:48.790170",
+      "language": "en",
+      "length_before_preprocessing": 7001,
+      "length_after_preprocessing": 1469,
+      "url": "https://www.cleanenergywire.org/news/coalition-row-over-future-germanys-climate-friendly-heating-rules-looming"
+    },
+    {
+      "id": "efd8d637b15f86f98ea55aca9abe297486fc0e76e810b424d64e300285177d0e",
+      "title": "brief_11_november_25",
+      "published_on": "2025-11-11 11:15:00",
+      "scraped_on": "2025-11-11 18:36:59.567910",
+      "language": "en",
+      "length_before_preprocessing": 5453,
+      "length_after_preprocessing": 803,
+      "url": "https://www.cleanenergywire.org/news/brief-11-november-25"
+    }
+  ]
+}

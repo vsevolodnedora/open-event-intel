@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-01",
+  "publications": [
+    {
+      "id": "2305d715630ab09e698bc0ac40d2e72bcab768387ac5ae1954daa737f2115d15",
+      "title": "brief_1_july_25",
+      "published_on": "2025-07-01 13:40:00",
+      "scraped_on": "2025-07-31 13:52:44.320006",
+      "language": "en",
+      "length_before_preprocessing": 5299,
+      "length_after_preprocessing": 740,
+      "url": "https://www.cleanenergywire.org/news/brief-1-july-25"
+    },
+    {
+      "id": "1d1269d308c950ade86554a479eb6f219c2926a2700be682b31059fe97b6dc02",
+      "title": "weather_station_near_berlin_registers_driest_first_half_year_1893",
+      "published_on": "2025-07-01 13:36:00",
+      "scraped_on": "2025-07-31 13:52:56.196478",
+      "language": "en",
+      "length_before_preprocessing": 6672,
+      "length_after_preprocessing": 1078,
+      "url": "https://www.cleanenergywire.org/news/weather-station-near-berlin-registers-driest-first-half-year-1893"
+    },
+    {
+      "id": "a0f782d32794bd442bc8acc8c1e7fc1a1a08f26c8082427c0be8f15cd0672731",
+      "title": "critics_warn_germanys_energy_transition_reality_check_designed_slow_renewables",
+      "published_on": "2025-07-01 13:31:00",
+      "scraped_on": "2025-07-31 13:53:07.882493",
+      "language": "en",
+      "length_before_preprocessing": 7592,
+      "length_after_preprocessing": 1586,
+      "url": "https://www.cleanenergywire.org/news/critics-warn-germanys-energy-transition-reality-check-designed-slow-renewables"
+    },
+    {
+      "id": "7393ae0c45475675cbfd34d5c415b23109167c8baa82367c7e40d6f4ca41667e",
+      "title": "salzgitter_ceo_urges_germany_pursue_green_steel_ambitions_despite_setbacks",
+      "published_on": "2025-07-01 13:29:00",
+      "scraped_on": "2025-07-31 13:53:19.610487",
+      "language": "en",
+      "length_before_preprocessing": 6924,
+      "length_after_preprocessing": 1133,
+      "url": "https://www.cleanenergywire.org/news/salzgitter-ceo-urges-germany-pursue-green-steel-ambitions-despite-setbacks"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-12-05",
+  "publications": [
+    {
+      "id": "96286d4f7e53e1ff9af57ab0d121ac43b5cd17f1a0d2204339e5a00b8dd24d79",
+      "title": "connecting_eu_climate_targets_to_electricity_grid_development_entso_e_releases_grid_planning_hub",
+      "published_on": "2025-12-05 12:00:00",
+      "scraped_on": "2025-12-08 06:35:00.101086",
+      "language": "en",
+      "length_before_preprocessing": 2680,
+      "length_after_preprocessing": 639,
+      "url": "https://www.entsoe.eu/news/2025/12/05/connecting-eu-climate-targets-to-electricity-grid-development-entso-e-releases-grid-planning-hub"
+    }
+  ]
+}

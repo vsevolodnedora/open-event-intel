@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-07",
+  "publications": [
+    {
+      "id": "a6b8590b59e0c656c18e13fe2fcccddefb16b92835db849dd46807c2c1ba635b",
+      "title": "ineos_to_cut_uk_acetyls_plant_workforce_by_20_on_high_energy_costs_cheap_imports",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-07 18:33:46.812855",
+      "language": "en",
+      "length_before_preprocessing": 4280,
+      "length_after_preprocessing": 597,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143712/ineos-to-cut-uk-acetyls-plant-workforce-by-20-on-high-energy-costs-cheap-imports"
+    },
+    {
+      "id": "b3d57596d6e1c71bde10a961f9a20d5814de4942cb22d76e2b7543551cee25a7",
+      "title": "podcast_weak_fundamentals_to_extend_softness_in_europe_pa_plasticizers_markets_into_2026",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-07 18:33:46.815917",
+      "language": "en",
+      "length_before_preprocessing": 5256,
+      "length_after_preprocessing": 488,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143728/podcast-weak-fundamentals-to-extend-softness-in-europe-pa-plasticizers-markets-into-2026"
+    },
+    {
+      "id": "cbfd297fbf604e0ef346d11e5de80711d30a3b339dd7930b855d7655abc22858",
+      "title": "podcast_europe_needs_radical_rethink_of_energy_climate_policy_to_prosper_peter_huntsman",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-07 18:33:46.817702",
+      "language": "en",
+      "length_before_preprocessing": 4613,
+      "length_after_preprocessing": 837,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143730/podcast-europe-needs-radical-rethink-of-energy-climate-policy-to-prosper-peter-huntsman"
+    },
+    {
+      "id": "deb99e467e1030b697a89e98d38b23116b0ddf9c94afd454a67229ed6f26ce2f",
+      "title": "blog_is_there_a_future_for_the_european_chemical_industry",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-07 18:33:46.819408",
+      "language": "en",
+      "length_before_preprocessing": 4056,
+      "length_after_preprocessing": 320,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143702/blog-is-there-a-future-for-the-european-chemical-industry"
+    },
+    {
+      "id": "cbf9c71b249132c473d9a1c8f5d8bcb90cab202bac2102b1438e493d92ec60ba",
+      "title": "vietnam_q3_gdp_growth_surges_8_23_on_strong_exports_despite_us_tariffs",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-07 18:33:46.820983",
+      "language": "en",
+      "length_before_preprocessing": 5394,
+      "length_after_preprocessing": 1681,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143690/vietnam-q3-gdp-growth-surges-8-23-on-strong-exports-despite-us-tariffs"
+    },
+    {
+      "id": "78a44563524d976271391abdf6b76ebce8b7b93f395fc75db58f4c7a544e43cc",
+      "title": "interview_us_mattress_market_is_recovering_from_h1_lull",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-08 18:34:18.054891",
+      "language": "en",
+      "length_before_preprocessing": 6348,
+      "length_after_preprocessing": 1536,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143750/interview-us-mattress-market-is-recovering-from-h1-lull"
+    },
+    {
+      "id": "66157807584cdbc5602cc00fd00fcbd7ad28106417ac623d0c9d709521d08ea8",
+      "title": "us_brazil_thawing_could_ease_tariffs_crisis_as_industry_starts_feeling_the_pinch",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-08 18:34:18.056866",
+      "language": "en",
+      "length_before_preprocessing": 7300,
+      "length_after_preprocessing": 2519,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/07/11143749/us-brazil-thawing-could-ease-tariffs-crisis-as-industry-starts-feeling-the-pinch"
+    }
+  ]
+}

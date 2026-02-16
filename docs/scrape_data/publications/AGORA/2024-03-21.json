@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-03-21",
+  "publications": [
+    {
+      "id": "e457451a2c58959d60ee889f16c6e59d1fb1e4ec12f623754b3b67f3f7a960d8",
+      "title": "between_cbam_equity_and_ambition",
+      "published_on": "2024-03-21 12:00:00",
+      "scraped_on": "2025-08-13 18:37:19.903665",
+      "language": "en",
+      "length_before_preprocessing": 6297,
+      "length_after_preprocessing": 1268,
+      "url": "https://www.agora-energiewende.org/news-events/between-cbam-equity-and-ambition"
+    }
+  ]
+}

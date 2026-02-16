@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-04-08",
+  "publications": [
+    {
+      "id": "a1e74d7cf08a6f6e0c74f56a146324865931ba6c1eed62bd41feea2774eb7a38",
+      "title": "dates_announced_for_publication_of_bidding_zone_study_report_and_webinar",
+      "published_on": "2025-04-08 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.517939",
+      "language": "en",
+      "length_before_preprocessing": 3234,
+      "length_after_preprocessing": 471,
+      "url": "https://www.entsoe.eu/news/2025/04/08/dates-announced-for-publication-of-bidding-zone-study-report-and-webinar"
+    }
+  ]
+}

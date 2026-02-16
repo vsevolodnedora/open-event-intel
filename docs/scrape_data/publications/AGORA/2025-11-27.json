@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-11-27",
+  "publications": [
+    {
+      "id": "1b38b9d5d7659af11bd2625a7febefca805a62bd8e8c48517af40a7e9113c4fa",
+      "title": "a_statement_on_the_eu_commissions_bioeconomy_strategy",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:36:10.537924",
+      "language": "en",
+      "length_before_preprocessing": 4749,
+      "length_after_preprocessing": 1369,
+      "url": "https://www.agora-energiewende.org/news-events/a-statement-on-the-eu-commissions-bioeconomy-strategy"
+    }
+  ]
+}

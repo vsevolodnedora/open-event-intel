@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-05-16",
+  "publications": [
+    {
+      "id": "cc988e065469d675db84d4da66f88546c28b56f40ca3cc7719b573147af30885",
+      "title": "der_stromhandel_im_maerz_und_april_2019",
+      "published_on": "2019-05-16 12:00:00",
+      "scraped_on": "2026-01-14 09:16:11.598441",
+      "language": "de",
+      "length_before_preprocessing": 4766,
+      "length_after_preprocessing": 2597,
+      "url": "https://www.smard.de/page/home/topic-article/204972/11324/der-stromhandel-im-maerz-und-april-2019"
+    }
+  ]
+}

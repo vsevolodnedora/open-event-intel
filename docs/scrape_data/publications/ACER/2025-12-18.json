@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-12-18",
+  "publications": [
+    {
+      "id": "84f1fc65f88443d13c817c85e3a518e6a98199a2a570146f8ba1a6088632f312",
+      "title": "acer_welcomes_improved_polish_gas_transmission_tariff_methodology_and_merger_single_entry_exit_zone",
+      "published_on": "2025-12-18 12:00:00",
+      "scraped_on": "2025-12-18 18:19:25.163476",
+      "language": "en",
+      "length_before_preprocessing": 8389,
+      "length_after_preprocessing": 1137,
+      "url": "https://www.acer.europa.eu/news/acer-welcomes-improved-polish-gas-transmission-tariff-methodology-and-merger-single-entry-exit-zone"
+    }
+  ]
+}

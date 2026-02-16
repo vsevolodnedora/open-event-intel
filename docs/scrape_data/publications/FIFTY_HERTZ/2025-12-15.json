@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-12-15",
+  "publications": [
+    {
+      "id": "b466ddb1e564b9a511fbb3079274756908a327e9f8e7c41ba4c317b476fd4253",
+      "title": "netzverstaerkung_helmstedtwolmirstedt_oeffentlichkeitsbeteiligung_der_bundesnetzagentur_beginnt",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:26:55.327187",
+      "language": "de",
+      "length_before_preprocessing": 1341,
+      "length_after_preprocessing": 953,
+      "url": "https://www.50hertz.com/de/News/Details/16572/netzverstaerkung-helmstedtwolmirstedt-oeffentlichkeitsbeteiligung-der-bundesnetzagentur-beginnt"
+    }
+  ]
+}

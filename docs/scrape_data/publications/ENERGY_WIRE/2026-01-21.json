@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2026-01-21",
+  "publications": [
+    {
+      "id": "eb937f6012d91b4549416fcfa23fe80a3b967b1473cc3435b113cea673392200",
+      "title": "most_german_operators_face_fines_failing_meet_smart_meter_quotas",
+      "published_on": "2026-01-21 12:10:00",
+      "scraped_on": "2026-01-21 18:35:28.133524",
+      "language": "en",
+      "length_before_preprocessing": 6439,
+      "length_after_preprocessing": 1216,
+      "url": "https://www.cleanenergywire.org/news/most-german-operators-face-fines-failing-meet-smart-meter-quotas"
+    },
+    {
+      "id": "00d3ceb95ec8c36775082a249d83f1c77adad15e076474a93f60a1bc8facc333",
+      "title": "german_steel_industry_says_decarbonisation_key_opportunity_reverse_ongoing_production_decline",
+      "published_on": "2026-01-21 12:02:00",
+      "scraped_on": "2026-01-21 18:35:39.223087",
+      "language": "en",
+      "length_before_preprocessing": 6539,
+      "length_after_preprocessing": 929,
+      "url": "https://www.cleanenergywire.org/news/german-steel-industry-says-decarbonisation-key-opportunity-reverse-ongoing-production-decline"
+    },
+    {
+      "id": "21cec697edbb25d418a8e3cce31f2ffbfb6894297a2d19c9dec823f1321ef982",
+      "title": "green_skills_migration_cut_co2_europe_defence_sector_vies_workers_think_tank",
+      "published_on": "2026-01-21 11:00:00",
+      "scraped_on": "2026-01-21 18:35:50.314272",
+      "language": "en",
+      "length_before_preprocessing": 6778,
+      "length_after_preprocessing": 1003,
+      "url": "https://www.cleanenergywire.org/news/green-skills-migration-cut-co2-europe-defence-sector-vies-workers-think-tank"
+    },
+    {
+      "id": "d5caba05eff6b1c9167296c43bb88bfbacbb9d5fee5286b489d21640a0dbb661",
+      "title": "brief_21_january_26",
+      "published_on": "2026-01-21 10:53:00",
+      "scraped_on": "2026-01-21 18:36:01.182955",
+      "language": "en",
+      "length_before_preprocessing": 4771,
+      "length_after_preprocessing": 438,
+      "url": "https://www.cleanenergywire.org/news/brief-21-january-26"
+    }
+  ]
+}

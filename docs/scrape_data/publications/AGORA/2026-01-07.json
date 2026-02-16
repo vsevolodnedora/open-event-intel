@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2026-01-07",
+  "publications": [
+    {
+      "id": "043756cfe213ad78eefbd529f7ab8844bf1d4850b2a15d50bc0118c542fc369e",
+      "title": "germany_loses_momentum_on_climate_action_heat_pumps_and_electric_cars_catching_up_only_slowly",
+      "published_on": "2026-01-07 12:00:00",
+      "scraped_on": "2026-01-07 18:23:53.366504",
+      "language": "en",
+      "length_before_preprocessing": 7327,
+      "length_after_preprocessing": 3812,
+      "url": "https://www.agora-energiewende.org/news-events/germany-loses-momentum-on-climate-action-heat-pumps-and-electric-cars-catching-up-only-slowly"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-02-27",
+  "publications": [
+    {
+      "id": "0dbc7b82e96b70b208403f6b1dd10c0a42fec194cf4a101bbcd42ad236fd63f6",
+      "title": "how_pakistan_can_kick_start_green_lending_to_drive_the_clean_energy_transition",
+      "published_on": "2024-02-27 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.440693",
+      "language": "en",
+      "length_before_preprocessing": 5239,
+      "length_after_preprocessing": 1668,
+      "url": "https://www.agora-energiewende.org/news-events/how-pakistan-can-kick-start-green-lending-to-drive-the-clean-energy-transition"
+    },
+    {
+      "id": "219ca3ad5927d78c9f7b62083112962c6a476881d5fb9bbd5e641fe2259a632f",
+      "title": "facilitating_green_loans_for_a_sustainable_energy_transition_in_pakistan",
+      "published_on": "2024-02-27 12:00:00",
+      "scraped_on": "2025-08-13 18:37:19.892904",
+      "language": "en",
+      "length_before_preprocessing": 4691,
+      "length_after_preprocessing": 1089,
+      "url": "https://www.agora-energiewende.org/news-events/facilitating-green-loans-for-a-sustainable-energy-transition-in-pakistan"
+    }
+  ]
+}

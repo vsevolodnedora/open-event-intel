@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-10-06",
+  "publications": [
+    {
+      "id": "d96609c3f25b3f4b0d4b2ffa4a49f1e28d3c7ee3700bc62d462922b4c007edfa",
+      "title": "acer_decide_amending_methodology_procuring_electricity_balancing_capacity",
+      "published_on": "2025-10-06 12:00:00",
+      "scraped_on": "2025-10-06 18:32:41.680502",
+      "language": "en",
+      "length_before_preprocessing": 7922,
+      "length_after_preprocessing": 906,
+      "url": "https://www.acer.europa.eu/news/acer-decide-amending-methodology-procuring-electricity-balancing-capacity"
+    },
+    {
+      "id": "914b21884787f5665d162b3b710a8cb71b8a1cdc37c1a6da29690f61789a8b24",
+      "title": "acer_invites_energy_market_associations_help_shape_remit_implementation",
+      "published_on": "2025-10-06 12:00:00",
+      "scraped_on": "2025-10-06 18:32:41.685051",
+      "language": "en",
+      "length_before_preprocessing": 7995,
+      "length_after_preprocessing": 1063,
+      "url": "https://www.acer.europa.eu/news/acer-invites-energy-market-associations-help-shape-remit-implementation"
+    }
+  ]
+}

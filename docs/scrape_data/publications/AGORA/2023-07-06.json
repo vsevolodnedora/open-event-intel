@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2023-07-06",
+  "publications": [
+    {
+      "id": "2c21b428ca3d93ae5ff6331010d7c8c66e7f461e4fc9c78a0300e34768053484",
+      "title": "strengthening_europe_with_solar_powered_cities",
+      "published_on": "2023-07-06 12:00:00",
+      "scraped_on": "2025-07-31 14:56:11.899557",
+      "language": "en",
+      "length_before_preprocessing": 7445,
+      "length_after_preprocessing": 1304,
+      "url": "https://www.agora-energiewende.org/news-events/strengthening-europe-with-solar-powered-cities"
+    }
+  ]
+}

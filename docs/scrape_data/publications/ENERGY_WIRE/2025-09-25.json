@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-25",
+  "publications": [
+    {
+      "id": "34b40c5c8e52739da11836830531bc295d0603924df22e89d627c58133999163",
+      "title": "german_finance_minister_calls_buy_european_approach_clean_tech_and_infrastructure",
+      "published_on": "2025-09-25 13:12:00",
+      "scraped_on": "2025-09-25 18:36:10.837023",
+      "language": "en",
+      "length_before_preprocessing": 3894,
+      "length_after_preprocessing": 825,
+      "url": "https://www.cleanenergywire.org/news/german-finance-minister-calls-buy-european-approach-clean-tech-and-infrastructure"
+    },
+    {
+      "id": "037032f6b3ccf8482962c86802cebffb887bfc39695e4a14d1678b4b783ad464",
+      "title": "ngos_call_ambitious_climate_policy_proposals_ahead_government_deadline",
+      "published_on": "2025-09-25 11:47:00",
+      "scraped_on": "2025-09-25 18:36:21.712642",
+      "language": "en",
+      "length_before_preprocessing": 6663,
+      "length_after_preprocessing": 1100,
+      "url": "https://www.cleanenergywire.org/news/ngos-call-ambitious-climate-policy-proposals-ahead-government-deadline"
+    },
+    {
+      "id": "92c11915edda1aeb5b809ac91dc747a03ece705bf68a8e22a088f0f9be2c1744",
+      "title": "germany_cannot_afford_not_my_backyard_approach_co2_storage_official",
+      "published_on": "2025-09-25 11:10:00",
+      "scraped_on": "2025-09-25 18:36:32.597993",
+      "language": "en",
+      "length_before_preprocessing": 6958,
+      "length_after_preprocessing": 1347,
+      "url": "https://www.cleanenergywire.org/news/germany-cannot-afford-not-my-backyard-approach-co2-storage-official"
+    },
+    {
+      "id": "b3ac9b32d145e68653c6c88ac701b09a36d632b8b6ce0e84a8f517001f840e75",
+      "title": "brief_25_september_25",
+      "published_on": "2025-09-25 10:29:00",
+      "scraped_on": "2025-09-25 18:36:43.375151",
+      "language": "en",
+      "length_before_preprocessing": 6223,
+      "length_after_preprocessing": 1412,
+      "url": "https://www.cleanenergywire.org/news/brief-25-september-25"
+    }
+  ]
+}

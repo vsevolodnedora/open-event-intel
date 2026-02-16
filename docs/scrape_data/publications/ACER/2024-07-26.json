@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2024-07-26",
+  "publications": [
+    {
+      "id": "965137a07ee08f316e8f43152066101419ef9028149b9705cc6ab9fe04b6c854",
+      "title": "compensation_surged_grid_operators_covering_losses_cross_border_transit_flows_2022",
+      "published_on": "2024-07-26 12:00:00",
+      "scraped_on": "2025-11-10 18:32:55.954122",
+      "language": "en",
+      "length_before_preprocessing": 8775,
+      "length_after_preprocessing": 1730,
+      "url": "https://www.acer.europa.eu/news/compensation-surged-grid-operators-covering-losses-cross-border-transit-flows-2022"
+    }
+  ]
+}

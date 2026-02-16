@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-07-02",
+  "publications": [
+    {
+      "id": "d9c802316e9a7547a8ef058e876b695995a231c03f0b2e4889b115992806d156",
+      "title": "commission_continues_action_lower_energy_bills_new_guidance_renewables_grids_infrastructure_and",
+      "published_on": "2025-07-02 12:00:00",
+      "scraped_on": "2025-07-31 11:18:57.019583",
+      "language": "en",
+      "length_before_preprocessing": 4946,
+      "length_after_preprocessing": 1993,
+      "url": "https://energy.ec.europa.eu/news/commission-continues-action-lower-energy-bills-new-guidance-renewables-grids-infrastructure-and-2025-07-02_en"
+    },
+    {
+      "id": "f715198ea4fd7fca5d4594bbe35af62b7a3123362ebd9e0b9e368d0a7e2f83a2",
+      "title": "new_eu_energy_and_raw_materials_platform_support_competitiveness_and_decarbonisation_european",
+      "published_on": "2025-07-02 12:00:00",
+      "scraped_on": "2025-07-31 11:18:57.020547",
+      "language": "en",
+      "length_before_preprocessing": 4118,
+      "length_after_preprocessing": 1201,
+      "url": "https://energy.ec.europa.eu/news/new-eu-energy-and-raw-materials-platform-support-competitiveness-and-decarbonisation-european-2025-07-02_en"
+    }
+  ]
+}

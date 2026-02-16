@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-17",
+  "publications": [
+    {
+      "id": "6362c99d70e9c153413c8d523d62a00b077db531e95b227f43c5bea3a9b40f87",
+      "title": "coal_exit_funding_used_explore_geothermal_potential_germanys_most_populous_state",
+      "published_on": "2025-02-17 13:38:00",
+      "scraped_on": "2025-07-31 12:35:46.966868",
+      "language": "en",
+      "length_before_preprocessing": 6822,
+      "length_after_preprocessing": 1110,
+      "url": "https://www.cleanenergywire.org/news/coal-exit-funding-used-explore-geothermal-potential-germanys-most-populous-state"
+    },
+    {
+      "id": "c880d2c791ff38f6287efdcbccc042a12713ee2138570ad47b4cac4ca79b3c94",
+      "title": "share_germans_willing_buy_electric_car_almost_doubles_58_survey",
+      "published_on": "2025-02-17 13:33:00",
+      "scraped_on": "2025-07-31 12:35:58.535253",
+      "language": "en",
+      "length_before_preprocessing": 6695,
+      "length_after_preprocessing": 980,
+      "url": "https://www.cleanenergywire.org/news/share-germans-willing-buy-electric-car-almost-doubles-58-survey"
+    },
+    {
+      "id": "33ac3d7c26ed3b19af8a4a469dbda00304792bf8ecdb2022cbcbb12d88f2a354",
+      "title": "german_states_call_eu_wide_approach_coastal_protection_costs_reach_billions_euros",
+      "published_on": "2025-02-17 13:22:00",
+      "scraped_on": "2025-07-31 12:36:10.042738",
+      "language": "en",
+      "length_before_preprocessing": 6741,
+      "length_after_preprocessing": 917,
+      "url": "https://www.cleanenergywire.org/news/german-states-call-eu-wide-approach-coastal-protection-costs-reach-billions-euros"
+    },
+    {
+      "id": "c24298590c29e950067c4a090a49aba1a8b8a7d22c8222563a7200d2a5af0f06",
+      "title": "far_right_afd_shifts_debate_german_climate_policy_lacks_real_say_researcher",
+      "published_on": "2025-02-17 13:05:00",
+      "scraped_on": "2025-07-31 12:36:20.548789",
+      "language": "en",
+      "length_before_preprocessing": 9706,
+      "length_after_preprocessing": 3540,
+      "url": "https://www.cleanenergywire.org/news/far-right-afd-shifts-debate-german-climate-policy-lacks-real-say-researcher"
+    },
+    {
+      "id": "5392ca92d276b0f1880d2eee21274c7e865e247c9926fa4501ad8f5f155e2e48",
+      "title": "brief_17_february_25",
+      "published_on": "2025-02-17 12:30:00",
+      "scraped_on": "2025-07-31 12:36:32.007620",
+      "language": "en",
+      "length_before_preprocessing": 2745,
+      "length_after_preprocessing": 658,
+      "url": "https://www.cleanenergywire.org/news/brief-17-february-25"
+    }
+  ]
+}

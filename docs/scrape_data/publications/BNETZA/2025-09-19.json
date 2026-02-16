@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-09-19",
+  "publications": [
+    {
+      "id": "ca55f25f2dd0ff155a684c92bee7aaf5ccdcdcce9da0ca44e9e330735a551c00",
+      "title": "MiSpeL",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:31:35.073991",
+      "language": "de",
+      "length_before_preprocessing": 3902,
+      "length_after_preprocessing": 1290,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250919_MiSpeL.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-04",
+  "publications": [
+    {
+      "id": "a0d26ceb3330f36cf4ad0c6556ba0de1c988810c135502cea5b7a94e84b2f42f",
+      "title": "commission_consults_energy_labelling_and_ecodesign_household_and_commercial_fridges",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-04 18:19:46.247933",
+      "language": "en",
+      "length_before_preprocessing": 3464,
+      "length_after_preprocessing": 486,
+      "url": "https://energy.ec.europa.eu/news/commission-consults-energy-labelling-and-ecodesign-household-and-commercial-fridges-2025-12-04_en"
+    },
+    {
+      "id": "9f7bc08044021349ae53172495bfdd521f7f47fbfe8b12a07a29f4ada9dd0ce5",
+      "title": "pci_energy_days_2025_two_days_meaningful_discussions_shape_europes_energy_future",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-05 18:17:13.687725",
+      "language": "en",
+      "length_before_preprocessing": 4489,
+      "length_after_preprocessing": 1759,
+      "url": "https://cinea.ec.europa.eu/news-events/news/pci-energy-days-2025-two-days-meaningful-discussions-shape-europes-energy-future-2025-12-04_en"
+    }
+  ]
+}

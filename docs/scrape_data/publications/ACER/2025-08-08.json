@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-08-08",
+  "publications": [
+    {
+      "id": "ec9138df5eb703116ecbb4999799047f35c028040d3da6bf7c53633674c37553",
+      "title": "acers_latest_remit_quarterly_out_7",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:08:47.940127",
+      "language": "en",
+      "length_before_preprocessing": 7771,
+      "length_after_preprocessing": 808,
+      "url": "https://www.acer.europa.eu/news/acers-latest-remit-quarterly-out-7"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-16",
+  "publications": [
+    {
+      "id": "5f1aca54ada217d8a2acc44a0069e403770c0c977336a95e249273ac3e9ace6a",
+      "title": "2025_ushered_drought_across_germany_and_europe_weather_service",
+      "published_on": "2025-04-16 13:32:00",
+      "scraped_on": "2025-07-31 13:12:42.283326",
+      "language": "en",
+      "length_before_preprocessing": 6436,
+      "length_after_preprocessing": 937,
+      "url": "https://www.cleanenergywire.org/news/2025-ushered-drought-across-germany-and-europe-weather-service"
+    },
+    {
+      "id": "6c9969638822eb88a7a400a98e9261435297232c26c0860c0a575b02a6edd2e0",
+      "title": "vestas_ceo_says_trumps_tariffs_push_global_power_prices_urges_calm_us_markets_long_term_prospects",
+      "published_on": "2025-04-16 13:12:00",
+      "scraped_on": "2025-07-31 13:12:53.977677",
+      "language": "en",
+      "length_before_preprocessing": 6441,
+      "length_after_preprocessing": 878,
+      "url": "https://www.cleanenergywire.org/news/vestas-ceo-says-trumps-tariffs-push-global-power-prices-urges-calm-us-markets-long-term-prospects"
+    },
+    {
+      "id": "3222dcc15b7a1e7081fdedb56dcb2fa67133cbe6c8f54009ed3a6c97c9c58169",
+      "title": "german_industry_supplier_says_us_tariffs_cut_car_output_millions_questions_eu_combustion_engine_ban",
+      "published_on": "2025-04-16 13:11:00",
+      "scraped_on": "2025-07-31 13:13:05.626737",
+      "language": "en",
+      "length_before_preprocessing": 6541,
+      "length_after_preprocessing": 1046,
+      "url": "https://www.cleanenergywire.org/news/german-industry-supplier-says-us-tariffs-cut-car-output-millions-questions-eu-combustion-engine-ban"
+    },
+    {
+      "id": "6529449532ee679ff6c6be9e316dd35b7e8f4f46e9673fa9848d34cf15592b98",
+      "title": "brief_16_april_25",
+      "published_on": "2025-04-16 11:50:00",
+      "scraped_on": "2025-07-31 13:13:17.283228",
+      "language": "en",
+      "length_before_preprocessing": 4996,
+      "length_after_preprocessing": 610,
+      "url": "https://www.cleanenergywire.org/news/brief-16-april-25"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-17",
+  "publications": [
+    {
+      "id": "cb1478e2746eaad5713b6962efbc1c3846b0173795cb5e1f3eb3246ea7e4c9da",
+      "title": "singapore_aug_petrochemical_exports_fall_23_2_nodx_contracts_11_3",
+      "published_on": "2025-09-17 12:00:00",
+      "scraped_on": "2025-09-17 18:32:22.609095",
+      "language": "en",
+      "length_before_preprocessing": 5288,
+      "length_after_preprocessing": 1441,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/17/11138231/singapore-aug-petrochemical-exports-fall-23-2-nodx-contracts-11-3"
+    },
+    {
+      "id": "bb5fc6b418106717cce9656049ed737336a80285d8ee33a5c5a03e20d52842f3",
+      "title": "brazil_s_petrobras_aims_to_start_up_fertilizers_plants_formerly_leased_to_unigel_by_year_end",
+      "published_on": "2025-09-17 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.741255",
+      "language": "en",
+      "length_before_preprocessing": 6556,
+      "length_after_preprocessing": 1718,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/17/11138354/brazil-s-petrobras-aims-to-start-up-fertilizers-plants-formerly-leased-to-unigel-by-year-end"
+    },
+    {
+      "id": "f6c3286f39c85aa05711a968243d56a00334d077d24b7f34be3e6e05236c76be",
+      "title": "insight_fed_pivots_to_weak_job_market_from_elevated_inflation",
+      "published_on": "2025-09-17 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.751385",
+      "language": "en",
+      "length_before_preprocessing": 7057,
+      "length_after_preprocessing": 2328,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/17/11138357/insight-fed-pivots-to-weak-job-market-from-elevated-inflation"
+    }
+  ]
+}

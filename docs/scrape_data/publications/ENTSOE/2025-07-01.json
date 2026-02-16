@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-07-01",
+  "publications": [
+    {
+      "id": "a99b69aab1172f76a272af456db9fa5d3e8af2a59b7daf43985a4dcf12a58fae",
+      "title": "entso_e_opens_public_consultation_on_annual_work_programme_2026",
+      "published_on": "2025-07-01 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.529346",
+      "language": "en",
+      "length_before_preprocessing": 2602,
+      "length_after_preprocessing": 460,
+      "url": "https://www.entsoe.eu/news/2025/07/01/entso-e-opens-public-consultation-on-annual-work-programme-2026"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-11",
+  "publications": [
+    {
+      "id": "ef4d8cb9063a1e4156241ad30320064791fe928357a138360e81104d7f00eccc",
+      "title": "gas_prices_new_customers_40_germany_early_2024_verivox",
+      "published_on": "2025-02-11 14:06:00",
+      "scraped_on": "2025-07-31 12:29:38.942445",
+      "language": "en",
+      "length_before_preprocessing": 6604,
+      "length_after_preprocessing": 679,
+      "url": "https://www.cleanenergywire.org/news/gas-prices-new-customers-40-germany-early-2024-verivox"
+    },
+    {
+      "id": "d55faee7c2593d0e5b5f1ecc0f58a6a2e9e7b93ceb10ff3b8afa2b40250a2d6d",
+      "title": "plasma_start_ups_offer_alternative_hydrogen_decarbonising_industrys_heat_consumption",
+      "published_on": "2025-02-11 13:57:00",
+      "scraped_on": "2025-07-31 12:29:50.494917",
+      "language": "en",
+      "length_before_preprocessing": 6818,
+      "length_after_preprocessing": 1102,
+      "url": "https://www.cleanenergywire.org/news/plasma-start-ups-offer-alternative-hydrogen-decarbonising-industrys-heat-consumption"
+    },
+    {
+      "id": "1368d0d09a1d33b197e593050499a998335a44f2a695607df80300f800eb30b5",
+      "title": "german_energy_industry_calls_ambitious_heating_package_next_government",
+      "published_on": "2025-02-11 13:43:00",
+      "scraped_on": "2025-07-31 12:30:02.008251",
+      "language": "en",
+      "length_before_preprocessing": 6804,
+      "length_after_preprocessing": 950,
+      "url": "https://www.cleanenergywire.org/news/german-energy-industry-calls-ambitious-heating-package-next-government"
+    },
+    {
+      "id": "a8e21c41d7a1f6eb6f9e274f2ca2f3f349bcf311e604358db40847283c486663",
+      "title": "most_germans_favour_using_co2_price_revenues_fund_renewables_lower_grid_fees_survey",
+      "published_on": "2025-02-11 13:41:00",
+      "scraped_on": "2025-07-31 12:30:13.651625",
+      "language": "en",
+      "length_before_preprocessing": 7255,
+      "length_after_preprocessing": 1295,
+      "url": "https://www.cleanenergywire.org/news/most-germans-favour-using-co2-price-revenues-fund-renewables-lower-grid-fees-survey"
+    },
+    {
+      "id": "a04abf3bfad68c6752e2409181730f2009a7c58ab049d220c5e0ab8150dc8f07",
+      "title": "brief_11_february_25",
+      "published_on": "2025-02-11 11:00:00",
+      "scraped_on": "2025-07-31 12:30:25.095171",
+      "language": "en",
+      "length_before_preprocessing": 3030,
+      "length_after_preprocessing": 820,
+      "url": "https://www.cleanenergywire.org/news/brief-11-february-25"
+    }
+  ]
+}

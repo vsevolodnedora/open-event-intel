@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-05-09",
+  "publications": [
+    {
+      "id": "66f0cea548f3338b2a46e512468cf5f2391b16cd6e8745be9ae4d9dd24a8b83b",
+      "title": "NBR_laedt_ein_2025_Buehl",
+      "published_on": "2025-05-09 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.630537",
+      "language": "de",
+      "length_before_preprocessing": 5115,
+      "length_after_preprocessing": 1527,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/NBR-laedt-ein-2025-Buehl"
+    }
+  ]
+}

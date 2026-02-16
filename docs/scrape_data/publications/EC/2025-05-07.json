@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-05-07",
+  "publications": [
+    {
+      "id": "f00b7779729481f29a08a5648d00fe537c717aee1c7814dc0f0d491813498e74",
+      "title": "may_infringement_package_key_decisions_energy",
+      "published_on": "2025-05-07 12:00:00",
+      "scraped_on": "2025-07-31 11:18:22.104201",
+      "language": "en",
+      "length_before_preprocessing": 5618,
+      "length_after_preprocessing": 2620,
+      "url": "https://energy.ec.europa.eu/news/may-infringement-package-key-decisions-energy-2025-05-07_en"
+    }
+  ]
+}

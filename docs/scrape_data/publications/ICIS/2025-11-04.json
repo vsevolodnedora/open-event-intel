@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-04",
+  "publications": [
+    {
+      "id": "295e1bc5ba20fde2fa193d062a3f541e089c37f6a332834ffdfc655a2c1bfde9",
+      "title": "japan_s_sumitomo_chemical_fiscal_q2_net_income_drops_on_stronger_yen",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-04 18:33:46.936871",
+      "language": "en",
+      "length_before_preprocessing": 4558,
+      "length_after_preprocessing": 726,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/04/11152046/japan-s-sumitomo-chemical-fiscal-q2-net-income-drops-on-stronger-yen"
+    },
+    {
+      "id": "244109c64ed5d477b770e68e81dd8eb2a929025d8c1aca5ad560a5d24434a875",
+      "title": "germany_s_evonik_posts_q3_net_loss_on_impairment_weak_demand",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-04 18:33:46.939183",
+      "language": "en",
+      "length_before_preprocessing": 6003,
+      "length_after_preprocessing": 1171,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/04/11152023/germany-s-evonik-posts-q3-net-loss-on-impairment-weak-demand"
+    },
+    {
+      "id": "835643bf57d5975e100bdab3ce758fab0bcb10426735fb97f390a23b415513f9",
+      "title": "blog_why_china_pp_spreads_may_not_fully_recover_until_at_least_2028",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-04 18:33:46.942430",
+      "language": "en",
+      "length_before_preprocessing": 5255,
+      "length_after_preprocessing": 1497,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/04/11151998/blog-why-china-pp-spreads-may-not-fully-recover-until-at-least-2028"
+    },
+    {
+      "id": "e09090baa5c651b6156ee3d0cce1a3e823429e372895e7d785be5c83c9faaeb7",
+      "title": "blog_services_become_key_as_markets_return_to_a_more_local_for_local_focus",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-04 18:33:46.946474",
+      "language": "en",
+      "length_before_preprocessing": 5255,
+      "length_after_preprocessing": 349,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/04/11152025/blog-services-become-key-as-markets-return-to-a-more-local-for-local-focus"
+    },
+    {
+      "id": "1e7b62e322819ee6c6e9102c8fe913dd4b56336ba9717b176fae7d75c2fe5c5f",
+      "title": "asia_oct_factory_activity_mixed_as_focus_turns_to_domestic_demand",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-04 18:33:46.948227",
+      "language": "en",
+      "length_before_preprocessing": 6565,
+      "length_after_preprocessing": 2450,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/04/11152005/asia-oct-factory-activity-mixed-as-focus-turns-to-domestic-demand"
+    },
+    {
+      "id": "88c0536e704a54638676ab796ca4a76fadcbccb559f069d3286e5f1039a47e58",
+      "title": "eastman_to_debottleneck_us_methanolysis_plant_by_30",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-05 18:33:49.782452",
+      "language": "en",
+      "length_before_preprocessing": 4706,
+      "length_after_preprocessing": 911,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/04/11152100/eastman-to-debottleneck-us-methanolysis-plant-by-30"
+    }
+  ]
+}

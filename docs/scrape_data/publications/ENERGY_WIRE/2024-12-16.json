@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2024-12-16",
+  "publications": [
+    {
+      "id": "19060cecdf94b436372a26e581ba0f9a863b336cec16a9c006f96a060835c978",
+      "title": "german_economy_minister_questions_feasibility_earlier_coal_exit_2030",
+      "published_on": "2024-12-16 13:39:00",
+      "scraped_on": "2025-07-31 12:00:32.816065",
+      "language": "en",
+      "length_before_preprocessing": 7207,
+      "length_after_preprocessing": 1395,
+      "url": "https://www.cleanenergywire.org/news/german-economy-minister-questions-feasibility-earlier-coal-exit-2030"
+    },
+    {
+      "id": "100f8eefa55eff0d0b99ca07c441c6f6a977b0ff8c8bb7dde559881b1e7f3738",
+      "title": "germany_looks_alleged_market_manipulation_during_dunkelflaute_power_price_spike",
+      "published_on": "2024-12-16 13:36:00",
+      "scraped_on": "2025-07-31 12:00:43.320779",
+      "language": "en",
+      "length_before_preprocessing": 8042,
+      "length_after_preprocessing": 2045,
+      "url": "https://www.cleanenergywire.org/news/germany-looks-alleged-market-manipulation-during-dunkelflaute-power-price-spike"
+    },
+    {
+      "id": "1e57ef0c08269dc1fbb50977fb6c11a780263df102589397ba13988b7b1af565",
+      "title": "vote25_geopolitical_instability_could_undermine_climate_commitments_2025_warns_german_env_agency",
+      "published_on": "2024-12-16 13:15:00",
+      "scraped_on": "2025-07-31 12:00:54.982815",
+      "language": "en",
+      "length_before_preprocessing": 8882,
+      "length_after_preprocessing": 2579,
+      "url": "https://www.cleanenergywire.org/news/vote25-geopolitical-instability-could-undermine-climate-commitments-2025-warns-german-env-agency"
+    },
+    {
+      "id": "11a5b93a58098edb2530acc9b9b73a25c5eefce47a24dff32fda792aac3ee863",
+      "title": "brief_16_december_24",
+      "published_on": "2024-12-16 10:45:00",
+      "scraped_on": "2025-07-31 12:01:06.417433",
+      "language": "en",
+      "length_before_preprocessing": 5200,
+      "length_after_preprocessing": 764,
+      "url": "https://www.cleanenergywire.org/news/brief-16-december-24"
+    },
+    {
+      "id": "dfa78a9aefe4922fc5c915ac8171bafe71571e0ff11b7b5abf33c13129d3695c",
+      "title": "germans_associate_outgoing_coalitions_climate_policy_state_control_high_costs_analysis",
+      "published_on": "2024-12-16 14:02:00",
+      "scraped_on": "2025-07-31 12:09:40.147567",
+      "language": "en",
+      "length_before_preprocessing": 7190,
+      "length_after_preprocessing": 1175,
+      "url": "https://www.cleanenergywire.org/news/germans-associate-outgoing-coalitions-climate-policy-state-control-high-costs-analysis"
+    },
+    {
+      "id": "241dfaa5f9085a266a3da958121b03bc284b10aa23ddcae3e9131aa5b8f5acba",
+      "title": "mercedes_ceo_calls_long_term_ev_subsidies_domestic_market_struggles",
+      "published_on": "2024-12-16 13:51:00",
+      "scraped_on": "2025-07-31 12:09:51.779687",
+      "language": "en",
+      "length_before_preprocessing": 7055,
+      "length_after_preprocessing": 1163,
+      "url": "https://www.cleanenergywire.org/news/mercedes-ceo-calls-long-term-ev-subsidies-domestic-market-struggles"
+    }
+  ]
+}

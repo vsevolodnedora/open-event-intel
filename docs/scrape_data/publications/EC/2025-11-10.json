@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-11-10",
+  "publications": [
+    {
+      "id": "500fe176ad4678157a87f5cd2b4eb039f7b4306739215e73ab12fcd262bb0c39",
+      "title": "commission_invites_views_shape_its_small_modular_reactor_strategy",
+      "published_on": "2025-11-10 12:00:00",
+      "scraped_on": "2025-11-10 18:33:07.368802",
+      "language": "en",
+      "length_before_preprocessing": 4590,
+      "length_after_preprocessing": 1503,
+      "url": "https://energy.ec.europa.eu/news/commission-invites-views-shape-its-small-modular-reactor-strategy-2025-11-10_en"
+    }
+  ]
+}

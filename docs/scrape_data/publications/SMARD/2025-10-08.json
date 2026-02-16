@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-10-08",
+  "publications": [
+    {
+      "id": "571051a986f2934655e896baa538e17102925a99eb4e43cef14500f76e460721",
+      "title": "niedrigere_kosten_und_massnahmenvolumen",
+      "published_on": "2025-10-08 12:00:00",
+      "scraped_on": "2026-01-14 09:24:25.150907",
+      "language": "de",
+      "length_before_preprocessing": 11669,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/217926/niedrigere-kosten-und-massnahmenvolumen"
+    },
+    {
+      "id": "f9132567710862f1c0b9d2b04aff37bf095546a609e37f31ea9ecdbb1094fba0",
+      "title": "niedrigere_kosten_und_massnahmenvolumen",
+      "published_on": "2025-10-08 12:00:00",
+      "scraped_on": "2026-01-14 09:25:27.423603",
+      "language": "de",
+      "length_before_preprocessing": 11664,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/444/217926/niedrigere-kosten-und-massnahmenvolumen"
+    },
+    {
+      "id": "9f736258278ec27158f0410458760c174502d1b82dae1e578e18aa22e4750dd5",
+      "title": "lower_costs_and_volume_of_measures",
+      "published_on": "2025-10-08 12:00:00",
+      "scraped_on": "2026-01-14 09:12:06.805656",
+      "language": "de",
+      "length_before_preprocessing": 7412,
+      "length_after_preprocessing": 5877,
+      "url": "https://www.smard.de/page/en/topic-article/5892/218106/lower-costs-and-volume-of-measures"
+    }
+  ]
+}

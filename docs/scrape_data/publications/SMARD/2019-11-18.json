@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-11-18",
+  "publications": [
+    {
+      "id": "1a037394c946e55d763766eb4db263d0b68cf2406bc09fe9b542169e2ce6ec67",
+      "title": "der_stromhandel_im_september_und_oktober_2019",
+      "published_on": "2019-11-18 12:00:00",
+      "scraped_on": "2026-01-14 09:17:04.688711",
+      "language": "de",
+      "length_before_preprocessing": 6644,
+      "length_after_preprocessing": 3322,
+      "url": "https://www.smard.de/page/home/topic-article/204972/14894/der-stromhandel-im-september-und-oktober-2019"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-29",
+  "publications": [
+    {
+      "id": "d24a2fe4186b65989976c96375ae03d9235fe352ce6db367e30d62a026100052",
+      "title": "turning_german_forests_peatland_and_soils_net_carbon_sink_generational_task_env_min",
+      "published_on": "2025-09-29 13:32:00",
+      "scraped_on": "2025-09-29 18:36:03.978623",
+      "language": "en",
+      "length_before_preprocessing": 5540,
+      "length_after_preprocessing": 2227,
+      "url": "https://www.cleanenergywire.org/news/turning-german-forests-peatland-and-soils-net-carbon-sink-generational-task-env-min"
+    },
+    {
+      "id": "4aafe414a3636461fecc144fa34cd0c228705ead0d618f9cb95c09fdbf73e003",
+      "title": "germany_spent_eu61bln_international_climate_finance_last_year_2025_target_great_challenge",
+      "published_on": "2025-09-29 13:27:00",
+      "scraped_on": "2025-09-29 18:36:14.869936",
+      "language": "en",
+      "length_before_preprocessing": 6811,
+      "length_after_preprocessing": 1239,
+      "url": "https://www.cleanenergywire.org/news/germany-spent-eu61bln-international-climate-finance-last-year-2025-target-great-challenge"
+    },
+    {
+      "id": "14f6b349f24f8ad606d2bb22db6623606d0fefcc6a3934aadeab1ff275ccb840",
+      "title": "germany_apply_supply_chain_law_restrained_and_business_friendly_way",
+      "published_on": "2025-09-29 11:29:00",
+      "scraped_on": "2025-09-29 18:36:25.746332",
+      "language": "en",
+      "length_before_preprocessing": 6917,
+      "length_after_preprocessing": 856,
+      "url": "https://www.cleanenergywire.org/news/germany-apply-supply-chain-law-restrained-and-business-friendly-way"
+    },
+    {
+      "id": "fdcc48cb6b1e72e22084e43e79490fe0161aa7ad9e2a1b12e0503ac1b94c29f0",
+      "title": "nuclear_plant_operators_insolvency_could_shift_dismantling_costs_german_taxpayers",
+      "published_on": "2025-09-29 11:25:00",
+      "scraped_on": "2025-09-29 18:36:36.614934",
+      "language": "en",
+      "length_before_preprocessing": 7143,
+      "length_after_preprocessing": 1329,
+      "url": "https://www.cleanenergywire.org/news/nuclear-plant-operators-insolvency-could-shift-dismantling-costs-german-taxpayers"
+    },
+    {
+      "id": "fc9706b35de771e9cf60bb7df43e9b7e20240fc65cb3433bae09575398e536ae",
+      "title": "brief_29_september_25",
+      "published_on": "2025-09-29 10:11:00",
+      "scraped_on": "2025-09-29 18:36:47.360154",
+      "language": "en",
+      "length_before_preprocessing": 5359,
+      "length_after_preprocessing": 751,
+      "url": "https://www.cleanenergywire.org/news/brief-29-september-25"
+    }
+  ]
+}

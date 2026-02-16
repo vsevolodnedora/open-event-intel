@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2026-01-07",
+  "publications": [
+    {
+      "id": "11c7af29aaa553313a930e04c7cb0e534545d86e4f2b023f33055b31e5f807c8",
+      "title": "eroerterungstermin_fuer_abschnitt_sachsen_anhalt",
+      "published_on": "2026-01-07 12:00:00",
+      "scraped_on": "2026-01-07 18:27:13.694592",
+      "language": "de",
+      "length_before_preprocessing": 906,
+      "length_after_preprocessing": 594,
+      "url": "https://www.50hertz.com/de/News/Details/16631/eroerterungstermin-fuer-abschnitt-sachsen-anhalt"
+    }
+  ]
+}

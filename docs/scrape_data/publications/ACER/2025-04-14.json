@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-04-14",
+  "publications": [
+    {
+      "id": "1a244f57319959d14df307829ee2134bda503e356e20d6db3a25befa9f149bab",
+      "title": "acer_welcomes_simplified_lithuanian_gas_transmission_tariff_proposal",
+      "published_on": "2025-04-14 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.252749",
+      "language": "en",
+      "length_before_preprocessing": 8185,
+      "length_after_preprocessing": 1141,
+      "url": "https://www.acer.europa.eu/news/acer-welcomes-simplified-lithuanian-gas-transmission-tariff-proposal"
+    }
+  ]
+}

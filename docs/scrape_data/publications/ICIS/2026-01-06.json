@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-06",
+  "publications": [
+    {
+      "id": "5119c54b213a85e1d6114c845962232a5e8009ce286f63b95be1e197939f7cfd",
+      "title": "blog_three_out_of_five_how_my_2025_predictions_stacked_up",
+      "published_on": "2026-01-06 12:00:00",
+      "scraped_on": "2026-01-06 18:19:34.745932",
+      "language": "en",
+      "length_before_preprocessing": 6680,
+      "length_after_preprocessing": 1663,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/06/11169269/blog-three-out-of-five-how-my-2025-predictions-stacked-up"
+    },
+    {
+      "id": "5548425885150cfc3a39e804e128040739b6607fd1d16861345c98568fa0fddd",
+      "title": "vietnam_posts_8_02_gdp_growth_in_2025_q4_exports_strong_despite_us_tariffs",
+      "published_on": "2026-01-06 12:00:00",
+      "scraped_on": "2026-01-06 18:19:34.754693",
+      "language": "en",
+      "length_before_preprocessing": 7285,
+      "length_after_preprocessing": 1787,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/06/11169249/vietnam-posts-8-02-gdp-growth-in-2025-q4-exports-strong-despite-us-tariffs"
+    },
+    {
+      "id": "15fccf6121a95c839fcc0fc2078b2697651f6f4c3e0b7e4cc382026dbdc508fc",
+      "title": "us_dec_auto_sales_rise_from_nov_full_year_2025_sales_end_year_up_by_2_2_from_2024",
+      "published_on": "2026-01-06 12:00:00",
+      "scraped_on": "2026-01-07 18:21:11.938531",
+      "language": "en",
+      "length_before_preprocessing": 5669,
+      "length_after_preprocessing": 1537,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/06/11169368/us-dec-auto-sales-rise-from-nov-full-year-2025-sales-end-year-up-by-2-2-from-2024"
+    }
+  ]
+}

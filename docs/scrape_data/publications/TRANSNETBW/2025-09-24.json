@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-09-24",
+  "publications": [
+    {
+      "id": "c6f01f71b05dac7afce59ce15d088ca3a903d22d5ad5aacc4f8e3ebb1f4f96ce",
+      "title": "neue_hoechstspannungsleitung_zwischen_birkenfeld_und_oetisheim_in_betrieb",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-10-10 18:36:24.948687",
+      "language": "de",
+      "length_before_preprocessing": 5578,
+      "length_after_preprocessing": 1813,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/neue-hoechstspannungsleitung-zwischen-birkenfeld-und-oetisheim-in-betrieb"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-07-15",
+  "publications": [
+    {
+      "id": "f02063b2b2f2f6d1caedbbac5ef50c83fc9953c1a467787cfa5fad0bc6290f35",
+      "title": "Vorhaben44",
+      "published_on": "2025-07-15 12:00:00",
+      "scraped_on": "2025-07-31 11:10:59.009433",
+      "language": "de",
+      "length_before_preprocessing": 3408,
+      "length_after_preprocessing": 761,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250715_Vorhaben44.html"
+    }
+  ]
+}

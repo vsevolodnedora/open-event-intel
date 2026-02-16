@@ -1,0 +1,26 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-07",
+  "publications": [
+    {
+      "id": "fb3707267b964288398ed563d150045d2d0e07d6c1c147150d5f60fdef283f93",
+      "title": "german_chemical_industry_climate_deteriorates_amid_tariffs_henkel_sgl_cut_outlooks",
+      "published_on": "2025-08-07 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.140240",
+      "language": "en",
+      "length_before_preprocessing": 4832,
+      "length_after_preprocessing": 1049,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/07/11126436/german-chemical-industry-climate-deteriorates-amid-tariffs-henkel-sgl-cut-outlooks"
+    },
+    {
+      "id": "96c2d8b149a691cdba4d6f8c074744cf2440130f083a71891cb8f39a1d7a80ee",
+      "title": "noaa_adjusts_atlantic_hurricane_forecast_but_maintains_prediction_of_above_normal_season",
+      "published_on": "2025-08-07 12:00:00",
+      "scraped_on": "2025-08-09 10:10:41.167063",
+      "language": "en",
+      "length_before_preprocessing": 4870,
+      "length_after_preprocessing": 1086,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/07/11126448/noaa-adjusts-atlantic-hurricane-forecast-but-maintains-prediction-of-above-normal-season"
+    }
+  ]
+}

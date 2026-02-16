@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-06",
+  "publications": [
+    {
+      "id": "00ecbbc42159f6a951c20a2c64cde9cc8f3473477ca4d113f9ae61725676e235",
+      "title": "belgium_s_solvay_q3_net_profit_down_on_lower_soda_ash_sales_volumes",
+      "published_on": "2025-11-06 12:00:00",
+      "scraped_on": "2025-11-06 18:34:57.933746",
+      "language": "en",
+      "length_before_preprocessing": 5774,
+      "length_after_preprocessing": 925,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/06/11152607/belgium-s-solvay-q3-net-profit-down-on-lower-soda-ash-sales-volumes"
+    },
+    {
+      "id": "238a039c2bd63e7ed104bca0ddb41e1943a419faaceac02b53b3c744d513f68e",
+      "title": "lanxess_q3_earnings_lower_on_weak_economics_geopolitical_uncertainties",
+      "published_on": "2025-11-06 12:00:00",
+      "scraped_on": "2025-11-06 18:34:57.936967",
+      "language": "en",
+      "length_before_preprocessing": 5655,
+      "length_after_preprocessing": 793,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/06/11152629/lanxess-q3-earnings-lower-on-weak-economics-geopolitical-uncertainties"
+    },
+    {
+      "id": "760b3e8f85f944052598757238244a831c328522fb55e89b93ce0633d4641bbc",
+      "title": "malaysian_lotte_chemical_titan_s_indonesia_line_project_will_save_on_import_costs_minister",
+      "published_on": "2025-11-06 12:00:00",
+      "scraped_on": "2025-11-06 18:34:57.939549",
+      "language": "en",
+      "length_before_preprocessing": 5939,
+      "length_after_preprocessing": 1085,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/06/11152630/malaysian-lotte-chemical-titan-s-indonesia-line-project-will-save-on-import-costs-minister"
+    }
+  ]
+}

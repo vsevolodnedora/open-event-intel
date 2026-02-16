@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-11-14",
+  "publications": [
+    {
+      "id": "6d5e001c336ea6d61d0a5cd73223695596ac87abc123c7840658e52f5dad1ba5",
+      "title": "president_von_der_leyen_co_hosts_final_pledging_event_scaling_renewables_africa_campaign_and",
+      "published_on": "2025-11-14 12:00:00",
+      "scraped_on": "2025-11-14 18:32:34.562457",
+      "language": "en",
+      "length_before_preprocessing": 4202,
+      "length_after_preprocessing": 1170,
+      "url": "https://energy.ec.europa.eu/news/president-von-der-leyen-co-hosts-final-pledging-event-scaling-renewables-africa-campaign-and-2025-11-14_en"
+    },
+    {
+      "id": "9e777562ee86e5f876831ce815c9f934c0dc29c94215d5eb505a567e398c4392",
+      "title": "commissioners_hoekstra_and_jorgensen_eu_negotiating_team_second_week_cop30",
+      "published_on": "2025-11-14 12:00:00",
+      "scraped_on": "2025-11-14 18:32:34.564560",
+      "language": "en",
+      "length_before_preprocessing": 4214,
+      "length_after_preprocessing": 1136,
+      "url": "https://energy.ec.europa.eu/news/commissioners-hoekstra-and-jorgensen-eu-negotiating-team-second-week-cop30-2025-11-14_en"
+    }
+  ]
+}

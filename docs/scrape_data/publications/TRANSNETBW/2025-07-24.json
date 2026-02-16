@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-07-24",
+  "publications": [
+    {
+      "id": "d5aa0796483b3679a08c0adbc1f9da3657ee9f3e7ea102d953eac485be7388d5",
+      "title": "transnetbw_veroeffentlicht_nachhaltigkeitsbericht_2024",
+      "published_on": "2025-07-24 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.612613",
+      "language": "de",
+      "length_before_preprocessing": 5361,
+      "length_after_preprocessing": 1927,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/transnetbw-veroeffentlicht-nachhaltigkeitsbericht-2024"
+    }
+  ]
+}

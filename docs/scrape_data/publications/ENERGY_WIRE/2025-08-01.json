@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-01",
+  "publications": [
+    {
+      "id": "e6be255b2350bc8633406216f056c3cbb452694bbc8911632b7d25d8b50aed29",
+      "title": "dispatch_european_union_august_25",
+      "published_on": "2025-08-01 14:30:00",
+      "scraped_on": "2025-08-01 18:40:09.068614",
+      "language": "en",
+      "length_before_preprocessing": 7432,
+      "length_after_preprocessing": 3612,
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-august-25"
+    },
+    {
+      "id": "50611719e8a3ed789e482119e3e3d5344bd9d4471a1dfee01bc973c87898bd60",
+      "title": "new_pollen_monitors_contribute_climate_adaptation_efforts_german_weather_service",
+      "published_on": "2025-08-01 12:51:00",
+      "scraped_on": "2025-08-01 18:40:19.960783",
+      "language": "en",
+      "length_before_preprocessing": 6285,
+      "length_after_preprocessing": 993,
+      "url": "https://www.cleanenergywire.org/news/new-pollen-monitors-contribute-climate-adaptation-efforts-german-weather-service"
+    },
+    {
+      "id": "1c055f707c36279c06c579446909200ca2219c495f03098d31b4e6ada134117e",
+      "title": "transport_minister_present_railway_system_reform_plans_end_summer",
+      "published_on": "2025-08-01 12:45:00",
+      "scraped_on": "2025-08-01 18:40:30.864703",
+      "language": "en",
+      "length_before_preprocessing": 6584,
+      "length_after_preprocessing": 1043,
+      "url": "https://www.cleanenergywire.org/news/transport-minister-present-railway-system-reform-plans-end-summer"
+    },
+    {
+      "id": "8cf356ccc928007fa09e19378bc32bc8581119778102a9d43c2a1dc471533e40",
+      "title": "grid_agency_calls_german_govt_quickly_enable_new_backup_power_plants",
+      "published_on": "2025-08-01 12:39:00",
+      "scraped_on": "2025-08-01 18:40:41.737842",
+      "language": "en",
+      "length_before_preprocessing": 6593,
+      "length_after_preprocessing": 832,
+      "url": "https://www.cleanenergywire.org/news/grid-agency-calls-german-govt-quickly-enable-new-backup-power-plants"
+    },
+    {
+      "id": "cb11fc90ee6c621948ab8029d11a5cd074d686aa9d996158116ae1fdb63cd619",
+      "title": "brief_1_august_25",
+      "published_on": "2025-08-01 12:09:00",
+      "scraped_on": "2025-08-01 18:40:52.498228",
+      "language": "en",
+      "length_before_preprocessing": 5442,
+      "length_after_preprocessing": 1011,
+      "url": "https://www.cleanenergywire.org/news/brief-1-august-25"
+    }
+  ]
+}

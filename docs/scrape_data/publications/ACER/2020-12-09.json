@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2020-12-09",
+  "publications": [
+    {
+      "id": "82cafc41b506c7f3ab9f7ae91d3d10fbd4721b94f021deb937ed29049df56880",
+      "title": "acer_decides_common_methodology_splitting_long_term_cross_zonal_electricity_capacity_three_member_states",
+      "published_on": "2020-12-09 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.232471",
+      "language": "en",
+      "length_before_preprocessing": 7557,
+      "length_after_preprocessing": 440,
+      "url": "https://www.acer.europa.eu/news/acer-decides-common-methodology-splitting-long-term-cross-zonal-electricity-capacity-three-member-states"
+    }
+  ]
+}

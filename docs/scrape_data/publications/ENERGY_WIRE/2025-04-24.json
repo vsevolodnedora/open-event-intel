@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-24",
+  "publications": [
+    {
+      "id": "8b23a65a8c61a30c00d1f782bc125ff32cc8132946eeb0cfddb0fd211ad39019",
+      "title": "dispatch_poland_april_2025",
+      "published_on": "2025-04-24 17:08:00",
+      "scraped_on": "2025-07-31 13:18:30.598196",
+      "language": "en",
+      "length_before_preprocessing": 9417,
+      "length_after_preprocessing": 2970,
+      "url": "https://www.cleanenergywire.org/news/dispatch-poland-april-2025"
+    },
+    {
+      "id": "c51cc6e1eedde0fd2e2572e4efb618254051261cedbc228b1189cacca9eed813",
+      "title": "weak_winds_eat_generation_capacity_gains_germanys_renewable_fleet_early_2025",
+      "published_on": "2025-04-24 13:25:00",
+      "scraped_on": "2025-07-31 13:18:42.281350",
+      "language": "en",
+      "length_before_preprocessing": 6868,
+      "length_after_preprocessing": 1041,
+      "url": "https://www.cleanenergywire.org/news/weak-winds-eat-generation-capacity-gains-germanys-renewable-fleet-early-2025"
+    },
+    {
+      "id": "c2184ece449e340c73bfc064d8debbfb95f203f65adaca3c57a60ae30c4575a8",
+      "title": "most_people_germany_clueless_how_new_eu_carbon_price_will_affect_heating_costs_survey",
+      "published_on": "2025-04-24 13:20:00",
+      "scraped_on": "2025-07-31 13:18:53.937443",
+      "language": "en",
+      "length_before_preprocessing": 7661,
+      "length_after_preprocessing": 1712,
+      "url": "https://www.cleanenergywire.org/news/most-people-germany-clueless-how-new-eu-carbon-price-will-affect-heating-costs-survey"
+    },
+    {
+      "id": "d590a4b895a2348151679053ffcd3cb36b66fdb296bf55744d410dc8024e6cbf",
+      "title": "number_sunshine_hours_germany_significantly_recent_years_meteorological_service",
+      "published_on": "2025-04-24 13:16:00",
+      "scraped_on": "2025-07-31 13:19:05.589724",
+      "language": "en",
+      "length_before_preprocessing": 6543,
+      "length_after_preprocessing": 938,
+      "url": "https://www.cleanenergywire.org/news/number-sunshine-hours-germany-significantly-recent-years-meteorological-service"
+    },
+    {
+      "id": "798d322b6e7be2558c7d2da6e47f85910a9f3c65c6bf05267e5a7fdc54719a4f",
+      "title": "brief_24_april_25",
+      "published_on": "2025-04-24 13:14:00",
+      "scraped_on": "2025-07-31 13:19:17.257631",
+      "language": "en",
+      "length_before_preprocessing": 6036,
+      "length_after_preprocessing": 1459,
+      "url": "https://www.cleanenergywire.org/news/brief-24-april-25"
+    }
+  ]
+}

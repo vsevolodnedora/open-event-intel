@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-28",
+  "publications": [
+    {
+      "id": "74e5c7f5fb5ed9eeb7933e799767ed9753a1871cdbbd7209a0632cec664a205a",
+      "title": "genehmigungsverfahren_fuer_projekt_bornholm_energy_island_gestartet",
+      "published_on": "2025-11-28 12:00:00",
+      "scraped_on": "2025-11-28 18:40:42.889035",
+      "language": "de",
+      "length_before_preprocessing": 824,
+      "length_after_preprocessing": 502,
+      "url": "https://www.50hertz.com/de/News/Details/16505/genehmigungsverfahren-fuer-projekt-bornholm-energy-island-gestartet"
+    }
+  ]
+}

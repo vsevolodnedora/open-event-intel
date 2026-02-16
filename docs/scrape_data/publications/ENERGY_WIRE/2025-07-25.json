@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-25",
+  "publications": [
+    {
+      "id": "5cce20369802a9810a29adfc114e471484186f1cfd7ccb9501299df756c31f52",
+      "title": "dispatch_france_july_25",
+      "published_on": "2025-07-25 14:47:00",
+      "scraped_on": "2025-07-31 14:01:52.240405",
+      "language": "en",
+      "length_before_preprocessing": 10631,
+      "length_after_preprocessing": 3958,
+      "url": "https://www.cleanenergywire.org/news/dispatch-france-july-25"
+    },
+    {
+      "id": "cee8b40e06b795ea4689e672c5056457a9e25d90a51914d0a0a0da00f5d33dca",
+      "title": "state_should_cover_100_low_income_households_energy_renovation_costs_think_tank",
+      "published_on": "2025-07-25 13:27:00",
+      "scraped_on": "2025-07-31 14:02:03.767344",
+      "language": "en",
+      "length_before_preprocessing": 7018,
+      "length_after_preprocessing": 1204,
+      "url": "https://www.cleanenergywire.org/news/state-should-cover-100-low-income-households-energy-renovation-costs-think-tank"
+    },
+    {
+      "id": "53d83939c5fe0cbfab5ea086af756617b5dc03cbe66c6015f89740a92e2a5646",
+      "title": "data_centres_germany_planning_own_fossil_fuel_plants_citing_slow_grid_connections_report",
+      "published_on": "2025-07-25 13:24:00",
+      "scraped_on": "2025-07-31 14:02:15.423607",
+      "language": "en",
+      "length_before_preprocessing": 6978,
+      "length_after_preprocessing": 1357,
+      "url": "https://www.cleanenergywire.org/news/data-centres-germany-planning-own-fossil-fuel-plants-citing-slow-grid-connections-report"
+    },
+    {
+      "id": "3f768ff47d3f099383c90be7c07c71fb23e62fb84b786773de3020c6b1c382d8",
+      "title": "brief_25_july_25",
+      "published_on": "2025-07-25 12:19:00",
+      "scraped_on": "2025-07-31 14:02:25.903796",
+      "language": "en",
+      "length_before_preprocessing": 3086,
+      "length_after_preprocessing": 891,
+      "url": "https://www.cleanenergywire.org/news/brief-25-july-25"
+    }
+  ]
+}

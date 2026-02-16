@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-08",
+  "publications": [
+    {
+      "id": "866eda6d24e97ba45a9ab9e69ad8019e0ee9a24cd352b258517c98924d1196c2",
+      "title": "highest_temperatures_ever_recorded_germanys_north_sea_maritime_agency",
+      "published_on": "2025-01-08 13:08:00",
+      "scraped_on": "2025-07-31 12:12:21.663622",
+      "language": "en",
+      "length_before_preprocessing": 6179,
+      "length_after_preprocessing": 710,
+      "url": "https://www.cleanenergywire.org/news/highest-temperatures-ever-recorded-germanys-north-sea-maritime-agency"
+    },
+    {
+      "id": "0ac95807cd9ae57b60634bea7597f42828f6f8ca028e0ec6ffeaf0ae1f3f2033",
+      "title": "vulnerable_households_germany_need_more_state_help_tackle_energy_poverty_report",
+      "published_on": "2025-01-08 13:02:00",
+      "scraped_on": "2025-07-31 12:12:33.174856",
+      "language": "en",
+      "length_before_preprocessing": 7015,
+      "length_after_preprocessing": 1148,
+      "url": "https://www.cleanenergywire.org/news/vulnerable-households-germany-need-more-state-help-tackle-energy-poverty-report"
+    },
+    {
+      "id": "e941f2665c716b35fd9439539aa46538938ba91be9cf60fca8413339d3087bf3",
+      "title": "german_businesses_want_solutions_rising_short_power_outages_association",
+      "published_on": "2025-01-08 12:57:00",
+      "scraped_on": "2025-07-31 12:12:44.819526",
+      "language": "en",
+      "length_before_preprocessing": 6595,
+      "length_after_preprocessing": 809,
+      "url": "https://www.cleanenergywire.org/news/german-businesses-want-solutions-rising-short-power-outages-association"
+    },
+    {
+      "id": "7a108946352172df8089b856390a77fa354c73f7388ef87507fd53500957da55",
+      "title": "sustainable_finance_rules_set_fully_enter_real_economy_2025_finance_industry_initiative",
+      "published_on": "2025-01-08 12:06:00",
+      "scraped_on": "2025-07-31 12:12:56.666253",
+      "language": "en",
+      "length_before_preprocessing": 12516,
+      "length_after_preprocessing": 5748,
+      "url": "https://www.cleanenergywire.org/news/sustainable-finance-rules-set-fully-enter-real-economy-2025-finance-industry-initiative"
+    },
+    {
+      "id": "ea4b81b6391fbaeaf249280ff5ac3aa78250a9cbf70bf982343ed752d2c2c2b2",
+      "title": "brief_8_january_25",
+      "published_on": "2025-01-08 10:14:00",
+      "scraped_on": "2025-07-31 12:13:08.144082",
+      "language": "en",
+      "length_before_preprocessing": 4929,
+      "length_after_preprocessing": 623,
+      "url": "https://www.cleanenergywire.org/news/brief-8-january-25"
+    },
+    {
+      "id": "b0c3e280f21f888df1fe138461cea5b34cf7610f5f1b509af210a4df810df272",
+      "title": "germanys_electricity_mix_2024_cleanest_ever_researchers",
+      "published_on": "2025-01-08 10:08:00",
+      "scraped_on": "2025-07-31 12:13:19.785656",
+      "language": "en",
+      "length_before_preprocessing": 7028,
+      "length_after_preprocessing": 1127,
+      "url": "https://www.cleanenergywire.org/news/germanys-electricity-mix-2024-cleanest-ever-researchers"
+    }
+  ]
+}

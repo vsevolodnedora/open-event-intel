@@ -1,0 +1,36 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-10-24",
+  "publications": [
+    {
+      "id": "66bf9f7e15544cecd9d3fea8f5934c00e9c3a4ad303fbc0984ddadfb29e962ba",
+      "title": "infotour_nordostlink_austausch_und_einblicke_im_planungsabschnitt_5",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:37:10.736622",
+      "language": "de",
+      "length_before_preprocessing": 1642,
+      "length_after_preprocessing": 1083,
+      "url": "https://www.50hertz.com/de/News/Details/16356/infotour-nordostlink-austausch-und-einblicke-im-planungsabschnitt-5"
+    },
+    {
+      "id": "c7f606c4b7386bd5a33e19a394856fde46ae2eb1783d88aec9ce80892ee443d6",
+      "title": "wichtige_netzverstaerkung_50hertz_nimmt_380_kv_freileitung_roehrsdorf_weida_remptendorf_in_betrieb",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:38:44.361052",
+      "language": "de",
+      "length_before_preprocessing": 2207,
+      "length_after_preprocessing": 1766,
+      "url": "https://www.50hertz.com/de/News/Details/16370/wichtige-netzverstaerkung-50hertz-nimmt-380-kv-freileitung-roehrsdorf-weida-remptendorf-in-betrieb"
+    },
+    {
+      "id": "430a04b7aef96147470c2002221003b134c4b2f64cb1cbd160e264344bd73ac0",
+      "title": "50hertz_nimmt_netzverstaerkung_roehrsdorf_weida_remptendorf_in_betrieb",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:40:19.446915",
+      "language": "de",
+      "length_before_preprocessing": 2068,
+      "length_after_preprocessing": 1697,
+      "url": "https://www.50hertz.com/de/News/Details/16373/50hertz-nimmt-netzverstaerkung-roehrsdorf-weida-remptendorf-in-betrieb"
+    }
+  ]
+}

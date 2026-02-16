@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-09",
+  "publications": [
+    {
+      "id": "2bd43e45c40eff2f8de1c64bfd44faa80ca7af565d5e7277e580988643c6824b",
+      "title": "dispatch_european_union_may_25",
+      "published_on": "2025-05-09 16:15:00",
+      "scraped_on": "2025-07-31 13:21:14.185090",
+      "language": "en",
+      "length_before_preprocessing": 10981,
+      "length_after_preprocessing": 4129,
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-may-25"
+    },
+    {
+      "id": "0320e2d17474df5d60017b26d1aafaae537a528528d658a17a561955e899a2a3",
+      "title": "further_electrifying_germanys_railway_lines_key_climate_national_security_train_lobby_groups",
+      "published_on": "2025-05-09 13:47:00",
+      "scraped_on": "2025-07-31 13:21:25.838918",
+      "language": "en",
+      "length_before_preprocessing": 6861,
+      "length_after_preprocessing": 1128,
+      "url": "https://www.cleanenergywire.org/news/further-electrifying-germanys-railway-lines-key-climate-national-security-train-lobby-groups"
+    },
+    {
+      "id": "d6e1de9c81fdf6ae9ceb7354b4bdc36a4711fef3a39be37cb6b048febabb787b",
+      "title": "merz_calls_restart_europe_new_chancellor_makes_first_official_trips_france_poland",
+      "published_on": "2025-05-09 13:44:00",
+      "scraped_on": "2025-07-31 13:21:36.480237",
+      "language": "en",
+      "length_before_preprocessing": 7152,
+      "length_after_preprocessing": 1463,
+      "url": "https://www.cleanenergywire.org/news/merz-calls-restart-europe-new-chancellor-makes-first-official-trips-france-poland"
+    },
+    {
+      "id": "860abd407b766bb9db5490c81cfe8da1cb61d417d07c65cb65509bed780ea338",
+      "title": "germanys_new_energy_minister_calls_reality_check_costs_and_risks_renewables",
+      "published_on": "2025-05-09 13:39:00",
+      "scraped_on": "2025-07-31 13:21:48.142903",
+      "language": "en",
+      "length_before_preprocessing": 7630,
+      "length_after_preprocessing": 1518,
+      "url": "https://www.cleanenergywire.org/news/germanys-new-energy-minister-calls-reality-check-costs-and-risks-renewables"
+    },
+    {
+      "id": "a0c738597be085a799af9c65dc82beea1681fcdf021f879247fe0767bfa9459f",
+      "title": "brief_9_may_25",
+      "published_on": "2025-05-09 12:00:00",
+      "scraped_on": "2025-07-31 13:21:59.613819",
+      "language": "en",
+      "length_before_preprocessing": 5033,
+      "length_after_preprocessing": 623,
+      "url": "https://www.cleanenergywire.org/news/brief-9-may-25"
+    }
+  ]
+}

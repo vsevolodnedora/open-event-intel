@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-21",
+  "publications": [
+    {
+      "id": "44a3c52ca67232e03e6df401149ecf56f9f3c0d14387e1ee0753d11bcf4132b1",
+      "title": "dispatch_poland_november_25",
+      "published_on": "2025-11-21 15:30:00",
+      "scraped_on": "2025-11-21 18:33:51.676202",
+      "language": "en",
+      "length_before_preprocessing": 7937,
+      "length_after_preprocessing": 3444,
+      "url": "https://www.cleanenergywire.org/news/dispatch-poland-november-25"
+    },
+    {
+      "id": "3dd98112d52f592b585abe88ebb9951547eebbdeefe04edffc0136dd3cd79c26",
+      "title": "german_carbon_storage_law_reform_clears_final_hurdle",
+      "published_on": "2025-11-21 11:54:00",
+      "scraped_on": "2025-11-21 18:34:02.553838",
+      "language": "en",
+      "length_before_preprocessing": 6052,
+      "length_after_preprocessing": 938,
+      "url": "https://www.cleanenergywire.org/news/german-carbon-storage-law-reform-clears-final-hurdle"
+    },
+    {
+      "id": "a481e7f0704629818afd39b20eed308f9e700b830be2d7f909ce83cfddcc7db3",
+      "title": "half_eu_budget_should_contribute_environmental_goals_german_ngos",
+      "published_on": "2025-11-21 11:24:00",
+      "scraped_on": "2025-11-21 18:34:13.509269",
+      "language": "en",
+      "length_before_preprocessing": 6800,
+      "length_after_preprocessing": 918,
+      "url": "https://www.cleanenergywire.org/news/half-eu-budget-should-contribute-environmental-goals-german-ngos"
+    },
+    {
+      "id": "c4cb7b64d529fe1b4f89beb72136b4c7150a27f7a5d6cde55c499f21900e86cf",
+      "title": "brief_21_november_25",
+      "published_on": "2025-11-21 10:41:00",
+      "scraped_on": "2025-11-21 18:34:24.377508",
+      "language": "en",
+      "length_before_preprocessing": 4928,
+      "length_after_preprocessing": 396,
+      "url": "https://www.cleanenergywire.org/news/brief-21-november-25"
+    },
+    {
+      "id": "86585f49dddf5b8d912f78f5f5fd598ddf0f41f81cd53a63e959f6deaf5dd901",
+      "title": "germany_pledges_one_billion_euros_tropical_rainforest_fund",
+      "published_on": "2025-11-21 10:08:00",
+      "scraped_on": "2025-11-21 18:34:35.343575",
+      "language": "en",
+      "length_before_preprocessing": 7793,
+      "length_after_preprocessing": 1827,
+      "url": "https://www.cleanenergywire.org/news/germany-pledges-one-billion-euros-tropical-rainforest-fund"
+    }
+  ]
+}

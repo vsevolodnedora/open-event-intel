@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-04",
+  "publications": [
+    {
+      "id": "ff68d6ad60276ff32d6fcfb03ea1703d7e2904f1923b806401926cfa415c85aa",
+      "title": "next_german_govt_must_continue_decarbonisation_heating_industry_alliance",
+      "published_on": "2025-03-04 13:31:00",
+      "scraped_on": "2025-07-31 12:49:02.294325",
+      "language": "en",
+      "length_before_preprocessing": 6682,
+      "length_after_preprocessing": 924,
+      "url": "https://www.cleanenergywire.org/news/next-german-govt-must-continue-decarbonisation-heating-industry-alliance"
+    },
+    {
+      "id": "35879fe7580bdee4e483d410cc7486c920a8620b71b98c9dd697ea47d21634f8",
+      "title": "germany_far_2030_electric_vehicle_target_registered_fleet_hits_165_million",
+      "published_on": "2025-03-04 13:28:00",
+      "scraped_on": "2025-07-31 12:49:13.947281",
+      "language": "en",
+      "length_before_preprocessing": 6929,
+      "length_after_preprocessing": 994,
+      "url": "https://www.cleanenergywire.org/news/germany-far-2030-electric-vehicle-target-registered-fleet-hits-165-million"
+    },
+    {
+      "id": "918ea207f4a31708747e9736238f9ea9d4857440e5aa965f07081ae9bc09f7d8",
+      "title": "brief_4_march_25",
+      "published_on": "2025-03-04 11:39:00",
+      "scraped_on": "2025-07-31 12:49:25.662833",
+      "language": "en",
+      "length_before_preprocessing": 5830,
+      "length_after_preprocessing": 1288,
+      "url": "https://www.cleanenergywire.org/news/brief-4-march-25"
+    }
+  ]
+}

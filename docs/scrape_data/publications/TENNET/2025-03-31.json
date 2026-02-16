@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-03-31",
+  "publications": [
+    {
+      "id": "130a3cbc5100f19b6228a148655ce1ad4657cf2394d4302f230532116e25b029",
+      "title": "partielle_sonnenfinsternis_ohne_auswirkungen_auf_die_stromversorgung_0",
+      "published_on": "2025-03-31 12:00:00",
+      "scraped_on": "2025-08-03 10:07:56.568834",
+      "language": "de",
+      "length_before_preprocessing": 2794,
+      "length_after_preprocessing": 986,
+      "url": "https://www.tennet.eu/de/news/partielle-sonnenfinsternis-ohne-auswirkungen-auf-die-stromversorgung-0"
+    }
+  ]
+}

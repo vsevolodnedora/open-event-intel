@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-28",
+  "publications": [
+    {
+      "id": "6734ddd8b1fdc78057c126cd6e4b120d638f896c8bbbb58cbe5a2ed8a6df34bd",
+      "title": "experienced_energy_manager_merzs_surprise_pick_heading_germanys_economy_ministry",
+      "published_on": "2025-04-28 13:55:00",
+      "scraped_on": "2025-07-31 13:16:46.633236",
+      "language": "en",
+      "length_before_preprocessing": 6701,
+      "length_after_preprocessing": 2774,
+      "url": "https://www.cleanenergywire.org/news/experienced-energy-manager-merzs-surprise-pick-heading-germanys-economy-ministry"
+    },
+    {
+      "id": "743ff9b9c5b8baa4eefc3157486c45a182acf3e247296a97ef534e3983cf2772",
+      "title": "brief_28_april_25",
+      "published_on": "2025-04-28 13:45:00",
+      "scraped_on": "2025-07-31 13:16:58.338234",
+      "language": "en",
+      "length_before_preprocessing": 5296,
+      "length_after_preprocessing": 915,
+      "url": "https://www.cleanenergywire.org/news/brief-28-april-25"
+    },
+    {
+      "id": "b981132570438ffe83b25af2a70f48935be34d09b6141d8d0834c5f7493b1488",
+      "title": "grid_operators_recommend_splitting_german_power_price_zone_industry_disagrees",
+      "published_on": "2025-04-28 13:38:00",
+      "scraped_on": "2025-07-31 13:17:09.990529",
+      "language": "en",
+      "length_before_preprocessing": 8894,
+      "length_after_preprocessing": 2842,
+      "url": "https://www.cleanenergywire.org/news/grid-operators-recommend-splitting-german-power-price-zone-industry-disagrees"
+    },
+    {
+      "id": "7584c16639859c4ecb6d068ef0fcbbbdd2f4c92dafde707aff65884874f8cb7c",
+      "title": "must_better_connect_energy_island_iberian_peninsula_rest_europe_reap_benefits_spain",
+      "published_on": "2025-04-28 10:45:00",
+      "scraped_on": "2025-07-31 13:17:21.699771",
+      "language": "en",
+      "length_before_preprocessing": 8224,
+      "length_after_preprocessing": 2405,
+      "url": "https://www.cleanenergywire.org/news/must-better-connect-energy-island-iberian-peninsula-rest-europe-reap-benefits-spain"
+    }
+  ]
+}

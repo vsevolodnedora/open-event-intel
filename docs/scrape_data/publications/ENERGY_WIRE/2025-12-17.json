@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-12-17",
+  "publications": [
+    {
+      "id": "00424502567b6d0dae49414516c0a3dc7f870f615f5a8cbb44bdaa421ac4d63e",
+      "title": "wind_turbines_installed_southern_germany_buffer_doldrums_northern_states_analysis",
+      "published_on": "2025-12-17 13:39:00",
+      "scraped_on": "2025-12-17 18:24:03.468796",
+      "language": "en",
+      "length_before_preprocessing": 4775,
+      "length_after_preprocessing": 1497,
+      "url": "https://www.cleanenergywire.org/news/wind-turbines-installed-southern-germany-buffer-doldrums-northern-states-analysis"
+    },
+    {
+      "id": "2be1f43d17d2f4a7bc67b17405eb2a4441336d29d4037dfcde4f9c05ce59449a",
+      "title": "eu_eases_stance_post_2035_car_emissions_rules_drawing_mixed_reactions_germany",
+      "published_on": "2025-12-17 13:16:00",
+      "scraped_on": "2025-12-17 18:24:14.371489",
+      "language": "en",
+      "length_before_preprocessing": 7441,
+      "length_after_preprocessing": 1772,
+      "url": "https://www.cleanenergywire.org/news/eu-eases-stance-post-2035-car-emissions-rules-drawing-mixed-reactions-germany"
+    },
+    {
+      "id": "a2ad706621e18cfb8fff0558f5a6fff383850aa4ce87bad27b6a1b154998ca5e",
+      "title": "germanys_co2_emissions_set_fall_slightly_2025_energy_demand_stagnates",
+      "published_on": "2025-12-17 13:05:00",
+      "scraped_on": "2025-12-17 18:24:25.290155",
+      "language": "en",
+      "length_before_preprocessing": 6631,
+      "length_after_preprocessing": 1086,
+      "url": "https://www.cleanenergywire.org/news/germanys-co2-emissions-set-fall-slightly-2025-energy-demand-stagnates"
+    },
+    {
+      "id": "1ec95825e08370148eab8421714eec53f2a9ce7b06a1f176d12729e734c14a46",
+      "title": "2026_set_shape_future_eus_climate_and_energy_architecture",
+      "published_on": "2025-12-17 12:00:00",
+      "scraped_on": "2025-12-17 18:24:36.184021",
+      "language": "en",
+      "length_before_preprocessing": 9323,
+      "length_after_preprocessing": 3292,
+      "url": "https://www.cleanenergywire.org/news/2026-set-shape-future-eus-climate-and-energy-architecture"
+    },
+    {
+      "id": "9fb31b61885d20a4a31bb446bf8af78219b438761c6a1fd1036c175341508e42",
+      "title": "preview_2026_germany_should_use_electricity_market_reform_efficient_renewables_additions_researcher",
+      "published_on": "2025-12-17 11:00:00",
+      "scraped_on": "2025-12-17 18:24:47.124000",
+      "language": "en",
+      "length_before_preprocessing": 9090,
+      "length_after_preprocessing": 2840,
+      "url": "https://www.cleanenergywire.org/news/preview-2026-germany-should-use-electricity-market-reform-efficient-renewables-additions-researcher"
+    },
+    {
+      "id": "0d9c6ae975d8cf9294af68722ca7a353d248743bab96a345e1dd269213141e23",
+      "title": "brief_17_december_25",
+      "published_on": "2025-12-17 10:27:00",
+      "scraped_on": "2025-12-17 18:24:57.910143",
+      "language": "en",
+      "length_before_preprocessing": 5814,
+      "length_after_preprocessing": 1291,
+      "url": "https://www.cleanenergywire.org/news/brief-17-december-25"
+    }
+  ]
+}

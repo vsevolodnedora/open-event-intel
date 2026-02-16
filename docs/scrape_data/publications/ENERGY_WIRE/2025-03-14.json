@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-14",
+  "publications": [
+    {
+      "id": "b8cbb2fd6e5c9012232449771ba9da597be84d148d29997c218fb1e13aae6138",
+      "title": "dispatch_poland_march_2025",
+      "published_on": "2025-03-14 13:47:00",
+      "scraped_on": "2025-07-31 12:51:59.188315",
+      "language": "en",
+      "length_before_preprocessing": 9259,
+      "length_after_preprocessing": 2957,
+      "url": "https://www.cleanenergywire.org/news/dispatch-poland-march-2025"
+    },
+    {
+      "id": "2eee350228bb48738df91d7aa05e287dace9ed7d48d7b8c8182ffc1f37eaa861",
+      "title": "next_german_govt_must_raise_climate_ambition_avoid_multi_billion_euro_eu_target_miss_env_agency",
+      "published_on": "2025-03-14 13:15:00",
+      "scraped_on": "2025-07-31 12:52:10.903778",
+      "language": "en",
+      "length_before_preprocessing": 10746,
+      "length_after_preprocessing": 4430,
+      "url": "https://www.cleanenergywire.org/news/next-german-govt-must-raise-climate-ambition-avoid-multi-billion-euro-eu-target-miss-env-agency"
+    },
+    {
+      "id": "11aa24c5e2e2f4a71708caa1ccebbd3b8bbc7c28173b48dadfcc57ea3aa7905f",
+      "title": "merz_reaches_deal_infrastructure_fund_promising_greens_eu100_bln_climate_action",
+      "published_on": "2025-03-14 13:10:00",
+      "scraped_on": "2025-07-31 12:52:22.755969",
+      "language": "en",
+      "length_before_preprocessing": 7218,
+      "length_after_preprocessing": 1529,
+      "url": "https://www.cleanenergywire.org/news/merz-reaches-deal-infrastructure-fund-promising-greens-eu100-bln-climate-action"
+    },
+    {
+      "id": "60a59f5ba95d6e1317288cbd3564f1b622e5a2009c181a01daf245dcba095dba",
+      "title": "brief_14_march_25",
+      "published_on": "2025-03-14 12:00:00",
+      "scraped_on": "2025-07-31 12:52:34.273621",
+      "language": "en",
+      "length_before_preprocessing": 5155,
+      "length_after_preprocessing": 733,
+      "url": "https://www.cleanenergywire.org/news/brief-14-march-25"
+    }
+  ]
+}

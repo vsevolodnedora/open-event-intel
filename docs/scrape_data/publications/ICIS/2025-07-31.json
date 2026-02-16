@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-07-31",
+  "publications": [
+    {
+      "id": "4df386dfebb29c6429e884f7b6b84547fee4184fdc8f732a7b5643396d5bbd01",
+      "title": "trump_says_25_tariffs_to_apply_to_india_as_negotiations_continue",
+      "published_on": "2025-07-31 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.082297",
+      "language": "en",
+      "length_before_preprocessing": 6468,
+      "length_after_preprocessing": 2354,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/31/11123871/trump-says-25-tariffs-to-apply-to-india-as-negotiations-continue"
+    },
+    {
+      "id": "8ba8a27562c87f37d4dbba48579b69093697d81a93e6a54bb0018d5ce324a7b1",
+      "title": "germany_s_wacker_extends_q2_net_loss_on_economic_uncertainty",
+      "published_on": "2025-07-31 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.082939",
+      "language": "en",
+      "length_before_preprocessing": 4524,
+      "length_after_preprocessing": 813,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/31/11123900/germany-s-wacker-extends-q2-net-loss-on-economic-uncertainty"
+    },
+    {
+      "id": "c02b705582b8d16f28893571024d625e1246bf8ace5f26275edba1482a5118a4",
+      "title": "brazil_s_central_bank_holds_rates_at_15_ahead_of_us_tariffs",
+      "published_on": "2025-07-31 12:00:00",
+      "scraped_on": "2025-07-31 14:53:45.065738",
+      "language": "en",
+      "length_before_preprocessing": 6730,
+      "length_after_preprocessing": 1983,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/31/11124036/brazil-s-central-bank-holds-rates-at-15-ahead-of-us-tariffs"
+    },
+    {
+      "id": "0dc63f05dc672606e03e3a459707771eee5dae74e2d61c15d7c73763720583a1",
+      "title": "changing_petrochemicals_landscape_drives_need_for_more_consolidation_omv_ceo",
+      "published_on": "2025-07-31 12:00:00",
+      "scraped_on": "2025-07-31 14:53:45.069155",
+      "language": "en",
+      "length_before_preprocessing": 5945,
+      "length_after_preprocessing": 1243,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/31/11123922/changing-petrochemicals-landscape-drives-need-for-more-consolidation-omv-ceo"
+    },
+    {
+      "id": "97e8367d90b81426544113808bc6b11e083087784c5801d45cc4e43eed904cfc",
+      "title": "trump_extends_deadline_for_mexico_tariff_deal_by_90_days",
+      "published_on": "2025-07-31 12:00:00",
+      "scraped_on": "2025-08-01 18:37:43.406208",
+      "language": "en",
+      "length_before_preprocessing": 5757,
+      "length_after_preprocessing": 677,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/31/11124074/trump-extends-deadline-for-mexico-tariff-deal-by-90-days"
+    }
+  ]
+}

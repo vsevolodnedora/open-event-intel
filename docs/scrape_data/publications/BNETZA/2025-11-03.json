@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-11-03",
+  "publications": [
+    {
+      "id": "2b6c7e11ed3cc27b0391420117a3b02f67a52d50142fcc7566fda107a8a1ced9",
+      "title": "Sicherheitskatalog",
+      "published_on": "2025-11-03 12:00:00",
+      "scraped_on": "2025-11-03 18:32:55.884190",
+      "language": "de",
+      "length_before_preprocessing": 3873,
+      "length_after_preprocessing": 1255,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251103_Sicherheitskatalog.html"
+    }
+  ]
+}

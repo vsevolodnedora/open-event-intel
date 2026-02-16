@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-01-01",
+  "publications": [
+    {
+      "id": "b5a0982677ea391fe77c606b25bebfd9bf5e58c8cf9b36f287ece30b3abb998f",
+      "title": "energietraegerscharfe_importe_nach_laendern",
+      "published_on": "2025-01-01 12:00:00",
+      "scraped_on": "2026-01-14 09:23:39.297603",
+      "language": "de",
+      "length_before_preprocessing": 7840,
+      "length_after_preprocessing": 5988,
+      "url": "https://www.smard.de/page/home/topic-article/211972/214518/energietraegerscharfe-importe-nach-laendern"
+    }
+  ]
+}

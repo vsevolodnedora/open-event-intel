@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2021-03-11",
+  "publications": [
+    {
+      "id": "2cb9dfd565d9d1989b369aa07ef7128957418f50b66b5a2f815f9809b8cce9ed",
+      "title": "three_steps_to_south_korean_climate_neutrality",
+      "published_on": "2021-03-11 12:00:00",
+      "scraped_on": "2025-07-31 18:40:03.680084",
+      "language": "en",
+      "length_before_preprocessing": 6141,
+      "length_after_preprocessing": 2512,
+      "url": "https://www.agora-energiewende.org/news-events/three-steps-to-south-korean-climate-neutrality"
+    }
+  ]
+}

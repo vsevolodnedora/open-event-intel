@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-09-10",
+  "publications": [
+    {
+      "id": "0ceb22c98618dcc3e3449d46349d035b394b771da30b31e95715661718272575",
+      "title": "uebertragungsnetzbetreiber_50hertz_macht_umweltdaten_fuer_infrastrukturprojekte_zugaenglich",
+      "published_on": "2025-09-10 12:00:00",
+      "scraped_on": "2025-09-10 18:37:11.019082",
+      "language": "de",
+      "length_before_preprocessing": 2463,
+      "length_after_preprocessing": 2010,
+      "url": "https://www.50hertz.com/de/News/Details/16197/uebertragungsnetzbetreiber-50hertz-macht-umweltdaten-fuer-infrastrukturprojekte-zugaenglich"
+    }
+  ]
+}

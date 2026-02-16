@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-03-28",
+  "publications": [
+    {
+      "id": "dd4cecc104be13ebe18b79df3866ef73cdaad2ed1415273f8eb028f5397cdee6",
+      "title": "acer_amends_eu_electricity_single_intraday_coupling_products_methodology_enhance_market_flexibility",
+      "published_on": "2025-03-28 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.221644",
+      "language": "en",
+      "length_before_preprocessing": 8199,
+      "length_after_preprocessing": 993,
+      "url": "https://www.acer.europa.eu/news/acer-amends-eu-electricity-single-intraday-coupling-products-methodology-enhance-market-flexibility"
+    }
+  ]
+}

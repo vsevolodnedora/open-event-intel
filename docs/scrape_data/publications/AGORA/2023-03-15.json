@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2023-03-15",
+  "publications": [
+    {
+      "id": "2d3b893464603a82541ae265e16c203499b811d0203de243e6e1b725987b3751",
+      "title": "why_a_successful_european_response_to_the_ira_needs_to_build_on_the_eu_green_deal",
+      "published_on": "2023-03-15 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.430294",
+      "language": "en",
+      "length_before_preprocessing": 5084,
+      "length_after_preprocessing": 1889,
+      "url": "https://www.agora-energiewende.org/news-events/why-a-successful-european-response-to-the-ira-needs-to-build-on-the-eu-green-deal"
+    }
+  ]
+}

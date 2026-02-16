@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-09-01",
+  "publications": [
+    {
+      "id": "803f064d05039ead4ac4f9559e34091cb264b5dadd19f2004918afb88483a25e",
+      "title": "Kohle",
+      "published_on": "2025-09-01 12:00:00",
+      "scraped_on": "2025-09-01 18:32:20.907456",
+      "language": "de",
+      "length_before_preprocessing": 3661,
+      "length_after_preprocessing": 1103,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250901_Kohle.html"
+    }
+  ]
+}

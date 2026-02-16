@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-28",
+  "publications": [
+    {
+      "id": "a112cc68fc225d61165c1653570b9a66344ecc4f032b1b5c1b33c1801b260891",
+      "title": "s_korea_q3_economy_grows_1_7_year_on_year_on_spending_semiconductor_exports",
+      "published_on": "2025-10-28 12:00:00",
+      "scraped_on": "2025-10-28 18:35:34.016038",
+      "language": "en",
+      "length_before_preprocessing": 5007,
+      "length_after_preprocessing": 1151,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/28/11149580/s-korea-q3-economy-grows-1-7-year-on-year-on-spending-semiconductor-exports"
+    },
+    {
+      "id": "8548b4667b8a467f5b93520e72979392b95696fe7265a7bbf48f0a630150a7fb",
+      "title": "malaysia_s_sarawak_state_to_scale_down_proposed_low_carbon_hydrogen_on_costs",
+      "published_on": "2025-10-28 12:00:00",
+      "scraped_on": "2025-10-28 18:35:34.021100",
+      "language": "en",
+      "length_before_preprocessing": 6244,
+      "length_after_preprocessing": 995,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/28/11149587/malaysia-s-sarawak-state-to-scale-down-proposed-low-carbon-hydrogen-on-costs"
+    },
+    {
+      "id": "f15a2e88cbba05425ad77885071114a918689fae3dbd0732d7535a04a7bc61b8",
+      "title": "moves_basf_appoints_new_head_of_chemicals_and_nutrition_amp_care_segments",
+      "published_on": "2025-10-28 12:00:00",
+      "scraped_on": "2025-10-28 18:35:34.023076",
+      "language": "en",
+      "length_before_preprocessing": 5492,
+      "length_after_preprocessing": 641,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/28/11149651/moves-basf-appoints-new-head-of-chemicals-and-nutrition-amp-care-segments"
+    },
+    {
+      "id": "8132fc405fc342194ce5432a118095afeb5dc20ceca1eb623a10780738f1dbd2",
+      "title": "aligned_regulation_udb_and_demand_obligation_key_to_eu_biomethane_boost_eba",
+      "published_on": "2025-10-28 12:00:00",
+      "scraped_on": "2025-10-28 18:35:34.024859",
+      "language": "en",
+      "length_before_preprocessing": 7351,
+      "length_after_preprocessing": 2513,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/28/11149679/aligned-regulation-udb-and-demand-obligation-key-to-eu-biomethane-boost-eba"
+    },
+    {
+      "id": "318c65460b42374b06a7c5163b2725c570a80543f8569d5e379f33f2cf2f2595",
+      "title": "brazil_potash_strikes_third_deal_for_autazes_with_91_of_future_production_now_pre_sold",
+      "published_on": "2025-10-28 12:00:00",
+      "scraped_on": "2025-10-29 18:35:49.160543",
+      "language": "en",
+      "length_before_preprocessing": 5576,
+      "length_after_preprocessing": 748,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/28/11149738/brazil-potash-strikes-third-deal-for-autazes-with-91-of-future-production-now-pre-sold"
+    },
+    {
+      "id": "c3a3cc8402b7bdfeed012ae86cee5d4d160cdcb4b889851c52804a9a46da49c5",
+      "title": "us_olin_shares_down_by_over_12_amid_dim_outlook_for_demand_recovery",
+      "published_on": "2025-10-28 12:00:00",
+      "scraped_on": "2025-10-29 18:35:49.164632",
+      "language": "en",
+      "length_before_preprocessing": 7155,
+      "length_after_preprocessing": 2319,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/28/11149714/us-olin-shares-down-by-over-12-amid-dim-outlook-for-demand-recovery"
+    }
+  ]
+}

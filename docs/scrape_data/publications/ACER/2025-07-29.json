@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-07-29",
+  "publications": [
+    {
+      "id": "e3fb01c2eafc9d1b56b6b9dd88b83852e13e6ac2c1dc74ab0a2f8cdc7bff47cd",
+      "title": "acer_recommends_flexible_and_transparent_inter_temporal_cost_allocation_support_hydrogen_investments",
+      "published_on": "2025-07-29 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.209505",
+      "language": "en",
+      "length_before_preprocessing": 8455,
+      "length_after_preprocessing": 1250,
+      "url": "https://www.acer.europa.eu/news/acer-recommends-flexible-and-transparent-inter-temporal-cost-allocation-support-hydrogen-investments"
+    },
+    {
+      "id": "150cd0607b2f284bcdd6ff97d0a2c669a05db8d759029d452ab68b68abdf0f8a",
+      "title": "acer_decide_amending_intraday_cross_zonal_gate_opening_and_closure_time_methodology",
+      "published_on": "2025-07-29 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.211163",
+      "language": "en",
+      "length_before_preprocessing": 8058,
+      "length_after_preprocessing": 1004,
+      "url": "https://www.acer.europa.eu/news/acer-decide-amending-intraday-cross-zonal-gate-opening-and-closure-time-methodology"
+    }
+  ]
+}

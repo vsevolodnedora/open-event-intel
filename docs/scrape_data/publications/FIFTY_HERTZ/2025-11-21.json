@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-21",
+  "publications": [
+    {
+      "id": "899b94fdf0ebb021ef0e7d5076b7f34b0746357318596db00d29a532706b530b",
+      "title": "informationsangebot_des_bundesamtes_fuer_strahlenschutz_zu_elektrischen_und_magnetischen_feldern",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-21 18:36:51.797538",
+      "language": "de",
+      "length_before_preprocessing": 1142,
+      "length_after_preprocessing": 738,
+      "url": "https://www.50hertz.com/de/News/Details/16488/informationsangebot-des-bundesamtes-fuer-strahlenschutz-zu-elektrischen-und-magnetischen-feldern"
+    }
+  ]
+}

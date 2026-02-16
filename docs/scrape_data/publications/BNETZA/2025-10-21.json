@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-10-21",
+  "publications": [
+    {
+      "id": "708e067db9add6b1c290ce37ec622fc3f1c85680f5819ded96735ff070bd0655",
+      "title": "Preisspitzen",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-21 14:28:07.993968",
+      "language": "de",
+      "length_before_preprocessing": 5770,
+      "length_after_preprocessing": 3017,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251021_Preisspitzen.html"
+    }
+  ]
+}

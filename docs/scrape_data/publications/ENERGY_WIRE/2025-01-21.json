@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-21",
+  "publications": [
+    {
+      "id": "d57bc3f305cd332f7e490da6a78ce7bf80af0f9a12af8e7f011d656b0952446a",
+      "title": "defiant_climate_advocates_germany_call_eu_resolve_trump_returns_office",
+      "published_on": "2025-01-21 13:01:00",
+      "scraped_on": "2025-07-31 12:14:54.552808",
+      "language": "en",
+      "length_before_preprocessing": 9312,
+      "length_after_preprocessing": 3080,
+      "url": "https://www.cleanenergywire.org/news/defiant-climate-advocates-germany-call-eu-resolve-trump-returns-office"
+    },
+    {
+      "id": "bc9f9f0e450f361b1a7aa75e597d5a69e91cbd7921a3380b1d8f5301a2fe058a",
+      "title": "cold_storage_facilities_could_become_energy_flexibility_option_ai_energy_management",
+      "published_on": "2025-01-21 12:45:00",
+      "scraped_on": "2025-07-31 12:15:06.097517",
+      "language": "en",
+      "length_before_preprocessing": 6559,
+      "length_after_preprocessing": 1081,
+      "url": "https://www.cleanenergywire.org/news/cold-storage-facilities-could-become-energy-flexibility-option-ai-energy-management"
+    },
+    {
+      "id": "649d0b6cbccd193592c2e0e8729a486dde4675cdbef3d2b96463e384b3fb096e",
+      "title": "reduced_electricity_demand_could_slash_germanys_transition_investments_2035_report",
+      "published_on": "2025-01-21 12:35:00",
+      "scraped_on": "2025-07-31 12:15:17.744782",
+      "language": "en",
+      "length_before_preprocessing": 6881,
+      "length_after_preprocessing": 1074,
+      "url": "https://www.cleanenergywire.org/news/reduced-electricity-demand-could-slash-germanys-transition-investments-2035-report"
+    },
+    {
+      "id": "3f5a485502e89968f55a2a8223c457bf7ce16be0b397c03ae85a97381277ad92",
+      "title": "brief_21_january_25",
+      "published_on": "2025-01-21 11:00:00",
+      "scraped_on": "2025-07-31 12:15:29.219398",
+      "language": "en",
+      "length_before_preprocessing": 5313,
+      "length_after_preprocessing": 835,
+      "url": "https://www.cleanenergywire.org/news/brief-21-january-25"
+    },
+    {
+      "id": "71aa97329f13957a6462120bdbf6b3749ae3af87e3e80055d98009190263d24b",
+      "title": "climate_ambition_dispute_brews_germanys_second_biggest_city_hamburg_ahead_state_election",
+      "published_on": "2025-01-21 13:25:00",
+      "scraped_on": "2025-07-31 12:24:24.572058",
+      "language": "en",
+      "length_before_preprocessing": 7322,
+      "length_after_preprocessing": 1469,
+      "url": "https://www.cleanenergywire.org/news/climate-ambition-dispute-brews-germanys-second-biggest-city-hamburg-ahead-state-election"
+    }
+  ]
+}

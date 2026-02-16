@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-10-01",
+  "publications": [
+    {
+      "id": "10a61165bc8cdb1c1c73708605c8451b753eb5456607c4b3a0851206d26a8986",
+      "title": "eu_electricity_trading_day_ahead_markets_becomes_more_dynamic",
+      "published_on": "2025-10-01 12:00:00",
+      "scraped_on": "2025-10-01 18:32:17.833440",
+      "language": "en",
+      "length_before_preprocessing": 3923,
+      "length_after_preprocessing": 1062,
+      "url": "https://energy.ec.europa.eu/news/eu-electricity-trading-day-ahead-markets-becomes-more-dynamic-2025-10-01_en"
+    }
+  ]
+}

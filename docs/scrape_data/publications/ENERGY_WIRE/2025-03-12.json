@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-12",
+  "publications": [
+    {
+      "id": "4087eeb76c9f79d915cfa9d6891423a68f6cb0efafb897f2a3d103777c30b0a8",
+      "title": "grid_expansion_and_flexibility_could_reduce_european_electricity_prices_report",
+      "published_on": "2025-03-12 13:25:00",
+      "scraped_on": "2025-07-31 12:53:32.542755",
+      "language": "en",
+      "length_before_preprocessing": 4362,
+      "length_after_preprocessing": 1020,
+      "url": "https://www.cleanenergywire.org/news/grid-expansion-and-flexibility-could-reduce-european-electricity-prices-report"
+    },
+    {
+      "id": "963198d4a5723d010368fa2505930eb3cdf163a08bf6d31e9fa33b2ff4072adf",
+      "title": "needs_low_income_households_must_be_addressed_part_electricity_grid_expansion_report",
+      "published_on": "2025-03-12 13:20:00",
+      "scraped_on": "2025-07-31 12:53:44.129858",
+      "language": "en",
+      "length_before_preprocessing": 7131,
+      "length_after_preprocessing": 1196,
+      "url": "https://www.cleanenergywire.org/news/needs-low-income-households-must-be-addressed-part-electricity-grid-expansion-report"
+    },
+    {
+      "id": "4f104844095bb9eaa2cb2689d43a97e844a61617dbb9c5b417c3ed24edb6eb2b",
+      "title": "german_energy_companies_say_2030_wind_power_targets_impossible_achieve_without_chinese_hardware",
+      "published_on": "2025-03-12 13:14:00",
+      "scraped_on": "2025-07-31 12:53:55.997072",
+      "language": "en",
+      "length_before_preprocessing": 6978,
+      "length_after_preprocessing": 1192,
+      "url": "https://www.cleanenergywire.org/news/german-energy-companies-say-2030-wind-power-targets-impossible-achieve-without-chinese-hardware"
+    },
+    {
+      "id": "aa934f448ce689aa969def1318812c9949009ad49095ceaec1ab5f6228e4c057",
+      "title": "brief_12_march_25",
+      "published_on": "2025-03-12 10:57:00",
+      "scraped_on": "2025-07-31 12:54:07.650836",
+      "language": "en",
+      "length_before_preprocessing": 5374,
+      "length_after_preprocessing": 872,
+      "url": "https://www.cleanenergywire.org/news/brief-12-march-25"
+    }
+  ]
+}

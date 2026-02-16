@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2024-07-19",
+  "publications": [
+    {
+      "id": "bc1800758eb801e0b3b0771af354f72af299ff18e331586a533ef73fd6d486a6",
+      "title": "cef_energy_eur_674_million_support_works_studies_cross_border_renewable_energy_projects",
+      "published_on": "2024-07-19 12:00:00",
+      "scraped_on": "2025-09-01 18:31:30.889733",
+      "language": "en",
+      "length_before_preprocessing": 4440,
+      "length_after_preprocessing": 1672,
+      "url": "https://cinea.ec.europa.eu/news-events/news/cef-energy-eur-674-million-support-works-studies-cross-border-renewable-energy-projects-2024-07-19_en"
+    }
+  ]
+}

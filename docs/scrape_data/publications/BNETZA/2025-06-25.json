@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-06-25",
+  "publications": [
+    {
+      "id": "32a94b1e5e81c807e012bf4d5bef4496ff6b644cf7c384001de1eafd1908ade5",
+      "title": "IT_KriFu",
+      "published_on": "2025-06-25 12:00:00",
+      "scraped_on": "2025-07-31 11:11:05.429439",
+      "language": "de",
+      "length_before_preprocessing": 3870,
+      "length_after_preprocessing": 1316,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250625_IT-KriFu.html"
+    }
+  ]
+}

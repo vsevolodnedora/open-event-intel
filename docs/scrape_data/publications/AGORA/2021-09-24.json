@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2021-09-24",
+  "publications": [
+    {
+      "id": "8d07aa159f36e1f025f6c84471a6866e9aff4ee632c1655f7b483b40c2a2f039",
+      "title": "behind_the_scenes_features_functions_of_the_locational_agorameter",
+      "published_on": "2021-09-24 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.411382",
+      "language": "en",
+      "length_before_preprocessing": 4865,
+      "length_after_preprocessing": 768,
+      "url": "https://www.agora-energiewende.org/news-events/behind-the-scenes-features-functions-of-the-locational-agorameter"
+    }
+  ]
+}

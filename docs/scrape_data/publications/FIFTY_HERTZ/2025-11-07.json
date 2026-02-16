@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-07",
+  "publications": [
+    {
+      "id": "7a97315951f0853d9ca4cd31e72c4819ac6f11d4cdbe18356e789434841fa2a1",
+      "title": "infomarkt_stellt_bimsch_antrag_vor",
+      "published_on": "2025-11-07 12:00:00",
+      "scraped_on": "2025-11-07 18:39:02.398646",
+      "language": "de",
+      "length_before_preprocessing": 868,
+      "length_after_preprocessing": 442,
+      "url": "https://www.50hertz.com/de/News/Details/16425/infomarkt-stellt-bimsch-antrag-vor"
+    },
+    {
+      "id": "1d52ac53c889fc5e1cf8d5d6047b17cc372ea12ed92a4704b3b0baec346f1004",
+      "title": "netzverstaerkung_region_rostock_baubeginn_fuer_abschnitt_bentwischgnewitz_noch_in_diesem_jahr",
+      "published_on": "2025-11-07 12:00:00",
+      "scraped_on": "2025-11-07 18:40:30.399092",
+      "language": "de",
+      "length_before_preprocessing": 1396,
+      "length_after_preprocessing": 1045,
+      "url": "https://www.50hertz.com/de/News/Details/16426/netzverstaerkung-region-rostock-baubeginn-fuer-abschnitt-bentwischgnewitz-noch-in-diesem-jahr"
+    }
+  ]
+}

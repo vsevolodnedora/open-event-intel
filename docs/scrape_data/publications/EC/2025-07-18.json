@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-07-18",
+  "publications": [
+    {
+      "id": "283cbf0f71d87c2d6e77d0dcd3277c307b9f32b2db887569c4b25fbeb4f66b14",
+      "title": "call_evidence_update_security_gas_supply_regulation_risk_groups",
+      "published_on": "2025-07-18 12:00:00",
+      "scraped_on": "2025-07-31 11:19:02.082767",
+      "language": "en",
+      "length_before_preprocessing": 3260,
+      "length_after_preprocessing": 580,
+      "url": "https://energy.ec.europa.eu/news/call-evidence-update-security-gas-supply-regulation-risk-groups-2025-07-18_en"
+    },
+    {
+      "id": "2bec000a16f49c7fca557ed55c802ed7a69e10ddbb44f9be5f139ea18ccef510",
+      "title": "commission_concludes_examination_potential_chinese_biofuel_imports_fraud",
+      "published_on": "2025-07-18 12:00:00",
+      "scraped_on": "2025-07-31 11:19:02.083835",
+      "language": "en",
+      "length_before_preprocessing": 4285,
+      "length_after_preprocessing": 1414,
+      "url": "https://energy.ec.europa.eu/news/commission-concludes-examination-potential-chinese-biofuel-imports-fraud-2025-07-18_en"
+    }
+  ]
+}

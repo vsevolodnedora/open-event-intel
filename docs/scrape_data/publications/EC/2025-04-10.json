@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-10",
+  "publications": [
+    {
+      "id": "f4eed55daa8b0875f67046fe9f908f297acfbabe95e5dcb463f1879a1dc1830a",
+      "title": "commission_welcomes_new_entsog_report_confirming_importance_storage_last_winter_and_need_start",
+      "published_on": "2025-04-10 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.991608",
+      "language": "en",
+      "length_before_preprocessing": 4350,
+      "length_after_preprocessing": 1128,
+      "url": "https://energy.ec.europa.eu/news/commission-welcomes-new-entsog-report-confirming-importance-storage-last-winter-and-need-start-2025-04-10_en"
+    },
+    {
+      "id": "9533431a374c325b00bbdfe175356cbaf7297ce8c43218c2638fa00bc9bc34ca",
+      "title": "commissioner_roswall_hosts_talks_environmental_assessments_and_permitting",
+      "published_on": "2025-04-10 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.362392",
+      "language": "en",
+      "length_before_preprocessing": 3928,
+      "length_after_preprocessing": 1562,
+      "url": "https://environment.ec.europa.eu/news/commissioner-roswall-hosts-talks-environmental-assessments-and-permitting-2025-04-10_en"
+    }
+  ]
+}

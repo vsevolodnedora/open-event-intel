@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-29",
+  "publications": [
+    {
+      "id": "82bc848edcfb0d77852615bf9a26887d6922a6f7ffb35dd2d650dbd8dd214a28",
+      "title": "german_steelmaker_thyssenkrupp_calls_urgent_adjustments_eu_emissions_trading",
+      "published_on": "2025-08-29 11:15:00",
+      "scraped_on": "2025-08-29 18:33:11.335275",
+      "language": "en",
+      "length_before_preprocessing": 4417,
+      "length_after_preprocessing": 1259,
+      "url": "https://www.cleanenergywire.org/news/german-steelmaker-thyssenkrupp-calls-urgent-adjustments-eu-emissions-trading"
+    },
+    {
+      "id": "af86e2f89f086c7e240c7034a94587071e67faae8e498763663dd5830bd828e9",
+      "title": "most_german_municipalities_are_already_drafting_heating_plans_analysis",
+      "published_on": "2025-08-29 10:46:00",
+      "scraped_on": "2025-08-29 18:33:22.278475",
+      "language": "en",
+      "length_before_preprocessing": 6300,
+      "length_after_preprocessing": 639,
+      "url": "https://www.cleanenergywire.org/news/most-german-municipalities-are-already-drafting-heating-plans-analysis"
+    },
+    {
+      "id": "4882a9c98fe5438df745a93e4081e696ced8a7b5a4256602a63679d25bada13b",
+      "title": "environment_ministry_moves_ban_gas_drilling_germanys_marine_protected_areas",
+      "published_on": "2025-08-29 10:41:00",
+      "scraped_on": "2025-08-29 18:33:33.258591",
+      "language": "en",
+      "length_before_preprocessing": 6427,
+      "length_after_preprocessing": 893,
+      "url": "https://www.cleanenergywire.org/news/environment-ministry-moves-ban-gas-drilling-germanys-marine-protected-areas"
+    },
+    {
+      "id": "2cd70d4163c53cc72dddd14e9bec460f7700fdf110f755a30a61898cf30c2a75",
+      "title": "brief_29_august_25",
+      "published_on": "2025-08-29 10:29:00",
+      "scraped_on": "2025-08-29 18:33:44.126004",
+      "language": "en",
+      "length_before_preprocessing": 5239,
+      "length_after_preprocessing": 849,
+      "url": "https://www.cleanenergywire.org/news/brief-29-august-25"
+    },
+    {
+      "id": "f7bce7d7fef3ba17b2f9d47761c5f941cb87d98774748f7bbf927126b54a58d7",
+      "title": "dispatch_poland_august_25",
+      "published_on": "2025-08-29 15:00:00",
+      "scraped_on": "2025-09-01 18:35:25.460430",
+      "language": "en",
+      "length_before_preprocessing": 9562,
+      "length_after_preprocessing": 3819,
+      "url": "https://www.cleanenergywire.org/news/dispatch-poland-august-25"
+    }
+  ]
+}

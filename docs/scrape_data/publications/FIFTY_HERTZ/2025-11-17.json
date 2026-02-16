@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-17",
+  "publications": [
+    {
+      "id": "fcd54791826faac856771f2c0466de4ebe3f92d1bdc3b6597d8a3fff66d46d80",
+      "title": "zweiter_antrag_fuer_380_kv_provisorium",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:41:10.600562",
+      "language": "de",
+      "length_before_preprocessing": 738,
+      "length_after_preprocessing": 416,
+      "url": "https://www.50hertz.com/de/News/Details/16465/zweiter-antrag-fuer-380-kv-provisorium"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-07-18",
+  "publications": [
+    {
+      "id": "229a1495ff12f49637efbe1e3639d18c01b1609799e46953e415b23ccebc8442",
+      "title": "bundesnetzagentur_legt_unterlagen_fuer_abschnitt_e_aus",
+      "published_on": "2025-07-18 12:00:00",
+      "scraped_on": "2025-08-03 09:59:30.620186",
+      "language": "de",
+      "length_before_preprocessing": 5515,
+      "length_after_preprocessing": 460,
+      "url": "https://www.50hertz.com/de/News/Details/16042/bundesnetzagentur-legt-unterlagen-fuer-abschnitt-e-aus"
+    },
+    {
+      "id": "ef836358a9f1db88b4bb02c22d214f48fd73fc22f4c0892844de888e9e9bf3fd",
+      "title": "50hertz_erhaelt_baugenehmigung_fuer_abschnitt_nord_der_netzanbindung_suedharz",
+      "published_on": "2025-07-18 12:00:00",
+      "scraped_on": "2025-08-03 09:59:47.996408",
+      "language": "de",
+      "length_before_preprocessing": 6158,
+      "length_after_preprocessing": 1189,
+      "url": "https://www.50hertz.com/de/News/Details/16044/50hertz-erhaelt-baugenehmigung-fuer-abschnitt-nord-der-netzanbindung-suedharz"
+    }
+  ]
+}

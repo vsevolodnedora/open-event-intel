@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-09-03",
+  "publications": [
+    {
+      "id": "af45a4d04b94fef4a8c73a3f2cbf2231321a900325624d1e36ebee7312df69ca",
+      "title": "28_april_blackout_in_spain_and_portugal_expert_panel_confirms_factual_report_publication_on_3_october",
+      "published_on": "2025-09-03 12:00:00",
+      "scraped_on": "2025-09-03 18:29:32.601230",
+      "language": "en",
+      "length_before_preprocessing": 2690,
+      "length_after_preprocessing": 541,
+      "url": "https://www.entsoe.eu/news/2025/09/03/28-april-blackout-in-spain-and-portugal-expert-panel-confirms-factual-report-publication-on-3-october"
+    }
+  ]
+}

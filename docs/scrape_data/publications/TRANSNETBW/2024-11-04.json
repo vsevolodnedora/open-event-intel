@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2024-11-04",
+  "publications": [
+    {
+      "id": "112867400ef076ece39df369ee45dbf9d58e67ee31eef2b25ad3abe647639af6",
+      "title": "netzplanungsgrundsaetze_der_vier_deutschen_uebertragungsnetzbetreiber",
+      "published_on": "2024-11-04 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.657410",
+      "language": "de",
+      "length_before_preprocessing": 4543,
+      "length_after_preprocessing": 1232,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/netzplanungsgrundsaetze-der-vier-deutschen-uebertragungsnetzbetreiber"
+    }
+  ]
+}

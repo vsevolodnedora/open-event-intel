@@ -1,0 +1,106 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-10",
+  "publications": [
+    {
+      "id": "a771315c3fcfec9cdefa948a4e06917bee723aac98d395df78cdb83cb7e91de7",
+      "title": "asean_3_gdp_outlook_reivised_upwards_warns_of_downside_risks_amro",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-10 18:32:41.344725",
+      "language": "en",
+      "length_before_preprocessing": 5347,
+      "length_after_preprocessing": 1615,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11144912/asean-3-gdp-outlook-reivised-upwards-warns-of-downside-risks-amro"
+    },
+    {
+      "id": "ee6520af666017124ea1449a685d81d40208bf5971537381d92ce80ce13c18d4",
+      "title": "insight_us_needs_more_than_tariffs_to_attract_manufacturing",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-10 18:32:41.347633",
+      "language": "en",
+      "length_before_preprocessing": 5569,
+      "length_after_preprocessing": 1794,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11144415/insight-us-needs-more-than-tariffs-to-attract-manufacturing"
+    },
+    {
+      "id": "abf5cf6fae29ad4785c7ecb74614e015e3c45bf8352fce35139e8f665ff4bc89",
+      "title": "eu_in_informal_discussions_with_italy_over_proposed_psv_ttf_gas_spread_cap",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-10 18:32:41.351698",
+      "language": "en",
+      "length_before_preprocessing": 7182,
+      "length_after_preprocessing": 2437,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145023/eu-in-informal-discussions-with-italy-over-proposed-psv-ttf-gas-spread-cap"
+    },
+    {
+      "id": "9820e117d1f5ef05ec6ed323544aa747487b05e21e9cb2c7b04038f06defcd16",
+      "title": "video_europe_r_pet_october_prices_demand_turning_very_bearish",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-10 18:32:41.353515",
+      "language": "en",
+      "length_before_preprocessing": 4086,
+      "length_after_preprocessing": 353,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145043/video-europe-r-pet-october-prices-demand-turning-very-bearish"
+    },
+    {
+      "id": "e518804a15eac2118bc84bd323f3d72fc45f62d4a2cc2514551f98e11c4704bb",
+      "title": "brazil_s_recycled_plastics_decree_could_be_signed_in_october_ministry",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-11 18:27:57.540396",
+      "language": "en",
+      "length_before_preprocessing": 6279,
+      "length_after_preprocessing": 1600,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145058/brazil-s-recycled-plastics-decree-could-be-signed-in-october-ministry"
+    },
+    {
+      "id": "7017a987d2574546a87dfc641357233ded625e91a9b55b48481ef5eacc9b527e",
+      "title": "us_dow_expects_to_restart_pe_units_poly_5_poly_7_in_freeport_next_week",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-11 18:27:57.543724",
+      "language": "en",
+      "length_before_preprocessing": 5369,
+      "length_after_preprocessing": 598,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145077/us-dow-expects-to-restart-pe-units-poly-5-poly-7-in-freeport-next-week"
+    },
+    {
+      "id": "dfe2d86fb493a2a468cc69d50a6e952c4df5444ff5a4d96526b01c31b21a9c09",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.373794",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145023/eu-in-informal-discussions-with-italy-over-proposed-psv-ttf-gas-spread-cap/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "525b2f7b6ba3ef144afe38d70c2556eeb66dc46a7519415eb81330860e864f2d",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.374695",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145043/video-europe-r-pet-october-prices-demand-turning-very-bearish/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "97b896656341aaa930edc79033c72c7cf3bd215073c36cc2b977f133bf2f583c",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.375621",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145058/brazil-s-recycled-plastics-decree-could-be-signed-in-october-ministry/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "b8e8295dd61498c7d1b4080d66dc1de34ffb5a2bdf648225fd43999f4174c585",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.376456",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/10/11145077/us-dow-expects-to-restart-pe-units-poly-5-poly-7-in-freeport-next-week/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    }
+  ]
+}

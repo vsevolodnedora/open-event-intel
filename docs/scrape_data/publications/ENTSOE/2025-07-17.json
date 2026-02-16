@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-07-17",
+  "publications": [
+    {
+      "id": "382c4acbb5c6db115c8b5b99dce4293711d1d845cd0e7dbc53f3108ddf77778b",
+      "title": "new_working_arrangements_with_uk_transmission_system_operators",
+      "published_on": "2025-07-17 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.534773",
+      "language": "en",
+      "length_before_preprocessing": 3301,
+      "length_after_preprocessing": 1019,
+      "url": "https://www.entsoe.eu/news/2025/07/17/new-working-arrangements-with-uk-transmission-system-operators"
+    }
+  ]
+}

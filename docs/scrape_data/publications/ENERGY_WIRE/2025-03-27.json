@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-27",
+  "publications": [
+    {
+      "id": "421376ae8b589e788775d17bc7951258ce329d78a8e671e4b2bfaebc7efb32a6",
+      "title": "car_dominance_decreasing_german_cities_use_bicycles_and_footpaths",
+      "published_on": "2025-03-27 13:12:00",
+      "scraped_on": "2025-07-31 13:04:04.059272",
+      "language": "en",
+      "length_before_preprocessing": 6817,
+      "length_after_preprocessing": 1330,
+      "url": "https://www.cleanenergywire.org/news/car-dominance-decreasing-german-cities-use-bicycles-and-footpaths"
+    },
+    {
+      "id": "19fe341e5d85e85e176a6d44ebd031e321700a2e99b761d1bb5d8b8d939b344f",
+      "title": "prospective_new_german_government_shows_no_ambition_speed_coal_exit",
+      "published_on": "2025-03-27 12:57:00",
+      "scraped_on": "2025-07-31 13:04:14.701793",
+      "language": "en",
+      "length_before_preprocessing": 9998,
+      "length_after_preprocessing": 4268,
+      "url": "https://www.cleanenergywire.org/news/prospective-new-german-government-shows-no-ambition-speed-coal-exit"
+    },
+    {
+      "id": "27a88967635b78faadfc4214d32beb10ee73da44a20660741315d867de3bbf3e",
+      "title": "brief_27_march_25",
+      "published_on": "2025-03-27 12:11:00",
+      "scraped_on": "2025-07-31 13:04:26.358070",
+      "language": "en",
+      "length_before_preprocessing": 5458,
+      "length_after_preprocessing": 978,
+      "url": "https://www.cleanenergywire.org/news/brief-27-march-25"
+    },
+    {
+      "id": "f5027fe78bf8f23660618917f62506f31eab3933e463a10b579904599ac4be19",
+      "title": "eu_approves_german_green_industry_state_aid_implementation_next_govt",
+      "published_on": "2025-03-27 10:12:00",
+      "scraped_on": "2025-07-31 13:04:36.836307",
+      "language": "en",
+      "length_before_preprocessing": 4711,
+      "length_after_preprocessing": 1108,
+      "url": "https://www.cleanenergywire.org/news/eu-approves-german-green-industry-state-aid-implementation-next-govt"
+    }
+  ]
+}

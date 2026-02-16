@@ -1,0 +1,46 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-16",
+  "publications": [
+    {
+      "id": "049207431f3cc5b498164422a5423592a494b757136d29796105391a37291bf9",
+      "title": "podcast_middle_east_chemicals_look_beyond_2030_for_new_growth",
+      "published_on": "2025-12-16 12:00:00",
+      "scraped_on": "2025-12-16 18:20:31.484693",
+      "language": "en",
+      "length_before_preprocessing": 4665,
+      "length_after_preprocessing": 822,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164651/podcast-middle-east-chemicals-look-beyond-2030-for-new-growth"
+    },
+    {
+      "id": "1723a2d3203967badb02686c66e8332781a72620776a3b599634e9a7618d8a0d",
+      "title": "germany_s_economic_outlook_improves_in_december_with_positive_signs_for_chems",
+      "published_on": "2025-12-16 12:00:00",
+      "scraped_on": "2025-12-16 18:20:31.486896",
+      "language": "en",
+      "length_before_preprocessing": 4574,
+      "length_after_preprocessing": 779,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164639/germany-s-economic-outlook-improves-in-december-with-positive-signs-for-chems"
+    },
+    {
+      "id": "e241497c24f4d7a81483b692cf7f80f80d0cf0c578eca7aadec49dfbcb7ddd95",
+      "title": "no_upside_yet_from_german_infrastructure_and_defense_spending_vci_economists",
+      "published_on": "2025-12-16 12:00:00",
+      "scraped_on": "2025-12-16 18:20:31.488948",
+      "language": "en",
+      "length_before_preprocessing": 5774,
+      "length_after_preprocessing": 1957,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164667/no-upside-yet-from-german-infrastructure-and-defense-spending-vci-economists"
+    },
+    {
+      "id": "1b615840131c2f67d109acb4381b3937dcf946af3686e66afadef8c526e44769",
+      "title": "us_home_builder_sentiment_remains_negative_for_20th_consecutive_month",
+      "published_on": "2025-12-16 12:00:00",
+      "scraped_on": "2025-12-17 18:21:04.103898",
+      "language": "en",
+      "length_before_preprocessing": 6249,
+      "length_after_preprocessing": 1518,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/16/11164691/us-home-builder-sentiment-remains-negative-for-20th-consecutive-month"
+    }
+  ]
+}

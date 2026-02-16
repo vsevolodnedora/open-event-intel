@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-09",
+  "publications": [
+    {
+      "id": "12579cbd1646c253b4713e5232d19121df6a7b5cbe3a2d20bd37c1ee4a5425a5",
+      "title": "energy_union_task_force_addresses_energy_price_challenges_and_implementation_eu_methane_regulation",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-09 18:17:04.709924",
+      "language": "en",
+      "length_before_preprocessing": 4769,
+      "length_after_preprocessing": 1588,
+      "url": "https://energy.ec.europa.eu/news/energy-union-task-force-addresses-energy-price-challenges-and-implementation-eu-methane-regulation-2025-12-09_en"
+    },
+    {
+      "id": "f73cdd94572d652cbace15f0476ede9652f05843efb9d2904326addf8ace0a78",
+      "title": "time_think_about_winter_tyres",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-19 18:18:32.858148",
+      "language": "en",
+      "length_before_preprocessing": 3332,
+      "length_after_preprocessing": 1006,
+      "url": "https://energy-efficient-products.ec.europa.eu/news/time-think-about-winter-tyres-2025-12-09_en"
+    }
+  ]
+}

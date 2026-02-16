@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2026-02-09",
+  "publications": [
+    {
+      "id": "cf3e02ae393d14840aedbdc9a787456381f7f3df8d6e0d5b3910cfed17ecb614",
+      "title": "rekorde_fuer_pv_und_wind_offshore",
+      "published_on": "2026-02-09 12:00:00",
+      "scraped_on": "2026-02-09 18:47:25.409712",
+      "language": "de",
+      "length_before_preprocessing": 10285,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/219392/rekorde-fuer-pv-und-wind-offshore"
+    },
+    {
+      "id": "2cf32fea4f16fbf16ecd7aa8a54be27a3d6a652f3b766426573255a610ce562a",
+      "title": "rekorde_fuer_pv_und_wind_offshore",
+      "published_on": "2026-02-09 12:00:00",
+      "scraped_on": "2026-02-09 18:47:35.734969",
+      "language": "de",
+      "length_before_preprocessing": 10289,
+      "length_after_preprocessing": 7203,
+      "url": "https://www.smard.de/page/home/topic-article/444/219392/rekorde-fuer-pv-und-wind-offshore"
+    },
+    {
+      "id": "05bcdc92d935b0ae6fb263920d40937241a65a3d3f01a6e3e65578a26195ffbf",
+      "title": "records_for_solar_and_wind_offshore",
+      "published_on": "2026-02-09 12:00:00",
+      "scraped_on": "2026-02-11 18:52:12.447386",
+      "language": "de",
+      "length_before_preprocessing": 8370,
+      "length_after_preprocessing": 6659,
+      "url": "https://www.smard.de/page/en/topic-article/5892/219570/records-for-solar-and-wind-offshore"
+    }
+  ]
+}

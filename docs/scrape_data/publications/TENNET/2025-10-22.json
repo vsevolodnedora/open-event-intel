@@ -1,0 +1,26 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-10-22",
+  "publications": [
+    {
+      "id": "253eeac20e99cdf36a73724752fac99a0319662ad2b0636458e007c0cbec5294",
+      "title": "pilotbetrieb_gestartet_amprion_tennet_und_rwe_erproben_kurativen_redispatch_im_realen_betrieb",
+      "published_on": "2025-10-22 12:00:00",
+      "scraped_on": "2025-10-22 18:38:28.779405",
+      "language": "de",
+      "length_before_preprocessing": 5588,
+      "length_after_preprocessing": 1549,
+      "url": "https://www.tennet.eu/de/news/pilotbetrieb-gestartet-amprion-tennet-und-rwe-erproben-kurativen-redispatch-im-realen-betrieb"
+    },
+    {
+      "id": "19caee0ae3798bed766cdf1b2b69494871a8690f9f6c1fcf793563aaa9ed2e5f",
+      "title": "tennet_germany_schliesst_syndizierung_von_revolvierender_kreditfazilitaet_ueber_12_mrd_euro_erfolgreich_ab",
+      "published_on": "2025-10-22 12:00:00",
+      "scraped_on": "2025-10-22 18:38:46.854924",
+      "language": "de",
+      "length_before_preprocessing": 6814,
+      "length_after_preprocessing": 2802,
+      "url": "https://www.tennet.eu/de/news/tennet-germany-schliesst-syndizierung-von-revolvierender-kreditfazilitaet-ueber-12-mrd-euro-erfolgreich-ab"
+    }
+  ]
+}

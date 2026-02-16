@@ -1,0 +1,26 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-04",
+  "publications": [
+    {
+      "id": "b148807515fffb9971c1c27b9145b20954e0baa5f6f3c058959cffef5d8a9b93",
+      "title": "merz_calls_steel_strategy_amid_industry_setbacks_and_green_transition_challenges",
+      "published_on": "2025-08-04 12:17:00",
+      "scraped_on": "2025-08-04 18:41:29.841216",
+      "language": "en",
+      "length_before_preprocessing": 4045,
+      "length_after_preprocessing": 961,
+      "url": "https://www.cleanenergywire.org/news/merz-calls-steel-strategy-amid-industry-setbacks-and-green-transition-challenges"
+    },
+    {
+      "id": "64efc0ec39261fbde8141aeb60e0ae375682a0a69c119cb5708fedf5323f0a3d",
+      "title": "brief_4_august_25",
+      "published_on": "2025-08-04 11:25:00",
+      "scraped_on": "2025-08-04 18:41:41.716859",
+      "language": "en",
+      "length_before_preprocessing": 5299,
+      "length_after_preprocessing": 924,
+      "url": "https://www.cleanenergywire.org/news/brief-4-august-25"
+    }
+  ]
+}

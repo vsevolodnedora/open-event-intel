@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2024-10-31",
+  "publications": [
+    {
+      "id": "d94ff98f24f26d7066ff5373eb68caa411cae6887f7017e89f5786895d757571",
+      "title": "climate_action_progress_report_2023_shows_largest_annual_drop_emissions_decades",
+      "published_on": "2024-10-31 12:00:00",
+      "scraped_on": "2025-11-10 18:33:07.372949",
+      "language": "en",
+      "length_before_preprocessing": 5382,
+      "length_after_preprocessing": 2165,
+      "url": "https://climate.ec.europa.eu/news-your-voice/news/climate-action-progress-report-2023-shows-largest-annual-drop-emissions-decades-2024-10-31_en"
+    }
+  ]
+}

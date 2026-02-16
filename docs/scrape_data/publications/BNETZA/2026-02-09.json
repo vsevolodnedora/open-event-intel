@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2026-02-09",
+  "publications": [
+    {
+      "id": "a2f3eb7063fc9fd5af0cf8f9b17281ec7c4819373ffff44644e8574d46782320",
+      "title": "RuMiTel",
+      "published_on": "2026-02-09 12:00:00",
+      "scraped_on": "2026-02-09 18:45:08.873312",
+      "language": "de",
+      "length_before_preprocessing": 3619,
+      "length_after_preprocessing": 1072,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260209_RuMiTel.html"
+    }
+  ]
+}

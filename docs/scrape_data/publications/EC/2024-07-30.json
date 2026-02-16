@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2024-07-30",
+  "publications": [
+    {
+      "id": "4ccb1766d64df7e783331138c750a06d4ac84ec5ac2cf4573ffd747280b4fb6e",
+      "title": "renewfm_eu_renewable_energy_financing_mechanism_launches_2nd_call_proposals_solar_pv_and_onshore",
+      "published_on": "2024-07-30 12:00:00",
+      "scraped_on": "2025-07-31 11:18:15.334266",
+      "language": "en",
+      "length_before_preprocessing": 4267,
+      "length_after_preprocessing": 1391,
+      "url": "https://cinea.ec.europa.eu/news-events/news/renewfm-eu-renewable-energy-financing-mechanism-launches-2nd-call-proposals-solar-pv-and-onshore-2024-07-30_en"
+    }
+  ]
+}

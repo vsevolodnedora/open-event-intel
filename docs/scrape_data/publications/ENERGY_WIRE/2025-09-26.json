@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-26",
+  "publications": [
+    {
+      "id": "a72115d736f509f1b7826a8fd53519caa4079916690424f0f333d4604c9c6242",
+      "title": "dispatch_germany_september_25",
+      "published_on": "2025-09-26 13:27:00",
+      "scraped_on": "2025-09-26 18:33:40.918116",
+      "language": "en",
+      "length_before_preprocessing": 8806,
+      "length_after_preprocessing": 4771,
+      "url": "https://www.cleanenergywire.org/news/dispatch-germany-september-25"
+    },
+    {
+      "id": "5957dd33aec8f95dd94ed22ec410635a3552794e0ee693a81fc2ed5adae9c8a3",
+      "title": "germany_should_bet_uniform_co2_price_instead_industry_subsidies_economic_institutes",
+      "published_on": "2025-09-26 12:12:00",
+      "scraped_on": "2025-09-26 18:33:52.064062",
+      "language": "en",
+      "length_before_preprocessing": 6567,
+      "length_after_preprocessing": 779,
+      "url": "https://www.cleanenergywire.org/news/germany-should-bet-uniform-co2-price-instead-industry-subsidies-economic-institutes"
+    },
+    {
+      "id": "6881187493795a3961cf441e0310ad760eccc2171896f75ce7d2df59e2f70ccf",
+      "title": "data_centres_need_rules_use_renewable_energies_efficiency_researchers",
+      "published_on": "2025-09-26 11:22:00",
+      "scraped_on": "2025-09-26 18:34:03.157379",
+      "language": "en",
+      "length_before_preprocessing": 6855,
+      "length_after_preprocessing": 932,
+      "url": "https://www.cleanenergywire.org/news/data-centres-need-rules-use-renewable-energies-efficiency-researchers"
+    },
+    {
+      "id": "e62f70198c0b7db309ff8006b725ae5a527a1c79dd168165a81251448aed6dde",
+      "title": "brief_26_september_25",
+      "published_on": "2025-09-26 10:27:00",
+      "scraped_on": "2025-09-26 18:34:14.107370",
+      "language": "en",
+      "length_before_preprocessing": 5237,
+      "length_after_preprocessing": 648,
+      "url": "https://www.cleanenergywire.org/news/brief-26-september-25"
+    },
+    {
+      "id": "1dade00107bbf2c9bac42da1716284076eedb33be016934439a8ea3bd251ffa5",
+      "title": "delays_transition_support_scheme_creates_uncertainty_german_industry",
+      "published_on": "2025-09-26 10:08:00",
+      "scraped_on": "2025-09-26 18:34:25.203754",
+      "language": "en",
+      "length_before_preprocessing": 7016,
+      "length_after_preprocessing": 1194,
+      "url": "https://www.cleanenergywire.org/news/delays-transition-support-scheme-creates-uncertainty-german-industry"
+    }
+  ]
+}

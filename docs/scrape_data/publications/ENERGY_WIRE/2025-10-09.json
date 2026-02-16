@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-10-09",
+  "publications": [
+    {
+      "id": "956fb22446251fa9b55b4b23c479059f5719e386e07ad3fec60bd8f4332ed407",
+      "title": "germany_expects_eu_approval_eastern_coal_plant_operators_compensation_next_weeks",
+      "published_on": "2025-10-09 11:42:00",
+      "scraped_on": "2025-10-09 18:35:40.666115",
+      "language": "en",
+      "length_before_preprocessing": 4764,
+      "length_after_preprocessing": 1238,
+      "url": "https://www.cleanenergywire.org/news/germany-expects-eu-approval-eastern-coal-plant-operators-compensation-next-weeks"
+    },
+    {
+      "id": "7d7580b09ff2e4ea630eaee298b88e9b3d6086fb2e6d89ea3fc70d7cd391fab1",
+      "title": "drop_average_disruption_time_shows_german_grid_stable_amid_energy_transition_regulator",
+      "published_on": "2025-10-09 11:37:00",
+      "scraped_on": "2025-10-09 18:35:51.553971",
+      "language": "en",
+      "length_before_preprocessing": 5878,
+      "length_after_preprocessing": 951,
+      "url": "https://www.cleanenergywire.org/news/drop-average-disruption-time-shows-german-grid-stable-amid-energy-transition-regulator"
+    },
+    {
+      "id": "1a7daa0d585a3d36a9526241c1c39893741e569caae75b3162a6db3de571aea1",
+      "title": "germany_revise_hydrogen_subsidies_increase_focus_imports_official",
+      "published_on": "2025-10-09 11:30:00",
+      "scraped_on": "2025-10-09 18:36:02.533237",
+      "language": "en",
+      "length_before_preprocessing": 8171,
+      "length_after_preprocessing": 2267,
+      "url": "https://www.cleanenergywire.org/news/germany-revise-hydrogen-subsidies-increase-focus-imports-official"
+    },
+    {
+      "id": "3c358fb11f1005b0f83fa8d68843fed4f3c95e7ac2f2b90e1fac0a1f360e65f4",
+      "title": "brief_9_october_25",
+      "published_on": "2025-10-09 11:00:00",
+      "scraped_on": "2025-10-09 18:36:13.399388",
+      "language": "en",
+      "length_before_preprocessing": 5358,
+      "length_after_preprocessing": 764,
+      "url": "https://www.cleanenergywire.org/news/brief-9-october-25"
+    }
+  ]
+}

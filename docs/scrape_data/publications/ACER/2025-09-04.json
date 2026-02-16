@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-09-04",
+  "publications": [
+    {
+      "id": "d3f966426bfc2529dd2bff27107c51a4e1d3706a650589f9f5435ed154857308",
+      "title": "acer_will_consult_amendments_remit_market_participant_registration_format_and_ceremp_platform",
+      "published_on": "2025-09-04 12:00:00",
+      "scraped_on": "2025-09-04 18:31:03.801469",
+      "language": "en",
+      "length_before_preprocessing": 7692,
+      "length_after_preprocessing": 643,
+      "url": "https://www.acer.europa.eu/news/acer-will-consult-amendments-remit-market-participant-registration-format-and-ceremp-platform"
+    }
+  ]
+}

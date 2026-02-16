@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2026-01-12",
+  "publications": [
+    {
+      "id": "6ed5fb302b934c5005cd93449e9b6236f158487bfdd87e607de3537d3d3ee67f",
+      "title": "german_utilities_call_crisis_electricity_reserve_following_berlin_outage",
+      "published_on": "2026-01-12 13:18:00",
+      "scraped_on": "2026-01-12 18:23:40.821771",
+      "language": "en",
+      "length_before_preprocessing": 4443,
+      "length_after_preprocessing": 1294,
+      "url": "https://www.cleanenergywire.org/news/german-utilities-call-crisis-electricity-reserve-following-berlin-outage"
+    },
+    {
+      "id": "96456a23175c572e7bf2a0c697bf46699a8ee4a3e10f8c90d494c786f4cb1bce",
+      "title": "germanys_water_industry_warns_looming_use_conflicts",
+      "published_on": "2026-01-12 12:09:00",
+      "scraped_on": "2026-01-12 18:23:51.747670",
+      "language": "en",
+      "length_before_preprocessing": 6148,
+      "length_after_preprocessing": 975,
+      "url": "https://www.cleanenergywire.org/news/germanys-water-industry-warns-looming-use-conflicts"
+    },
+    {
+      "id": "b4714cfa090e989d6831fe9cf9bdc26d441c198ce32b18270c50cbcd89e26ec8",
+      "title": "germany_and_india_agree_closer_critical_mineral_semiconductor_renewables_cooperation",
+      "published_on": "2026-01-12 10:44:00",
+      "scraped_on": "2026-01-12 18:24:03.299287",
+      "language": "en",
+      "length_before_preprocessing": 6712,
+      "length_after_preprocessing": 1043,
+      "url": "https://www.cleanenergywire.org/news/germany-and-india-agree-closer-critical-mineral-semiconductor-renewables-cooperation"
+    },
+    {
+      "id": "79c4be27edae3740ec6d1a53572f8b03b855780aed356266b7e939fba6705aec",
+      "title": "brief_12_january_26",
+      "published_on": "2026-01-12 10:00:00",
+      "scraped_on": "2026-01-12 18:24:14.787254",
+      "language": "en",
+      "length_before_preprocessing": 4992,
+      "length_after_preprocessing": 642,
+      "url": "https://www.cleanenergywire.org/news/brief-12-january-26"
+    }
+  ]
+}

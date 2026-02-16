@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-09-12",
+  "publications": [
+    {
+      "id": "132a9e3bd83231e4c39274d1bc4c37f8e0d91fe3f7bff29630da56adf246c9af",
+      "title": "DataAct",
+      "published_on": "2025-09-12 12:00:00",
+      "scraped_on": "2025-09-12 18:28:26.629308",
+      "language": "de",
+      "length_before_preprocessing": 4049,
+      "length_after_preprocessing": 1474,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250912_DataAct.html"
+    }
+  ]
+}

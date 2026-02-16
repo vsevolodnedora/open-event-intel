@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-18",
+  "publications": [
+    {
+      "id": "2b9334070ddc681885e8418289db68b49362f56379998c03a0638badc428cbc7",
+      "title": "update_dutch_akzonobel_us_axalta_to_merge_in_all_stock_deal",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:35:23.198581",
+      "language": "en",
+      "length_before_preprocessing": 6085,
+      "length_after_preprocessing": 1246,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/18/11156579/update-dutch-akzonobel-us-axalta-to-merge-in-all-stock-deal"
+    },
+    {
+      "id": "ad9df811cc8a48fddf9155ae986b517d4b1b3737b7a66a99bb2885086c79ac22",
+      "title": "thailand_q3_gdp_growth_slows_to_1_2_on_poor_manufacturing_exports",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:35:23.202412",
+      "language": "en",
+      "length_before_preprocessing": 5312,
+      "length_after_preprocessing": 1517,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/18/11156569/thailand-q3-gdp-growth-slows-to-1-2-on-poor-manufacturing-exports"
+    },
+    {
+      "id": "c123b8112fc01e50d4bd4d81e9d64abc6ed6bf56e94eb42809c334a4f00da898",
+      "title": "republican_legislators_from_24_states_share_up_ns_rail_merger_concerns_with_us_regulator",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:35:23.204262",
+      "language": "en",
+      "length_before_preprocessing": 6741,
+      "length_after_preprocessing": 1868,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/18/11156664/republican-legislators-from-24-states-share-up-ns-rail-merger-concerns-with-us-regulator"
+    },
+    {
+      "id": "3e9a494c36adccdcdc6b57056eb21b0ac11ec9760207c5f1e47b3faa5fd586de",
+      "title": "india_posts_record_october_trade_deficit_on_export_slump",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:35:23.206295",
+      "language": "en",
+      "length_before_preprocessing": 6968,
+      "length_after_preprocessing": 1800,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/18/11156576/india-posts-record-october-trade-deficit-on-export-slump"
+    },
+    {
+      "id": "5ab3fe9efe08f0bd54d182a815f5348112f76ffbda0df02824087cf5a77a82f2",
+      "title": "d_trading_secures_ukraine_s_first_fob_lng_as_country_needs_40_cargoes_this_winter",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:35:23.208301",
+      "language": "en",
+      "length_before_preprocessing": 6098,
+      "length_after_preprocessing": 1256,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/18/11156275/d-trading-secures-ukraine-s-first-fob-lng-as-country-needs-40-cargoes-this-winter"
+    },
+    {
+      "id": "e0ebcfc5e5dde8820d313e06c1876fa0ee932ac1e3ce39aab7f0de4322c5d6c3",
+      "title": "evolving_trade_flows_of_us_plastic_scrap",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-19 18:35:15.996661",
+      "language": "en",
+      "length_before_preprocessing": 7526,
+      "length_after_preprocessing": 3779,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/18/11156675/evolving-trade-flows-of-us-plastic-scrap"
+    }
+  ]
+}

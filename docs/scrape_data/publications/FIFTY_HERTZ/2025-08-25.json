@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-08-25",
+  "publications": [
+    {
+      "id": "f59fdc2c89a5a2ba5dca2a286c60c8c9a56edc5e2093df1b29191a037c041228",
+      "title": "50hertz_laedt_zu_infomaerkten_ein",
+      "published_on": "2025-08-25 12:00:00",
+      "scraped_on": "2025-08-25 18:40:33.812279",
+      "language": "de",
+      "length_before_preprocessing": 1477,
+      "length_after_preprocessing": 1114,
+      "url": "https://www.50hertz.com/de/News/Details/16129/50hertz-laedt-zu-infomaerkten-ein"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-26",
+  "publications": [
+    {
+      "id": "92b6d6e4dab54982831bd1b28c6fea923db47b9a23a9ea9b68815a876ba97148",
+      "title": "energy_industry_urges_consensus_ahead_german_coalition_meeting_heating_transition",
+      "published_on": "2025-11-26 11:51:00",
+      "scraped_on": "2025-11-26 18:35:39.810251",
+      "language": "en",
+      "length_before_preprocessing": 4242,
+      "length_after_preprocessing": 1038,
+      "url": "https://www.cleanenergywire.org/news/energy-industry-urges-consensus-ahead-german-coalition-meeting-heating-transition"
+    },
+    {
+      "id": "13714debebecafe8edb2ab0333bd625b8634b59b98795ef576b10a2c66d3fd6f",
+      "title": "industry_alliance_warns_raw_materials_could_become_europes_achilles_heel",
+      "published_on": "2025-11-26 11:48:00",
+      "scraped_on": "2025-11-26 18:35:50.697717",
+      "language": "en",
+      "length_before_preprocessing": 7210,
+      "length_after_preprocessing": 1251,
+      "url": "https://www.cleanenergywire.org/news/industry-alliance-warns-raw-materials-could-become-europes-achilles-heel"
+    },
+    {
+      "id": "0cd1e0b4a01217065194fcc40586091dcd63262406461c4e2cdeb28f92f1fd7c",
+      "title": "brief_26_november_25",
+      "published_on": "2025-11-26 10:51:00",
+      "scraped_on": "2025-11-26 18:36:01.460683",
+      "language": "en",
+      "length_before_preprocessing": 5347,
+      "length_after_preprocessing": 636,
+      "url": "https://www.cleanenergywire.org/news/brief-26-november-25"
+    }
+  ]
+}

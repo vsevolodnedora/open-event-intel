@@ -1,0 +1,26 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-04-02",
+  "publications": [
+    {
+      "id": "2281ffdda729dd5c0540793102c34a0cfc0e942815aac90311dbda40e04f4303",
+      "title": "volumen_und_kosten_gesunken",
+      "published_on": "2025-04-02 12:00:00",
+      "scraped_on": "2026-01-14 09:23:06.050682",
+      "language": "de",
+      "length_before_preprocessing": 9546,
+      "length_after_preprocessing": 7133,
+      "url": "https://www.smard.de/page/home/topic-article/211784/216636/volumen-und-kosten-gesunken"
+    },
+    {
+      "id": "b3bc3e7ebec13eb4add91691b0b8f3daff6a986f90f2c713b6b06800d9889341",
+      "title": "volumen_und_kosten_gesunken",
+      "published_on": "2025-04-02 12:00:00",
+      "scraped_on": "2025-07-31 16:01:14.859877",
+      "language": "de",
+      "length_before_preprocessing": 8545,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/444/216636/volumen-und-kosten-gesunken"
+    }
+  ]
+}

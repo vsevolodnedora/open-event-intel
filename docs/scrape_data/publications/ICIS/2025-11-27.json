@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-27",
+  "publications": [
+    {
+      "id": "91f95477649c95c89254fced60afff11dfa493f01ddfc6a4321d476ae1876ec6",
+      "title": "wacker_chemie_to_cut_1_500_jobs_globally_in_300_million_year_cost_saving_project",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.791364",
+      "language": "en",
+      "length_before_preprocessing": 5504,
+      "length_after_preprocessing": 664,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159862/wacker-chemie-to-cut-1-500-jobs-globally-in-300-million-year-cost-saving-project"
+    },
+    {
+      "id": "952f9a58b6845261914c762ddeb385efb10d9b5c99a6f5ec31bb9480318d7770",
+      "title": "india_s_uflex_to_build_54_000_tonne_year_bopp_line",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.794437",
+      "language": "en",
+      "length_before_preprocessing": 5597,
+      "length_after_preprocessing": 764,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159789/india-s-uflex-to-build-54-000-tonne-year-bopp-line"
+    },
+    {
+      "id": "bc6199d82b3ae7180186cd06f432c6c73bd2863c3d4989665e128148c3acf5eb",
+      "title": "india_s_gnfc_plans_163_000_tonne_year_ammonium_nitrate_plant",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.796055",
+      "language": "en",
+      "length_before_preprocessing": 5573,
+      "length_after_preprocessing": 734,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159786/india-s-gnfc-plans-163-000-tonne-year-ammonium-nitrate-plant"
+    },
+    {
+      "id": "d2ae3638e16cc4bb15e798d7e5ba962b009e7b00fee65b9372fcc69895c37a8c",
+      "title": "s_korea_keeps_key_interest_rate_steady_2025_gdp_growth_forecast_raised_to_1_0",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.797536",
+      "language": "en",
+      "length_before_preprocessing": 5984,
+      "length_after_preprocessing": 1145,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159774/s-korea-keeps-key-interest-rate-steady-2025-gdp-growth-forecast-raised-to-1-0"
+    },
+    {
+      "id": "cd2fd289d0f9ed1b4de671e65080d2f1dbcf7c2eaa93ba7c35ac123cf5148353",
+      "title": "mexico_s_braskem_idesa_on_restricted_default_after_unpaid_interest_coupon_fitch",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.799338",
+      "language": "en",
+      "length_before_preprocessing": 6888,
+      "length_after_preprocessing": 2010,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159892/mexico-s-braskem-idesa-on-restricted-default-after-unpaid-interest-coupon-fitch"
+    },
+    {
+      "id": "51eaa0b17e5d3b31366345d669068af2e02fa85dfc60af6337aaae06d08102fc",
+      "title": "china_oct_industrial_profits_fall_5_5_after_sep_double_digit_growth",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.801177",
+      "language": "en",
+      "length_before_preprocessing": 4339,
+      "length_after_preprocessing": 535,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159800/china-oct-industrial-profits-fall-5-5-after-sep-double-digit-growth"
+    },
+    {
+      "id": "715df0ee631dcc44c444b2ba8de84a66a4035f7408da9588171e935ceefb28d4",
+      "title": "aster_chemicals_to_double_c2_export_capacity_in_singapore",
+      "published_on": "2025-11-27 12:00:00",
+      "scraped_on": "2025-11-27 18:33:48.802886",
+      "language": "en",
+      "length_before_preprocessing": 5455,
+      "length_after_preprocessing": 613,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/27/11159799/aster-chemicals-to-double-c2-export-capacity-in-singapore"
+    }
+  ]
+}

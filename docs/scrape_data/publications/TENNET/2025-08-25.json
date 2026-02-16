@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-08-25",
+  "publications": [
+    {
+      "id": "74968634fa8d04f0134659e83d8a1a47a81cff02e397c3daca2dbaafed425605",
+      "title": "tennet_germany_fordert_kurswechsel_bei_netzanschluessen",
+      "published_on": "2025-08-25 12:00:00",
+      "scraped_on": "2025-08-25 18:38:49.153890",
+      "language": "de",
+      "length_before_preprocessing": 6402,
+      "length_after_preprocessing": 2046,
+      "url": "https://www.tennet.eu/de/news/tennet-germany-fordert-kurswechsel-bei-netzanschluessen"
+    }
+  ]
+}

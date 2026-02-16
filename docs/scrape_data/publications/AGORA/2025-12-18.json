@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-12-18",
+  "publications": [
+    {
+      "id": "9b81bf1d149167fa74e2cd2179b016613194647eacb0c23c54bcaef27dcbcc22",
+      "title": "investing_eu_carbon_revenues_in_affordable_clean_heating_for_all",
+      "published_on": "2025-12-18 12:00:00",
+      "scraped_on": "2025-12-18 18:22:47.033002",
+      "language": "en",
+      "length_before_preprocessing": 6152,
+      "length_after_preprocessing": 2733,
+      "url": "https://www.agora-energiewende.org/news-events/investing-eu-carbon-revenues-in-affordable-clean-heating-for-all"
+    }
+  ]
+}

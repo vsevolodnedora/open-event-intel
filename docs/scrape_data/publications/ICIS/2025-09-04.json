@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-04",
+  "publications": [
+    {
+      "id": "ea8cfc3e22d1dc0d807e7f825eac146fa348db171bb1f60b5f30adec93eb1583",
+      "title": "podcast_five_critical_themes_that_will_drive_chemicals_in_q4",
+      "published_on": "2025-09-04 12:00:00",
+      "scraped_on": "2025-09-04 18:31:56.764365",
+      "language": "en",
+      "length_before_preprocessing": 5434,
+      "length_after_preprocessing": 610,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/04/11134808/podcast-five-critical-themes-that-will-drive-chemicals-in-q4"
+    },
+    {
+      "id": "11527be0115b83c77697fd3fbca4ef923430ca79844ce7fbc31038eb24358a09",
+      "title": "borealis_invests_more_than_100m_in_europe_compounding_facility_due_online_h2_2026",
+      "published_on": "2025-09-04 12:00:00",
+      "scraped_on": "2025-09-04 18:31:56.766154",
+      "language": "en",
+      "length_before_preprocessing": 5449,
+      "length_after_preprocessing": 706,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/04/11134747/borealis-invests-more-than-100m-in-europe-compounding-facility-due-online-h2-2026"
+    },
+    {
+      "id": "bbffe4ac61dc2b81638e27a0d99fc4a799f3a18e735026314a44e81be082f8fa",
+      "title": "us_august_auto_sales_fall_from_july_but_rise_year_on_year_sector_could_surprise_to_the_upside",
+      "published_on": "2025-09-04 12:00:00",
+      "scraped_on": "2025-09-05 18:31:06.874876",
+      "language": "en",
+      "length_before_preprocessing": 5594,
+      "length_after_preprocessing": 1474,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/04/11134845/us-august-auto-sales-fall-from-july-but-rise-year-on-year-sector-could-surprise-to-the-upside"
+    }
+  ]
+}

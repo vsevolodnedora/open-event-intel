@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2026-01-14",
+  "publications": [
+    {
+      "id": "7c2c1efaf39dd1b47a611ff8777794dcf53aa5b228d31c7e81ecd7c9a808df16",
+      "title": "adding_autonomous_vehicles_public_transport_could_reduce_urban_traffic_11_report",
+      "published_on": "2026-01-14 14:17:00",
+      "scraped_on": "2026-01-14 18:24:36.017880",
+      "language": "en",
+      "length_before_preprocessing": 4083,
+      "length_after_preprocessing": 1001,
+      "url": "https://www.cleanenergywire.org/news/adding-autonomous-vehicles-public-transport-could-reduce-urban-traffic-11-report"
+    },
+    {
+      "id": "48800ffd47e47201e237f7379027b826786300ae77afc2c78eb70ca81b27a170",
+      "title": "number_hydrogen_refuelling_stations_germany_continues_drop",
+      "published_on": "2026-01-14 12:19:00",
+      "scraped_on": "2026-01-14 18:24:47.040126",
+      "language": "en",
+      "length_before_preprocessing": 6618,
+      "length_after_preprocessing": 1074,
+      "url": "https://www.cleanenergywire.org/news/number-hydrogen-refuelling-stations-germany-continues-drop"
+    },
+    {
+      "id": "2de8e820bda33540c76fbc3dfa35681ce12e510499430aa6faf6dc58ddf52a88",
+      "title": "german_heating_transition_gathers_pace_heat_pump_sales_overtake_gas_boilers_report",
+      "published_on": "2026-01-14 11:39:00",
+      "scraped_on": "2026-01-14 18:24:58.026886",
+      "language": "en",
+      "length_before_preprocessing": 6536,
+      "length_after_preprocessing": 1119,
+      "url": "https://www.cleanenergywire.org/news/german-heating-transition-gathers-pace-heat-pump-sales-overtake-gas-boilers-report"
+    },
+    {
+      "id": "084733d16d68501ebd61856614a4c59b9a6e7cc9a30f4c9fabddbe31dac82fc3",
+      "title": "brief_14_january_26",
+      "published_on": "2026-01-14 09:10:00",
+      "scraped_on": "2026-01-14 18:25:08.896745",
+      "language": "en",
+      "length_before_preprocessing": 5418,
+      "length_after_preprocessing": 940,
+      "url": "https://www.cleanenergywire.org/news/brief-14-january-26"
+    }
+  ]
+}

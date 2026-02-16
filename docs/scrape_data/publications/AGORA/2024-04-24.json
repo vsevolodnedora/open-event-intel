@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-04-24",
+  "publications": [
+    {
+      "id": "61adee0634e439cbf34bd12e9b8ced873807011b6680f82f33403dbb0e03ea4f",
+      "title": "new_partnership_to_accelerate_the_transition_to_net_zero_in_southeast_asia",
+      "published_on": "2024-04-24 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.442361",
+      "language": "en",
+      "length_before_preprocessing": 4218,
+      "length_after_preprocessing": 1049,
+      "url": "https://www.agora-energiewende.org/news-events/new-partnership-to-accelerate-the-transition-to-net-zero-in-southeast-asia"
+    }
+  ]
+}

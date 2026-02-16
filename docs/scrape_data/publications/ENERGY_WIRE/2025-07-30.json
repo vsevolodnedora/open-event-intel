@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-30",
+  "publications": [
+    {
+      "id": "edb8d349594038fa2cc1d3203614e8a85a61a8afeffcf81219845755c36a1fa9",
+      "title": "germanys_2026_budget_plans_set_wrong_climate_priorities_ngos_warn",
+      "published_on": "2025-07-30 13:13:00",
+      "scraped_on": "2025-07-31 13:59:57.004637",
+      "language": "en",
+      "length_before_preprocessing": 7216,
+      "length_after_preprocessing": 1434,
+      "url": "https://www.cleanenergywire.org/news/germanys-2026-budget-plans-set-wrong-climate-priorities-ngos-warn"
+    },
+    {
+      "id": "323e5dc2bc91ec6acaac3c96c91971fe5281c67e45568fdca0a0edaec8308168",
+      "title": "brief_30_july_25",
+      "published_on": "2025-07-30 12:46:00",
+      "scraped_on": "2025-07-31 14:00:08.499373",
+      "language": "en",
+      "length_before_preprocessing": 2819,
+      "length_after_preprocessing": 729,
+      "url": "https://www.cleanenergywire.org/news/brief-30-july-25"
+    },
+    {
+      "id": "cdbe927f1ab62123078e20f954ce18f3e7eb1f643d5a7d12d02a80e5ac203fb2",
+      "title": "eu_2040_climate_target_deal_major_challenge_focus_eastern_europe_german_env_min",
+      "published_on": "2025-07-30 08:10:00",
+      "scraped_on": "2025-07-31 14:00:20.168685",
+      "language": "en",
+      "length_before_preprocessing": 6709,
+      "length_after_preprocessing": 1235,
+      "url": "https://www.cleanenergywire.org/news/eu-2040-climate-target-deal-major-challenge-focus-eastern-europe-german-env-min"
+    }
+  ]
+}

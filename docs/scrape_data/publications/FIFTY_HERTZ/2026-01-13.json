@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2026-01-13",
+  "publications": [
+    {
+      "id": "04636ea7b44759ba14980c4569041cf08229debc4ae774c6ab0268e5fbe8b59c",
+      "title": "50hertz_sucht_den_austausch_infomaerkte_im_januar_2026",
+      "published_on": "2026-01-13 12:00:00",
+      "scraped_on": "2026-01-13 18:28:16.114732",
+      "language": "de",
+      "length_before_preprocessing": 1644,
+      "length_after_preprocessing": 1292,
+      "url": "https://www.50hertz.com/de/News/Details/16653/50hertz-sucht-den-austausch-infomaerkte-im-januar-2026"
+    }
+  ]
+}

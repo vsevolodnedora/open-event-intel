@@ -1,0 +1,36 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-11-21",
+  "publications": [
+    {
+      "id": "b0db8916291c21d5027ef93fdcb552168a4c2f18ebf3aad6c32a3696ebde2eae",
+      "title": "ensuring_grid_stability_in_the_renewable_energy_era",
+      "published_on": "2024-11-21 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.409643",
+      "language": "en",
+      "length_before_preprocessing": 5829,
+      "length_after_preprocessing": 2065,
+      "url": "https://www.agora-energiewende.org/news-events/ensuring-grid-stability-in-the-renewable-energy-era"
+    },
+    {
+      "id": "fff0947de86d004b3a5dc4272a4120ac96168abf455e834b2b4ad1d894c5f160",
+      "title": "rethinking_grid_stability_in_southeast_asia_learning_from_the_iberian_blackout",
+      "published_on": "2024-11-21 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.414410",
+      "language": "en",
+      "length_before_preprocessing": 4970,
+      "length_after_preprocessing": 904,
+      "url": "https://www.agora-energiewende.org/news-events/rethinking-grid-stability-in-southeast-asia-learning-from-the-iberian-blackout"
+    },
+    {
+      "id": "f89729e4cc41d1132b07deb61bf41c53f110cd0ec2fba31027d72adf4541d0c9",
+      "title": "transitioning_to_climate_neutral_power_a_new_approach_to_system_stability",
+      "published_on": "2024-11-21 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.432754",
+      "language": "en",
+      "length_before_preprocessing": 5067,
+      "length_after_preprocessing": 1204,
+      "url": "https://www.agora-energiewende.org/news-events/transitioning-to-climate-neutral-power-a-new-approach-to-system-stability"
+    }
+  ]
+}

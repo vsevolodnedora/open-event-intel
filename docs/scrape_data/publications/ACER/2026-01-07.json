@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2026-01-07",
+  "publications": [
+    {
+      "id": "62f9cafc7cbdf80589069c8bb12fdc9fcf5dc4e425d3bf4a200f1aa3751003dc",
+      "title": "acer_publishes_its_multi_annual_work_programme_2026_2028",
+      "published_on": "2026-01-07 12:00:00",
+      "scraped_on": "2026-01-07 18:20:12.622608",
+      "language": "en",
+      "length_before_preprocessing": 7776,
+      "length_after_preprocessing": 946,
+      "url": "https://www.acer.europa.eu/news/acer-publishes-its-multi-annual-work-programme-2026-2028"
+    }
+  ]
+}

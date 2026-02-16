@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2026-02-03",
+  "publications": [
+    {
+      "id": "50e04752dec43521db4a18a2c4d3f85705abffefcec9e2aaa51e3ed66b690b8d",
+      "title": "stepping_private_capital_advance_energy_efficiency_commission_strengthens_partnership_eu_countries",
+      "published_on": "2026-02-03 12:00:00",
+      "scraped_on": "2026-02-03 18:42:51.279089",
+      "language": "en",
+      "length_before_preprocessing": 3952,
+      "length_after_preprocessing": 995,
+      "url": "https://energy.ec.europa.eu/news/stepping-private-capital-advance-energy-efficiency-commission-strengthens-partnership-eu-countries-2026-02-03_en"
+    }
+  ]
+}

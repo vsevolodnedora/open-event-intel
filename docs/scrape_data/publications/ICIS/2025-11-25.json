@@ -1,0 +1,86 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-25",
+  "publications": [
+    {
+      "id": "eb603db6e8b0b4873fe497af4c4a72f746842b680a54ebed6deb4dc3c32b26b6",
+      "title": "uae_ta_ziz_to_complete_phase_1_project_in_28_adnoc_5_yr_capex_at_150bn",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:37:18.837394",
+      "language": "en",
+      "length_before_preprocessing": 4987,
+      "length_after_preprocessing": 1108,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11158894/uae-ta-ziz-to-complete-phase-1-project-in-28-adnoc-5-yr-capex-at-150bn"
+    },
+    {
+      "id": "fbae5ab8b0829dbbca0ad77b233bc02499f1d6f683b050f925aa0d14e8b4f5cc",
+      "title": "blog_china_s_polyolefins_demand_from_dire_demographics_to_export_dominance_scenario_planning_is_essential",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:37:18.841541",
+      "language": "en",
+      "length_before_preprocessing": 4858,
+      "length_after_preprocessing": 1023,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11158899/blog-china-s-polyolefins-demand-from-dire-demographics-to-export-dominance-scenario-planning-is-essential"
+    },
+    {
+      "id": "f07666dc320e98ee986c652f3e1c8d36739ef10364de39a64fcf1140bbce0437",
+      "title": "malaysia_s_polymer_link_debuts_on_national_bourse",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:37:18.844672",
+      "language": "en",
+      "length_before_preprocessing": 4562,
+      "length_after_preprocessing": 721,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11158918/malaysia-s-polymer-link-debuts-on-national-bourse"
+    },
+    {
+      "id": "169ffebb325b270162f9aaf735ed702b6edbee4a86128ee856eaeaa34049790a",
+      "title": "icis_explains_complexity_of_new_italian_fer_z_mechanism_could_delay_implementation",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:37:18.847467",
+      "language": "en",
+      "length_before_preprocessing": 6921,
+      "length_after_preprocessing": 2016,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11158585/icis-explains-complexity-of-new-italian-fer-z-mechanism-could-delay-implementation"
+    },
+    {
+      "id": "54b98c83faa13cdc0401a92d09659e82de33cf2284c210fe410d58d6ea2fbee1",
+      "title": "ukraine_will_require_gas_imports_in_upcoming_years_d_trading_ceo",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:37:18.850757",
+      "language": "en",
+      "length_before_preprocessing": 7031,
+      "length_after_preprocessing": 2169,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11158590/ukraine-will-require-gas-imports-in-upcoming-years-d-trading-ceo"
+    },
+    {
+      "id": "99ecb064386a0a8e066c4b9437a8cab8cb00d99043bccc76691d035fe92ab9ab",
+      "title": "india_imposes_five_year_adds_on_liquid_epoxy_resins_from_five_origins",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:37:18.853016",
+      "language": "en",
+      "length_before_preprocessing": 5881,
+      "length_after_preprocessing": 972,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11158890/india-imposes-five-year-adds-on-liquid-epoxy-resins-from-five-origins"
+    },
+    {
+      "id": "439c3856f86a9e5b7f1926eca47a38e4ec8b0e7b169c1a110c8981b2556a7ef2",
+      "title": "insight_cop30_ends_in_acrimony_as_fossil_fuel_roadmap_collapses_financing_falls_short_part_1",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-26 18:32:38.689761",
+      "language": "en",
+      "length_before_preprocessing": 11673,
+      "length_after_preprocessing": 6900,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11159015/insight-cop30-ends-in-acrimony-as-fossil-fuel-roadmap-collapses-financing-falls-short-part-1"
+    },
+    {
+      "id": "60774f1787da904556c0ea795d33e84570a9b4467303745d5572bcfd62012ea9",
+      "title": "opposition_to_up_ns_rail_merger_grows_as_60_industry_groups_urge_regulator_to_block_deal",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-26 18:32:38.699399",
+      "language": "en",
+      "length_before_preprocessing": 6452,
+      "length_after_preprocessing": 1501,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/25/11159033/opposition-to-up-ns-rail-merger-grows-as-60-industry-groups-urge-regulator-to-block-deal"
+    }
+  ]
+}

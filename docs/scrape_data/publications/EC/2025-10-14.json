@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-10-14",
+  "publications": [
+    {
+      "id": "1ff8bdea1858144ef32fb36d2b00e5fc5d242e6ae93378da3d484fb7ee222131",
+      "title": "focus_hydrogen",
+      "published_on": "2025-10-14 12:00:00",
+      "scraped_on": "2025-10-16 18:33:47.815951",
+      "language": "en",
+      "length_before_preprocessing": 5878,
+      "length_after_preprocessing": 2594,
+      "url": "https://energy.ec.europa.eu/news/focus-hydrogen-2025-10-14_en"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2026-02-05",
+  "publications": [
+    {
+      "id": "834993bbacfefd8a6869700c7463a387184d835dba55985d7a323cade886f31c",
+      "title": "eu_agency_cooperation_energy_regulators_invites_expressions_interest_become_members_and_alternates",
+      "published_on": "2026-02-05 12:00:00",
+      "scraped_on": "2026-02-06 18:35:30.263350",
+      "language": "en",
+      "length_before_preprocessing": 3862,
+      "length_after_preprocessing": 813,
+      "url": "https://energy.ec.europa.eu/news/eu-agency-cooperation-energy-regulators-invites-expressions-interest-become-members-and-alternates-2026-02-05_en"
+    }
+  ]
+}

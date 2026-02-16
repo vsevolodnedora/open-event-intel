@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-06-27",
+  "publications": [
+    {
+      "id": "ac4a510089d92f1085ff8f38062862e025eafbbacef876ca91a4ea0ad44fd66e",
+      "title": "SuedLink",
+      "published_on": "2025-06-27 12:00:00",
+      "scraped_on": "2025-07-31 11:10:59.426278",
+      "language": "de",
+      "length_before_preprocessing": 3583,
+      "length_after_preprocessing": 954,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250627_SuedLink.html"
+    }
+  ]
+}

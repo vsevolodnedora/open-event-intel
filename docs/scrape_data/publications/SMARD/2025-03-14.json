@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-03-14",
+  "publications": [
+    {
+      "id": "1692c84eb4c09b1bfd648b94a60e164e12ca3fc65aa7e39378c4706a070e77e7",
+      "title": "viel_solarenergie_dank_zubau_und_sonnigem_wetter",
+      "published_on": "2025-03-14 12:00:00",
+      "scraped_on": "2026-01-14 09:22:59.848432",
+      "language": "de",
+      "length_before_preprocessing": 20434,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/211784/216286/viel-solarenergie-dank-zubau-und-sonnigem-wetter"
+    },
+    {
+      "id": "7618d949e3276a274648d901e28220c4ab556f9296d473198901b80876603694",
+      "title": "viel_solarenergie_dank_zubau_und_sonnigem_wetter",
+      "published_on": "2025-03-14 12:00:00",
+      "scraped_on": "2025-07-31 16:01:14.860802",
+      "language": "de",
+      "length_before_preprocessing": 9329,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/444/216286/viel-solarenergie-dank-zubau-und-sonnigem-wetter"
+    },
+    {
+      "id": "d032bc3b7a2cac498f8bad9d648c23f4519f4f518d313de545d2b9eb9b113e4b",
+      "title": "high_solar_generation_thanks_to_sunny_weather_and_increase_in_capacity",
+      "published_on": "2025-03-14 12:00:00",
+      "scraped_on": "2025-07-31 14:55:45.476559",
+      "language": "de",
+      "length_before_preprocessing": 7690,
+      "length_after_preprocessing": 4888,
+      "url": "https://www.smard.de/page/en/topic-article/5892/216422/high-solar-generation-thanks-to-sunny-weather-and-increase-in-capacity"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-06-12",
+  "publications": [
+    {
+      "id": "87b49a47a9cfb2d1ed459b2bc34f7be81b514e6622c0b80ac61571a032f515fc",
+      "title": "DSC",
+      "published_on": "2025-06-12 12:00:00",
+      "scraped_on": "2025-07-31 11:11:06.675197",
+      "language": "de",
+      "length_before_preprocessing": 3813,
+      "length_after_preprocessing": 1179,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250612_DSC.html"
+    }
+  ]
+}

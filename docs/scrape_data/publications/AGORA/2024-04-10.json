@@ -1,0 +1,26 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-04-10",
+  "publications": [
+    {
+      "id": "abc69f1afd5d2fa4b5320f8d1e2c97f58e7595f0fba539b92e0d9e93642832b2",
+      "title": "how_flexibilities_can_help_make_europes_grid_fit_for_net_zero",
+      "published_on": "2024-04-10 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.427200",
+      "language": "en",
+      "length_before_preprocessing": 6343,
+      "length_after_preprocessing": 2550,
+      "url": "https://www.agora-energiewende.org/news-events/how-flexibilities-can-help-make-europes-grid-fit-for-net-zero"
+    },
+    {
+      "id": "1403c2ae5c7838dbf65b4b13ca83913275dfa4d5e4f2f2d4a68df298f6defad0",
+      "title": "boosting_flexibility_in_distribution_systems",
+      "published_on": "2024-04-10 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.445544",
+      "language": "en",
+      "length_before_preprocessing": 4715,
+      "length_after_preprocessing": 929,
+      "url": "https://www.agora-energiewende.org/news-events/boosting-flexibility-in-distribution-systems"
+    }
+  ]
+}

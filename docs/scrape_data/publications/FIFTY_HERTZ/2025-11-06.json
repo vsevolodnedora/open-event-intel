@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-06",
+  "publications": [
+    {
+      "id": "ded980bdbb7b06313f997f2f6e6193c3fc2a17bd9859f95a64cbba234c4fcdbc",
+      "title": "interaktive_karte_zeigt_baufortschritt",
+      "published_on": "2025-11-06 12:00:00",
+      "scraped_on": "2025-11-06 18:40:44.817937",
+      "language": "de",
+      "length_before_preprocessing": 994,
+      "length_after_preprocessing": 661,
+      "url": "https://www.50hertz.com/de/News/Details/16412/interaktive-karte-zeigt-baufortschritt"
+    }
+  ]
+}

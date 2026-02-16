@@ -1,0 +1,36 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-10-02",
+  "publications": [
+    {
+      "id": "bc70a48709226a478703f0d2647859487a3dbb79fe23e7ef1fd64c271ce79ca3",
+      "title": "harvesting_policy_recipes_for_aseans_coal_to_clean_transition",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-09-08 18:36:05.934983",
+      "language": "en",
+      "length_before_preprocessing": 5089,
+      "length_after_preprocessing": null,
+      "url": "https://www.agora-energiewende.org/news-events/harvesting-policy-recipes-for-aseans-coal-to-clean-transition"
+    },
+    {
+      "id": "a82a017ae5436b385079e1e9a37de83df908c8e35f52dc737a6451b5bdd5306c",
+      "title": "harvesting_policy_recipes_for_aseans_coal_to_clean_transition",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-09-08 18:36:05.940520",
+      "language": "en",
+      "length_before_preprocessing": 3934,
+      "length_after_preprocessing": null,
+      "url": "https://www.agora-energiewende.org/news-events/register/harvesting-policy-recipes-for-aseans-coal-to-clean-transition"
+    },
+    {
+      "id": "0010d6e829d85dc1a77431cc724dc44e5fefc0f8712d83a87765802d409e89fc",
+      "title": "rethinking_europes_energy_security_from_import_dependence_to_domestic_resilience",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-02 18:35:13.073793",
+      "language": "en",
+      "length_before_preprocessing": 5730,
+      "length_after_preprocessing": 2447,
+      "url": "https://www.agora-energiewende.org/news-events/rethinking-europes-energy-security-from-import-dependence-to-domestic-resilience"
+    }
+  ]
+}

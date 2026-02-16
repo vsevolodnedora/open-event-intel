@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-10-24",
+  "publications": [
+    {
+      "id": "17a1c9ae194600c09204965fba542d6e34dc3d79586a5aa967337837b19e5508",
+      "title": "new_european_coordinator_appointed_central_and_south_east_european_energy_interconnectivity",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:30:35.818294",
+      "language": "en",
+      "length_before_preprocessing": 3763,
+      "length_after_preprocessing": 938,
+      "url": "https://energy.ec.europa.eu/news/new-european-coordinator-appointed-central-and-south-east-european-energy-interconnectivity-2025-10-24_en"
+    },
+    {
+      "id": "0bb2387b68f1866f050725143f8e44fecad323020cbe0f499d3a145d8407ced4",
+      "title": "commissioner_jorgensen_romania_and_bulgaria_key_discussions_interconnectivity_energy_security_and",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:30:35.820628",
+      "language": "en",
+      "length_before_preprocessing": 3959,
+      "length_after_preprocessing": 1007,
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-romania-and-bulgaria-key-discussions-interconnectivity-energy-security-and-2025-10-24_en"
+    }
+  ]
+}

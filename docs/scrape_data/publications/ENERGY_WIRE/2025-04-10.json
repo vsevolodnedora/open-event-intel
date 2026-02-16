@@ -1,0 +1,26 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-10",
+  "publications": [
+    {
+      "id": "dbc9393f023b273d969673e8e51c37af3f812d983d0e2baeb940d755dcfb82fd",
+      "title": "aspiring_german_government_opts_energy_transition_continuity",
+      "published_on": "2025-04-10 14:11:00",
+      "scraped_on": "2025-07-31 13:06:23.295729",
+      "language": "en",
+      "length_before_preprocessing": 8119,
+      "length_after_preprocessing": 2454,
+      "url": "https://www.cleanenergywire.org/news/aspiring-german-government-opts-energy-transition-continuity"
+    },
+    {
+      "id": "fdda48528a12e36c31770ef852b810cdb54c05bdcb00ed67660ff2935751794b",
+      "title": "brief_10_april_25",
+      "published_on": "2025-04-10 13:30:00",
+      "scraped_on": "2025-07-31 13:06:34.948514",
+      "language": "en",
+      "length_before_preprocessing": 4888,
+      "length_after_preprocessing": 577,
+      "url": "https://www.cleanenergywire.org/news/brief-10-april-25"
+    }
+  ]
+}

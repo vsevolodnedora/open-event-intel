@@ -1,0 +1,26 @@
+{
+  "publisher": "AMPRION",
+  "published_on": "2025-12-08",
+  "publications": [
+    {
+      "id": "ed31aab476b50b213722a5bd1c2e639f3e195900b4e96019e1f30b227a6311ef",
+      "title": "Presse_Detailseite_89478",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-09 18:22:20.954147",
+      "language": "de",
+      "length_before_preprocessing": 3715,
+      "length_after_preprocessing": 1359,
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89478.html"
+    },
+    {
+      "id": "1a35e783132cd3793cfe550a7a962036b4df3718f691e0c267e779fba7d5c221",
+      "title": "Presse_Detailseite_89988",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-18 18:28:35.732300",
+      "language": "de",
+      "length_before_preprocessing": 5769,
+      "length_after_preprocessing": 1320,
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_89988.html"
+    }
+  ]
+}

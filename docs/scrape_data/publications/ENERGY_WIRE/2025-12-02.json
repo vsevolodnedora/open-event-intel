@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-12-02",
+  "publications": [
+    {
+      "id": "a65e7a2a30a6530ce6c22c3b8c1130e4bcec50aed664060876d643b1ab765226",
+      "title": "construction_starts_green_hydrogen_project_hamburg_site_former_coal_plant",
+      "published_on": "2025-12-02 13:14:00",
+      "scraped_on": "2025-12-02 14:41:47.485290",
+      "language": "en",
+      "length_before_preprocessing": 4256,
+      "length_after_preprocessing": 996,
+      "url": "https://www.cleanenergywire.org/news/construction-starts-green-hydrogen-project-hamburg-site-former-coal-plant"
+    },
+    {
+      "id": "c3cb29e1807f21484c4dc0c2cd98799eb55f939e68190ab685c25aabbe8c21e3",
+      "title": "transport_sector_lagging_far_behind_germanys_overall_energy_efficiency_gains_analysis",
+      "published_on": "2025-12-02 12:54:00",
+      "scraped_on": "2025-12-02 14:41:58.562678",
+      "language": "en",
+      "length_before_preprocessing": 6719,
+      "length_after_preprocessing": 1103,
+      "url": "https://www.cleanenergywire.org/news/transport-sector-lagging-far-behind-germanys-overall-energy-efficiency-gains-analysis"
+    },
+    {
+      "id": "e3c3788a87eb7162b2fef7976ae03321d2ffbba580b8047fd6b039dbf6d99c74",
+      "title": "commissioner_says_eu_amend_2035_ban_new_combustion_engine_cars",
+      "published_on": "2025-12-02 09:35:00",
+      "scraped_on": "2025-12-02 14:42:09.633660",
+      "language": "en",
+      "length_before_preprocessing": 7318,
+      "length_after_preprocessing": 1586,
+      "url": "https://www.cleanenergywire.org/news/commissioner-says-eu-amend-2035-ban-new-combustion-engine-cars"
+    },
+    {
+      "id": "fa5ec7b330a9297646e70ef18a2e6c6dd117766f47a7ce820782eb37b5775082",
+      "title": "brief_2_december_25",
+      "published_on": "2025-12-02 09:30:00",
+      "scraped_on": "2025-12-02 14:42:20.542028",
+      "language": "en",
+      "length_before_preprocessing": 5236,
+      "length_after_preprocessing": 760,
+      "url": "https://www.cleanenergywire.org/news/brief-2-december-25"
+    }
+  ]
+}

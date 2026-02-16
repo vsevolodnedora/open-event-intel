@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-20",
+  "publications": [
+    {
+      "id": "0972a9e6f64901b10b8ee464a21501ac5caae42557183355d69c53c4472763c2",
+      "title": "energy_industry_calls_holistic_ev_strategy_government_adopts_charging_plan",
+      "published_on": "2025-11-20 11:44:00",
+      "scraped_on": "2025-11-20 18:37:28.670677",
+      "language": "en",
+      "length_before_preprocessing": 4299,
+      "length_after_preprocessing": 1086,
+      "url": "https://www.cleanenergywire.org/news/energy-industry-calls-holistic-ev-strategy-government-adopts-charging-plan"
+    },
+    {
+      "id": "00898937f296a71a360f9a3702c3d1b00d262db63ac05fa00b315290a9f71e1f",
+      "title": "german_industry_says_eu_rules_electricity_subsidies_are_too_strict",
+      "published_on": "2025-11-20 10:29:00",
+      "scraped_on": "2025-11-20 18:37:39.740900",
+      "language": "en",
+      "length_before_preprocessing": 6806,
+      "length_after_preprocessing": 1112,
+      "url": "https://www.cleanenergywire.org/news/german-industry-says-eu-rules-electricity-subsidies-are-too-strict"
+    },
+    {
+      "id": "45ac1a499cfd51cd59c69247e1b1b24871ff842f40db21331ed6c18186158543",
+      "title": "brief_20_november_25",
+      "published_on": "2025-11-20 10:16:00",
+      "scraped_on": "2025-11-20 18:37:50.608297",
+      "language": "en",
+      "length_before_preprocessing": 5748,
+      "length_after_preprocessing": 1062,
+      "url": "https://www.cleanenergywire.org/news/brief-20-november-25"
+    }
+  ]
+}

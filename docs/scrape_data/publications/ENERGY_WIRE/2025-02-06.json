@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-06",
+  "publications": [
+    {
+      "id": "2029f4b219ec7b6efa8b8d9697b5032a5a0415df921671a8456b51c3aa0615bb",
+      "title": "massive_battery_storage_expansion_plans_germany_pose_challenges_grid_operators",
+      "published_on": "2025-02-06 13:25:00",
+      "scraped_on": "2025-07-31 12:32:19.100324",
+      "language": "en",
+      "length_before_preprocessing": 6122,
+      "length_after_preprocessing": 1008,
+      "url": "https://www.cleanenergywire.org/news/massive-battery-storage-expansion-plans-germany-pose-challenges-grid-operators"
+    },
+    {
+      "id": "313df595ed670a9916640b4a70bcfeb9d2eace8b18730852da2616c8cfc9969f",
+      "title": "electrification_key_cost_effective_transformation_german_industry_report",
+      "published_on": "2025-02-06 13:24:00",
+      "scraped_on": "2025-07-31 12:32:30.553427",
+      "language": "en",
+      "length_before_preprocessing": 6543,
+      "length_after_preprocessing": 957,
+      "url": "https://www.cleanenergywire.org/news/electrification-key-cost-effective-transformation-german-industry-report"
+    },
+    {
+      "id": "b7fb7d45770d9718d32df8e27dd0e49af967f06d4158724d7f625e9a5796adba",
+      "title": "state_support_energy_transition_german_homes_rise_state_owned_kfw_bank",
+      "published_on": "2025-02-06 13:22:00",
+      "scraped_on": "2025-07-31 12:32:42.195311",
+      "language": "en",
+      "length_before_preprocessing": 6242,
+      "length_after_preprocessing": 772,
+      "url": "https://www.cleanenergywire.org/news/state-support-energy-transition-german-homes-rise-state-owned-kfw-bank"
+    },
+    {
+      "id": "491164ca5aab63edc57b5880af1ddd58cf8c75ad33053ee5e16d3c536274d6ee",
+      "title": "youth_organisations_call_fair_climate_policy_all_generations_ahead_german_elections",
+      "published_on": "2025-02-06 13:21:00",
+      "scraped_on": "2025-07-31 12:32:53.835976",
+      "language": "en",
+      "length_before_preprocessing": 6429,
+      "length_after_preprocessing": 843,
+      "url": "https://www.cleanenergywire.org/news/youth-organisations-call-fair-climate-policy-all-generations-ahead-german-elections"
+    },
+    {
+      "id": "9279e239c2ca6ed0d7eaf788f716fce25b5eddd1b3fd07b879e7abee7ab6e0d8",
+      "title": "brief_6_february_25",
+      "published_on": "2025-02-06 11:30:00",
+      "scraped_on": "2025-07-31 12:33:05.374286",
+      "language": "en",
+      "length_before_preprocessing": 2890,
+      "length_after_preprocessing": 766,
+      "url": "https://www.cleanenergywire.org/news/brief-6-february-25"
+    }
+  ]
+}

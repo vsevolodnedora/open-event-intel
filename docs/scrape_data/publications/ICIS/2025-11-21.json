@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-21",
+  "publications": [
+    {
+      "id": "1743dd102094ff3d5dbc65ba1463591744c13f7eb744cf28170493887406a99a",
+      "title": "s_korea_hikes_adds_on_china_pet_films_after_review",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-21 18:31:06.485838",
+      "language": "en",
+      "length_before_preprocessing": 5411,
+      "length_after_preprocessing": 550,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/21/11157908/s-korea-hikes-adds-on-china-pet-films-after-review"
+    },
+    {
+      "id": "0e8a958f164536115a63083d03eb37f7ffe3b1d97bd9fd829a1c2bc7075ed7b3",
+      "title": "podcast_exxonmobil_scotland_closure_highlights_need_for_new_strategies_to_save_europe_petrochemicals",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-21 18:31:06.487825",
+      "language": "en",
+      "length_before_preprocessing": 5632,
+      "length_after_preprocessing": 775,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/21/11158054/podcast-exxonmobil-scotland-closure-highlights-need-for-new-strategies-to-save-europe-petrochemicals"
+    },
+    {
+      "id": "d3adeda6880362da836268a63213442ca40eb23eabe50a439c3054af1b1cbc5f",
+      "title": "japan_cabinet_approves_y21_3_trillion_budget_tackling_rising_inflation_economic_growth",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-21 18:31:06.489867",
+      "language": "en",
+      "length_before_preprocessing": 6577,
+      "length_after_preprocessing": 1737,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/21/11158055/japan-cabinet-approves-y21-3-trillion-budget-tackling-rising-inflation-economic-growth"
+    },
+    {
+      "id": "587c383dcc05299f0f0bb711420158f7bd12e9cd2758a86d546b5f2f7beb1c34",
+      "title": "singapore_raises_2025_gdp_growth_forecast_on_strong_semiconductor_demand",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-21 18:31:06.494922",
+      "language": "en",
+      "length_before_preprocessing": 5452,
+      "length_after_preprocessing": 1658,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/21/11157946/singapore-raises-2025-gdp-growth-forecast-on-strong-semiconductor-demand"
+    },
+    {
+      "id": "228f76654f482eb49ec0c43f3d0921e5ac6e7f1ad8a268dc2407247313e4431f",
+      "title": "update_s_korea_hikes_adds_on_china_pet_films_after_review",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-21 18:31:06.501582",
+      "language": "en",
+      "length_before_preprocessing": 5954,
+      "length_after_preprocessing": 1072,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/21/11157916/update-s-korea-hikes-adds-on-china-pet-films-after-review"
+    },
+    {
+      "id": "1134360ff9b5583787865ee294f7ec6284a59a319fdecc7ec92aeb22d6f9eeb0",
+      "title": "brazil_s_braskem_to_benefit_up_to_380_million_year_from_new_chemicals_tax_incentives_analysts",
+      "published_on": "2025-11-21 12:00:00",
+      "scraped_on": "2025-11-22 18:32:33.981029",
+      "language": "en",
+      "length_before_preprocessing": 8903,
+      "length_after_preprocessing": 3970,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/21/11158092/brazil-s-braskem-to-benefit-up-to-380-million-year-from-new-chemicals-tax-incentives-analysts"
+    }
+  ]
+}

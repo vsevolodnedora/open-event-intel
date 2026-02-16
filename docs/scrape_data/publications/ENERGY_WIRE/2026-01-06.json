@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2026-01-06",
+  "publications": [
+    {
+      "id": "30bfe482d008c8cec15942770c9f5e0f64180a9d3ad507cc166adbafbf3f6f20",
+      "title": "cities_along_rivers_and_coast_most_affected_climate_change_germany_researchers",
+      "published_on": "2026-01-06 16:11:00",
+      "scraped_on": "2026-01-06 18:22:18.984685",
+      "language": "en",
+      "length_before_preprocessing": 3994,
+      "length_after_preprocessing": 1200,
+      "url": "https://www.cleanenergywire.org/news/cities-along-rivers-and-coast-most-affected-climate-change-germany-researchers"
+    },
+    {
+      "id": "4cd14533ce4773e59b746554cec562c1c1c3f408f476b4948b4741e0e9271505",
+      "title": "germanys_energy_infrastructure_risks_move_focus_after_berlin_power_grid_sabotage",
+      "published_on": "2026-01-06 13:34:00",
+      "scraped_on": "2026-01-06 18:22:29.860733",
+      "language": "en",
+      "length_before_preprocessing": 7090,
+      "length_after_preprocessing": 1380,
+      "url": "https://www.cleanenergywire.org/news/germanys-energy-infrastructure-risks-move-focus-after-berlin-power-grid-sabotage"
+    },
+    {
+      "id": "bfe1b7361612c2ff79fb783bc0759ee6b7c1b0ac71a434461aba5848659d6893",
+      "title": "rwe_expects_downward_trend_germanys_electricity_and_gas_prices_2026",
+      "published_on": "2026-01-06 13:30:00",
+      "scraped_on": "2026-01-06 18:22:40.758847",
+      "language": "en",
+      "length_before_preprocessing": 6785,
+      "length_after_preprocessing": 1045,
+      "url": "https://www.cleanenergywire.org/news/rwe-expects-downward-trend-germanys-electricity-and-gas-prices-2026"
+    },
+    {
+      "id": "504a23020e95727e20d46f7abec1eaaa7a28d650e7d3922c451991f6026161b3",
+      "title": "solar_power_boom_keeps_germanys_2025_renewable_electricity_share_stable",
+      "published_on": "2026-01-06 13:20:00",
+      "scraped_on": "2026-01-06 18:22:51.675893",
+      "language": "en",
+      "length_before_preprocessing": 7122,
+      "length_after_preprocessing": 1339,
+      "url": "https://www.cleanenergywire.org/news/solar-power-boom-keeps-germanys-2025-renewable-electricity-share-stable"
+    },
+    {
+      "id": "27373fb2925b581673c7d1a192c2f3249b7756cb8e3807b31920e01cb1fea636",
+      "title": "preview_2026_europe_urgently_needs_lead_markets_clean_steel_cement_plastics_think_tank",
+      "published_on": "2026-01-06 11:20:00",
+      "scraped_on": "2026-01-06 18:23:02.552630",
+      "language": "en",
+      "length_before_preprocessing": 7746,
+      "length_after_preprocessing": 1910,
+      "url": "https://www.cleanenergywire.org/news/preview-2026-europe-urgently-needs-lead-markets-clean-steel-cement-plastics-think-tank"
+    },
+    {
+      "id": "0a7681155230b830db566c7e5f3221d3a528ede0cabbc793be2b52f9f4f19796",
+      "title": "brief_6_january_26",
+      "published_on": "2026-01-06 10:59:00",
+      "scraped_on": "2026-01-06 18:23:13.293715",
+      "language": "en",
+      "length_before_preprocessing": 5498,
+      "length_after_preprocessing": 947,
+      "url": "https://www.cleanenergywire.org/news/brief-6-january-26"
+    }
+  ]
+}

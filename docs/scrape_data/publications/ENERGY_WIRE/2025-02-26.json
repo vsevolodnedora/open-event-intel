@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-26",
+  "publications": [
+    {
+      "id": "dc56d782cc6decec74486041108aa76fdc7ca2ae9499f4d9f8cd73568cc0a20e",
+      "title": "grid_operators_look_make_german_battery_storage_units_more_effective_balancing_grid",
+      "published_on": "2025-02-26 13:18:00",
+      "scraped_on": "2025-07-31 12:41:49.252521",
+      "language": "en",
+      "length_before_preprocessing": 6589,
+      "length_after_preprocessing": 1016,
+      "url": "https://www.cleanenergywire.org/news/grid-operators-look-make-german-battery-storage-units-more-effective-balancing-grid"
+    },
+    {
+      "id": "e8bf90c80c576e4eb20e0193d69031b65acbeff3e5c2eaf8a3ca0c6d510124f4",
+      "title": "german_energy_transition_stagnating_many_sectors_report",
+      "published_on": "2025-02-26 13:16:00",
+      "scraped_on": "2025-07-31 12:42:00.930204",
+      "language": "en",
+      "length_before_preprocessing": 6603,
+      "length_after_preprocessing": 827,
+      "url": "https://www.cleanenergywire.org/news/german-energy-transition-stagnating-many-sectors-report"
+    },
+    {
+      "id": "1867615b4d31b247e4e77195534a00d355c4b6b324ab0dc4e0cf62ce5ea2c5be",
+      "title": "germanys_former_reactor_operators_lukewarm_merzs_nuclear_dismantling_moratorium_idea",
+      "published_on": "2025-02-26 13:13:00",
+      "scraped_on": "2025-07-31 12:42:12.585490",
+      "language": "en",
+      "length_before_preprocessing": 7371,
+      "length_after_preprocessing": 1577,
+      "url": "https://www.cleanenergywire.org/news/germanys-former-reactor-operators-lukewarm-merzs-nuclear-dismantling-moratorium-idea"
+    },
+    {
+      "id": "323dcb0e89ef6aac4e28bdd4c591fd08631baa69eb76d994870325a2a6f8887c",
+      "title": "brief_26_february_25",
+      "published_on": "2025-02-26 10:30:00",
+      "scraped_on": "2025-07-31 12:42:24.339267",
+      "language": "en",
+      "length_before_preprocessing": 5552,
+      "length_after_preprocessing": 1054,
+      "url": "https://www.cleanenergywire.org/news/brief-26-february-25"
+    }
+  ]
+}

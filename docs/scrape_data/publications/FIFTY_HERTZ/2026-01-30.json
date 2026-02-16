@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2026-01-30",
+  "publications": [
+    {
+      "id": "e1a43845548babcf7b50e2436bf94633c92935a04aa97560ae250db19a5f0af2",
+      "title": "ostwind_3_auf_kurs_baufortschritte_auf_see_und_an_land",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:34:42.266445",
+      "language": "de",
+      "length_before_preprocessing": 1983,
+      "length_after_preprocessing": 1584,
+      "url": "https://www.50hertz.com/de/News/Details/16723/ostwind-3-auf-kurs-baufortschritte-auf-see-und-an-land"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-07-24",
+  "publications": [
+    {
+      "id": "af33f967ceb210d1432cf0a52dacd9ff2d287bede4645546cf1ec34b00159612",
+      "title": "default_b9d1b4e2a739d91f776c03f439612ac7_1",
+      "published_on": "2024-07-24 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.416610",
+      "language": "en",
+      "length_before_preprocessing": 4428,
+      "length_after_preprocessing": 1171,
+      "url": "https://www.agora-energiewende.org/news-events/default-b9d1b4e2a739d91f776c03f439612ac7-1"
+    },
+    {
+      "id": "324d2e9419a672d5c52ea172b8c2c18091fd277a42a974bdfc32e581dc28aedf",
+      "title": "navigating_the_promises_and_pitfalls_of_low_carbon_hydrogen_in_europe",
+      "published_on": "2024-07-24 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.441575",
+      "language": "en",
+      "length_before_preprocessing": 6421,
+      "length_after_preprocessing": 2887,
+      "url": "https://www.agora-energiewende.org/news-events/navigating-the-promises-and-pitfalls-of-low-carbon-hydrogen-in-europe"
+    }
+  ]
+}

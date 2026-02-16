@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-10",
+  "publications": [
+    {
+      "id": "5dcfa738101c5d8c3945b6d4f0309b26a313bc50238ec04a6975d1c5416a57a3",
+      "title": "biogas_increasingly_seen_key_pillar_future_renewable_energy_system_media_report",
+      "published_on": "2025-09-10 13:17:00",
+      "scraped_on": "2025-09-10 18:34:51.932176",
+      "language": "en",
+      "length_before_preprocessing": 4108,
+      "length_after_preprocessing": 1369,
+      "url": "https://www.cleanenergywire.org/news/biogas-increasingly-seen-key-pillar-future-renewable-energy-system-media-report"
+    },
+    {
+      "id": "58264c50c9a20f404eafefc6ba592660ac55af43001833cb73628fb426e4992d",
+      "title": "digital_machine_identities_can_simplify_energy_transition_increase_security_report",
+      "published_on": "2025-09-10 13:03:00",
+      "scraped_on": "2025-09-10 18:35:02.832223",
+      "language": "en",
+      "length_before_preprocessing": 6446,
+      "length_after_preprocessing": 1084,
+      "url": "https://www.cleanenergywire.org/news/digital-machine-identities-can-simplify-energy-transition-increase-security-report"
+    },
+    {
+      "id": "c81f8da2b0125756288cbbe0c6658c439f8792c3dcd24d7f89b9d361768a3cef",
+      "title": "brief_10_september_25",
+      "published_on": "2025-09-10 11:41:00",
+      "scraped_on": "2025-09-10 18:35:13.576670",
+      "language": "en",
+      "length_before_preprocessing": 5328,
+      "length_after_preprocessing": 900,
+      "url": "https://www.cleanenergywire.org/news/brief-10-september-25"
+    }
+  ]
+}

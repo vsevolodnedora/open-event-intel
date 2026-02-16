@@ -1,0 +1,26 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-11-18",
+  "publications": [
+    {
+      "id": "11b88f75252663d427c28477664356719fc8d56f6bb3f8f408afdb2eeb63b298",
+      "title": "infrastructure_planning_to_enable_a_climate_neutral_energy_system",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-06 18:37:18.063516",
+      "language": "en",
+      "length_before_preprocessing": 4219,
+      "length_after_preprocessing": 693,
+      "url": "https://www.agora-energiewende.org/news-events/infrastructure-planning-to-enable-a-climate-neutral-energy-system"
+    },
+    {
+      "id": "ac2f5e4c2ced9b9be88102c3b5f937c1dba5eb4c52e442113e996aa665cc21c6",
+      "title": "coordinated_grids_planning_could_save_europe_560_billion_euros_by_2050",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:37:52.015064",
+      "language": "en",
+      "length_before_preprocessing": 6215,
+      "length_after_preprocessing": 2530,
+      "url": "https://www.agora-energiewende.org/news-events/coordinated-grids-planning-could-save-europe-560-billion-euros-by-2050"
+    }
+  ]
+}

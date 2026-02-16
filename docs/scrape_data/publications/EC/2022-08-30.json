@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2022-08-30",
+  "publications": [
+    {
+      "id": "b8bae74a26d4831ba6421d72b276103b252465efb0cdfe8c7828b29c8a8acf69",
+      "title": "commission_adopts_first_list_renewable_energy_cross_border_projects",
+      "published_on": "2022-08-30 12:00:00",
+      "scraped_on": "2025-12-01 18:39:48.755751",
+      "language": "en",
+      "length_before_preprocessing": 6565,
+      "length_after_preprocessing": 1095,
+      "url": "https://commission.europa.eu/news/commission-adopts-first-list-renewable-energy-cross-border-projects-2022-08-30_en"
+    }
+  ]
+}

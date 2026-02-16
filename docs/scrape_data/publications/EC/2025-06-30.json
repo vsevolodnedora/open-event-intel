@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-06-30",
+  "publications": [
+    {
+      "id": "329dce050e0e1d0df905dc659600a30f6fa1bc35ad563968209b566be5c34f6b",
+      "title": "commission_sets_eus_building_sector_pathway_towards_greater_energy_efficiency_and_decarbonisation",
+      "published_on": "2025-06-30 12:00:00",
+      "scraped_on": "2025-07-31 11:18:57.021186",
+      "language": "en",
+      "length_before_preprocessing": 4947,
+      "length_after_preprocessing": 1855,
+      "url": "https://energy.ec.europa.eu/news/commission-sets-eus-building-sector-pathway-towards-greater-energy-efficiency-and-decarbonisation-2025-06-30_en"
+    }
+  ]
+}

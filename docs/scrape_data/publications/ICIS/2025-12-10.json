@@ -1,0 +1,26 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-10",
+  "publications": [
+    {
+      "id": "f54a0a44f0f1b89337fe252d20e78149af5c3c2d0787280e995084d6d6bcf7d8",
+      "title": "german_chems_sales_to_drop_in_2026_after_exhausting_year_vci",
+      "published_on": "2025-12-10 12:00:00",
+      "scraped_on": "2025-12-10 18:20:38.127957",
+      "language": "en",
+      "length_before_preprocessing": 5184,
+      "length_after_preprocessing": 1400,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/10/11162912/german-chems-sales-to-drop-in-2026-after-exhausting-year-vci"
+    },
+    {
+      "id": "6b901255ff99a4800e9678174b50baa66818143e7764cba84c61be4899127914",
+      "title": "gpca_25_gcc_to_expand_intermediates_non_asian_export_growth_to_2030_gpca_chief",
+      "published_on": "2025-12-10 12:00:00",
+      "scraped_on": "2025-12-10 18:20:38.134619",
+      "language": "en",
+      "length_before_preprocessing": 6172,
+      "length_after_preprocessing": 2397,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/10/11162804/gpca-25-gcc-to-expand-intermediates-non-asian-export-growth-to-2030-gpca-chief"
+    }
+  ]
+}

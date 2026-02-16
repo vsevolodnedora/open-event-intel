@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-19",
+  "publications": [
+    {
+      "id": "0ad8e2d3e2b39d17fd0e93a107340feaff2f9735e02bbd15f2e1efc126251a03",
+      "title": "germany_slips_climate_progress_ranking_due_plans_new_gas_plants",
+      "published_on": "2025-11-19 12:19:00",
+      "scraped_on": "2025-11-19 18:37:48.436844",
+      "language": "en",
+      "length_before_preprocessing": 4369,
+      "length_after_preprocessing": 1211,
+      "url": "https://www.cleanenergywire.org/news/germany-slips-climate-progress-ranking-due-plans-new-gas-plants"
+    },
+    {
+      "id": "1eb98c2791d947c0bafaf0c50a21fb45537838912f4af04bfb674e2b7f115649",
+      "title": "coordinated_energy_grid_planning_could_save_eu_more_500_billion_euros_think_tanks",
+      "published_on": "2025-11-19 11:47:00",
+      "scraped_on": "2025-11-19 18:37:59.508140",
+      "language": "en",
+      "length_before_preprocessing": 6930,
+      "length_after_preprocessing": 1078,
+      "url": "https://www.cleanenergywire.org/news/coordinated-energy-grid-planning-could-save-eu-more-500-billion-euros-think-tanks"
+    },
+    {
+      "id": "7475a21248a7d2c9847db610a6b039f061d9e53eb667cb08dd4e3a38db96ab8d",
+      "title": "brief_19_november_25",
+      "published_on": "2025-11-19 10:33:00",
+      "scraped_on": "2025-11-19 18:38:10.403148",
+      "language": "en",
+      "length_before_preprocessing": 5541,
+      "length_after_preprocessing": 797,
+      "url": "https://www.cleanenergywire.org/news/brief-19-november-25"
+    },
+    {
+      "id": "9f4a239f52f624823721eea7976635c4985acc26843785995720ad1077211a4a",
+      "title": "eu_clears_eu175_billion_compensation_early_coal_plant_closures_eastern_germany",
+      "published_on": "2025-11-19 10:25:00",
+      "scraped_on": "2025-11-19 18:38:21.472101",
+      "language": "en",
+      "length_before_preprocessing": 7004,
+      "length_after_preprocessing": 1091,
+      "url": "https://www.cleanenergywire.org/news/eu-clears-eu175-billion-compensation-early-coal-plant-closures-eastern-germany"
+    }
+  ]
+}

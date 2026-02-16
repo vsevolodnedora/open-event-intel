@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-03-31",
+  "publications": [
+    {
+      "id": "88240fbcfb7b9c3519fb6619e7bbc43ab17962b50096a2d086c7d37bfbf467d8",
+      "title": "partielle_sonnenfinsternis_ohne_auswirkungen",
+      "published_on": "2025-03-31 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.655124",
+      "language": "de",
+      "length_before_preprocessing": 4562,
+      "length_after_preprocessing": 1070,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/partielle-sonnenfinsternis-ohne-auswirkungen"
+    }
+  ]
+}

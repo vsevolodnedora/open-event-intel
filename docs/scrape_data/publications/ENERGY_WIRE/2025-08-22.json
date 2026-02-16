@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-22",
+  "publications": [
+    {
+      "id": "a7881afb2a604aa9a858ebd1ad4ae6e8457dc9ec7ac01809f69d7cb21985258e",
+      "title": "dispatch_italy_august_25",
+      "published_on": "2025-08-22 15:00:00",
+      "scraped_on": "2025-08-22 18:35:34.673506",
+      "language": "en",
+      "length_before_preprocessing": 8764,
+      "length_after_preprocessing": 3773,
+      "url": "https://www.cleanenergywire.org/news/dispatch-italy-august-25"
+    },
+    {
+      "id": "5a9dd0097933face409b492f9f3453d2136d47612b6ae155c9edf15f1b4a86df",
+      "title": "germany_plans_cap_grid_fees_all_customers_subsidies_worth_billions_2026_media",
+      "published_on": "2025-08-22 12:16:00",
+      "scraped_on": "2025-08-22 18:35:45.570357",
+      "language": "en",
+      "length_before_preprocessing": 6794,
+      "length_after_preprocessing": 940,
+      "url": "https://www.cleanenergywire.org/news/germany-plans-cap-grid-fees-all-customers-subsidies-worth-billions-2026-media"
+    },
+    {
+      "id": "248ac2e94f2ad1d1961663c7209fac8b8a5c2408aa7c5a1f43677831083d5264",
+      "title": "watchdog_warns_germanys_climate_and_infrastructure_fund_lacks_clear_targets",
+      "published_on": "2025-08-22 12:12:00",
+      "scraped_on": "2025-08-22 18:35:56.477366",
+      "language": "en",
+      "length_before_preprocessing": 6624,
+      "length_after_preprocessing": 1228,
+      "url": "https://www.cleanenergywire.org/news/watchdog-warns-germanys-climate-and-infrastructure-fund-lacks-clear-targets"
+    },
+    {
+      "id": "1779cc808b4c58f292f20ecbcd772a16bd33f242a4d270bdbbe8451b45c7dedd",
+      "title": "brief_22_august_25",
+      "published_on": "2025-08-22 11:20:00",
+      "scraped_on": "2025-08-22 18:36:07.245077",
+      "language": "en",
+      "length_before_preprocessing": 5195,
+      "length_after_preprocessing": 691,
+      "url": "https://www.cleanenergywire.org/news/brief-22-august-25"
+    }
+  ]
+}

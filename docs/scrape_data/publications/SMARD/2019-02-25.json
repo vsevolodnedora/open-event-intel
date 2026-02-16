@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-02-25",
+  "publications": [
+    {
+      "id": "1e020df41d25154836e02dd59d6317b78ab0dbb5075dc576fb86dec00fd60080",
+      "title": "die_stromerzeugung_im_dezember_2018_und_januar_2019",
+      "published_on": "2019-02-25 12:00:00",
+      "scraped_on": "2026-01-14 09:18:06.440304",
+      "language": "de",
+      "length_before_preprocessing": 5389,
+      "length_after_preprocessing": 2396,
+      "url": "https://www.smard.de/page/home/topic-article/204974/10714/die-stromerzeugung-im-dezember-2018-und-januar-2019"
+    }
+  ]
+}

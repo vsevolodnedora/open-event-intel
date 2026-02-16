@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-10-07",
+  "publications": [
+    {
+      "id": "166c4e77b48d2ccd39d1b867cc93bb15c64f208bcb759d5ade47f43c082394b5",
+      "title": "acer_review_methodology_electricity_redispatching_and_countertrading_cost_sharing_core_region",
+      "published_on": "2025-10-07 12:00:00",
+      "scraped_on": "2025-10-07 18:32:58.701533",
+      "language": "en",
+      "length_before_preprocessing": 7967,
+      "length_after_preprocessing": 845,
+      "url": "https://www.acer.europa.eu/news/acer-review-methodology-electricity-redispatching-and-countertrading-cost-sharing-core-region"
+    }
+  ]
+}

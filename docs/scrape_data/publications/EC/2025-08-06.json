@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-08-06",
+  "publications": [
+    {
+      "id": "870ff386216b88d3a689d5fd7e3485c36e2dff2456e66c2d8c1da3f756e0107b",
+      "title": "strategic_roadmap_digitalisation_and_ai_energy_sector_consultations_opened",
+      "published_on": "2025-08-06 12:00:00",
+      "scraped_on": "2025-08-07 14:47:36.469963",
+      "language": "en",
+      "length_before_preprocessing": 3803,
+      "length_after_preprocessing": 900,
+      "url": "https://energy.ec.europa.eu/news/strategic-roadmap-digitalisation-and-ai-energy-sector-consultations-opened-2025-08-06_en"
+    }
+  ]
+}

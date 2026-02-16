@@ -1,0 +1,26 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2026-01-16",
+  "publications": [
+    {
+      "id": "c8ec1fb3fc78a6d31fa1d41de311dd2062c405b462b2ecc54ddf62a8c23c7060",
+      "title": "volumen_und_kosten_gestiegen",
+      "published_on": "2026-01-16 12:00:00",
+      "scraped_on": "2026-01-16 18:24:26.751460",
+      "language": "de",
+      "length_before_preprocessing": 11580,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/219200/volumen-und-kosten-gestiegen"
+    },
+    {
+      "id": "75fc32e48e9709e00c81da0e5c47d27131cd8add1310f91ee84f64e9b3a5da89",
+      "title": "volumen_und_kosten_gestiegen",
+      "published_on": "2026-01-16 12:00:00",
+      "scraped_on": "2026-01-16 18:24:33.974027",
+      "language": "de",
+      "length_before_preprocessing": 11578,
+      "length_after_preprocessing": 9293,
+      "url": "https://www.smard.de/page/home/topic-article/444/219200/volumen-und-kosten-gestiegen"
+    }
+  ]
+}

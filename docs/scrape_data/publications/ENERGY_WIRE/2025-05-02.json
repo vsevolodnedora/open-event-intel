@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-02",
+  "publications": [
+    {
+      "id": "43fb529bf6dbb16952fc87af8c9fbb413898c80e5f84814411719662e6009281",
+      "title": "stripping_german_foreign_office_climate_responsibility_risks_weakening_international_dimension_experts",
+      "published_on": "2025-05-02 13:28:00",
+      "scraped_on": "2025-07-31 13:14:52.594208",
+      "language": "en",
+      "length_before_preprocessing": 6610,
+      "length_after_preprocessing": 886,
+      "url": "https://www.cleanenergywire.org/news/stripping-german-foreign-office-climate-responsibility-risks-weakening-international-dimension-experts"
+    },
+    {
+      "id": "0765cc68e057ed30e6186b2b01234389cb54f4fcb598677fbbcf6e6fe866a281",
+      "title": "eu_countries_must_better_embed_social_justice_climate_plans_ahead_ets_2_introduction_ngos",
+      "published_on": "2025-05-02 13:25:00",
+      "scraped_on": "2025-07-31 13:15:04.326683",
+      "language": "en",
+      "length_before_preprocessing": 7262,
+      "length_after_preprocessing": 1477,
+      "url": "https://www.cleanenergywire.org/news/eu-countries-must-better-embed-social-justice-climate-plans-ahead-ets-2-introduction-ngos"
+    },
+    {
+      "id": "fe23a77ff9f6e3555c4c2495bc15d9dd0e39ffbfc46b6a30c6daaa6995e95837",
+      "title": "brief_2_may_25",
+      "published_on": "2025-05-02 11:30:00",
+      "scraped_on": "2025-07-31 13:15:15.897301",
+      "language": "en",
+      "length_before_preprocessing": 6483,
+      "length_after_preprocessing": 817,
+      "url": "https://www.cleanenergywire.org/news/brief-2-may-25"
+    },
+    {
+      "id": "e22652d6a6690f8865651f8d3922fc4467e6e25482ad19c37cdb43abb9c1a808",
+      "title": "eu_must_bet_interconnected_energy_system_exploiting_countries_strengths_greek_deputy_energy_minister",
+      "published_on": "2025-05-02 09:30:00",
+      "scraped_on": "2025-07-31 13:15:27.452677",
+      "language": "en",
+      "length_before_preprocessing": 8327,
+      "length_after_preprocessing": 4701,
+      "url": "https://www.cleanenergywire.org/news/eu-must-bet-interconnected-energy-system-exploiting-countries-strengths-greek-deputy-energy-minister"
+    },
+    {
+      "id": "8f40f5e3b5421e1113fee6f93ca529d36586cbc3dd5c7bdde2d67319a2b3008f",
+      "title": "dispatch_france_may_25",
+      "published_on": "2025-05-02 14:40:00",
+      "scraped_on": "2025-07-31 13:24:20.014172",
+      "language": "en",
+      "length_before_preprocessing": 9706,
+      "length_after_preprocessing": 3346,
+      "url": "https://www.cleanenergywire.org/news/dispatch-france-may-25"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-10-31",
+  "publications": [
+    {
+      "id": "6e70c3d81203724975513c347a46364a33ee1ea928d4440d144c5301f9a918da",
+      "title": "PKUltranet",
+      "published_on": "2025-10-31 12:00:00",
+      "scraped_on": "2025-10-31 18:33:54.157871",
+      "language": "de",
+      "length_before_preprocessing": 3817,
+      "length_after_preprocessing": 1241,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251031_PKUltranet.html"
+    }
+  ]
+}

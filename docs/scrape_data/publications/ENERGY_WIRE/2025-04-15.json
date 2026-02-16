@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-15",
+  "publications": [
+    {
+      "id": "0bb166b17ad2d3384a766175c4289f137a61ab58a3faea7b1deb59587dd63bf4",
+      "title": "german_carmakers_dominate_domestic_e_mobility_market_consultancy",
+      "published_on": "2025-04-15 13:24:00",
+      "scraped_on": "2025-07-31 13:13:28.935776",
+      "language": "en",
+      "length_before_preprocessing": 6670,
+      "length_after_preprocessing": 883,
+      "url": "https://www.cleanenergywire.org/news/german-carmakers-dominate-domestic-e-mobility-market-consultancy"
+    },
+    {
+      "id": "55a47ac4a7aad49b28b434c92905b3582c123a2b10f0a6b2a559904fb6ff5d97",
+      "title": "french_totalenergies_lauds_german_coalition_treaty_vows_green_expansion_neighbour_market",
+      "published_on": "2025-04-15 13:13:00",
+      "scraped_on": "2025-07-31 13:13:40.490945",
+      "language": "en",
+      "length_before_preprocessing": 6672,
+      "length_after_preprocessing": 981,
+      "url": "https://www.cleanenergywire.org/news/french-totalenergies-lauds-german-coalition-treaty-vows-green-expansion-neighbour-market"
+    },
+    {
+      "id": "f6e0ef0f86727274b904874b61f85c6bbe539954dab91f8646af8c1ddacddba7",
+      "title": "germany_and_france_eye_relaunch_european_electricity_market_integration",
+      "published_on": "2025-04-15 13:07:00",
+      "scraped_on": "2025-07-31 13:13:52.155799",
+      "language": "en",
+      "length_before_preprocessing": 7015,
+      "length_after_preprocessing": 1362,
+      "url": "https://www.cleanenergywire.org/news/germany-and-france-eye-relaunch-european-electricity-market-integration"
+    },
+    {
+      "id": "d05aabcb2b00cbd87928378e1b95c7551fd28f3a00ac174f46edb6e33ad04e9e",
+      "title": "brief_15_april_25",
+      "published_on": "2025-04-15 11:55:00",
+      "scraped_on": "2025-07-31 13:14:03.815401",
+      "language": "en",
+      "length_before_preprocessing": 5130,
+      "length_after_preprocessing": 741,
+      "url": "https://www.cleanenergywire.org/news/brief-15-april-25"
+    }
+  ]
+}

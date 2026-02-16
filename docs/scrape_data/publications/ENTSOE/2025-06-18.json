@@ -1,0 +1,26 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-06-18",
+  "publications": [
+    {
+      "id": "fa06c8fc860e5d18103143c2453fb1c7c07fdfb96a51e2ef03c57138a7b49a94",
+      "title": "entso_publishes_report_on_impact_of_renewable_hydrogen_on_the_power_system",
+      "published_on": "2025-06-18 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.531777",
+      "language": "en",
+      "length_before_preprocessing": 2949,
+      "length_after_preprocessing": 715,
+      "url": "https://www.entsoe.eu/news/2025/06/18/entso-publishes-report-on-impact-of-renewable-hydrogen-on-the-power-system"
+    },
+    {
+      "id": "4f4ee1a0a2f115d61c915d0ea7adf69bc41e2633a6ee075d2d7637f22a2f653c",
+      "title": "tsos_launch_new_process_to_calculate_net_transfer_capacity_at_the_borders_of_ukraine_and_moldova",
+      "published_on": "2025-06-18 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.532696",
+      "language": "en",
+      "length_before_preprocessing": 2879,
+      "length_after_preprocessing": 789,
+      "url": "https://www.entsoe.eu/news/2025/06/18/tsos-launch-new-process-to-calculate-net-transfer-capacity-at-the-borders-of-ukraine-and-moldova"
+    }
+  ]
+}

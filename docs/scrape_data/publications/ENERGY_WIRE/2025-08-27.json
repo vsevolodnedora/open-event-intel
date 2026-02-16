@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-27",
+  "publications": [
+    {
+      "id": "7db6ea1e5c3a9a38651d4555b87858d1075d6d57f72b2271f4ea29d4293d566f",
+      "title": "environmental_groups_call_merz_macron_back_eu_2040_climate_target_ahead_franco_german_summit",
+      "published_on": "2025-08-27 12:25:00",
+      "scraped_on": "2025-08-27 18:35:03.912994",
+      "language": "en",
+      "length_before_preprocessing": 4384,
+      "length_after_preprocessing": 1215,
+      "url": "https://www.cleanenergywire.org/news/environmental-groups-call-merz-macron-back-eu-2040-climate-target-ahead-franco-german-summit"
+    },
+    {
+      "id": "c727d3b21c12922898d1c53a3b2650d32cda5fc66993878b9d29f22068c61a5d",
+      "title": "europes_industrial_policy_should_focus_emissions_trading_fewer_subsidies_german_govt_advisors",
+      "published_on": "2025-08-27 12:00:00",
+      "scraped_on": "2025-08-27 18:35:14.799848",
+      "language": "en",
+      "length_before_preprocessing": 6821,
+      "length_after_preprocessing": 1132,
+      "url": "https://www.cleanenergywire.org/news/europes-industrial-policy-should-focus-emissions-trading-fewer-subsidies-german-govt-advisors"
+    },
+    {
+      "id": "5d253d84fc34e1afb51cc17f4631357588fc624296bccc0763d598afe8b44d97",
+      "title": "brief_27_august_25",
+      "published_on": "2025-08-27 10:42:00",
+      "scraped_on": "2025-08-27 18:35:25.541013",
+      "language": "en",
+      "length_before_preprocessing": 5502,
+      "length_after_preprocessing": 1037,
+      "url": "https://www.cleanenergywire.org/news/brief-27-august-25"
+    }
+  ]
+}

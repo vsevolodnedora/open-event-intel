@@ -1,0 +1,36 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-06-16",
+  "publications": [
+    {
+      "id": "4ebfc2efc770a1e4240dae2deb78b4d64c13a48fd28ee845673fc28fc82139e6",
+      "title": "new_euratom_safeguards_regulation_apply_6_july_2025",
+      "published_on": "2025-06-16 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.357598",
+      "language": "en",
+      "length_before_preprocessing": 4618,
+      "length_after_preprocessing": 1531,
+      "url": "https://energy.ec.europa.eu/news/new-euratom-safeguards-regulation-apply-6-july-2025-2025-06-16_en"
+    },
+    {
+      "id": "d9885e972d14ea5115bb47240d99a271eb1a65ca87e91b0458fa3dd08a2ecc2e",
+      "title": "focus_completing_europes_energy_union",
+      "published_on": "2025-06-16 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.359066",
+      "language": "en",
+      "length_before_preprocessing": 4955,
+      "length_after_preprocessing": 2011,
+      "url": "https://energy.ec.europa.eu/news/focus-completing-europes-energy-union-2025-06-16_en"
+    },
+    {
+      "id": "4661fcc7b501ffcdd8a7b88d7a2d461e2c4df96140f1f6c0b6c60dfacadddc4e",
+      "title": "new_energy_union_task_force_reinforce_pan_european_energy_cooperation",
+      "published_on": "2025-06-16 12:00:00",
+      "scraped_on": "2025-07-31 11:18:52.129156",
+      "language": "en",
+      "length_before_preprocessing": 3922,
+      "length_after_preprocessing": 1163,
+      "url": "https://energy.ec.europa.eu/news/new-energy-union-task-force-reinforce-pan-european-energy-cooperation-2025-06-16_en"
+    }
+  ]
+}

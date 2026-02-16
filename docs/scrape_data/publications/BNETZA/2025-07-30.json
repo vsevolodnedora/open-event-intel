@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-07-30",
+  "publications": [
+    {
+      "id": "f0234aa6dbe5cc17ba82bb69a47f86fb364e00a23225e962efba5a14c1840ed2",
+      "title": "Doppelausbau",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 11:10:59.843564",
+      "language": "de",
+      "length_before_preprocessing": 4318,
+      "length_after_preprocessing": 1714,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250730_Doppelausbau.html"
+    }
+  ]
+}

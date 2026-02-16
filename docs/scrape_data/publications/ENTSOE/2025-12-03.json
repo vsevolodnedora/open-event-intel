@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-12-03",
+  "publications": [
+    {
+      "id": "a6d8b133d9793e4f19230f1195d31d142c05a0aa48f8521dba4ebda6efb48a2d",
+      "title": "entso_e_and_dso_entity_launch_12_new_factsheets_on_the_updated_tso_dso_technopedia_platform",
+      "published_on": "2025-12-03 12:00:00",
+      "scraped_on": "2025-12-03 19:26:14.739348",
+      "language": "en",
+      "length_before_preprocessing": 2891,
+      "length_after_preprocessing": 852,
+      "url": "https://www.entsoe.eu/news/2025/12/03/entso-e-and-dso-entity-launch-12-new-factsheets-on-the-updated-tso-dso-technopedia-platform"
+    }
+  ]
+}

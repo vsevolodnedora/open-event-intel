@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-06",
+  "publications": [
+    {
+      "id": "6760a2bc589507a9ecbe428bb000a173eebb3b55ddf9df77b43caa25369b8ff1",
+      "title": "german_railway_operator_plans_use_green_steel_tracks",
+      "published_on": "2025-11-06 11:50:00",
+      "scraped_on": "2025-11-06 18:37:26.237892",
+      "language": "en",
+      "length_before_preprocessing": 6730,
+      "length_after_preprocessing": 903,
+      "url": "https://www.cleanenergywire.org/news/german-railway-operator-plans-use-green-steel-tracks"
+    },
+    {
+      "id": "76ca1fdf26cb4942372ddbf39cd12116a8f0741f95ebded9587383e8a211bdec",
+      "title": "germany_let_local_utilities_close_gas_grids_where_demand_declines_permanently",
+      "published_on": "2025-11-06 10:28:00",
+      "scraped_on": "2025-11-06 18:37:37.317357",
+      "language": "en",
+      "length_before_preprocessing": 8044,
+      "length_after_preprocessing": 1886,
+      "url": "https://www.cleanenergywire.org/news/germany-let-local-utilities-close-gas-grids-where-demand-declines-permanently"
+    },
+    {
+      "id": "8154aa3bd9145b271ea427c6210386dcfebf9516f8a15a4688f941c6e31510ac",
+      "title": "brief_6_november_25",
+      "published_on": "2025-11-06 10:00:00",
+      "scraped_on": "2025-11-06 18:37:48.187647",
+      "language": "en",
+      "length_before_preprocessing": 5392,
+      "length_after_preprocessing": 726,
+      "url": "https://www.cleanenergywire.org/news/brief-6-november-25"
+    },
+    {
+      "id": "1e3c53cc187ae856408939142699b6f436f4b5e5bfaaedfdc5f1c8ffe94539b0",
+      "title": "eu_ets2_delay_harms_smaller_firms_removes_transition_incentives_german_industry",
+      "published_on": "2025-11-06 08:56:00",
+      "scraped_on": "2025-11-06 18:37:59.261965",
+      "language": "en",
+      "length_before_preprocessing": 7283,
+      "length_after_preprocessing": 1497,
+      "url": "https://www.cleanenergywire.org/news/eu-ets2-delay-harms-smaller-firms-removes-transition-incentives-german-industry"
+    }
+  ]
+}

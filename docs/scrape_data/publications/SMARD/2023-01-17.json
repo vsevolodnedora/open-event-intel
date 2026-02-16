@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2023-01-17",
+  "publications": [
+    {
+      "id": "397ee8699f2d5fc14e641551d37809abd3a03f3d10bde9b913208b08780f35c0",
+      "title": "stromverbrauch_deutlich_geringer",
+      "published_on": "2023-01-17 12:00:00",
+      "scraped_on": "2026-01-14 09:20:49.400691",
+      "language": "de",
+      "length_before_preprocessing": 9232,
+      "length_after_preprocessing": 5507,
+      "url": "https://www.smard.de/page/home/topic-article/207548/209816/stromverbrauch-deutlich-geringer"
+    }
+  ]
+}

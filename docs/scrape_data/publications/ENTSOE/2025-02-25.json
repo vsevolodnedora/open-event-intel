@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-02-25",
+  "publications": [
+    {
+      "id": "2c42c2693c15175ad01878140f430789e9d5a6f1d0bf2ed2f5ba438deba0c701",
+      "title": "entso_e_publishes_the_final_report_on_the_grid_incident_in_south_east_europe",
+      "published_on": "2025-02-25 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.515447",
+      "language": "en",
+      "length_before_preprocessing": 3924,
+      "length_after_preprocessing": 1521,
+      "url": "https://www.entsoe.eu/news/2025/02/25/entso-e-publishes-the-final-report-on-the-grid-incident-in-south-east-europe"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-29",
+  "publications": [
+    {
+      "id": "41f5f34b55fe72d9e071d85655bf8c7cba3463d2d09367e9138679ee1ad54d02",
+      "title": "eu_commercial_vehicle_registrations_down_8_1_in_2025_on_weaker_van_and_truck_sales",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:49.600074",
+      "language": "en",
+      "length_before_preprocessing": 5207,
+      "length_after_preprocessing": 1263,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175647/eu-commercial-vehicle-registrations-down-8-1-in-2025-on-weaker-van-and-truck-sales"
+    },
+    {
+      "id": "a2f8777e034aebcf2302a7a70e88a0b5de415c5644cb3b8421fa14b8ca967ebd",
+      "title": "economic_confidence_grows_in_europe_in_january",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:49.603488",
+      "language": "en",
+      "length_before_preprocessing": 5320,
+      "length_after_preprocessing": 1382,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175670/economic-confidence-grows-in-europe-in-january"
+    },
+    {
+      "id": "a586538a41d5a42b5e089cdf8a798ede21c68cf2e8a8bc2e2858a89499ff46c7",
+      "title": "eu_vietnam_upgrade_bilateral_ties_to_strategic_partnership",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:49.606419",
+      "language": "en",
+      "length_before_preprocessing": 4742,
+      "length_after_preprocessing": 799,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175576/eu-vietnam-upgrade-bilateral-ties-to-strategic-partnership"
+    },
+    {
+      "id": "bfa7ef25fe25cf818c0a11dc218cfd8dc43d0f2b6f8bc5597dd81f49bd519f98",
+      "title": "dow_s_net_loss_deepens_in_q4_year_on_year_on_price_falls_lower_operating_rates",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:49.608546",
+      "language": "en",
+      "length_before_preprocessing": 4915,
+      "length_after_preprocessing": 956,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175665/dow-s-net-loss-deepens-in-q4-year-on-year-on-price-falls-lower-operating-rates"
+    },
+    {
+      "id": "520400be66ed0d611f3a1cea48c0ba191ebba641ddaf6a8bd107f7e1f1eb3297",
+      "title": "podcast_sustainably_speaking_understanding_the_nuances_of_ppwr",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:49.610411",
+      "language": "en",
+      "length_before_preprocessing": 4540,
+      "length_after_preprocessing": 565,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175619/podcast-sustainably-speaking-understanding-the-nuances-of-ppwr"
+    },
+    {
+      "id": "c5f9b123a5c4d3dcd1f24c9078e241de8377336da1bbb292d6e9e50e29401f61",
+      "title": "singapore_keeps_monetary_policy_unchanged_ups_2026_inflation_forecast",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:49.614687",
+      "language": "en",
+      "length_before_preprocessing": 5519,
+      "length_after_preprocessing": 1560,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175596/singapore-keeps-monetary-policy-unchanged-ups-2026-inflation-forecast"
+    },
+    {
+      "id": "5356980d7377a7ad4ddd0fd6de03dae1aa645268ccfe4e13eb7702b83ec4dc0c",
+      "title": "potash_developer_buffalo_potash_starts_confirmation_drilling_at_saskatchewan_project",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.403593",
+      "language": "en",
+      "length_before_preprocessing": 5040,
+      "length_after_preprocessing": 1068,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11176136/potash-developer-buffalo-potash-starts-confirmation-drilling-at-saskatchewan-project"
+    },
+    {
+      "id": "d7fba7e7b46c877b5a6167ae3fcc2569afc610b0ad9d07d78a5a91f4ba59f838",
+      "title": "dow_greenlights_path2zero_cracker_project_after_delay_phase_1_start_up_for_end_2029",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.413199",
+      "language": "en",
+      "length_before_preprocessing": 6434,
+      "length_after_preprocessing": 1177,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/29/11175679/dow-greenlights-path2zero-cracker-project-after-delay-phase-1-start-up-for-end-2029"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-09-15",
+  "publications": [
+    {
+      "id": "cc8d009229ed43b1311dcf35fbaf53452ed484f2ac4b9e7e5a0acccb00cec6f3",
+      "title": "baubeginn_des_netzanschlusses_ost_6_1_in_dierhagen",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:38:28.139917",
+      "language": "de",
+      "length_before_preprocessing": 1454,
+      "length_after_preprocessing": 998,
+      "url": "https://www.50hertz.com/de/News/Details/16180/baubeginn-des-netzanschlusses-ost-6-1-in-dierhagen"
+    }
+  ]
+}

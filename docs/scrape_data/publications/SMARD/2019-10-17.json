@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-10-17",
+  "publications": [
+    {
+      "id": "00f5769c6cca994716cae7dd62d19a185cc619776dfe543bfb42f8f4536e5245",
+      "title": "die_stromerzeugung_im_august_und_september_2019",
+      "published_on": "2019-10-17 12:00:00",
+      "scraped_on": "2026-01-14 09:16:56.686746",
+      "language": "de",
+      "length_before_preprocessing": 6330,
+      "length_after_preprocessing": 3077,
+      "url": "https://www.smard.de/page/home/topic-article/204972/14486/die-stromerzeugung-im-august-und-september-2019"
+    }
+  ]
+}

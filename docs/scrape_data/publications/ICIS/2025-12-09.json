@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-09",
+  "publications": [
+    {
+      "id": "f7d3ca8e309067e2c3d4d7290697cc83701fd7c9b99835387184294da8a07536",
+      "title": "gpca_25_oman_s_duqm_petchem_complex_may_not_be_integrated_with_refinery_kpc",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-09 18:17:45.456709",
+      "language": "en",
+      "length_before_preprocessing": 6028,
+      "length_after_preprocessing": 1206,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/09/11162712/gpca-25-oman-s-duqm-petchem-complex-may-not-be-integrated-with-refinery-kpc"
+    },
+    {
+      "id": "cf4eaf8b371901cbac7a51e9ad71c10ebf33b4510b009e48e4d7a72b88b6b770",
+      "title": "alagoas_liabilities_haunt_braskem_debt_talks_putting_mexico_venture_stake_at_risk_moody_s",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-10 18:20:38.130795",
+      "language": "en",
+      "length_before_preprocessing": 10761,
+      "length_after_preprocessing": 6782,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/09/11162813/alagoas-liabilities-haunt-braskem-debt-talks-putting-mexico-venture-stake-at-risk-moody-s"
+    },
+    {
+      "id": "b473ae968f4a1a224fcf08462f0157444f79193e4f65c55646d8a6e8d76fa32f",
+      "title": "gpca_25_china_will_be_patient_amid_current_economic_downturn_huntsman_ceo",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-10 18:20:38.132946",
+      "language": "en",
+      "length_before_preprocessing": 5846,
+      "length_after_preprocessing": 2062,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/09/11162794/gpca-25-china-will-be-patient-amid-current-economic-downturn-huntsman-ceo"
+    }
+  ]
+}

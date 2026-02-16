@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-06-10",
+  "publications": [
+    {
+      "id": "c612eb7e93b0f20e84f3e3bd760d263c03c91889a201192601943b2ec0816d75",
+      "title": "commission_hosts_key_international_energy_and_climate_events_brussels_week_boost_global_action",
+      "published_on": "2025-06-10 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.358350",
+      "language": "en",
+      "length_before_preprocessing": 3943,
+      "length_after_preprocessing": 973,
+      "url": "https://energy.ec.europa.eu/news/commission-hosts-key-international-energy-and-climate-events-brussels-week-boost-global-action-2025-06-10_en"
+    }
+  ]
+}

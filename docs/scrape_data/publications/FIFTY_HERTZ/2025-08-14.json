@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-08-14",
+  "publications": [
+    {
+      "id": "3a42539852f585a9900c943dc9d7e9a47c049faa3902078019fc624b43a705a5",
+      "title": "unterlagen_der_planaenderung_liegen_aus",
+      "published_on": "2025-08-14 12:00:00",
+      "scraped_on": "2025-08-14 18:41:41.844128",
+      "language": "de",
+      "length_before_preprocessing": 1425,
+      "length_after_preprocessing": 1001,
+      "url": "https://www.50hertz.com/de/News/Details/16115/unterlagen-der-planaenderung-liegen-aus"
+    }
+  ]
+}

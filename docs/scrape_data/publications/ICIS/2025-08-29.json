@@ -1,0 +1,46 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-29",
+  "publications": [
+    {
+      "id": "461a313f7626a0497ae061c8f5b2c0105586b017a3443ed1aa28c44a1e1d7472",
+      "title": "thai_prime_minister_paetongtarn_dismissed_by_court_for_ethics_violations",
+      "published_on": "2025-08-29 12:00:00",
+      "scraped_on": "2025-08-29 18:30:33.170205",
+      "language": "en",
+      "length_before_preprocessing": 5409,
+      "length_after_preprocessing": 610,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/29/11132979/thai-prime-minister-paetongtarn-dismissed-by-court-for-ethics-violations"
+    },
+    {
+      "id": "f929745b23095ff8caa9328e92283d882a4fec50d707b34358490c05181fbd81",
+      "title": "interview_germany_s_evonik_will_continue_asia_investments_regardless_of_tariffs",
+      "published_on": "2025-08-29 12:00:00",
+      "scraped_on": "2025-08-29 18:30:33.172813",
+      "language": "en",
+      "length_before_preprocessing": 6696,
+      "length_after_preprocessing": 1931,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/29/11132930/interview-germany-s-evonik-will-continue-asia-investments-regardless-of-tariffs"
+    },
+    {
+      "id": "4072e8cfa43cd06d2249058732b93aec2cda827913c1a99cfef181e65ccd6890",
+      "title": "covestro_completes_acquisition_of_swiss_adhesive_films_producer_pontacol",
+      "published_on": "2025-08-29 12:00:00",
+      "scraped_on": "2025-08-29 18:30:33.176769",
+      "language": "en",
+      "length_before_preprocessing": 5201,
+      "length_after_preprocessing": 439,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/29/11132962/covestro-completes-acquisition-of-swiss-adhesive-films-producer-pontacol"
+    },
+    {
+      "id": "4df5619c2ebf43758ced8a5b28e83a588381d261e3e85a0463d2fc3512754b70",
+      "title": "podcast_sustainably_speaking_us_and_asia_r_pet_markets_see_sinking_prices_amid_global_oversupply_weak_downstream_demand",
+      "published_on": "2025-08-29 12:00:00",
+      "scraped_on": "2025-08-30 18:30:04.266604",
+      "language": "en",
+      "length_before_preprocessing": 5361,
+      "length_after_preprocessing": 594,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/29/11133140/podcast-sustainably-speaking-us-and-asia-r-pet-markets-see-sinking-prices-amid-global-oversupply-weak-downstream-demand"
+    }
+  ]
+}

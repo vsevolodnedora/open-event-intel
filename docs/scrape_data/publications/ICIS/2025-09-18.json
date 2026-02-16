@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-18",
+  "publications": [
+    {
+      "id": "5b8b8eccc9fcecafb748150eb5e54d963935e8f7caf07a14c9067f40b7c54fd9",
+      "title": "insight_inflation_may_limit_us_mortgage_rates_declines_slowing_chem_recovery",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.736036",
+      "language": "en",
+      "length_before_preprocessing": 6454,
+      "length_after_preprocessing": 2496,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/18/11138662/insight-inflation-may-limit-us-mortgage-rates-declines-slowing-chem-recovery"
+    },
+    {
+      "id": "9e0ebc5f16e9d03a5e9ef4a887eeb96f0e49268306650772ae403778c682da8e",
+      "title": "indonesia_s_central_bank_lowers_interest_rate_for_third_straight_meeting",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.739015",
+      "language": "en",
+      "length_before_preprocessing": 5184,
+      "length_after_preprocessing": 1378,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/18/11138573/indonesia-s-central-bank-lowers-interest-rate-for-third-straight-meeting"
+    },
+    {
+      "id": "1537cc7dbf456d9c2693b18b511d4797f123264b2332a1491a8da86ed251f025",
+      "title": "whitepaper_does_germany_offer_an_export_opportunity_for_dutch_renewable_hydrogen_producers",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.743564",
+      "language": "en",
+      "length_before_preprocessing": 7770,
+      "length_after_preprocessing": 3889,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/18/11138689/whitepaper-does-germany-offer-an-export-opportunity-for-dutch-renewable-hydrogen-producers"
+    },
+    {
+      "id": "61ec5e8cc5569015cacc81b308cff60d19fe338d6d347947b3885ec1f2af1e3a",
+      "title": "ineos_oxide_cologne_site_to_stop_producing_po_pg",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.745917",
+      "language": "en",
+      "length_before_preprocessing": 5782,
+      "length_after_preprocessing": 929,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/18/11138679/ineos-oxide-cologne-site-to-stop-producing-po-pg"
+    },
+    {
+      "id": "d74237b291ce503a95e12317c91de54d39abd2589dbcd4cfdfc613b3dee0256f",
+      "title": "eurozone_eu_construction_output_rebounds_in_july_after_two_months_of_decline",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.747780",
+      "language": "en",
+      "length_before_preprocessing": 5509,
+      "length_after_preprocessing": 676,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/18/11138627/eurozone-eu-construction-output-rebounds-in-july-after-two-months-of-decline"
+    },
+    {
+      "id": "a24089b7c3d7ab9b157489fc78a765f9c5f6c15acda0ad53753cda1f468a61e3",
+      "title": "bank_of_england_holds_rates_amid_firmer_inflation_weak_growth",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:58.749722",
+      "language": "en",
+      "length_before_preprocessing": 5792,
+      "length_after_preprocessing": 912,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/18/11138659/bank-of-england-holds-rates-amid-firmer-inflation-weak-growth"
+    }
+  ]
+}

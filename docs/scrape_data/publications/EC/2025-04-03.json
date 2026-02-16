@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-03",
+  "publications": [
+    {
+      "id": "d60254893aa4c1bfd784f3b240ab5b41d8616c521e59b0fe859efcf36fc573ed",
+      "title": "call_launched_energy_infrastructure_projects_worth_eu600_million",
+      "published_on": "2025-04-03 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.987433",
+      "language": "en",
+      "length_before_preprocessing": 4437,
+      "length_after_preprocessing": 1164,
+      "url": "https://energy.ec.europa.eu/news/call-launched-energy-infrastructure-projects-worth-eu600-million-2025-04-03_en"
+    },
+    {
+      "id": "621e978027981ab5b0634cab8a5e5ce8c84ce4764fb2f89c209973a7dc51df28",
+      "title": "commissioner_jorgensen_azerbaijan_reinforce_energy_cooperation",
+      "published_on": "2025-04-03 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.988712",
+      "language": "en",
+      "length_before_preprocessing": 3732,
+      "length_after_preprocessing": 835,
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-azerbaijan-reinforce-energy-cooperation-2025-04-03_en"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-05",
+  "publications": [
+    {
+      "id": "ac422b9db0dd74ef364bbe7d774784e8a06366ccd7af6311c7874cb45cef6f19",
+      "title": "5_things_you_should_know_about_heat_pumps",
+      "published_on": "2025-12-05 12:00:00",
+      "scraped_on": "2025-12-05 18:17:13.685238",
+      "language": "en",
+      "length_before_preprocessing": 6403,
+      "length_after_preprocessing": 3309,
+      "url": "https://energy.ec.europa.eu/news/5-things-you-should-know-about-heat-pumps-2025-12-05_en"
+    }
+  ]
+}

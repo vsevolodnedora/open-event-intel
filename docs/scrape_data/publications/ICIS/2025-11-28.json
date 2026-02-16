@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-28",
+  "publications": [
+    {
+      "id": "b663b6aff3a8b5bb8ae0b59e37edd62e1ade2f01f7960d2aafb01de8fbe3770c",
+      "title": "japan_inflation_rises_2_8_in_tokyo_supports_central_bank_rate_hike",
+      "published_on": "2025-11-28 12:00:00",
+      "scraped_on": "2025-11-28 18:34:28.430319",
+      "language": "en",
+      "length_before_preprocessing": 5192,
+      "length_after_preprocessing": 1348,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/28/11160320/japan-inflation-rises-2-8-in-tokyo-supports-central-bank-rate-hike"
+    },
+    {
+      "id": "c9a3b0dcb7047d2f219230b1bb74efcfabedaf99532c2ed3dbf693d6b7dc71c4",
+      "title": "south_korea_petrochemical_restructuring_could_cut_production_by_up_to_w6_7_trillion_bok",
+      "published_on": "2025-11-28 12:00:00",
+      "scraped_on": "2025-11-28 18:34:28.433189",
+      "language": "en",
+      "length_before_preprocessing": 5450,
+      "length_after_preprocessing": 1629,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/28/11160408/south-korea-petrochemical-restructuring-could-cut-production-by-up-to-w6-7-trillion-bok"
+    },
+    {
+      "id": "8c030d016e4a064fe02517b3f24511dba05f93061ce4dcc2cdf0f5a2fffb4726",
+      "title": "canada_wants_nutrien_to_backtrack_on_planned_us_investment",
+      "published_on": "2025-11-28 12:00:00",
+      "scraped_on": "2025-11-30 18:33:14.920433",
+      "language": "en",
+      "length_before_preprocessing": 5965,
+      "length_after_preprocessing": 1042,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/28/11160527/canada-wants-nutrien-to-backtrack-on-planned-us-investment"
+    }
+  ]
+}

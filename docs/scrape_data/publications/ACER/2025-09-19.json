@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-09-19",
+  "publications": [
+    {
+      "id": "761aa83e23c6c127960c5f34616533f98ba2c51378ce198b314947af8bf2dd63",
+      "title": "acer_proposes_improvements_european_grids_legal_framework",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:30:33.759794",
+      "language": "en",
+      "length_before_preprocessing": 8276,
+      "length_after_preprocessing": 1375,
+      "url": "https://www.acer.europa.eu/news/acer-proposes-improvements-european-grids-legal-framework"
+    },
+    {
+      "id": "fad8bc8d2962940b9dd3df2260d6935afed8c465eac05c43e09905f56f4c742c",
+      "title": "acer_approves_amendments_harmonised_allocation_rules_long_term_electricity_transmission_rights",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:30:33.765748",
+      "language": "en",
+      "length_before_preprocessing": 8004,
+      "length_after_preprocessing": 857,
+      "url": "https://www.acer.europa.eu/news/acer-approves-amendments-harmonised-allocation-rules-long-term-electricity-transmission-rights"
+    }
+  ]
+}

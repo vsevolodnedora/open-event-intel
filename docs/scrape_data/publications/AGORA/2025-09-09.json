@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-09-09",
+  "publications": [
+    {
+      "id": "caf9b6668994932199bdb162faccbc6f63ef766236b2f1522fa7d02f9f5252bd",
+      "title": "agora_announces_a_change_in_leadership_and_strengthens_european_work",
+      "published_on": "2025-09-09 12:00:00",
+      "scraped_on": "2025-09-09 18:33:05.373629",
+      "language": "en",
+      "length_before_preprocessing": 5511,
+      "length_after_preprocessing": 2274,
+      "url": "https://www.agora-energiewende.org/news-events/agora-announces-a-change-in-leadership-and-strengthens-european-work"
+    }
+  ]
+}

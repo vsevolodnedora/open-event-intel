@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-10-27",
+  "publications": [
+    {
+      "id": "e713ff2815c5e4916cdb5afe27039c8e22b8a96ada2220bc9ebab5e0c088df4f",
+      "title": "auslegung_der_unterlagen_zur_raumvertraeglichkeitspruefung_im_mittleren_abschnitt_moeglichkeit_zur_stellungnahme",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:38:51.961459",
+      "language": "de",
+      "length_before_preprocessing": 2006,
+      "length_after_preprocessing": 1530,
+      "url": "https://www.50hertz.com/de/News/Details/16378/auslegung-der-unterlagen-zur-raumvertraeglichkeitspruefung-im-mittleren-abschnitt-moeglichkeit-zur-stellungnahme"
+    },
+    {
+      "id": "a62abb31ce390410d9163fbb6d21d74f63eace87b7d091f04286c5da91b29172",
+      "title": "travebillelink_antragskonferenz_der_bundesnetzagentur_in_reinbek",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:40:06.952126",
+      "language": "de",
+      "length_before_preprocessing": 1861,
+      "length_after_preprocessing": 1335,
+      "url": "https://www.50hertz.com/de/News/Details/16380/travebillelink-antragskonferenz-der-bundesnetzagentur-in-reinbek"
+    }
+  ]
+}

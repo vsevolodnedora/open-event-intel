@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-12-03",
+  "publications": [
+    {
+      "id": "0fa00f87a09c942b2198c2b92c53a77e930eb8d08060a380518c6fc467899a49",
+      "title": "BiomasseSolar",
+      "published_on": "2025-12-03 12:00:00",
+      "scraped_on": "2025-12-03 18:39:00.755114",
+      "language": "de",
+      "length_before_preprocessing": 4316,
+      "length_after_preprocessing": 1684,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251203_BiomasseSolar.html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-16",
+  "publications": [
+    {
+      "id": "1eaab44c7529fdef814dcdf24eae4486fbd8de0db57139df57a972885d250168",
+      "title": "commission_encourages_low_carbon_construction_materials_calculation_framework_life_cycle_global",
+      "published_on": "2025-12-16 12:00:00",
+      "scraped_on": "2025-12-16 18:19:56.233356",
+      "language": "en",
+      "length_before_preprocessing": 4189,
+      "length_after_preprocessing": 1025,
+      "url": "https://energy.ec.europa.eu/news/commission-encourages-low-carbon-construction-materials-calculation-framework-life-cycle-global-2025-12-16_en"
+    }
+  ]
+}

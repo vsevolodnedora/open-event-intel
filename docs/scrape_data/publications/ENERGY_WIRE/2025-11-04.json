@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-04",
+  "publications": [
+    {
+      "id": "4801ae03d872fcb87f4cf684f38642d58c96e463f12241976cba0f1d94ca532b",
+      "title": "climate_foreign_policy_door_opener_new_strategic_partnerships_german_foreign_min",
+      "published_on": "2025-11-04 16:02:00",
+      "scraped_on": "2025-11-04 18:36:37.305246",
+      "language": "en",
+      "length_before_preprocessing": 3798,
+      "length_after_preprocessing": 867,
+      "url": "https://www.cleanenergywire.org/news/climate-foreign-policy-door-opener-new-strategic-partnerships-german-foreign-min"
+    },
+    {
+      "id": "c29cfd6083a05974914708203c760f11a4be2a4125a3be4c47c440ab329f8646",
+      "title": "germanys_steel_summit_clarify_way_forward_struggling_industry",
+      "published_on": "2025-11-04 13:39:00",
+      "scraped_on": "2025-11-04 18:36:48.217948",
+      "language": "en",
+      "length_before_preprocessing": 7375,
+      "length_after_preprocessing": 1289,
+      "url": "https://www.cleanenergywire.org/news/germanys-steel-summit-clarify-way-forward-struggling-industry"
+    },
+    {
+      "id": "b6051bb29ed8e3c0640c4543118a47dd1895fb9ca9736959d5b0c348463474ee",
+      "title": "lacking_grid_access_major_obstacle_germanys_energy_transition_technologies_associations",
+      "published_on": "2025-11-04 12:02:00",
+      "scraped_on": "2025-11-04 18:36:59.108691",
+      "language": "en",
+      "length_before_preprocessing": 7006,
+      "length_after_preprocessing": 926,
+      "url": "https://www.cleanenergywire.org/news/lacking-grid-access-major-obstacle-germanys-energy-transition-technologies-associations"
+    },
+    {
+      "id": "d7e4df17a2a7f3c52d141c882da2d062fa3d1cd9e4104d63797122ec85198b42",
+      "title": "around_one_quarter_germany_still_considered_long_term_nuclear_waste_storage_analysis",
+      "published_on": "2025-11-04 11:16:00",
+      "scraped_on": "2025-11-04 18:37:09.999965",
+      "language": "en",
+      "length_before_preprocessing": 7003,
+      "length_after_preprocessing": 1278,
+      "url": "https://www.cleanenergywire.org/news/around-one-quarter-germany-still-considered-long-term-nuclear-waste-storage-analysis"
+    },
+    {
+      "id": "eb7ae83a3f3914a1bac4b9ba6d98edc23d7f6999e1d29e511a23a49bbeffff17",
+      "title": "brief_4_november_25",
+      "published_on": "2025-11-04 10:09:00",
+      "scraped_on": "2025-11-04 18:37:20.734226",
+      "language": "en",
+      "length_before_preprocessing": 5571,
+      "length_after_preprocessing": 931,
+      "url": "https://www.cleanenergywire.org/news/brief-4-november-25"
+    }
+  ]
+}

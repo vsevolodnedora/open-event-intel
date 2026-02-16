@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-13",
+  "publications": [
+    {
+      "id": "4ff264bb6e5f97786be19b534c4d9a37b4099157d7ab2450df8dcdac0e5739b6",
+      "title": "brief_13_february_25",
+      "published_on": "2025-02-13 13:49:00",
+      "scraped_on": "2025-07-31 12:39:41.438495",
+      "language": "en",
+      "length_before_preprocessing": 5176,
+      "length_after_preprocessing": 752,
+      "url": "https://www.cleanenergywire.org/news/brief-13-february-25"
+    },
+    {
+      "id": "454fd90c2cbb141fbf8b1ca624201fdb90cc760dce05a968cefaf43fcd49b5e4",
+      "title": "german_govt_aims_improve_health_and_climate_outcomes_pedestrian_transport_strategy",
+      "published_on": "2025-02-13 13:45:00",
+      "scraped_on": "2025-07-31 12:39:51.896472",
+      "language": "en",
+      "length_before_preprocessing": 4567,
+      "length_after_preprocessing": 1091,
+      "url": "https://www.cleanenergywire.org/news/german-govt-aims-improve-health-and-climate-outcomes-pedestrian-transport-strategy"
+    },
+    {
+      "id": "c560eaa7fa07d35a934b186f26dde76b26d2a0572a77e824b7fc3453c8dd2371",
+      "title": "climate_change_gravest_threat_german_and_european_security_government_report",
+      "published_on": "2025-02-13 13:40:00",
+      "scraped_on": "2025-07-31 12:40:02.440862",
+      "language": "en",
+      "length_before_preprocessing": 6817,
+      "length_after_preprocessing": 1248,
+      "url": "https://www.cleanenergywire.org/news/climate-change-gravest-threat-german-and-european-security-government-report"
+    },
+    {
+      "id": "a2ed9dd95dcc6fb3990d056a8412bf4a3523f0e603f45fbd3e84907444e08f84",
+      "title": "northern_states_say_german_autobahn_exits_must_be_enlarged_wind_turbine_blade_transport",
+      "published_on": "2025-02-13 13:36:00",
+      "scraped_on": "2025-07-31 12:40:14.306643",
+      "language": "en",
+      "length_before_preprocessing": 6609,
+      "length_after_preprocessing": 883,
+      "url": "https://www.cleanenergywire.org/news/northern-states-say-german-autobahn-exits-must-be-enlarged-wind-turbine-blade-transport"
+    }
+  ]
+}

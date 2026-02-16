@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-09-30",
+  "publications": [
+    {
+      "id": "052d83290a16a6c9155ca6b0a9314c8d1076e44145bf890301ae8bfdd45b09f1",
+      "title": "naechtliche_schwerlasttransporte_eines_relaishauses_zum_uw_eula",
+      "published_on": "2025-09-30 12:00:00",
+      "scraped_on": "2025-09-30 18:37:27.008714",
+      "language": "de",
+      "length_before_preprocessing": 1538,
+      "length_after_preprocessing": 1157,
+      "url": "https://www.50hertz.com/de/News/Details/16272/naechtliche-schwerlasttransporte-eines-relaishauses-zum-uw-eula"
+    }
+  ]
+}

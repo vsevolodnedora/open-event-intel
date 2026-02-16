@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2026-01-29",
+  "publications": [
+    {
+      "id": "9021ba5c17cfaf246bd3aebdc33aa8e01851b7ed171e1824ab097fe50524de67",
+      "title": "pilotprojekt_zeigt_dynamische_netzentgelte_entlasten_stromnetze_und_reduzieren_kosten_fuer_endkundinnen",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:36:16.002247",
+      "language": "de",
+      "length_before_preprocessing": 7710,
+      "length_after_preprocessing": 3196,
+      "url": "https://www.tennet.eu/de/news/pilotprojekt-zeigt-dynamische-netzentgelte-entlasten-stromnetze-und-reduzieren-kosten-fuer-endkundinnen"
+    }
+  ]
+}

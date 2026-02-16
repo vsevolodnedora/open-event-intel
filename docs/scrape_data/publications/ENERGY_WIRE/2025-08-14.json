@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-14",
+  "publications": [
+    {
+      "id": "da24340bdb2c21fec61db6c5a5f20e3441a82b318b3a0dd445a9068a03d0733d",
+      "title": "climate_neutral_process_heat_holds_enormous_economic_potential_german_industry_report",
+      "published_on": "2025-08-14 11:44:00",
+      "scraped_on": "2025-08-14 18:38:42.258581",
+      "language": "en",
+      "length_before_preprocessing": 4100,
+      "length_after_preprocessing": 1088,
+      "url": "https://www.cleanenergywire.org/news/climate-neutral-process-heat-holds-enormous-economic-potential-german-industry-report"
+    },
+    {
+      "id": "b8de28786785e262580b8655273abba5cb105fa7f725b120c5c831311c58aeef",
+      "title": "brief_14_august_25",
+      "published_on": "2025-08-14 11:00:00",
+      "scraped_on": "2025-08-14 18:38:53.218703",
+      "language": "en",
+      "length_before_preprocessing": 5126,
+      "length_after_preprocessing": 692,
+      "url": "https://www.cleanenergywire.org/news/brief-14-august-25"
+    },
+    {
+      "id": "5ae78d47e166c33e366bd07754f1c5ceeacaeaa9714601b487f9a5588d840e34",
+      "title": "builders_should_get_compensation_stop_work_when_temperatures_reach_33degc_workers_union",
+      "published_on": "2025-08-14 10:27:00",
+      "scraped_on": "2025-08-14 18:39:04.364192",
+      "language": "en",
+      "length_before_preprocessing": 6718,
+      "length_after_preprocessing": 1232,
+      "url": "https://www.cleanenergywire.org/news/builders-should-get-compensation-stop-work-when-temperatures-reach-33degc-workers-union"
+    },
+    {
+      "id": "5562fd4785149727975e3e94b9c353b577969765b1e0b7a7eb291335cd8adc65",
+      "title": "germanys_core_hydrogen_network_buildout_key_efficient_electrolysis_location_report",
+      "published_on": "2025-08-14 10:00:00",
+      "scraped_on": "2025-08-14 18:39:15.473313",
+      "language": "en",
+      "length_before_preprocessing": 7120,
+      "length_after_preprocessing": 1205,
+      "url": "https://www.cleanenergywire.org/news/germanys-core-hydrogen-network-buildout-key-efficient-electrolysis-location-report"
+    }
+  ]
+}

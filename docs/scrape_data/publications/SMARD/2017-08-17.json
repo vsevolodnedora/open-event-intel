@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2017-08-17",
+  "publications": [
+    {
+      "id": "913a8fe984aabacce5fa6ef0caaa6b60b2e1c6b01a104fb08ac86e0830ec50e8",
+      "title": "stromerzeugung_im_sommer_erneuerbare_mit_spitzenwerten",
+      "published_on": "2017-08-17 12:00:00",
+      "scraped_on": "2026-01-14 09:19:02.829179",
+      "language": "de",
+      "length_before_preprocessing": 5156,
+      "length_after_preprocessing": 2296,
+      "url": "https://www.smard.de/page/home/topic-article/204976/3678/stromerzeugung-im-sommer-erneuerbare-mit-spitzenwerten"
+    }
+  ]
+}

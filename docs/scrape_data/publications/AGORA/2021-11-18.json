@@ -1,0 +1,36 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2021-11-18",
+  "publications": [
+    {
+      "id": "cd96d62e3ae52f926368a004d4d31bb2e0c5514bd9d5fabcbb92f8e3352d2b94",
+      "title": "hydrogen_in_southeast_asia_navigating_policy_partnerships_and_high_hopes",
+      "published_on": "2021-11-18 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.428035",
+      "language": "en",
+      "length_before_preprocessing": 7979,
+      "length_after_preprocessing": 3408,
+      "url": "https://www.agora-energiewende.org/news-events/hydrogen-in-southeast-asia-navigating-policy-partnerships-and-high-hopes"
+    },
+    {
+      "id": "d680d6e8929324998de5ff55d73942df5c1a1da204d94e368547ef054082cced",
+      "title": "how_argentina_can_become_a_renewable_hydrogen_hub_and_boost_global_decarbonisation",
+      "published_on": "2021-11-18 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.436553",
+      "language": "en",
+      "length_before_preprocessing": 5937,
+      "length_after_preprocessing": 1618,
+      "url": "https://www.agora-energiewende.org/news-events/how-argentina-can-become-a-renewable-hydrogen-hub-and-boost-global-decarbonisation"
+    },
+    {
+      "id": "29b5825a7aedce28deb8e76aa4320072c1c3c95ee6e317da7abc6f8e24c82abb",
+      "title": "sources_transport_applications_12_insights_on_hydrogen",
+      "published_on": "2021-11-18 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.451136",
+      "language": "en",
+      "length_before_preprocessing": 5205,
+      "length_after_preprocessing": 899,
+      "url": "https://www.agora-energiewende.org/news-events/sources-transport-applications-12-insights-on-hydrogen"
+    }
+  ]
+}

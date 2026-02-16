@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-15",
+  "publications": [
+    {
+      "id": "48ba9d519f5c46f261c5c81fb2ba1ac13e1cec8cdd21d4f0fca9dee11361876e",
+      "title": "climate_friendly_construction_not_cost_driver_during_new_buildings_entire_lifecycle_report",
+      "published_on": "2025-05-15 13:43:00",
+      "scraped_on": "2025-07-31 13:27:13.933023",
+      "language": "en",
+      "length_before_preprocessing": 6931,
+      "length_after_preprocessing": 1023,
+      "url": "https://www.cleanenergywire.org/news/climate-friendly-construction-not-cost-driver-during-new-buildings-entire-lifecycle-report"
+    },
+    {
+      "id": "5f7c433360bfa148ef1f0e6400b62c1bc70e947c69f6e96e0f6b976c010dfb4b",
+      "title": "public_transport_spending_benefits_german_economy_railway_investments_drive_construction_costs_reports",
+      "published_on": "2025-05-15 13:37:00",
+      "scraped_on": "2025-07-31 13:27:24.399029",
+      "language": "en",
+      "length_before_preprocessing": 5041,
+      "length_after_preprocessing": 1297,
+      "url": "https://www.cleanenergywire.org/news/public-transport-spending-benefits-german-economy-railway-investments-drive-construction-costs-reports"
+    },
+    {
+      "id": "bc280a189e618910be7bc0d528ce3faa57f4a5b2c12c239130701162ac1de703",
+      "title": "merz_promises_economic_boost_neglects_climate_policy_first_govt_declaration",
+      "published_on": "2025-05-15 13:30:00",
+      "scraped_on": "2025-07-31 13:27:35.945242",
+      "language": "en",
+      "length_before_preprocessing": 7662,
+      "length_after_preprocessing": 1782,
+      "url": "https://www.cleanenergywire.org/news/merz-promises-economic-boost-neglects-climate-policy-first-govt-declaration"
+    },
+    {
+      "id": "725ff80724ac0ea14725d3078afb4f79004a29b1fce1e4b5cef8f20aef7e72b4",
+      "title": "germany_runs_risk_missing_emission_cutting_targets_new_government_plans_climate_council",
+      "published_on": "2025-05-15 12:15:00",
+      "scraped_on": "2025-07-31 13:27:46.401640",
+      "language": "en",
+      "length_before_preprocessing": 7910,
+      "length_after_preprocessing": 3961,
+      "url": "https://www.cleanenergywire.org/news/germany-runs-risk-missing-emission-cutting-targets-new-government-plans-climate-council"
+    },
+    {
+      "id": "6aca3d5ba623afd538f19fdaaac22ca59f246c4755afd24d1727c05b26fc92b3",
+      "title": "brief_15_may_25",
+      "published_on": "2025-05-15 12:00:00",
+      "scraped_on": "2025-07-31 13:27:58.058784",
+      "language": "en",
+      "length_before_preprocessing": 5005,
+      "length_after_preprocessing": 610,
+      "url": "https://www.cleanenergywire.org/news/brief-15-may-25"
+    }
+  ]
+}

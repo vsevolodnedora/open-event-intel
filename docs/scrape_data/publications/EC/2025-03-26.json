@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-03-26",
+  "publications": [
+    {
+      "id": "f77814e9081c4026a36048e77a469e2364889e8b9065316d6d0ca7725816f628",
+      "title": "joint_gas_purchasing_very_good_results_2nd_mid_term_demand_aggregation_round_natural_gas",
+      "published_on": "2025-03-26 12:00:00",
+      "scraped_on": "2025-07-31 11:17:58.308779",
+      "language": "en",
+      "length_before_preprocessing": 4025,
+      "length_after_preprocessing": 1167,
+      "url": "https://energy.ec.europa.eu/news/joint-gas-purchasing-very-good-results-2nd-mid-term-demand-aggregation-round-natural-gas-2025-03-26_en"
+    }
+  ]
+}

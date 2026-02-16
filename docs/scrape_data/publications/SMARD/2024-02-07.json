@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2024-02-07",
+  "publications": [
+    {
+      "id": "a5d6ee997b18700fb95a13e465963eccb26d56055709501a9b45ed78496a8a21",
+      "title": "hohe_einspeisung_durch_windkraft",
+      "published_on": "2024-02-07 12:00:00",
+      "scraped_on": "2026-01-14 09:21:59.221447",
+      "language": "de",
+      "length_before_preprocessing": 6111,
+      "length_after_preprocessing": 3665,
+      "url": "https://www.smard.de/page/home/topic-article/209944/212762/hohe-einspeisung-durch-windkraft"
+    }
+  ]
+}

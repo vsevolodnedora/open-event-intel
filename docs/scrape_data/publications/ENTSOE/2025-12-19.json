@@ -1,0 +1,36 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-12-19",
+  "publications": [
+    {
+      "id": "aa9f6b85b8c170a7ab221a36a8fb5ffd40973854f5863da0a21608dfde87f8c0",
+      "title": "entso_e_publishes_non_confidential_version_of_the_responses_from_the_tso_group_to_technical_questions_on_multi_region_loose_volume_coupling_between_eu_and_uk",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-26 18:17:42.891841",
+      "language": "en",
+      "length_before_preprocessing": 2717,
+      "length_after_preprocessing": 577,
+      "url": "https://www.entsoe.eu/news/2025/12/19/entso-e-publishes-non-confidential-version-of-the-responses-from-the-tso-group-to-technical-questions-on-multi-region-loose-volume-coupling-between-eu-and-uk"
+    },
+    {
+      "id": "385c4409d04bc93f64ed55669017c80e06fb795b9e7abb588603d704b4fd52b2",
+      "title": "4_july_grid_incident_in_the_czech_republic_expert_panel_releases_factual_report",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-26 18:17:42.895325",
+      "language": "en",
+      "length_before_preprocessing": 3319,
+      "length_after_preprocessing": 968,
+      "url": "https://www.entsoe.eu/news/2025/12/19/4-july-grid-incident-in-the-czech-republic-expert-panel-releases-factual-report"
+    },
+    {
+      "id": "3bd66d85eb86fea9950a315dc142d2a61dd203d3df3d754ff2beed25c1e375b9",
+      "title": "progress_report_on_the_dso_entity_and_entso_e_joint_portal_on_grid_hosting_capacities",
+      "published_on": "2025-12-19 12:00:00",
+      "scraped_on": "2025-12-26 18:17:42.898638",
+      "language": "en",
+      "length_before_preprocessing": 2690,
+      "length_after_preprocessing": 538,
+      "url": "https://www.entsoe.eu/news/2025/12/19/progress-report-on-the-dso-entity-and-entso-e-joint-portal-on-grid-hosting-capacities"
+    }
+  ]
+}

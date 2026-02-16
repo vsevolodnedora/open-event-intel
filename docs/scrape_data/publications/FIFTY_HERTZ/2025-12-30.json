@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-12-30",
+  "publications": [
+    {
+      "id": "2df8e757964fda8be83e3e5486423bbac32aa2d4c6055c40e86fa207a40fd142",
+      "title": "suedostlink_abschliessende_baumfaellungen_im_tautenhainer_wald_ab_januar",
+      "published_on": "2025-12-30 12:00:00",
+      "scraped_on": "2025-12-30 18:24:30.437289",
+      "language": "de",
+      "length_before_preprocessing": 1157,
+      "length_after_preprocessing": 823,
+      "url": "https://www.50hertz.com/de/News/Details/16613/suedostlink-abschliessende-baumfaellungen-im-tautenhainer-wald-ab-januar"
+    }
+  ]
+}
