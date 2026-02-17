@@ -24,10 +24,11 @@ from enum import Enum
 from pathlib import Path
 from typing import ClassVar
 
-from config_interface import Config, get_config_version, load_config
-from database_interface import AnotherRunActiveError, DatabaseInterface, DBConstraintError, DBError, DBSchemaError, PipelineRunRow
 from pydantic import BaseModel
 
+from open_event_intel.etl_processing.config_interface import Config, get_config_version, load_config
+from open_event_intel.etl_processing.database_interface import AnotherRunActiveError, DatabaseInterface, DBConstraintError, DBError, DBSchemaError, PipelineRunRow
+from open_event_intel.etl_processing.stage_00_setup.database_00_setup import Stage00DatabaseInterface
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
@@ -71,31 +72,6 @@ class CompletedRunReuseError(Exception):
             f"Cannot reuse completed run_id '{run_id}'. "
             "Completed runs are immutable."
         )
-
-
-class Stage00DatabaseInterface(DatabaseInterface):
-    """
-    Database interface for Stage 00 setup.
-
-    Provides methods for run acquisition and config stability checks.
-    Writes only to pipeline_run table.
-    """
-
-    READS: ClassVar[set[str]] = {"pipeline_run"}
-    WRITES: ClassVar[set[str]] = {"pipeline_run"}
-
-    def __init__(
-        self,
-        working_db_path: Path,
-        source_db_path: Path | None = None,
-    ) -> None:
-        """Initialize."""
-        super().__init__(
-            working_db_path=working_db_path,
-            source_db_path=source_db_path,
-            stage_name="stage_00_setup",
-        )
-
 
 
 def validate_source_db(source_db_path: Path) -> None:

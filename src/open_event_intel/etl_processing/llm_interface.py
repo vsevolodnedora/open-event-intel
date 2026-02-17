@@ -24,11 +24,11 @@ from enum import Enum
 from typing import Any, Optional, Type, TypeVar
 from uuid import uuid4
 
-from config_interface import LLMConfig, ModelDefinition, ModelProvider, PromptDefinition
-from database_interface import DatabaseInterface, LLMCacheRow, LLMUsageLogRow, compute_sha256_id
 from openai import OpenAI, OpenAIError
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
+from open_event_intel.etl_processing.config_interface import LLMConfig, ModelDefinition, ModelProvider, PromptDefinition
+from open_event_intel.etl_processing.database_interface import DatabaseInterface, LLMCacheRow, LLMUsageLogRow, compute_sha256_id
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)

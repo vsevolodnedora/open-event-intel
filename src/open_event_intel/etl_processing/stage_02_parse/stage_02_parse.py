@@ -21,32 +21,23 @@ import sys
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
-from typing import ClassVar
 
-from config_interface import (
-    ChunkingSettings,
+from open_event_intel.etl_processing.config_interface import (
     Config,
     get_config_version,
     load_config,
 )
-from database_interface import (
+from open_event_intel.etl_processing.database_interface import (
     BlockRow,
     ChunkRow,
-    DatabaseInterface,
     DBError,
-    DocStageStatusRow,
-    DocumentVersionRow,
-    EvidenceSpanRow,
     TableExtractRow,
     compute_sha256_id,
 )
-
+from open_event_intel.etl_processing.stage_02_parse.database_stage_02_parse import PREREQUISITE_STAGE, STAGE_NAME, Stage02DatabaseInterface
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
-
-STAGE_NAME = "stage_02_parse"
-PREREQUISITE_STAGE = "stage_01_ingest"
 
 # Diagnostic helpers (logging-only, no functional impact)
 _TEMPORAL_HINT_RE = re.compile(
@@ -61,78 +52,12 @@ _TEMPORAL_HINT_RE = re.compile(
     """
 )
 
-
 def _has_temporal_hint(headers: list[str] | None) -> tuple[bool, list[str]]:
     """Check headers for temporal patterns. Returns (has_hint, matching_headers)."""
     if not headers:
         return False, []
     matches = [h for h in headers if _TEMPORAL_HINT_RE.search(h)]
     return bool(matches), matches
-
-
-class Stage02DatabaseInterface(DatabaseInterface):
-    """Database interface for stage 02 parse operations."""
-
-    READS: ClassVar[set[str]] = {
-        "document_version",
-        "document",
-        "pipeline_run",
-        "doc_stage_status",
-        "block",
-        "chunk",
-        "evidence_span",
-        "table_extract",
-    }
-    WRITES: ClassVar[set[str]] = {
-        "block",
-        "chunk",
-        "evidence_span",
-        "table_extract",
-        "doc_stage_status",
-    }
-
-    def __init__(self, working_db_path: Path, source_db_path: Path | None = None) -> None:
-        super().__init__(working_db_path, source_db_path, STAGE_NAME)
-
-    def get_iteration_set(self, run_id: str) -> list[tuple[str, str, str]]:
-        """
-        Get documents requiring stage 02 processing.
-
-        Returns documents in deterministic order: (publisher_id, url_normalized, doc_version_id)
-        where:
-        - No doc_stage_status row exists for stage_02_parse, OR
-        - Status is 'failed', OR
-        - Status is 'blocked' AND stage_01_ingest is now 'ok'
-        """
-        self._check_read_access("document_version")
-        self._check_read_access("document")
-        self._check_read_access("doc_stage_status")
-
-        rows = self._fetchall(
-            """
-            SELECT d.publisher_id, d.url_normalized, dv.doc_version_id
-            FROM document_version dv
-            JOIN document d ON d.document_id = dv.document_id
-            LEFT JOIN doc_stage_status dss_02
-                ON dss_02.doc_version_id = dv.doc_version_id
-                AND dss_02.stage = ?
-            LEFT JOIN doc_stage_status dss_01
-                ON dss_01.doc_version_id = dv.doc_version_id
-                AND dss_01.stage = ?
-            WHERE
-                dss_02.status IS NULL
-                OR dss_02.status = 'failed'
-                OR (dss_02.status = 'blocked' AND dss_01.status = 'ok')
-            ORDER BY d.publisher_id, d.url_normalized, dv.doc_version_id
-            """,
-            (STAGE_NAME, PREREQUISITE_STAGE),
-        )
-        return [(r["publisher_id"], r["url_normalized"], r["doc_version_id"]) for r in rows]
-
-    def get_prerequisite_status(self, doc_version_id: str) -> DocStageStatusRow | None:
-        """Get the prerequisite stage status for a document."""
-        return self.get_doc_stage_status(doc_version_id, PREREQUISITE_STAGE)
-
 
 @dataclass(frozen=True)
 class ParsedBlock:
@@ -1687,27 +1612,17 @@ def run_stage(
 
     # -- diagnostic: aggregate stage-02 output summary for stage-9 investigation --
     try:
-        _te_rows = db._fetchall(
-            """
-            SELECT
-                COUNT(*) AS total,
-                SUM(CASE WHEN headers_json IS NOT NULL AND headers_json != '[]' THEN 1 ELSE 0 END) AS with_headers,
-                SUM(CASE WHEN period_granularity IS NOT NULL THEN 1 ELSE 0 END) AS with_period_gran,
-                SUM(CASE WHEN units_detected IS NOT NULL THEN 1 ELSE 0 END) AS with_units
-            FROM table_extract
-            WHERE created_in_run_id = ?
-            """,
-            (run_id,),
-        )
-        if _te_rows:
-            _r = _te_rows[0]
+        _te_summary = db.get_table_extract_run_summary(run_id)
+        if _te_summary:
             logger.info(
                 "[diag:run_summary] table_extracts: total=%s with_headers=%s "
                 "with_period_granularity=%s with_units_detected=%s "
                 "(period_granularity and units_detected are always NULL at stage_02 — "
                 "stage_08 must populate these for stage_09 to produce metric series)",
-                _r["total"], _r["with_headers"],
-                _r["with_period_gran"], _r["with_units"],
+                _te_summary["total"],
+                _te_summary["with_headers"],
+                _te_summary["with_period_gran"],
+                _te_summary["with_units"],
             )
     except Exception as _diag_err:
         logger.debug("[diag:run_summary] could not query table_extract aggregates: %s", _diag_err)

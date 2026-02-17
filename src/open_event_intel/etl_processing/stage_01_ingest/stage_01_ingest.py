@@ -24,11 +24,12 @@ import html
 import re
 import sys
 import unicodedata
-from datetime import datetime
 from pathlib import Path
 from urllib.parse import parse_qs, quote, unquote, urlparse, urlunparse
 
-from config_interface import (
+from pydantic import BaseModel, ValidationError
+
+from open_event_intel.etl_processing.config_interface import (
     VALID_PUBLISHER_NAMES,
     Config,
     Entity,
@@ -39,34 +40,29 @@ from config_interface import (
     get_config_version,
     load_config,
 )
-from config_interface import (
+from open_event_intel.etl_processing.config_interface import (
     AlertRule as ConfigAlertRule,
 )
-from config_interface import (
+from open_event_intel.etl_processing.config_interface import (
     Watchlist as ConfigWatchlist,
 )
-from database_interface import (
+from open_event_intel.etl_processing.database_interface import (
     AlertRuleRow,
-    DatabaseInterface,
     DBConstraintError,
     DBError,
-    DocStageStatusRow,
     DocumentRow,
     DocumentVersionRow,
     EntityRegistryRow,
-    PipelineRunRow,
     ScrapeRecordRow,
     SourcePublicationRow,
     WatchlistRow,
     compute_sha256_id,
 )
-from pydantic import BaseModel, ValidationError
-
+from open_event_intel.etl_processing.stage_01_ingest.database_stage_01_ingest import STAGE_NAME, Stage01DatabaseInterface
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
 
-STAGE_NAME = "stage_01_ingest"
 CLEANING_SPEC_VERSION = "clean_v1"
 
 # Mapping from publisher config key to source DB table name.
@@ -140,70 +136,6 @@ class IngestStats(BaseModel):
     skipped: int = 0
     failed: int = 0
     skipped_reasons: dict[str, int] = {}
-
-
-class Stage01DatabaseInterface(DatabaseInterface):
-    """Database interface for Stage 01 Ingest."""
-
-    READS = {
-        "pipeline_run",
-        "scrape_record",
-        "document",
-        "document_version",
-        "doc_stage_status",
-        "run_stage_status",
-        "entity_registry",
-        "alert_rule",
-        "watchlist",
-    }
-    WRITES = {
-        "pipeline_run",
-        "scrape_record",
-        "document",
-        "document_version",
-        "doc_stage_status",
-        "run_stage_status",
-        "entity_registry",
-        "alert_rule",
-        "watchlist",
-    }
-
-    def __init__(self, working_db_path: Path, source_db_path: Path) -> None:
-        super().__init__(working_db_path, source_db_path, STAGE_NAME)
-
-    def has_completed_runs(self) -> bool:
-        """Check if any completed pipeline runs exist."""
-        self._check_read_access("pipeline_run")
-        row = self._fetchone(
-            "SELECT COUNT(*) as cnt FROM pipeline_run WHERE status = 'completed'"
-        )
-        return row is not None and row["cnt"] > 0
-
-    def scrape_record_exists(self, scrape_id: str) -> bool:
-        """Check if a scrape record already exists."""
-        self._check_read_access("scrape_record")
-        row = self._fetchone(
-            "SELECT 1 FROM scrape_record WHERE scrape_id = ?", (scrape_id,)
-        )
-        return row is not None
-
-    def count_entity_registry(self) -> int:
-        """Count entries in entity_registry."""
-        self._check_read_access("entity_registry")
-        row = self._fetchone("SELECT COUNT(*) as cnt FROM entity_registry")
-        return row["cnt"] if row else 0
-
-    def count_alert_rules(self) -> int:
-        """Count entries in alert_rule."""
-        self._check_read_access("alert_rule")
-        row = self._fetchone("SELECT COUNT(*) as cnt FROM alert_rule")
-        return row["cnt"] if row else 0
-
-    def count_watchlists(self) -> int:
-        """Count entries in watchlist."""
-        self._check_read_access("watchlist")
-        row = self._fetchone("SELECT COUNT(*) as cnt FROM watchlist")
-        return row["cnt"] if row else 0
 
 
 def normalize_url(url_raw: str, publisher: Publisher | None) -> str:  # noqa: C901
