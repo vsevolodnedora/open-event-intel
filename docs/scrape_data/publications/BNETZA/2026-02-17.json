@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2026-02-17",
+  "publications": [
+    {
+      "id": "3a6d9e1afd6a34c55d2b573129e59724aeddb8c5012496ca24f8000357189f42",
+      "title": "Frequenzen",
+      "published_on": "2026-02-17 12:00:00",
+      "scraped_on": "2026-02-17 13:41:20.126399",
+      "language": "de",
+      "length_before_preprocessing": 3583,
+      "length_after_preprocessing": 985,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260217_Frequenzen.html"
+    }
+  ]
+}
