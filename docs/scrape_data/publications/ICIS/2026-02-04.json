@@ -1,0 +1,46 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-02-04",
+  "publications": [
+    {
+      "id": "5ed8422f5232008c325a35ba14f4c8e6c18916120a656f11f0235a44ea9243f6",
+      "title": "brazil_sets_us_pe_dumping_margins_at_734_32_tonne_in_trade_probe",
+      "published_on": "2026-02-04 12:00:00",
+      "scraped_on": "2026-02-05 18:37:47.856305",
+      "language": "en",
+      "length_before_preprocessing": 6922,
+      "length_after_preprocessing": 1705,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/04/11177464/brazil-sets-us-pe-dumping-margins-at-734-32-tonne-in-trade-probe"
+    },
+    {
+      "id": "aa6280a20a2b3a89557b3e59df9a9b195f1c2acbbdd32cf2fe83b8ff09e02bf7",
+      "title": "omv_q4_chems_business_profit_trebles_on_effects_of_adnoc_holdings_merger",
+      "published_on": "2026-02-04 12:00:00",
+      "scraped_on": "2026-02-05 18:37:47.858031",
+      "language": "en",
+      "length_before_preprocessing": 6407,
+      "length_after_preprocessing": 1164,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/04/11177381/omv-q4-chems-business-profit-trebles-on-effects-of-adnoc-holdings-merger"
+    },
+    {
+      "id": "4c306a94361f5cfcbadbc04b2eafa7ad62b384d4be7302f25228febae2054cdd",
+      "title": "argentina_s_chemicals_desert_crossing_continues_but_vaca_muerta_petchems_potential_grows_ciqyp_head",
+      "published_on": "2026-02-04 12:00:00",
+      "scraped_on": "2026-02-05 18:37:47.859663",
+      "language": "en",
+      "length_before_preprocessing": 8268,
+      "length_after_preprocessing": 3033,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/04/11177461/argentina-s-chemicals-desert-crossing-continues-but-vaca-muerta-petchems-potential-grows-ciqyp-head"
+    },
+    {
+      "id": "1aaa17c8b2f4c86251047bec868659265248d5b5c4d53cfc831217ee3c025083",
+      "title": "brazil_s_cabinet_pledges_r3_0_billion_in_incentives_for_chemical_producers_in_2026",
+      "published_on": "2026-02-04 12:00:00",
+      "scraped_on": "2026-02-05 18:37:47.861919",
+      "language": "en",
+      "length_before_preprocessing": 6571,
+      "length_after_preprocessing": 1323,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/04/11177441/brazil-s-cabinet-pledges-r3-0-billion-in-incentives-for-chemical-producers-in-2026"
+    }
+  ]
+}

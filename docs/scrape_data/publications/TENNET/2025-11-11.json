@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-11-11",
+  "publications": [
+    {
+      "id": "5829afe430cd1c8fb75003989f4533a95999a2e8ad3e31e61ca6004885fc4e59",
+      "title": "tennet_germany_veroeffentlicht_erstmals_ein_green_finance_framework_und_ein_european_green_bond_factsheet_im_einklang_mit_den_european_green",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-12 18:36:52.209572",
+      "language": "de",
+      "length_before_preprocessing": 6099,
+      "length_after_preprocessing": 1471,
+      "url": "https://www.tennet.eu/de/news/tennet-germany-veroeffentlicht-erstmals-ein-green-finance-framework-und-ein-european-green-bond-factsheet-im-einklang-mit-den-european-green"
+    }
+  ]
+}

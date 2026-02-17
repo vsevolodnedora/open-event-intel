@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-23",
+  "publications": [
+    {
+      "id": "9ee3d761bc678d8ace7cb6d81eea0c97ef7a9065ae42ad0836a203fc2e472b7e",
+      "title": "germanys_household_power_prices_5th_highest_world_report",
+      "published_on": "2025-06-23 13:37:00",
+      "scraped_on": "2025-07-31 13:47:29.699044",
+      "language": "en",
+      "length_before_preprocessing": 4463,
+      "length_after_preprocessing": 967,
+      "url": "https://www.cleanenergywire.org/news/germanys-household-power-prices-5th-highest-world-report"
+    },
+    {
+      "id": "daf6271d8805f2306322e3f8959628cf3a2c55f41f55d7be76c0d614bb001ed6",
+      "title": "german_finance_minister_calls_steel_summit_after_green_projects_axed",
+      "published_on": "2025-06-23 13:34:00",
+      "scraped_on": "2025-07-31 13:47:41.444532",
+      "language": "en",
+      "length_before_preprocessing": 6774,
+      "length_after_preprocessing": 1158,
+      "url": "https://www.cleanenergywire.org/news/german-finance-minister-calls-steel-summit-after-green-projects-axed"
+    },
+    {
+      "id": "274fc28c8fb6c3563463a597f742c208d070617e27979c458f161fc2dd83dc60",
+      "title": "national_co2_price_sets_germany_new_eu_emissions_trading_system_buildings_minister",
+      "published_on": "2025-06-23 12:00:00",
+      "scraped_on": "2025-07-31 13:47:53.469669",
+      "language": "en",
+      "length_before_preprocessing": 9284,
+      "length_after_preprocessing": 3206,
+      "url": "https://www.cleanenergywire.org/news/national-co2-price-sets-germany-new-eu-emissions-trading-system-buildings-minister"
+    },
+    {
+      "id": "7e36bb028b22b16954da074d78738af01d32d2214a35b2f07e371b356249bf62",
+      "title": "brief_23_june_25",
+      "published_on": "2025-06-23 11:43:00",
+      "scraped_on": "2025-07-31 13:48:05.025499",
+      "language": "en",
+      "length_before_preprocessing": 5027,
+      "length_after_preprocessing": 681,
+      "url": "https://www.cleanenergywire.org/news/brief-23-june-25"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-10-15",
+  "publications": [
+    {
+      "id": "878c090a9b047ed080f84d4cfc214debb7dbcc2201f626eaaf353748a0d820f9",
+      "title": "suppliers_urge_clear_standards_bureaucracy_cuts_implement_energy_sharing_concepts_germany",
+      "published_on": "2025-10-15 13:07:00",
+      "scraped_on": "2025-10-15 18:37:38.565948",
+      "language": "en",
+      "length_before_preprocessing": 4356,
+      "length_after_preprocessing": 1112,
+      "url": "https://www.cleanenergywire.org/news/suppliers-urge-clear-standards-bureaucracy-cuts-implement-energy-sharing-concepts-germany"
+    },
+    {
+      "id": "372206bca5e4a1f9c99a943db484884736ffc6841f1aacad1d8a5a800ca27ae5",
+      "title": "clarification_german_industry_urges_debate_about_planned_tightening_eu_emissions_allowance_allocations",
+      "published_on": "2025-10-15 12:46:00",
+      "scraped_on": "2025-10-15 18:37:49.587216",
+      "language": "en",
+      "length_before_preprocessing": 7611,
+      "length_after_preprocessing": 1666,
+      "url": "https://www.cleanenergywire.org/news/clarification-german-industry-urges-debate-about-planned-tightening-eu-emissions-allowance-allocations"
+    },
+    {
+      "id": "e64e599d1be8461f2c970c398a741d505c71aa78876d9e0fcc9b6e5ea289fdc3",
+      "title": "brief_15_october_25",
+      "published_on": "2025-10-15 11:15:00",
+      "scraped_on": "2025-10-15 18:38:00.454536",
+      "language": "en",
+      "length_before_preprocessing": 5142,
+      "length_after_preprocessing": 553,
+      "url": "https://www.cleanenergywire.org/news/brief-15-october-25"
+    }
+  ]
+}

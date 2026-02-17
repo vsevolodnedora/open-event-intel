@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-03-13",
+  "publications": [
+    {
+      "id": "e008b8780dadde0b071befdaabbef39ef9f1783dc26a93fe71daca5cb84808e2",
+      "title": "energiepolitischen_forderungen_der_suedwestwirtschaft",
+      "published_on": "2025-03-13 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.659795",
+      "language": "de",
+      "length_before_preprocessing": 5184,
+      "length_after_preprocessing": 1734,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/energiepolitischen-forderungen-der-suedwestwirtschaft"
+    }
+  ]
+}

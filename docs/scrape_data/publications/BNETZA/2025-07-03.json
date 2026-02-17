@@ -1,0 +1,26 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-07-03",
+  "publications": [
+    {
+      "id": "6760cc3ee52c3182ead0db8ddd6df22dec02b36ddda71dcd7da5fbe6f42c5f2a",
+      "title": "Onshore_Inno",
+      "published_on": "2025-07-03 12:00:00",
+      "scraped_on": "2025-07-31 11:10:58.593390",
+      "language": "de",
+      "length_before_preprocessing": 4067,
+      "length_after_preprocessing": 1374,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250703_Onshore_Inno.html"
+    },
+    {
+      "id": "0d3ef0c81fe0a60920aa6c689b04bc5cb321cded993ee2dd85f17aa42b864f84",
+      "title": "KI_ServiceDesk",
+      "published_on": "2025-07-03 12:00:00",
+      "scraped_on": "2025-07-31 11:11:02.932203",
+      "language": "de",
+      "length_before_preprocessing": 4249,
+      "length_after_preprocessing": 1629,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250703_KI_ServiceDesk.html"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-11",
+  "publications": [
+    {
+      "id": "17dd57781f4aa84025c65ee06eb2ea38600c2c9643d35b792e5e4e4984cbf406",
+      "title": "opinion_trump_s_hungarian_sanctions_exemption_muddies_outlook_for_russian_fuels_phaseout",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-11 18:33:23.823169",
+      "language": "en",
+      "length_before_preprocessing": 6378,
+      "length_after_preprocessing": 2473,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11154086/opinion-trump-s-hungarian-sanctions-exemption-muddies-outlook-for-russian-fuels-phaseout"
+    },
+    {
+      "id": "4e4630bb68bde9e9e7d16280fc197dd50b4fa5f27108e37b5cb1e8606eff7efd",
+      "title": "germany_chemicals_outlook_slides_in_november_overall_economic_sentiment_stable",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-11 18:33:23.824865",
+      "language": "en",
+      "length_before_preprocessing": 5506,
+      "length_after_preprocessing": 681,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11154068/germany-chemicals-outlook-slides-in-november-overall-economic-sentiment-stable"
+    },
+    {
+      "id": "3f66bad13e6fc96f989ccaf1f363620fd3c699507c59bb360ecf22f71298875d",
+      "title": "blog_why_china_could_win_in_green_petrochemistry",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-11 18:33:23.826518",
+      "language": "en",
+      "length_before_preprocessing": 6286,
+      "length_after_preprocessing": 1481,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11153985/blog-why-china-could-win-in-green-petrochemistry"
+    },
+    {
+      "id": "814c6a8e8775e465fbc4ae3a9e7ad12cc3821a6d71e47880a30e4ef0a335c5b3",
+      "title": "enilive_petronas_and_euglena_start_construction_of_biorefinery_in_pengerang",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-11 18:33:23.828167",
+      "language": "en",
+      "length_before_preprocessing": 5723,
+      "length_after_preprocessing": 922,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11153992/enilive-petronas-and-euglena-start-construction-of-biorefinery-in-pengerang"
+    },
+    {
+      "id": "c310fa70bee59d7b82f214e4d5d935ab5604b505744195fcd10e12b33d30936c",
+      "title": "germany_chems_industry_teetering_as_q3_output_pricing_craters_vci",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-11 18:33:23.829722",
+      "language": "en",
+      "length_before_preprocessing": 5947,
+      "length_after_preprocessing": 1176,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11154067/germany-chems-industry-teetering-as-q3-output-pricing-craters-vci"
+    },
+    {
+      "id": "be4e4577f79bc6174d08303141f54908013021573a506db0af0a9e4f63521188",
+      "title": "saudi_arabia_s_petro_rabigh_narrows_q3_net_loss_on_lower_expenses",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-11 18:33:23.831235",
+      "language": "en",
+      "length_before_preprocessing": 6252,
+      "length_after_preprocessing": 1091,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11153990/saudi-arabia-s-petro-rabigh-narrows-q3-net-loss-on-lower-expenses"
+    },
+    {
+      "id": "95423ee9b957a36b2a7bc958874c124c0c7264ebf5cfcd4984033d435c68c74e",
+      "title": "brazil_s_braskem_shares_shoot_up_on_novonor_stake_potential_sale_q3_financials_still_woeful",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-12 18:33:04.209505",
+      "language": "en",
+      "length_before_preprocessing": 6899,
+      "length_after_preprocessing": 2045,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11154112/brazil-s-braskem-shares-shoot-up-on-novonor-stake-potential-sale-q3-financials-still-woeful"
+    },
+    {
+      "id": "1d53da2e1d0444a0d38553ca68d738f58f43a46398b5edbd62576a41ddf3f001",
+      "title": "brazil_chemicals_sales_up_in_2025_but_deficit_up_to_new_high_on_relentless_cheaper_imports",
+      "published_on": "2025-11-11 12:00:00",
+      "scraped_on": "2025-11-12 18:33:04.211096",
+      "language": "en",
+      "length_before_preprocessing": 7877,
+      "length_after_preprocessing": 3024,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/11/11154106/brazil-chemicals-sales-up-in-2025-but-deficit-up-to-new-high-on-relentless-cheaper-imports"
+    }
+  ]
+}

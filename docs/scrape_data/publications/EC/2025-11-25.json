@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-11-25",
+  "publications": [
+    {
+      "id": "5569f8b44af6fbb03d872a8560ad4af663667f17e6890b6d4b9c40ab99d46bbd",
+      "title": "european_sustainable_energy_week_2026_apply_host_policy_session_and_nominate_candidates_2026_awards",
+      "published_on": "2025-11-25 12:00:00",
+      "scraped_on": "2025-11-25 18:36:39.675287",
+      "language": "en",
+      "length_before_preprocessing": 3760,
+      "length_after_preprocessing": 1076,
+      "url": "https://energy.ec.europa.eu/news/european-sustainable-energy-week-2026-apply-host-policy-session-and-nominate-candidates-2026-awards-2025-11-25_en"
+    }
+  ]
+}

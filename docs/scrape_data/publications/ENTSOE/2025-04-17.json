@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-04-17",
+  "publications": [
+    {
+      "id": "a1db94a66f9faac6253d8aecda934956cbf33c2ebdcdca7bfaa8371c3a42d4a3",
+      "title": "sunny_spring_and_risks_of_electricity_surplus_tsos_coordinate",
+      "published_on": "2025-04-17 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.521255",
+      "language": "en",
+      "length_before_preprocessing": 3227,
+      "length_after_preprocessing": 1125,
+      "url": "https://www.entsoe.eu/news/2025/04/17/sunny-spring-and-risks-of-electricity-surplus-tsos-coordinate"
+    }
+  ]
+}

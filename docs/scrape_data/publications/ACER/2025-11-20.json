@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-11-20",
+  "publications": [
+    {
+      "id": "40a21d019aadc54d6d9f8e1858c768e653e1ebb48663e86ffa24bb0fdfaf8e89",
+      "title": "eu11_billion_spent_eu_wide_fragmented_electricity_security_supply_support_2024",
+      "published_on": "2025-11-20 12:00:00",
+      "scraped_on": "2025-11-20 18:33:57.610086",
+      "language": "en",
+      "length_before_preprocessing": 8452,
+      "length_after_preprocessing": 1446,
+      "url": "https://www.acer.europa.eu/news/eu11-billion-spent-eu-wide-fragmented-electricity-security-supply-support-2024"
+    }
+  ]
+}

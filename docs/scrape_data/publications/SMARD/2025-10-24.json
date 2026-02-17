@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-10-24",
+  "publications": [
+    {
+      "id": "82e6d26d41d2f5cf400e509576864add6efcfd66569c382362da70105e83d610",
+      "title": "erneuerbare_auf_quartalshoch",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2026-01-14 09:24:32.537619",
+      "language": "de",
+      "length_before_preprocessing": 8792,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/218232/erneuerbare-auf-quartalshoch"
+    },
+    {
+      "id": "3d8ba719b5d8a2c67c915945c5edb4b9af9ffb26e15400bbd582e4b87f2d8a4c",
+      "title": "erneuerbare_auf_quartalshoch",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2026-01-14 09:25:34.831279",
+      "language": "de",
+      "length_before_preprocessing": 8786,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/444/218232/erneuerbare-auf-quartalshoch"
+    },
+    {
+      "id": "2153e51b230e8c376c5e69e57d51e9b1b9c829e66c5458d87c27fd0dbaa86f70",
+      "title": "renewables_hit_quarterly_high",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2026-01-14 09:12:15.060734",
+      "language": "de",
+      "length_before_preprocessing": 7485,
+      "length_after_preprocessing": 5493,
+      "url": "https://www.smard.de/page/en/topic-article/5892/218336/renewables-hit-quarterly-high"
+    }
+  ]
+}

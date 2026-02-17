@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-05-13",
+  "publications": [
+    {
+      "id": "d639a603472c98ce15468f0310d053984b562a02eadfb331c82a37fbd92f41a6",
+      "title": "commission_collects_views_preparation_european_grids_package",
+      "published_on": "2025-05-13 12:00:00",
+      "scraped_on": "2025-07-31 11:18:22.100551",
+      "language": "en",
+      "length_before_preprocessing": 4367,
+      "length_after_preprocessing": 1225,
+      "url": "https://energy.ec.europa.eu/news/commission-collects-views-preparation-european-grids-package-2025-05-13_en"
+    },
+    {
+      "id": "df190582f839c649a36f206123dfc5b4c5530a6fa6339c9e386366421d0be86b",
+      "title": "new_memorandum_understanding_bolster_energy_cooperation_baltic_sea_region",
+      "published_on": "2025-05-13 12:00:00",
+      "scraped_on": "2025-07-31 11:18:22.103538",
+      "language": "en",
+      "length_before_preprocessing": 4226,
+      "length_after_preprocessing": 1235,
+      "url": "https://energy.ec.europa.eu/news/new-memorandum-understanding-bolster-energy-cooperation-baltic-sea-region-2025-05-13_en"
+    }
+  ]
+}

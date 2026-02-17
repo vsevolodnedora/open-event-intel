@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-30",
+  "publications": [
+    {
+      "id": "b9e5142b41e5e85456ae1873c9b03e03a84e29c6fc11f46d29ccd1bd30cac59c",
+      "title": "inside_story_ebbing_north_sea_gas_production_to_raise_uk_gas_prices_exposure_to_lng_imports",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.400612",
+      "language": "en",
+      "length_before_preprocessing": 7564,
+      "length_after_preprocessing": 3450,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176337/inside-story-ebbing-north-sea-gas-production-to-raise-uk-gas-prices-exposure-to-lng-imports"
+    },
+    {
+      "id": "7cd15a18820e088f88e9ae2744c3274dd53d9954e6d53b737756ced9343784ff",
+      "title": "venezuela_approves_hydrocarbon_law_dismantling_decades_of_state_control",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.405509",
+      "language": "en",
+      "length_before_preprocessing": 7365,
+      "length_after_preprocessing": 2074,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176332/venezuela-approves-hydrocarbon-law-dismantling-decades-of-state-control"
+    },
+    {
+      "id": "22575d06553f44e356fda0198b5256bc3902370c844a762a86f7422ef8b9e021",
+      "title": "s_korea_s_lg_chem_extends_net_loss_in_q4_on_sluggish_demand_oversupply",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.407543",
+      "language": "en",
+      "length_before_preprocessing": 6662,
+      "length_after_preprocessing": 1402,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176215/s-korea-s-lg-chem-extends-net-loss-in-q4-on-sluggish-demand-oversupply"
+    },
+    {
+      "id": "c6f1e652c527d09bf062cf83509872fef92ba593653653fe199466013fcad415",
+      "title": "thailand_forex_policy_under_us_scrutiny_trade_talks_with_eu_ongoing",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.409506",
+      "language": "en",
+      "length_before_preprocessing": 6531,
+      "length_after_preprocessing": 1949,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176200/thailand-forex-policy-under-us-scrutiny-trade-talks-with-eu-ongoing"
+    },
+    {
+      "id": "b156d36d4861911c706d52fb9abb686e23a45d92c1f827a4c85131f75fb72405",
+      "title": "podcast_europe_distributors_battle_tough_conditions_adapt_to_geopolitical_turmoil",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:29:53.411353",
+      "language": "en",
+      "length_before_preprocessing": 6074,
+      "length_after_preprocessing": 807,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176331/podcast-europe-distributors-battle-tough-conditions-adapt-to-geopolitical-turmoil"
+    },
+    {
+      "id": "ff14faeb658ac239b9a5e0e875e1de1ab70b6434e2971b6260315fd92a51d5d7",
+      "title": "panama_court_rules_against_ck_hutchison_but_operator_of_canal_will_continue_in_near_term",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-02-02 18:30:55.503946",
+      "language": "en",
+      "length_before_preprocessing": 6328,
+      "length_after_preprocessing": 1043,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176399/panama-court-rules-against-ck-hutchison-but-operator-of-canal-will-continue-in-near-term"
+    },
+    {
+      "id": "55ffcd7f726b6bcca07da6c476f78a4374092b66437bacbb2e171bd8e5a0a9ab",
+      "title": "asia_us_container_rates_stable_as_capacity_outpaces_pre_lunar_new_year_demand",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-02-02 18:30:55.514308",
+      "language": "en",
+      "length_before_preprocessing": 7998,
+      "length_after_preprocessing": 2412,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/30/11176407/asia-us-container-rates-stable-as-capacity-outpaces-pre-lunar-new-year-demand"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2020-06-23",
+  "publications": [
+    {
+      "id": "73bf20a05a9a5576d72d81ba30ce3258d1b9293bd928b47bc6ce8d7c6f32005d",
+      "title": "the_green_recovery_empty_rhetoric_or_meaningful_action",
+      "published_on": "2020-06-23 12:00:00",
+      "scraped_on": "2025-07-31 18:40:03.686942",
+      "language": "en",
+      "length_before_preprocessing": 7386,
+      "length_after_preprocessing": 3212,
+      "url": "https://www.agora-energiewende.org/news-events/the-green-recovery-empty-rhetoric-or-meaningful-action"
+    }
+  ]
+}

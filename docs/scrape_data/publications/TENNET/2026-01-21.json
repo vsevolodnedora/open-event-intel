@@ -1,0 +1,26 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2026-01-21",
+  "publications": [
+    {
+      "id": "ec021e9e084bd05d5fe14030c16df3f6c73fdfa7dc1225e785bd40722576562a",
+      "title": "forschungsprojekt_einsatz_von_drohnen_und_ki_zur_unterstuetzung_eines_sicheren_stromnetzbetriebs",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-24 18:21:59.810768",
+      "language": "de",
+      "length_before_preprocessing": 7300,
+      "length_after_preprocessing": 2749,
+      "url": "https://www.tennet.eu/de/news/forschungsprojekt-einsatz-von-drohnen-und-ki-zur-unterstuetzung-eines-sicheren-stromnetzbetriebs"
+    },
+    {
+      "id": "388e6e1791f4a9006ab617e55504437d3c29fa5a2c6507cadd7df10c5165ea85",
+      "title": "spatenstich_fuer_den_heidehub_baustart_fuer_einen_der_ersten_multiterminal_hubs_europa_und_den_noerdlichsten_konverter_von_korridor_b",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-24 18:22:33.535092",
+      "language": "de",
+      "length_before_preprocessing": 7577,
+      "length_after_preprocessing": 2755,
+      "url": "https://www.tennet.eu/de/news/spatenstich-fuer-den-heidehub-baustart-fuer-einen-der-ersten-multiterminal-hubs-europa-und-den-noerdlichsten-konverter-von-korridor-b"
+    }
+  ]
+}

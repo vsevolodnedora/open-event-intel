@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-11",
+  "publications": [
+    {
+      "id": "d685a25aa47f1dc90bf465e732e83caf06a7f3108c2189831c30ae9d1e2921b5",
+      "title": "brief_11_september_25",
+      "published_on": "2025-09-11 13:28:00",
+      "scraped_on": "2025-09-11 18:31:34.767386",
+      "language": "en",
+      "length_before_preprocessing": 2996,
+      "length_after_preprocessing": 836,
+      "url": "https://www.cleanenergywire.org/news/brief-11-september-25"
+    },
+    {
+      "id": "28066910136fd79423e79472fcce4c39477dc679f65cdf6e2458fbd11892b10f",
+      "title": "merz_signals_germany_may_scale_back_plans_renewable_rollout_cut_costs",
+      "published_on": "2025-09-11 10:32:00",
+      "scraped_on": "2025-09-11 18:31:45.644439",
+      "language": "en",
+      "length_before_preprocessing": 8230,
+      "length_after_preprocessing": 2387,
+      "url": "https://www.cleanenergywire.org/news/merz-signals-germany-may-scale-back-plans-renewable-rollout-cut-costs"
+    },
+    {
+      "id": "5c6f8e2458f950c4b2c8aad6bbc64c4a0b9aafffeb1cd7c72ea21dda5ecd8658",
+      "title": "reform_deal_needed_save_ets_2_key_eu_climate_goals_think_tank",
+      "published_on": "2025-09-11 09:00:00",
+      "scraped_on": "2025-09-11 18:31:56.513239",
+      "language": "en",
+      "length_before_preprocessing": 6737,
+      "length_after_preprocessing": 1208,
+      "url": "https://www.cleanenergywire.org/news/reform-deal-needed-save-ets-2-key-eu-climate-goals-think-tank"
+    },
+    {
+      "id": "62c2ba4abf03bc6eb8a4954f5984df28b59c64e48154263e09876c75d994500b",
+      "title": "dispatch_european_union_september_25",
+      "published_on": "2025-09-11 13:30:00",
+      "scraped_on": "2025-09-12 18:31:10.471357",
+      "language": "en",
+      "length_before_preprocessing": 8630,
+      "length_after_preprocessing": 3383,
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-september-25"
+    }
+  ]
+}

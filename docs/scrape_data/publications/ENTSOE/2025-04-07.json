@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-04-07",
+  "publications": [
+    {
+      "id": "59b0fa419820b105aac181ff7905fbda67afd181e2e71484248f9afa60b980bb",
+      "title": "european_resource_adequacy_assessment_interconnections_flexibility_solutions_and_updated_market_rules_to_maintain_high_level_of_electricity_supply_security",
+      "published_on": "2025-04-07 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.519934",
+      "language": "en",
+      "length_before_preprocessing": 3193,
+      "length_after_preprocessing": 961,
+      "url": "https://www.entsoe.eu/news/2025/04/07/european-resource-adequacy-assessment-interconnections-flexibility-solutions-and-updated-market-rules-to-maintain-high-level-of-electricity-supply-security"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-21",
+  "publications": [
+    {
+      "id": "d1b0e4aba442280f52dc0c0df2def780bba631e248d55b1c14acfc042483b86d",
+      "title": "saudi_advanced_petrochemical_q3_profit_rises_on_pp_plants_start_ups",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.780278",
+      "language": "en",
+      "length_before_preprocessing": 5652,
+      "length_after_preprocessing": 828,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/21/11147484/saudi-advanced-petrochemical-q3-profit-rises-on-pp-plants-start-ups"
+    },
+    {
+      "id": "946820cf2d657bdeb7d2baa2bad9e7cc3f380cbf10eb4d1775a5faf36c14a198",
+      "title": "japan_elects_first_woman_prime_minister",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.783709",
+      "language": "en",
+      "length_before_preprocessing": 5492,
+      "length_after_preprocessing": 678,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/21/11147497/japan-elects-first-woman-prime-minister"
+    },
+    {
+      "id": "476724f412543c78027a6e10c51844c54fe85e2c43800d901c184d04df095ccf",
+      "title": "market_impact_from_new_us_china_port_fees_less_than_expected_analyst",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-22 16:09:25.906873",
+      "language": "en",
+      "length_before_preprocessing": 7008,
+      "length_after_preprocessing": 1820,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/21/11147609/market-impact-from-new-us-china-port-fees-less-than-expected-analyst"
+    },
+    {
+      "id": "d158337d7d9936415c4cb5a1b5a4ec98d452a254249347bc88085ce9d3f67d76",
+      "title": "apla_25_latin_american_women_in_chemicals_highlight_resilience_empathy_as_key_leadership_qualities",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-22 16:09:25.908672",
+      "language": "en",
+      "length_before_preprocessing": 7384,
+      "length_after_preprocessing": 2641,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/21/11147591/apla-25-latin-american-women-in-chemicals-highlight-resilience-empathy-as-key-leadership-qualities"
+    },
+    {
+      "id": "2581e4b73fce3f8af45f4eec4e675e0046c8b3ce265fd2515b823a1289a69f36",
+      "title": "apla_25_mexico_policies_on_trade_and_investment_to_lift_chemicals_demand_pochteca",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-22 16:09:25.913220",
+      "language": "en",
+      "length_before_preprocessing": 7379,
+      "length_after_preprocessing": 2640,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/21/11147567/apla-25-mexico-policies-on-trade-and-investment-to-lift-chemicals-demand-pochteca"
+    }
+  ]
+}

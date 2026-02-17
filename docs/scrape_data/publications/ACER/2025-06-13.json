@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-06-13",
+  "publications": [
+    {
+      "id": "f895aa62fcdca79332ddf2ce4cd48f6c2cb33abf6aad3e2a025cd1664bd8ba9f",
+      "title": "acer_issues_guide_benchmarking_cybersecurity_investments_eu_electricity_sector",
+      "published_on": "2025-06-13 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.238699",
+      "language": "en",
+      "length_before_preprocessing": 7955,
+      "length_after_preprocessing": 992,
+      "url": "https://www.acer.europa.eu/news/acer-issues-guide-benchmarking-cybersecurity-investments-eu-electricity-sector"
+    }
+  ]
+}

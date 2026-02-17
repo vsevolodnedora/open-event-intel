@@ -1,0 +1,56 @@
+{
+  "publisher": "EEX",
+  "published_on": "2024-07-17",
+  "publications": [
+    {
+      "id": "0f88b6fd2d75399304426fe4865c0073ec5743512729fc7f7971e17c0356fd07",
+      "title": "eex_press_release",
+      "published_on": "2024-07-17 12:00:00",
+      "scraped_on": "2025-08-27 18:30:22.464360",
+      "language": "en",
+      "length_before_preprocessing": 7524,
+      "length_after_preprocessing": 1615,
+      "url": "https://www.eex.com/en/newsroom/detail?chash=68f40bbbb5ae8519e3f18b798cf65054&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14629"
+    },
+    {
+      "id": "87ae27e7008d281d9037b5fe19e1060f77407943be569b63b8e1af225efa25eb",
+      "title": "eex_press_release",
+      "published_on": "2024-07-17 12:00:00",
+      "scraped_on": "2025-08-27 18:30:22.467756",
+      "language": "en",
+      "length_before_preprocessing": 7522,
+      "length_after_preprocessing": 1615,
+      "url": "https://www.eex.com/en/newsroom/detail?chash=50acbc18eeca2805e24fd9f863a86b10&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14627"
+    },
+    {
+      "id": "dd3f3ab2af2259e4869b212af5e66eca32fa46e435887ddc4583367559cb728e",
+      "title": "eex_press_release",
+      "published_on": "2024-07-17 12:00:00",
+      "scraped_on": "2025-08-27 18:30:22.471171",
+      "language": "en",
+      "length_before_preprocessing": 7523,
+      "length_after_preprocessing": 1615,
+      "url": "https://www.eex.com/en/newsroom/detail?chash=db6025cf1733338ea9238b8f437511a7&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14630"
+    },
+    {
+      "id": "979b29525919bb4dbd2976e147802732920d16e4e44d523e159311a78848beab",
+      "title": "eex_press_release",
+      "published_on": "2024-07-17 12:00:00",
+      "scraped_on": "2025-08-27 18:30:22.474098",
+      "language": "en",
+      "length_before_preprocessing": 7523,
+      "length_after_preprocessing": 1615,
+      "url": "https://www.eex.com/en/newsroom/detail?chash=562e0f57c59d1745f82414d555dcbe42&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14631"
+    },
+    {
+      "id": "46723ff45188ae1628521220c68c712b5520151cfa32578c8c5ab0c1ec677e6d",
+      "title": "eex_press_release",
+      "published_on": "2024-07-17 12:00:00",
+      "scraped_on": "2025-08-27 18:30:22.477042",
+      "language": "en",
+      "length_before_preprocessing": 7523,
+      "length_after_preprocessing": 1615,
+      "url": "https://www.eex.com/en/newsroom/detail?chash=813ace5f6e9d7838330dd68f1b35625b&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14632"
+    }
+  ]
+}

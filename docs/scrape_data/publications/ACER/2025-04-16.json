@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-04-16",
+  "publications": [
+    {
+      "id": "0453c76164e7e0e98299a63c9cee26884b6e23386b7b2024319ba6cb990cff9c",
+      "title": "gas_winter_2024_25_season_prices_demand_up_storage_down",
+      "published_on": "2025-04-16 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.270607",
+      "language": "en",
+      "length_before_preprocessing": 7799,
+      "length_after_preprocessing": 845,
+      "url": "https://www.acer.europa.eu/news/gas-winter-2024-25-season-prices-demand-up-storage-down"
+    }
+  ]
+}

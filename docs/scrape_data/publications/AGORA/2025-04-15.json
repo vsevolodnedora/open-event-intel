@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-04-15",
+  "publications": [
+    {
+      "id": "b450a07b1304b9b1ad2e36696a971c5b256ef397861afccf5c51c2b1d39f5d5a",
+      "title": "heat_pumps_as_pillars_of_resilient_energy_future",
+      "published_on": "2025-04-15 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.421442",
+      "language": "en",
+      "length_before_preprocessing": 4439,
+      "length_after_preprocessing": 832,
+      "url": "https://www.agora-energiewende.org/news-events/heat-pumps-as-pillars-of-resilient-energy-future"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-03-31",
+  "publications": [
+    {
+      "id": "a53fbc29e6b1015f960f745745cf0edd706244309c84379d29537442d6760ae9",
+      "title": "update_verteilernetze_bis_2045",
+      "published_on": "2025-03-31 12:00:00",
+      "scraped_on": "2026-01-14 09:22:28.619255",
+      "language": "de",
+      "length_before_preprocessing": 5227,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/211784/215544/update-verteilernetze-bis-2045"
+    },
+    {
+      "id": "552c80bace0b8c826749e3d5f3e3e1e006039d79c99c1191eb6f67694e55a299",
+      "title": "update_verteilernetze_bis_2045",
+      "published_on": "2025-03-31 12:00:00",
+      "scraped_on": "2025-07-31 16:01:14.856084",
+      "language": "de",
+      "length_before_preprocessing": 5499,
+      "length_after_preprocessing": 2987,
+      "url": "https://www.smard.de/page/home/topic-article/444/215544/update-verteilernetze-bis-2045"
+    }
+  ]
+}

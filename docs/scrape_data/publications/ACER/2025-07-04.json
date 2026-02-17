@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-07-04",
+  "publications": [
+    {
+      "id": "ecae11462b40f376a1e77c30d220af1bd2cdbc0c857e2a539cf16729573fd840",
+      "title": "acer_reports_reduced_need_balancing_actions_across_most_gas_markets_eu",
+      "published_on": "2025-07-04 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.222959",
+      "language": "en",
+      "length_before_preprocessing": 7993,
+      "length_after_preprocessing": 1062,
+      "url": "https://www.acer.europa.eu/news/acer-reports-reduced-need-balancing-actions-across-most-gas-markets-eu"
+    },
+    {
+      "id": "e2061f805367b698e100d0d6b1380fe86ce82e6b157b7b00e59e46f08d4208e7",
+      "title": "help_shape_role_demand_response_electricity_markets_join_acers_new_european_stakeholder_group",
+      "published_on": "2025-07-04 12:00:00",
+      "scraped_on": "2025-07-31 14:53:05.364342",
+      "language": "en",
+      "length_before_preprocessing": 8282,
+      "length_after_preprocessing": 1177,
+      "url": "https://www.acer.europa.eu/news/help-shape-role-demand-response-electricity-markets-join-acers-new-european-stakeholder-group"
+    }
+  ]
+}

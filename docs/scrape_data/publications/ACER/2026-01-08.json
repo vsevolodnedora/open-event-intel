@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2026-01-08",
+  "publications": [
+    {
+      "id": "691a220ca9dd7876420d3f29fbd4794fbb3a7fa0ba59d37d9eab429bde9049f0",
+      "title": "acer_introduces_framework_monitoring_smart_grid_performance_electricity_transmission",
+      "published_on": "2026-01-08 12:00:00",
+      "scraped_on": "2026-01-08 18:17:47.575780",
+      "language": "en",
+      "length_before_preprocessing": 8608,
+      "length_after_preprocessing": 1575,
+      "url": "https://www.acer.europa.eu/news/acer-introduces-framework-monitoring-smart-grid-performance-electricity-transmission"
+    }
+  ]
+}

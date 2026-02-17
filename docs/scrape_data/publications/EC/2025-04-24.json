@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-24",
+  "publications": [
+    {
+      "id": "3b74dd62a986f53faf71cfbfc068200a640378352e2ef76da5d37e93d9c0cb5b",
+      "title": "welcome_2025_young_energy_ambassadors",
+      "published_on": "2025-04-24 12:00:00",
+      "scraped_on": "2025-07-31 11:18:15.333085",
+      "language": "en",
+      "length_before_preprocessing": 3356,
+      "length_after_preprocessing": 506,
+      "url": "https://energy.ec.europa.eu/news/welcome-2025-young-energy-ambassadors-2025-04-24_en"
+    }
+  ]
+}

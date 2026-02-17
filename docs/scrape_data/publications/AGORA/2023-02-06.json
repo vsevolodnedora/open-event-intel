@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2023-02-06",
+  "publications": [
+    {
+      "id": "d1faaa7fd874b3c6f73534d75d4bdc209549b447513bc7473daa973de35ec200",
+      "title": "navigating_the_landscape_business_opportunity_analyser_to_identify_promising_ptx_value_chains",
+      "published_on": "2023-02-06 12:00:00",
+      "scraped_on": "2025-07-31 14:56:11.890813",
+      "language": "en",
+      "length_before_preprocessing": 5584,
+      "length_after_preprocessing": 1132,
+      "url": "https://www.agora-energiewende.org/news-events/navigating-the-landscape-business-opportunity-analyser-to-identify-promising-ptx-value-chains"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-28",
+  "publications": [
+    {
+      "id": "e8f05510179c30cb43102bb91844f7ca18bc589bdee35b5327dd4c609fced86c",
+      "title": "ngo_wins_greenwashing_lawsuits_against_german_airline_apparel_company",
+      "published_on": "2025-03-28 13:48:00",
+      "scraped_on": "2025-07-31 13:03:07.819602",
+      "language": "en",
+      "length_before_preprocessing": 6608,
+      "length_after_preprocessing": 1085,
+      "url": "https://www.cleanenergywire.org/news/ngo-wins-greenwashing-lawsuits-against-german-airline-apparel-company"
+    },
+    {
+      "id": "03aeae970b4b8c160950f33743aa7fe1df0d21a9b752e9f9c57748b85a564525",
+      "title": "sufficiency_strategy_sorely_needed_germany_tackle_energy_transition_faster_and_lower_cost_report",
+      "published_on": "2025-03-28 13:08:00",
+      "scraped_on": "2025-07-31 13:03:19.673396",
+      "language": "en",
+      "length_before_preprocessing": 7089,
+      "length_after_preprocessing": 1283,
+      "url": "https://www.cleanenergywire.org/news/sufficiency-strategy-sorely-needed-germany-tackle-energy-transition-faster-and-lower-cost-report"
+    },
+    {
+      "id": "2abc568349724a39beae4a3e116d001c8da9ff033532d3b24ff69a0b0ce41d4b",
+      "title": "many_german_buildings_need_refurbishment_plus_heat_pump_reach_climate_targets_report",
+      "published_on": "2025-03-28 13:04:00",
+      "scraped_on": "2025-07-31 13:03:30.117927",
+      "language": "en",
+      "length_before_preprocessing": 4460,
+      "length_after_preprocessing": 1258,
+      "url": "https://www.cleanenergywire.org/news/many-german-buildings-need-refurbishment-plus-heat-pump-reach-climate-targets-report"
+    },
+    {
+      "id": "920b83942d14b23f699940382cac35418f16ee45d7e833bf13a3177a6a34fab7",
+      "title": "dispatch_european_union_march_25",
+      "published_on": "2025-03-28 12:00:00",
+      "scraped_on": "2025-07-31 13:03:41.686429",
+      "language": "en",
+      "length_before_preprocessing": 9448,
+      "length_after_preprocessing": 3697,
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-march-25"
+    },
+    {
+      "id": "85055d9444ca78d338c272417ba06696f5edde8d2a8b5e66bddbee5d72a4dff7",
+      "title": "brief_28_march_25",
+      "published_on": "2025-03-28 11:48:00",
+      "scraped_on": "2025-07-31 13:03:53.503079",
+      "language": "en",
+      "length_before_preprocessing": 5524,
+      "length_after_preprocessing": 1051,
+      "url": "https://www.cleanenergywire.org/news/brief-28-march-25"
+    }
+  ]
+}

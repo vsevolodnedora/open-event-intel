@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-06-04",
+  "publications": [
+    {
+      "id": "4e0bf269e65b3015ade2fa3787077df3351125d580459329a6870c41284fe601",
+      "title": "play_a_role_in_eu_electricity_cybersecurity_join_acers_stakeholder_committee",
+      "published_on": "2025-06-04 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.524173",
+      "language": "en",
+      "length_before_preprocessing": 3096,
+      "length_after_preprocessing": 929,
+      "url": "https://www.entsoe.eu/news/2025/06/04/play-a-role-in-eu-electricity-cybersecurity-join-acers-stakeholder-committee"
+    }
+  ]
+}

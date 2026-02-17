@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2022-08-25",
+  "publications": [
+    {
+      "id": "dc1404ac99c790b123138e7dad0747d0a429ed98b18e84d6bb50005b475a8958",
+      "title": "regelarbeitsmarkt_gestartet",
+      "published_on": "2022-08-25 12:00:00",
+      "scraped_on": "2026-01-14 09:15:09.979811",
+      "language": "de",
+      "length_before_preprocessing": 6559,
+      "length_after_preprocessing": 3217,
+      "url": "https://www.smard.de/page/home/topic-article/204970/196354/regelarbeitsmarkt-gestartet"
+    }
+  ]
+}

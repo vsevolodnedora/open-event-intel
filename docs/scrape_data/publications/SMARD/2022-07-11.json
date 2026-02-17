@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2022-07-11",
+  "publications": [
+    {
+      "id": "3a11760b0039ace9c907fbb726f247aa6cf88d20ea6fbcdd2873d11a95268164",
+      "title": "hoechstwerte_bei_pv_einspeisung",
+      "published_on": "2022-07-11 12:00:00",
+      "scraped_on": "2026-01-14 09:20:12.544886",
+      "language": "de",
+      "length_before_preprocessing": 7787,
+      "length_after_preprocessing": 4319,
+      "url": "https://www.smard.de/page/home/topic-article/207548/208392/hoechstwerte-bei-pv-einspeisung"
+    }
+  ]
+}

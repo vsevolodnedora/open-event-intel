@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-02",
+  "publications": [
+    {
+      "id": "da65b366c7d94b4fbfe81698e084c8c6a915fd4d9b0adeb99296c861f2325e94",
+      "title": "energy_next_long_term_eu_budget_commission_invites_input",
+      "published_on": "2025-04-02 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.991066",
+      "language": "en",
+      "length_before_preprocessing": 3918,
+      "length_after_preprocessing": 919,
+      "url": "https://energy.ec.europa.eu/news/energy-next-long-term-eu-budget-commission-invites-input-2025-04-02_en"
+    }
+  ]
+}

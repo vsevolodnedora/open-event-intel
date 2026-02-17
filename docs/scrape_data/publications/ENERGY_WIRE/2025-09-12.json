@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-12",
+  "publications": [
+    {
+      "id": "7549e5281426058736e00674f82665e5f332c4ff4108098cd84b3c920fc5fe3c",
+      "title": "sustainable_ship_cruises_remain_distant_dream_analysis_finds",
+      "published_on": "2025-09-12 11:33:00",
+      "scraped_on": "2025-09-12 18:30:37.782872",
+      "language": "en",
+      "length_before_preprocessing": 3284,
+      "length_after_preprocessing": 1237,
+      "url": "https://www.cleanenergywire.org/news/sustainable-ship-cruises-remain-distant-dream-analysis-finds"
+    },
+    {
+      "id": "307492c97f4e47ce9730db139640f3a58a331178f2b60a7d3b2279a9b477fda3",
+      "title": "germanys_cyber_defence_plans_risk_slowing_energy_transition_utilities_warn",
+      "published_on": "2025-09-12 11:31:00",
+      "scraped_on": "2025-09-12 18:30:48.756176",
+      "language": "en",
+      "length_before_preprocessing": 6477,
+      "length_after_preprocessing": 1210,
+      "url": "https://www.cleanenergywire.org/news/germanys-cyber-defence-plans-risk-slowing-energy-transition-utilities-warn"
+    },
+    {
+      "id": "d70c107cbff8af0f45eb1765c234302757767ee3bc05a73d61f1fa4450f34804",
+      "title": "brief_12_september_25",
+      "published_on": "2025-09-12 10:36:00",
+      "scraped_on": "2025-09-12 18:30:59.554533",
+      "language": "en",
+      "length_before_preprocessing": 5307,
+      "length_after_preprocessing": 852,
+      "url": "https://www.cleanenergywire.org/news/brief-12-september-25"
+    }
+  ]
+}

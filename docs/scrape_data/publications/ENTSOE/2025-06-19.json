@@ -1,0 +1,26 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-06-19",
+  "publications": [
+    {
+      "id": "6807ff3e266d6b3d634eff70679a3d38611afd6d61a34d1fdcb932c8dae0830d",
+      "title": "expert_panel_will_review_the_reports_on_the_28th_april_blackout_published_this_week_by_the_spanish_government_and_the_spanish_tso",
+      "published_on": "2025-06-19 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.528493",
+      "language": "en",
+      "length_before_preprocessing": 3069,
+      "length_after_preprocessing": 710,
+      "url": "https://www.entsoe.eu/news/2025/06/19/expert-panel-will-review-the-reports-on-the-28th-april-blackout-published-this-week-by-the-spanish-government-and-the-spanish-tso"
+    },
+    {
+      "id": "4005324875a9f9c5a16968ec1619f5f1ec89f25c06cda431c45a2187fbad15cf",
+      "title": "european_parliament_report_on_electricity_grids_entso_e_welcomes_the_spotlight_on_accelerating_grid_transformation",
+      "published_on": "2025-06-19 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.530365",
+      "language": "en",
+      "length_before_preprocessing": 4657,
+      "length_after_preprocessing": 2334,
+      "url": "https://www.entsoe.eu/news/2025/06/19/european-parliament-report-on-electricity-grids-entso-e-welcomes-the-spotlight-on-accelerating-grid-transformation"
+    }
+  ]
+}

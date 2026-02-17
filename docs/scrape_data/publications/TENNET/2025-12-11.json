@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-12-11",
+  "publications": [
+    {
+      "id": "a14d335646cc5f11af59399221d790a2c47c8dc53754fae04c5b52185b77194a",
+      "title": "tennet_germany_hebt_offshore_ausbau_auf_neues_niveau_balwin5_setzt_massstaebe_bei_leistung_und_kosten",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-17 18:25:25.383428",
+      "language": "de",
+      "length_before_preprocessing": 6472,
+      "length_after_preprocessing": 1796,
+      "url": "https://www.tennet.eu/de/news/tennet-germany-hebt-offshore-ausbau-auf-neues-niveau-balwin5-setzt-massstaebe-bei-leistung-und-kosten"
+    }
+  ]
+}

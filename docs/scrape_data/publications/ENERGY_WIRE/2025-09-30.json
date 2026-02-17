@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-30",
+  "publications": [
+    {
+      "id": "caaade4af8d09ce01923f1d63f270ca37954834e8c84cffb0aea861c34f47f36",
+      "title": "utilities_press_merz_government_fresh_plan_decarbonise_heating_sector",
+      "published_on": "2025-09-30 11:32:00",
+      "scraped_on": "2025-09-30 18:34:17.917927",
+      "language": "en",
+      "length_before_preprocessing": 4326,
+      "length_after_preprocessing": 1382,
+      "url": "https://www.cleanenergywire.org/news/utilities-press-merz-government-fresh-plan-decarbonise-heating-sector"
+    },
+    {
+      "id": "e5110efb7af91ab0a75abc68ff8fbf25cac8e6a56f3ef6e6e0b6722b631129e9",
+      "title": "energy_providers_hail_new_era_flexibility_europe_moves_quarter_hourly_electricity_trading",
+      "published_on": "2025-09-30 11:28:00",
+      "scraped_on": "2025-09-30 18:34:28.994125",
+      "language": "en",
+      "length_before_preprocessing": 7267,
+      "length_after_preprocessing": 1373,
+      "url": "https://www.cleanenergywire.org/news/energy-providers-hail-new-era-flexibility-europe-moves-quarter-hourly-electricity-trading"
+    },
+    {
+      "id": "96afd127aa88bca114f3f398345c1c0e3a37129d8263a63fb3c3ec81aee2e27a",
+      "title": "high_expansion_level_sustains_strong_renewables_share_germany",
+      "published_on": "2025-09-30 11:25:00",
+      "scraped_on": "2025-09-30 18:34:40.017454",
+      "language": "en",
+      "length_before_preprocessing": 7498,
+      "length_after_preprocessing": 1533,
+      "url": "https://www.cleanenergywire.org/news/high-expansion-level-sustains-strong-renewables-share-germany"
+    },
+    {
+      "id": "f89f3af6b315a184bc48ebdac6e0b062d7ee3270feb2c4fe6101946a0d9e3a47",
+      "title": "brief_30_september_25",
+      "published_on": "2025-09-30 10:46:00",
+      "scraped_on": "2025-09-30 18:34:50.926212",
+      "language": "en",
+      "length_before_preprocessing": 4923,
+      "length_after_preprocessing": 432,
+      "url": "https://www.cleanenergywire.org/news/brief-30-september-25"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-13",
+  "publications": [
+    {
+      "id": "b9c584c957be89f641a7c47be423b7ef19f83ab2bed3ce2e83b7625de0d6828f",
+      "title": "cooperation_energy_security_priority_germany_new_minister_tells_eu_partners",
+      "published_on": "2025-05-13 13:21:00",
+      "scraped_on": "2025-07-31 13:19:40.776311",
+      "language": "en",
+      "length_before_preprocessing": 6561,
+      "length_after_preprocessing": 748,
+      "url": "https://www.cleanenergywire.org/news/cooperation-energy-security-priority-germany-new-minister-tells-eu-partners"
+    },
+    {
+      "id": "f78bae2a09dcac75e42466a8f4edccf4a3adaacab302dd9c8feec8eb5e5ab100",
+      "title": "network_agency_considers_making_electricity_producers_pay_part_german_grid_fee_reform",
+      "published_on": "2025-05-13 13:18:00",
+      "scraped_on": "2025-07-31 13:19:52.642257",
+      "language": "en",
+      "length_before_preprocessing": 6782,
+      "length_after_preprocessing": 931,
+      "url": "https://www.cleanenergywire.org/news/network-agency-considers-making-electricity-producers-pay-part-german-grid-fee-reform"
+    },
+    {
+      "id": "b1b33d64b54b43c5288a5ba2e386aab6272c599b170d35e9edf912c4aa85beea",
+      "title": "brief_13_may_25",
+      "published_on": "2025-05-13 11:46:00",
+      "scraped_on": "2025-07-31 13:20:04.297046",
+      "language": "en",
+      "length_before_preprocessing": 5419,
+      "length_after_preprocessing": 959,
+      "url": "https://www.cleanenergywire.org/news/brief-13-may-25"
+    },
+    {
+      "id": "94a407299f1b53b7e57653cf4f85e3ae4733e571f6a829aa59759cca4414c3e4",
+      "title": "new_german_govts_energy_policy_promising_adaptation_reality_deutsche_bank",
+      "published_on": "2025-05-13 13:37:00",
+      "scraped_on": "2025-07-31 13:28:56.164150",
+      "language": "en",
+      "length_before_preprocessing": 6398,
+      "length_after_preprocessing": 825,
+      "url": "https://www.cleanenergywire.org/news/new-german-govts-energy-policy-promising-adaptation-reality-deutsche-bank"
+    },
+    {
+      "id": "841b2502b4d179207a2d561c8be92247a2d6b0df7353d7ede1a0aec965310def",
+      "title": "new_transport_minister_called_implement_climate_friendly_programme_first_100_days",
+      "published_on": "2025-05-13 13:23:00",
+      "scraped_on": "2025-07-31 13:29:07.720185",
+      "language": "en",
+      "length_before_preprocessing": 6651,
+      "length_after_preprocessing": 1130,
+      "url": "https://www.cleanenergywire.org/news/new-transport-minister-called-implement-climate-friendly-programme-first-100-days"
+    }
+  ]
+}

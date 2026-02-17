@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-09-18",
+  "publications": [
+    {
+      "id": "5a338b7464864db93fd3edb0e90061975fe32517f73226c46cb2bca67f278264",
+      "title": "electricity_system_operators_bidding_zone_study_significantly_underestimates_benefits_reshaping_europes_bidding_zones",
+      "published_on": "2025-09-18 12:00:00",
+      "scraped_on": "2025-09-18 18:33:02.521811",
+      "language": "en",
+      "length_before_preprocessing": 8511,
+      "length_after_preprocessing": 1284,
+      "url": "https://www.acer.europa.eu/news/electricity-system-operators-bidding-zone-study-significantly-underestimates-benefits-reshaping-europes-bidding-zones"
+    }
+  ]
+}

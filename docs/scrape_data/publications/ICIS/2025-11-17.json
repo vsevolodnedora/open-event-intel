@@ -1,0 +1,86 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-17",
+  "publications": [
+    {
+      "id": "a9bd77060ea46ac370a2add1a249069a93f143e4aea8e22401a96c17e073e3f2",
+      "title": "blog_ineos_files_anti_dumping_suits_as_european_chemicals_crisis_worsens",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.759888",
+      "language": "en",
+      "length_before_preprocessing": 4112,
+      "length_after_preprocessing": 336,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11156220/blog-ineos-files-anti-dumping-suits-as-european-chemicals-crisis-worsens"
+    },
+    {
+      "id": "7ea6a26527d24e0fb3cbde3192e5802bbb89bc9c70a85a2ea3b01ca23d834ca3",
+      "title": "s_oil_s_shaheen_project_in_south_korea_85_6_complete",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.762741",
+      "language": "en",
+      "length_before_preprocessing": 5755,
+      "length_after_preprocessing": 1609,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11156182/s-oil-s-shaheen-project-in-south-korea-85-6-complete"
+    },
+    {
+      "id": "1a0d85eb35eaba122846072e1f0578c8fdff2eff20fed67d804b09765b824a97",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.764693",
+      "language": "en",
+      "length_before_preprocessing": 4611,
+      "length_after_preprocessing": 852,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11155673/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "05eb159600e470df7ba0c04b15842e21c6559d562cb8cf564de5014270158c7b",
+      "title": "blog_china_s_export_boom_petchems_demand_and_demographics",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.766627",
+      "language": "en",
+      "length_before_preprocessing": 5088,
+      "length_after_preprocessing": 1370,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11156209/blog-china-s-export-boom-petchems-demand-and-demographics"
+    },
+    {
+      "id": "c549fba583ac4b236945807e6a35173e0989f2ca99ac95fc7153248e2842fdd5",
+      "title": "icis_reveals_the_overall_winner_of_the_2025_icis_innovation_awards",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.769039",
+      "language": "en",
+      "length_before_preprocessing": 5412,
+      "length_after_preprocessing": 1585,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11156248/icis-reveals-the-overall-winner-of-the-2025-icis-innovation-awards"
+    },
+    {
+      "id": "762090798f484e4bf730f611eac9a7a2da039ef93ee2ced6ba4d711a2b563a62",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.771087",
+      "language": "en",
+      "length_before_preprocessing": 4945,
+      "length_after_preprocessing": 1158,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11156138/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "a77c554c198208aadf3bc4deb67bc86defa63f313b5144ff340d6f6f336ca2c1",
+      "title": "japan_q3_economy_shrinks_for_first_time_in_six_quarters",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.772928",
+      "language": "en",
+      "length_before_preprocessing": 4808,
+      "length_after_preprocessing": 1021,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11156166/japan-q3-economy-shrinks-for-first-time-in-six-quarters"
+    },
+    {
+      "id": "fe1384d4fcee3102d41d28bf7ec099b9c7b8c55b1f911beb484b584396cbba0a",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:34:01.774622",
+      "language": "en",
+      "length_before_preprocessing": 5057,
+      "length_after_preprocessing": 1241,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/17/11155532/asia-top-stories-weekly-summary"
+    }
+  ]
+}

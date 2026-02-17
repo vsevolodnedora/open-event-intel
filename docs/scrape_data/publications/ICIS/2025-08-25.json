@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-25",
+  "publications": [
+    {
+      "id": "073db480f06f7e083e31799f63c4c426c706fd2bfe9ff8ea7c44f8f8af736b74",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-08-25 12:00:00",
+      "scraped_on": "2025-08-25 18:35:19.098944",
+      "language": "en",
+      "length_before_preprocessing": 4676,
+      "length_after_preprocessing": 979,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/25/11131289/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "34630a75565e4922589b3330be5d42ff1e22e7575b6752b3d87713080df97ccd",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-08-25 12:00:00",
+      "scraped_on": "2025-08-25 18:35:19.101795",
+      "language": "en",
+      "length_before_preprocessing": 4680,
+      "length_after_preprocessing": 979,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/25/11131219/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "37179eea2b4b8cabf6a5770c26e654dbf5050f632b2379271f5e6991d5448f93",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-08-25 12:00:00",
+      "scraped_on": "2025-08-25 18:35:19.104449",
+      "language": "en",
+      "length_before_preprocessing": 5123,
+      "length_after_preprocessing": 1407,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/25/11131114/asia-top-stories-weekly-summary"
+    }
+  ]
+}

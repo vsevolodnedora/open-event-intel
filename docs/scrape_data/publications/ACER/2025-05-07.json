@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-05-07",
+  "publications": [
+    {
+      "id": "d0ca845aee766ff112388769a367947856b47d60e2e75f4ba4efd7fd65fba79f",
+      "title": "baltic_energy_regulators_request_more_time_agree_long_term_capacity_calculation_methodology",
+      "published_on": "2025-05-07 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.248772",
+      "language": "en",
+      "length_before_preprocessing": 7902,
+      "length_after_preprocessing": 872,
+      "url": "https://www.acer.europa.eu/news/baltic-energy-regulators-request-more-time-agree-long-term-capacity-calculation-methodology"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-28",
+  "publications": [
+    {
+      "id": "c0615dabc303d6d5fe04f45724a30336465df7f16a3adae73c4b1e5f506ddff7",
+      "title": "brief_28_february_25",
+      "published_on": "2025-02-28 11:54:00",
+      "scraped_on": "2025-07-31 12:41:02.592854",
+      "language": "en",
+      "length_before_preprocessing": 2780,
+      "length_after_preprocessing": 706,
+      "url": "https://www.cleanenergywire.org/news/brief-28-february-25"
+    },
+    {
+      "id": "a5c6d85bf1030069edf488dfb133161154f4cf78072c7eb6423c749ee9610a4c",
+      "title": "special_dispatch_europe_reacts_german_snap_election_results",
+      "published_on": "2025-02-28 15:00:00",
+      "scraped_on": "2025-07-31 12:50:00.471697",
+      "language": "en",
+      "length_before_preprocessing": 11944,
+      "length_after_preprocessing": 5271,
+      "url": "https://www.cleanenergywire.org/news/special-dispatch-europe-reacts-german-snap-election-results"
+    },
+    {
+      "id": "2eb4397773f3523d8d234581386c7ca040fcc085fa7861a8348145c787f174be",
+      "title": "spd_hopes_cushion_snap_election_defeat_victory_upcoming_hamburg_state_vote",
+      "published_on": "2025-02-28 13:11:00",
+      "scraped_on": "2025-07-31 12:50:12.130530",
+      "language": "en",
+      "length_before_preprocessing": 7255,
+      "length_after_preprocessing": 1335,
+      "url": "https://www.cleanenergywire.org/news/spd-hopes-cushion-snap-election-defeat-victory-upcoming-hamburg-state-vote"
+    },
+    {
+      "id": "e3a3e736e3958634ca586125f831864c157ba5102ce20d6295e2e09d0c4ac398",
+      "title": "chemical_company_basf_begins_geothermal_tests_bid_reduce_gas_consumption",
+      "published_on": "2025-02-28 13:09:00",
+      "scraped_on": "2025-07-31 12:50:23.680222",
+      "language": "en",
+      "length_before_preprocessing": 6831,
+      "length_after_preprocessing": 856,
+      "url": "https://www.cleanenergywire.org/news/chemical-company-basf-begins-geothermal-tests-bid-reduce-gas-consumption"
+    },
+    {
+      "id": "83c7bb3ae30d846f1fef1bdb585c83db93c14acaaa1eb72aebcc78693ac72543",
+      "title": "european_wind_power_capacity_grows_expansion_rate_slightly_down_2024",
+      "published_on": "2025-02-28 13:07:00",
+      "scraped_on": "2025-07-31 12:50:35.378837",
+      "language": "en",
+      "length_before_preprocessing": 6685,
+      "length_after_preprocessing": 955,
+      "url": "https://www.cleanenergywire.org/news/european-wind-power-capacity-grows-expansion-rate-slightly-down-2024"
+    }
+  ]
+}

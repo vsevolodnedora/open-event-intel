@@ -1,0 +1,26 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-15",
+  "publications": [
+    {
+      "id": "676b6bfd2ccff469cd724677baeac95a9e197fccd55f03e8ce2409d6191fd256",
+      "title": "germany_aligns_renewable_rollout_slower_grid_expansion_cut_costs",
+      "published_on": "2025-09-15 13:19:00",
+      "scraped_on": "2025-09-15 18:35:57.271138",
+      "language": "en",
+      "length_before_preprocessing": 6836,
+      "length_after_preprocessing": 3169,
+      "url": "https://www.cleanenergywire.org/news/germany-aligns-renewable-rollout-slower-grid-expansion-cut-costs"
+    },
+    {
+      "id": "c1ed1fb7d9ac044a7b9e1bcc9dd31a52da3f6ab0803a8979118c5764cfc08cbe",
+      "title": "brief_15_september_25",
+      "published_on": "2025-09-15 10:42:00",
+      "scraped_on": "2025-09-15 18:36:08.068886",
+      "language": "en",
+      "length_before_preprocessing": 4871,
+      "length_after_preprocessing": 548,
+      "url": "https://www.cleanenergywire.org/news/brief-15-september-25"
+    }
+  ]
+}

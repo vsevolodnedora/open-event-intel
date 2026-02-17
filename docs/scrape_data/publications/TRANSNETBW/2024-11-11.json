@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2024-11-11",
+  "publications": [
+    {
+      "id": "e190d74c3aa2600b11e6155ad6bb0415b3cd3ea7763c9dcdb42a392a3382a776",
+      "title": "kapazitaetsmechanismen_im_ausland",
+      "published_on": "2024-11-11 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.649931",
+      "language": "de",
+      "length_before_preprocessing": 4089,
+      "length_after_preprocessing": 701,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/kapazitaetsmechanismen-im-ausland"
+    }
+  ]
+}

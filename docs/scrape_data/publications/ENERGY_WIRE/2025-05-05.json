@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-05",
+  "publications": [
+    {
+      "id": "a53540e3790e0a3b3881a082379c3f5138d013c58865bee7635671d1b6986df8",
+      "title": "germanys_pick_transport_minister_signals_cautious_approach_problem_child_sector",
+      "published_on": "2025-05-05 15:32:00",
+      "scraped_on": "2025-07-31 13:23:45.200250",
+      "language": "en",
+      "length_before_preprocessing": 8807,
+      "length_after_preprocessing": 2699,
+      "url": "https://www.cleanenergywire.org/news/germanys-pick-transport-minister-signals-cautious-approach-problem-child-sector"
+    },
+    {
+      "id": "78dedc4fd20beab4a76a7f46050f63af12cbc714bc5f12b99839b1277672eefc",
+      "title": "ngos_call_clear_stance_against_russian_gas_supplies_next_german_government",
+      "published_on": "2025-05-05 13:27:00",
+      "scraped_on": "2025-07-31 13:23:56.888525",
+      "language": "en",
+      "length_before_preprocessing": 6589,
+      "length_after_preprocessing": 921,
+      "url": "https://www.cleanenergywire.org/news/ngos-call-clear-stance-against-russian-gas-supplies-next-german-government"
+    },
+    {
+      "id": "f75ddef2ad60d337e73a7d29a367a598bf842b012d68573097249bf5ac34d952",
+      "title": "brief_5_may_25",
+      "published_on": "2025-05-05 11:30:00",
+      "scraped_on": "2025-07-31 13:24:08.350745",
+      "language": "en",
+      "length_before_preprocessing": 2681,
+      "length_after_preprocessing": 618,
+      "url": "https://www.cleanenergywire.org/news/brief-5-may-25"
+    }
+  ]
+}

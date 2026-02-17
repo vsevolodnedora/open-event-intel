@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-10-29",
+  "publications": [
+    {
+      "id": "346469131cb53823e15f0444f26cbb66f20cd10597a7ff92f01b6c8134fad6b2",
+      "title": "explore_the_tyndp_2026_draft_project_portfolio_178_transmission_and_49_storage_projects_now_published",
+      "published_on": "2025-10-29 12:00:00",
+      "scraped_on": "2025-10-29 18:33:53.207287",
+      "language": "en",
+      "length_before_preprocessing": 2915,
+      "length_after_preprocessing": 609,
+      "url": "https://www.entsoe.eu/news/2025/10/29/explore-the-tyndp-2026-draft-project-portfolio-178-transmission-and-49-storage-projects-now-published"
+    }
+  ]
+}

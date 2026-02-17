@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-10-13",
+  "publications": [
+    {
+      "id": "ca364182d235d9c16425a459ac4668fc3396dd45390bda715589ea9a6d5a90c3",
+      "title": "eroerterungstermin_der_bundesfachtagung_durchgefuehrt",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:38:44.511955",
+      "language": "de",
+      "length_before_preprocessing": 1286,
+      "length_after_preprocessing": 918,
+      "url": "https://www.50hertz.com/de/News/Details/16315/eroerterungstermin-der-bundesfachtagung-durchgefuehrt"
+    }
+  ]
+}

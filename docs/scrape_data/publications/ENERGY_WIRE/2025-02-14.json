@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-14",
+  "publications": [
+    {
+      "id": "3b3153e0dc7f6b1073d0af54da5cdd6bc404a17037609a6736840a12f2233ac7",
+      "title": "german_chancellor_candidate_merz_must_walk_fine_line_between_restart_and_continuity_energy_and_climate",
+      "published_on": "2025-02-14 14:20:00",
+      "scraped_on": "2025-07-31 12:38:43.039525",
+      "language": "en",
+      "length_before_preprocessing": 15611,
+      "length_after_preprocessing": 7693,
+      "url": "https://www.cleanenergywire.org/news/german-chancellor-candidate-merz-must-walk-fine-line-between-restart-and-continuity-energy-and-climate"
+    },
+    {
+      "id": "ab3819ee49670ee0aeb5006ca8807ab0853d634076436b2a392ab5f8e9f83915",
+      "title": "dispatch_european_union_february_25",
+      "published_on": "2025-02-14 13:57:00",
+      "scraped_on": "2025-07-31 12:38:54.935508",
+      "language": "en",
+      "length_before_preprocessing": 8440,
+      "length_after_preprocessing": 3365,
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-february-25"
+    },
+    {
+      "id": "e0501784ab11e4b23a3bb53ef73dcd1022a61bd231db5e019aa887b300982568",
+      "title": "fridays_future_pre_election_climate_protest_berlin_attracts_far_less_participants_2021",
+      "published_on": "2025-02-14 13:20:00",
+      "scraped_on": "2025-07-31 12:39:06.445302",
+      "language": "en",
+      "length_before_preprocessing": 4681,
+      "length_after_preprocessing": 1174,
+      "url": "https://www.cleanenergywire.org/news/fridays-future-pre-election-climate-protest-berlin-attracts-far-less-participants-2021"
+    },
+    {
+      "id": "ceb6311c7c7adeff0871f6ceabd1ba30f5ba11ca42200b8a18e816ad27e3b389",
+      "title": "brief_14_february_25",
+      "published_on": "2025-02-14 10:50:00",
+      "scraped_on": "2025-07-31 12:39:18.117156",
+      "language": "en",
+      "length_before_preprocessing": 5821,
+      "length_after_preprocessing": 1257,
+      "url": "https://www.cleanenergywire.org/news/brief-14-february-25"
+    },
+    {
+      "id": "efacfab85033ea26ae20872b008c6ae50be971cb39f3103ac99ef8ca25abbcad",
+      "title": "snap_election_chance_germany_reset_relations_european_partners_analyst",
+      "published_on": "2025-02-14 10:00:00",
+      "scraped_on": "2025-07-31 12:39:29.784785",
+      "language": "en",
+      "length_before_preprocessing": 10124,
+      "length_after_preprocessing": 3962,
+      "url": "https://www.cleanenergywire.org/news/snap-election-chance-germany-reset-relations-european-partners-analyst"
+    }
+  ]
+}

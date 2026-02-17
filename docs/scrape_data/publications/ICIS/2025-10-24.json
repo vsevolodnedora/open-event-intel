@@ -1,0 +1,136 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-24",
+  "publications": [
+    {
+      "id": "b620017270d053f9622d57d30ade5d9fe1e5e24f2dc23dec84393f62cf91ff47",
+      "title": "first_fer_x_auction_missed_opportunity_for_italian_wind_power_anev",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.154691",
+      "language": "en",
+      "length_before_preprocessing": 5623,
+      "length_after_preprocessing": 1731,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148366/first-fer-x-auction-missed-opportunity-for-italian-wind-power-anev"
+    },
+    {
+      "id": "1da9b68f5a30e49c8f6fdfbdbd1d35936b908a76b74340863365789a46651a3e",
+      "title": "italy_s_eni_extends_chemicals_operating_loss_in_q3_on_depressed_sector",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.157918",
+      "language": "en",
+      "length_before_preprocessing": 5734,
+      "length_after_preprocessing": 945,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148804/italy-s-eni-extends-chemicals-operating-loss-in-q3-on-depressed-sector"
+    },
+    {
+      "id": "40b940e45dd7de0c2c3e1fb0222f59d5c7ccce6948be6354b5b384c6fea28ad4",
+      "title": "blog_no_significant_change_in_china_pe_spreads_as_crisis_continues",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.159874",
+      "language": "en",
+      "length_before_preprocessing": 5795,
+      "length_after_preprocessing": 995,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148742/blog-no-significant-change-in-china-pe-spreads-as-crisis-continues"
+    },
+    {
+      "id": "11942c5ae706b1d3048fb60a0b548f443e2f59ce57a764541c67424c77f43803",
+      "title": "china_to_stay_on_course_with_next_five_year_plan",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.162003",
+      "language": "en",
+      "length_before_preprocessing": 7389,
+      "length_after_preprocessing": 3584,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148778/china-to-stay-on-course-with-next-five-year-plan"
+    },
+    {
+      "id": "029fd8a9c94de3e36a8e1839b3fa8fbf245a2eca21f6903cf3c76455022d89ba",
+      "title": "insight_volatility_may_delay_sale_of_amsty_styrenics_jv",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.166497",
+      "language": "en",
+      "length_before_preprocessing": 7223,
+      "length_after_preprocessing": 2373,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148360/insight-volatility-may-delay-sale-of-amsty-styrenics-jv"
+    },
+    {
+      "id": "9a158fa3d541ea984130c2dd7524c417309c230d79a628e018fb6d068ed3a288",
+      "title": "japan_oct_flash_manufacturing_pmi_slips_to_48_3_on_weaker_demand",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.168853",
+      "language": "en",
+      "length_before_preprocessing": 4703,
+      "length_after_preprocessing": 917,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148763/japan-oct-flash-manufacturing-pmi-slips-to-48-3-on-weaker-demand"
+    },
+    {
+      "id": "7c5cff1085df31d25fe5ef21ad3760ce56adbade4c12ef9728622472d93bdd96",
+      "title": "podcast_k_fair_2025_europe_pe_pp_and_recycled_polymers_round_up",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.170781",
+      "language": "en",
+      "length_before_preprocessing": 5327,
+      "length_after_preprocessing": 507,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148919/podcast-k-fair-2025-europe-pe-pp-and-recycled-polymers-round-up"
+    },
+    {
+      "id": "84036775805a05b0f5267d9080da2a82c245a646e85a759f61e5be037cdb3d19",
+      "title": "podcast_bleak_china_data_means_more_trouble_for_chemicals",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-24 18:31:15.173004",
+      "language": "en",
+      "length_before_preprocessing": 5651,
+      "length_after_preprocessing": 764,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148915/podcast-bleak-china-data-means-more-trouble-for-chemicals"
+    },
+    {
+      "id": "39db641a152448ff71678fe08f6451b0bec780a3b17ee9a978748a2e5ce38401",
+      "title": "podcast_asia_styrene_market_may_see_bottom_oversupply_constrains_optimism",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-25 18:29:45.550990",
+      "language": "en",
+      "length_before_preprocessing": 5324,
+      "length_after_preprocessing": 472,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148920/podcast-asia-styrene-market-may-see-bottom-oversupply-constrains-optimism"
+    },
+    {
+      "id": "970eb3e94f4c061da34b5459a2fe8a94de36efefc3c3078f3157586d30f21ef6",
+      "title": "ukraine_greece_route_2_3_ready_to_launch_as_icgb_slashes_tariff_by_46_market_sources",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-25 18:29:45.554196",
+      "language": "en",
+      "length_before_preprocessing": 5944,
+      "length_after_preprocessing": 1137,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148954/ukraine-greece-route-2-3-ready-to-launch-as-icgb-slashes-tariff-by-46-market-sources"
+    },
+    {
+      "id": "f8922deb606df92bb2145c9df756c0ab10b16800709a0c13212fd353a6a278c6",
+      "title": "asia_us_container_rates_rise_as_carriers_tighten_capacity_push_through_increases",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-25 18:29:45.556467",
+      "language": "en",
+      "length_before_preprocessing": 7576,
+      "length_after_preprocessing": 2404,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148979/asia-us-container-rates-rise-as-carriers-tighten-capacity-push-through-increases"
+    },
+    {
+      "id": "ab91deed3220ceff8f5f329220e9f1fb579e93725fb0161abfd0aab164f15fc6",
+      "title": "podcast_icis_amp_gsi_plastics_state_of_play_for_pet_r_pet_markets",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-25 18:29:45.558537",
+      "language": "en",
+      "length_before_preprocessing": 4283,
+      "length_after_preprocessing": 441,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148939/podcast-icis-amp-gsi-plastics-state-of-play-for-pet-r-pet-markets"
+    },
+    {
+      "id": "1f0658e10137da7eb63ab4a2176c5a93c4c3efb186f6bbfa4274865aab0a1422",
+      "title": "austrian_distribution_tariff_hikes_could_hit_gas_storage_dent_traders_margins_market_sources",
+      "published_on": "2025-10-24 12:00:00",
+      "scraped_on": "2025-10-25 18:29:45.560196",
+      "language": "en",
+      "length_before_preprocessing": 5713,
+      "length_after_preprocessing": 1944,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/24/11148943/austrian-distribution-tariff-hikes-could-hit-gas-storage-dent-traders-margins-market-sources"
+    }
+  ]
+}

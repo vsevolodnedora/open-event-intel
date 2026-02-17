@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2022-01-07",
+  "publications": [
+    {
+      "id": "919fed1cb39df465072d9389f5384b498f2d2fc328fca8aee71717a566428236",
+      "title": "die_entwicklungen_im_ueberblick",
+      "published_on": "2022-01-07 12:00:00",
+      "scraped_on": "2026-01-14 09:14:04.216018",
+      "language": "de",
+      "length_before_preprocessing": 9962,
+      "length_after_preprocessing": 6095,
+      "url": "https://www.smard.de/page/home/topic-article/204968/206664/die-entwicklungen-im-ueberblick"
+    }
+  ]
+}

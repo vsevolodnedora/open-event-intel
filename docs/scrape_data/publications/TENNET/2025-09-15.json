@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-09-15",
+  "publications": [
+    {
+      "id": "6ff9f298dacc7944b855248d59ef200c3612c5f12cbf3eb01a88bea72c75ce14",
+      "title": "tennet_germany_ueberzeugt_im_nachhaltigkeitsrating_von_iss_esg",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-17 18:36:06.193843",
+      "language": "de",
+      "length_before_preprocessing": 6685,
+      "length_after_preprocessing": 2513,
+      "url": "https://www.tennet.eu/de/news/tennet-germany-ueberzeugt-im-nachhaltigkeitsrating-von-iss-esg"
+    }
+  ]
+}

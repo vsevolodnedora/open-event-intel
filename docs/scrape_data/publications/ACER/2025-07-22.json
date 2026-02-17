@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-07-22",
+  "publications": [
+    {
+      "id": "327b3b7212d6265a5fa2161916d1b5e0df5de4444cab65ad1f05add8666c6d75",
+      "title": "access_eu_funding_main_driver_electricity_and_gas_cross_border_cost_allocation_decisions",
+      "published_on": "2025-07-22 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.205913",
+      "language": "en",
+      "length_before_preprocessing": 8126,
+      "length_after_preprocessing": 1149,
+      "url": "https://www.acer.europa.eu/news/access-eu-funding-main-driver-electricity-and-gas-cross-border-cost-allocation-decisions"
+    }
+  ]
+}

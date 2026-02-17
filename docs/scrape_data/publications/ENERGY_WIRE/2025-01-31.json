@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-31",
+  "publications": [
+    {
+      "id": "f60ea53a26657a23fc32e1b5e93990f1f455ddcbfe4a4cc2d8d6d306141204a9",
+      "title": "dispatch_poland_january_25",
+      "published_on": "2025-01-31 14:00:00",
+      "scraped_on": "2025-07-31 12:26:10.647865",
+      "language": "en",
+      "length_before_preprocessing": 8594,
+      "length_after_preprocessing": 2530,
+      "url": "https://www.cleanenergywire.org/news/dispatch-poland-january-25"
+    },
+    {
+      "id": "c69c246558245e1558e2665be72e444d23f9f7dfb86be652d7ba0adb9e99cb2d",
+      "title": "german_companies_struggling_fulfil_cbam_emissions_reporting_requirements_consultancy",
+      "published_on": "2025-01-31 13:06:00",
+      "scraped_on": "2025-07-31 12:26:22.349002",
+      "language": "en",
+      "length_before_preprocessing": 6965,
+      "length_after_preprocessing": 1252,
+      "url": "https://www.cleanenergywire.org/news/german-companies-struggling-fulfil-cbam-emissions-reporting-requirements-consultancy"
+    },
+    {
+      "id": "2643024e2368ddbcd58c1fcf186784b5ee09b53f9451426c2da578f118fbf3a7",
+      "title": "most_440000_objections_wind_power_german_state_stem_core_protest_group_report",
+      "published_on": "2025-01-31 11:50:00",
+      "scraped_on": "2025-07-31 12:26:33.849837",
+      "language": "en",
+      "length_before_preprocessing": 7145,
+      "length_after_preprocessing": 1130,
+      "url": "https://www.cleanenergywire.org/news/most-440000-objections-wind-power-german-state-stem-core-protest-group-report"
+    },
+    {
+      "id": "3b54a2072c0f9749ef32f4b70367f7c7f82a0236a4151d7034f5da570fe79263",
+      "title": "german_battery_storage_capacity_increases_50_2024_report",
+      "published_on": "2025-01-31 11:49:00",
+      "scraped_on": "2025-07-31 12:26:44.279751",
+      "language": "en",
+      "length_before_preprocessing": 3963,
+      "length_after_preprocessing": 1115,
+      "url": "https://www.cleanenergywire.org/news/german-battery-storage-capacity-increases-50-2024-report"
+    },
+    {
+      "id": "7d1a50bc26532db5c16589ae353c32704f459569b08adc3b681203359de012dd",
+      "title": "brief_21_january_25_0",
+      "published_on": "2025-01-31 11:39:00",
+      "scraped_on": "2025-07-31 12:26:55.916718",
+      "language": "en",
+      "length_before_preprocessing": 5343,
+      "length_after_preprocessing": 876,
+      "url": "https://www.cleanenergywire.org/news/brief-21-january-25-0"
+    }
+  ]
+}

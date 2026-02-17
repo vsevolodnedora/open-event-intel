@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-12-16",
+  "publications": [
+    {
+      "id": "14f3233a96445e185b66f576f11643a9baac743410bd70550ec3f2080bd01f03",
+      "title": "die_stromerzeugung_im_oktober_und_november_2019",
+      "published_on": "2019-12-16 12:00:00",
+      "scraped_on": "2026-01-14 09:17:12.445140",
+      "language": "de",
+      "length_before_preprocessing": 6087,
+      "length_after_preprocessing": 3035,
+      "url": "https://www.smard.de/page/home/topic-article/204972/15098/die-stromerzeugung-im-oktober-und-november-2019"
+    }
+  ]
+}

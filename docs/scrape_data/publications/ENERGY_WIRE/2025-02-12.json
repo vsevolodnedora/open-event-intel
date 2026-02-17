@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-12",
+  "publications": [
+    {
+      "id": "29613b9d7fd1524f6674448c990e3d5def31ca4f96b031c2e84d07a03fa01e85",
+      "title": "brief_12_february_25",
+      "published_on": "2025-02-12 10:35:00",
+      "scraped_on": "2025-07-31 12:29:27.284237",
+      "language": "en",
+      "length_before_preprocessing": 3158,
+      "length_after_preprocessing": 915,
+      "url": "https://www.cleanenergywire.org/news/brief-12-february-25"
+    },
+    {
+      "id": "d5dfaf03bbb5c661f3c50c28f93ef6db078e3244b94147db16dbb8072ddb2c0e",
+      "title": "germany_launches_wind_measurements_prepare_turbine_expansion_280_km_shore",
+      "published_on": "2025-02-12 13:55:00",
+      "scraped_on": "2025-07-31 12:40:25.938558",
+      "language": "en",
+      "length_before_preprocessing": 6736,
+      "length_after_preprocessing": 978,
+      "url": "https://www.cleanenergywire.org/news/germany-launches-wind-measurements-prepare-turbine-expansion-280-km-shore"
+    },
+    {
+      "id": "d240bc6cf8950c9415759fe2034e15f2a664e90384bec77063fdfcdf625877cb",
+      "title": "germans_say_energy_transition_costs_not_fairly_distributed_lack_trust_key_actors_survey",
+      "published_on": "2025-02-12 13:39:00",
+      "scraped_on": "2025-07-31 12:40:37.584131",
+      "language": "en",
+      "length_before_preprocessing": 6655,
+      "length_after_preprocessing": 795,
+      "url": "https://www.cleanenergywire.org/news/germans-say-energy-transition-costs-not-fairly-distributed-lack-trust-key-actors-survey"
+    },
+    {
+      "id": "25133a3071aaddff79f9cc87a097c3fd6cd3b50e9ba85f1541b2bb62e4707070",
+      "title": "italy_greece_spain_among_top_ten_countries_most_affected_extreme_weather_report",
+      "published_on": "2025-02-12 13:33:00",
+      "scraped_on": "2025-07-31 12:40:49.340665",
+      "language": "en",
+      "length_before_preprocessing": 6495,
+      "length_after_preprocessing": 888,
+      "url": "https://www.cleanenergywire.org/news/italy-greece-spain-among-top-ten-countries-most-affected-extreme-weather-report"
+    }
+  ]
+}

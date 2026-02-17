@@ -1,0 +1,26 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-07-14",
+  "publications": [
+    {
+      "id": "bf506ec3544bb12c7ee5358e4e98711a88aa46e881b98c63bc6f79824d885971",
+      "title": "MB2025",
+      "published_on": "2025-07-14 12:00:00",
+      "scraped_on": "2025-07-31 11:11:05.843908",
+      "language": "de",
+      "length_before_preprocessing": 3988,
+      "length_after_preprocessing": 1379,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250714_MB2025.html"
+    },
+    {
+      "id": "a60c7135659e62f1f820a32375462887829c7f904a1e80e59f9ef0532631345d",
+      "title": "Hochlauf",
+      "published_on": "2025-07-14 12:00:00",
+      "scraped_on": "2025-07-31 11:11:08.337698",
+      "language": "de",
+      "length_before_preprocessing": 3989,
+      "length_after_preprocessing": 1404,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250714_Hochlauf.html"
+    }
+  ]
+}

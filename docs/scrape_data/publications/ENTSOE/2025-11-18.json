@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-11-18",
+  "publications": [
+    {
+      "id": "4cb77cef53ab473358d0f832dd4f335f15fa3940639f74db2f97c837718acf67",
+      "title": "entso_e_publishes_the_report_and_the_position_paper_on_flexibility_from_renewable_energy_sources_res",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-21 20:54:43.479855",
+      "language": "en",
+      "length_before_preprocessing": 2964,
+      "length_after_preprocessing": 769,
+      "url": "https://www.entsoe.eu/news/2025/11/18/entso-e-publishes-the-report-and-the-position-paper-on-flexibility-from-renewable-energy-sources-res"
+    }
+  ]
+}

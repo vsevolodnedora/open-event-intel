@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-11-04",
+  "publications": [
+    {
+      "id": "ac3b483c7e46878e919a194c93246aa3a3305d0ed51564551ff443143831a88a",
+      "title": "entso_e_publishes_phase_ii_technical_report_on_grid_forming_requirements",
+      "published_on": "2025-11-04 12:00:00",
+      "scraped_on": "2025-11-11 18:31:37.444367",
+      "language": "en",
+      "length_before_preprocessing": 3034,
+      "length_after_preprocessing": 831,
+      "url": "https://www.entsoe.eu/news/2025/11/04/entso-e-publishes-phase-ii-technical-report-on-grid-forming-requirements"
+    }
+  ]
+}

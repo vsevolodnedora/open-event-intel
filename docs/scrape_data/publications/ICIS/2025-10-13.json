@@ -1,0 +1,116 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-13",
+  "publications": [
+    {
+      "id": "40131db21afe291f962f18a6dc06dc864fc25f5d26aa364769cb625275c073d8",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.362587",
+      "language": "en",
+      "length_before_preprocessing": 5765,
+      "length_after_preprocessing": 977,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145036/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "b7d9248534e849a7bad5608db7e36a556540df662b84644bf5c4a85fa70c415b",
+      "title": "blog_today_s_oil_market_appears_calm_but_risks_are_rising_under_the_surface",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.365053",
+      "language": "en",
+      "length_before_preprocessing": 4079,
+      "length_after_preprocessing": 339,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145195/blog-today-s-oil-market-appears-calm-but-risks-are-rising-under-the-surface"
+    },
+    {
+      "id": "f3de6cf954319f519366fef1d2f8e5e1cab4c5cfc0bd36cec122b56a71d02352",
+      "title": "asia_petrochemical_shares_fall_amid_renewed_us_china_trade_war_tensions",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.366952",
+      "language": "en",
+      "length_before_preprocessing": 5289,
+      "length_after_preprocessing": 1566,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145157/asia-petrochemical-shares-fall-amid-renewed-us-china-trade-war-tensions"
+    },
+    {
+      "id": "847dd5ea5d73d5d7ca2ae094baa45836e5bd26a8da088212911955d9c89383f3",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.369109",
+      "language": "en",
+      "length_before_preprocessing": 4730,
+      "length_after_preprocessing": 998,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145145/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "8315472144a4a3178a4efe9c9cce4417c38e1fa1ca38169375221d9e2dd37c22",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.370802",
+      "language": "en",
+      "length_before_preprocessing": 5221,
+      "length_after_preprocessing": 1478,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145083/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "bc4daac80382ef8069b7005ccb9ae877a358d0ea24c3016f6f9d82a25b14f3b5",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.372525",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145036/europe-top-stories-weekly-summary/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "da86d928af23c6721e69f48f9dcba24667b243f63df1a8672af31778d7116530",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.377332",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145083/americas-top-stories-weekly-summary/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "b79c144144f5e11531b50ba68129f97540db36832d4d9601b8cb4b5ffd100f15",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.378529",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145145/asia-top-stories-weekly-summary/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "aeb9dc9504ab17a7fd4f5c8248dfcf1c1b423220354e369138bce81d4a05314e",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.379659",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145195/blog-today-s-oil-market-appears-calm-but-risks-are-rising-under-the-surface/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "9f106436e2ed763a83300f08bc95272af0ed904f4bc206b4861dc3cbc0946700",
+      "title": "Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20_%20Huntsman",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-13 18:32:55.380804",
+      "language": "en",
+      "length_before_preprocessing": 9,
+      "length_after_preprocessing": null,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145157/asia-petrochemical-shares-fall-amid-renewed-us-china-trade-war-tensions/Europe%20chemicals%20must%20collaborate%20to%20combat%20fierce%20global%20competition%20-%20Huntsman"
+    },
+    {
+      "id": "eae68b7f9c8f4b5dd6db197ead56634e287015a72d6097eaeaa9a5e93fd3950f",
+      "title": "apla_25_latin_america_petrochemicals_downturn_reaches_debt_crisis_point",
+      "published_on": "2025-10-13 12:00:00",
+      "scraped_on": "2025-10-14 18:33:56.712604",
+      "language": "en",
+      "length_before_preprocessing": 7509,
+      "length_after_preprocessing": 3636,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/13/11145308/apla-25-latin-america-petrochemicals-downturn-reaches-debt-crisis-point"
+    }
+  ]
+}

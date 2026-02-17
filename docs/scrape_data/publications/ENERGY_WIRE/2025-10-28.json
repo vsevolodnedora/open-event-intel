@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-10-28",
+  "publications": [
+    {
+      "id": "0d4cef0a64bca97e02557904fc5b8b2353fa727abecd603c510dd3dbfbf0ae65",
+      "title": "war_health_and_economic_hardship_top_global_concerns_climate_slips_survey",
+      "published_on": "2025-10-28 13:18:00",
+      "scraped_on": "2025-10-28 18:38:20.190599",
+      "language": "en",
+      "length_before_preprocessing": 4176,
+      "length_after_preprocessing": 1009,
+      "url": "https://www.cleanenergywire.org/news/war-health-and-economic-hardship-top-global-concerns-climate-slips-survey"
+    },
+    {
+      "id": "60215ce1ca3502a60a873391b514c406f41e7421e621158b03e21f05750f62d1",
+      "title": "global_instability_fuelling_shift_energy_and_climate_priorities_business_leaders_survey",
+      "published_on": "2025-10-28 11:52:00",
+      "scraped_on": "2025-10-28 18:38:31.140878",
+      "language": "en",
+      "length_before_preprocessing": 6627,
+      "length_after_preprocessing": 960,
+      "url": "https://www.cleanenergywire.org/news/global-instability-fuelling-shift-energy-and-climate-priorities-business-leaders-survey"
+    },
+    {
+      "id": "db92a32548f9f83fb8d1e8b952e9bd6cc2811401c1b207844d4cb2e3ea606c97",
+      "title": "cold_2025_brings_slight_increase_german_energy_use_emissions",
+      "published_on": "2025-10-28 10:40:00",
+      "scraped_on": "2025-10-28 18:38:42.120844",
+      "language": "en",
+      "length_before_preprocessing": 6989,
+      "length_after_preprocessing": 1134,
+      "url": "https://www.cleanenergywire.org/news/cold-2025-brings-slight-increase-german-energy-use-emissions"
+    },
+    {
+      "id": "ff0c980ee7efc694cb2d8d18e787b02c1b393c3012b8a46aa8bd52245f0e00bc",
+      "title": "brief_28_october_25",
+      "published_on": "2025-10-28 10:30:00",
+      "scraped_on": "2025-10-28 18:38:53.004742",
+      "language": "en",
+      "length_before_preprocessing": 5785,
+      "length_after_preprocessing": 1050,
+      "url": "https://www.cleanenergywire.org/news/brief-28-october-25"
+    }
+  ]
+}

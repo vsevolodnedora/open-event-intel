@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-04-02",
+  "publications": [
+    {
+      "id": "b1551cb5fa57948f7a994fb9c6ecfaaae920659e72010514db0d669784355d06",
+      "title": "Pilotprojekt_OctoFlexBW_geht_in_naechste_Phase",
+      "published_on": "2025-04-02 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.623126",
+      "language": "de",
+      "length_before_preprocessing": 6015,
+      "length_after_preprocessing": 2553,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/Pilotprojekt-OctoFlexBW-geht-in-naechste-Phase"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-09-02",
+  "publications": [
+    {
+      "id": "02d17e0b792e4b1fa7a0b43353b2e9e91968356db31a49d0b5db20c328afe212",
+      "title": "380_kv_freileitung_pulgar_vieselbach_abschluss_der_seilzugarbeiten",
+      "published_on": "2025-09-02 12:00:00",
+      "scraped_on": "2025-09-02 18:36:27.711717",
+      "language": "de",
+      "length_before_preprocessing": 1003,
+      "length_after_preprocessing": 646,
+      "url": "https://www.50hertz.com/de/News/Details/16165/380-kv-freileitung-pulgar-vieselbach-abschluss-der-seilzugarbeiten"
+    }
+  ]
+}

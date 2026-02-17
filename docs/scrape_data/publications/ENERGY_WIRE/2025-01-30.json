@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-30",
+  "publications": [
+    {
+      "id": "944b3460ea5640cc3e71d08947ebacf73b66c9f5ebb734698060e332d967bfbc",
+      "title": "future_german_prosperity_hangs_climate_protection_env_organisations",
+      "published_on": "2025-01-30 13:39:00",
+      "scraped_on": "2025-07-31 12:27:07.439262",
+      "language": "en",
+      "length_before_preprocessing": 6779,
+      "length_after_preprocessing": 1106,
+      "url": "https://www.cleanenergywire.org/news/future-german-prosperity-hangs-climate-protection-env-organisations"
+    },
+    {
+      "id": "75628b538fd96a15c80e21700b45679808a042518320a156a2d10d5cea10512a",
+      "title": "socially_just_climate_policy_should_be_next_german_govts_focus_foundation",
+      "published_on": "2025-01-30 13:37:00",
+      "scraped_on": "2025-07-31 12:27:19.173862",
+      "language": "en",
+      "length_before_preprocessing": 7041,
+      "length_after_preprocessing": 1102,
+      "url": "https://www.cleanenergywire.org/news/socially-just-climate-policy-should-be-next-german-govts-focus-foundation"
+    },
+    {
+      "id": "fc72330e9ac2b467ff3fe990ebfefab092ecfa687a6859b0a8ff76383e5e65ae",
+      "title": "germany_expects_economic_stagnation_2025_coalition_collapse_stalls_reforms",
+      "published_on": "2025-01-30 13:32:00",
+      "scraped_on": "2025-07-31 12:27:30.815455",
+      "language": "en",
+      "length_before_preprocessing": 6814,
+      "length_after_preprocessing": 951,
+      "url": "https://www.cleanenergywire.org/news/germany-expects-economic-stagnation-2025-coalition-collapse-stalls-reforms"
+    }
+  ]
+}

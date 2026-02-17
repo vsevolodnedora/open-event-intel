@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-12-10",
+  "publications": [
+    {
+      "id": "894053dc955b35620c585464a23827c576f312cb780558c2690bead3a9864d7b",
+      "title": "entso_e_welcomes_the_focus_on_infrastructure_challenges_raises_concerns_over_governance_proposals",
+      "published_on": "2025-12-10 12:00:00",
+      "scraped_on": "2025-12-13 18:15:36.423749",
+      "language": "en",
+      "length_before_preprocessing": 3517,
+      "length_after_preprocessing": 1490,
+      "url": "https://www.entsoe.eu/news/2025/12/10/entso-e-welcomes-the-focus-on-infrastructure-challenges-raises-concerns-over-governance-proposals"
+    }
+  ]
+}

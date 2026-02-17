@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-08-20",
+  "publications": [
+    {
+      "id": "d3b70526fc0c552e3ed012ab00987dc19eb589cd7bb4fafd00d26fb8e6c18f82",
+      "title": "Treuhand",
+      "published_on": "2025-08-20 12:00:00",
+      "scraped_on": "2025-08-20 18:35:49.681323",
+      "language": "de",
+      "length_before_preprocessing": 3396,
+      "length_after_preprocessing": 789,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250820_Treuhand.html"
+    }
+  ]
+}

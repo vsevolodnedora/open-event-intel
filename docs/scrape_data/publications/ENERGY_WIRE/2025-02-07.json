@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-07",
+  "publications": [
+    {
+      "id": "cda2cdab946fefe3bd5fe97851e5afe0a50088a4a5885e6e1c435ce29213979f",
+      "title": "dispatch_france_february_25",
+      "published_on": "2025-02-07 14:40:00",
+      "scraped_on": "2025-07-31 12:31:22.208496",
+      "language": "en",
+      "length_before_preprocessing": 11790,
+      "length_after_preprocessing": 4407,
+      "url": "https://www.cleanenergywire.org/news/dispatch-france-february-25"
+    },
+    {
+      "id": "e50015d88e5036fa6a0675f79b1887020f1ef8cc62175da108ca8939d4f40d94",
+      "title": "extremely_broad_range_positions_offers_german_voters_choices_energy_transition_analysis",
+      "published_on": "2025-02-07 13:29:00",
+      "scraped_on": "2025-07-31 12:31:33.842827",
+      "language": "en",
+      "length_before_preprocessing": 7085,
+      "length_after_preprocessing": 1312,
+      "url": "https://www.cleanenergywire.org/news/extremely-broad-range-positions-offers-german-voters-choices-energy-transition-analysis"
+    },
+    {
+      "id": "1dca8c7ce29dd9b31ef403d82f97b68f768bc95081703c2e050287bc1d3574b2",
+      "title": "most_liquid_natural_gas_coming_germany_through_state_owned_north_sea_terminals_dpa",
+      "published_on": "2025-02-07 13:24:00",
+      "scraped_on": "2025-07-31 12:31:44.285865",
+      "language": "en",
+      "length_before_preprocessing": 4675,
+      "length_after_preprocessing": 1308,
+      "url": "https://www.cleanenergywire.org/news/most-liquid-natural-gas-coming-germany-through-state-owned-north-sea-terminals-dpa"
+    },
+    {
+      "id": "174e7127d1dd00f88210db41e4bcb3164d15c49d881d683913085b5401f4c1d8",
+      "title": "germany_likely_exceed_2030_onshore_wind_power_targets_think_tank",
+      "published_on": "2025-02-07 13:22:00",
+      "scraped_on": "2025-07-31 12:31:56.022009",
+      "language": "en",
+      "length_before_preprocessing": 6297,
+      "length_after_preprocessing": 1065,
+      "url": "https://www.cleanenergywire.org/news/germany-likely-exceed-2030-onshore-wind-power-targets-think-tank"
+    },
+    {
+      "id": "753df8d8bc765cbf3529bf47bcb797f57fdad98c9ef5c070d4685ac7cb6e0947",
+      "title": "brief_7_february_25",
+      "published_on": "2025-02-07 11:27:00",
+      "scraped_on": "2025-07-31 12:32:07.458747",
+      "language": "en",
+      "length_before_preprocessing": 3095,
+      "length_after_preprocessing": 904,
+      "url": "https://www.cleanenergywire.org/news/brief-7-february-25"
+    }
+  ]
+}

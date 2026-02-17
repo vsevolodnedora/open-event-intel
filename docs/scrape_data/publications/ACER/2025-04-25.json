@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-04-25",
+  "publications": [
+    {
+      "id": "3be0ebdc9119ebe051ede6ca2a1b399f441092dce01ec63396faa813da47503c",
+      "title": "acer_urges_entso_e_improve_balancing_data_quality_and_adjust_reporting_schedule",
+      "published_on": "2025-04-25 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.242473",
+      "language": "en",
+      "length_before_preprocessing": 8041,
+      "length_after_preprocessing": 1052,
+      "url": "https://www.acer.europa.eu/news/acer-urges-entso-e-improve-balancing-data-quality-and-adjust-reporting-schedule"
+    },
+    {
+      "id": "e82113a85ed207cb0815b9e94ca9db10f3aa801873e4985fc91b995b800dcd2c",
+      "title": "acer_issues_guidelines_share_cybersecurity_information_electricity_sector",
+      "published_on": "2025-04-25 12:00:00",
+      "scraped_on": "2025-07-31 14:53:05.337472",
+      "language": "en",
+      "length_before_preprocessing": 7843,
+      "length_after_preprocessing": 909,
+      "url": "https://www.acer.europa.eu/news/acer-issues-guidelines-share-cybersecurity-information-electricity-sector"
+    }
+  ]
+}

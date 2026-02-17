@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-11-19",
+  "publications": [
+    {
+      "id": "50576890bb5e5dadd8e47e8fb8b2fca38e22259df87d42a18ca12ae61c74c89b",
+      "title": "mit_schwerem_geraet_die_saale_schonend_unterqueren",
+      "published_on": "2025-11-19 12:00:00",
+      "scraped_on": "2025-11-19 18:40:54.069909",
+      "language": "de",
+      "length_before_preprocessing": 2123,
+      "length_after_preprocessing": 1679,
+      "url": "https://www.50hertz.com/de/News/Details/16474/mit-schwerem-geraet-die-saale-schonend-unterqueren"
+    },
+    {
+      "id": "06abf5c6b9bf699d54796458689934b698e6f21ab2605a14326b7c42f898898f",
+      "title": "antrag_fuer_umspannwerk_und_konverter_suedostlink_eingereicht",
+      "published_on": "2025-11-19 12:00:00",
+      "scraped_on": "2025-11-19 18:42:20.314833",
+      "language": "de",
+      "length_before_preprocessing": 1011,
+      "length_after_preprocessing": 673,
+      "url": "https://www.50hertz.com/de/News/Details/16477/antrag-fuer-umspannwerk-und-konverter-suedostlink-eingereicht"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-17",
+  "publications": [
+    {
+      "id": "06848573efdbce0d22545af29963aed494739a3681b5c6a9e7bbbd2cfcec5592",
+      "title": "e_fuels_indispensable_modern_defence_readiness_german_arms_maker",
+      "published_on": "2025-06-17 13:24:00",
+      "scraped_on": "2025-07-31 13:41:06.696549",
+      "language": "en",
+      "length_before_preprocessing": 6869,
+      "length_after_preprocessing": 1141,
+      "url": "https://www.cleanenergywire.org/news/e-fuels-indispensable-modern-defence-readiness-german-arms-maker"
+    },
+    {
+      "id": "3269cc9ed048796cb12a614999590e90bbc42a1f764e1f8e392c210338742b01",
+      "title": "half_germanys_districts_under_groundwater_stress_report",
+      "published_on": "2025-06-17 13:23:00",
+      "scraped_on": "2025-07-31 13:41:18.481243",
+      "language": "en",
+      "length_before_preprocessing": 6543,
+      "length_after_preprocessing": 848,
+      "url": "https://www.cleanenergywire.org/news/half-germanys-districts-under-groundwater-stress-report"
+    },
+    {
+      "id": "b7f4ac2401698c0ed7e00ab4606b82f390aedaadcef5fe5f4441906975a0fad6",
+      "title": "brief_17_june_25",
+      "published_on": "2025-06-17 11:10:00",
+      "scraped_on": "2025-07-31 13:41:30.058881",
+      "language": "en",
+      "length_before_preprocessing": 3371,
+      "length_after_preprocessing": 1125,
+      "url": "https://www.cleanenergywire.org/news/brief-17-june-25"
+    }
+  ]
+}

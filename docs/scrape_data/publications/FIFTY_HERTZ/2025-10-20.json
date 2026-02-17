@@ -1,0 +1,36 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-10-20",
+  "publications": [
+    {
+      "id": "172a35adb623b0d2a91ce3dd5ee76c285df8611c05dbcbfd9e0ecb470b06d795",
+      "title": "infomarkt_zum_umspannwerk_muehlenbeck",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:33:46.057356",
+      "language": "de",
+      "length_before_preprocessing": 998,
+      "length_after_preprocessing": 667,
+      "url": "https://www.50hertz.com/de/News/Details/16338/infomarkt-zum-umspannwerk-muehlenbeck"
+    },
+    {
+      "id": "69c0899026fd400a74819552ded6ffb2b64f274a11dfbb04961691320cc75513",
+      "title": "bedeutender_meilenstein_beim_netzausbau_50hertz_nimmt_380_kv_stromleitung_pulgar_vieselbach_in_betrieb",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:35:06.875297",
+      "language": "de",
+      "length_before_preprocessing": 2649,
+      "length_after_preprocessing": 2215,
+      "url": "https://www.50hertz.com/de/News/Details/16343/bedeutender-meilenstein-beim-netzausbau-50hertz-nimmt-380-kv-stromleitung-pulgar-vieselbach-in-betrieb"
+    },
+    {
+      "id": "336236d8c942d9263ed53b3c71061674098c07e39e572e0635091ca653e3e845",
+      "title": "50hertz_nimmt_380_kv_freileitung_pulgar_vieselbach_puenktlich_in_betrieb",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:36:27.955213",
+      "language": "de",
+      "length_before_preprocessing": 1667,
+      "length_after_preprocessing": 1324,
+      "url": "https://www.50hertz.com/de/News/Details/16345/50hertz-nimmt-380-kv-freileitung-pulgar-vieselbach-puenktlich-in-betrieb"
+    }
+  ]
+}

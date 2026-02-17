@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-07-17",
+  "publications": [
+    {
+      "id": "5074ccc283e7b84d6c33dea97914741e2281da3e3ab9d7a31b10840168d1215c",
+      "title": "50hertz_erhaelt_baugenehmigung_fuer_zweiten_abschnitt_des_leitungsbauprojektes_netzanbindung_suedharz",
+      "published_on": "2025-07-17 12:00:00",
+      "scraped_on": "2025-08-02 20:54:02.599567",
+      "language": "de",
+      "length_before_preprocessing": 6401,
+      "length_after_preprocessing": 1278,
+      "url": "https://www.50hertz.com/de/News/Details/16036/50hertz-erhaelt-baugenehmigung-fuer-zweiten-abschnitt-des-leitungsbauprojektes-netzanbindung-suedharz"
+    },
+    {
+      "id": "808fb227fe6db8787c6e44b52a82ef55dcbda7de7c5dddef17f9f1ce947404b1",
+      "title": "380_kv_freileitung_pulgar_vieselbach_abschluss_des_seilzugs_in_abschnitt_west",
+      "published_on": "2025-07-17 12:00:00",
+      "scraped_on": "2025-08-03 10:00:52.131774",
+      "language": "de",
+      "length_before_preprocessing": 5658,
+      "length_after_preprocessing": 670,
+      "url": "https://www.50hertz.com/de/News/Details/16032/380-kv-freileitung-pulgar-vieselbach-abschluss-des-seilzugs-in-abschnitt-west"
+    }
+  ]
+}

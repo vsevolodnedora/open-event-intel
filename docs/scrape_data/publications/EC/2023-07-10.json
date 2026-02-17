@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2023-07-10",
+  "publications": [
+    {
+      "id": "1c270e03caa865ee7f768ee154a5177afa3a0b939d71afe2a60a13b552a0cccc",
+      "title": "cef_energy_two_studies_selected_funding_under_cross_border_renewables",
+      "published_on": "2023-07-10 12:00:00",
+      "scraped_on": "2025-09-01 18:31:30.891565",
+      "language": "en",
+      "length_before_preprocessing": 4706,
+      "length_after_preprocessing": 1983,
+      "url": "https://cinea.ec.europa.eu/news-events/news/cef-energy-two-studies-selected-funding-under-cross-border-renewables-2023-07-10_en"
+    }
+  ]
+}

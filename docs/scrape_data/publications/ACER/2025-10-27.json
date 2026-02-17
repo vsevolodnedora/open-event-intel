@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-10-27",
+  "publications": [
+    {
+      "id": "54c1fa636ca1f77daf38a151d0330379be38ab3c87613b9f1e72aeded3426c68",
+      "title": "eu_gas_markets_stabilise_amid_rising_lng_imports",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:32:51.929120",
+      "language": "en",
+      "length_before_preprocessing": 7777,
+      "length_after_preprocessing": 819,
+      "url": "https://www.acer.europa.eu/news/eu-gas-markets-stabilise-amid-rising-lng-imports"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2026-01-05",
+  "publications": [
+    {
+      "id": "0d33a0edf63b50e4c87ae4b77b807c1df9b75a9abc4e0f3e2ac92c91ee1975f0",
+      "title": "hoechste_pv_einspeisung_in_jedem_quartal",
+      "published_on": "2026-01-05 12:00:00",
+      "scraped_on": "2026-01-14 09:25:54.264126",
+      "language": "de",
+      "length_before_preprocessing": 8848,
+      "length_after_preprocessing": 4685,
+      "url": "https://www.smard.de/page/home/topic-article/444/218954/hoechste-pv-einspeisung-in-jedem-quartal"
+    },
+    {
+      "id": "f10578f61105b3a950483c860f71dc220ad959b087b09a0cb0aa3b5eb37d6bf4",
+      "title": "hoechste_pv_einspeisung_in_jedem_quartal",
+      "published_on": "2026-01-05 12:00:00",
+      "scraped_on": "2026-01-14 09:24:52.838122",
+      "language": "de",
+      "length_before_preprocessing": 8851,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/218954/hoechste-pv-einspeisung-in-jedem-quartal"
+    },
+    {
+      "id": "17e86e6adf575b633423a17db7e02f31b2e3d3c3af6f640e0d8f8543a2b919a2",
+      "title": "record_high_for_solar_generation_in_each_quarter",
+      "published_on": "2026-01-05 12:00:00",
+      "scraped_on": "2026-01-14 09:12:41.851850",
+      "language": "de",
+      "length_before_preprocessing": 7503,
+      "length_after_preprocessing": 5756,
+      "url": "https://www.smard.de/page/en/topic-article/5892/219038/record-high-for-solar-generation-in-each-quarter"
+    }
+  ]
+}

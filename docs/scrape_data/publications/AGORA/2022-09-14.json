@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2022-09-14",
+  "publications": [
+    {
+      "id": "a575e5a645560234615fa5aa612e65bd5a8ba40f3d60f18d4413f30078970e95",
+      "title": "off_grid_solutions_through_decentralised_renewables_can_be_key_to_increasing_kenyas_energy_access",
+      "published_on": "2022-09-14 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.422122",
+      "language": "en",
+      "length_before_preprocessing": 4320,
+      "length_after_preprocessing": 970,
+      "url": "https://www.agora-energiewende.org/news-events/off-grid-solutions-through-decentralised-renewables-can-be-key-to-increasing-kenyas-energy-access"
+    }
+  ]
+}

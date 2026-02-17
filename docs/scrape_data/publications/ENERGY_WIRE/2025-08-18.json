@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-18",
+  "publications": [
+    {
+      "id": "32cf7d4b17bcaec7393727278e928d36c772ca5f29ed79fb2f75311ff7f5cd3d",
+      "title": "german_industry_depend_european_neighbours_competitive_green_power_thyssenkrupp_ceo",
+      "published_on": "2025-08-18 13:37:00",
+      "scraped_on": "2025-08-18 12:03:47.334886",
+      "language": "en",
+      "length_before_preprocessing": 4556,
+      "length_after_preprocessing": 1246,
+      "url": "https://www.cleanenergywire.org/news/german-industry-depend-european-neighbours-competitive-green-power-thyssenkrupp-ceo"
+    },
+    {
+      "id": "5a99eed30f7bc830e9f3129fdd3b7dd090c2adaced21b4fbb5a4fadff0221f30",
+      "title": "eon_ceo_lauds_energy_transition_monitoring_reports_aims_calls_renewables_support_cuts",
+      "published_on": "2025-08-18 11:26:00",
+      "scraped_on": "2025-08-18 12:03:58.252898",
+      "language": "en",
+      "length_before_preprocessing": 7797,
+      "length_after_preprocessing": 1830,
+      "url": "https://www.cleanenergywire.org/news/eon-ceo-lauds-energy-transition-monitoring-reports-aims-calls-renewables-support-cuts"
+    },
+    {
+      "id": "99a94ef8290673f32e9509a11c39f8030fbdce75381d28b2cd5344ce245a8379",
+      "title": "brief_18_august_25",
+      "published_on": "2025-08-18 11:00:00",
+      "scraped_on": "2025-08-18 12:04:08.990700",
+      "language": "en",
+      "length_before_preprocessing": 4868,
+      "length_after_preprocessing": 518,
+      "url": "https://www.cleanenergywire.org/news/brief-18-august-25"
+    }
+  ]
+}

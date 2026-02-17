@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-04-09",
+  "publications": [
+    {
+      "id": "a4cfabcb6dcc6172e74062f264d325aedf4fc919828dbdca03f6fa3fb70ca108",
+      "title": "unlocking_flexibility_acers_12_no_regret_actions_remove_barriers_demand_response",
+      "published_on": "2025-04-09 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.275187",
+      "language": "en",
+      "length_before_preprocessing": 8354,
+      "length_after_preprocessing": 1257,
+      "url": "https://www.acer.europa.eu/news/unlocking-flexibility-acers-12-no-regret-actions-remove-barriers-demand-response"
+    }
+  ]
+}

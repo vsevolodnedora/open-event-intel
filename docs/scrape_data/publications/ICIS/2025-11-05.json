@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-11-05",
+  "publications": [
+    {
+      "id": "bf78cf5ca444e03b4936325a8e99f8176e82a46c25bfd13c7de0c3012904cfb7",
+      "title": "japan_s_asahi_kasei_fiscal_h1_profit_rises_chemicals_earnings_down_33",
+      "published_on": "2025-11-05 12:00:00",
+      "scraped_on": "2025-11-05 18:33:49.785224",
+      "language": "en",
+      "length_before_preprocessing": 5700,
+      "length_after_preprocessing": 1524,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/05/11152157/japan-s-asahi-kasei-fiscal-h1-profit-rises-chemicals-earnings-down-33"
+    },
+    {
+      "id": "5142d9eb7a671d2690d2635e3778e61116e1a3790472e81cc82117fc0f1f18e0",
+      "title": "india_starts_antidumping_probe_on_halobutyl_rubber_from_three_origins",
+      "published_on": "2025-11-05 12:00:00",
+      "scraped_on": "2025-11-05 18:33:49.787245",
+      "language": "en",
+      "length_before_preprocessing": 5832,
+      "length_after_preprocessing": 1037,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/05/11152163/india-starts-antidumping-probe-on-halobutyl-rubber-from-three-origins"
+    },
+    {
+      "id": "3237ddfebc19a2dc4106938add6c006fde392e9ad8c090cad0b7202e1182ea43",
+      "title": "singapore_s_aster_signs_strategic_mou_with_lubrizol",
+      "published_on": "2025-11-05 12:00:00",
+      "scraped_on": "2025-11-05 18:33:49.788921",
+      "language": "en",
+      "length_before_preprocessing": 5648,
+      "length_after_preprocessing": 902,
+      "url": "https://www.icis.com/explore/resources/news/2025/11/05/11152142/singapore-s-aster-signs-strategic-mou-with-lubrizol"
+    }
+  ]
+}

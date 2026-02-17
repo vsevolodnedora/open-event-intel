@@ -1,0 +1,26 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-07-25",
+  "publications": [
+    {
+      "id": "e17677bee86a6878414c10c81430baad2589ee83482916c84dad681f8cff63c4",
+      "title": "baustart_fur_suedlink_in_bayern",
+      "published_on": "2025-07-25 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.606711",
+      "language": "de",
+      "length_before_preprocessing": 5995,
+      "length_after_preprocessing": 2427,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/baustart-fur-suedlink-in-bayern"
+    },
+    {
+      "id": "83c22a1734e90d13bb3c5ee7b5413d37b9e3185689ce97d50b6182d02bfc41aa",
+      "title": "dr_oliver_strangfeld_wird_mitglied_der_geschaeftsfuehrung_bei_transnetbw",
+      "published_on": "2025-07-25 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.609741",
+      "language": "de",
+      "length_before_preprocessing": 4913,
+      "length_after_preprocessing": 1423,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/dr-oliver-strangfeld-wird-mitglied-der-geschaeftsfuehrung-bei-transnetbw"
+    }
+  ]
+}

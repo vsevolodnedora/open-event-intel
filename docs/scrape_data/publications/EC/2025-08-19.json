@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-08-19",
+  "publications": [
+    {
+      "id": "d7c0735fca5307d3cb302ba3db58f24028d314b2cd859a0cf5bfa16b59e7ad6f",
+      "title": "have_your_say_new_energy_market_integrity_and_transparency_rules",
+      "published_on": "2025-08-19 12:00:00",
+      "scraped_on": "2025-08-19 18:31:29.256938",
+      "language": "en",
+      "length_before_preprocessing": 4144,
+      "length_after_preprocessing": 1103,
+      "url": "https://energy.ec.europa.eu/news/have-your-say-new-energy-market-integrity-and-transparency-rules-2025-08-19_en"
+    }
+  ]
+}

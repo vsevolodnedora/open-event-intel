@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-02-24",
+  "publications": [
+    {
+      "id": "70e2a5179e775ab1f7bd84a68d96b9dc5be9b7b186d11d31ca5bf15682740093",
+      "title": "entso_e_publishes_the_technical_report_on_the_current_bidding_zone_configuration_for_2021_2023_period",
+      "published_on": "2025-02-24 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.516427",
+      "language": "en",
+      "length_before_preprocessing": 2843,
+      "length_after_preprocessing": 500,
+      "url": "https://www.entsoe.eu/news/2025/02/24/entso-e-publishes-the-technical-report-on-the-current-bidding-zone-configuration-for-2021-2023-period"
+    }
+  ]
+}

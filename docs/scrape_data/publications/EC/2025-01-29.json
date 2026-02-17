@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-01-29",
+  "publications": [
+    {
+      "id": "c3777522849da1090ba5270cc42d39dd2163de1d982612df96a4afeb043295fc",
+      "title": "cef_energy_eur_125_billion_allocated_41_cross_border_energy_infrastructure_projects",
+      "published_on": "2025-01-29 12:00:00",
+      "scraped_on": "2025-07-31 11:18:37.784562",
+      "language": "en",
+      "length_before_preprocessing": 3477,
+      "length_after_preprocessing": 721,
+      "url": "https://cinea.ec.europa.eu/news-events/news/cef-energy-eur-125-billion-allocated-41-cross-border-energy-infrastructure-projects-2025-01-29_en"
+    }
+  ]
+}

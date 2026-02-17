@@ -1,0 +1,46 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-09",
+  "publications": [
+    {
+      "id": "951ab849b90711142c8f19d213dc0174e63d2f58977946eb6530fd7b47bbf0b1",
+      "title": "insight_future_us_r_pet_imports_in_question_after_disappointing_summer_added_reciprocal_tariff_cost",
+      "published_on": "2025-09-09 12:00:00",
+      "scraped_on": "2025-09-09 18:30:27.361892",
+      "language": "en",
+      "length_before_preprocessing": 7028,
+      "length_after_preprocessing": 3275,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/09/11136018/insight-future-us-r-pet-imports-in-question-after-disappointing-summer-added-reciprocal-tariff-cost"
+    },
+    {
+      "id": "f9c266d5c5d99f245792a7fece1fa3446e3770a6cc88f009be9b1c795ad1d783",
+      "title": "podcast_europe_pa_plasticizers_markets_subdued_ahead_of_epca_25",
+      "published_on": "2025-09-09 12:00:00",
+      "scraped_on": "2025-09-09 18:30:27.365890",
+      "language": "en",
+      "length_before_preprocessing": 5334,
+      "length_after_preprocessing": 597,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/09/11136011/podcast-europe-pa-plasticizers-markets-subdued-ahead-of-epca-25"
+    },
+    {
+      "id": "bd108d602fafe7ad8828641b1ec0fcff1ad0e2cff76ea26e5b67049cd134a26d",
+      "title": "shipping_asia_us_container_rates_face_downward_pressure_as_imports_wane_on_rising_tariffs",
+      "published_on": "2025-09-09 12:00:00",
+      "scraped_on": "2025-09-10 18:32:14.569356",
+      "language": "en",
+      "length_before_preprocessing": 6220,
+      "length_after_preprocessing": 2082,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/09/11136037/shipping-asia-us-container-rates-face-downward-pressure-as-imports-wane-on-rising-tariffs"
+    },
+    {
+      "id": "23b8d0b78665ce2e2e5eabae532ee4a46e7fa446a7bfcc96247ac6022343e7d7",
+      "title": "mexico_s_new_hydrocarbons_bill_threatens_55_billion_petrochemicals_investment_potential_aniq",
+      "published_on": "2025-09-09 12:00:00",
+      "scraped_on": "2025-09-10 18:32:14.572354",
+      "language": "en",
+      "length_before_preprocessing": 6381,
+      "length_after_preprocessing": 1613,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/09/11136031/mexico-s-new-hydrocarbons-bill-threatens-55-billion-petrochemicals-investment-potential-aniq"
+    }
+  ]
+}

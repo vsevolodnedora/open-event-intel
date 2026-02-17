@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-07-28",
+  "publications": [
+    {
+      "id": "faf30f1b654b28426a90fa43fd5d4d18e540c9ca929b4ab18d01812427dfba32",
+      "title": "future_ready_grids_acer_and_ceer_set_out_blueprint_distribution_planning",
+      "published_on": "2025-07-28 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.208012",
+      "language": "en",
+      "length_before_preprocessing": 8306,
+      "length_after_preprocessing": 1297,
+      "url": "https://www.acer.europa.eu/news/future-ready-grids-acer-and-ceer-set-out-blueprint-distribution-planning"
+    },
+    {
+      "id": "0516385e688f1367b2f6cd3bb7f93ea9e6c89c5eb04b88c6da84eefa0ab29f69",
+      "title": "acer_approves_eu_wide_methodology_assess_national_electricity_flexibility_needs",
+      "published_on": "2025-07-28 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.213763",
+      "language": "en",
+      "length_before_preprocessing": 9141,
+      "length_after_preprocessing": 2076,
+      "url": "https://www.acer.europa.eu/news/acer-approves-eu-wide-methodology-assess-national-electricity-flexibility-needs"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-11",
+  "publications": [
+    {
+      "id": "e27eb39a405ee78243ce053e23c2deae2d8cac5f48bd563bb7d740cafd719f69",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-11 18:38:10.500226",
+      "language": "en",
+      "length_before_preprocessing": 5609,
+      "length_after_preprocessing": 873,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11126834/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "570d349c578afd2b38cf615aa3c752f8672643ec590ec5d058b2c839cf46f623",
+      "title": "italian_energy_decree_positive_signal_for_data_centre_investors_italian_datacenter_association",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-11 18:38:10.503427",
+      "language": "en",
+      "length_before_preprocessing": 5814,
+      "length_after_preprocessing": 2077,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11126854/italian-energy-decree-positive-signal-for-data-centre-investors-italian-datacenter-association"
+    },
+    {
+      "id": "f429b6597f92bd528c512649623f80fd53f0be1ca6cc1ddf6de07a607da27289",
+      "title": "s_arabia_s_chemanol_faces_sr70m_lawsuit_related_to_gci_purchase",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-11 18:38:10.505557",
+      "language": "en",
+      "length_before_preprocessing": 5661,
+      "length_after_preprocessing": 931,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11127196/s-arabia-s-chemanol-faces-sr70m-lawsuit-related-to-gci-purchase"
+    },
+    {
+      "id": "628542d4a2cea46536785614fa34b27b647d8a719c784822611fa750bd846acc",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-11 18:38:10.507842",
+      "language": "en",
+      "length_before_preprocessing": 6082,
+      "length_after_preprocessing": 1342,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11126759/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "1f2bb29fc5452ea561490bf854498f081b486dc06b88cd427e46042fe3195634",
+      "title": "icis_reveals_the_winners_of_the_2025_icis_innovation_awards",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-11 18:38:10.509750",
+      "language": "en",
+      "length_before_preprocessing": 5630,
+      "length_after_preprocessing": 954,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11127247/icis-reveals-the-winners-of-the-2025-icis-innovation-awards"
+    },
+    {
+      "id": "28dace1ad3b354b22ed65be4f6b1c9b12a9f0bdf8960c750df419745f5d1426d",
+      "title": "brazil_s_unipar_cushioned_from_us_tariffs_but_end_markets_feeling_the_heat_ceo",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-12 18:37:05.634832",
+      "language": "en",
+      "length_before_preprocessing": 6175,
+      "length_after_preprocessing": 1396,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11127295/brazil-s-unipar-cushioned-from-us-tariffs-but-end-markets-feeling-the-heat-ceo"
+    },
+    {
+      "id": "c34dac49aedc9cad3912ef5a65b218013a797af70cb1b900e9bfd31ee5382fe3",
+      "title": "tropical_storm_erin_could_be_first_hurricane_this_season_but_not_expected_to_threaten_us",
+      "published_on": "2025-08-11 12:00:00",
+      "scraped_on": "2025-08-12 18:37:05.636911",
+      "language": "en",
+      "length_before_preprocessing": 5770,
+      "length_after_preprocessing": 958,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/11/11127329/tropical-storm-erin-could-be-first-hurricane-this-season-but-not-expected-to-threaten-us"
+    }
+  ]
+}

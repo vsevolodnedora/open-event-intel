@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2026-02-02",
+  "publications": [
+    {
+      "id": "a8feae2f5a96c2012de7dd90143ba9f8b3558b906a8a7027eb1c00bf0bb23a0e",
+      "title": "erste_version_des_bautagebuchs_veroeffentlicht",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-02 18:35:56.153196",
+      "language": "de",
+      "length_before_preprocessing": 627,
+      "length_after_preprocessing": 284,
+      "url": "https://www.50hertz.com/de/News/Details/16730/erste-version-des-bautagebuchs-veroeffentlicht"
+    }
+  ]
+}

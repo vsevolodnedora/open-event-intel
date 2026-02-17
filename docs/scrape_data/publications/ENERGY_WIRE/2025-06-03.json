@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-03",
+  "publications": [
+    {
+      "id": "0de420bdb0012ee2a69ec7caea99b4da683fa53048d4d5af87ec35861ff18dc6",
+      "title": "electrification_crucial_eu_energy_security_and_industry_competitiveness_power_sector",
+      "published_on": "2025-06-03 13:07:00",
+      "scraped_on": "2025-07-31 13:38:21.792938",
+      "language": "en",
+      "length_before_preprocessing": 7350,
+      "length_after_preprocessing": 1342,
+      "url": "https://www.cleanenergywire.org/news/electrification-crucial-eu-energy-security-and-industry-competitiveness-power-sector"
+    },
+    {
+      "id": "21d0e028bff7e80ee7e23c0b7a376efbf0cd8fe903af0b3eca41938843331e71",
+      "title": "southern_germany_receive_two_thirds_new_gas_power_plant_capacity_economy_minister_says",
+      "published_on": "2025-06-03 12:46:00",
+      "scraped_on": "2025-07-31 13:38:33.616407",
+      "language": "en",
+      "length_before_preprocessing": 6627,
+      "length_after_preprocessing": 766,
+      "url": "https://www.cleanenergywire.org/news/southern-germany-receive-two-thirds-new-gas-power-plant-capacity-economy-minister-says"
+    },
+    {
+      "id": "a6ac56c4c0016597eb6cfa6586eb4087578b114bd0a9b3c9e0273fd5df3242a0",
+      "title": "hydrogen_imports_africa_could_be_much_more_expensive_assumed_study",
+      "published_on": "2025-06-03 12:41:00",
+      "scraped_on": "2025-07-31 13:38:45.267068",
+      "language": "en",
+      "length_before_preprocessing": 7175,
+      "length_after_preprocessing": 1246,
+      "url": "https://www.cleanenergywire.org/news/hydrogen-imports-africa-could-be-much-more-expensive-assumed-study"
+    },
+    {
+      "id": "eecb35df0eea93bfa03bb86a2eafbddfefbc6ac41bc5bcff9dd87f8b6039e301",
+      "title": "industry_welcomes_germanys_planned_75_tax_write_offs_new_company_evs",
+      "published_on": "2025-06-03 12:36:00",
+      "scraped_on": "2025-07-31 13:38:57.003720",
+      "language": "en",
+      "length_before_preprocessing": 6923,
+      "length_after_preprocessing": 1081,
+      "url": "https://www.cleanenergywire.org/news/industry-welcomes-germanys-planned-75-tax-write-offs-new-company-evs"
+    },
+    {
+      "id": "a0e76d9c7bbf4e7a6717c6f19b84afaefb13c57fce6794bbdcaebb1f06af666d",
+      "title": "brief_3_june_25",
+      "published_on": "2025-06-03 12:10:00",
+      "scraped_on": "2025-07-31 13:39:08.570119",
+      "language": "en",
+      "length_before_preprocessing": 5271,
+      "length_after_preprocessing": 795,
+      "url": "https://www.cleanenergywire.org/news/brief-3-june-25"
+    }
+  ]
+}

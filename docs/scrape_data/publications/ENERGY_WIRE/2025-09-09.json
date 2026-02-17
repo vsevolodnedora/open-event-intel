@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-09",
+  "publications": [
+    {
+      "id": "e1e9527c1c744577fcf38565fdc2a636d7d16f665695f6befad23214b2caf244",
+      "title": "germans_drive_over_15_kilometres_daily_car_use_down_after_pandemic",
+      "published_on": "2025-09-09 11:40:00",
+      "scraped_on": "2025-09-09 18:33:13.206126",
+      "language": "en",
+      "length_before_preprocessing": 4395,
+      "length_after_preprocessing": 1174,
+      "url": "https://www.cleanenergywire.org/news/germans-drive-over-15-kilometres-daily-car-use-down-after-pandemic"
+    },
+    {
+      "id": "3224e9f9c0d0ab4e82088f57482c539f624ec598fdfe332ccac72e8e7a6922cc",
+      "title": "northeastern_germany_tops_climate_neutrality_ranking",
+      "published_on": "2025-09-09 11:10:00",
+      "scraped_on": "2025-09-09 18:33:24.174877",
+      "language": "en",
+      "length_before_preprocessing": 6801,
+      "length_after_preprocessing": 1295,
+      "url": "https://www.cleanenergywire.org/news/northeastern-germany-tops-climate-neutrality-ranking"
+    },
+    {
+      "id": "81c21c108461018abdfc3203942afc1fc4124c62f5c713c4610f3f83dac32876",
+      "title": "fossil_electricity_production_germany_increased_10_first_half_2025",
+      "published_on": "2025-09-09 10:23:00",
+      "scraped_on": "2025-09-09 18:33:35.099653",
+      "language": "en",
+      "length_before_preprocessing": 6374,
+      "length_after_preprocessing": 747,
+      "url": "https://www.cleanenergywire.org/news/fossil-electricity-production-germany-increased-10-first-half-2025"
+    },
+    {
+      "id": "c6d2ea0aa95b665bca8b309b51d922f37a636983ace7c67b9555a4e2fe4e1cbf",
+      "title": "brief_9_september_25",
+      "published_on": "2025-09-09 10:21:00",
+      "scraped_on": "2025-09-09 18:33:45.905802",
+      "language": "en",
+      "length_before_preprocessing": 5141,
+      "length_after_preprocessing": 744,
+      "url": "https://www.cleanenergywire.org/news/brief-9-september-25"
+    }
+  ]
+}

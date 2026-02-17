@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-18",
+  "publications": [
+    {
+      "id": "063c10d30003eabe97e7e3ef53af69f58a89fe4da04f8b39f1f2557e044dab5b",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-08-18 12:00:00",
+      "scraped_on": "2025-08-18 12:00:54.049840",
+      "language": "en",
+      "length_before_preprocessing": 5034,
+      "length_after_preprocessing": 1314,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/18/11128915/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "c0e756d289260532cf238ef2484054c3957bf78544c622436fd0517299087b75",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-08-18 12:00:00",
+      "scraped_on": "2025-08-18 12:00:54.053712",
+      "language": "en",
+      "length_before_preprocessing": 5651,
+      "length_after_preprocessing": 899,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/18/11129039/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "6506dab46c1c3d0feb775b1c5ecaec4b6c2b178b4d8cfccf1653748ebf8b7710",
+      "title": "singapore_jul_petrochemical_exports_fall_23_4_nodx_contracts_4_6",
+      "published_on": "2025-08-18 12:00:00",
+      "scraped_on": "2025-08-18 12:00:54.055648",
+      "language": "en",
+      "length_before_preprocessing": 5108,
+      "length_after_preprocessing": 1387,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/18/11129397/singapore-jul-petrochemical-exports-fall-23-4-nodx-contracts-4-6"
+    },
+    {
+      "id": "1a65e4f7f6142d6779dc2fabe75262cf502d3b7df01e7bdad3868d5ace0227b6",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-08-18 12:00:00",
+      "scraped_on": "2025-08-18 18:36:33.247978",
+      "language": "en",
+      "length_before_preprocessing": 6076,
+      "length_after_preprocessing": 1354,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/18/11129107/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "c4ea7199c79a8fc11b71c7aeb14e694049ae7f02cc2f920876c705328aa26695",
+      "title": "outlook_insight_us_chems_get_regulatory_relief_amid_rail_setbacks",
+      "published_on": "2025-08-18 12:00:00",
+      "scraped_on": "2025-08-19 18:32:12.149800",
+      "language": "en",
+      "length_before_preprocessing": 8524,
+      "length_after_preprocessing": 3184,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/18/11129493/outlook-insight-us-chems-get-regulatory-relief-amid-rail-setbacks"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-21",
+  "publications": [
+    {
+      "id": "3ab89908098b7acbfe17952e53b623247f362a09b7e489458f7056aef138741e",
+      "title": "brief_21_may_25",
+      "published_on": "2025-05-21 12:50:00",
+      "scraped_on": "2025-07-31 13:24:33.396421",
+      "language": "en",
+      "length_before_preprocessing": 2915,
+      "length_after_preprocessing": 853,
+      "url": "https://www.cleanenergywire.org/news/brief-21-may-25"
+    },
+    {
+      "id": "5ea2df2037a552f80bdfc66e07764807ecad1024fcd37d4860deb1031023f067",
+      "title": "eastern_germany_receive_special_focus_new_infrastructure_fund_investments_finance_minister",
+      "published_on": "2025-05-21 13:19:00",
+      "scraped_on": "2025-07-31 13:34:55.473180",
+      "language": "en",
+      "length_before_preprocessing": 6875,
+      "length_after_preprocessing": 1079,
+      "url": "https://www.cleanenergywire.org/news/eastern-germany-receive-special-focus-new-infrastructure-fund-investments-finance-minister"
+    },
+    {
+      "id": "5c482ed7ceaf218c0fbb597a1bc880c501ee6cce1a6a058f338f2f42a9f23b85",
+      "title": "intensifying_water_scarcity_calls_higher_extraction_prices_berlins_main_river_economists",
+      "published_on": "2025-05-21 13:15:00",
+      "scraped_on": "2025-07-31 13:35:07.073442",
+      "language": "en",
+      "length_before_preprocessing": 6604,
+      "length_after_preprocessing": 1175,
+      "url": "https://www.cleanenergywire.org/news/intensifying-water-scarcity-calls-higher-extraction-prices-berlins-main-river-economists"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-04-30",
+  "publications": [
+    {
+      "id": "7bacf541d4fef7046ea3c721e83ba83d4c06e1c9e42010345957307c05b12cfc",
+      "title": "how_renewables_ramp_up_and_no_regret_use_of_hydrogen_can_boost_southeast_asian_industry",
+      "published_on": "2024-04-30 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.439749",
+      "language": "en",
+      "length_before_preprocessing": 5868,
+      "length_after_preprocessing": 2314,
+      "url": "https://www.agora-energiewende.org/news-events/how-renewables-ramp-up-and-no-regret-use-of-hydrogen-can-boost-southeast-asian-industry"
+    }
+  ]
+}

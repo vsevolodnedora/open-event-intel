@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-07-10",
+  "publications": [
+    {
+      "id": "a220c9de46b6ea2b4efab38c314b45f3b8bc6e6f70afbb6761cb0d904da0a29e",
+      "title": "planaenderung_beantragt",
+      "published_on": "2025-07-10 12:00:00",
+      "scraped_on": "2025-08-02 20:52:58.295831",
+      "language": "de",
+      "length_before_preprocessing": 5671,
+      "length_after_preprocessing": 731,
+      "url": "https://www.50hertz.com/de/News/Details/16003/planaenderung-beantragt"
+    }
+  ]
+}

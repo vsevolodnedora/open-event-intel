@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-04",
+  "publications": [
+    {
+      "id": "f80106f984034f5e9a5f8779f0ae4ad18202a86b916d212b25d4109c0cadb744",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-08-04 12:00:00",
+      "scraped_on": "2025-08-04 09:01:04.673186",
+      "language": "en",
+      "length_before_preprocessing": 6443,
+      "length_after_preprocessing": 1710,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/04/11124494/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "a88de2c8ab0877c577a2b03aef80a39841bf2130e6032026e9d22095ca04a864",
+      "title": "lg_chem_enilive_jv_begins_biorefinery_construction_in_s_korea",
+      "published_on": "2025-08-04 12:00:00",
+      "scraped_on": "2025-08-04 18:38:54.609728",
+      "language": "en",
+      "length_before_preprocessing": 4596,
+      "length_after_preprocessing": 881,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/04/11125140/lg-chem-enilive-jv-begins-biorefinery-construction-in-s-korea"
+    },
+    {
+      "id": "3224da1ca4ee7d729ca721856726c5602a0910ddb69bb19de978cdfc2a8dc4f8",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-08-04 12:00:00",
+      "scraped_on": "2025-08-04 18:38:54.612848",
+      "language": "en",
+      "length_before_preprocessing": 5789,
+      "length_after_preprocessing": 1046,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/04/11124604/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "c8adc7cdc92117b9a536497b02fc1aaee921194ec765988d5810510a534f494b",
+      "title": "s_korea_july_petrochemical_exports_down_10_1_pmi_extends_fall",
+      "published_on": "2025-08-04 12:00:00",
+      "scraped_on": "2025-08-04 18:38:54.614655",
+      "language": "en",
+      "length_before_preprocessing": 6395,
+      "length_after_preprocessing": 1714,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/04/11125089/s-korea-july-petrochemical-exports-down-10-1-pmi-extends-fall"
+    },
+    {
+      "id": "dc32de45c0fa65366e0d9385d18b4908440a44087008a8c56248b6dd679aa1b8",
+      "title": "us_crops_continue_to_mature_with_corn_silking_at_88_soybean_blooming_at_85",
+      "published_on": "2025-08-04 12:00:00",
+      "scraped_on": "2025-08-05 20:12:41.593194",
+      "language": "en",
+      "length_before_preprocessing": 4399,
+      "length_after_preprocessing": 662,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/04/11125290/us-crops-continue-to-mature-with-corn-silking-at-88-soybean-blooming-at-85"
+    },
+    {
+      "id": "b7c0755e72d756b7d51ef7636b61b894a8b368d94ed055c65d8cc6d770f7dde4",
+      "title": "us_tronox_cuts_dividend_joins_dow",
+      "published_on": "2025-08-04 12:00:00",
+      "scraped_on": "2025-08-05 20:12:41.595133",
+      "language": "en",
+      "length_before_preprocessing": 4628,
+      "length_after_preprocessing": 877,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/04/11125282/us-tronox-cuts-dividend-joins-dow"
+    }
+  ]
+}

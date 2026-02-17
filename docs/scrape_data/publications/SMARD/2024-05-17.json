@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2024-05-17",
+  "publications": [
+    {
+      "id": "5d75904c1e41db2d368580e51648a0af243a5c4dd650b197300917d5bd08fe62",
+      "title": "netzengpassmanagement_im_jahr_2023",
+      "published_on": "2024-05-17 12:00:00",
+      "scraped_on": "2026-01-14 09:22:04.496321",
+      "language": "de",
+      "length_before_preprocessing": 5308,
+      "length_after_preprocessing": 3628,
+      "url": "https://www.smard.de/page/home/topic-article/209944/213590/netzengpassmanagement-im-jahr-2023"
+    }
+  ]
+}

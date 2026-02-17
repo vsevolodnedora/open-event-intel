@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-02-18",
+  "publications": [
+    {
+      "id": "f8d95bd98c92b5455ae94cb73d6b1a662c954239f893b787ac2b98a1799fac36",
+      "title": "euratom_safeguards_council_endorses_new_draft_regulation",
+      "published_on": "2025-02-18 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.363700",
+      "language": "en",
+      "length_before_preprocessing": 3426,
+      "length_after_preprocessing": 561,
+      "url": "https://energy.ec.europa.eu/news/euratom-safeguards-council-endorses-new-draft-regulation-2025-02-18_en"
+    }
+  ]
+}

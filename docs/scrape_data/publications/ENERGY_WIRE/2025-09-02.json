@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-02",
+  "publications": [
+    {
+      "id": "e71d58a28fe4149377ae553b7db8e45976027a40291cc1acbeeeda859be5b9ac",
+      "title": "state_authority_grants_immediate_gas_drilling_permit_german_coast",
+      "published_on": "2025-09-02 12:04:00",
+      "scraped_on": "2025-09-02 18:33:37.957376",
+      "language": "en",
+      "length_before_preprocessing": 4294,
+      "length_after_preprocessing": 1060,
+      "url": "https://www.cleanenergywire.org/news/state-authority-grants-immediate-gas-drilling-permit-german-coast"
+    },
+    {
+      "id": "fa5aa3478009bae903672f7e191e037367d7c26e8ea0ebb9218b9e3a3fe63a30",
+      "title": "germanys_north_sea_hits_record_temperatures_summer_2025",
+      "published_on": "2025-09-02 10:55:00",
+      "scraped_on": "2025-09-02 18:33:49.041834",
+      "language": "en",
+      "length_before_preprocessing": 6458,
+      "length_after_preprocessing": 823,
+      "url": "https://www.cleanenergywire.org/news/germanys-north-sea-hits-record-temperatures-summer-2025"
+    },
+    {
+      "id": "5f1befab79a4b5ad09416f29597cd60111201042e16fb00dd0403dcde9db5bd3",
+      "title": "german_gas_industry_association_allays_concerns_over_storage_levels",
+      "published_on": "2025-09-02 09:57:00",
+      "scraped_on": "2025-09-02 18:34:00.122546",
+      "language": "en",
+      "length_before_preprocessing": 6849,
+      "length_after_preprocessing": 1026,
+      "url": "https://www.cleanenergywire.org/news/german-gas-industry-association-allays-concerns-over-storage-levels"
+    },
+    {
+      "id": "b8d28eb7198e6fb195912c205f943873aadc5c0b05266b757b69be599b5705ed",
+      "title": "brief_2_september_25",
+      "published_on": "2025-09-02 09:26:00",
+      "scraped_on": "2025-09-02 18:34:11.003510",
+      "language": "en",
+      "length_before_preprocessing": 5104,
+      "length_after_preprocessing": 710,
+      "url": "https://www.cleanenergywire.org/news/brief-2-september-25"
+    }
+  ]
+}

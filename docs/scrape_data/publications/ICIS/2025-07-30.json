@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-07-30",
+  "publications": [
+    {
+      "id": "39deaf89752f855bf7d3c0a91c47f691084236b2b058149b2bb63055da477368",
+      "title": "eurozone_eu_economic_growth_slows_down_in_q2_from_previous_quarter",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.081495",
+      "language": "en",
+      "length_before_preprocessing": 5483,
+      "length_after_preprocessing": 645,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123743/eurozone-eu-economic-growth-slows-down-in-q2-from-previous-quarter"
+    },
+    {
+      "id": "92bf6c86de9d9eba1b21cd143bbdd340c1c9942c8109249eba8f0433536b83f5",
+      "title": "us_tariff_threat_prompts_brazil_chemicals_export_order_cancelations_abiquim",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.083437",
+      "language": "en",
+      "length_before_preprocessing": 5759,
+      "length_after_preprocessing": 1995,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123753/us-tariff-threat-prompts-brazil-chemicals-export-order-cancelations-abiquim"
+    },
+    {
+      "id": "69a807809aa3d27b8538b2a5d236c3a85ac90df279df8acd7fe1d3cccadb372c",
+      "title": "podcast_europe_pe_pp_digests_july_tariffs_india_anti_dumping_duties_august_outlook",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.083966",
+      "language": "en",
+      "length_before_preprocessing": 4227,
+      "length_after_preprocessing": 442,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123774/podcast-europe-pe-pp-digests-july-tariffs-india-anti-dumping-duties-august-outlook"
+    },
+    {
+      "id": "0281dcf4848b252f827f9bbefe1aef51baf7dec815850e1d29ec8d2a75f24ec4",
+      "title": "podcast_sustainably_speaking_eu_s_mass_balance_proposal_supd_consultation_a_game_changer_for_recycling",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.084416",
+      "language": "en",
+      "length_before_preprocessing": 4813,
+      "length_after_preprocessing": 901,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123787/podcast-sustainably-speaking-eu-s-mass-balance-proposal-supd-consultation-a-game-changer-for-recycling"
+    },
+    {
+      "id": "f94a72636e6940a79bf6b49639b22f855f3cf4fcab27455604a9a255fe3826ef",
+      "title": "germany_and_canada_launch_400_million_renewable_hydrogen_auction_consultation",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.084895",
+      "language": "en",
+      "length_before_preprocessing": 4560,
+      "length_after_preprocessing": 851,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123809/germany-and-canada-launch-400-million-renewable-hydrogen-auction-consultation"
+    },
+    {
+      "id": "92f8ec057ef9ef06920c660c416e23b8af6d84d8bd5f4034b865e58f1ff8d199",
+      "title": "acer_recommends_inter_temporal_cost_allocation_rules_for_eu_hydrogen_network",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.085395",
+      "language": "en",
+      "length_before_preprocessing": 5665,
+      "length_after_preprocessing": 924,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123810/acer-recommends-inter-temporal-cost-allocation-rules-for-eu-hydrogen-network"
+    },
+    {
+      "id": "47792f2072cdaadd466d34da3a5d5fa7fb9dd0a935e10421780048278d985c74",
+      "title": "1_1_billion_ehb_auction_to_support_both_rfnbo_and_low_carbon_hydrogen",
+      "published_on": "2025-07-30 12:00:00",
+      "scraped_on": "2025-07-31 14:44:18.085971",
+      "language": "en",
+      "length_before_preprocessing": 6000,
+      "length_after_preprocessing": 1279,
+      "url": "https://www.icis.com/explore/resources/news/2025/07/30/11123812/1-1-billion-ehb-auction-to-support-both-rfnbo-and-low-carbon-hydrogen"
+    }
+  ]
+}

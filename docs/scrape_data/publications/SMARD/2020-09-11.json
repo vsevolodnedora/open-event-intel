@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2020-09-11",
+  "publications": [
+    {
+      "id": "9bbe27256dabc003a5477e4a04eb0406de09052304d24d13cea0825027cf8674",
+      "title": "deutschland_wieder_nettoexporteur",
+      "published_on": "2020-09-11 12:00:00",
+      "scraped_on": "2026-01-14 09:14:51.815803",
+      "language": "de",
+      "length_before_preprocessing": 8366,
+      "length_after_preprocessing": 4854,
+      "url": "https://www.smard.de/page/home/topic-article/204970/195760/deutschland-wieder-nettoexporteur"
+    }
+  ]
+}

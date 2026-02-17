@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2026-02-10",
+  "publications": [
+    {
+      "id": "d3310de2810e02de1ec7dbbe737c8e223c975e73a3bc67cff460171ff88d1a0f",
+      "title": "antragsunterlagen_zur_seetrasse_eingereicht",
+      "published_on": "2026-02-10 12:00:00",
+      "scraped_on": "2026-02-10 18:59:07.863498",
+      "language": "de",
+      "length_before_preprocessing": 1302,
+      "length_after_preprocessing": 980,
+      "url": "https://www.50hertz.com/de/News/Details/16759/antragsunterlagen-zur-seetrasse-eingereicht"
+    }
+  ]
+}

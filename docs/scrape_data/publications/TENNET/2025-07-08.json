@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-07-08",
+  "publications": [
+    {
+      "id": "fdff8ee15d00356d5f9ae0b4d9abe2794c354b1b393bcf82b15f2ea6cecbee92",
+      "title": "ina_kamps_wird_chief_operating_officer_coo_bei_tennet_germany",
+      "published_on": "2025-07-08 12:00:00",
+      "scraped_on": "2025-08-03 10:05:41.040966",
+      "language": "de",
+      "length_before_preprocessing": 3350,
+      "length_after_preprocessing": 1526,
+      "url": "https://www.tennet.eu/de/news/ina-kamps-wird-chief-operating-officer-coo-bei-tennet-germany"
+    }
+  ]
+}

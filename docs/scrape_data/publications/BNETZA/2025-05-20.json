@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-05-20",
+  "publications": [
+    {
+      "id": "9c78d129efe2f5d7232743ce5341433c378b57e90a0d7047091fbf330a6b45cb",
+      "title": "Marktueberwachung",
+      "published_on": "2025-05-20 12:00:00",
+      "scraped_on": "2025-07-31 11:10:57.759723",
+      "language": "de",
+      "length_before_preprocessing": 3275,
+      "length_after_preprocessing": 698,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250520_Marktueberwachung.html"
+    }
+  ]
+}

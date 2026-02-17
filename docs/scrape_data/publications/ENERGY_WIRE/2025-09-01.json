@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-01",
+  "publications": [
+    {
+      "id": "2f5b8efffec98d28fad4935e201d07280a7d2362a7bc5ac718f10d484ae6c452",
+      "title": "france_and_germany_pledge_energy_policy_alignment_interest_europe",
+      "published_on": "2025-09-01 13:30:00",
+      "scraped_on": "2025-09-01 18:34:52.243010",
+      "language": "en",
+      "length_before_preprocessing": 4688,
+      "length_after_preprocessing": 1305,
+      "url": "https://www.cleanenergywire.org/news/france-and-germany-pledge-energy-policy-alignment-interest-europe"
+    },
+    {
+      "id": "4a05147a4a6395c684f49738fe05762fea7a34ac6a24c6ad69d1a93e2e81ec42",
+      "title": "energy_industry_calls_german_govt_step_hydrogen_efforts",
+      "published_on": "2025-09-01 13:22:00",
+      "scraped_on": "2025-09-01 18:35:03.410148",
+      "language": "en",
+      "length_before_preprocessing": 7013,
+      "length_after_preprocessing": 1193,
+      "url": "https://www.cleanenergywire.org/news/energy-industry-calls-german-govt-step-hydrogen-efforts"
+    },
+    {
+      "id": "a82c354d1409af0e517a8344e70bb77cd7130d62108a52e3b6b09f893e6241e3",
+      "title": "brief_1_september_25",
+      "published_on": "2025-09-01 10:20:00",
+      "scraped_on": "2025-09-01 18:35:14.320954",
+      "language": "en",
+      "length_before_preprocessing": 5188,
+      "length_after_preprocessing": 796,
+      "url": "https://www.cleanenergywire.org/news/brief-1-september-25"
+    }
+  ]
+}

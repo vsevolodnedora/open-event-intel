@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-05",
+  "publications": [
+    {
+      "id": "6db23480867906aea8e2cc73d3ce3c11ac3cbea6d38d41b71c0c0c4129500df7",
+      "title": "likely_next_german_govt_parties_agree_debt_rules_bypass_defence_and_infrastructure_climate_focus_unclear",
+      "published_on": "2025-03-05 17:07:00",
+      "scraped_on": "2025-07-31 12:48:15.691782",
+      "language": "en",
+      "length_before_preprocessing": 10128,
+      "length_after_preprocessing": 3783,
+      "url": "https://www.cleanenergywire.org/news/likely-next-german-govt-parties-agree-debt-rules-bypass-defence-and-infrastructure-climate-focus-unclear"
+    },
+    {
+      "id": "4a65b2366c3b66320a45a9264289bfdf7dcc02286273a84c1ca8a9d672ea42d9",
+      "title": "next_german_government_must_put_greater_focus_offshore_wind_expansion_industry_group",
+      "published_on": "2025-03-05 13:26:00",
+      "scraped_on": "2025-07-31 12:48:27.443980",
+      "language": "en",
+      "length_before_preprocessing": 6341,
+      "length_after_preprocessing": 1168,
+      "url": "https://www.cleanenergywire.org/news/next-german-government-must-put-greater-focus-offshore-wind-expansion-industry-group"
+    },
+    {
+      "id": "68589b9b8c32c237f674fac3e7a2951abef575af5483bddc2aed86c3b5997e53",
+      "title": "german_gas_use_decline_slower_expected_due_lagging_heating_transition_higher_needs_electricity_consultancy",
+      "published_on": "2025-03-05 13:20:00",
+      "scraped_on": "2025-07-31 12:48:39.114826",
+      "language": "en",
+      "length_before_preprocessing": 6978,
+      "length_after_preprocessing": 1087,
+      "url": "https://www.cleanenergywire.org/news/german-gas-use-decline-slower-expected-due-lagging-heating-transition-higher-needs-electricity-consultancy"
+    },
+    {
+      "id": "c90a6422fb4ee51430800c3482003f756d1f423bf1c174db37e9aa2a843ddca5",
+      "title": "brief_5_march_25",
+      "published_on": "2025-03-05 11:25:00",
+      "scraped_on": "2025-07-31 12:48:50.644194",
+      "language": "en",
+      "length_before_preprocessing": 2819,
+      "length_after_preprocessing": 715,
+      "url": "https://www.cleanenergywire.org/news/brief-5-march-25"
+    }
+  ]
+}

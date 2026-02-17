@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-12",
+  "publications": [
+    {
+      "id": "362b0ae3ace17ea951c487e175b8414c42a52af24a2de83423da29e4aba3eea2",
+      "title": "natural_gas_exploration_projects_across_germany_progress",
+      "published_on": "2025-08-12 11:06:00",
+      "scraped_on": "2025-08-12 18:39:57.761338",
+      "language": "en",
+      "length_before_preprocessing": 4764,
+      "length_after_preprocessing": 1329,
+      "url": "https://www.cleanenergywire.org/news/natural-gas-exploration-projects-across-germany-progress"
+    },
+    {
+      "id": "84811f74f97e6f01e4030c4521544d1cb4929354e2d3516a5799084e7951c974",
+      "title": "air_conditioner_production_germany_75_past_five_years",
+      "published_on": "2025-08-12 10:35:00",
+      "scraped_on": "2025-08-12 18:40:08.643694",
+      "language": "en",
+      "length_before_preprocessing": 6069,
+      "length_after_preprocessing": 707,
+      "url": "https://www.cleanenergywire.org/news/air-conditioner-production-germany-75-past-five-years"
+    },
+    {
+      "id": "2d62c13460433b3246e641a51a033717f6da895bb06b7b1203dd8ef7b2d6e857",
+      "title": "brief_12_august_25",
+      "published_on": "2025-08-12 10:30:00",
+      "scraped_on": "2025-08-12 18:40:19.518441",
+      "language": "en",
+      "length_before_preprocessing": 4870,
+      "length_after_preprocessing": 516,
+      "url": "https://www.cleanenergywire.org/news/brief-12-august-25"
+    }
+  ]
+}

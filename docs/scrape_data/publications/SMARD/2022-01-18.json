@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2022-01-18",
+  "publications": [
+    {
+      "id": "e8bd3c3ac188228f160defd512a1a999c4b089d6e5dadaca377ddc6cea0a7f31",
+      "title": "hoehere_ee_erzeugung_zum_jahresende",
+      "published_on": "2022-01-18 12:00:00",
+      "scraped_on": "2026-01-14 09:14:12.245627",
+      "language": "de",
+      "length_before_preprocessing": 7723,
+      "length_after_preprocessing": 4167,
+      "url": "https://www.smard.de/page/home/topic-article/204968/206890/hoehere-ee-erzeugung-zum-jahresende"
+    }
+  ]
+}

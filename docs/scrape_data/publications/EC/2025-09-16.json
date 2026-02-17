@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-09-16",
+  "publications": [
+    {
+      "id": "6bd1b6fc737f8f341875b49bcb39eace3ec1ee97395a26c1d800eba04dc8d009",
+      "title": "focus_supercharging_transition_energy_storage_solutions",
+      "published_on": "2025-09-16 12:00:00",
+      "scraped_on": "2025-09-16 18:31:56.975183",
+      "language": "en",
+      "length_before_preprocessing": 5493,
+      "length_after_preprocessing": 2598,
+      "url": "https://energy.ec.europa.eu/news/focus-supercharging-transition-energy-storage-solutions-2025-09-16_en"
+    }
+  ]
+}

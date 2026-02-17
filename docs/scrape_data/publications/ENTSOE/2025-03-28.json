@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-03-28",
+  "publications": [
+    {
+      "id": "7d9c59908cc9db81f41a4b27b0dcae90957abce89ba6e376278fe9b8f5fef447",
+      "title": "solar_eclipse_event_underscores_importance_of_a_resilient_power_system",
+      "published_on": "2025-03-28 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.518449",
+      "language": "en",
+      "length_before_preprocessing": 3666,
+      "length_after_preprocessing": 1557,
+      "url": "https://www.entsoe.eu/news/2025/03/28/solar-eclipse-event-underscores-importance-of-a-resilient-power-system"
+    }
+  ]
+}

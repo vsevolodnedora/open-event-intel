@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-06-10",
+  "publications": [
+    {
+      "id": "cec785a2deaa73553362d4d2240cf6aa6fb7b1bb0643f62fe42f330bf7f20879",
+      "title": "clean_and_secure_energy_supplies_competitive_industry_key_priorities_for_the_next_eu_lawmakers_1",
+      "published_on": "2024-06-10 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.447059",
+      "language": "en",
+      "length_before_preprocessing": 3767,
+      "length_after_preprocessing": 520,
+      "url": "https://www.agora-energiewende.org/news-events/clean-and-secure-energy-supplies-competitive-industry-key-priorities-for-the-next-eu-lawmakers-1"
+    }
+  ]
+}

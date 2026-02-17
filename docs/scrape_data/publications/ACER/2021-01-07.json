@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2021-01-07",
+  "publications": [
+    {
+      "id": "29e5d36a0a2311871879dd73bcbf6cb56fdd3342a5092e2d1ec7d2c74f678d5b",
+      "title": "acer_adopted_five_decisions_fostering_integration_european_electricity_networks_and_markets",
+      "published_on": "2021-01-07 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.220400",
+      "language": "en",
+      "length_before_preprocessing": 7801,
+      "length_after_preprocessing": 695,
+      "url": "https://www.acer.europa.eu/news/acer-adopted-five-decisions-fostering-integration-european-electricity-networks-and-markets"
+    }
+  ]
+}

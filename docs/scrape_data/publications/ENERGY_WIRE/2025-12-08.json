@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-12-08",
+  "publications": [
+    {
+      "id": "b26e3cbabb1bdb94932490132a3858837f4ae8763eac3e6b8e843b165d6a3dc3",
+      "title": "germany_sources_two_thirds_public_electricity_renewables_third_quarter_2025",
+      "published_on": "2025-12-08 13:30:00",
+      "scraped_on": "2025-12-08 18:22:42.873969",
+      "language": "en",
+      "length_before_preprocessing": 4476,
+      "length_after_preprocessing": 1052,
+      "url": "https://www.cleanenergywire.org/news/germany-sources-two-thirds-public-electricity-renewables-third-quarter-2025"
+    },
+    {
+      "id": "1b4688f1435b0ef19f66d47c219ba8a97ec5c9cb0619ebf3ab3dc099e164d802",
+      "title": "demand_home_pv_slows_germany_industry_sees_lower_grid_expansion_need",
+      "published_on": "2025-12-08 12:01:00",
+      "scraped_on": "2025-12-08 18:22:53.770328",
+      "language": "en",
+      "length_before_preprocessing": 7001,
+      "length_after_preprocessing": 1237,
+      "url": "https://www.cleanenergywire.org/news/demand-home-pv-slows-germany-industry-sees-lower-grid-expansion-need"
+    },
+    {
+      "id": "fdc1334699dc274adc758ab3c6043e4377e3b1eb70a5cc4608dbcd23d8fd365e",
+      "title": "geothermal_lithium_extraction_plant_southern_germany_starts_taking_shape",
+      "published_on": "2025-12-08 11:31:00",
+      "scraped_on": "2025-12-08 18:23:04.662128",
+      "language": "en",
+      "length_before_preprocessing": 6725,
+      "length_after_preprocessing": 1257,
+      "url": "https://www.cleanenergywire.org/news/geothermal-lithium-extraction-plant-southern-germany-starts-taking-shape"
+    },
+    {
+      "id": "416cb8c9a87c4e2cc687ddddb769c66dc3ab574cdb9c7c262ea5f638d0fe821f",
+      "title": "brief_8_december_25",
+      "published_on": "2025-12-08 10:12:00",
+      "scraped_on": "2025-12-08 18:23:15.424532",
+      "language": "en",
+      "length_before_preprocessing": 5296,
+      "length_after_preprocessing": 874,
+      "url": "https://www.cleanenergywire.org/news/brief-8-december-25"
+    }
+  ]
+}

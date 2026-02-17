@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-03-31",
+  "publications": [
+    {
+      "id": "5522ffb634f53e3dcdea311c3e6029fb885a282734d790ce61e4a3c39d4e3a67",
+      "title": "acer_updates_its_qas_remit_align_them_revised_regulation",
+      "published_on": "2025-03-31 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.224435",
+      "language": "en",
+      "length_before_preprocessing": 7746,
+      "length_after_preprocessing": 783,
+      "url": "https://www.acer.europa.eu/news/acer-updates-its-qas-remit-align-them-revised-regulation"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-09-09",
+  "publications": [
+    {
+      "id": "92a1fc5ada0c1dce2265c7bc51fe8bb43d69abd1080c87731b4a67c51d0e9f7c",
+      "title": "netzausbauvorhaben_fulda_main_leitung_planfeststellungsunterlagen_rund_sechs_monate_frueher_eingereicht",
+      "published_on": "2025-09-09 12:00:00",
+      "scraped_on": "2025-09-12 18:31:40.260006",
+      "language": "de",
+      "length_before_preprocessing": 6543,
+      "length_after_preprocessing": 2187,
+      "url": "https://www.tennet.eu/de/news/netzausbauvorhaben-fulda-main-leitung-planfeststellungsunterlagen-rund-sechs-monate-frueher-eingereicht"
+    }
+  ]
+}

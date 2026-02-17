@@ -1,0 +1,26 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-12-09",
+  "publications": [
+    {
+      "id": "e94aa2a4b3173fc78800db9ed056acce7f606f0398e67491ca2af09fad824261",
+      "title": "TB_TK_Post",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-10 18:20:48.213456",
+      "language": "de",
+      "length_before_preprocessing": 4037,
+      "length_after_preprocessing": 1483,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251209_TB_TK_Post.html"
+    },
+    {
+      "id": "9c5e726409726279685cd724901d3f7024a7d1512102fa01cf0af02e108e19a3",
+      "title": "NEST",
+      "published_on": "2025-12-09 12:00:00",
+      "scraped_on": "2025-12-10 18:20:54.050584",
+      "language": "de",
+      "length_before_preprocessing": 5781,
+      "length_after_preprocessing": 3171,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251209_NEST.html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2024-11-26",
+  "publications": [
+    {
+      "id": "9b7575593083aadaf67a5cbc02e9e8afde082f513b0bc03838340281fa18de61",
+      "title": "TransnetBW_wird_Mitglied_der_IPAI_Community",
+      "published_on": "2024-11-26 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.641886",
+      "language": "de",
+      "length_before_preprocessing": 5390,
+      "length_after_preprocessing": 1889,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/TransnetBW-wird-Mitglied-der-IPAI-Community"
+    }
+  ]
+}

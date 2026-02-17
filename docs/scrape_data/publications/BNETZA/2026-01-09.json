@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2026-01-09",
+  "publications": [
+    {
+      "id": "2b2660e75af0fb34ed713cb04b583a6a147e6016f8726e77a45c5a93f7eccde9",
+      "title": "JahresRueckblickGAS",
+      "published_on": "2026-01-09 12:00:00",
+      "scraped_on": "2026-01-12 18:20:57.032680",
+      "language": "de",
+      "length_before_preprocessing": 4238,
+      "length_after_preprocessing": 1548,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260109_JahresRueckblickGAS.html"
+    }
+  ]
+}

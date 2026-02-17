@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-05-16",
+  "publications": [
+    {
+      "id": "95731740367877a6dc69ca22d7bc1d7ca54316920a644a2578e24fb71c3614e5",
+      "title": "electrifying_europe_industry_and_grid_operators_discuss_the_skilled_workforce_gap",
+      "published_on": "2025-05-16 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.523337",
+      "language": "en",
+      "length_before_preprocessing": 3383,
+      "length_after_preprocessing": 1154,
+      "url": "https://www.entsoe.eu/news/2025/05/16/electrifying-europe-industry-and-grid-operators-discuss-the-skilled-workforce-gap"
+    }
+  ]
+}

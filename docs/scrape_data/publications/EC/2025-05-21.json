@@ -1,0 +1,36 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-05-21",
+  "publications": [
+    {
+      "id": "0b7b9c1d864def05577d7b0acde8479875386b4707b5d2f6a8ffae700b5cd975",
+      "title": "energy_efficiency_new_impetus_reduce_energy_consumption",
+      "published_on": "2025-05-21 12:00:00",
+      "scraped_on": "2025-07-31 11:18:30.974852",
+      "language": "en",
+      "length_before_preprocessing": 5075,
+      "length_after_preprocessing": 1902,
+      "url": "https://energy.ec.europa.eu/news/energy-efficiency-new-impetus-reduce-energy-consumption-2025-05-21_en"
+    },
+    {
+      "id": "ecf689b59b35384732ea2d0b68273e88f99c6b11328a6ad897f152ce076eb2c5",
+      "title": "have_your_say_call_feedback_technical_rules_smoothly_switching_electricity_supplier",
+      "published_on": "2025-05-21 12:00:00",
+      "scraped_on": "2025-07-31 11:18:30.975539",
+      "language": "en",
+      "length_before_preprocessing": 4418,
+      "length_after_preprocessing": 1267,
+      "url": "https://energy.ec.europa.eu/news/have-your-say-call-feedback-technical-rules-smoothly-switching-electricity-supplier-2025-05-21_en"
+    },
+    {
+      "id": "6edf6e949319e595c0f37bd5b7239d9be1f9e2924238ce12a172b8808de06afa",
+      "title": "renewables_directive_sectoral_targets_reach_transposition_deadline",
+      "published_on": "2025-05-21 12:00:00",
+      "scraped_on": "2025-07-31 11:18:30.976184",
+      "language": "en",
+      "length_before_preprocessing": 4155,
+      "length_after_preprocessing": 1190,
+      "url": "https://energy.ec.europa.eu/news/renewables-directive-sectoral-targets-reach-transposition-deadline-2025-05-21_en"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-11-10",
+  "publications": [
+    {
+      "id": "996ed72afc9dedb74b9328c229b19de3bfc52e67e8334a748478a2d823349c61",
+      "title": "status_quo_of_battery_storage_applications_in_2024",
+      "published_on": "2025-11-10 12:00:00",
+      "scraped_on": "2026-01-14 09:12:23.778796",
+      "language": "de",
+      "length_before_preprocessing": 6388,
+      "length_after_preprocessing": 4660,
+      "url": "https://www.smard.de/page/en/topic-article/5892/218634/status-quo-of-battery-storage-applications-in-2024"
+    }
+  ]
+}

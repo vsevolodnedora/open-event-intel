@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-09-04",
+  "publications": [
+    {
+      "id": "6fcc6075be75151a43c9854a9fd36ae39fdc965dd0c84b992988a0b40fe59154",
+      "title": "commission_facilitates_landmark_grant_agreement_more_eu645_million_bornholm_energy_island",
+      "published_on": "2025-09-04 12:00:00",
+      "scraped_on": "2025-09-04 18:31:17.354015",
+      "language": "en",
+      "length_before_preprocessing": 4721,
+      "length_after_preprocessing": 1809,
+      "url": "https://energy.ec.europa.eu/news/commission-facilitates-landmark-grant-agreement-more-eu645-million-bornholm-energy-island-2025-09-04_en"
+    }
+  ]
+}

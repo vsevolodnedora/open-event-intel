@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-08-27",
+  "publications": [
+    {
+      "id": "ba722ff9e24eb31a545ca5509df530160767a82f9b7f73295cc633143264631a",
+      "title": "public_consultation_how_increase_lending_energy_renovation_buildings",
+      "published_on": "2025-08-27 12:00:00",
+      "scraped_on": "2025-08-27 18:31:59.028839",
+      "language": "en",
+      "length_before_preprocessing": 3619,
+      "length_after_preprocessing": 704,
+      "url": "https://energy.ec.europa.eu/news/public-consultation-how-increase-lending-energy-renovation-buildings-2025-08-27_en"
+    }
+  ]
+}

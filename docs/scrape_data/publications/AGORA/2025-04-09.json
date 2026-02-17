@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-04-09",
+  "publications": [
+    {
+      "id": "0d006bbcdc0890d57397134403497b7fe0bb512599ac3eac147b3787f7116c06",
+      "title": "a_statement_on_the_german_coalition_agreement",
+      "published_on": "2025-04-09 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.406717",
+      "language": "en",
+      "length_before_preprocessing": 3977,
+      "length_after_preprocessing": 777,
+      "url": "https://www.agora-energiewende.org/news-events/a-statement-on-the-german-coalition-agreement"
+    }
+  ]
+}

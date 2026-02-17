@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-02-17",
+  "publications": [
+    {
+      "id": "5da68cb2ba3c915cff858969f69dd508dd82a6e17c5b8ade8fefe282001af176",
+      "title": "acer_suggests_better_reflecting_benefits_europes_internal_electricity_market_polands_national_resource_adequacy_assessment",
+      "published_on": "2025-02-17 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.245014",
+      "language": "en",
+      "length_before_preprocessing": 9122,
+      "length_after_preprocessing": 1801,
+      "url": "https://www.acer.europa.eu/news/acer-suggests-better-reflecting-benefits-europes-internal-electricity-market-polands-national-resource-adequacy-assessment"
+    }
+  ]
+}

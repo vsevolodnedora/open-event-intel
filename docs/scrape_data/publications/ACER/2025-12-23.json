@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-12-23",
+  "publications": [
+    {
+      "id": "e61e3d4da22ad6f067212b41a85fae1d7c2625b3ae4be8af4be71a148c07e457",
+      "title": "compensation_cross_border_power_losses_fell_2024_after_2023_peak",
+      "published_on": "2025-12-23 12:00:00",
+      "scraped_on": "2025-12-23 18:18:46.043337",
+      "language": "en",
+      "length_before_preprocessing": 8249,
+      "length_after_preprocessing": 1232,
+      "url": "https://www.acer.europa.eu/news/compensation-cross-border-power-losses-fell-2024-after-2023-peak"
+    },
+    {
+      "id": "1bffa58f6bb85f62e0bf051d691812f53b680724100dd27b68455fb94aa8da27",
+      "title": "acer_will_consult_design_remit_exposure_data_reporting",
+      "published_on": "2025-12-23 12:00:00",
+      "scraped_on": "2025-12-23 18:18:46.047480",
+      "language": "en",
+      "length_before_preprocessing": 8027,
+      "length_after_preprocessing": 1002,
+      "url": "https://www.acer.europa.eu/news/acer-will-consult-design-remit-exposure-data-reporting"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-06-05",
+  "publications": [
+    {
+      "id": "4113bfbdc4490fd9262b802de31551b880db8dfaab5530845dd1bb1bafb1d030",
+      "title": "acer_encourages_entsog_further_improve_methodology_identifying_hydrogen_infrastructure_gaps",
+      "published_on": "2025-06-05 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.217714",
+      "language": "en",
+      "length_before_preprocessing": 8187,
+      "length_after_preprocessing": 1141,
+      "url": "https://www.acer.europa.eu/news/acer-encourages-entsog-further-improve-methodology-identifying-hydrogen-infrastructure-gaps"
+    },
+    {
+      "id": "d97bdf2d8c101e8a2b285ad94ab5830f19845465d8fc8b3e8f984705e27f95f4",
+      "title": "acer_will_evaluate_electricity_system_operators_bidding_zone_review_alignment_eu_regulatory_framework",
+      "published_on": "2025-06-05 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.255252",
+      "language": "en",
+      "length_before_preprocessing": 8311,
+      "length_after_preprocessing": 1114,
+      "url": "https://www.acer.europa.eu/news/acer-will-evaluate-electricity-system-operators-bidding-zone-review-alignment-eu-regulatory-framework"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-06-26",
+  "publications": [
+    {
+      "id": "30408d77f0b2fee857696f9df9ed1af6c37ac533b86e7b638f00aac548afd296",
+      "title": "JB_Breitband",
+      "published_on": "2025-06-26 12:00:00",
+      "scraped_on": "2025-07-31 11:11:06.258230",
+      "language": "de",
+      "length_before_preprocessing": 4196,
+      "length_after_preprocessing": 1540,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250626_JB_Breitband.html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-09-25",
+  "publications": [
+    {
+      "id": "6e69f88feefc806eb8b1867ccb801af78dcf4bacbe0cf7e7bcc674a9b5904c6e",
+      "title": "commissioner_jorgensen_greenland_deepen_cooperation_eu",
+      "published_on": "2025-09-25 12:00:00",
+      "scraped_on": "2025-09-25 18:33:04.969279",
+      "language": "en",
+      "length_before_preprocessing": 4045,
+      "length_after_preprocessing": 1226,
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-greenland-deepen-cooperation-eu-2025-09-25_en"
+    }
+  ]
+}

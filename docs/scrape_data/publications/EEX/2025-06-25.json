@@ -1,0 +1,16 @@
+{
+  "publisher": "EEX",
+  "published_on": "2025-06-25",
+  "publications": [
+    {
+      "id": "be22b3ab113f8da8cd8f3353416b240af1c8287c73c62c1c9b0566678010b7f4",
+      "title": "eex_press_release",
+      "published_on": "2025-06-25 12:00:00",
+      "scraped_on": "2025-07-31 11:41:15.052918",
+      "language": "en",
+      "length_before_preprocessing": 6732,
+      "length_after_preprocessing": 895,
+      "url": "https://www.eex.com/en/newsroom/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=14158&cHash=4a5d6b4909ae204c84727226a35ec6b0"
+    }
+  ]
+}

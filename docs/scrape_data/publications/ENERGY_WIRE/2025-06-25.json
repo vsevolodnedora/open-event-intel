@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-25",
+  "publications": [
+    {
+      "id": "59bdee070485173024e620dec0c37dc2e869baf7b5391c1ebbd7b0acc5fc29b7",
+      "title": "brief_25_june_25",
+      "published_on": "2025-06-25 13:44:00",
+      "scraped_on": "2025-07-31 13:45:58.082887",
+      "language": "en",
+      "length_before_preprocessing": 5166,
+      "length_after_preprocessing": 764,
+      "url": "https://www.cleanenergywire.org/news/brief-25-june-25"
+    },
+    {
+      "id": "214d01d3239c363ef6da5e4d0f4bc6994506206faba82e46fa0e19a071c0a082",
+      "title": "german_government_approves_draft_law_accelerate_renewables_expansion",
+      "published_on": "2025-06-25 13:33:00",
+      "scraped_on": "2025-07-31 13:46:09.646560",
+      "language": "en",
+      "length_before_preprocessing": 6805,
+      "length_after_preprocessing": 1046,
+      "url": "https://www.cleanenergywire.org/news/german-government-approves-draft-law-accelerate-renewables-expansion"
+    },
+    {
+      "id": "6470693e768fdd06d2b039c032c5553cb54c19256d7d0f97aae316d901bfd3c2",
+      "title": "germanys_battery_storage_capacity_150_2023",
+      "published_on": "2025-06-25 13:30:00",
+      "scraped_on": "2025-07-31 13:46:21.164429",
+      "language": "en",
+      "length_before_preprocessing": 5420,
+      "length_after_preprocessing": 866,
+      "url": "https://www.cleanenergywire.org/news/germanys-battery-storage-capacity-150-2023"
+    },
+    {
+      "id": "bd51b64bc6da1f25eef81b4127da0f0f6e8d3704685b9b99c7dd97d7528183bf",
+      "title": "germanys_sharp_hydrogen_and_clean_industry_budget_cuts_send_totally_wrong_signal_energy_industry",
+      "published_on": "2025-06-25 13:25:00",
+      "scraped_on": "2025-07-31 13:46:32.647634",
+      "language": "en",
+      "length_before_preprocessing": 4344,
+      "length_after_preprocessing": 820,
+      "url": "https://www.cleanenergywire.org/news/germanys-sharp-hydrogen-and-clean-industry-budget-cuts-send-totally-wrong-signal-energy-industry"
+    }
+  ]
+}

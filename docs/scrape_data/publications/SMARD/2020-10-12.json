@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2020-10-12",
+  "publications": [
+    {
+      "id": "dfda399d88e08bc29d4ff6415851d7384dd11a059734fc065032dfba361b2eae",
+      "title": "grosshandelspreise_gestiegen",
+      "published_on": "2020-10-12 12:00:00",
+      "scraped_on": "2026-01-14 09:15:01.352171",
+      "language": "de",
+      "length_before_preprocessing": 8945,
+      "length_after_preprocessing": 5297,
+      "url": "https://www.smard.de/page/home/topic-article/204970/196294/grosshandelspreise-gestiegen"
+    }
+  ]
+}

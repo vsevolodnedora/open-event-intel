@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-06-11",
+  "publications": [
+    {
+      "id": "803a3359d67e72ed4ae4f6313b4bfb2b2fb09e8993814148f2d648a2bc25eb8e",
+      "title": "commissioner_jorgensen_hosts_high_level_implementation_dialogue_permitting_clean_energy_transition",
+      "published_on": "2025-06-11 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.360373",
+      "language": "en",
+      "length_before_preprocessing": 4662,
+      "length_after_preprocessing": 1679,
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-hosts-high-level-implementation-dialogue-permitting-clean-energy-transition-2025-06-11_en"
+    }
+  ]
+}

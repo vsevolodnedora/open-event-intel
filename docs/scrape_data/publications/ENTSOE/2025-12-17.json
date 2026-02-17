@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-12-17",
+  "publications": [
+    {
+      "id": "bd69101fb0e5a32f775bfcfb7d46e6e0e063908286b96be78fc88df4ead11579",
+      "title": "entso_e_releases_latest_european_resource_adequacy_assessment",
+      "published_on": "2025-12-17 12:00:00",
+      "scraped_on": "2025-12-17 18:19:15.684881",
+      "language": "en",
+      "length_before_preprocessing": 3108,
+      "length_after_preprocessing": 946,
+      "url": "https://www.entsoe.eu/news/2025/12/17/entso-e-releases-latest-european-resource-adequacy-assessment"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2017-07-01",
+  "publications": [
+    {
+      "id": "f4f81f32e476507086b7b2f0accaf0e25b9c3cbc755e014e098280c2cc8a6ce6",
+      "title": "stromerzeugung_in_deutschland_erneuerbare_energien_veraendern_das_system",
+      "published_on": "2017-07-01 12:00:00",
+      "scraped_on": "2026-01-14 09:19:36.365293",
+      "language": "de",
+      "length_before_preprocessing": 8333,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/204976/510/stromerzeugung-in-deutschland-erneuerbare-energien-veraendern-das-system"
+    },
+    {
+      "id": "573220852d0e65945722eb1a07a8fdba70389134eeb25167791e2d6e55df0c7c",
+      "title": "strommarkt_im_wandel_so_funktioniert_der_strommarkt_2_0_",
+      "published_on": "2017-07-01 12:00:00",
+      "scraped_on": "2026-01-14 09:19:20.489680",
+      "language": "de",
+      "length_before_preprocessing": 9141,
+      "length_after_preprocessing": 5695,
+      "url": "https://www.smard.de/page/home/topic-article/204976/486/strommarkt-im-wandel-so-funktioniert-der-strommarkt-2-0-"
+    }
+  ]
+}

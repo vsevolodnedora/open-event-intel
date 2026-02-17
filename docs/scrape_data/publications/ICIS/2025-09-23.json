@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-23",
+  "publications": [
+    {
+      "id": "d647b3cb3c9b2e931932487f9a1c99556ebbd624899cac707b7f987b72a8bbfe",
+      "title": "eurozone_business_activity_continues_to_rise_in_september_driven_by_services_sector",
+      "published_on": "2025-09-23 12:00:00",
+      "scraped_on": "2025-09-23 18:33:19.779946",
+      "language": "en",
+      "length_before_preprocessing": 5595,
+      "length_after_preprocessing": 914,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/23/11139784/eurozone-business-activity-continues-to-rise-in-september-driven-by-services-sector"
+    },
+    {
+      "id": "6d9462ba9b5eec77648a2592a37abd9ecb7a46f88741f663c42cbf69b0f68cbc",
+      "title": "epca_25_stormy_sentiment_and_turbulent_times_for_europe_s_chems_industry",
+      "published_on": "2025-09-23 12:00:00",
+      "scraped_on": "2025-09-23 18:33:19.785211",
+      "language": "en",
+      "length_before_preprocessing": 5351,
+      "length_after_preprocessing": 681,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/23/11139836/epca-25-stormy-sentiment-and-turbulent-times-for-europe-s-chems-industry"
+    },
+    {
+      "id": "245ef9fa054e10af7de6a9e9ae18902bd3dfa36cfbf42ed12339920629916fe5",
+      "title": "kuwait_to_ramp_up_petrochemical_capacity_in_diversification_plan",
+      "published_on": "2025-09-23 12:00:00",
+      "scraped_on": "2025-09-23 18:33:19.786959",
+      "language": "en",
+      "length_before_preprocessing": 5625,
+      "length_after_preprocessing": 927,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/23/11139746/kuwait-to-ramp-up-petrochemical-capacity-in-diversification-plan"
+    },
+    {
+      "id": "923e483375fd98936f6f8fc1760060cb3e603b83b3e2d4c22cc79ff4c5d1d847",
+      "title": "economics_continue_hindering_plastics_sustainability_transition_as_virgin_material_still_king_execs",
+      "published_on": "2025-09-23 12:00:00",
+      "scraped_on": "2025-09-23 18:33:19.788852",
+      "language": "en",
+      "length_before_preprocessing": 7946,
+      "length_after_preprocessing": 3271,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/23/11139711/economics-continue-hindering-plastics-sustainability-transition-as-virgin-material-still-king-execs"
+    },
+    {
+      "id": "6fc28dacac22bc4b9ca30256130412529c7066a40e7409b6e7fdccf20883fdd5",
+      "title": "corrected_podcast_experts_dive_into_immediate_and_future_impacts_of_tariffs_on_us_pet_r_pet_markets",
+      "published_on": "2025-09-23 12:00:00",
+      "scraped_on": "2025-09-24 18:30:33.259454",
+      "language": "en",
+      "length_before_preprocessing": 5349,
+      "length_after_preprocessing": 606,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/23/11139862/corrected-podcast-experts-dive-into-immediate-and-future-impacts-of-tariffs-on-us-pet-r-pet-markets"
+    },
+    {
+      "id": "2bd404c8dfd38a7679f2d00880640790513b89f189b6f8deeacd4b431b1d43c7",
+      "title": "rail_largest_us_railroad_union_backs_up_ns_merger_after_job_security_agreement",
+      "published_on": "2025-09-23 12:00:00",
+      "scraped_on": "2025-09-24 18:30:33.262217",
+      "language": "en",
+      "length_before_preprocessing": 5790,
+      "length_after_preprocessing": 1011,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/23/11139863/rail-largest-us-railroad-union-backs-up-ns-merger-after-job-security-agreement"
+    }
+  ]
+}

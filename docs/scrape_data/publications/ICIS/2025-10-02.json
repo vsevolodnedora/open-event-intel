@@ -1,0 +1,86 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-02",
+  "publications": [
+    {
+      "id": "a780f765ddb85678c6f3f956ceb0b29d9f74d1ff69a444b85f164f5bbb02e35a",
+      "title": "dow_to_shut_belgium_polyols_plant_in_q1_2026",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-02 18:32:44.642211",
+      "language": "en",
+      "length_before_preprocessing": 5227,
+      "length_after_preprocessing": 1077,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143055/dow-to-shut-belgium-polyols-plant-in-q1-2026"
+    },
+    {
+      "id": "c2588117b58a2f63b230418301c2f9a9782806fef6708a1577731bf8098e9edc",
+      "title": "blog_the_china_driven_crisis_in_global_pp_continues",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-02 18:32:44.647727",
+      "language": "en",
+      "length_before_preprocessing": 5875,
+      "length_after_preprocessing": 1152,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143048/blog-the-china-driven-crisis-in-global-pp-continues"
+    },
+    {
+      "id": "fbe700ef35660916b70679662bb1d87dc58109c97052d90b402606bf21334b4a",
+      "title": "podcast_chems_players_face_up_to_reality_of_continued_weak_outlook",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-02 18:32:44.649993",
+      "language": "en",
+      "length_before_preprocessing": 5870,
+      "length_after_preprocessing": 1107,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143051/podcast-chems-players-face-up-to-reality-of-continued-weak-outlook"
+    },
+    {
+      "id": "5ebd8c75c57d5ecfe00f49242007ffec5ab2a9b23803785427b0f9b2da191119",
+      "title": "lg_chem_to_sell_1_43_billion_worth_of_lg_energy_solution_shares",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-02 18:32:44.651986",
+      "language": "en",
+      "length_before_preprocessing": 5328,
+      "length_after_preprocessing": 595,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143008/lg-chem-to-sell-1-43-billion-worth-of-lg-energy-solution-shares"
+    },
+    {
+      "id": "2f3fdfd821a968391848c72f904f7c564cb615c7bc21930b8b16ed2cd227ec37",
+      "title": "european_hydrogen_week_mep_calls_for_extension_to_rfnbo_delegated_act_exemptions",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.920704",
+      "language": "en",
+      "length_before_preprocessing": 4915,
+      "length_after_preprocessing": 1160,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143070/european-hydrogen-week-mep-calls-for-extension-to-rfnbo-delegated-act-exemptions"
+    },
+    {
+      "id": "c22e0ad09b6771a65c75d675947ae13953ef29ab508d6a58e45f5424b3dacce3",
+      "title": "shipping_most_carriers_will_not_add_surcharges_or_service_fees_to_offset_ustr_port_charges",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.923935",
+      "language": "en",
+      "length_before_preprocessing": 6218,
+      "length_after_preprocessing": 2136,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143089/shipping-most-carriers-will-not-add-surcharges-or-service-fees-to-offset-ustr-port-charges"
+    },
+    {
+      "id": "120d62a6b041b9de37fc775846ce09402a858dcb23f81a1bb964f7b617d548ec",
+      "title": "clearing_standardization_euro_trading_essential_to_cee_gas_market_integration_hungary_s_clearing_house",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.928592",
+      "language": "en",
+      "length_before_preprocessing": 5383,
+      "length_after_preprocessing": 1691,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143083/clearing-standardization-euro-trading-essential-to-cee-gas-market-integration-hungary-s-clearing-house"
+    },
+    {
+      "id": "6b2526b10295865010471093186bb6ce721d68199a28faa8fa3fc5bcb048d94a",
+      "title": "lego_s_us_virginia_plant_enters_next_phase_of_construction",
+      "published_on": "2025-10-02 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.935168",
+      "language": "en",
+      "length_before_preprocessing": 6477,
+      "length_after_preprocessing": 1819,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/02/11143075/lego-s-us-virginia-plant-enters-next-phase-of-construction"
+    }
+  ]
+}

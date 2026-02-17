@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-03-21",
+  "publications": [
+    {
+      "id": "e232583866016f409f80bab567598272e1d1490e88ab15a4c121909c4b1fbf39",
+      "title": "eu_smart_readiness_indicator_launch_test_phase_italy",
+      "published_on": "2025-03-21 12:00:00",
+      "scraped_on": "2025-07-31 11:17:58.307979",
+      "language": "en",
+      "length_before_preprocessing": 4284,
+      "length_after_preprocessing": 1475,
+      "url": "https://energy.ec.europa.eu/news/eu-smart-readiness-indicator-launch-test-phase-italy-2025-03-21_en"
+    }
+  ]
+}

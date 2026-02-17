@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-10-21",
+  "publications": [
+    {
+      "id": "391fc708ecbd4677a20977595bc1e3548e6defd2918398936e3c66d1637505bf",
+      "title": "commission_steps_efforts_lower_energy_prices_set_actions_bring_relief_industries_and_consumers",
+      "published_on": "2025-10-21 12:00:00",
+      "scraped_on": "2025-10-22 16:08:45.445433",
+      "language": "en",
+      "length_before_preprocessing": 5051,
+      "length_after_preprocessing": 2065,
+      "url": "https://energy.ec.europa.eu/news/commission-steps-efforts-lower-energy-prices-set-actions-bring-relief-industries-and-consumers-2025-10-21_en"
+    }
+  ]
+}

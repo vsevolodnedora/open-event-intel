@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-15",
+  "publications": [
+    {
+      "id": "af26d324b261f29b6c85e868030f6d4bc7017ab145686318841ea865ad8e9494",
+      "title": "focus_europes_road_fusion_energy",
+      "published_on": "2025-04-15 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.989292",
+      "language": "en",
+      "length_before_preprocessing": 5064,
+      "length_after_preprocessing": 2104,
+      "url": "https://energy.ec.europa.eu/news/focus-europes-road-fusion-energy-2025-04-15_en"
+    }
+  ]
+}

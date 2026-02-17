@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-02",
+  "publications": [
+    {
+      "id": "8009907143679849f4ce5a7f5248ff86efdb1aa6e43f37509a74b20a9b54f3c3",
+      "title": "india_oct_industrial_output_growth_slows_nov_pmi_at_56_6",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:39:34.340204",
+      "language": "en",
+      "length_before_preprocessing": 6035,
+      "length_after_preprocessing": 2297,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161256/india-oct-industrial-output-growth-slows-nov-pmi-at-56-6"
+    },
+    {
+      "id": "6df4818b4282dd8ce56c6fa877a8f3e332fecce47af5d855583c3d78e6cfde70",
+      "title": "blog_president_trump_s_tariffs_change_chemical_industry_business_models",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:39:34.343430",
+      "language": "en",
+      "length_before_preprocessing": 5094,
+      "length_after_preprocessing": 326,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161260/blog-president-trump-s-tariffs-change-chemical-industry-business-models"
+    },
+    {
+      "id": "5ab1c58c13c43ac5ee44af8d38dadef02690e91ac042012579c07d3ff42d5687",
+      "title": "lotte_chemical_mulls_strategic_measures_for_indonesia_assets",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:39:34.345742",
+      "language": "en",
+      "length_before_preprocessing": 5198,
+      "length_after_preprocessing": 445,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161275/lotte-chemical-mulls-strategic-measures-for-indonesia-assets"
+    },
+    {
+      "id": "e7ef6320d96c9d3b6ff415a959ebf4d065f23521388e78067a838a03ff152227",
+      "title": "india_withdraws_import_certification_for_seven_more_chemicals",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:39:34.351214",
+      "language": "en",
+      "length_before_preprocessing": 5664,
+      "length_after_preprocessing": 919,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161222/india-withdraws-import-certification-for-seven-more-chemicals"
+    },
+    {
+      "id": "16f7d210559a6daceb3c23f5986b9ebb2369bfe645335954b977ad1be1e6b158",
+      "title": "asia_nov_factory_activity_mixed_with_weak_demand_in_focus",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:39:34.353036",
+      "language": "en",
+      "length_before_preprocessing": 5603,
+      "length_after_preprocessing": 1926,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161280/asia-nov-factory-activity-mixed-with-weak-demand-in-focus"
+    },
+    {
+      "id": "dab8df480e4e8fafe7561062b15ca4f6ac2463dc90292f59090222f92bf006ec",
+      "title": "blog_china_poe_expansion_what_it_means_for_global_chemicals_strategy",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:39:34.356021",
+      "language": "en",
+      "length_before_preprocessing": 5978,
+      "length_after_preprocessing": 1260,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161225/blog-china-poe-expansion-what-it-means-for-global-chemicals-strategy"
+    },
+    {
+      "id": "a551e1fbfb65a2b07945b01e8bb4c364d6a8e44a976597dfaa5f03915585d81c",
+      "title": "insight_container_capacity_likely_to_surge_on_return_to_suez_canal_but_rates_could_rise_in_short_term",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-03 06:58:56.588523",
+      "language": "en",
+      "length_before_preprocessing": 7141,
+      "length_after_preprocessing": 3412,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/02/11161324/insight-container-capacity-likely-to-surge-on-return-to-suez-canal-but-rates-could-rise-in-short-term"
+    }
+  ]
+}

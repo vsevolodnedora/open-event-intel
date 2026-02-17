@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2019-07-11",
+  "publications": [
+    {
+      "id": "f218694ce56c54b0966f12ed4b957f40a57cc3d0d0df59f8b7145d6936d18599",
+      "title": "der_stromhandel_im_mai_und_juni_2019",
+      "published_on": "2019-07-11 12:00:00",
+      "scraped_on": "2026-01-14 09:16:20.882827",
+      "language": "de",
+      "length_before_preprocessing": 7266,
+      "length_after_preprocessing": 3991,
+      "url": "https://www.smard.de/page/home/topic-article/204972/11844/der-stromhandel-im-mai-und-juni-2019"
+    }
+  ]
+}

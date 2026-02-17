@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-07-10",
+  "publications": [
+    {
+      "id": "ce09b4b15027e51a1dd16cc2854c3104b1541bd79c7b6cb6c241db83eb8d6d77",
+      "title": "public_consultation_amendment_of_the_mfrr_and_afrr_implementation_frameworks_including_common_harmonisation_proposal",
+      "published_on": "2025-07-10 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.535698",
+      "language": "en",
+      "length_before_preprocessing": 3554,
+      "length_after_preprocessing": 709,
+      "url": "https://www.entsoe.eu/news/2025/07/10/public-consultation-amendment-of-the-mfrr-and-afrr-implementation-frameworks-including-common-harmonisation-proposal"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-07-11",
+  "publications": [
+    {
+      "id": "452a9bf045782fc1291cf57d77b98c545d61d436f891e8ad9b528e710b8853b8",
+      "title": "suedlink_bau_in_hessen_kann_starten",
+      "published_on": "2025-07-11 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.615589",
+      "language": "de",
+      "length_before_preprocessing": 5063,
+      "length_after_preprocessing": 1500,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/suedlink-bau-in-hessen-kann-starten"
+    }
+  ]
+}

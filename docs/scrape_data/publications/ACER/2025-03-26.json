@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-03-26",
+  "publications": [
+    {
+      "id": "dc535113c4efbe75db4553f7ec3cdd92479b5bab70dd4766fd5503d96f864783",
+      "title": "getting_price_signals_right_fair_and_cost_reflective_electricity_network_tariffs",
+      "published_on": "2025-03-26 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.247499",
+      "language": "en",
+      "length_before_preprocessing": 8614,
+      "length_after_preprocessing": 1574,
+      "url": "https://www.acer.europa.eu/news/getting-price-signals-right-fair-and-cost-reflective-electricity-network-tariffs"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2026-02-05",
+  "publications": [
+    {
+      "id": "f3d62fd8857a8717c8c8d13820b3bb3f38aa44fe49272e14e24260251338988a",
+      "title": "power_system_incident_in_ukraine_and_moldova",
+      "published_on": "2026-02-05 12:00:00",
+      "scraped_on": "2026-02-14 18:19:45.000982",
+      "language": "en",
+      "length_before_preprocessing": 2631,
+      "length_after_preprocessing": 359,
+      "url": "https://www.entsoe.eu/news/2026/02/05/power-system-incident-in-ukraine-and-moldova"
+    },
+    {
+      "id": "65366cfa757d38aeb8139ab69edf2a4098a997c26c9036e7f57e21e6f2ad37cf",
+      "title": "entso_e_publishes_technical_report_instability_detection_technologies_in_power_electronics_dominated_systems",
+      "published_on": "2026-02-05 12:00:00",
+      "scraped_on": "2026-02-14 18:19:45.008655",
+      "language": "en",
+      "length_before_preprocessing": 3591,
+      "length_after_preprocessing": 1446,
+      "url": "https://www.entsoe.eu/news/2026/02/05/entso-e-publishes-technical-report-instability-detection-technologies-in-power-electronics-dominated-systems"
+    }
+  ]
+}

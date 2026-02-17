@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-11",
+  "publications": [
+    {
+      "id": "458b8f435c51a4b32a4688ffe27a6eec3db3f663dd694a11ddb31b429cbc1472",
+      "title": "dispatch_italy_july_25",
+      "published_on": "2025-07-11 15:00:00",
+      "scraped_on": "2025-07-31 13:55:30.153197",
+      "language": "en",
+      "length_before_preprocessing": 10734,
+      "length_after_preprocessing": 3116,
+      "url": "https://www.cleanenergywire.org/news/dispatch-italy-july-25"
+    },
+    {
+      "id": "f2f8bfc48506341d8577869fe36ca712c9f0f3448db38af74c3d1b79ca3b7cc2",
+      "title": "europe_must_coordinate_carbon_infrastructure_buildout_ccs_success_report",
+      "published_on": "2025-07-11 13:34:00",
+      "scraped_on": "2025-07-31 13:55:41.840140",
+      "language": "en",
+      "length_before_preprocessing": 6678,
+      "length_after_preprocessing": 977,
+      "url": "https://www.cleanenergywire.org/news/europe-must-coordinate-carbon-infrastructure-buildout-ccs-success-report"
+    },
+    {
+      "id": "0e7a05aea95f90cff6aa2c9c9d4f0b9672654f7b8dfc0dfe4115f68d961e9574",
+      "title": "german_railway_lacks_strategy_escape_permanent_crisis_federal_auditors",
+      "published_on": "2025-07-11 13:33:00",
+      "scraped_on": "2025-07-31 13:55:53.627166",
+      "language": "en",
+      "length_before_preprocessing": 6311,
+      "length_after_preprocessing": 797,
+      "url": "https://www.cleanenergywire.org/news/german-railway-lacks-strategy-escape-permanent-crisis-federal-auditors"
+    },
+    {
+      "id": "6bf9b3f382c6e9ea9fda452f97f6a3046364c404501dea4a3a37ee1bab06a35f",
+      "title": "germany_should_stick_renewables_expansion_targets_incentivise_electrification_report",
+      "published_on": "2025-07-11 13:31:00",
+      "scraped_on": "2025-07-31 13:56:05.231719",
+      "language": "en",
+      "length_before_preprocessing": 6900,
+      "length_after_preprocessing": 1027,
+      "url": "https://www.cleanenergywire.org/news/germany-should-stick-renewables-expansion-targets-incentivise-electrification-report"
+    },
+    {
+      "id": "3ce910da4046a5e1c75a1ffaa97cfa7d5702eb7a81b8ef9af45ee1f108db9757",
+      "title": "brief_11_july_25",
+      "published_on": "2025-07-11 11:33:00",
+      "scraped_on": "2025-07-31 13:56:16.923158",
+      "language": "en",
+      "length_before_preprocessing": 5145,
+      "length_after_preprocessing": 792,
+      "url": "https://www.cleanenergywire.org/news/brief-11-july-25"
+    }
+  ]
+}

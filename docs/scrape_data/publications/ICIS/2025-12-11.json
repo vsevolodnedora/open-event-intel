@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-11",
+  "publications": [
+    {
+      "id": "ba7530bc8881fc75e52671704a8f25c879fef05c443a47f2a2fc6e2b0af63f5c",
+      "title": "gpca_25_indorama_ceo_urges_co_ordinated_state_private_action_to_tackle_petrochemical_overcapacity",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-11 18:18:38.935668",
+      "language": "en",
+      "length_before_preprocessing": 6496,
+      "length_after_preprocessing": 1760,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163320/gpca-25-indorama-ceo-urges-co-ordinated-state-private-action-to-tackle-petrochemical-overcapacity"
+    },
+    {
+      "id": "136d679a4ae584f99cf657fe89008d2932ac344846075a2d948a3cac75e26b83",
+      "title": "imf_ups_china_2025_gdp_growth_forecast_on_policy_lower_us_tariffs",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-11 18:18:38.938540",
+      "language": "en",
+      "length_before_preprocessing": 5855,
+      "length_after_preprocessing": 1055,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163236/imf-ups-china-2025-gdp-growth-forecast-on-policy-lower-us-tariffs"
+    },
+    {
+      "id": "675241f015915a33567dd84daf1a5ac6fb50a517e9f370c1852fb4351b17834d",
+      "title": "opinion_bulgarian_government_resignation_raises_questions_about_russian_gas_phaseout_plans",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-11 18:18:38.940906",
+      "language": "en",
+      "length_before_preprocessing": 6443,
+      "length_after_preprocessing": 1646,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163359/opinion-bulgarian-government-resignation-raises-questions-about-russian-gas-phaseout-plans"
+    },
+    {
+      "id": "42b6952a34a1dec2679435d9ef0d73d1c44aa5b8f1a00040d64bd5f5b3edbc89",
+      "title": "iea_cuts_crude_supply_forecasts_as_surplus_narrows",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-11 18:18:38.943232",
+      "language": "en",
+      "length_before_preprocessing": 6311,
+      "length_after_preprocessing": 1535,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163336/iea-cuts-crude-supply-forecasts-as-surplus-narrows"
+    },
+    {
+      "id": "9456bcfad4749d2525979675e082a15cd50c6bc8e09a7d5fd90729bee2d5a1e1",
+      "title": "brazil_s_central_bank_holds_rates_at_15_despite_improving_inflation_dims_hopes_for_january_cut",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-12 18:21:11.970542",
+      "language": "en",
+      "length_before_preprocessing": 6503,
+      "length_after_preprocessing": 1630,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163350/brazil-s-central-bank-holds-rates-at-15-despite-improving-inflation-dims-hopes-for-january-cut"
+    },
+    {
+      "id": "2db2ab9b31c42e5b840b56a537a740b313a8dc6a37f916b3c175bb9cf62670d0",
+      "title": "basf_to_start_up_commercial_scale_3d_printed_catalyst_plant_in_q1_2026",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-12 18:21:11.972905",
+      "language": "en",
+      "length_before_preprocessing": 6460,
+      "length_after_preprocessing": 1610,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163377/basf-to-start-up-commercial-scale-3d-printed-catalyst-plant-in-q1-2026"
+    },
+    {
+      "id": "7da23e593d255eff29cfec3918ca7111780513b3300a1caf2f92951d67ba14c4",
+      "title": "insight_exxonmobil_expects_earnings_growth_from_its_chem_refining_segment",
+      "published_on": "2025-12-11 12:00:00",
+      "scraped_on": "2025-12-12 18:21:11.974915",
+      "language": "en",
+      "length_before_preprocessing": 7765,
+      "length_after_preprocessing": 2768,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/11/11163370/insight-exxonmobil-expects-earnings-growth-from-its-chem-refining-segment"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2024-12-19",
+  "publications": [
+    {
+      "id": "6c951cc203459ac1c56e251ef9693acacc4c6b5e26369734b8db8df06f91bec3",
+      "title": "scholzs_spd_advocates_made_germany_20_2025_election_programme",
+      "published_on": "2024-12-19 13:40:00",
+      "scraped_on": "2025-07-31 12:07:02.040941",
+      "language": "en",
+      "length_before_preprocessing": 6770,
+      "length_after_preprocessing": 1125,
+      "url": "https://www.cleanenergywire.org/news/scholzs-spd-advocates-made-germany-20-2025-election-programme"
+    },
+    {
+      "id": "66130ae6307990a41ae02d37a6a0905d20519992b84bbd32c672e08610c11879",
+      "title": "german_last_generation_climate_activist_group_drops_name_plans_focus_social_issues",
+      "published_on": "2024-12-19 13:37:00",
+      "scraped_on": "2025-07-31 12:07:12.512656",
+      "language": "en",
+      "length_before_preprocessing": 6673,
+      "length_after_preprocessing": 867,
+      "url": "https://www.cleanenergywire.org/news/german-last-generation-climate-activist-group-drops-name-plans-focus-social-issues"
+    },
+    {
+      "id": "c20888a1a833028a6a7b9aa5c90c070f0e3fd3cef280033d4b1ff6b8515f84e6",
+      "title": "autobahn_speed_limit_debate_flares_again_germany_enters_election_campaign",
+      "published_on": "2024-12-19 13:35:00",
+      "scraped_on": "2025-07-31 12:07:24.057660",
+      "language": "en",
+      "length_before_preprocessing": 6725,
+      "length_after_preprocessing": 934,
+      "url": "https://www.cleanenergywire.org/news/autobahn-speed-limit-debate-flares-again-germany-enters-election-campaign"
+    },
+    {
+      "id": "fd87660484eef9facf7314547a8817152d3dbd5c4863f062c060afd313af1329",
+      "title": "pending_state_aid_decision_and_technical_issues_weigh_german_lng_terminals",
+      "published_on": "2024-12-19 13:31:00",
+      "scraped_on": "2025-07-31 12:07:34.533403",
+      "language": "en",
+      "length_before_preprocessing": 4167,
+      "length_after_preprocessing": 872,
+      "url": "https://www.cleanenergywire.org/news/pending-state-aid-decision-and-technical-issues-weigh-german-lng-terminals"
+    },
+    {
+      "id": "af953171275afb9a5dd3ea26ffe4ea7ab8516aa1275d5a415128e6f5622d80ef",
+      "title": "vote25_next_govt_must_solve_climate_adaptation_financing_challenge_topic_gains_traction_think_tank",
+      "published_on": "2024-12-19 13:15:00",
+      "scraped_on": "2025-07-31 12:07:46.183185",
+      "language": "en",
+      "length_before_preprocessing": 8830,
+      "length_after_preprocessing": 2712,
+      "url": "https://www.cleanenergywire.org/news/vote25-next-govt-must-solve-climate-adaptation-financing-challenge-topic-gains-traction-think-tank"
+    },
+    {
+      "id": "9b98b34af7a2340c2fb104020a9db68ac70799342652c7f9c3f04ec87b0a012c",
+      "title": "brief_19_december_24",
+      "published_on": "2024-12-19 11:48:00",
+      "scraped_on": "2025-07-31 12:07:57.929459",
+      "language": "en",
+      "length_before_preprocessing": 5066,
+      "length_after_preprocessing": 732,
+      "url": "https://www.cleanenergywire.org/news/brief-19-december-24"
+    }
+  ]
+}

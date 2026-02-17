@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-03-31",
+  "publications": [
+    {
+      "id": "d3aac5b031f1c90bcc67cf0da184449616dc4357c0617cb631a7ac359c61a8f2",
+      "title": "quarterly_reports_confirm_continued_electricity_and_gas_market_resilience",
+      "published_on": "2025-03-31 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.992200",
+      "language": "en",
+      "length_before_preprocessing": 4954,
+      "length_after_preprocessing": 2012,
+      "url": "https://energy.ec.europa.eu/news/quarterly-reports-confirm-continued-electricity-and-gas-market-resilience-2025-03-31_en"
+    }
+  ]
+}

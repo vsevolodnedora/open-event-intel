@@ -1,0 +1,26 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2023-09-12",
+  "publications": [
+    {
+      "id": "5b5df759436ba542e7054c417b351949f2196c9a77cb6f34a926f1aab3194c5b",
+      "title": "ensuring_resilience_in_europes_energy_transition_the_role_of_eu_clean_tech_manufacturing",
+      "published_on": "2023-09-12 12:00:00",
+      "scraped_on": "2025-07-31 14:56:11.884063",
+      "language": "en",
+      "length_before_preprocessing": 4919,
+      "length_after_preprocessing": 1059,
+      "url": "https://www.agora-energiewende.org/news-events/ensuring-resilience-in-europes-energy-transition-the-role-of-eu-clean-tech-manufacturing"
+    },
+    {
+      "id": "a79ca150d0f2b16ec4bc836cdf942c48f7fac001dc9bbbbe725eab2f398d674c",
+      "title": "shared_net_zero_prosperity_for_an_inclusive_and_sustainable_recovery",
+      "published_on": "2023-09-12 12:00:00",
+      "scraped_on": "2025-07-31 14:56:11.896291",
+      "language": "en",
+      "length_before_preprocessing": 8270,
+      "length_after_preprocessing": 1142,
+      "url": "https://www.agora-energiewende.org/news-events/shared-net-zero-prosperity-for-an-inclusive-and-sustainable-recovery"
+    }
+  ]
+}

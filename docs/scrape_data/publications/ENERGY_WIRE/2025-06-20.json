@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-20",
+  "publications": [
+    {
+      "id": "75af7ae48fc3bddfbe370c98acdddff02eff96d82ea0ace4577e0b9671b290bc",
+      "title": "dispatch_european_union_june_25",
+      "published_on": "2025-06-20 15:30:00",
+      "scraped_on": "2025-07-31 13:48:16.530231",
+      "language": "en",
+      "length_before_preprocessing": 9762,
+      "length_after_preprocessing": 3768,
+      "url": "https://www.cleanenergywire.org/news/dispatch-european-union-june-25"
+    },
+    {
+      "id": "707ec1041c49c6251a13b99d6172372558d9c9b56207ef2e1857fa7c78de0719",
+      "title": "spanish_govts_blackout_report_suggests_similar_event_unlikely_occur_germany_researchers",
+      "published_on": "2025-06-20 13:00:00",
+      "scraped_on": "2025-07-31 13:48:28.419307",
+      "language": "en",
+      "length_before_preprocessing": 6902,
+      "length_after_preprocessing": 1089,
+      "url": "https://www.cleanenergywire.org/news/spanish-govts-blackout-report-suggests-similar-event-unlikely-occur-germany-researchers"
+    },
+    {
+      "id": "21fb44e6fb48d845565425df44eced5a644e59842ea26380b4510bc08e591077",
+      "title": "ngos_urge_german_govt_scrap_plans_gas_price_subsidies_climate_fund",
+      "published_on": "2025-06-20 12:46:00",
+      "scraped_on": "2025-07-31 13:48:39.918327",
+      "language": "en",
+      "length_before_preprocessing": 7489,
+      "length_after_preprocessing": 1565,
+      "url": "https://www.cleanenergywire.org/news/ngos-urge-german-govt-scrap-plans-gas-price-subsidies-climate-fund"
+    },
+    {
+      "id": "20fade4c4ebfd0178dc23f57f5d91d8a5ec159943706a462721e93c58ad37cf0",
+      "title": "arcelormittals_cancellation_green_conversion_puts_steelworks_risk_unions_warn",
+      "published_on": "2025-06-20 12:40:00",
+      "scraped_on": "2025-07-31 13:48:51.471804",
+      "language": "en",
+      "length_before_preprocessing": 7313,
+      "length_after_preprocessing": 1267,
+      "url": "https://www.cleanenergywire.org/news/arcelormittals-cancellation-green-conversion-puts-steelworks-risk-unions-warn"
+    },
+    {
+      "id": "f6aa554a4782c23de4aa1d206b4ea010b7e9a85794e2dd6d6217e9114d6f40ac",
+      "title": "brief_20_june_25",
+      "published_on": "2025-06-20 12:15:00",
+      "scraped_on": "2025-07-31 13:49:03.014226",
+      "language": "en",
+      "length_before_preprocessing": 5379,
+      "length_after_preprocessing": 910,
+      "url": "https://www.cleanenergywire.org/news/brief-20-june-25"
+    }
+  ]
+}

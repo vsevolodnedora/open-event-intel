@@ -1,0 +1,26 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-16",
+  "publications": [
+    {
+      "id": "26b3e0d63a24b98f06bfcea80ef7cb4c40fdfbc318b37722297f0148ad91bef0",
+      "title": "singapore_dec_petrochemical_exports_fall_18_3_nodx_grows_6_1",
+      "published_on": "2026-01-16 12:00:00",
+      "scraped_on": "2026-01-16 18:21:59.285333",
+      "language": "en",
+      "length_before_preprocessing": 4609,
+      "length_after_preprocessing": 835,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/16/11172223/singapore-dec-petrochemical-exports-fall-18-3-nodx-grows-6-1"
+    },
+    {
+      "id": "97d04db9766a4c4a833528b16748aa9047a7e7afc4118dffca3fe5f1afca1c34",
+      "title": "more_ocean_carriers_could_soon_follow_as_maersk_joins_cma_cgm_in_return_to_red_sea_route",
+      "published_on": "2026-01-16 12:00:00",
+      "scraped_on": "2026-01-17 18:18:38.971706",
+      "language": "en",
+      "length_before_preprocessing": 6993,
+      "length_after_preprocessing": 1913,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/16/11172403/more-ocean-carriers-could-soon-follow-as-maersk-joins-cma-cgm-in-return-to-red-sea-route"
+    }
+  ]
+}

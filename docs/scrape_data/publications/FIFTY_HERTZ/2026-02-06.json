@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2026-02-06",
+  "publications": [
+    {
+      "id": "6598e43da5af5312e38087b67004bc15b8a7945c59ab2e374f98b9c43acb31ff",
+      "title": "suedostlink_der_konverter_in_wolmirstedt_entsteht",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-06 18:40:56.653553",
+      "language": "de",
+      "length_before_preprocessing": 1244,
+      "length_after_preprocessing": 856,
+      "url": "https://www.50hertz.com/de/News/Details/16690/suedostlink-der-konverter-in-wolmirstedt-entsteht"
+    },
+    {
+      "id": "c16e912bae41551172904369d1a35f360476a1a9f45ee6f1aa9b446f3e46b3ad",
+      "title": "bundesnetzagentur_erlaesst_veraenderungssperre_fuer_den_bereich_muehlenbeck",
+      "published_on": "2026-02-06 12:00:00",
+      "scraped_on": "2026-02-09 18:50:14.153148",
+      "language": "de",
+      "length_before_preprocessing": 626,
+      "length_after_preprocessing": 232,
+      "url": "https://www.50hertz.com/de/News/Details/16750/bundesnetzagentur-erlaesst-veraenderungssperre-fuer-den-bereich-muehlenbeck"
+    }
+  ]
+}

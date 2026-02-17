@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-01-31",
+  "publications": [
+    {
+      "id": "b0c5b7c70849ad1ec91bf5bbde02e7cf04c765bb8cfc3057c6ec15bba3439fd5",
+      "title": "new_ten_year_network_development_plan_highlights_power_transmission_and_storage_needs_to_meet_the_energy_transition_targets",
+      "published_on": "2025-01-31 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.514909",
+      "language": "en",
+      "length_before_preprocessing": 3479,
+      "length_after_preprocessing": 1102,
+      "url": "https://www.entsoe.eu/news/2025/01/31/new-ten-year-network-development-plan-highlights-power-transmission-and-storage-needs-to-meet-the-energy-transition-targets"
+    }
+  ]
+}

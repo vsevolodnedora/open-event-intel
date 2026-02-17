@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-11-07",
+  "publications": [
+    {
+      "id": "7d00675044b9e4d388d44d2b45bc08ad9dd9a1605efe5c42a52cf5dfc2fafd7e",
+      "title": "commissioner_jorgensen_germany_discuss_energy_and_housing",
+      "published_on": "2025-11-07 12:00:00",
+      "scraped_on": "2025-11-07 18:32:15.237229",
+      "language": "en",
+      "length_before_preprocessing": 3922,
+      "length_after_preprocessing": 1113,
+      "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-germany-discuss-energy-and-housing-2025-11-07_en"
+    },
+    {
+      "id": "df3ae418de8cc713df3d299541525d472d68b83d505a2f52f86522b273fbf92a",
+      "title": "5_things_you_should_know_about_cop30_un_climate_conference",
+      "published_on": "2025-11-07 12:00:00",
+      "scraped_on": "2025-11-10 18:33:07.370892",
+      "language": "en",
+      "length_before_preprocessing": 7030,
+      "length_after_preprocessing": 3637,
+      "url": "https://climate.ec.europa.eu/news-other-reads/news/5-things-you-should-know-about-cop30-un-climate-conference-2025-11-07_en"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-14",
+  "publications": [
+    {
+      "id": "865e806635c83195ab26143882a80269a16521359bd6e979799037d3a51c57d3",
+      "title": "qatar_s_mesaieed_petrochemical_h1_net_profit_falls_5_on_lower_prices_macro_headwinds",
+      "published_on": "2025-08-14 12:00:00",
+      "scraped_on": "2025-08-14 18:36:09.990864",
+      "language": "en",
+      "length_before_preprocessing": 4766,
+      "length_after_preprocessing": 999,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/14/11128548/qatar-s-mesaieed-petrochemical-h1-net-profit-falls-5-on-lower-prices-macro-headwinds"
+    },
+    {
+      "id": "0c889a7b1442c45f0015a68a64c3bbb496441c79a177f948aac5d2e62836d018",
+      "title": "blog_vietnam_and_petrochemicals_three_scenarios_for_the_trade_war",
+      "published_on": "2025-08-14 12:00:00",
+      "scraped_on": "2025-08-14 18:36:09.997020",
+      "language": "en",
+      "length_before_preprocessing": 5071,
+      "length_after_preprocessing": 1336,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/14/11128504/blog-vietnam-and-petrochemicals-three-scenarios-for-the-trade-war"
+    },
+    {
+      "id": "64a59451cdba06d1ad82e53b4eb3f4931f9a077169a3c5abf66f71b9e64fb1d5",
+      "title": "brazil_launches_r30_billion_sovereign_brazil_plan_to_counter_us_tariffs",
+      "published_on": "2025-08-14 12:00:00",
+      "scraped_on": "2025-08-15 18:35:01.055159",
+      "language": "en",
+      "length_before_preprocessing": 6529,
+      "length_after_preprocessing": 1810,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/14/11128643/brazil-launches-r30-billion-sovereign-brazil-plan-to-counter-us-tariffs"
+    },
+    {
+      "id": "b37f21c8d8924962b08b64b987aec543e7110562a935cd756fd095fb36232e9a",
+      "title": "podcast_europe_methanol_mtbe_face_weak_demand_amid_as_summer_driving_season_disappoints",
+      "published_on": "2025-08-14 12:00:00",
+      "scraped_on": "2025-08-15 18:35:01.057069",
+      "language": "en",
+      "length_before_preprocessing": 5214,
+      "length_after_preprocessing": 392,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/14/11128617/podcast-europe-methanol-mtbe-face-weak-demand-amid-as-summer-driving-season-disappoints"
+    },
+    {
+      "id": "d000de1da362233ff662b9c99ad9c276c9d09752ac190b8eb16e7528ac36d543",
+      "title": "podcast_europe_methanol_mtbe_face_weak_demand_as_summer_driving_season_disappoints",
+      "published_on": "2025-08-14 12:00:00",
+      "scraped_on": "2025-08-16 18:31:52.556141",
+      "language": "en",
+      "length_before_preprocessing": 4188,
+      "length_after_preprocessing": 392,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/14/11128617/podcast-europe-methanol-mtbe-face-weak-demand-as-summer-driving-season-disappoints"
+    }
+  ]
+}

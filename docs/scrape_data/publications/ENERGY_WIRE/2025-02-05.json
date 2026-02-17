@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-05",
+  "publications": [
+    {
+      "id": "232a41a11eb57a0ec729f731bcdb441e3a85a9419a30af472384e63a3642b33c",
+      "title": "vote25_climate_adaptation_financing_must_find_new_footing_next_german_legislative_period",
+      "published_on": "2025-02-05 13:35:00",
+      "scraped_on": "2025-07-31 12:33:17.022619",
+      "language": "en",
+      "length_before_preprocessing": 12774,
+      "length_after_preprocessing": 5001,
+      "url": "https://www.cleanenergywire.org/news/vote25-climate-adaptation-financing-must-find-new-footing-next-german-legislative-period"
+    },
+    {
+      "id": "a5aa563f1a5d87ccd62422d3238863066bfe0a980001911b33d4ae5c965fc8a9",
+      "title": "germany_should_revive_climate_cabinet_resolve_conflicts_other_policy_priorities_council",
+      "published_on": "2025-02-05 13:30:00",
+      "scraped_on": "2025-07-31 12:33:28.699697",
+      "language": "en",
+      "length_before_preprocessing": 8747,
+      "length_after_preprocessing": 2667,
+      "url": "https://www.cleanenergywire.org/news/germany-should-revive-climate-cabinet-resolve-conflicts-other-policy-priorities-council"
+    },
+    {
+      "id": "e0620a1b4af1977bbc7afc8ac710b7d1527e4e5fc768b4ca20fbaee8e33b3059",
+      "title": "german_government_and_industry_consider_return_nord_stream_pipeline_media_report",
+      "published_on": "2025-02-05 12:13:00",
+      "scraped_on": "2025-07-31 12:33:40.332914",
+      "language": "en",
+      "length_before_preprocessing": 6391,
+      "length_after_preprocessing": 844,
+      "url": "https://www.cleanenergywire.org/news/german-government-and-industry-consider-return-nord-stream-pipeline-media-report"
+    },
+    {
+      "id": "ae992a9fb95c68c59d34d29dd7be6a7ac83ad1b87bf93f59051efc54290f68f4",
+      "title": "brief_5_february_25",
+      "published_on": "2025-02-05 11:30:00",
+      "scraped_on": "2025-07-31 12:33:51.806838",
+      "language": "en",
+      "length_before_preprocessing": 4732,
+      "length_after_preprocessing": 466,
+      "url": "https://www.cleanenergywire.org/news/brief-5-february-25"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-11-12",
+  "publications": [
+    {
+      "id": "8dac77d81db5daea922f5da23ff41c725a6bba76c363bdfbb68060983d4448ba",
+      "title": "hydrogen_mechanism_commission_launches_its_first_call_interest_connect_buyers_and_suppliers",
+      "published_on": "2025-11-12 12:00:00",
+      "scraped_on": "2025-11-12 18:32:22.502303",
+      "language": "en",
+      "length_before_preprocessing": 4403,
+      "length_after_preprocessing": 1346,
+      "url": "https://energy.ec.europa.eu/news/hydrogen-mechanism-commission-launches-its-first-call-interest-connect-buyers-and-suppliers-2025-11-12_en"
+    }
+  ]
+}

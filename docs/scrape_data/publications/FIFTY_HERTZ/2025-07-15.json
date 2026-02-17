@@ -1,0 +1,26 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-07-15",
+  "publications": [
+    {
+      "id": "1f6476097912b7aabb1a167f3f68a85eaadf7a4bbdb0f62304bc99c28b74fece",
+      "title": "wichtiger_meilenstein_fuer_3_milliarden_euro_projekt",
+      "published_on": "2025-07-15 12:00:00",
+      "scraped_on": "2025-08-02 20:53:16.902125",
+      "language": "de",
+      "length_before_preprocessing": 6784,
+      "length_after_preprocessing": 1774,
+      "url": "https://www.50hertz.com/de/News/Details/16023/wichtiger-meilenstein-fuer-3-milliarden-euro-projekt"
+    },
+    {
+      "id": "ac267dc9dcb7bda7ab13d3d6b0bd1bddef54e5ac7182cfc26eeb3f88f5c6e016",
+      "title": "umgehung_friedland_wird_bestandteil_der_antragsunterlagen",
+      "published_on": "2025-07-15 12:00:00",
+      "scraped_on": "2025-08-02 20:53:33.666820",
+      "language": "de",
+      "length_before_preprocessing": 5909,
+      "length_after_preprocessing": 1009,
+      "url": "https://www.50hertz.com/de/News/Details/16026/umgehung-friedland-wird-bestandteil-der-antragsunterlagen"
+    }
+  ]
+}

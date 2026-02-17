@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-18",
+  "publications": [
+    {
+      "id": "1c2b8a9eb20b2e8c4f50555007e290bb7601d5c982a39864669157a92ea09778",
+      "title": "eu_should_deepen_climate_cooperation_china_amid_waning_us_engagement_german_official",
+      "published_on": "2025-06-18 14:00:00",
+      "scraped_on": "2025-07-31 13:40:08.255546",
+      "language": "en",
+      "length_before_preprocessing": 8621,
+      "length_after_preprocessing": 4946,
+      "url": "https://www.cleanenergywire.org/news/eu-should-deepen-climate-cooperation-china-amid-waning-us-engagement-german-official"
+    },
+    {
+      "id": "2f134efc952f2433745add62c1aeb8be725e38d66cacb9d65404549c5aab396a",
+      "title": "lower_energy_cost_main_reason_drivers_switch_fully_electric_cars_survey",
+      "published_on": "2025-06-18 13:57:00",
+      "scraped_on": "2025-07-31 13:40:20.188133",
+      "language": "en",
+      "length_before_preprocessing": 6720,
+      "length_after_preprocessing": 988,
+      "url": "https://www.cleanenergywire.org/news/lower-energy-cost-main-reason-drivers-switch-fully-electric-cars-survey"
+    },
+    {
+      "id": "335535db331e6419e265d9fe1f6a4350062020b21d7941f9e34c1cb88051493c",
+      "title": "german_companies_climate_investment_plans_remain_largely_stable_2025_survey",
+      "published_on": "2025-06-18 13:52:00",
+      "scraped_on": "2025-07-31 13:40:31.722659",
+      "language": "en",
+      "length_before_preprocessing": 6381,
+      "length_after_preprocessing": 731,
+      "url": "https://www.cleanenergywire.org/news/german-companies-climate-investment-plans-remain-largely-stable-2025-survey"
+    },
+    {
+      "id": "5b67e6453074cd83e78ad9746af65c4a23ce74a344b7a7a2f2d9e3248a42c82b",
+      "title": "german_govt_must_swiftly_implement_electricity_price_reduction_measures_northern_states",
+      "published_on": "2025-06-18 13:50:00",
+      "scraped_on": "2025-07-31 13:40:43.334230",
+      "language": "en",
+      "length_before_preprocessing": 6961,
+      "length_after_preprocessing": 960,
+      "url": "https://www.cleanenergywire.org/news/german-govt-must-swiftly-implement-electricity-price-reduction-measures-northern-states"
+    },
+    {
+      "id": "0a41c0b3a7131027f62457b3d78eccfcf41f986eb87ae2b4e6a2b21e90730d63",
+      "title": "brief_18_june_25",
+      "published_on": "2025-06-18 12:06:00",
+      "scraped_on": "2025-07-31 13:40:54.809655",
+      "language": "en",
+      "length_before_preprocessing": 2553,
+      "length_after_preprocessing": 525,
+      "url": "https://www.cleanenergywire.org/news/brief-18-june-25"
+    }
+  ]
+}

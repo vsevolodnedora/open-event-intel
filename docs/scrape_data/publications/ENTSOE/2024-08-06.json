@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2024-08-06",
+  "publications": [
+    {
+      "id": "d9398486cde094f1311e4dcb012f01e2c92a813476ad94799ef86d915fd9222f",
+      "title": "bidding_zone_review_consultative_group_meeting",
+      "published_on": "2024-08-06 12:00:00",
+      "scraped_on": "2026-01-24 18:17:34.759731",
+      "language": "en",
+      "length_before_preprocessing": 2790,
+      "length_after_preprocessing": 639,
+      "url": "https://www.entsoe.eu/news/2024/08/06/bidding-zone-review-consultative-group-meeting"
+    }
+  ]
+}

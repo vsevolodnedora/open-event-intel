@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-19",
+  "publications": [
+    {
+      "id": "0aec7b47a4dbd29a69bb3f812cf5adf7109889f69f1c25d91bb83ea19e0a0bab",
+      "title": "planned_renewables_expansion_lowers_electricity_prices_regardless_changes_demand_report",
+      "published_on": "2025-06-19 12:38:00",
+      "scraped_on": "2025-07-31 13:49:14.708123",
+      "language": "en",
+      "length_before_preprocessing": 6906,
+      "length_after_preprocessing": 862,
+      "url": "https://www.cleanenergywire.org/news/planned-renewables-expansion-lowers-electricity-prices-regardless-changes-demand-report"
+    },
+    {
+      "id": "de611f385977c29af06416f3edc4878fbdf6f98685c7ff7d5b75eba9edcb015b",
+      "title": "ai_growth_eu_could_lead_higher_emissions_abroad_german_environment_agency",
+      "published_on": "2025-06-19 12:36:00",
+      "scraped_on": "2025-07-31 13:49:26.406193",
+      "language": "en",
+      "length_before_preprocessing": 6494,
+      "length_after_preprocessing": 915,
+      "url": "https://www.cleanenergywire.org/news/ai-growth-eu-could-lead-higher-emissions-abroad-german-environment-agency"
+    },
+    {
+      "id": "65bc3aed0caf522418380627044e4269f8fdb05cae82e411c95e8328eb9408da",
+      "title": "brief_19_june_25",
+      "published_on": "2025-06-19 12:31:00",
+      "scraped_on": "2025-07-31 13:49:38.100433",
+      "language": "en",
+      "length_before_preprocessing": 5195,
+      "length_after_preprocessing": 773,
+      "url": "https://www.cleanenergywire.org/news/brief-19-june-25"
+    }
+  ]
+}

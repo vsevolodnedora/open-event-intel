@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-10-21",
+  "publications": [
+    {
+      "id": "32e58783ad0b7c128ef1f67ad7d662cd0795819cad06cd6cd4d367254fbbe9fb",
+      "title": "new_leadership_at_agora_energiewende_europe",
+      "published_on": "2024-10-21 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.422804",
+      "language": "en",
+      "length_before_preprocessing": 4386,
+      "length_after_preprocessing": 1039,
+      "url": "https://www.agora-energiewende.org/news-events/new-leadership-at-agora-energiewende-europe"
+    }
+  ]
+}

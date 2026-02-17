@@ -1,0 +1,36 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2023-11-23",
+  "publications": [
+    {
+      "id": "d9cc8d31a7b59d2549441b03e44b96faf151aec06e5443d8e0c483d419f97369",
+      "title": "how_ramping_up_renewables_could_power_a_cleaner_cheaper_kazakhstan",
+      "published_on": "2023-11-23 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.405272",
+      "language": "en",
+      "length_before_preprocessing": 5671,
+      "length_after_preprocessing": 1664,
+      "url": "https://www.agora-energiewende.org/news-events/how-ramping-up-renewables-could-power-a-cleaner-cheaper-kazakhstan"
+    },
+    {
+      "id": "adc3e6be2da8f2477f4974d336bf203b1f2257098b99248c45c91bbc245f6c53",
+      "title": "towards_a_clean_energy_future_in_kazakhstan_designing_a_robust_and_fair_transition_from_coal",
+      "published_on": "2023-11-23 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.426357",
+      "language": "en",
+      "length_before_preprocessing": 6104,
+      "length_after_preprocessing": 2125,
+      "url": "https://www.agora-energiewende.org/news-events/towards-a-clean-energy-future-in-kazakhstan-designing-a-robust-and-fair-transition-from-coal"
+    },
+    {
+      "id": "131fd8b768f773252c0e1c39932e34187b9dc472ae7c8d9d9d6e0259cea9eeea",
+      "title": "the_road_ahead_for_kazakhstans_power_sector_modernising_through_renewables",
+      "published_on": "2023-11-23 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.428894",
+      "language": "en",
+      "length_before_preprocessing": 5594,
+      "length_after_preprocessing": 1642,
+      "url": "https://www.agora-energiewende.org/news-events/the-road-ahead-for-kazakhstans-power-sector-modernising-through-renewables"
+    }
+  ]
+}

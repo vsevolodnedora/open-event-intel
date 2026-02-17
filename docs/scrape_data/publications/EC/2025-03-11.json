@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-03-11",
+  "publications": [
+    {
+      "id": "5ac50a239aa0c702efba1b6761998ee6d2f0f933462de078da5216d59702857b",
+      "title": "eu_canada_high_level_energy_dialogue",
+      "published_on": "2025-03-11 12:00:00",
+      "scraped_on": "2025-07-31 11:17:51.528783",
+      "language": "en",
+      "length_before_preprocessing": 3491,
+      "length_after_preprocessing": 719,
+      "url": "https://energy.ec.europa.eu/news/eu-canada-high-level-energy-dialogue-2025-03-11_en"
+    }
+  ]
+}

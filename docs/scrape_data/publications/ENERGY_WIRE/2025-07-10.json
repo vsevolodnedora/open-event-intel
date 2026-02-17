@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-10",
+  "publications": [
+    {
+      "id": "3c92e4bac242f58260253f605ab2ecf0960c8e2ba387291e7f75a4b1de6d70d3",
+      "title": "hundreds_thousands_homes_germany_high_risk_flooding_report",
+      "published_on": "2025-07-10 13:50:00",
+      "scraped_on": "2025-07-31 13:56:28.630452",
+      "language": "en",
+      "length_before_preprocessing": 6449,
+      "length_after_preprocessing": 1064,
+      "url": "https://www.cleanenergywire.org/news/hundreds-thousands-homes-germany-high-risk-flooding-report"
+    },
+    {
+      "id": "82b8898baf3a86389c9c4d306376ca7d564e6ce63a692fa8dcf0ca967debb87f",
+      "title": "planned_new_german_gas_power_plants_must_be_switched_hydrogen_industry_and_ngo_alliance",
+      "published_on": "2025-07-10 13:48:00",
+      "scraped_on": "2025-07-31 13:56:40.320299",
+      "language": "en",
+      "length_before_preprocessing": 6604,
+      "length_after_preprocessing": 792,
+      "url": "https://www.cleanenergywire.org/news/planned-new-german-gas-power-plants-must-be-switched-hydrogen-industry-and-ngo-alliance"
+    },
+    {
+      "id": "c21cbc080682034adddea7da9a6227047b3789b3f67f4cb58a13f830000a3194",
+      "title": "major_corporations_still_lack_credible_climate_strategies_report",
+      "published_on": "2025-07-10 13:47:00",
+      "scraped_on": "2025-07-31 13:56:52.024737",
+      "language": "en",
+      "length_before_preprocessing": 6428,
+      "length_after_preprocessing": 1152,
+      "url": "https://www.cleanenergywire.org/news/major-corporations-still-lack-credible-climate-strategies-report"
+    },
+    {
+      "id": "9f1ddefcbbacf8a007a1d7c3f098768eed8880d2027852271e8dcc6de6b4ae84",
+      "title": "brief_10_july_25",
+      "published_on": "2025-07-10 11:52:00",
+      "scraped_on": "2025-07-31 13:57:03.600098",
+      "language": "en",
+      "length_before_preprocessing": 5331,
+      "length_after_preprocessing": 922,
+      "url": "https://www.cleanenergywire.org/news/brief-10-july-25"
+    }
+  ]
+}

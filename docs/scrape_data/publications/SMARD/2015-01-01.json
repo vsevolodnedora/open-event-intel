@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2015-01-01",
+  "publications": [
+    {
+      "id": "861a89989400336ec9256dfcf95ae0d9c3fd554f59138a97c0b7edf3fe278cfb",
+      "title": "energietraegerscharfe_importe",
+      "published_on": "2015-01-01 12:00:00",
+      "scraped_on": "2026-01-14 09:23:43.520153",
+      "language": "de",
+      "length_before_preprocessing": 3956,
+      "length_after_preprocessing": 2351,
+      "url": "https://www.smard.de/page/home/topic-article/211972/214548/energietraegerscharfe-importe"
+    }
+  ]
+}

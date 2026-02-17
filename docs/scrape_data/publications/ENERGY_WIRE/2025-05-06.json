@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-06",
+  "publications": [
+    {
+      "id": "ed84d8c8d2d517770f718d900c9eb3f726002be13dac222b16f9072d714c2c89",
+      "title": "merzs_failure_secure_majority_first_round_chancellor_vote_stuns_germany",
+      "published_on": "2025-05-06 17:15:00",
+      "scraped_on": "2025-07-31 13:22:46.540074",
+      "language": "en",
+      "length_before_preprocessing": 8894,
+      "length_after_preprocessing": 3035,
+      "url": "https://www.cleanenergywire.org/news/merzs-failure-secure-majority-first-round-chancellor-vote-stuns-germany"
+    },
+    {
+      "id": "c4c613c42902d418e3ae665466c5536578e286cb30aaf032133c7d49a57ba40a",
+      "title": "designated_german_climate_minister_could_push_transition_experience_bridging_political_divide",
+      "published_on": "2025-05-06 14:00:00",
+      "scraped_on": "2025-07-31 13:22:58.193207",
+      "language": "en",
+      "length_before_preprocessing": 7989,
+      "length_after_preprocessing": 3941,
+      "url": "https://www.cleanenergywire.org/news/designated-german-climate-minister-could-push-transition-experience-bridging-political-divide"
+    },
+    {
+      "id": "9ea107c5feadde6b2b7068863baf4c6916382cab9789b51b64fe0e1d8af860c6",
+      "title": "low_income_households_need_financial_support_avoid_fossil_fuel_lock_think_tank",
+      "published_on": "2025-05-06 13:18:00",
+      "scraped_on": "2025-07-31 13:23:09.875488",
+      "language": "en",
+      "length_before_preprocessing": 7301,
+      "length_after_preprocessing": 1296,
+      "url": "https://www.cleanenergywire.org/news/low-income-households-need-financial-support-avoid-fossil-fuel-lock-think-tank"
+    },
+    {
+      "id": "89716a8ed1b1d3faa57d0bd2151e303892755495b7ba42afe0d10e539a4076e3",
+      "title": "vote25_tracking_making_germanys_new_government",
+      "published_on": "2025-05-06 13:00:00",
+      "scraped_on": "2025-07-31 13:23:22.198154",
+      "language": "en",
+      "length_before_preprocessing": 28150,
+      "length_after_preprocessing": 16812,
+      "url": "https://www.cleanenergywire.org/news/vote25-tracking-making-germanys-new-government"
+    },
+    {
+      "id": "7533f21fa7b676d878d18db168ab6ca4c675783af6bbad7567d6146cb2cb66e1",
+      "title": "brief_6_may_25",
+      "published_on": "2025-05-06 12:00:00",
+      "scraped_on": "2025-07-31 13:23:33.724462",
+      "language": "en",
+      "length_before_preprocessing": 2942,
+      "length_after_preprocessing": 872,
+      "url": "https://www.cleanenergywire.org/news/brief-6-may-25"
+    }
+  ]
+}

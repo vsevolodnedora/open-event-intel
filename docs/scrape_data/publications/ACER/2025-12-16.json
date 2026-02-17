@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-12-16",
+  "publications": [
+    {
+      "id": "85fe488a782d9d1d6c726cae48513cdda30133cca009a7710ddb85d58267555c",
+      "title": "acer_recognises_good_practices_french_national_resource_adequacy_assessment_and_provides_suggestions_strengthen_it",
+      "published_on": "2025-12-16 12:00:00",
+      "scraped_on": "2025-12-16 18:19:46.530339",
+      "language": "en",
+      "length_before_preprocessing": 8650,
+      "length_after_preprocessing": 1534,
+      "url": "https://www.acer.europa.eu/news/acer-recognises-good-practices-french-national-resource-adequacy-assessment-and-provides-suggestions-strengthen-it"
+    }
+  ]
+}

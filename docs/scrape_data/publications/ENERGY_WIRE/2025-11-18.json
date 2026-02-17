@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-18",
+  "publications": [
+    {
+      "id": "32e20475a7dafb4cda92f5f94fde1b23a0ce1cb8784cebe48e3eff67552e318d",
+      "title": "germany_enters_heating_season_unexpectedly_low_storage_level_gas",
+      "published_on": "2025-11-18 13:56:00",
+      "scraped_on": "2025-11-18 18:37:59.914411",
+      "language": "en",
+      "length_before_preprocessing": 4282,
+      "length_after_preprocessing": 1073,
+      "url": "https://www.cleanenergywire.org/news/germany-enters-heating-season-unexpectedly-low-storage-level-gas"
+    },
+    {
+      "id": "d834946a39b0c00cb81abf846bc7d5cf4731433325d3c19ac21881ba185b8584",
+      "title": "approval_energy_transition_remains_high_germany_citizens_see_effects_survey",
+      "published_on": "2025-11-18 13:48:00",
+      "scraped_on": "2025-11-18 18:38:10.910900",
+      "language": "en",
+      "length_before_preprocessing": 6845,
+      "length_after_preprocessing": 1007,
+      "url": "https://www.cleanenergywire.org/news/approval-energy-transition-remains-high-germany-citizens-see-effects-survey"
+    },
+    {
+      "id": "264f9cbe99227920675fcba9944643afc51115081b2c4ee31bc5e0b2bcebd293",
+      "title": "german_state_teams_belgian_and_dutch_partners_boost_circular_battery_production",
+      "published_on": "2025-11-18 12:28:00",
+      "scraped_on": "2025-11-18 18:38:21.902425",
+      "language": "en",
+      "length_before_preprocessing": 6520,
+      "length_after_preprocessing": 1152,
+      "url": "https://www.cleanenergywire.org/news/german-state-teams-belgian-and-dutch-partners-boost-circular-battery-production"
+    },
+    {
+      "id": "deef7fbf9772d378c86dc3d94128472f9ed622e89989e9b11c442cc3239b3423",
+      "title": "germany_faces_costly_eu_carbon_target_miss_lagging_reductions_transport_and_buildings_uba",
+      "published_on": "2025-11-18 12:14:00",
+      "scraped_on": "2025-11-18 18:38:32.901470",
+      "language": "en",
+      "length_before_preprocessing": 6891,
+      "length_after_preprocessing": 1014,
+      "url": "https://www.cleanenergywire.org/news/germany-faces-costly-eu-carbon-target-miss-lagging-reductions-transport-and-buildings-uba"
+    },
+    {
+      "id": "0695515ad99ac362a673c5bb97e5fdcbb2fc81b1534fecfba6943290549ecc09",
+      "title": "brief_18_november_25",
+      "published_on": "2025-11-18 11:36:00",
+      "scraped_on": "2025-11-18 18:38:43.767270",
+      "language": "en",
+      "length_before_preprocessing": 5114,
+      "length_after_preprocessing": 573,
+      "url": "https://www.cleanenergywire.org/news/brief-18-november-25"
+    }
+  ]
+}

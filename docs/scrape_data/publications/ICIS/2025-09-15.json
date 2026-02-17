@@ -1,0 +1,106 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-15",
+  "publications": [
+    {
+      "id": "7d405cd28a9b8f93856b5e250726897aae39c4f7ec898c202e798f14a443d178",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.846961",
+      "language": "en",
+      "length_before_preprocessing": 5072,
+      "length_after_preprocessing": 1359,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137043/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "042e745cf16716868131bbc376cbf8a3f78c92c0391a78b4ea76a2535c434104",
+      "title": "opinion_vertical_gas_corridor_more_pain_than_gain",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.850816",
+      "language": "en",
+      "length_before_preprocessing": 7196,
+      "length_after_preprocessing": 2480,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137367/opinion-vertical-gas-corridor-more-pain-than-gain"
+    },
+    {
+      "id": "9d01ebb41aee892b701660f7cf8c81bf6c6a081ce7c1ddc5e2ad0a25d8e4219e",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.852651",
+      "language": "en",
+      "length_before_preprocessing": 5580,
+      "length_after_preprocessing": 824,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137143/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "c5b00eb829382b25268de87860adf2a9a055a9fb0aa3184fc88bd09127f77cfe",
+      "title": "latin_america_stories_bi_weekly_summary",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.854371",
+      "language": "en",
+      "length_before_preprocessing": 6464,
+      "length_after_preprocessing": 1692,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137384/latin-america-stories-bi-weekly-summary"
+    },
+    {
+      "id": "75c7bf3affe1f27fafb11f57dad61ccf68f0ab5307c798c161d7adf3c54ac4c3",
+      "title": "eu_chems_trade_surplus_falls_in_july_year_on_year_as_exports_decline_imports_rise",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.856011",
+      "language": "en",
+      "length_before_preprocessing": 5126,
+      "length_after_preprocessing": 414,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137301/eu-chems-trade-surplus-falls-in-july-year-on-year-as-exports-decline-imports-rise"
+    },
+    {
+      "id": "e2ecfd1b5bf98f8d582827c9d7509fe4cd5a491324442030b5c6f187aa19e761",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.857689",
+      "language": "en",
+      "length_before_preprocessing": 5909,
+      "length_after_preprocessing": 1148,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137191/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "004e11129fbec41994a0b6a1f7d0c6754ee90004200812edeec66ded604689ef",
+      "title": "icis_whitepaper_zero_fids_despite_3_billion_investment_why_some_european_hydrogen_bank_financed_projects_are_struggling_to_progress",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.859279",
+      "language": "en",
+      "length_before_preprocessing": 4108,
+      "length_after_preprocessing": 423,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137321/icis-whitepaper-zero-fids-despite-3-billion-investment-why-some-european-hydrogen-bank-financed-projects-are-struggling-to-progress"
+    },
+    {
+      "id": "94fd913e249d078174b3920bbdef794a9a8365d4f1f9f1522ab88eabb063b958",
+      "title": "opinion_is_the_myth_of_peak_fossil_fuel_demand_really_crumbling",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.860819",
+      "language": "en",
+      "length_before_preprocessing": 8752,
+      "length_after_preprocessing": 2822,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137329/opinion-is-the-myth-of-peak-fossil-fuel-demand-really-crumbling"
+    },
+    {
+      "id": "8366aed48bfb53d080bd490be0c8182fad3be718e61ededc38cedeeeb0119461",
+      "title": "trade_shifts_in_chemical_markets_expected_amid_us_tariffs_india_add",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-15 18:33:07.862659",
+      "language": "en",
+      "length_before_preprocessing": 6799,
+      "length_after_preprocessing": 2013,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137208/trade-shifts-in-chemical-markets-expected-amid-us-tariffs-india-add"
+    },
+    {
+      "id": "d9ec07a92ac3a102ccba4c7e1194ed5e76a9ea9f3b1d862d6ef917c5aeef52d6",
+      "title": "braskem_to_dodge_debt_hit_from_mexico_venture_but_risks_to_business_profile_reputation_remain_moody_s",
+      "published_on": "2025-09-15 12:00:00",
+      "scraped_on": "2025-09-16 18:32:37.211155",
+      "language": "en",
+      "length_before_preprocessing": 8854,
+      "length_after_preprocessing": 4007,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/15/11137415/braskem-to-dodge-debt-hit-from-mexico-venture-but-risks-to-business-profile-reputation-remain-moody-s"
+    }
+  ]
+}

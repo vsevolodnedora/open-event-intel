@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-09",
+  "publications": [
+    {
+      "id": "38aab6a5917535b9dc59c30eeccea15fdb1f10fb162d60a163169d752a2bbc11",
+      "title": "warming_winters_lead_historic_german_sled_maker_halt_production",
+      "published_on": "2025-04-09 13:41:00",
+      "scraped_on": "2025-07-31 13:06:46.636794",
+      "language": "en",
+      "length_before_preprocessing": 6639,
+      "length_after_preprocessing": 895,
+      "url": "https://www.cleanenergywire.org/news/warming-winters-lead-historic-german-sled-maker-halt-production"
+    },
+    {
+      "id": "d89a351525c0e968cf856a42e5bb8cc5558412aa126f5694ce89d4db0bedc94c",
+      "title": "water_level_germanys_lake_constance_nearing_historic_low",
+      "published_on": "2025-04-09 13:38:00",
+      "scraped_on": "2025-07-31 13:06:57.205035",
+      "language": "en",
+      "length_before_preprocessing": 6640,
+      "length_after_preprocessing": 989,
+      "url": "https://www.cleanenergywire.org/news/water-level-germanys-lake-constance-nearing-historic-low"
+    },
+    {
+      "id": "d74e93eae0d0182db780104acd1127ac6a46965717621085ccaf4ecc8841a7de",
+      "title": "german_refineries_face_unprecedented_crisis_ministry_calls_sector_indispensable",
+      "published_on": "2025-04-09 13:20:00",
+      "scraped_on": "2025-07-31 13:07:08.737092",
+      "language": "en",
+      "length_before_preprocessing": 6686,
+      "length_after_preprocessing": 1179,
+      "url": "https://www.cleanenergywire.org/news/german-refineries-face-unprecedented-crisis-ministry-calls-sector-indispensable"
+    },
+    {
+      "id": "7fd41d2477d580c1c164094e324c44449af1e5f9e542797fc23606f5b2a9b07b",
+      "title": "brief_09_april_25",
+      "published_on": "2025-04-09 12:00:00",
+      "scraped_on": "2025-07-31 13:07:20.387090",
+      "language": "en",
+      "length_before_preprocessing": 3172,
+      "length_after_preprocessing": 1041,
+      "url": "https://www.cleanenergywire.org/news/brief-09-april-25"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-25",
+  "publications": [
+    {
+      "id": "92637606a3bc4656294e12340f078299c97d58f222d9f4edd0aa582a6c77f74a",
+      "title": "germany_reviews_climate_contract_industry_transition_support_scheme_ccs_still_focus_next_round",
+      "published_on": "2025-08-25 12:16:00",
+      "scraped_on": "2025-08-25 18:37:52.962599",
+      "language": "en",
+      "length_before_preprocessing": 4155,
+      "length_after_preprocessing": 1005,
+      "url": "https://www.cleanenergywire.org/news/germany-reviews-climate-contract-industry-transition-support-scheme-ccs-still-focus-next-round"
+    },
+    {
+      "id": "8c5c1bfdf6f90bab3bbc3f4ec4f6596438068fad0b6a2658982aaa78c1673702",
+      "title": "energy_sector_and_opposition_call_speedy_renewables_expansion_germany_awaits_govt_reality_check",
+      "published_on": "2025-08-25 11:37:00",
+      "scraped_on": "2025-08-25 18:38:03.872813",
+      "language": "en",
+      "length_before_preprocessing": 6649,
+      "length_after_preprocessing": 1054,
+      "url": "https://www.cleanenergywire.org/news/energy-sector-and-opposition-call-speedy-renewables-expansion-germany-awaits-govt-reality-check"
+    },
+    {
+      "id": "cc092bef32a76a159f9d14699f0e842e9d1cbcae41b321dd8c942a8b22e93e11",
+      "title": "brief_25_august_25",
+      "published_on": "2025-08-25 11:31:00",
+      "scraped_on": "2025-08-25 18:38:14.616160",
+      "language": "en",
+      "length_before_preprocessing": 5063,
+      "length_after_preprocessing": 680,
+      "url": "https://www.cleanenergywire.org/news/brief-25-august-25"
+    }
+  ]
+}

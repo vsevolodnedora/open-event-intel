@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-06-19",
+  "publications": [
+    {
+      "id": "a74d1a3bf8561a4b6f94999106cb88c19080ff502a55d24deb332b4b989e4ecf",
+      "title": "new_citizen_energy_advisory_hub_boost_citizen_led_energy_transition",
+      "published_on": "2025-06-19 12:00:00",
+      "scraped_on": "2025-07-31 11:18:52.130713",
+      "language": "en",
+      "length_before_preprocessing": 4266,
+      "length_after_preprocessing": 1355,
+      "url": "https://energy.ec.europa.eu/news/new-citizen-energy-advisory-hub-boost-citizen-led-energy-transition-2025-06-19_en"
+    },
+    {
+      "id": "e5a6c2d9984a6698b542f13a887edfd3884169d9e581b6330b471d1f541bb363",
+      "title": "citizens_energy_package_commission_starts_consultation_process",
+      "published_on": "2025-06-19 12:00:00",
+      "scraped_on": "2025-07-31 11:18:52.131457",
+      "language": "en",
+      "length_before_preprocessing": 3954,
+      "length_after_preprocessing": 1017,
+      "url": "https://energy.ec.europa.eu/news/citizens-energy-package-commission-starts-consultation-process-2025-06-19_en"
+    }
+  ]
+}

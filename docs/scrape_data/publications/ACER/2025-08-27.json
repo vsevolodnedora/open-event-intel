@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-08-27",
+  "publications": [
+    {
+      "id": "26328aa819eee7724883892eb4dabb7d415aec7b02be94e27ed656779fbf6cdb",
+      "title": "acer_consultancy_study_recommends_improvements_eu_scenario_development",
+      "published_on": "2025-08-27 12:00:00",
+      "scraped_on": "2025-08-27 18:31:50.211408",
+      "language": "en",
+      "length_before_preprocessing": 8251,
+      "length_after_preprocessing": 1311,
+      "url": "https://www.acer.europa.eu/news/acer-consultancy-study-recommends-improvements-eu-scenario-development"
+    }
+  ]
+}

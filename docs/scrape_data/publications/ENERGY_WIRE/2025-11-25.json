@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-25",
+  "publications": [
+    {
+      "id": "46d5ef73414b75d1d67d3b810827c4b87e1d3cc77287dff1aa26434b9e0fe3d1",
+      "title": "average_german_household_spends_04_net_income_national_co2_price_heating_and_transport_analysis",
+      "published_on": "2025-11-25 11:21:00",
+      "scraped_on": "2025-11-25 18:40:15.878298",
+      "language": "en",
+      "length_before_preprocessing": 5068,
+      "length_after_preprocessing": 1515,
+      "url": "https://www.cleanenergywire.org/news/average-german-household-spends-04-net-income-national-co2-price-heating-and-transport-analysis"
+    },
+    {
+      "id": "c455c2fc92b9b151cb20c2a09cbba544ccd561d636f235b1b7ade94dd5a1a09b",
+      "title": "brief_25_november_25",
+      "published_on": "2025-11-25 10:20:00",
+      "scraped_on": "2025-11-25 18:40:26.637592",
+      "language": "en",
+      "length_before_preprocessing": 5241,
+      "length_after_preprocessing": 571,
+      "url": "https://www.cleanenergywire.org/news/brief-25-november-25"
+    },
+    {
+      "id": "1cb3f907bc98e881a5443fec4b0e082918f705adb7ad6bad7eda3a0165316b26",
+      "title": "notification_period_cut_german_gas_grid_users_should_be_halved_5_years_association",
+      "published_on": "2025-11-25 10:10:00",
+      "scraped_on": "2025-11-25 18:40:37.517878",
+      "language": "en",
+      "length_before_preprocessing": 7124,
+      "length_after_preprocessing": 1267,
+      "url": "https://www.cleanenergywire.org/news/notification-period-cut-german-gas-grid-users-should-be-halved-5-years-association"
+    },
+    {
+      "id": "9e2105938c180a612ae6d2c0c4ac5ecd0e8aee58217a89978aef2e1d1904f761",
+      "title": "car_toll_and_general_levy_could_help_germany_close_public_transports_financing_gap_report",
+      "published_on": "2025-11-25 09:25:00",
+      "scraped_on": "2025-11-25 18:40:48.434348",
+      "language": "en",
+      "length_before_preprocessing": 7136,
+      "length_after_preprocessing": 1061,
+      "url": "https://www.cleanenergywire.org/news/car-toll-and-general-levy-could-help-germany-close-public-transports-financing-gap-report"
+    }
+  ]
+}

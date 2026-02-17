@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-09-12",
+  "publications": [
+    {
+      "id": "3032f9614a11f8603faa56dd8dc5a2584760ed44725e0f7503463f491b68c50a",
+      "title": "neunte_power_to_heat_anlage_in_betrieb",
+      "published_on": "2025-09-12 12:00:00",
+      "scraped_on": "2025-09-12 18:33:51.823509",
+      "language": "de",
+      "length_before_preprocessing": 903,
+      "length_after_preprocessing": 43,
+      "url": "https://www.50hertz.com/de/News/Details/16206/neunte-power-to-heat-anlage-in-betrieb"
+    }
+  ]
+}

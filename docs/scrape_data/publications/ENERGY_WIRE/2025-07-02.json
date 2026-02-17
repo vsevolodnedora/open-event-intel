@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-07-02",
+  "publications": [
+    {
+      "id": "427c01245f1bcd81fcd28137f44cd140aa40a5b17bb15df50f1387c8519426b3",
+      "title": "germany_sets_gas_supply_alert_lowest_level_market_overcomes_turmoil_russias_war",
+      "published_on": "2025-07-02 13:35:00",
+      "scraped_on": "2025-07-31 13:51:57.844281",
+      "language": "en",
+      "length_before_preprocessing": 6979,
+      "length_after_preprocessing": 1286,
+      "url": "https://www.cleanenergywire.org/news/germany-sets-gas-supply-alert-lowest-level-market-overcomes-turmoil-russias-war"
+    },
+    {
+      "id": "b2d1bc1c548b2c5e511d8681f45e147f1bb24d2dae0d85f8600277779723a74b",
+      "title": "interest_german_energy_transition_remains_high_internationally_eu_partners_more_critical",
+      "published_on": "2025-07-02 13:32:00",
+      "scraped_on": "2025-07-31 13:52:09.513879",
+      "language": "en",
+      "length_before_preprocessing": 6739,
+      "length_after_preprocessing": 1041,
+      "url": "https://www.cleanenergywire.org/news/interest-german-energy-transition-remains-high-internationally-eu-partners-more-critical"
+    },
+    {
+      "id": "a176801a482453818b24cd11db763c6f3fb1f8d275bec71a8a43bf936fc511da",
+      "title": "germany_agrees_joint_gas_extraction_project_netherlands_wadden_sea",
+      "published_on": "2025-07-02 13:28:00",
+      "scraped_on": "2025-07-31 13:52:21.059503",
+      "language": "en",
+      "length_before_preprocessing": 6802,
+      "length_after_preprocessing": 1032,
+      "url": "https://www.cleanenergywire.org/news/germany-agrees-joint-gas-extraction-project-netherlands-wadden-sea"
+    },
+    {
+      "id": "ed766f450b0812eb0c10014704e35de10456465385c8f9b42fc1b2d3e877d82e",
+      "title": "brief_2_july_25",
+      "published_on": "2025-07-02 12:15:00",
+      "scraped_on": "2025-07-31 13:52:32.739414",
+      "language": "en",
+      "length_before_preprocessing": 5034,
+      "length_after_preprocessing": 672,
+      "url": "https://www.cleanenergywire.org/news/brief-2-july-25"
+    }
+  ]
+}

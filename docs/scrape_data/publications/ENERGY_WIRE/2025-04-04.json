@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-04",
+  "publications": [
+    {
+      "id": "b59f94ccbe14f13e2a15a734e4fb1f9e2be0a6a588a8cfd8165a6cb2df0e4e80",
+      "title": "germanys_needs_and_costs_grid_management_down_2024_network_agency",
+      "published_on": "2025-04-04 12:04:00",
+      "scraped_on": "2025-07-31 13:09:01.921284",
+      "language": "en",
+      "length_before_preprocessing": 6722,
+      "length_after_preprocessing": 1007,
+      "url": "https://www.cleanenergywire.org/news/germanys-needs-and-costs-grid-management-down-2024-network-agency"
+    },
+    {
+      "id": "1164b54f8cb062f2cc87487affc8db8c3c37974093435ad8dd2eeb23581d3797",
+      "title": "german_energy_and_industry_sectors_worried_about_destructive_us_trade_policy",
+      "published_on": "2025-04-04 12:03:00",
+      "scraped_on": "2025-07-31 13:09:13.576348",
+      "language": "en",
+      "length_before_preprocessing": 7486,
+      "length_after_preprocessing": 1360,
+      "url": "https://www.cleanenergywire.org/news/german-energy-and-industry-sectors-worried-about-destructive-us-trade-policy"
+    },
+    {
+      "id": "a4f9fba8f931f923d192a4fceac2a44fca08d473a6f1520fc38f7f7cf7440b01",
+      "title": "north_sea_co2_storage_should_be_confined_unavoidable_emissions_due_limited_capacity_environmental_risks_report",
+      "published_on": "2025-04-04 12:01:00",
+      "scraped_on": "2025-07-31 13:09:25.226154",
+      "language": "en",
+      "length_before_preprocessing": 6773,
+      "length_after_preprocessing": 1124,
+      "url": "https://www.cleanenergywire.org/news/north-sea-co2-storage-should-be-confined-unavoidable-emissions-due-limited-capacity-environmental-risks-report"
+    },
+    {
+      "id": "18c82dddb8bb242977cf205f487ad20a89e90385c1b6c6ba3799948873485db4",
+      "title": "brief_4_april_25",
+      "published_on": "2025-04-04 11:05:00",
+      "scraped_on": "2025-07-31 13:09:36.672691",
+      "language": "en",
+      "length_before_preprocessing": 5829,
+      "length_after_preprocessing": 1295,
+      "url": "https://www.cleanenergywire.org/news/brief-4-april-25"
+    }
+  ]
+}

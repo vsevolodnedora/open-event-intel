@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-12-17",
+  "publications": [
+    {
+      "id": "6f7fa651983a1d109a561f29f041cf2bd1c13d0329e17782e594a85e46b80694",
+      "title": "RaVT",
+      "published_on": "2025-12-17 12:00:00",
+      "scraped_on": "2025-12-17 18:21:13.238723",
+      "language": "de",
+      "length_before_preprocessing": 3519,
+      "length_after_preprocessing": 976,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251217_RaVT.html"
+    }
+  ]
+}

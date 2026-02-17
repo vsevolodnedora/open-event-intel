@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-19",
+  "publications": [
+    {
+      "id": "afb6472f45a354f028171c0d421e797e35696caa6678106f637a0a162092b32b",
+      "title": "eu_could_benefit_economically_us_climate_backtracking_german_foreign_minister",
+      "published_on": "2025-03-19 13:31:00",
+      "scraped_on": "2025-07-31 12:59:05.465159",
+      "language": "en",
+      "length_before_preprocessing": 6734,
+      "length_after_preprocessing": 980,
+      "url": "https://www.cleanenergywire.org/news/eu-could-benefit-economically-us-climate-backtracking-german-foreign-minister"
+    },
+    {
+      "id": "f535eda30bb0697818dcac6101f2549354ac1a7aef4e1e26e83e7576d7e8505a",
+      "title": "rebuilding_villages_after_floods_should_consider_sustainability_adaptation_report",
+      "published_on": "2025-03-19 13:16:00",
+      "scraped_on": "2025-07-31 12:59:17.114712",
+      "language": "en",
+      "length_before_preprocessing": 6747,
+      "length_after_preprocessing": 1129,
+      "url": "https://www.cleanenergywire.org/news/rebuilding-villages-after-floods-should-consider-sustainability-adaptation-report"
+    },
+    {
+      "id": "555b9dd2a2f161b0a70f7b7a1da3b6ef266837f2b9ae67eb43d9e24d7f6addce",
+      "title": "german_infrastructure_and_climate_investment_plans_face_lack_skilled_workers_engineers_association",
+      "published_on": "2025-03-19 13:06:00",
+      "scraped_on": "2025-07-31 12:59:28.769477",
+      "language": "en",
+      "length_before_preprocessing": 6624,
+      "length_after_preprocessing": 902,
+      "url": "https://www.cleanenergywire.org/news/german-infrastructure-and-climate-investment-plans-face-lack-skilled-workers-engineers-association"
+    },
+    {
+      "id": "03cf39389e7349a21257c0676dcdf2bba85c7802ab5b9de355f10392418c3e8c",
+      "title": "brief_19_march_25",
+      "published_on": "2025-03-19 10:40:00",
+      "scraped_on": "2025-07-31 12:59:40.262786",
+      "language": "en",
+      "length_before_preprocessing": 2907,
+      "length_after_preprocessing": 844,
+      "url": "https://www.cleanenergywire.org/news/brief-19-march-25"
+    }
+  ]
+}

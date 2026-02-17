@@ -1,0 +1,36 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2021-01-27",
+  "publications": [
+    {
+      "id": "4453aca3497182443340c423326a792d16ae99640a5e17d4ab21c04df8c0a3ab",
+      "title": "what_role_in_the_transition_for_a_trans_european_hydrogen_network",
+      "published_on": "2021-01-27 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.874968",
+      "language": "en",
+      "length_before_preprocessing": 6519,
+      "length_after_preprocessing": 2626,
+      "url": "https://www.agora-energiewende.org/news-events/what-role-in-the-transition-for-a-trans-european-hydrogen-network"
+    },
+    {
+      "id": "f45f86f108717d9e7e50e660a3ec56bdb546471ab1fa86005784d7b7da54578f",
+      "title": "no_regret_hydrogen_infrastructure_for_europe",
+      "published_on": "2021-01-27 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.879034",
+      "language": "en",
+      "length_before_preprocessing": 5171,
+      "length_after_preprocessing": 1505,
+      "url": "https://www.agora-energiewende.org/news-events/no-regret-hydrogen-infrastructure-for-europe"
+    },
+    {
+      "id": "53f09d85134bf0d8b4143305b0ed7e11e98b24fe94771e2d269ebde9ce72d6dd",
+      "title": "no_regret_hydrogen_charting_early_steps_for_h2_infrastructure_in_europe",
+      "published_on": "2021-01-27 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.891394",
+      "language": "en",
+      "length_before_preprocessing": 4985,
+      "length_after_preprocessing": 1095,
+      "url": "https://www.agora-energiewende.org/news-events/no-regret-hydrogen-charting-early-steps-for-h2-infrastructure-in-europe"
+    }
+  ]
+}

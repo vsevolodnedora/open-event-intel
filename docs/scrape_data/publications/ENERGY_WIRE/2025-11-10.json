@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-10",
+  "publications": [
+    {
+      "id": "373a424164ac86f1c6aa09c2f469f576b07cd0c4c02dda6911b8a1cdbe09a1b5",
+      "title": "german_utilities_face_350_billion_euro_funding_gap_regional_energy_transition_2045",
+      "published_on": "2025-11-10 13:58:00",
+      "scraped_on": "2025-11-10 18:36:19.974721",
+      "language": "en",
+      "length_before_preprocessing": 4213,
+      "length_after_preprocessing": 1191,
+      "url": "https://www.cleanenergywire.org/news/german-utilities-face-350-billion-euro-funding-gap-regional-energy-transition-2045"
+    },
+    {
+      "id": "c331a83e2e1f6d97eb0ceda88aea16bdd700b195cc3427d0cf629ed0c4c743b2",
+      "title": "nearly_half_germanys_infrastructure_and_climate_fund_could_end_being_misused_report",
+      "published_on": "2025-11-10 13:57:00",
+      "scraped_on": "2025-11-10 18:36:31.089050",
+      "language": "en",
+      "length_before_preprocessing": 6626,
+      "length_after_preprocessing": 903,
+      "url": "https://www.cleanenergywire.org/news/nearly-half-germanys-infrastructure-and-climate-fund-could-end-being-misused-report"
+    },
+    {
+      "id": "b8aab660d63cbcfe1b94a983c74f38583f2a0d630e9e6acffb4f7642c6bbfce2",
+      "title": "brief_10_november_25",
+      "published_on": "2025-11-10 12:00:00",
+      "scraped_on": "2025-11-10 18:36:42.073239",
+      "language": "en",
+      "length_before_preprocessing": 5639,
+      "length_after_preprocessing": 1002,
+      "url": "https://www.cleanenergywire.org/news/brief-10-november-25"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-19",
+  "publications": [
+    {
+      "id": "142896c9137fda2d89570291aa42eadd328ac30cb7d6db2b0bcb8b12515ec24b",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.503022",
+      "language": "en",
+      "length_before_preprocessing": 5257,
+      "length_after_preprocessing": 1470,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172276/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "8dddb3056dcf16a74e1159b4efbdb69cb28311295b138e243cc215f07ee44dff",
+      "title": "china_growth_to_slow_in_2026_as_structural_problems_remain",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.505542",
+      "language": "en",
+      "length_before_preprocessing": 5127,
+      "length_after_preprocessing": 1384,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172753/china-growth-to-slow-in-2026-as-structural-problems-remain"
+    },
+    {
+      "id": "96c6f5c23a7602bd17fd4e5cad961e86b3a26b0b637950aad116188a6a32c2f5",
+      "title": "china_q4_gdp_expansion_slows_to_4_5_2025_growth_hits_5_target",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.507146",
+      "language": "en",
+      "length_before_preprocessing": 4445,
+      "length_after_preprocessing": 695,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172722/china-q4-gdp-expansion-slows-to-4-5-2025-growth-hits-5-target"
+    },
+    {
+      "id": "0f03c7ce48b345367998833107d63dfbf596a417a86bc9405d32d120446e22f2",
+      "title": "blog_turning_crisis_into_opportunity",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.508886",
+      "language": "en",
+      "length_before_preprocessing": 5326,
+      "length_after_preprocessing": 327,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172787/blog-turning-crisis-into-opportunity"
+    },
+    {
+      "id": "d632eab4ea38996b5e275ccb081be22cedae4a620e6577b3acaabc61a24a9b08",
+      "title": "blog_a_year_on_from_deepseek_us_versus_china_in_the_ai_race",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.510794",
+      "language": "en",
+      "length_before_preprocessing": 6713,
+      "length_after_preprocessing": 1729,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172745/blog-a-year-on-from-deepseek-us-versus-china-in-the-ai-race"
+    },
+    {
+      "id": "4caa8a019fd83c52c80c6c3d3dd226edd12bf7628b1c41935efff6184cbdcb47",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.512406",
+      "language": "en",
+      "length_before_preprocessing": 5790,
+      "length_after_preprocessing": 788,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172363/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "720c4d7c2413c2f5b3cc9411211a21e80ffe77cb8e073d8354ecc0b2e14abb9b",
+      "title": "eurozone_december_inflation_revised_down_to_1_9_as_energy_costs_cool",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-19 18:20:34.513834",
+      "language": "en",
+      "length_before_preprocessing": 5420,
+      "length_after_preprocessing": 396,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172815/eurozone-december-inflation-revised-down-to-1-9-as-energy-costs-cool"
+    },
+    {
+      "id": "ffb2c2d6283bdb57ca2e3ea14c44ae6c818b6431423994d9ad9108a91acb92b4",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-20 18:24:13.677119",
+      "language": "en",
+      "length_before_preprocessing": 4721,
+      "length_after_preprocessing": 892,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172396/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "987ce85fd0dfdf7eab682ffd598e8c0d0613e8f0a8a5c99386cc0a49aa6fbf5a",
+      "title": "brazil_posts_stronger_than_expected_growth_in_november_but_industry_s_idleness_rises",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-20 18:24:13.684026",
+      "language": "en",
+      "length_before_preprocessing": 5826,
+      "length_after_preprocessing": 2052,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172868/brazil-posts-stronger-than-expected-growth-in-november-but-industry-s-idleness-rises"
+    },
+    {
+      "id": "d6ce9b9169099eebe9d441b6120bf17429685543672b48bce5bcd94849823180",
+      "title": "north_american_chemicals_push_for_swift_usmca_renewal_ahead_of_2026_review",
+      "published_on": "2026-01-19 12:00:00",
+      "scraped_on": "2026-01-20 18:24:13.686112",
+      "language": "en",
+      "length_before_preprocessing": 7046,
+      "length_after_preprocessing": 2061,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/19/11172848/north-american-chemicals-push-for-swift-usmca-renewal-ahead-of-2026-review"
+    }
+  ]
+}

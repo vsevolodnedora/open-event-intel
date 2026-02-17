@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-08-28",
+  "publications": [
+    {
+      "id": "6a856113344af50a5d18fa57c04b22688b846777473c9eb74bba47f4dea1ce69",
+      "title": "Ultranet",
+      "published_on": "2025-08-28 12:00:00",
+      "scraped_on": "2025-08-28 18:33:37.671254",
+      "language": "de",
+      "length_before_preprocessing": 3743,
+      "length_after_preprocessing": 1137,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250828_Ultranet.html"
+    }
+  ]
+}

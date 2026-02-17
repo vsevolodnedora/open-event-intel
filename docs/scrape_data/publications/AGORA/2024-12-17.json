@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2024-12-17",
+  "publications": [
+    {
+      "id": "565382dd7b974812abf9a3b4b90a25199d9dfc37167127003a08215a46636d63",
+      "title": "fit_for_55_and_beyond_how_a_new_online_tool_can_support_europes_journey_to_climate_neutrality",
+      "published_on": "2024-12-17 12:00:00",
+      "scraped_on": "2025-07-31 11:00:00.424484",
+      "language": "en",
+      "length_before_preprocessing": 6732,
+      "length_after_preprocessing": 3154,
+      "url": "https://www.agora-energiewende.org/news-events/fit-for-55-and-beyond-how-a-new-online-tool-can-support-europes-journey-to-climate-neutrality"
+    }
+  ]
+}

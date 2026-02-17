@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-09-05",
+  "publications": [
+    {
+      "id": "5656db7b154ca51a5d01d293200fefaf40261af83ac58781df79141d2da8e69b",
+      "title": "dispatch_france_september_25",
+      "published_on": "2025-09-05 14:55:00",
+      "scraped_on": "2025-09-05 18:33:41.647759",
+      "language": "en",
+      "length_before_preprocessing": 8898,
+      "length_after_preprocessing": 3970,
+      "url": "https://www.cleanenergywire.org/news/dispatch-france-september-25"
+    },
+    {
+      "id": "3154bb9d9034d97ab4c3eb631d3fb8e0df42e316227fa391b57ee735f6c4da54",
+      "title": "germany_misses_out_large_scale_batteries_potential_stabilise_grid_report",
+      "published_on": "2025-09-05 11:14:00",
+      "scraped_on": "2025-09-05 18:33:52.521217",
+      "language": "en",
+      "length_before_preprocessing": 6804,
+      "length_after_preprocessing": 1391,
+      "url": "https://www.cleanenergywire.org/news/germany-misses-out-large-scale-batteries-potential-stabilise-grid-report"
+    },
+    {
+      "id": "a3509492092acf33f0dc35be0ecc5637b42a0ada89c070107ea2ae8142d38257",
+      "title": "majority_workers_germany_already_feel_affected_climate_change_insurer",
+      "published_on": "2025-09-05 10:12:00",
+      "scraped_on": "2025-09-05 18:34:03.391362",
+      "language": "en",
+      "length_before_preprocessing": 7006,
+      "length_after_preprocessing": 1295,
+      "url": "https://www.cleanenergywire.org/news/majority-workers-germany-already-feel-affected-climate-change-insurer"
+    },
+    {
+      "id": "eee3c791d2b380cb5bbe3c5d6cb3d0ba437f4a7341bbc23089e9669b79c4d64a",
+      "title": "brief_5_september_25",
+      "published_on": "2025-09-05 10:00:00",
+      "scraped_on": "2025-09-05 18:34:14.129673",
+      "language": "en",
+      "length_before_preprocessing": 5410,
+      "length_after_preprocessing": 957,
+      "url": "https://www.cleanenergywire.org/news/brief-5-september-25"
+    }
+  ]
+}

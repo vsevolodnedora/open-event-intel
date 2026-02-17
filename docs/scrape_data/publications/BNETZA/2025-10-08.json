@@ -1,0 +1,26 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-10-08",
+  "publications": [
+    {
+      "id": "a5ca75c937fd185058336b2e770c4b50f5b9e34ed8539981c1166bfcc1e7d202",
+      "title": "Post",
+      "published_on": "2025-10-08 12:00:00",
+      "scraped_on": "2025-10-08 18:34:26.340504",
+      "language": "de",
+      "length_before_preprocessing": 3304,
+      "length_after_preprocessing": 764,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251008_Post.html"
+    },
+    {
+      "id": "1059140bea97320c5497727c0c898ebd2ef118ccc3a398e6b35a7eb60570f2cf",
+      "title": "Inno",
+      "published_on": "2025-10-08 12:00:00",
+      "scraped_on": "2025-10-08 18:34:32.085368",
+      "language": "de",
+      "length_before_preprocessing": 3621,
+      "length_after_preprocessing": 990,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251008_Inno.html"
+    }
+  ]
+}

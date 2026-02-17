@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-18",
+  "publications": [
+    {
+      "id": "32201dff4507e11e5de4da284913961b4d6c1337537420344233f57f51365ec0",
+      "title": "outgoing_german_economy_minister_warns_next_govt_against_creating_new_energy_dependencies",
+      "published_on": "2025-03-18 13:33:00",
+      "scraped_on": "2025-07-31 12:50:48.771387",
+      "language": "en",
+      "length_before_preprocessing": 5061,
+      "length_after_preprocessing": 1527,
+      "url": "https://www.cleanenergywire.org/news/outgoing-german-economy-minister-warns-next-govt-against-creating-new-energy-dependencies"
+    },
+    {
+      "id": "36bfb6f3982a888a2cf4ebc59b05b5275dd2b1711d353b51eaea77898094d78f",
+      "title": "brief_18_march_25",
+      "published_on": "2025-03-18 12:02:00",
+      "scraped_on": "2025-07-31 12:51:00.342344",
+      "language": "en",
+      "length_before_preprocessing": 4845,
+      "length_after_preprocessing": 517,
+      "url": "https://www.cleanenergywire.org/news/brief-18-march-25"
+    },
+    {
+      "id": "0f93987742b7c563f6d9bbfbacc0c1b3bc381f1ddcf0495f954840f74dc6fc60",
+      "title": "nord_stream_2_twists_and_turns_controversial_gas_pipeline",
+      "published_on": "2025-03-18 10:20:00",
+      "scraped_on": "2025-07-31 12:51:12.803057",
+      "language": "en",
+      "length_before_preprocessing": 28757,
+      "length_after_preprocessing": 16351,
+      "url": "https://www.cleanenergywire.org/news/nord-stream-2-twists-and-turns-controversial-gas-pipeline"
+    },
+    {
+      "id": "05abeded0a18820897713cdd895fef6916cc13c7018935a32e93b273b626cc57",
+      "title": "german_parliament_adopts_reform_allow_eu500_bln_new_debt_infrastructure_and_climate",
+      "published_on": "2025-03-18 16:00:00",
+      "scraped_on": "2025-07-31 12:59:51.931237",
+      "language": "en",
+      "length_before_preprocessing": 7451,
+      "length_after_preprocessing": 1832,
+      "url": "https://www.cleanenergywire.org/news/german-parliament-adopts-reform-allow-eu500-bln-new-debt-infrastructure-and-climate"
+    },
+    {
+      "id": "15a3553481a9be97f71b6ee77a471e4af20f5ce51e50076fc9d930192c303567",
+      "title": "peruvian_farmers_climate_lawsuit_against_rwe_faces_crucial_step",
+      "published_on": "2025-03-18 13:57:00",
+      "scraped_on": "2025-07-31 13:00:03.590497",
+      "language": "en",
+      "length_before_preprocessing": 6798,
+      "length_after_preprocessing": 1168,
+      "url": "https://www.cleanenergywire.org/news/peruvian-farmers-climate-lawsuit-against-rwe-faces-crucial-step"
+    },
+    {
+      "id": "fdb789a14ef0dfec383c9e01a64570283e669f304e767db4ac03534bba0baf93",
+      "title": "refurbishing_most_energy_inefficient_buildings_key_lever_rapid_buildings_emission_reduction_report",
+      "published_on": "2025-03-18 13:42:00",
+      "scraped_on": "2025-07-31 13:00:15.249439",
+      "language": "en",
+      "length_before_preprocessing": 6840,
+      "length_after_preprocessing": 1169,
+      "url": "https://www.cleanenergywire.org/news/refurbishing-most-energy-inefficient-buildings-key-lever-rapid-buildings-emission-reduction-report"
+    }
+  ]
+}

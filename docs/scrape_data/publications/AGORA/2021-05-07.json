@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2021-05-07",
+  "publications": [
+    {
+      "id": "87b9bd21ae7dd530d3d70a03f93e05b3ae292e90225f53b0a8f73c8cc2513bbe",
+      "title": "green_hydrogen_clusters_in_europe_and_china",
+      "published_on": "2021-05-07 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.858316",
+      "language": "en",
+      "length_before_preprocessing": 6701,
+      "length_after_preprocessing": 2993,
+      "url": "https://www.agora-energiewende.org/news-events/green-hydrogen-clusters-in-europe-and-china"
+    }
+  ]
+}

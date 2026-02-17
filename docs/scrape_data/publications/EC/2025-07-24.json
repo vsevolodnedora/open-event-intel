@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-07-24",
+  "publications": [
+    {
+      "id": "e6f8b35e6cf7e367ee021455b3bdb5da60962c0e56c55f416499b6f832e72857",
+      "title": "commission_takes_action_ensure_complete_and_timely_transposition_eu_directives_key_decisions_energy",
+      "published_on": "2025-07-24 12:00:00",
+      "scraped_on": "2025-07-31 11:19:02.086498",
+      "language": "en",
+      "length_before_preprocessing": 4176,
+      "length_after_preprocessing": 1422,
+      "url": "https://energy.ec.europa.eu/news/commission-takes-action-ensure-complete-and-timely-transposition-eu-directives-key-decisions-energy-2025-07-24_en"
+    }
+  ]
+}

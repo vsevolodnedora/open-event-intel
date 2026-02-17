@@ -1,0 +1,86 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-08",
+  "publications": [
+    {
+      "id": "c17a5e381df5d338e08ec608c7283e6902ee82fd58b4e58d29997b50fc9d94ef",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.193023",
+      "language": "en",
+      "length_before_preprocessing": 4679,
+      "length_after_preprocessing": 908,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162198/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "bfdca6accbf12abd93a6ab0849042797a5e33ed0d0160dce15c7c0453f311246",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.195415",
+      "language": "en",
+      "length_before_preprocessing": 4652,
+      "length_after_preprocessing": 852,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162278/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "2d5a563aa8d98bea3932880e363cfd869328ea62518c5d3d7b6c7609748d9614",
+      "title": "blog_one_door_opens_as_another_closes_for_the_chemical_industry",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.197222",
+      "language": "en",
+      "length_before_preprocessing": 5191,
+      "length_after_preprocessing": 368,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162330/blog-one-door-opens-as-another-closes-for-the-chemical-industry"
+    },
+    {
+      "id": "849c463baf755f11121176c33ede0ca5087f8ee020f2e4149f0ccfa25fbef2f7",
+      "title": "gpca_25_strategic_collaboration_is_gcc_s_growth_catalyst_sabic_ceo",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.198999",
+      "language": "en",
+      "length_before_preprocessing": 6213,
+      "length_after_preprocessing": 1505,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162412/gpca-25-strategic-collaboration-is-gcc-s-growth-catalyst-sabic-ceo"
+    },
+    {
+      "id": "80476c2810b2af95cac486e5b24153f303d99087e47cb2ff3bf70826f20c52e3",
+      "title": "china_exports_swing_back_to_growth_up_5_9_in_november",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.201081",
+      "language": "en",
+      "length_before_preprocessing": 4665,
+      "length_after_preprocessing": 904,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162304/china-exports-swing-back-to-growth-up-5-9-in-november"
+    },
+    {
+      "id": "4d3ca25a095177e7011eeda218f0f6d040b1cd2afa1f92de08ee9de3f1ea8eb1",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.202940",
+      "language": "en",
+      "length_before_preprocessing": 5763,
+      "length_after_preprocessing": 1126,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162074/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "0de35b802e63941b8c27494cd0cdbe8befa8281ae967498197252c5023f4ba33",
+      "title": "gpca_25_gcc_partnerships_vital_amid_global_shifts_challenges_minister",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-08 18:19:57.204906",
+      "language": "en",
+      "length_before_preprocessing": 5646,
+      "length_after_preprocessing": 894,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162413/gpca-25-gcc-partnerships-vital-amid-global-shifts-challenges-minister"
+    },
+    {
+      "id": "9dff3fccafd8a49245bb2b02200f87a8e9fda61f629ede4b3ea671afd1538ffb",
+      "title": "us_ingevity_mulls_sales_of_road_markings_caprolactone_businesses",
+      "published_on": "2025-12-08 12:00:00",
+      "scraped_on": "2025-12-09 18:17:45.459804",
+      "language": "en",
+      "length_before_preprocessing": 6212,
+      "length_after_preprocessing": 1389,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/08/11162429/us-ingevity-mulls-sales-of-road-markings-caprolactone-businesses"
+    }
+  ]
+}

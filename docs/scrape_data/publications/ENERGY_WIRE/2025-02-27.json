@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-27",
+  "publications": [
+    {
+      "id": "93de498e52312f16e5d28ad78b6e67ff20329915ab439ea559b569f671bad8c1",
+      "title": "german_industry_hails_eu_competitiveness_plan_ngos_warn_red_tape_cuts_threaten_climate_action",
+      "published_on": "2025-02-27 13:51:00",
+      "scraped_on": "2025-07-31 12:41:14.346210",
+      "language": "en",
+      "length_before_preprocessing": 9134,
+      "length_after_preprocessing": 2902,
+      "url": "https://www.cleanenergywire.org/news/german-industry-hails-eu-competitiveness-plan-ngos-warn-red-tape-cuts-threaten-climate-action"
+    },
+    {
+      "id": "4ff9d3ff0d68f606b024b1808030bd8bc083ad6669fcc170f8eab989ca5661b9",
+      "title": "germany_forecast_continue_be_net_emitter_past_climate_neutrality_deadline_report",
+      "published_on": "2025-02-27 13:15:00",
+      "scraped_on": "2025-07-31 12:41:25.921027",
+      "language": "en",
+      "length_before_preprocessing": 6852,
+      "length_after_preprocessing": 1118,
+      "url": "https://www.cleanenergywire.org/news/germany-forecast-continue-be-net-emitter-past-climate-neutrality-deadline-report"
+    },
+    {
+      "id": "45f5a5468d999db352b8a863cee3e4d11b88cdd7d6070e3f9c9e9b2106490177",
+      "title": "brief_27_february_25",
+      "published_on": "2025-02-27 13:14:00",
+      "scraped_on": "2025-07-31 12:41:37.489857",
+      "language": "en",
+      "length_before_preprocessing": 5517,
+      "length_after_preprocessing": 998,
+      "url": "https://www.cleanenergywire.org/news/brief-27-february-25"
+    }
+  ]
+}

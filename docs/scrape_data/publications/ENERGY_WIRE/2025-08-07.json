@@ -1,0 +1,26 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-07",
+  "publications": [
+    {
+      "id": "27b2a8dacd8b65985c2978abee64ac491e729d7992e3beebd99d62f1e4f5c694",
+      "title": "germanys_flat_rate_public_transport_ticket_shaky_financial_ground_associations",
+      "published_on": "2025-08-07 13:20:00",
+      "scraped_on": "2025-08-07 14:50:53.998255",
+      "language": "en",
+      "length_before_preprocessing": 4356,
+      "length_after_preprocessing": 1148,
+      "url": "https://www.cleanenergywire.org/news/germanys-flat-rate-public-transport-ticket-shaky-financial-ground-associations"
+    },
+    {
+      "id": "f4bea75b94bb55c2df39c957e48a418a9ed09e78fbdf1e47a1b83641bc6c195e",
+      "title": "brief_7_august_25",
+      "published_on": "2025-08-07 11:40:00",
+      "scraped_on": "2025-08-07 14:51:05.670416",
+      "language": "en",
+      "length_before_preprocessing": 5478,
+      "length_after_preprocessing": 938,
+      "url": "https://www.cleanenergywire.org/news/brief-7-august-25"
+    }
+  ]
+}

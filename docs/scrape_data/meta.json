@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-02-16T18:37:44Z",
+  "timezone": "CET",
+  "publishers": [
+    "SMARD",
+    "EEX",
+    "ENTSOE",
+    "ACER",
+    "EC",
+    "BNETZA",
+    "TRANSNETBW",
+    "TENNET",
+    "FIFTY_HERTZ",
+    "AMPRION",
+    "ICIS",
+    "AGORA",
+    "ENERGY_WIRE"
+  ],
+  "available_dates": {
+    "min": "1990-01-01",
+    "max": "2026-02-16"
+  }
+}

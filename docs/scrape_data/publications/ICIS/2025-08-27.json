@@ -1,0 +1,26 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-08-27",
+  "publications": [
+    {
+      "id": "acba3787c9b3f22eee21b746e2dd095f43b3505d012314b76cd4b321be576c27",
+      "title": "germany_s_evonik_opens_alkoxides_plant_on_singapore_s_jurong_island",
+      "published_on": "2025-08-27 12:00:00",
+      "scraped_on": "2025-08-27 18:32:38.520737",
+      "language": "en",
+      "length_before_preprocessing": 4475,
+      "length_after_preprocessing": 772,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/27/11131963/germany-s-evonik-opens-alkoxides-plant-on-singapore-s-jurong-island"
+    },
+    {
+      "id": "b6fd7a1506873a0b6453f93541120c4b68fcf1f74e47cb22be25f5d7857f50ca",
+      "title": "update_rail_new_service_from_us_railroads_bnsf_csx_could_be_a_better_option_than_merger_acd",
+      "published_on": "2025-08-27 12:00:00",
+      "scraped_on": "2025-08-28 18:33:27.563624",
+      "language": "en",
+      "length_before_preprocessing": 5165,
+      "length_after_preprocessing": 1452,
+      "url": "https://www.icis.com/explore/resources/news/2025/08/27/11132010/update-rail-new-service-from-us-railroads-bnsf-csx-could-be-a-better-option-than-merger-acd"
+    }
+  ]
+}

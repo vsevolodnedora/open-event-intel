@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-12-02",
+  "publications": [
+    {
+      "id": "ebc64887ac90e1e52f368998eb0d680067ea8799952d899d0f9938c6402ab6ae",
+      "title": "hydrogen_progress_hampered_high_costs_and_slow_transposition",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 14:38:37.586420",
+      "language": "en",
+      "length_before_preprocessing": 8803,
+      "length_after_preprocessing": 1683,
+      "url": "https://www.acer.europa.eu/news/hydrogen-progress-hampered-high-costs-and-slow-transposition"
+    }
+  ]
+}

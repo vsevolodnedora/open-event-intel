@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-11",
+  "publications": [
+    {
+      "id": "a9bcbd5b9897270e953805c69d63d6d1fba12e552314b2bc221b5242fdb2bd0a",
+      "title": "dispatch_germany_april_25",
+      "published_on": "2025-04-11 15:30:00",
+      "scraped_on": "2025-07-31 13:05:24.726135",
+      "language": "en",
+      "length_before_preprocessing": 10517,
+      "length_after_preprocessing": 3844,
+      "url": "https://www.cleanenergywire.org/news/dispatch-germany-april-25"
+    },
+    {
+      "id": "9ac403356d44ca0801ffd9318461bc3e23ac60b85bfd3aadd25a8d4c3e67789d",
+      "title": "dry_topsoil_across_germany_could_impact_crop_yields_following_march_dry_spell_researchers",
+      "published_on": "2025-04-11 13:21:00",
+      "scraped_on": "2025-07-31 13:05:36.411535",
+      "language": "en",
+      "length_before_preprocessing": 6616,
+      "length_after_preprocessing": 1273,
+      "url": "https://www.cleanenergywire.org/news/dry-topsoil-across-germany-could-impact-crop-yields-following-march-dry-spell-researchers"
+    },
+    {
+      "id": "7d48217333d2bb564870e44e4d36e7d08d998aa29b4b2b853bd1fe6f2b27335e",
+      "title": "reactions_energy_and_climate_community_germanys_2025_coalition_treaty",
+      "published_on": "2025-04-11 13:00:00",
+      "scraped_on": "2025-07-31 13:05:48.347077",
+      "language": "en",
+      "length_before_preprocessing": 12052,
+      "length_after_preprocessing": 6297,
+      "url": "https://www.cleanenergywire.org/news/reactions-energy-and-climate-community-germanys-2025-coalition-treaty"
+    },
+    {
+      "id": "a7b37b5cf9c3c65c2bf7c72bdcb5b4ce993b24821f98c5199579a1edc4e0510a",
+      "title": "climate_action_become_opposition_issue_under_next_german_govt_political_advisor",
+      "published_on": "2025-04-11 12:30:00",
+      "scraped_on": "2025-07-31 13:06:00.056866",
+      "language": "en",
+      "length_before_preprocessing": 9797,
+      "length_after_preprocessing": 3948,
+      "url": "https://www.cleanenergywire.org/news/climate-action-become-opposition-issue-under-next-german-govt-political-advisor"
+    },
+    {
+      "id": "e2cf9b2a310418e0de7e2910691398d24ded9ce0c60a1ee4e429df4fe86df3f7",
+      "title": "brief_11_april_25",
+      "published_on": "2025-04-11 12:00:00",
+      "scraped_on": "2025-07-31 13:06:11.622510",
+      "language": "en",
+      "length_before_preprocessing": 5325,
+      "length_after_preprocessing": 991,
+      "url": "https://www.cleanenergywire.org/news/brief-11-april-25"
+    }
+  ]
+}

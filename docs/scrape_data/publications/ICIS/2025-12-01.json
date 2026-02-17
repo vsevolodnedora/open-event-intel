@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-01",
+  "publications": [
+    {
+      "id": "eb06c9e17fc71b11f07ffbb43b830afb1d9a28f37b342f68a5264c6659751e60",
+      "title": "s_korea_nov_petrochemical_exports_fall_14_1_pmi_contracts",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 11:13:34.343736",
+      "language": "en",
+      "length_before_preprocessing": 6712,
+      "length_after_preprocessing": 1919,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/01/11160685/s-korea-nov-petrochemical-exports-fall-14-1-pmi-contracts"
+    },
+    {
+      "id": "04a54672af2056c378085e99044f780123739e7fb3e261c51d59d0172066a9dc",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 11:13:34.347011",
+      "language": "en",
+      "length_before_preprocessing": 6441,
+      "length_after_preprocessing": 1614,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/01/11160362/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "adcc324086b089f6555110870271f1539e1422b23f3554e9df25a5d26f36ceb7",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 11:13:34.349342",
+      "language": "en",
+      "length_before_preprocessing": 5769,
+      "length_after_preprocessing": 952,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/01/11160513/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "350f58e91c5ae9d36d8f828c1d6a5472daab5e57d6a3f2356b5170a76725b7b2",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 18:40:22.753716",
+      "language": "en",
+      "length_before_preprocessing": 5688,
+      "length_after_preprocessing": 955,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/01/11160643/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "48eb18500ef2404da8b4cef5b3f02ae9ed60d44471546d0a0670c3f3abc890f7",
+      "title": "eurozone_manufacturing_slips_into_contraction_while_uk_expands",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 18:40:22.756600",
+      "language": "en",
+      "length_before_preprocessing": 6862,
+      "length_after_preprocessing": 2213,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/01/11160770/eurozone-manufacturing-slips-into-contraction-while-uk-expands"
+    }
+  ]
+}

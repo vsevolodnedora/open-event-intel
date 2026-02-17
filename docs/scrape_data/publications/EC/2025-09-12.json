@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-09-12",
+  "publications": [
+    {
+      "id": "67874c490c6ba7af65c9c37a349748a306be0510cb50fac7fc8791d271bf2783",
+      "title": "european_industrial_alliance_small_modular_reactors_unveils_strategic_action_plan",
+      "published_on": "2025-09-12 12:00:00",
+      "scraped_on": "2025-09-15 18:32:23.582571",
+      "language": "en",
+      "length_before_preprocessing": 4628,
+      "length_after_preprocessing": 1350,
+      "url": "https://single-market-economy.ec.europa.eu/news/european-industrial-alliance-small-modular-reactors-unveils-strategic-action-plan-2025-09-12_en"
+    }
+  ]
+}

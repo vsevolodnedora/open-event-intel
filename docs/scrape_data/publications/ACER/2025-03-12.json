@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-03-12",
+  "publications": [
+    {
+      "id": "41c9e6b532dc24be7ec47e27b03d9c2fffa65ef62551ac41e6e03aa633690d6b",
+      "title": "compensation_grid_operators_covering_cross_border_power_losses_reached_new_peak_2023",
+      "published_on": "2025-03-12 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.259318",
+      "language": "en",
+      "length_before_preprocessing": 8501,
+      "length_after_preprocessing": 1574,
+      "url": "https://www.acer.europa.eu/news/compensation-grid-operators-covering-cross-border-power-losses-reached-new-peak-2023"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-04-09",
+  "publications": [
+    {
+      "id": "7c26e12bb7a7670531df40adfaf02f46850cdd40e1b1b8f8a0b6dff07a92086a",
+      "title": "zwoelf_uebertragungsnetzbetreiber_streben_ein_robustes_offshore_netz_zur_staerkung_der_energieunabhaengigkeit_europas",
+      "published_on": "2025-04-09 12:00:00",
+      "scraped_on": "2025-08-03 10:10:08.161061",
+      "language": "de",
+      "length_before_preprocessing": 5165,
+      "length_after_preprocessing": 3121,
+      "url": "https://www.tennet.eu/de/news/zwoelf-uebertragungsnetzbetreiber-streben-ein-robustes-offshore-netz-zur-staerkung-der-energieunabhaengigkeit-europas"
+    }
+  ]
+}

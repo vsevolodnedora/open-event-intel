@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2020-08-13",
+  "publications": [
+    {
+      "id": "947a97676ed1b3a41ea5c7482385e6f7c6fbd259809df3ca503133b6d894029c",
+      "title": "hohe_photovoltaikeinspeisung",
+      "published_on": "2020-08-13 12:00:00",
+      "scraped_on": "2026-01-14 09:14:42.491565",
+      "language": "de",
+      "length_before_preprocessing": 8231,
+      "length_after_preprocessing": 5022,
+      "url": "https://www.smard.de/page/home/topic-article/204970/195644/hohe-photovoltaikeinspeisung"
+    }
+  ]
+}

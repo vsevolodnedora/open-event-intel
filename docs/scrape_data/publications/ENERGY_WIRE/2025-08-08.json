@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-08",
+  "publications": [
+    {
+      "id": "973c3ee7fedf911b50468b931bce7bb60b5cc7a2b8a3842995802fa9d3135467",
+      "title": "dispatch_croatia_august_25",
+      "published_on": "2025-08-08 15:30:00",
+      "scraped_on": "2025-08-09 10:13:19.449557",
+      "language": "en",
+      "length_before_preprocessing": 5969,
+      "length_after_preprocessing": 2587,
+      "url": "https://www.cleanenergywire.org/news/dispatch-croatia-august-25"
+    },
+    {
+      "id": "cce1e5ff075f8c279c9ba1dab939b8380c0d0f1e73ee7a114e492cd67581167b",
+      "title": "co2_waste_incineration_most_promising_option_synthetic_fuel_production_report",
+      "published_on": "2025-08-08 13:46:00",
+      "scraped_on": "2025-08-09 10:13:31.393061",
+      "language": "en",
+      "length_before_preprocessing": 6494,
+      "length_after_preprocessing": 1030,
+      "url": "https://www.cleanenergywire.org/news/co2-waste-incineration-most-promising-option-synthetic-fuel-production-report"
+    },
+    {
+      "id": "5f7cc8ac927100dd62c8ce5ef7d4c34bcfd5ccb58aa0dd815a014f3cdb8f26af",
+      "title": "uniper_slows_down_its_green_transition_stronger_focus_gas",
+      "published_on": "2025-08-08 12:21:00",
+      "scraped_on": "2025-08-09 10:13:43.277710",
+      "language": "en",
+      "length_before_preprocessing": 7029,
+      "length_after_preprocessing": 1157,
+      "url": "https://www.cleanenergywire.org/news/uniper-slows-down-its-green-transition-stronger-focus-gas"
+    },
+    {
+      "id": "09411ce784dd253cd5356cb6dd6880691dd1b5d868231ad24f6c54a1748662ef",
+      "title": "germanys_defence_spending_spree_needs_careful_handling_fit_climate_plans",
+      "published_on": "2025-08-08 12:00:00",
+      "scraped_on": "2025-08-09 10:13:55.381504",
+      "language": "en",
+      "length_before_preprocessing": 11930,
+      "length_after_preprocessing": 5099,
+      "url": "https://www.cleanenergywire.org/news/germanys-defence-spending-spree-needs-careful-handling-fit-climate-plans"
+    },
+    {
+      "id": "e8c4a7bb083324a2aad7495a6ff1dbab769ef2558019d5c85eed319bef461bf5",
+      "title": "brief_8_august_25",
+      "published_on": "2025-08-08 11:04:00",
+      "scraped_on": "2025-08-09 10:14:07.169807",
+      "language": "en",
+      "length_before_preprocessing": 4961,
+      "length_after_preprocessing": 632,
+      "url": "https://www.cleanenergywire.org/news/brief-8-august-25"
+    }
+  ]
+}

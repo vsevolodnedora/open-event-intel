@@ -1,0 +1,26 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-10",
+  "publications": [
+    {
+      "id": "45252f33b1e96a1e35e9b22b76cabc7fb08e45d8aae42f358d2656d542e25439",
+      "title": "mitsui_chem_idemitsu_kosan_sumitomo_chem_to_integrate_japan_polyolefins_units",
+      "published_on": "2025-09-10 12:00:00",
+      "scraped_on": "2025-09-10 18:32:14.574562",
+      "language": "en",
+      "length_before_preprocessing": 5155,
+      "length_after_preprocessing": 1429,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/10/11136239/mitsui-chem-idemitsu-kosan-sumitomo-chem-to-integrate-japan-polyolefins-units"
+    },
+    {
+      "id": "08589c7a0d6e8d04abe0ff4b207fe49b6c64c5a8c6a27c242827f4d0c3e96c1c",
+      "title": "brazil_s_inflation_posts_first_fall_in_12_months_rates_to_stay_put_for_time_being_analysts",
+      "published_on": "2025-09-10 12:00:00",
+      "scraped_on": "2025-09-11 18:28:42.559843",
+      "language": "en",
+      "length_before_preprocessing": 6029,
+      "length_after_preprocessing": 1223,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/10/11136372/brazil-s-inflation-posts-first-fall-in-12-months-rates-to-stay-put-for-time-being-analysts"
+    }
+  ]
+}

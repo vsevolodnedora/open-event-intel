@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2023-11-03",
+  "publications": [
+    {
+      "id": "369c47183abbc579a9caee927db100b9f98e280a812cb3e20f9a0ec14d5ec961",
+      "title": "grosshandelspreis_erneut_gesunken",
+      "published_on": "2023-11-03 12:00:00",
+      "scraped_on": "2026-01-14 09:21:23.145087",
+      "language": "de",
+      "length_before_preprocessing": 7317,
+      "length_after_preprocessing": 4962,
+      "url": "https://www.smard.de/page/home/topic-article/209944/211148/grosshandelspreis-erneut-gesunken"
+    }
+  ]
+}

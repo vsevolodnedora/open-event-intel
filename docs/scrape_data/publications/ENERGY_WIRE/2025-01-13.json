@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-13",
+  "publications": [
+    {
+      "id": "36ff6881717705d9cb03bfe8e008dfc8630e3b1f33308cb10194cbc08b2b1ccd",
+      "title": "energy_costs_focus_german_parties_flesh_out_election_programmes",
+      "published_on": "2025-01-13 13:40:00",
+      "scraped_on": "2025-07-31 12:10:03.561624",
+      "language": "en",
+      "length_before_preprocessing": 4471,
+      "length_after_preprocessing": 1138,
+      "url": "https://www.cleanenergywire.org/news/energy-costs-focus-german-parties-flesh-out-election-programmes"
+    },
+    {
+      "id": "e0bff9ab346e7aad45f2948274aadf79a818ba0666f141f3558fb2130b77780d",
+      "title": "brief_13_january_25",
+      "published_on": "2025-01-13 11:50:00",
+      "scraped_on": "2025-07-31 12:10:15.271685",
+      "language": "en",
+      "length_before_preprocessing": 5030,
+      "length_after_preprocessing": 661,
+      "url": "https://www.cleanenergywire.org/news/brief-13-january-25"
+    },
+    {
+      "id": "410f99fc110b2f05b35968b50c051faa679f09593514a922e9a237f0150756f8",
+      "title": "uncertainty_abounds_over_german_governments_backtracking_eus_sustainability_reporting_rules",
+      "published_on": "2025-01-13 10:15:00",
+      "scraped_on": "2025-07-31 12:10:25.808773",
+      "language": "en",
+      "length_before_preprocessing": 12770,
+      "length_after_preprocessing": 5456,
+      "url": "https://www.cleanenergywire.org/news/uncertainty-abounds-over-german-governments-backtracking-eus-sustainability-reporting-rules"
+    },
+    {
+      "id": "be61f7859db2d8fa705a8bc0abaec48772ebc09a97d69bf3b4143ab09c228b60",
+      "title": "local_towns_turn_lake_constance_energy_source_climate_friendly_heating",
+      "published_on": "2025-01-13 13:45:00",
+      "scraped_on": "2025-07-31 12:19:33.051017",
+      "language": "en",
+      "length_before_preprocessing": 6756,
+      "length_after_preprocessing": 1191,
+      "url": "https://www.cleanenergywire.org/news/local-towns-turn-lake-constance-energy-source-climate-friendly-heating"
+    }
+  ]
+}

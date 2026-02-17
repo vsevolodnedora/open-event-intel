@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-07-11",
+  "publications": [
+    {
+      "id": "b6701ac2136d3f43c234a74c4b1d9bf223c4010d6cea759eda99f34ac0c4d87b",
+      "title": "closer_links_ukraine_acer_neurc_ukrainian_regulator_workshop_ljubljana",
+      "published_on": "2025-07-11 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.260592",
+      "language": "en",
+      "length_before_preprocessing": 8179,
+      "length_after_preprocessing": 1260,
+      "url": "https://www.acer.europa.eu/news/closer-links-ukraine-acer-neurc-ukrainian-regulator-workshop-ljubljana"
+    }
+  ]
+}

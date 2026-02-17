@@ -1,0 +1,96 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-02-02",
+  "publications": [
+    {
+      "id": "9d19a27fb0206f507c3039cce925b4dd09b3ad0f580a785f63ae6f401b4ef8e0",
+      "title": "india_allocates_budget_for_chemical_mega_textile_parks",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-02 18:30:55.506761",
+      "language": "en",
+      "length_before_preprocessing": 6851,
+      "length_after_preprocessing": 1697,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176421/india-allocates-budget-for-chemical-mega-textile-parks"
+    },
+    {
+      "id": "a8a879762feb4664833c6e813c2569d14e4652a12e3be8a3be9de60409c4602d",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-02 18:30:55.509106",
+      "language": "en",
+      "length_before_preprocessing": 6085,
+      "length_after_preprocessing": 901,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176334/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "99712a700a4f7a2030b33f824b303e7323161890a908ae86c95f74c77d98f7e7",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-02 18:30:55.510863",
+      "language": "en",
+      "length_before_preprocessing": 6528,
+      "length_after_preprocessing": 1292,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176216/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "50b147fe68a3dbf534b30f0fe55148d76df95f5d88498f9a106f9aa725f7f7bc",
+      "title": "oil_falls_by_more_than_2_barrel_as_us_iran_tensions_ease",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-02 18:30:55.512512",
+      "language": "en",
+      "length_before_preprocessing": 6188,
+      "length_after_preprocessing": 988,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176417/oil-falls-by-more-than-2-barrel-as-us-iran-tensions-ease"
+    },
+    {
+      "id": "c4a22a7f5b2433473366ff54b78d388022908919b43ac45ccf721e60bdd77fa0",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-03 18:43:29.103443",
+      "language": "en",
+      "length_before_preprocessing": 5005,
+      "length_after_preprocessing": 992,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176404/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "d65e9558f9ba64a908b4322b76cd1b6330fd0fc70abd0c96392c0c24ad95771a",
+      "title": "s_korea_jan_petrochemical_exports_fall_1_5_on_global_oversupply",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-03 18:43:29.109724",
+      "language": "en",
+      "length_before_preprocessing": 6459,
+      "length_after_preprocessing": 893,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176456/s-korea-jan-petrochemical-exports-fall-1-5-on-global-oversupply"
+    },
+    {
+      "id": "b947971d7492ec0579c91d0541a7f28c6a570c679da9f5116fab1c8d07cccd5f",
+      "title": "argentina_s_chemicals_output_shrinks_18_in_november_as_demand_slumps_ciqyp",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-03 18:43:29.111440",
+      "language": "en",
+      "length_before_preprocessing": 7019,
+      "length_after_preprocessing": 1892,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176451/argentina-s-chemicals-output-shrinks-18-in-november-as-demand-slumps-ciqyp"
+    },
+    {
+      "id": "0cbab03c88010b8c419ddcb8c3d31baf5f7295de952456a1072ae84ec28a21b6",
+      "title": "blog_europe_s_chemical_industry_moves_into_crisis_mode",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-03 18:43:29.113322",
+      "language": "en",
+      "length_before_preprocessing": 5561,
+      "length_after_preprocessing": 315,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176445/blog-europe-s-chemical-industry-moves-into-crisis-mode"
+    },
+    {
+      "id": "5993f154a438b06f4370db11b73c8e35488018fa4300328a09950f001e62b9d8",
+      "title": "brazilian_premium_grade_rpet_flake_demand_plunges_as_supply_chains_shift",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-03 18:43:29.114972",
+      "language": "en",
+      "length_before_preprocessing": 7045,
+      "length_after_preprocessing": 1818,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/02/11176494/brazilian-premium-grade-rpet-flake-demand-plunges-as-supply-chains-shift"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-21",
+  "publications": [
+    {
+      "id": "737e7ef18ba9f777018cff4dc12ec5ef7b9cf144dc31fcd29ecb5d74b71a91b7",
+      "title": "us_december_truck_freight_volumes_up_from_november_rise_by_0_1_in_2025",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-21 18:32:35.129573",
+      "language": "en",
+      "length_before_preprocessing": 6203,
+      "length_after_preprocessing": 1945,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/21/11173538/us-december-truck-freight-volumes-up-from-november-rise-by-0-1-in-2025"
+    },
+    {
+      "id": "0b8bda3f47f9664fdced0e607061ef1a7326e7b822efd504d4b88b2ccf6904b9",
+      "title": "uk_inflation_up_in_december_2025_for_first_time_in_six_months",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-21 18:32:35.132913",
+      "language": "en",
+      "length_before_preprocessing": 5579,
+      "length_after_preprocessing": 410,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/21/11173461/uk-inflation-up-in-december-2025-for-first-time-in-six-months"
+    },
+    {
+      "id": "b61f601d8e8a149f20415ce7e8ac5f7e80fbf1e013005dbbe6a230c5a3fa7c4f",
+      "title": "oil_demand_set_to_rise_in_2026_supply_and_stocks_continue_to_climb_iea",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-21 18:32:35.135272",
+      "language": "en",
+      "length_before_preprocessing": 6434,
+      "length_after_preprocessing": 1333,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/21/11173506/oil-demand-set-to-rise-in-2026-supply-and-stocks-continue-to-climb-iea"
+    },
+    {
+      "id": "c447806fa6f15c9df3f1c57faf99d9b7be02bc39967754c8731719b25bccf441",
+      "title": "podcast_eu_biomethane_market_blooms_but_challenges_slow_down_progress",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-21 18:32:35.137811",
+      "language": "en",
+      "length_before_preprocessing": 6364,
+      "length_after_preprocessing": 831,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/21/11173493/podcast-eu-biomethane-market-blooms-but-challenges-slow-down-progress"
+    },
+    {
+      "id": "de394a1917a3b04dcec5063a56c5e4c3dec93b7178076fa5264d8b99ebc9e7d9",
+      "title": "insight_us_threats_over_greenland_betray_fragility_of_trade_deals",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-22 18:21:02.783264",
+      "language": "en",
+      "length_before_preprocessing": 6805,
+      "length_after_preprocessing": 2830,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/21/11173542/insight-us-threats-over-greenland-betray-fragility-of-trade-deals"
+    },
+    {
+      "id": "59375c55b1a42211f2c3ce45051d8014fbfb1615f337f6a8e454827234ef1ba5",
+      "title": "mexico_chemicals_making_progress_with_pemex_amid_trade_woes_low_demand_aniq_exec",
+      "published_on": "2026-01-21 12:00:00",
+      "scraped_on": "2026-01-22 18:21:02.788747",
+      "language": "en",
+      "length_before_preprocessing": 9251,
+      "length_after_preprocessing": 4125,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/21/11173544/mexico-chemicals-making-progress-with-pemex-amid-trade-woes-low-demand-aniq-exec"
+    }
+  ]
+}

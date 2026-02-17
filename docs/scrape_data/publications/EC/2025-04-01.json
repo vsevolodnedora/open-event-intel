@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-01",
+  "publications": [
+    {
+      "id": "23cfd4dd12f4fe9b46fd8118aca0ad68c60289a71bbf7b1d5577bbe2b0a0e6b3",
+      "title": "commission_presents_protecteu_internal_security_strategy",
+      "published_on": "2025-04-01 12:00:00",
+      "scraped_on": "2025-07-31 11:18:47.365036",
+      "language": "en",
+      "length_before_preprocessing": 11890,
+      "length_after_preprocessing": 1152,
+      "url": "https://home-affairs.ec.europa.eu/news/commission-presents-protecteu-internal-security-strategy-2025-04-01_en"
+    }
+  ]
+}

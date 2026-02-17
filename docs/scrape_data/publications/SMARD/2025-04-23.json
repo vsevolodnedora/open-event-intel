@@ -1,0 +1,36 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-04-23",
+  "publications": [
+    {
+      "id": "5fc3bcbef096a1d8e2c4cb525b05c9994ec7f1dca2efed94e2c52e90df62d27f",
+      "title": "hoechstwerte_bei_pv_und_gas",
+      "published_on": "2025-04-23 12:00:00",
+      "scraped_on": "2025-07-31 16:01:14.858375",
+      "language": "de",
+      "length_before_preprocessing": 8655,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/216804/216802/hoechstwerte-bei-pv-und-gas"
+    },
+    {
+      "id": "da8b0dd0969c10426d0e581b4a5e19e1f97595c8d9b4b16a98318c9e58951b0d",
+      "title": "hoechstwerte_bei_pv_und_gas",
+      "published_on": "2025-04-23 12:00:00",
+      "scraped_on": "2025-07-31 16:01:14.862517",
+      "language": "de",
+      "length_before_preprocessing": 8652,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/home/topic-article/444/216802/hoechstwerte-bei-pv-und-gas"
+    },
+    {
+      "id": "a3d83eaf6b588656d53153a66b2295c7396492cc7068e7cfda9981524e59aae1",
+      "title": "record_highs_for_solar_and_gas",
+      "published_on": "2025-04-23 12:00:00",
+      "scraped_on": "2026-01-14 09:11:31.627460",
+      "language": "de",
+      "length_before_preprocessing": 7414,
+      "length_after_preprocessing": 5318,
+      "url": "https://www.smard.de/page/en/topic-article/5892/216894/record-highs-for-solar-and-gas"
+    }
+  ]
+}

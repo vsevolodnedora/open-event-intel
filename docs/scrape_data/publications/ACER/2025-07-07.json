@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-07-07",
+  "publications": [
+    {
+      "id": "f0c9f7a9ce96a2249084ac74ac9a0ca5c31091174a2c09df4eb06eb977b084ba",
+      "title": "acer_suggests_including_gradual_phase_out_russian_gas_supply_entsogs_future_supply_outlooks",
+      "published_on": "2025-07-07 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.246308",
+      "language": "en",
+      "length_before_preprocessing": 8390,
+      "length_after_preprocessing": 1200,
+      "url": "https://www.acer.europa.eu/news/acer-suggests-including-gradual-phase-out-russian-gas-supply-entsogs-future-supply-outlooks"
+    }
+  ]
+}

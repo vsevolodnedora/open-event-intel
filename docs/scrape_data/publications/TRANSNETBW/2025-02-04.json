@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2025-02-04",
+  "publications": [
+    {
+      "id": "eceb0a427b4edf53cb27af9d905cf7d333e8fc7e3ea352497bff576c34b35176",
+      "title": "beitrag_der_niederspannungsflexibilitaeten_zur_netzdienlichkeit",
+      "published_on": "2025-02-04 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.662581",
+      "language": "de",
+      "length_before_preprocessing": 4003,
+      "length_after_preprocessing": 663,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/beitrag-der-niederspannungsflexibilitaeten-zur-netzdienlichkeit"
+    }
+  ]
+}

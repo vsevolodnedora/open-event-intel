@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-04-01",
+  "publications": [
+    {
+      "id": "27cf1f9aa3e0fd22e4041d4a7df147529e446071587228c3e6abaeec424fbf7e",
+      "title": "planned_electricity_grid_investments_fall_short_expansion_needs_eu_court_auditors",
+      "published_on": "2025-04-01 17:38:00",
+      "scraped_on": "2025-07-31 13:01:36.943037",
+      "language": "en",
+      "length_before_preprocessing": 4354,
+      "length_after_preprocessing": 1202,
+      "url": "https://www.cleanenergywire.org/news/planned-electricity-grid-investments-fall-short-expansion-needs-eu-court-auditors"
+    },
+    {
+      "id": "04f76d57925660d3060d50333fee1a4420ef07f327b7672b01c7032a59b034b4",
+      "title": "germany_already_experiencing_serious_consequences_climate_change_weather_service",
+      "published_on": "2025-04-01 12:50:00",
+      "scraped_on": "2025-07-31 13:01:47.490210",
+      "language": "en",
+      "length_before_preprocessing": 6633,
+      "length_after_preprocessing": 1138,
+      "url": "https://www.cleanenergywire.org/news/germany-already-experiencing-serious-consequences-climate-change-weather-service"
+    },
+    {
+      "id": "ad3ac4d9151492f618332c0b4200ef162609e9cb3db36f565845b373481be954",
+      "title": "one_europes_largest_lithium_mining_projects_may_begin_operation_2030_eastern_germany",
+      "published_on": "2025-04-01 12:20:00",
+      "scraped_on": "2025-07-31 13:01:59.144084",
+      "language": "en",
+      "length_before_preprocessing": 6588,
+      "length_after_preprocessing": 1238,
+      "url": "https://www.cleanenergywire.org/news/one-europes-largest-lithium-mining-projects-may-begin-operation-2030-eastern-germany"
+    },
+    {
+      "id": "cfe0471fcfbba1c2d1cf921f6fa76009ecbd0fc53d23eaac9ef1290d3edc54c6",
+      "title": "brief_1_april_25",
+      "published_on": "2025-04-01 11:22:00",
+      "scraped_on": "2025-07-31 13:02:10.666966",
+      "language": "en",
+      "length_before_preprocessing": 2745,
+      "length_after_preprocessing": 692,
+      "url": "https://www.cleanenergywire.org/news/brief-1-april-25"
+    }
+  ]
+}

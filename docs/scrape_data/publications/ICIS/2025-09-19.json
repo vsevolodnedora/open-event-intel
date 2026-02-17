@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-19",
+  "publications": [
+    {
+      "id": "c6355d16731028d261416caf0b04314346cae11e366ee3fe10620b18bfc14a26",
+      "title": "hyundai_motor_to_invest_w77_3_trillion_in_2026_2030_amid_us_tariff_impact",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:31:26.331065",
+      "language": "en",
+      "length_before_preprocessing": 5951,
+      "length_after_preprocessing": 1203,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/19/11138955/hyundai-motor-to-invest-w77-3-trillion-in-2026-2030-amid-us-tariff-impact"
+    },
+    {
+      "id": "81ac5ccca066171f2b92313630caaba615919a071c4254b51002550a40ea76a3",
+      "title": "japan_aug_inflation_eases_to_2_7_boj_keeps_key_rate_steady",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:31:26.334585",
+      "language": "en",
+      "length_before_preprocessing": 5784,
+      "length_after_preprocessing": 979,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/19/11138982/japan-aug-inflation-eases-to-2-7-boj-keeps-key-rate-steady"
+    },
+    {
+      "id": "922a14f2feb6111dda6bdc06d017f14a768fe44395f18969c5457d8251d67c81",
+      "title": "epca_25_podcast_focus_on_cash_feedstocks_consumer_trends_amid_shifting_industry_landscape",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:31:26.336641",
+      "language": "en",
+      "length_before_preprocessing": 5578,
+      "length_after_preprocessing": 801,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/19/11139064/epca-25-podcast-focus-on-cash-feedstocks-consumer-trends-amid-shifting-industry-landscape"
+    },
+    {
+      "id": "9ace1b36fa95724b2b5290ec30b791049b31892b26a5d744ea063e8f3e019324",
+      "title": "eu_to_ban_russian_lng_imports_from_start_of_2027",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-19 18:31:26.338821",
+      "language": "en",
+      "length_before_preprocessing": 6792,
+      "length_after_preprocessing": 2074,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/19/11139081/eu-to-ban-russian-lng-imports-from-start-of-2027"
+    },
+    {
+      "id": "32d342975c07bc6de81d9b7d9135ebce1436743f24c67df2b3f3deb4a2ddc61b",
+      "title": "rail_new_intermodal_service_from_us_railroads_up_ns_shows_no_need_for_merger_acd",
+      "published_on": "2025-09-19 12:00:00",
+      "scraped_on": "2025-09-20 18:29:06.964921",
+      "language": "en",
+      "length_before_preprocessing": 6399,
+      "length_after_preprocessing": 1651,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/19/11139117/rail-new-intermodal-service-from-us-railroads-up-ns-shows-no-need-for-merger-acd"
+    }
+  ]
+}

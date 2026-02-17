@@ -1,0 +1,16 @@
+{
+  "publisher": "TRANSNETBW",
+  "published_on": "2024-10-01",
+  "publications": [
+    {
+      "id": "5acdbcd6f0d7908da68b303adaae66fc6bb9638a35b047688793d31ed31e445e",
+      "title": "uebertragungsnetzbetreiber_veroeffentlichen_vorlaeufige_netzentgelte_fuer_2025",
+      "published_on": "2024-10-01 12:00:00",
+      "scraped_on": "2025-08-03 06:43:32.668258",
+      "language": "de",
+      "length_before_preprocessing": 5367,
+      "length_after_preprocessing": 1857,
+      "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-veroeffentlichen-vorlaeufige-netzentgelte-fuer-2025"
+    }
+  ]
+}

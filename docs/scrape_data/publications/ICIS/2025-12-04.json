@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-04",
+  "publications": [
+    {
+      "id": "8a52976a2f868b678977ad0ed2921d9d00520ccc41d8e807352333232ab55ef8",
+      "title": "insight_us_leaves_out_chems_in_growing_list_of_tariff_exclusions",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-04 18:20:27.968060",
+      "language": "en",
+      "length_before_preprocessing": 7070,
+      "length_after_preprocessing": 3269,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161701/insight-us-leaves-out-chems-in-growing-list-of-tariff-exclusions"
+    },
+    {
+      "id": "ac313f537148b5e1e6621e9f68956be8128b97dadd341ebf5774753012643df9",
+      "title": "higher_charter_rates_push_ttf_further_below_asia_spot_lng_what_next",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-04 18:20:27.974339",
+      "language": "en",
+      "length_before_preprocessing": 6578,
+      "length_after_preprocessing": 1752,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161676/higher-charter-rates-push-ttf-further-below-asia-spot-lng-what-next"
+    },
+    {
+      "id": "0cb71c05ce7a11d1776df19cac6fac8d921dd6aca386b833ef1d07b8b35cd83e",
+      "title": "blog_the_illusion_of_protection_why_europe_needs_more_than_adds_to_compete",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-04 18:20:27.976622",
+      "language": "en",
+      "length_before_preprocessing": 5820,
+      "length_after_preprocessing": 980,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161614/blog-the-illusion-of-protection-why-europe-needs-more-than-adds-to-compete"
+    },
+    {
+      "id": "fa371afd7b1d69914005ac32df21360e48d3db5347450302aed971291393b320",
+      "title": "us_nov_auto_sales_fall_by_5_5_year_on_year_still_expected_to_top_16_million_for_2025",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-05 18:18:00.010979",
+      "language": "en",
+      "length_before_preprocessing": 6616,
+      "length_after_preprocessing": 1402,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161722/us-nov-auto-sales-fall-by-5-5-year-on-year-still-expected-to-top-16-million-for-2025"
+    },
+    {
+      "id": "94aa96cdc27650cb94d8c19c3d108bde11be7751f4c2dd153e4aa57fd7f5e4e2",
+      "title": "focus_canada_chemical_industry_sees_opportunity_in_proposed_oil_export_pipeline",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-05 18:18:00.014328",
+      "language": "en",
+      "length_before_preprocessing": 9807,
+      "length_after_preprocessing": 4479,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161715/focus-canada-chemical-industry-sees-opportunity-in-proposed-oil-export-pipeline"
+    },
+    {
+      "id": "978186157b194f04cddb54bf05fa2224001366740186a5ae057c8141b1e80345",
+      "title": "up_ns_rail_merger_could_have_negative_impact_on_smaller_developing_ports_trade_group",
+      "published_on": "2025-12-04 12:00:00",
+      "scraped_on": "2025-12-05 18:18:00.016559",
+      "language": "en",
+      "length_before_preprocessing": 7059,
+      "length_after_preprocessing": 2255,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/04/11161730/up-ns-rail-merger-could-have-negative-impact-on-smaller-developing-ports-trade-group"
+    }
+  ]
+}

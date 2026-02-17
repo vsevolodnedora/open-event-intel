@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-11-20",
+  "publications": [
+    {
+      "id": "fc726eeaa66a04689d9d408c28063e994509b7df6f799d3a636359f9d7db6ccd",
+      "title": "Frequenzen",
+      "published_on": "2025-11-20 12:00:00",
+      "scraped_on": "2025-11-20 18:34:55.303034",
+      "language": "de",
+      "length_before_preprocessing": 3772,
+      "length_after_preprocessing": 1207,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251120_Frequenzen.html"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-10",
+  "publications": [
+    {
+      "id": "acc0d004309c7b5afa412be0ea403f181811b18bc4e667ccd99c4eedb36f3b7f",
+      "title": "four_five_residential_buildings_germany_still_heated_oil_and_gas_energy_agency",
+      "published_on": "2025-01-10 13:18:00",
+      "scraped_on": "2025-07-31 12:10:37.363862",
+      "language": "en",
+      "length_before_preprocessing": 6313,
+      "length_after_preprocessing": 925,
+      "url": "https://www.cleanenergywire.org/news/four-five-residential-buildings-germany-still-heated-oil-and-gas-energy-agency"
+    },
+    {
+      "id": "d601eaa88a23e318cb2ea8f7e81c45204b05feddeadddd4d5e8cbfecb8751566",
+      "title": "global_losses_natural_disasters_reached_320_billion_us_dollars_2024",
+      "published_on": "2025-01-10 13:16:00",
+      "scraped_on": "2025-07-31 12:10:49.005562",
+      "language": "en",
+      "length_before_preprocessing": 6394,
+      "length_after_preprocessing": 835,
+      "url": "https://www.cleanenergywire.org/news/global-losses-natural-disasters-reached-320-billion-us-dollars-2024"
+    },
+    {
+      "id": "1b4b4b6f3c5be53d3a8edf5bd8aa43d56d3c84bf4f2d5bf2b149303c745f327f",
+      "title": "germany_open_fossil_gas_and_hydrogen_cooperation_african_countries",
+      "published_on": "2025-01-10 13:15:00",
+      "scraped_on": "2025-07-31 12:11:00.526925",
+      "language": "en",
+      "length_before_preprocessing": 7006,
+      "length_after_preprocessing": 1139,
+      "url": "https://www.cleanenergywire.org/news/germany-open-fossil-gas-and-hydrogen-cooperation-african-countries"
+    },
+    {
+      "id": "7db4e47f9a16d5354a0dc28cc926c7eccc205b9ae67a66c45866aba6b57f6db8",
+      "title": "brief_10_january_25",
+      "published_on": "2025-01-10 10:21:00",
+      "scraped_on": "2025-07-31 12:11:11.990496",
+      "language": "en",
+      "length_before_preprocessing": 2908,
+      "length_after_preprocessing": 754,
+      "url": "https://www.cleanenergywire.org/news/brief-10-january-25"
+    },
+    {
+      "id": "b6afda53d486ee24d5c44c099dc5cdae948cc543833b07923a43ef234387cb74",
+      "title": "dispatch_croatia_january_25",
+      "published_on": "2025-01-10 09:59:00",
+      "scraped_on": "2025-07-31 12:11:23.557891",
+      "language": "en",
+      "length_before_preprocessing": 10430,
+      "length_after_preprocessing": 3347,
+      "url": "https://www.cleanenergywire.org/news/dispatch-croatia-january-25"
+    }
+  ]
+}

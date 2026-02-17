@@ -1,0 +1,16 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-19",
+  "publications": [
+    {
+      "id": "f7cad8e285b53a71f354910040cd4f29122506147a975f17ca8e1e01bac38b0d",
+      "title": "vote25_next_german_government_must_shape_unified_eu_response_trump_shakes_global_order",
+      "published_on": "2025-02-19 13:00:00",
+      "scraped_on": "2025-07-31 12:34:26.783380",
+      "language": "en",
+      "length_before_preprocessing": 13920,
+      "length_after_preprocessing": 7546,
+      "url": "https://www.cleanenergywire.org/news/vote25-next-german-government-must-shape-unified-eu-response-trump-shakes-global-order"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-23",
+  "publications": [
+    {
+      "id": "1b659ed1f99efaa6bce3b75768d0ce51aa21cf734ebed0fbe1a4e31a7bb345ea",
+      "title": "dispatch_germany_may_25",
+      "published_on": "2025-05-23 15:20:00",
+      "scraped_on": "2025-07-31 13:31:50.982234",
+      "language": "en",
+      "length_before_preprocessing": 12173,
+      "length_after_preprocessing": 5036,
+      "url": "https://www.cleanenergywire.org/news/dispatch-germany-may-25"
+    },
+    {
+      "id": "c891d706c49f68b0e652b511f838c888ac76917dc5e1617e1901f4ff954cffda",
+      "title": "arms_maker_rheinmetall_eyes_shift_e_fuels_increase_militarys_strategic_independence",
+      "published_on": "2025-05-23 13:09:00",
+      "scraped_on": "2025-07-31 13:32:02.634665",
+      "language": "en",
+      "length_before_preprocessing": 4688,
+      "length_after_preprocessing": 1152,
+      "url": "https://www.cleanenergywire.org/news/arms-maker-rheinmetall-eyes-shift-e-fuels-increase-militarys-strategic-independence"
+    },
+    {
+      "id": "3e3147db879102daecea720aebf0329036e703f8d50afe6ea7c9338c5c096e43",
+      "title": "economy_minister_confirms_end_germanys_resistance_nuclear_power_eu_level",
+      "published_on": "2025-05-23 13:08:00",
+      "scraped_on": "2025-07-31 13:32:14.104605",
+      "language": "en",
+      "length_before_preprocessing": 6537,
+      "length_after_preprocessing": 1175,
+      "url": "https://www.cleanenergywire.org/news/economy-minister-confirms-end-germanys-resistance-nuclear-power-eu-level"
+    },
+    {
+      "id": "a2bf66a2a6b234461ce9ce8248a8a1375bfda390f3569176d1e60d36772972f2",
+      "title": "mix_trains_buses_bikes_needed_lure_people_away_cars_rural_towns_govt_report",
+      "published_on": "2025-05-23 13:06:00",
+      "scraped_on": "2025-07-31 13:32:25.760325",
+      "language": "en",
+      "length_before_preprocessing": 6667,
+      "length_after_preprocessing": 1203,
+      "url": "https://www.cleanenergywire.org/news/mix-trains-buses-bikes-needed-lure-people-away-cars-rural-towns-govt-report"
+    },
+    {
+      "id": "7b99955660974be27897b7193f9f7faaed163f31d5bf87c03f05d98e90ce4454",
+      "title": "brief_23_may_25",
+      "published_on": "2025-05-23 11:00:00",
+      "scraped_on": "2025-07-31 13:32:37.216317",
+      "language": "en",
+      "length_before_preprocessing": 5651,
+      "length_after_preprocessing": 1148,
+      "url": "https://www.cleanenergywire.org/news/brief-23-may-25"
+    }
+  ]
+}

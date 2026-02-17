@@ -1,0 +1,16 @@
+{
+  "publisher": "AMPRION",
+  "published_on": "2019-10-20",
+  "publications": [
+    {
+      "id": "7b45797f61e1001357f4396f291c44646035e7309d3a5e261ab55cadf7ccb995",
+      "title": "Pressemitteilungen_2019",
+      "published_on": "2019-10-20 12:00:00",
+      "scraped_on": "2025-08-07 15:51:09.672227",
+      "language": "de",
+      "length_before_preprocessing": 10188,
+      "length_after_preprocessing": 6734,
+      "url": "https://www.amprion.net/Presse/Pressemitteilungen/2019/Pressemitteilungen-2019.html"
+    }
+  ]
+}

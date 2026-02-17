@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2026-01-29",
+  "publications": [
+    {
+      "id": "2b37e5d11940dc8d7312fc59aea6938cdf25fb95f7e513496afe93120b56d6ac",
+      "title": "acer_calls_stronger_coordination_and_consistency_across_eu_electricity_gas_and_hydrogen_planning",
+      "published_on": "2026-01-29 12:00:00",
+      "scraped_on": "2026-01-29 18:32:04.098878",
+      "language": "en",
+      "length_before_preprocessing": 8889,
+      "length_after_preprocessing": 1707,
+      "url": "https://www.acer.europa.eu/news/acer-calls-stronger-coordination-and-consistency-across-eu-electricity-gas-and-hydrogen-planning"
+    }
+  ]
+}

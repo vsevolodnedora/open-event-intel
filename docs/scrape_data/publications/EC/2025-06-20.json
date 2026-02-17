@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-06-20",
+  "publications": [
+    {
+      "id": "e4305b1c6234a8765d6938c02ee9da2e3507c4f3454e998924b8ae9ffd6dd86f",
+      "title": "5_things_you_should_know_about_solar_energy",
+      "published_on": "2025-06-20 12:00:00",
+      "scraped_on": "2025-07-31 11:18:52.126589",
+      "language": "en",
+      "length_before_preprocessing": 9817,
+      "length_after_preprocessing": 4904,
+      "url": "https://energy.ec.europa.eu/news/5-things-you-should-know-about-solar-energy-2025-06-20_en"
+    },
+    {
+      "id": "8e018381707f18bcac06bbe5e2f80e3bad13af3ee86b79a932c19fd3e70ec4eb",
+      "title": "new_eu_rules_durable_energy_efficient_and_repairable_smartphones_and_tablets_start_applying",
+      "published_on": "2025-06-20 12:00:00",
+      "scraped_on": "2025-07-31 11:18:52.128195",
+      "language": "en",
+      "length_before_preprocessing": 5589,
+      "length_after_preprocessing": 2241,
+      "url": "https://single-market-economy.ec.europa.eu/news/new-eu-rules-durable-energy-efficient-and-repairable-smartphones-and-tablets-start-applying-2025-06-20_en"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-05-12",
+  "publications": [
+    {
+      "id": "16fea264043a876512cdeb41ee4d06fe60ecbd694682e519d0e609ec4d3de2df",
+      "title": "Eisenbahn",
+      "published_on": "2025-05-12 12:00:00",
+      "scraped_on": "2025-07-31 11:11:00.257807",
+      "language": "de",
+      "length_before_preprocessing": 3750,
+      "length_after_preprocessing": 1157,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250512_Eisenbahn.html"
+    },
+    {
+      "id": "61962d9cf301d65152120da9a11dafb63aa6c9ac5b0fc403da8ed4c03b9d3a22",
+      "title": "AgNes",
+      "published_on": "2025-05-12 12:00:00",
+      "scraped_on": "2025-07-31 11:11:03.346588",
+      "language": "de",
+      "length_before_preprocessing": 5090,
+      "length_after_preprocessing": 2439,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250512_AgNes.html"
+    }
+  ]
+}

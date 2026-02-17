@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-05-16",
+  "publications": [
+    {
+      "id": "85bc866701eec5739ba0ef9faadc5342af431fc8c41f0439264f503e67c4de2b",
+      "title": "acer_monitoring_shows_most_infrastructure_projects_time_yet_commissioning_timelines_are_ambitious",
+      "published_on": "2025-05-16 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.235102",
+      "language": "en",
+      "length_before_preprocessing": 8464,
+      "length_after_preprocessing": 1300,
+      "url": "https://www.acer.europa.eu/news/acer-monitoring-shows-most-infrastructure-projects-time-yet-commissioning-timelines-are-ambitious"
+    },
+    {
+      "id": "37fe7a44f10980c989e865fe6e28782a4c61c24c930eede67913cade0949d592",
+      "title": "acers_latest_remit_quarterly_out_6",
+      "published_on": "2025-05-16 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.251532",
+      "language": "en",
+      "length_before_preprocessing": 7923,
+      "length_after_preprocessing": 1004,
+      "url": "https://www.acer.europa.eu/news/acers-latest-remit-quarterly-out-6"
+    }
+  ]
+}

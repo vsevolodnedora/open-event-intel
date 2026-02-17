@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-06-12",
+  "publications": [
+    {
+      "id": "1b10e58a163dbe4073cee59f76efb9efb6b024ca4cbf58d476966b2babaa13e5",
+      "title": "mood_german_wind_power_industry_darkens_us_bets_fossil_fuels",
+      "published_on": "2025-06-12 12:08:00",
+      "scraped_on": "2025-07-31 13:43:02.281323",
+      "language": "en",
+      "length_before_preprocessing": 4018,
+      "length_after_preprocessing": 860,
+      "url": "https://www.cleanenergywire.org/news/mood-german-wind-power-industry-darkens-us-bets-fossil-fuels"
+    },
+    {
+      "id": "a79955489d883a941e2f1d3040837ccc4205cff5e079858865facab9662ab94b",
+      "title": "only_one_five_trees_german_forests_are_healthy_govt_report",
+      "published_on": "2025-06-12 12:06:00",
+      "scraped_on": "2025-07-31 13:43:13.970753",
+      "language": "en",
+      "length_before_preprocessing": 6384,
+      "length_after_preprocessing": 802,
+      "url": "https://www.cleanenergywire.org/news/only-one-five-trees-german-forests-are-healthy-govt-report"
+    },
+    {
+      "id": "fd562282d6cb8c9657d6822085a809c2769e47574a18e19851b7aeb054240c78",
+      "title": "military_has_understood_strategic_advantages_low_carbon_technology_security_researcher",
+      "published_on": "2025-06-12 10:30:00",
+      "scraped_on": "2025-07-31 13:43:25.662243",
+      "language": "en",
+      "length_before_preprocessing": 11860,
+      "length_after_preprocessing": 5128,
+      "url": "https://www.cleanenergywire.org/news/military-has-understood-strategic-advantages-low-carbon-technology-security-researcher"
+    },
+    {
+      "id": "671eaa67e752506da869c912b207e2b175c1a6fc2fbd8c5f29f37b907c66555d",
+      "title": "brief_12_june_25",
+      "published_on": "2025-06-12 09:23:00",
+      "scraped_on": "2025-07-31 13:43:37.222369",
+      "language": "en",
+      "length_before_preprocessing": 2996,
+      "length_after_preprocessing": 854,
+      "url": "https://www.cleanenergywire.org/news/brief-12-june-25"
+    }
+  ]
+}

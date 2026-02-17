@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2026-01-30",
+  "publications": [
+    {
+      "id": "10a104ddcc8e76969788b9f3bcc41d418d03f56626f4173189a7cbc304e7c35d",
+      "title": "joint_report_on_tso_dso_digital_twin_use_cases",
+      "published_on": "2026-01-30 12:00:00",
+      "scraped_on": "2026-01-30 18:28:14.634060",
+      "language": "en",
+      "length_before_preprocessing": 3076,
+      "length_after_preprocessing": 898,
+      "url": "https://www.entsoe.eu/news/2026/01/30/joint-report-on-tso-dso-digital-twin-use-cases"
+    }
+  ]
+}

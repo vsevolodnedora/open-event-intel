@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-01-06",
+  "publications": [
+    {
+      "id": "573ebf88b05432e999768bd54901fda5ad8c83da9e63e25b52e0c0b3fd0544e9",
+      "title": "construction_germanys_hydrogen_core_grid_commence_2025_media_report",
+      "published_on": "2025-01-06 12:45:00",
+      "scraped_on": "2025-07-31 12:05:18.059327",
+      "language": "en",
+      "length_before_preprocessing": 4360,
+      "length_after_preprocessing": 941,
+      "url": "https://www.cleanenergywire.org/news/construction-germanys-hydrogen-core-grid-commence-2025-media-report"
+    },
+    {
+      "id": "d459c0a3e61c791499be25a2d306dde781fe49b38332b9591023f0ad2c67da56",
+      "title": "vote25_germany_must_embrace_transformation_seek_european_approach_industry_crises_researcher",
+      "published_on": "2025-01-06 12:12:00",
+      "scraped_on": "2025-07-31 12:05:29.784175",
+      "language": "en",
+      "length_before_preprocessing": 10380,
+      "length_after_preprocessing": 4136,
+      "url": "https://www.cleanenergywire.org/news/vote25-germany-must-embrace-transformation-seek-european-approach-industry-crises-researcher"
+    },
+    {
+      "id": "179923de7e55bb4cd3c0bc4f04538b8467c26f0258d9e4836b64b0fc02b7bcf6",
+      "title": "brief_6_january_25",
+      "published_on": "2025-01-06 10:43:00",
+      "scraped_on": "2025-07-31 12:05:41.421255",
+      "language": "en",
+      "length_before_preprocessing": 6194,
+      "length_after_preprocessing": 1486,
+      "url": "https://www.cleanenergywire.org/news/brief-6-january-25"
+    },
+    {
+      "id": "ff1e5d369094454492d9d1017c8c523d1454e172591771ae7abbc605bcde1ad8",
+      "title": "german_solar_capacity_breaches_100_gigawatts_industry_association",
+      "published_on": "2025-01-06 13:13:00",
+      "scraped_on": "2025-07-31 12:14:41.221787",
+      "language": "en",
+      "length_before_preprocessing": 6172,
+      "length_after_preprocessing": 912,
+      "url": "https://www.cleanenergywire.org/news/german-solar-capacity-breaches-100-gigawatts-industry-association"
+    }
+  ]
+}

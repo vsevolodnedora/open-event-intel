@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-21",
+  "publications": [
+    {
+      "id": "71d3d143ced0eeabbd23171dc5cbf847e37df082f3e60a65d5464bc77f2138e3",
+      "title": "german_environment_agency_warns_against_overreliance_co2_storage",
+      "published_on": "2025-08-21 13:28:00",
+      "scraped_on": "2025-08-21 18:35:52.389684",
+      "language": "en",
+      "length_before_preprocessing": 4072,
+      "length_after_preprocessing": 1228,
+      "url": "https://www.cleanenergywire.org/news/german-environment-agency-warns-against-overreliance-co2-storage"
+    },
+    {
+      "id": "b6384a7c2d86c4b6ee1868ea60350dcbd7f729793dc5f7e9c469cf1444c06f9a",
+      "title": "train_travel_still_pricier_flying_most_european_routes_report",
+      "published_on": "2025-08-21 11:30:00",
+      "scraped_on": "2025-08-21 18:36:03.532615",
+      "language": "en",
+      "length_before_preprocessing": 6894,
+      "length_after_preprocessing": 1078,
+      "url": "https://www.cleanenergywire.org/news/train-travel-still-pricier-flying-most-european-routes-report"
+    },
+    {
+      "id": "fdb50ea483b8b9cb267c510a169a2477df1d44d9b65b3b8d9066cc5188c2e81d",
+      "title": "brief_21_august_25",
+      "published_on": "2025-08-21 11:10:00",
+      "scraped_on": "2025-08-21 18:36:14.473280",
+      "language": "en",
+      "length_before_preprocessing": 5115,
+      "length_after_preprocessing": 725,
+      "url": "https://www.cleanenergywire.org/news/brief-21-august-25"
+    }
+  ]
+}

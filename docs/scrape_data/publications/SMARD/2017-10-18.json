@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2017-10-18",
+  "publications": [
+    {
+      "id": "46e05b00bd0c82e85dac1b917a4eca12ead90b8e2fc114c707f8b2cbd43200d7",
+      "title": "sturmtief_sebastian_so_flexibel_reagierte_der_strommarkt",
+      "published_on": "2017-10-18 12:00:00",
+      "scraped_on": "2026-01-14 09:19:28.644841",
+      "language": "de",
+      "length_before_preprocessing": 7733,
+      "length_after_preprocessing": 4590,
+      "url": "https://www.smard.de/page/home/topic-article/204976/4916/sturmtief-sebastian-so-flexibel-reagierte-der-strommarkt"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-12-05",
+  "publications": [
+    {
+      "id": "d9926e64c9da906a6377e39b57c113b6344ba6b2fc9add292d1b2008aa720d2f",
+      "title": "podcast_trump_s_trade_war_is_driving_new_business_models_for_chemicals",
+      "published_on": "2025-12-05 12:00:00",
+      "scraped_on": "2025-12-05 18:18:00.004354",
+      "language": "en",
+      "length_before_preprocessing": 4925,
+      "length_after_preprocessing": 1052,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162175/podcast-trump-s-trade-war-is-driving-new-business-models-for-chemicals"
+    },
+    {
+      "id": "f7419abf8c7d42ee5819a7960f444fa34d84449c24a8637fa2e13668f7ad31b6",
+      "title": "india_central_bank_cuts_interest_rates_hikes_full_year_gdp_growth_forecast",
+      "published_on": "2025-12-05 12:00:00",
+      "scraped_on": "2025-12-05 18:18:00.007179",
+      "language": "en",
+      "length_before_preprocessing": 5159,
+      "length_after_preprocessing": 1286,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162105/india-central-bank-cuts-interest-rates-hikes-full-year-gdp-growth-forecast"
+    },
+    {
+      "id": "ab7c44051853fa5c21771327c702e6deea49c810eec5b90d14e43319b6d76666",
+      "title": "india_industries_get_boost_as_gov_t_withdraws_chems_import_barrier",
+      "published_on": "2025-12-05 12:00:00",
+      "scraped_on": "2025-12-05 18:18:00.009256",
+      "language": "en",
+      "length_before_preprocessing": 5927,
+      "length_after_preprocessing": 2055,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162056/india-industries-get-boost-as-gov-t-withdraws-chems-import-barrier"
+    },
+    {
+      "id": "a5517c280f9f1d881a242defa96a48896d699df17a24acf52eb8aa2889aa9419",
+      "title": "asia_us_container_rates_mixed_as_carriers_use_smaller_more_frequent_hikes_to_halt_slide",
+      "published_on": "2025-12-05 12:00:00",
+      "scraped_on": "2025-12-06 08:23:52.498241",
+      "language": "en",
+      "length_before_preprocessing": 7446,
+      "length_after_preprocessing": 2242,
+      "url": "https://www.icis.com/explore/resources/news/2025/12/05/11162232/asia-us-container-rates-mixed-as-carriers-use-smaller-more-frequent-hikes-to-halt-slide"
+    }
+  ]
+}

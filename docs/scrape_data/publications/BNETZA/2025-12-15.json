@@ -1,0 +1,16 @@
+{
+  "publisher": "BNETZA",
+  "published_on": "2025-12-15",
+  "publications": [
+    {
+      "id": "fb7a1381a6a12f58bd59c700de9457c8d4515d5bde1cdbec4214c69f9495e2b2",
+      "title": "5G",
+      "published_on": "2025-12-15 12:00:00",
+      "scraped_on": "2025-12-15 18:20:56.155859",
+      "language": "de",
+      "length_before_preprocessing": 3751,
+      "length_after_preprocessing": 1200,
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251215_5G.html"
+    }
+  ]
+}

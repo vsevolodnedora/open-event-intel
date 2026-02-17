@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-11-18",
+  "publications": [
+    {
+      "id": "b1063c13c3a53da11b8262c1fa148fef8eab1489276596ccb1969f7283132d94",
+      "title": "registration_opens_raw_materials_mechanism_under_eu_energy_and_raw_materials_platform",
+      "published_on": "2025-11-18 12:00:00",
+      "scraped_on": "2025-11-18 18:34:43.367571",
+      "language": "en",
+      "length_before_preprocessing": 3988,
+      "length_after_preprocessing": 803,
+      "url": "https://single-market-economy.ec.europa.eu/news/registration-opens-raw-materials-mechanism-under-eu-energy-and-raw-materials-platform-2025-11-18_en"
+    }
+  ]
+}

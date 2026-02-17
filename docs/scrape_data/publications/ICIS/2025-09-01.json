@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-01",
+  "publications": [
+    {
+      "id": "4217cf07c33e20867c80e27cf75a38d5e07d4e015cfe6c16e6f4269704b2a94f",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-09-01 12:00:00",
+      "scraped_on": "2025-09-01 18:32:10.762460",
+      "language": "en",
+      "length_before_preprocessing": 4799,
+      "length_after_preprocessing": 1176,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/01/11133706/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "7426bb885b48e40ac0ec7080ed23d7be891b142a09ac3bf8254125cd3e7b8a8b",
+      "title": "s_korea_aug_petrochemical_exports_fall_18_7_pmi_extends_contraction",
+      "published_on": "2025-09-01 12:00:00",
+      "scraped_on": "2025-09-01 18:32:10.765808",
+      "language": "en",
+      "length_before_preprocessing": 5775,
+      "length_after_preprocessing": 2201,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/01/11133570/s-korea-aug-petrochemical-exports-fall-18-7-pmi-extends-contraction"
+    },
+    {
+      "id": "1fbd5558bc97e8bc43d1bf27265ecbfb2158dff87692dad4cd43e871a03d6533",
+      "title": "blog_five_potential_market_flashpoints_for_the_autumn",
+      "published_on": "2025-09-01 12:00:00",
+      "scraped_on": "2025-09-01 18:32:10.767947",
+      "language": "en",
+      "length_before_preprocessing": 3923,
+      "length_after_preprocessing": 315,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/01/11133654/blog-five-potential-market-flashpoints-for-the-autumn"
+    },
+    {
+      "id": "75365576e7b1e0813ca9e43452fbbb37ce0ea2c1e858de62c0ff2cdf8051bdc0",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-09-01 12:00:00",
+      "scraped_on": "2025-09-01 18:32:10.770301",
+      "language": "en",
+      "length_before_preprocessing": 5130,
+      "length_after_preprocessing": 1485,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/01/11132955/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "aae784fe71840947142037229140a91baaac6d927a60f7064f14cd34b9bd423a",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-09-01 12:00:00",
+      "scraped_on": "2025-09-01 18:32:10.773064",
+      "language": "en",
+      "length_before_preprocessing": 5528,
+      "length_after_preprocessing": 887,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/01/11133105/europe-top-stories-weekly-summary"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2024-11-05",
+  "publications": [
+    {
+      "id": "b8cd5e359ef4d9a1418b0fe79328356dae2f4883b91d20ab463e34d53d45930c",
+      "title": "status_quo_zur_verbreitung_des_bidirektionalen_ladens_",
+      "published_on": "2024-11-05 12:00:00",
+      "scraped_on": "2026-01-14 09:22:22.782965",
+      "language": "de",
+      "length_before_preprocessing": 4160,
+      "length_after_preprocessing": 1505,
+      "url": "https://www.smard.de/page/home/topic-article/211784/215226/status-quo-zur-verbreitung-des-bidirektionalen-ladens-"
+    }
+  ]
+}

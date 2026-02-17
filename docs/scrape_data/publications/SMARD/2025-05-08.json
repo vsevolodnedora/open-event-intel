@@ -1,0 +1,26 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2025-05-08",
+  "publications": [
+    {
+      "id": "05d82b368d498eb3f6e0aad9f69625bcd880e2fe72adca4d6e65a9a496ab3e3a",
+      "title": "herausforderung_solarspitzen",
+      "published_on": "2025-05-08 12:00:00",
+      "scraped_on": "2025-07-31 16:01:14.864161",
+      "language": "de",
+      "length_before_preprocessing": 11806,
+      "length_after_preprocessing": 8607,
+      "url": "https://www.smard.de/page/home/topic-article/444/216808/herausforderung-solarspitzen"
+    },
+    {
+      "id": "e3dc0ff4556a6a339bb6421bb60d199a509add09c48baa90b1f7e0e512a3a37c",
+      "title": "the_challenge_of_solar_peaks",
+      "published_on": "2025-05-08 12:00:00",
+      "scraped_on": "2026-01-14 09:11:40.781615",
+      "language": "de",
+      "length_before_preprocessing": 10030,
+      "length_after_preprocessing": null,
+      "url": "https://www.smard.de/page/en/topic-article/5892/217174/the-challenge-of-solar-peaks"
+    }
+  ]
+}

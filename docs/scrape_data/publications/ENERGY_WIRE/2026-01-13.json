@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2026-01-13",
+  "publications": [
+    {
+      "id": "c43ca76cd15be729e991e5e0e5b67b1e07ff10c1d406076f93582b9184119502",
+      "title": "german_banks_sustainability_performance_still_lacking_ambition_ngo",
+      "published_on": "2026-01-13 14:03:00",
+      "scraped_on": "2026-01-13 18:25:25.660551",
+      "language": "en",
+      "length_before_preprocessing": 4171,
+      "length_after_preprocessing": 1179,
+      "url": "https://www.cleanenergywire.org/news/german-banks-sustainability-performance-still-lacking-ambition-ngo"
+    },
+    {
+      "id": "6aa8736e683352ed4a7d0e53a3f5cabe74e5ecb09d8409f4502b2dc2d70e12f9",
+      "title": "adapting_climate_risks_essential_losses_reach_224_bln_2025_munich_re",
+      "published_on": "2026-01-13 13:30:00",
+      "scraped_on": "2026-01-13 18:25:36.660253",
+      "language": "en",
+      "length_before_preprocessing": 6503,
+      "length_after_preprocessing": 931,
+      "url": "https://www.cleanenergywire.org/news/adapting-climate-risks-essential-losses-reach-224-bln-2025-munich-re"
+    },
+    {
+      "id": "5c7237c1eefa9186cf0b44518b4ba6636f3fe52fc5f6dfaabc15337073945ddb",
+      "title": "german_economy_ministry_present_new_investment_framework_offshore_wind_media",
+      "published_on": "2026-01-13 13:00:00",
+      "scraped_on": "2026-01-13 18:25:47.661793",
+      "language": "en",
+      "length_before_preprocessing": 6460,
+      "length_after_preprocessing": 1147,
+      "url": "https://www.cleanenergywire.org/news/german-economy-ministry-present-new-investment-framework-offshore-wind-media"
+    },
+    {
+      "id": "db71441a17184c3b706ad255c9199a71f3f24b774b5db9d9b217936b2fe75fa1",
+      "title": "brief_13_january_26",
+      "published_on": "2026-01-13 10:06:00",
+      "scraped_on": "2026-01-13 18:25:58.546369",
+      "language": "en",
+      "length_before_preprocessing": 5115,
+      "length_after_preprocessing": 760,
+      "url": "https://www.cleanenergywire.org/news/brief-13-january-26"
+    }
+  ]
+}

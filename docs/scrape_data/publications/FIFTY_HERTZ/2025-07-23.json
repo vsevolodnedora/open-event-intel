@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-07-23",
+  "publications": [
+    {
+      "id": "8ed79866a9d5529751da5fd9dbb93e0790eb77a3a5936d8898e362be286c085e",
+      "title": "suedostlink_feiert_richtfest_wichtiger_anlage_in_gefell",
+      "published_on": "2025-07-23 12:00:00",
+      "scraped_on": "2025-08-02 20:54:47.063622",
+      "language": "de",
+      "length_before_preprocessing": 6888,
+      "length_after_preprocessing": 1939,
+      "url": "https://www.50hertz.com/de/News/Details/16046/suedostlink-feiert-richtfest-wichtiger-anlage-in-gefell"
+    }
+  ]
+}

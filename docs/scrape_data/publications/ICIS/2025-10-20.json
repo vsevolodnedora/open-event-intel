@@ -1,0 +1,76 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-20",
+  "publications": [
+    {
+      "id": "90ccc58f450176a5959bec6aad3af934f856eaab9a6c9b47facee8adae2bed12",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.773831",
+      "language": "en",
+      "length_before_preprocessing": 5645,
+      "length_after_preprocessing": 851,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11146825/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "4e6d1d5cba57a7d1a03d83497e4cefd834a8704801e3d1c2c394e47cfae84aae",
+      "title": "us_to_impose_tariffs_on_heavy_trucks_extends_offset_for_light_autos",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.776700",
+      "language": "en",
+      "length_before_preprocessing": 5689,
+      "length_after_preprocessing": 1511,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11147212/us-to-impose-tariffs-on-heavy-trucks-extends-offset-for-light-autos"
+    },
+    {
+      "id": "535bf6aa6f632b69b33c266fbe38b4bcd92552fa9f5adfd451be1799e2bea40d",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.778467",
+      "language": "en",
+      "length_before_preprocessing": 5072,
+      "length_after_preprocessing": 1283,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11146872/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "66eea59b71c0da1104e4e863c15fbf917ef11ee1eed718b951d7a3d2bbb26da2",
+      "title": "apla_25_higher_us_import_tariffs_on_colombia_could_greatly_impact_chemicals",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.782079",
+      "language": "en",
+      "length_before_preprocessing": 6010,
+      "length_after_preprocessing": 1277,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11147210/apla-25-higher-us-import-tariffs-on-colombia-could-greatly-impact-chemicals"
+    },
+    {
+      "id": "12cd43f4992bfa3aa63dc01ac7c942c12fcc90c59f456da9d587434e6a6d2004",
+      "title": "blog_china_eg_and_px_self_sufficiency_complacency_a_big_risk",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.785228",
+      "language": "en",
+      "length_before_preprocessing": 6309,
+      "length_after_preprocessing": 1561,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11147178/blog-china-eg-and-px-self-sufficiency-complacency-a-big-risk"
+    },
+    {
+      "id": "4a2c1c441f3eebe5a9c54989f4a0e66c6fd464d5239df4ed111e177c42276ec6",
+      "title": "india_ril_oil_to_chemicals_fy_q2_earnings_up_20_9_amid_higher_polymer_margins",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.786885",
+      "language": "en",
+      "length_before_preprocessing": 6801,
+      "length_after_preprocessing": 2008,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11147100/india-ril-oil-to-chemicals-fy-q2-earnings-up-20-9-amid-higher-polymer-margins"
+    },
+    {
+      "id": "284c361d910b8878b662782d2f5c7db11545de31012ce46db065f22180c12256",
+      "title": "blog_wishful_thinking_prompts_iea_s_belief_that_petchems_can_drive_oil_demand_growth",
+      "published_on": "2025-10-20 12:00:00",
+      "scraped_on": "2025-10-21 14:27:58.788720",
+      "language": "en",
+      "length_before_preprocessing": 5168,
+      "length_after_preprocessing": 344,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/20/11147126/blog-wishful-thinking-prompts-iea-s-belief-that-petchems-can-drive-oil-demand-growth"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-03-10",
+  "publications": [
+    {
+      "id": "0d694c33aa61462d6835c32eef80f8183c0e8bc2c4518ee5df9022f18cd04f39",
+      "title": "acer_concludes_proposed_gas_transmission_tariffs_hungary_are_largely_compliant_eu_rules",
+      "published_on": "2025-03-10 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.231062",
+      "language": "en",
+      "length_before_preprocessing": 8153,
+      "length_after_preprocessing": 1053,
+      "url": "https://www.acer.europa.eu/news/acer-concludes-proposed-gas-transmission-tariffs-hungary-are-largely-compliant-eu-rules"
+    }
+  ]
+}

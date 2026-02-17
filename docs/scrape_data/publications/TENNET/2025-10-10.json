@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-10-10",
+  "publications": [
+    {
+      "id": "071a53dc8f8afe53c14fdec5567895cc9f7d2d6a0ed3bbd0aa0a5a1e66db26c8",
+      "title": "suedlink_letzte_abschnitte_genehmigt_groesstes_infrastrukturprojekt_der_energiewende_jetzt_allen_sechs_bundeslaendern_bau",
+      "published_on": "2025-10-10 12:00:00",
+      "scraped_on": "2025-10-12 18:32:56.710686",
+      "language": "de",
+      "length_before_preprocessing": 6318,
+      "length_after_preprocessing": 1863,
+      "url": "https://www.tennet.eu/de/news/suedlink-letzte-abschnitte-genehmigt-groesstes-infrastrukturprojekt-der-energiewende-jetzt-allen-sechs-bundeslaendern-bau"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-02-27",
+  "publications": [
+    {
+      "id": "d8da49db96010d3ea451617c8d157cb6f20b627e8685aea1ff7e3845639d773a",
+      "title": "acer_will_decide_electricity_market_coupling_integration_plan_energy_community",
+      "published_on": "2025-02-27 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.256604",
+      "language": "en",
+      "length_before_preprocessing": 7909,
+      "length_after_preprocessing": 897,
+      "url": "https://www.acer.europa.eu/news/acer-will-decide-electricity-market-coupling-integration-plan-energy-community"
+    }
+  ]
+}

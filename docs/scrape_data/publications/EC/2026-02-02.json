@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2026-02-02",
+  "publications": [
+    {
+      "id": "f0b77a2d5f11f9cd7a93b320ceee77d48ad8f1da1c3aace73a9194a0c96a32b7",
+      "title": "eu_takes_next_step_towards_energy_independence_russia",
+      "published_on": "2026-02-02 12:00:00",
+      "scraped_on": "2026-02-02 18:30:17.751715",
+      "language": "en",
+      "length_before_preprocessing": 3423,
+      "length_after_preprocessing": null,
+      "url": "https://energy.ec.europa.eu/news/eu-takes-next-step-towards-energy-independence-russia-2026-02-02_en"
+    }
+  ]
+}

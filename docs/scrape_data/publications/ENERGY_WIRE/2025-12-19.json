@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-12-19",
+  "publications": [
+    {
+      "id": "3c92eebb7c19e1c0e410ffcb4d73d6b054b6148fbdd2cf1cfa2037f14ca723fa",
+      "title": "dispatch_germany_december_25",
+      "published_on": "2025-12-19 15:00:00",
+      "scraped_on": "2025-12-19 18:22:00.799389",
+      "language": "en",
+      "length_before_preprocessing": 9627,
+      "length_after_preprocessing": 3525,
+      "url": "https://www.cleanenergywire.org/news/dispatch-germany-december-25"
+    },
+    {
+      "id": "b581ffafb61963252ba4318a0b4d53e5b4b1a680e07307985ec8232695aefc94",
+      "title": "german_regulator_mulls_variable_electricity_grid_fees_determined_load",
+      "published_on": "2025-12-19 12:01:00",
+      "scraped_on": "2025-12-19 18:22:11.729261",
+      "language": "en",
+      "length_before_preprocessing": 7173,
+      "length_after_preprocessing": 1347,
+      "url": "https://www.cleanenergywire.org/news/german-regulator-mulls-variable-electricity-grid-fees-determined-load"
+    },
+    {
+      "id": "57f3fec37da6e6961a7e9d1503739fe36d7088d9cfb5d4ea0cda1512372816b1",
+      "title": "preview_2026_softening_eu_fleet_limits_step_backwards_europes_car_industry_ngo",
+      "published_on": "2025-12-19 11:30:00",
+      "scraped_on": "2025-12-19 18:22:22.595998",
+      "language": "en",
+      "length_before_preprocessing": 8422,
+      "length_after_preprocessing": 2673,
+      "url": "https://www.cleanenergywire.org/news/preview-2026-softening-eu-fleet-limits-step-backwards-europes-car-industry-ngo"
+    },
+    {
+      "id": "a397b7e1906e61b8d630f286fca4b4088fdc4267736e6ddbdd4e1acef94492af",
+      "title": "germany_fund_energy_infrastructure_falls_short_business_initiative",
+      "published_on": "2025-12-19 11:00:00",
+      "scraped_on": "2025-12-19 18:22:33.380092",
+      "language": "en",
+      "length_before_preprocessing": 6038,
+      "length_after_preprocessing": 1411,
+      "url": "https://www.cleanenergywire.org/news/germany-fund-energy-infrastructure-falls-short-business-initiative"
+    },
+    {
+      "id": "ab834e165691773a0d21be2e6f7d7a37e54d43fc277fe12ab96d746a7bd91d62",
+      "title": "brief_19_december_25",
+      "published_on": "2025-12-19 10:16:00",
+      "scraped_on": "2025-12-19 18:22:44.115265",
+      "language": "en",
+      "length_before_preprocessing": 4992,
+      "length_after_preprocessing": 656,
+      "url": "https://www.cleanenergywire.org/news/brief-19-december-25"
+    }
+  ]
+}

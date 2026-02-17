@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-04-04",
+  "publications": [
+    {
+      "id": "2d9fe9f7ce1a76149840bee9b168d84bba2dab9c906ae4d1353ab2220c967e9f",
+      "title": "press_statement_european_commissioner_energy_and_housing_and_minister_energy_republic_azerbaijan",
+      "published_on": "2025-04-04 12:00:00",
+      "scraped_on": "2025-07-31 11:18:06.990450",
+      "language": "en",
+      "length_before_preprocessing": 4565,
+      "length_after_preprocessing": 1850,
+      "url": "https://energy.ec.europa.eu/news/press-statement-european-commissioner-energy-and-housing-and-minister-energy-republic-azerbaijan-2025-04-04_en"
+    }
+  ]
+}

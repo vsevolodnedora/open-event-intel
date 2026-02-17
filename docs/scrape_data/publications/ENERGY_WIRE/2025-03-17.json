@@ -1,0 +1,36 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-17",
+  "publications": [
+    {
+      "id": "8c6e4fa867fd1f40876d5872bbfaf38d882f53f175688c27442ac7c86204a886",
+      "title": "germanys_biggest_energy_companies_call_energy_transition_restart_and_fewer_rules",
+      "published_on": "2025-03-17 13:21:00",
+      "scraped_on": "2025-07-31 12:51:24.288005",
+      "language": "en",
+      "length_before_preprocessing": 6978,
+      "length_after_preprocessing": 1334,
+      "url": "https://www.cleanenergywire.org/news/germanys-biggest-energy-companies-call-energy-transition-restart-and-fewer-rules"
+    },
+    {
+      "id": "d4208c68de4cc058a19570a1fa4b145069019e25f9499fdbe0252bfe79f6df1e",
+      "title": "focus_germanys_state_governments_eu500_bln_infrastructure_package_awaits_adoption",
+      "published_on": "2025-03-17 13:17:00",
+      "scraped_on": "2025-07-31 12:51:35.942347",
+      "language": "en",
+      "length_before_preprocessing": 6935,
+      "length_after_preprocessing": 1269,
+      "url": "https://www.cleanenergywire.org/news/focus-germanys-state-governments-eu500-bln-infrastructure-package-awaits-adoption"
+    },
+    {
+      "id": "86832afb479bc52304f201360d8d41e4a2f8e96f3cc1d1ca38f7e7d1ac496eb2",
+      "title": "brief_17_march_25",
+      "published_on": "2025-03-17 13:00:00",
+      "scraped_on": "2025-07-31 12:51:47.493103",
+      "language": "en",
+      "length_before_preprocessing": 2983,
+      "length_after_preprocessing": 833,
+      "url": "https://www.cleanenergywire.org/news/brief-17-march-25"
+    }
+  ]
+}

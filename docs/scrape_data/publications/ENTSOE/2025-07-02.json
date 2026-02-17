@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-07-02",
+  "publications": [
+    {
+      "id": "dd7e0edff4f8ee36dab7c21d9f9710883efe376c560725383d9f196107e3dafd",
+      "title": "tyndp_2026_draft_scenarios_economic_variants_development_methodology_draft_for_consultation_opens_1_july_2025",
+      "published_on": "2025-07-02 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.533094",
+      "language": "en",
+      "length_before_preprocessing": 3317,
+      "length_after_preprocessing": 1092,
+      "url": "https://www.entsoe.eu/news/2025/07/02/tyndp-2026-draft-scenarios-economic-variants-development-methodology-draft-for-consultation-opens-1-july-2025"
+    }
+  ]
+}

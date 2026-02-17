@@ -1,0 +1,26 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-23",
+  "publications": [
+    {
+      "id": "e487de3caf2d39a987b11f18778d86ff25c58dd713c3eaa20b8526eb05e0fea9",
+      "title": "conservative_election_victory_set_narrow_climate_policy_focus_germany",
+      "published_on": "2025-02-23 20:42:00",
+      "scraped_on": "2025-07-31 12:44:09.302372",
+      "language": "en",
+      "length_before_preprocessing": 11488,
+      "length_after_preprocessing": 4938,
+      "url": "https://www.cleanenergywire.org/news/conservative-election-victory-set-narrow-climate-policy-focus-germany"
+    },
+    {
+      "id": "089bcbb5b7294be6526bb09e2cb60bf126ba20fbf7b84d296e8722a7a1514e18",
+      "title": "tracking_path_germany_snap_elections_2025",
+      "published_on": "2025-02-23 20:20:00",
+      "scraped_on": "2025-07-31 12:44:22.475745",
+      "language": "en",
+      "length_before_preprocessing": 34631,
+      "length_after_preprocessing": 21397,
+      "url": "https://www.cleanenergywire.org/news/tracking-path-germany-snap-elections-2025"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-27",
+  "publications": [
+    {
+      "id": "d8085ee39e506aa766c868955e675d030e274720c93a3747cc1ecce67b6a9517",
+      "title": "asia_top_stories_weekly_summary",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:33:42.883989",
+      "language": "en",
+      "length_before_preprocessing": 4963,
+      "length_after_preprocessing": 1185,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/27/11148823/asia-top-stories-weekly-summary"
+    },
+    {
+      "id": "59b5841a8087b3586e0767c6ac390b28c12c0483d8e504338a5f721fb2c689db",
+      "title": "ice_to_use_icis_benchmark_for_new_base_oils_futures_contract",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:33:42.887319",
+      "language": "en",
+      "length_before_preprocessing": 5678,
+      "length_after_preprocessing": 896,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/27/11149301/ice-to-use-icis-benchmark-for-new-base-oils-futures-contract"
+    },
+    {
+      "id": "1f11c99bdfeb3842e71c1c83e05f2ca6f80536727d06f09a537f16025e8adf11",
+      "title": "europe_top_stories_weekly_summary",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:33:42.889601",
+      "language": "en",
+      "length_before_preprocessing": 5658,
+      "length_after_preprocessing": 820,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/27/11148912/europe-top-stories-weekly-summary"
+    },
+    {
+      "id": "9dfa647119d53013a2ef089e43eb389e6d7bc2c7afee3459ccdccec6f3efbadf",
+      "title": "blog_when_you_see_one_cockroach_there_are_probably_more_jamie_dimon_jp_morgan_ceo",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:33:42.891958",
+      "language": "en",
+      "length_before_preprocessing": 5197,
+      "length_after_preprocessing": 348,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/27/11149231/blog-when-you-see-one-cockroach-there-are-probably-more-jamie-dimon-jp-morgan-ceo"
+    },
+    {
+      "id": "550ccb2ab45098e9183f20047f00cc9df89a233bf127c86890d6a7ad1db4526a",
+      "title": "americas_top_stories_weekly_summary",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-27 18:33:42.894397",
+      "language": "en",
+      "length_before_preprocessing": 6169,
+      "length_after_preprocessing": 1321,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/27/11148971/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "f8342ec910d6754d685ca9d0faf08ee7658ed96662b5cd8fb4a8f5f434c858c7",
+      "title": "argentina_s_chemicals_hopeful_milei_victory_to_ease_path_towards_normalization",
+      "published_on": "2025-10-27 12:00:00",
+      "scraped_on": "2025-10-28 18:35:34.018938",
+      "language": "en",
+      "length_before_preprocessing": 7801,
+      "length_after_preprocessing": 3012,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/27/11149333/argentina-s-chemicals-hopeful-milei-victory-to-ease-path-towards-normalization"
+    }
+  ]
+}

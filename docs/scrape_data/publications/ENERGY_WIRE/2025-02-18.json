@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-02-18",
+  "publications": [
+    {
+      "id": "0ced4d975235181e9efadc8ab3dbd1419cf0d8d306f7ac4cdc404d846e8040ed",
+      "title": "bavaria_retires_last_major_coal_plant_nuclear_exit_did_not_increase_utilisation",
+      "published_on": "2025-02-18 12:46:00",
+      "scraped_on": "2025-07-31 12:34:38.319747",
+      "language": "en",
+      "length_before_preprocessing": 6669,
+      "length_after_preprocessing": 969,
+      "url": "https://www.cleanenergywire.org/news/bavaria-retires-last-major-coal-plant-nuclear-exit-did-not-increase-utilisation"
+    },
+    {
+      "id": "56a06279867dbbbbd8e93d2863c8608ce4e6b20abe9ca416f7bc732eba0e8afe",
+      "title": "german_state_institutions_odds_over_options_treating_nuclear_waste_transmutation",
+      "published_on": "2025-02-18 12:43:00",
+      "scraped_on": "2025-07-31 12:34:49.963989",
+      "language": "en",
+      "length_before_preprocessing": 7211,
+      "length_after_preprocessing": 1428,
+      "url": "https://www.cleanenergywire.org/news/german-state-institutions-odds-over-options-treating-nuclear-waste-transmutation"
+    },
+    {
+      "id": "cddbb7b09a94a980ded6d2cb66d7e8587c76ddef7311a9943cee87dd772a555a",
+      "title": "german_cities_struggle_fund_social_and_climate_measures_call_debt_brake_reform",
+      "published_on": "2025-02-18 12:38:00",
+      "scraped_on": "2025-07-31 12:35:01.605396",
+      "language": "en",
+      "length_before_preprocessing": 7243,
+      "length_after_preprocessing": 1289,
+      "url": "https://www.cleanenergywire.org/news/german-cities-struggle-fund-social-and-climate-measures-call-debt-brake-reform"
+    },
+    {
+      "id": "65c08ca1e98454e76fd30f00fa66942d3d236444d056e7d1890ef007f63633d2",
+      "title": "solar_power_poses_no_risk_german_grid_stability_even_peak_feed_times_industry",
+      "published_on": "2025-02-18 12:25:00",
+      "scraped_on": "2025-07-31 12:35:13.448217",
+      "language": "en",
+      "length_before_preprocessing": 6791,
+      "length_after_preprocessing": 1003,
+      "url": "https://www.cleanenergywire.org/news/solar-power-poses-no-risk-german-grid-stability-even-peak-feed-times-industry"
+    },
+    {
+      "id": "e9b4750377b9d0716443602bcafc70f128794fe1fc992d2e12778dd28e752047",
+      "title": "energy_prices_no_leading_factor_german_companies_future_success_report",
+      "published_on": "2025-02-18 12:22:00",
+      "scraped_on": "2025-07-31 12:35:24.923699",
+      "language": "en",
+      "length_before_preprocessing": 4628,
+      "length_after_preprocessing": 1134,
+      "url": "https://www.cleanenergywire.org/news/energy-prices-no-leading-factor-german-companies-future-success-report"
+    },
+    {
+      "id": "09f8b6a4cc7ff9002f422d6c4b79f44c5414ccea005545612e1ac47fcdeb857d",
+      "title": "brief_18_february_25",
+      "published_on": "2025-02-18 12:00:00",
+      "scraped_on": "2025-07-31 12:35:36.463761",
+      "language": "en",
+      "length_before_preprocessing": 5232,
+      "length_after_preprocessing": 788,
+      "url": "https://www.cleanenergywire.org/news/brief-18-february-25"
+    }
+  ]
+}

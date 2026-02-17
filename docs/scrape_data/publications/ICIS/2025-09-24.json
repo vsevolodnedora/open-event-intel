@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-24",
+  "publications": [
+    {
+      "id": "949b75a0f753ddab3f724234fc7b4d823eaba58e2bf315a0172ab21cf06fdb88",
+      "title": "epca_25_consolidation_and_the_chemicals_action_plan_cefic_interview",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-09-24 18:30:33.252224",
+      "language": "en",
+      "length_before_preprocessing": 5810,
+      "length_after_preprocessing": 2118,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/24/11140247/epca-25-consolidation-and-the-chemicals-action-plan-cefic-interview"
+    },
+    {
+      "id": "228cecd368f40c897488c646401f613dc5b5e9cff5f1d36b7ecee0c9fb6c992d",
+      "title": "basf_to_exit_hydrosulfites_business_close_related_ludwigshafen_facility",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-09-24 18:30:33.257457",
+      "language": "en",
+      "length_before_preprocessing": 4230,
+      "length_after_preprocessing": 589,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/24/11140189/basf-to-exit-hydrosulfites-business-close-related-ludwigshafen-facility"
+    },
+    {
+      "id": "430f5620e582e50ecc7954f359f03e0fef2d7b5f433f3ceb6019efd62506b339",
+      "title": "indonesia_passes_231bn_budget_for_2026",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-09-24 18:30:33.263851",
+      "language": "en",
+      "length_before_preprocessing": 6103,
+      "length_after_preprocessing": 1380,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/24/11140145/indonesia-passes-231bn-budget-for-2026"
+    },
+    {
+      "id": "7010061e700b92f64fd76f812f153b9783f1d7f43ce3ae733fcd75673f830ae0",
+      "title": "epca_25_gender_parity_remains_key_issue_for_the_industry",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-09-24 18:30:33.265519",
+      "language": "en",
+      "length_before_preprocessing": 5904,
+      "length_after_preprocessing": 1227,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/24/11140168/epca-25-gender-parity-remains-key-issue-for-the-industry"
+    },
+    {
+      "id": "837ed201570918cc9bc4d9d1bb6d7aeecda29431a0ce1c5cf5d1f78f44c45bca",
+      "title": "argentina_breaths_sigh_of_relief_as_us_confirms_financial_lifeline_daunting_challenges_remain",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-09-25 18:33:44.941625",
+      "language": "en",
+      "length_before_preprocessing": 9980,
+      "length_after_preprocessing": 5231,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/24/11140289/argentina-breaths-sigh-of-relief-as-us-confirms-financial-lifeline-daunting-challenges-remain"
+    },
+    {
+      "id": "7ee5a6e8bb8407f44fb4a12f394b5a5de87d5bcdc31edcc3f435fc2efa71b8b8",
+      "title": "trucking_us_august_volumes_up_from_july_no_seasonal_peak_expected_because_of_tariffs",
+      "published_on": "2025-09-24 12:00:00",
+      "scraped_on": "2025-09-25 18:33:44.951894",
+      "language": "en",
+      "length_before_preprocessing": 7503,
+      "length_after_preprocessing": 2441,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/24/11140288/trucking-us-august-volumes-up-from-july-no-seasonal-peak-expected-because-of-tariffs"
+    }
+  ]
+}

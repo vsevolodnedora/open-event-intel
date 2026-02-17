@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-12-02",
+  "publications": [
+    {
+      "id": "df8e2995811ed1de81c78faf62a77a4988cac0d721d5e36b68638e89936f890e",
+      "title": "antragskonferenz_fuer_travebillelink_durchgefuehrt",
+      "published_on": "2025-12-02 12:00:00",
+      "scraped_on": "2025-12-02 18:44:40.747894",
+      "language": "de",
+      "length_before_preprocessing": 1034,
+      "length_after_preprocessing": 641,
+      "url": "https://www.50hertz.com/de/News/Details/16519/antragskonferenz-fuer-travebillelink-durchgefuehrt"
+    }
+  ]
+}

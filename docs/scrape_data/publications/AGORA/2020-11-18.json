@@ -1,0 +1,36 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2020-11-18",
+  "publications": [
+    {
+      "id": "14f3f7d9f2e5cdfe1ff541e6fcf89f415a3380c9ab3ae14b8d14fda3ebe4399c",
+      "title": "industry_decarbonization_can_no_longer_be_done_a_la_carte",
+      "published_on": "2020-11-18 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.868103",
+      "language": "en",
+      "length_before_preprocessing": 6871,
+      "length_after_preprocessing": 2590,
+      "url": "https://www.agora-energiewende.org/news-events/industry-decarbonization-can-no-longer-be-done-a-la-carte"
+    },
+    {
+      "id": "36ab9e2719816476244824c300c434f55b4f9ed8d9b32bc248eafbf3edfafdb0",
+      "title": "how_the_european_steel_cement_and_chemicals_industry_can_become_carbon_free_full_version_published",
+      "published_on": "2020-11-18 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.885622",
+      "language": "en",
+      "length_before_preprocessing": 6448,
+      "length_after_preprocessing": 2495,
+      "url": "https://www.agora-energiewende.org/news-events/how-the-european-steel-cement-and-chemicals-industry-can-become-carbon-free-full-version-published"
+    },
+    {
+      "id": "8d9866de730bd0323a5b34761bbc8687cd14adb46fe9892cd2c5e10eb15e74d9",
+      "title": "state_of_play_of_the_industry_transition_in_europe",
+      "published_on": "2020-11-18 12:00:00",
+      "scraped_on": "2025-08-15 18:37:44.897281",
+      "language": "en",
+      "length_before_preprocessing": 4906,
+      "length_after_preprocessing": 751,
+      "url": "https://www.agora-energiewende.org/news-events/state-of-play-of-the-industry-transition-in-europe"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-02-21",
+  "publications": [
+    {
+      "id": "6a11fde5781077284ee26105568b7ed0867dde5d440aafee3774baec5105a4a4",
+      "title": "acer_highlights_need_greater_clarity_proposed_swedish_gas_transmission_tariff",
+      "published_on": "2025-02-21 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.237502",
+      "language": "en",
+      "length_before_preprocessing": 8283,
+      "length_after_preprocessing": 1287,
+      "url": "https://www.acer.europa.eu/news/acer-highlights-need-greater-clarity-proposed-swedish-gas-transmission-tariff"
+    }
+  ]
+}

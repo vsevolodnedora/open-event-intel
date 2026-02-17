@@ -1,0 +1,36 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-15",
+  "publications": [
+    {
+      "id": "95929abc8210c021e8112917509f533176c5c9197d3b12ff700b24f44f01d949",
+      "title": "blog_us_hdpe_adjusts_to_the_trade_war_but_risks_for_us_petchems_in_general_are_substantial",
+      "published_on": "2025-10-15 12:00:00",
+      "scraped_on": "2025-10-15 18:35:02.348059",
+      "language": "en",
+      "length_before_preprocessing": 6067,
+      "length_after_preprocessing": 1213,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/15/11145882/blog-us-hdpe-adjusts-to-the-trade-war-but-risks-for-us-petchems-in-general-are-substantial"
+    },
+    {
+      "id": "96190b33de06eec7c3c61f81e79ef405b673d9551fab0dfa3f8c4b689c78c4f9",
+      "title": "podcast_borealis_led_waste_plastic_initiative_in_indonesia_develops_scalable_model",
+      "published_on": "2025-10-15 12:00:00",
+      "scraped_on": "2025-10-15 18:35:02.353532",
+      "language": "en",
+      "length_before_preprocessing": 5756,
+      "length_after_preprocessing": 865,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/15/11146010/podcast-borealis-led-waste-plastic-initiative-in-indonesia-develops-scalable-model"
+    },
+    {
+      "id": "8136f740f1da63825e29cac95186fdd7a4471204982fb97e5df9f55c54bf0e9f",
+      "title": "video_k_25_europe_pet_r_pet_markets_face_tough_year_end",
+      "published_on": "2025-10-15 12:00:00",
+      "scraped_on": "2025-10-16 18:34:25.133131",
+      "language": "en",
+      "length_before_preprocessing": 4199,
+      "length_after_preprocessing": 467,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/15/11146038/video-k-25-europe-pet-r-pet-markets-face-tough-year-end"
+    }
+  ]
+}

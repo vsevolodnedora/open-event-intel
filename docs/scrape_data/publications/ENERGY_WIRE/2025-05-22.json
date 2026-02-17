@@ -1,0 +1,56 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-05-22",
+  "publications": [
+    {
+      "id": "c24ddb89c7b2f12819259bc630ede041cd4d6dcfb0746281b17e53d18729232d",
+      "title": "flexibility_key_ensure_minimal_increase_future_power_grid_charges_energy_providers",
+      "published_on": "2025-05-22 13:07:00",
+      "scraped_on": "2025-07-31 13:32:48.791047",
+      "language": "en",
+      "length_before_preprocessing": 7592,
+      "length_after_preprocessing": 1344,
+      "url": "https://www.cleanenergywire.org/news/flexibility-key-ensure-minimal-increase-future-power-grid-charges-energy-providers"
+    },
+    {
+      "id": "02669b62e866a6b5204b38635d3933726a8f8955e524d1ba621e1d6f89e4b3ea",
+      "title": "germanys_water_balance_benefits_renewables_expansion_fewer_thermal_plants_uba",
+      "published_on": "2025-05-22 13:02:00",
+      "scraped_on": "2025-07-31 13:33:00.444396",
+      "language": "en",
+      "length_before_preprocessing": 7103,
+      "length_after_preprocessing": 1153,
+      "url": "https://www.cleanenergywire.org/news/germanys-water-balance-benefits-renewables-expansion-fewer-thermal-plants-uba"
+    },
+    {
+      "id": "f4d477eebe8128ec5f8b05fae64ffecbf4de5f280c5bfde23d0aa6567609b9a5",
+      "title": "clear_rules_needed_reduce_emissions_heating_sector_energy_industry",
+      "published_on": "2025-05-22 12:58:00",
+      "scraped_on": "2025-07-31 13:33:11.968401",
+      "language": "en",
+      "length_before_preprocessing": 6899,
+      "length_after_preprocessing": 1047,
+      "url": "https://www.cleanenergywire.org/news/clear-rules-needed-reduce-emissions-heating-sector-energy-industry"
+    },
+    {
+      "id": "40ac0f7cb500c73c69e1a707daf4920411d060210032cbb5fbe28e1ffeb59313",
+      "title": "brief_22_may_25",
+      "published_on": "2025-05-22 12:05:00",
+      "scraped_on": "2025-07-31 13:33:23.623579",
+      "language": "en",
+      "length_before_preprocessing": 5359,
+      "length_after_preprocessing": 966,
+      "url": "https://www.cleanenergywire.org/news/brief-22-may-25"
+    },
+    {
+      "id": "cf865df0bf5fcb9955ebbab2c7b71d27616a47e38dbb7c18ad2283f60ec3d39d",
+      "title": "carbon_capture_essential_scaling_net_zero_concrete_global_cement_producer",
+      "published_on": "2025-05-22 10:46:00",
+      "scraped_on": "2025-07-31 13:34:43.553385",
+      "language": "en",
+      "length_before_preprocessing": 8805,
+      "length_after_preprocessing": 5331,
+      "url": "https://www.cleanenergywire.org/news/carbon-capture-essential-scaling-net-zero-concrete-global-cement-producer"
+    }
+  ]
+}

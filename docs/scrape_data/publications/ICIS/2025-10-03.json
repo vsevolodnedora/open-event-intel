@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-10-03",
+  "publications": [
+    {
+      "id": "6b3c8b139d935486331643c36b426098eeaf9ee1658c440359779d814642bb1c",
+      "title": "arlanxeo_plans_to_close_rubber_production_at_port_jerome_in_france",
+      "published_on": "2025-10-03 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.926284",
+      "language": "en",
+      "length_before_preprocessing": 4714,
+      "length_after_preprocessing": 991,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/03/11143154/arlanxeo-plans-to-close-rubber-production-at-port-jerome-in-france"
+    },
+    {
+      "id": "f2d2939f7bcb30779a2aa618f6633768679ce0077d8fdeb0e3bd4297db7ca0a8",
+      "title": "eurozone_september_economic_growth_at_16_month_high_but_pace_of_expansion_muted",
+      "published_on": "2025-10-03 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.930802",
+      "language": "en",
+      "length_before_preprocessing": 5858,
+      "length_after_preprocessing": 1156,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/03/11143127/eurozone-september-economic-growth-at-16-month-high-but-pace-of-expansion-muted"
+    },
+    {
+      "id": "d5f19e521666a6ef904707354ff072defb72f7b90de75c09a3502b3c606c1783",
+      "title": "podcast_us_asia_r_pet_markets_navigate_impact_of_new_reciprocal_tariffs",
+      "published_on": "2025-10-03 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.932825",
+      "language": "en",
+      "length_before_preprocessing": 5163,
+      "length_after_preprocessing": 380,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/03/11143181/podcast-us-asia-r-pet-markets-navigate-impact-of-new-reciprocal-tariffs"
+    },
+    {
+      "id": "2dc3739728367af1796e2beb342eaf04eff6aa1c5c244fbfae3b396682a02fd9",
+      "title": "podcast_asia_lab_demand_optimistic_for_2026_more_competitive_than_fatty_alcohols",
+      "published_on": "2025-10-03 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.937725",
+      "language": "en",
+      "length_before_preprocessing": 5370,
+      "length_after_preprocessing": 584,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/03/11143105/podcast-asia-lab-demand-optimistic-for-2026-more-competitive-than-fatty-alcohols"
+    },
+    {
+      "id": "d56592fde43ca6c6986ee5e27d161f69068a83ca0cae7e5aa3db35cad1170978",
+      "title": "singapore_sept_pmi_rises_to_50_1_on_stronger_electronics_growth",
+      "published_on": "2025-10-03 12:00:00",
+      "scraped_on": "2025-10-03 18:32:00.940352",
+      "language": "en",
+      "length_before_preprocessing": 4637,
+      "length_after_preprocessing": 921,
+      "url": "https://www.icis.com/explore/resources/news/2025/10/03/11143107/singapore-sept-pmi-rises-to-50-1-on-stronger-electronics-growth"
+    }
+  ]
+}

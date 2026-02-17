@@ -1,0 +1,16 @@
+{
+  "publisher": "EC",
+  "published_on": "2024-07-05",
+  "publications": [
+    {
+      "id": "dd60a043a895b824fb76e6741ec6da53c58ee118e8c74ebda4d064c8d36b214c",
+      "title": "commission_guidance_facilitate_common_approach_data_interoperability_repository",
+      "published_on": "2024-07-05 12:00:00",
+      "scraped_on": "2025-07-31 11:18:30.977884",
+      "language": "en",
+      "length_before_preprocessing": 4568,
+      "length_after_preprocessing": 1371,
+      "url": "https://energy.ec.europa.eu/news/commission-guidance-facilitate-common-approach-data-interoperability-repository-2024-07-05_en"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2018-10-01",
+  "publications": [
+    {
+      "id": "83b53c4d7535e28d8e3609fe0ed923286c053cfc63bbe0a3aa63ed44ba82b053",
+      "title": "deutschland_und_oesterreich_fuehren_engpassbewirtschaftung_ein",
+      "published_on": "2018-10-01 12:00:00",
+      "scraped_on": "2026-01-14 09:18:54.350034",
+      "language": "de",
+      "length_before_preprocessing": 8032,
+      "length_after_preprocessing": 4778,
+      "url": "https://www.smard.de/page/home/topic-article/204974/9828/deutschland-und-oesterreich-fuehren-engpassbewirtschaftung-ein"
+    }
+  ]
+}

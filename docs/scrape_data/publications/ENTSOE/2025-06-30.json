@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-06-30",
+  "publications": [
+    {
+      "id": "913e19cc0218ede074d9112668513b322717047789a05f4e0a157e847c94ac00",
+      "title": "entso_e_publishes_the_market_report_and_the_electricity_balancing_eb_and_capacity_calculation_and_allocation_cacm_cost_reports",
+      "published_on": "2025-06-30 12:00:00",
+      "scraped_on": "2025-07-31 14:19:49.532237",
+      "language": "en",
+      "length_before_preprocessing": 2934,
+      "length_after_preprocessing": 739,
+      "url": "https://www.entsoe.eu/news/2025/06/30/entso-e-publishes-the-market-report-and-the-electricity-balancing-eb-and-capacity-calculation-and-allocation-cacm-cost-reports"
+    }
+  ]
+}

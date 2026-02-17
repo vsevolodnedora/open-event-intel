@@ -1,0 +1,16 @@
+{
+  "publisher": "TENNET",
+  "published_on": "2025-06-10",
+  "publications": [
+    {
+      "id": "7de1da198136172b2db4f839f72cb9eb276a79ca9fcd45500fdee191e4dc0e26",
+      "title": "tennet_pressemitteilung_zwei_grossprojekte_folge_tennet_installiert_borwin_epsilon_und_dolwin_epsilon_erfolgreich_der_nordsee",
+      "published_on": "2025-06-10 12:00:00",
+      "scraped_on": "2025-08-03 10:09:36.087605",
+      "language": "de",
+      "length_before_preprocessing": 3767,
+      "length_after_preprocessing": 1910,
+      "url": "https://www.tennet.eu/de/news/tennet-pressemitteilung-zwei-grossprojekte-folge-tennet-installiert-borwin-epsilon-und-dolwin-epsilon-erfolgreich-der-nordsee"
+    }
+  ]
+}

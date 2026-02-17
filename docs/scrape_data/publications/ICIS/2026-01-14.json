@@ -1,0 +1,66 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-01-14",
+  "publications": [
+    {
+      "id": "c235f10e2a3ccb6e9a1c8a155abeb460ef5ca759cb7b3c11496104e7a0c7dde9",
+      "title": "east_asia_and_pacific_gdp_growth_to_weaken_amid_china_slowdown_world_bank",
+      "published_on": "2026-01-14 12:00:00",
+      "scraped_on": "2026-01-14 08:43:23.813301",
+      "language": "en",
+      "length_before_preprocessing": 5878,
+      "length_after_preprocessing": 2099,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/14/11171379/east-asia-and-pacific-gdp-growth-to-weaken-amid-china-slowdown-world-bank"
+    },
+    {
+      "id": "75ffc1bf5bfe1a0fef36b2945abce56d19aab511b6c0a8d4cae3f942e76d989d",
+      "title": "critical_chemicals_alliance_calls_for_urgent_action_to_save_europe_s_chemical_industry",
+      "published_on": "2026-01-14 12:00:00",
+      "scraped_on": "2026-01-14 18:21:51.016437",
+      "language": "en",
+      "length_before_preprocessing": 6456,
+      "length_after_preprocessing": 1484,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/14/11171484/critical-chemicals-alliance-calls-for-urgent-action-to-save-europe-s-chemical-industry"
+    },
+    {
+      "id": "838ea52c8a0aa5243e1790fb328a8d7fc3dd1618e7cac58efa8b07996d5178ed",
+      "title": "blog_five_forecasts_for_global_chemical_markets_in_2026",
+      "published_on": "2026-01-14 12:00:00",
+      "scraped_on": "2026-01-14 18:21:51.019477",
+      "language": "en",
+      "length_before_preprocessing": 6437,
+      "length_after_preprocessing": 1448,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/14/11171400/blog-five-forecasts-for-global-chemical-markets-in-2026"
+    },
+    {
+      "id": "7e59786dd2d78a5288ee7b1d21ca034151f222549ad3c7509abeefa012fc366a",
+      "title": "thailand_s_pttep_to_build_ccs_facility_at_arthit_gas_field",
+      "published_on": "2026-01-14 12:00:00",
+      "scraped_on": "2026-01-14 18:21:51.021764",
+      "language": "en",
+      "length_before_preprocessing": 5898,
+      "length_after_preprocessing": 874,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/14/11171399/thailand-s-pttep-to-build-ccs-facility-at-arthit-gas-field"
+    },
+    {
+      "id": "5e875c3aec63c8a8b29b51d7e3820bfa0df917d52ce9a07af14bfcf55955b33d",
+      "title": "corrected_blog_five_forecasts_for_global_chemical_markets_in_2026",
+      "published_on": "2026-01-14 12:00:00",
+      "scraped_on": "2026-01-15 18:25:56.631744",
+      "language": "en",
+      "length_before_preprocessing": 5274,
+      "length_after_preprocessing": 1528,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/14/11171400/corrected-blog-five-forecasts-for-global-chemical-markets-in-2026"
+    },
+    {
+      "id": "84c5df66e9033a6708b5c874196148e25f45bb134b401d958c26067ab89add5a",
+      "title": "with_us_retail_inventories_at_low_levels_court_s_tariff_decision_could_lead_to_surge_of_imports",
+      "published_on": "2026-01-14 12:00:00",
+      "scraped_on": "2026-01-15 18:25:56.641532",
+      "language": "en",
+      "length_before_preprocessing": 6849,
+      "length_after_preprocessing": 1443,
+      "url": "https://www.icis.com/explore/resources/news/2026/01/14/11171527/with-us-retail-inventories-at-low-levels-court-s-tariff-decision-could-lead-to-surge-of-imports"
+    }
+  ]
+}

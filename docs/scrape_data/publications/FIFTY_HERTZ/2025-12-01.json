@@ -1,0 +1,16 @@
+{
+  "publisher": "FIFTY_HERTZ",
+  "published_on": "2025-12-01",
+  "publications": [
+    {
+      "id": "c5735a8c0b9c7b0fcf8e8058d69a065b1472c7c084607a6d21d07ff1b833ef31",
+      "title": "bundesnetzagentur_gibt_untersuchungsrahmen_auf",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 18:46:09.775142",
+      "language": "de",
+      "length_before_preprocessing": 1143,
+      "length_after_preprocessing": 746,
+      "url": "https://www.50hertz.com/de/News/Details/16511/bundesnetzagentur-gibt-untersuchungsrahmen-auf"
+    }
+  ]
+}

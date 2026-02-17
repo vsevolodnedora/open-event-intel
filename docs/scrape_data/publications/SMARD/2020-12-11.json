@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2020-12-11",
+  "publications": [
+    {
+      "id": "fc21e3424e50a45101ca94ceb13fc958cc75b36dca2a3f6812e42662be5e85d2",
+      "title": "konventionelle_erzeugung_gesunken",
+      "published_on": "2020-12-11 12:00:00",
+      "scraped_on": "2026-01-14 09:15:31.529537",
+      "language": "de",
+      "length_before_preprocessing": 7158,
+      "length_after_preprocessing": 3631,
+      "url": "https://www.smard.de/page/home/topic-article/204970/202322/konventionelle-erzeugung-gesunken"
+    }
+  ]
+}

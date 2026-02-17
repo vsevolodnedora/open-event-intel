@@ -1,0 +1,16 @@
+{
+  "publisher": "ENTSOE",
+  "published_on": "2025-11-10",
+  "publications": [
+    {
+      "id": "861f6dbab1be159502f7d163a9509eda4f392e9445f8284ce1ead236f0162b1b",
+      "title": "18_may_blackout_in_north_macedonia_expert_panel_releases_comprehensive_factual_report",
+      "published_on": "2025-11-10 12:00:00",
+      "scraped_on": "2025-11-11 18:31:37.442383",
+      "language": "en",
+      "length_before_preprocessing": 3431,
+      "length_after_preprocessing": 1043,
+      "url": "https://www.entsoe.eu/news/2025/11/10/18-may-blackout-in-north-macedonia-expert-panel-releases-comprehensive-factual-report"
+    }
+  ]
+}

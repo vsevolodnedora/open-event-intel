@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-11-17",
+  "publications": [
+    {
+      "id": "04927340aaeeb8f56f061cdf472bf47fff69d2226ab3ef72ecbb68f12f55a3c7",
+      "title": "brief_17_november_25",
+      "published_on": "2025-11-17 12:26:00",
+      "scraped_on": "2025-11-17 18:36:33.894477",
+      "language": "en",
+      "length_before_preprocessing": 2271,
+      "length_after_preprocessing": 386,
+      "url": "https://www.cleanenergywire.org/news/brief-17-november-25"
+    },
+    {
+      "id": "1866a8bbb7c3b48b69be8aa44cecf3284005dbc9748d5f49323e0445c6a46055",
+      "title": "new_germany_fund_aims_unlock_private_capital_municipal_energy_infrastructure",
+      "published_on": "2025-11-17 12:15:00",
+      "scraped_on": "2025-11-17 18:36:45.097007",
+      "language": "en",
+      "length_before_preprocessing": 6498,
+      "length_after_preprocessing": 954,
+      "url": "https://www.cleanenergywire.org/news/new-germany-fund-aims-unlock-private-capital-municipal-energy-infrastructure"
+    },
+    {
+      "id": "2c0de117fdd3bcc2c7bf95fc7bac6aad55dd049bfeeea408fbf0a022c94e184c",
+      "title": "german_government_divided_over_cop30_push_make_luxury_flyers_pay_extra",
+      "published_on": "2025-11-17 12:00:00",
+      "scraped_on": "2025-11-17 18:36:56.264743",
+      "language": "en",
+      "length_before_preprocessing": 6925,
+      "length_after_preprocessing": 1051,
+      "url": "https://www.cleanenergywire.org/news/german-government-divided-over-cop30-push-make-luxury-flyers-pay-extra"
+    },
+    {
+      "id": "1999d44f282e2fca5c2689fb83528465fa5b2c3246570bdf38297bf4f7ed715e",
+      "title": "energy_industry_relieved_germany_sticks_renewable_power_expansion_ambitions",
+      "published_on": "2025-11-17 11:10:00",
+      "scraped_on": "2025-11-17 18:37:07.448389",
+      "language": "en",
+      "length_before_preprocessing": 7289,
+      "length_after_preprocessing": 1247,
+      "url": "https://www.cleanenergywire.org/news/energy-industry-relieved-germany-sticks-renewable-power-expansion-ambitions"
+    }
+  ]
+}

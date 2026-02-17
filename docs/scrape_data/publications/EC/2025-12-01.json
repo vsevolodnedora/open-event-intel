@@ -1,0 +1,26 @@
+{
+  "publisher": "EC",
+  "published_on": "2025-12-01",
+  "publications": [
+    {
+      "id": "24305ef4d086138e0f46ca9899bee0d1c5181abfff5861a6d79a305786bac20c",
+      "title": "ecodesign_and_energy_labelling_commission_consults_revised_rules_space_and_water_heaters",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 11:12:53.475352",
+      "language": "en",
+      "length_before_preprocessing": 4358,
+      "length_after_preprocessing": 1226,
+      "url": "https://energy.ec.europa.eu/news/ecodesign-and-energy-labelling-commission-consults-revised-rules-space-and-water-heaters-2025-12-01_en"
+    },
+    {
+      "id": "ff347fd3b862595921a79b4557f77f01a175e7b7382141189efcc103a5afa919",
+      "title": "energy_policy_highlights_first_year_von_der_leyen_commission_ii",
+      "published_on": "2025-12-01 12:00:00",
+      "scraped_on": "2025-12-01 18:39:48.752768",
+      "language": "en",
+      "length_before_preprocessing": 6239,
+      "length_after_preprocessing": 2658,
+      "url": "https://energy.ec.europa.eu/news/energy-policy-highlights-first-year-von-der-leyen-commission-ii-2025-12-01_en"
+    }
+  ]
+}

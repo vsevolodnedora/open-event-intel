@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2025-03-14",
+  "publications": [
+    {
+      "id": "d7dfc88acc4ef7ff7619fcf207979db09cb4e79a7a13ad468933997fbea0a3e8",
+      "title": "acer_gathering_power_purchase_agreement_templates_eu_energy_markets",
+      "published_on": "2025-03-14 12:00:00",
+      "scraped_on": "2025-07-31 10:04:57.239788",
+      "language": "en",
+      "length_before_preprocessing": 7637,
+      "length_after_preprocessing": 759,
+      "url": "https://www.acer.europa.eu/news/acer-gathering-power-purchase-agreement-templates-eu-energy-markets"
+    }
+  ]
+}

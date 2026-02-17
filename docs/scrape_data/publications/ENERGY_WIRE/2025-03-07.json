@@ -1,0 +1,66 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-07",
+  "publications": [
+    {
+      "id": "e94122433936c92e20e26bdbc74c8eb192b8c443b63eed27fc4293824a8d3550",
+      "title": "dispatch_italy_march_25",
+      "published_on": "2025-03-07 15:00:00",
+      "scraped_on": "2025-07-31 12:46:08.573627",
+      "language": "en",
+      "length_before_preprocessing": 8093,
+      "length_after_preprocessing": 3780,
+      "url": "https://www.cleanenergywire.org/news/dispatch-italy-march-25"
+    },
+    {
+      "id": "78b7e205afecad1e511285b952d76a03d64854d9dfab5ae7b4328b06b3b02609",
+      "title": "local_utilities_call_expansion_district_heating_grid_fee_reform_energy_transition_restart",
+      "published_on": "2025-03-07 13:26:00",
+      "scraped_on": "2025-07-31 12:46:20.126931",
+      "language": "en",
+      "length_before_preprocessing": 6523,
+      "length_after_preprocessing": 777,
+      "url": "https://www.cleanenergywire.org/news/local-utilities-call-expansion-district-heating-grid-fee-reform-energy-transition-restart"
+    },
+    {
+      "id": "ea65b0062b7b2bfb98940a460b58da483d23b46357b29b83c2450da8217153f9",
+      "title": "germany_affirms_resilience_energy_transition_partnerships_after_us_withdrawal",
+      "published_on": "2025-03-07 13:23:00",
+      "scraped_on": "2025-07-31 12:46:31.885141",
+      "language": "en",
+      "length_before_preprocessing": 6754,
+      "length_after_preprocessing": 893,
+      "url": "https://www.cleanenergywire.org/news/germany-affirms-resilience-energy-transition-partnerships-after-us-withdrawal"
+    },
+    {
+      "id": "b47a21f9b97643ff16bafc58a725ded8c365493168cec330790216e05f1d4db1",
+      "title": "eu_profit_german_infrastructure_spending_plans_analysts",
+      "published_on": "2025-03-07 13:21:00",
+      "scraped_on": "2025-07-31 12:46:43.543161",
+      "language": "en",
+      "length_before_preprocessing": 6647,
+      "length_after_preprocessing": 898,
+      "url": "https://www.cleanenergywire.org/news/eu-profit-german-infrastructure-spending-plans-analysts"
+    },
+    {
+      "id": "cd159b1bc2ed81aedaec36b7055259bafce516740f877a4ee39049fdb5005f31",
+      "title": "draft_law_does_not_specify_sectors_planned_german_infrastructure_fund",
+      "published_on": "2025-03-07 13:16:00",
+      "scraped_on": "2025-07-31 12:46:55.199510",
+      "language": "en",
+      "length_before_preprocessing": 7194,
+      "length_after_preprocessing": 1342,
+      "url": "https://www.cleanenergywire.org/news/draft-law-does-not-specify-sectors-planned-german-infrastructure-fund"
+    },
+    {
+      "id": "d1ab0c91261c7e210d2d367ce575a803cf008a2734b7ac087f21a65d7c0f4579",
+      "title": "brief_7_march_25",
+      "published_on": "2025-03-07 11:28:00",
+      "scraped_on": "2025-07-31 12:47:06.656716",
+      "language": "en",
+      "length_before_preprocessing": 3426,
+      "length_after_preprocessing": 1127,
+      "url": "https://www.cleanenergywire.org/news/brief-7-march-25"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "ACER",
+  "published_on": "2026-01-22",
+  "publications": [
+    {
+      "id": "46f8f3615162f65902a17562c378b9798ce99a316c8269388fd6dc4515ede166",
+      "title": "bogdan_chiritoiu_new_chair_acer_administrative_board",
+      "published_on": "2026-01-22 12:00:00",
+      "scraped_on": "2026-01-22 18:20:17.552338",
+      "language": "en",
+      "length_before_preprocessing": 8464,
+      "length_after_preprocessing": 1550,
+      "url": "https://www.acer.europa.eu/news/bogdan-chiritoiu-new-chair-acer-administrative-board"
+    }
+  ]
+}

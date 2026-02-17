@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2023-07-20",
+  "publications": [
+    {
+      "id": "9b14b8b185c20d0621e404724022771a92363acf58c50c58783c7ed34c94df1f",
+      "title": "hohe_pv_einspeisung",
+      "published_on": "2023-07-20 12:00:00",
+      "scraped_on": "2026-01-14 09:21:14.441547",
+      "language": "de",
+      "length_before_preprocessing": 8410,
+      "length_after_preprocessing": 4855,
+      "url": "https://www.smard.de/page/home/topic-article/209944/210836/hohe-pv-einspeisung"
+    }
+  ]
+}

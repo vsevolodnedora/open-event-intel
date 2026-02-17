@@ -1,0 +1,16 @@
+{
+  "publisher": "AGORA",
+  "published_on": "2025-08-05",
+  "publications": [
+    {
+      "id": "068e992a07d8d7ea89f8b8699abc683e39da9a5955668dcb9bc8735eaeeff4f9",
+      "title": "local_pricing_in_germany_national_gains_with_potential_to_deepen_european_power_market_integration",
+      "published_on": "2025-08-05 12:00:00",
+      "scraped_on": "2025-10-17 18:33:41.824647",
+      "language": "en",
+      "length_before_preprocessing": 5704,
+      "length_after_preprocessing": 2240,
+      "url": "https://www.agora-energiewende.org/news-events/local-pricing-in-germany-national-gains-with-potential-to-deepen-european-power-market-integration"
+    }
+  ]
+}

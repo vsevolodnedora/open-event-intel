@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2021-07-08",
+  "publications": [
+    {
+      "id": "7cfbc7199e9dfa3e2a8bc9afb6d510041ba8f225cdeea0921897edc1e7b64d11",
+      "title": "rekordwert_bei_pv_einspeisung",
+      "published_on": "2021-07-08 12:00:00",
+      "scraped_on": "2026-01-14 09:12:53.044697",
+      "language": "de",
+      "length_before_preprocessing": 7305,
+      "length_after_preprocessing": 4624,
+      "url": "https://www.smard.de/page/home/topic-article/204968/204542/rekordwert-bei-pv-einspeisung"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-08-19",
+  "publications": [
+    {
+      "id": "941b88281835a8a1fa8b1f4232cbba5c3d219a56fe6388d1e497b0a58dab0ea9",
+      "title": "budget_woes_germany_endanger_extension_ev_tax_breaks_private_owners_report",
+      "published_on": "2025-08-19 12:00:00",
+      "scraped_on": "2025-08-19 18:35:04.058283",
+      "language": "en",
+      "length_before_preprocessing": 4352,
+      "length_after_preprocessing": 1043,
+      "url": "https://www.cleanenergywire.org/news/budget-woes-germany-endanger-extension-ev-tax-breaks-private-owners-report"
+    },
+    {
+      "id": "20dacfe56a29497306684d90db0ad56a48ce56f1e22b35d833c115227a6ac648",
+      "title": "german_energy_transition_and_climate_adaptation_efforts_face_labour_shortage",
+      "published_on": "2025-08-19 12:00:00",
+      "scraped_on": "2025-08-19 18:35:14.962440",
+      "language": "en",
+      "length_before_preprocessing": 7338,
+      "length_after_preprocessing": 1641,
+      "url": "https://www.cleanenergywire.org/news/german-energy-transition-and-climate-adaptation-efforts-face-labour-shortage"
+    },
+    {
+      "id": "becada037638f5aa8bed1b6c60b6543e273df2d9580283bbaedf6fc23a8dc06d",
+      "title": "german_farming_industry_expands_drought_resilient_crops_irrigation_resist_drier_climate",
+      "published_on": "2025-08-19 11:26:00",
+      "scraped_on": "2025-08-19 18:35:25.830830",
+      "language": "en",
+      "length_before_preprocessing": 6299,
+      "length_after_preprocessing": 869,
+      "url": "https://www.cleanenergywire.org/news/german-farming-industry-expands-drought-resilient-crops-irrigation-resist-drier-climate"
+    },
+    {
+      "id": "ba7d46ec43a640b5db9cfee0271311b5049c373c36bbb1643e6b7b5e512b89a9",
+      "title": "brief_19_august_25",
+      "published_on": "2025-08-19 11:04:00",
+      "scraped_on": "2025-08-19 18:35:36.619499",
+      "language": "en",
+      "length_before_preprocessing": 4853,
+      "length_after_preprocessing": 502,
+      "url": "https://www.cleanenergywire.org/news/brief-19-august-25"
+    }
+  ]
+}

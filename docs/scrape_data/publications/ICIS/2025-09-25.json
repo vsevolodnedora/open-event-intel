@@ -1,0 +1,56 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2025-09-25",
+  "publications": [
+    {
+      "id": "c01a0022c7ec477faec99474de5f49f61614b31f34d82ffe0ae5ee7999403441",
+      "title": "vietnam_pushes_for_new_ftas_to_spur_exports_growth_amid_us_tariffs",
+      "published_on": "2025-09-25 12:00:00",
+      "scraped_on": "2025-09-25 18:33:44.938268",
+      "language": "en",
+      "length_before_preprocessing": 5580,
+      "length_after_preprocessing": 860,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/25/11140543/vietnam-pushes-for-new-ftas-to-spur-exports-growth-amid-us-tariffs"
+    },
+    {
+      "id": "5175f287eb6f218c2275cf4ee0402bfe75b0d83d1b3db8c84d87e93fc5156693",
+      "title": "eu_new_car_registrations_rise_in_august_year_on_year_with_hybrid_electric_most_popular",
+      "published_on": "2025-09-25 12:00:00",
+      "scraped_on": "2025-09-25 18:33:44.944075",
+      "language": "en",
+      "length_before_preprocessing": 5456,
+      "length_after_preprocessing": 696,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/25/11140613/eu-new-car-registrations-rise-in-august-year-on-year-with-hybrid-electric-most-popular"
+    },
+    {
+      "id": "c5e7e8c39f8dd16302eb58714ee0e489e5596903327a72539fd6848f50a4787d",
+      "title": "insight_demands_for_large_energy_imports_destabilize_us_trade_deals",
+      "published_on": "2025-09-25 12:00:00",
+      "scraped_on": "2025-09-25 18:33:44.945901",
+      "language": "en",
+      "length_before_preprocessing": 7984,
+      "length_after_preprocessing": 2874,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/25/11140650/insight-demands-for-large-energy-imports-destabilize-us-trade-deals"
+    },
+    {
+      "id": "f7a68cd3be8e7f4dc5fff7b3eb994f249aa51506494d079ab49435e51bb42bcf",
+      "title": "thailand_aug_export_growth_slows_as_us_tariffs_weaker_demand_bite",
+      "published_on": "2025-09-25 12:00:00",
+      "scraped_on": "2025-09-25 18:33:44.949154",
+      "language": "en",
+      "length_before_preprocessing": 6504,
+      "length_after_preprocessing": 1768,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/25/11140521/thailand-aug-export-growth-slows-as-us-tariffs-weaker-demand-bite"
+    },
+    {
+      "id": "5fc9629ca4233e1f791b5a2252e74afb119734c3f7ca7e1f27c42246f5447948",
+      "title": "think_tank_at_epca_25_decision_time_support_the_industry_or_it_goes_away",
+      "published_on": "2025-09-25 12:00:00",
+      "scraped_on": "2025-09-26 18:31:20.511222",
+      "language": "en",
+      "length_before_preprocessing": 4050,
+      "length_after_preprocessing": 320,
+      "url": "https://www.icis.com/explore/resources/news/2025/09/25/11140675/think-tank-at-epca-25-decision-time-support-the-industry-or-it-goes-away"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "publisher": "ENERGY_WIRE",
+  "published_on": "2025-03-10",
+  "publications": [
+    {
+      "id": "7abd3494276c607ef9b2890a3dde29f27c3e1d2dbca015252d536d6a66a1caa9",
+      "title": "brief_10_march_25",
+      "published_on": "2025-03-10 11:30:00",
+      "scraped_on": "2025-07-31 12:45:56.869329",
+      "language": "en",
+      "length_before_preprocessing": 2844,
+      "length_after_preprocessing": 842,
+      "url": "https://www.cleanenergywire.org/news/brief-10-march-25"
+    },
+    {
+      "id": "b802631fe4a9a34d08169331b156aea43d7839e56ead77c891597d32cd551e79",
+      "title": "germanys_budding_coalition_agrees_electricity_price_cuts_e_car_subsidies",
+      "published_on": "2025-03-10 13:28:00",
+      "scraped_on": "2025-07-31 12:55:27.956773",
+      "language": "en",
+      "length_before_preprocessing": 9524,
+      "length_after_preprocessing": 3134,
+      "url": "https://www.cleanenergywire.org/news/germanys-budding-coalition-agrees-electricity-price-cuts-e-car-subsidies"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "publisher": "SMARD",
+  "published_on": "2021-01-15",
+  "publications": [
+    {
+      "id": "887735dcfb489379ec200b9fc3f4ae461a32acd5fe75296ebaed8c21996afb51",
+      "title": "grosshandelspreise_gestiegen",
+      "published_on": "2021-01-15 12:00:00",
+      "scraped_on": "2026-01-14 09:15:50.276287",
+      "language": "de",
+      "length_before_preprocessing": 8045,
+      "length_after_preprocessing": 4480,
+      "url": "https://www.smard.de/page/home/topic-article/204970/202472/grosshandelspreise-gestiegen"
+    }
+  ]
+}
