@@ -91,6 +91,16 @@
       "length_before_preprocessing": 4934,
       "length_after_preprocessing": 1023,
       "url": "https://www.icis.com/explore/resources/news/2026/02/16/11180395/americas-top-stories-weekly-summary"
+    },
+    {
+      "id": "13a24e1b973e8d40fa6f9dd43f8a922ad398e8e4c6bd9ca31664ca22f90d100b",
+      "title": "colombia_s_gdp_up_2_6_in_2025_but_slows_down_in_q4_justice_suspends_minimum_wage_hike",
+      "published_on": "2026-02-16 12:00:00",
+      "scraped_on": "2026-02-17 11:16:18.638817",
+      "language": "en",
+      "length_before_preprocessing": 6281,
+      "length_after_preprocessing": 2362,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/16/11180530/colombia-s-gdp-up-2-6-in-2025-but-slows-down-in-q4-justice-suspends-minimum-wage-hike"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "totals": {
     "publishers": 13,
-    "publications_scraped": 3175,
-    "publications_preprocessed": 3114
+    "publications_scraped": 3176,
+    "publications_preprocessed": 3115
   },
   "yesterday": {
-    "date": "2026-02-15",
-    "publications_scraped": 0
+    "date": "2026-02-16",
+    "publications_scraped": 12
   },
   "length_chars": {
     "largest_after_preprocessing": 21397,

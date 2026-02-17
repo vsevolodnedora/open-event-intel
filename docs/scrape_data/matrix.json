@@ -4140,7 +4140,7 @@
     },
     {
       "publisher": "ICIS",
-      "total_scraped": 740,
+      "total_scraped": 741,
       "cells": {
         "2025-07-30": {
           "n_scraped": 7,
@@ -4707,8 +4707,8 @@
           "n_preprocessed": 9
         },
         "2026-02-16": {
-          "n_scraped": 9,
-          "n_preprocessed": 9
+          "n_scraped": 10,
+          "n_preprocessed": 10
         }
       }
     },
