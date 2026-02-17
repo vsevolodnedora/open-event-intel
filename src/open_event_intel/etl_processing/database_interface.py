@@ -442,30 +442,6 @@ class EntityRegistryRow(_BaseRowModel):
         return v
 
 
-class EntityRegistryAuditRow(_BaseRowModel):
-    """Row from entity_registry_audit table."""
-
-    audit_id: str
-    entity_id: str
-    change_type: str
-    old_value_json: dict | None = None
-    new_value_json: dict
-    changed_at: datetime | None = None
-    changed_by: str | None = None
-    run_id: str | None = None
-    reason: str | None = None
-
-    @field_validator("old_value_json", "new_value_json", mode="before")
-    @classmethod
-    def parse_json(cls, v: Any) -> dict | None:
-        """Parse json."""
-        if v is None:
-            return None
-        if isinstance(v, str):
-            return json.loads(v)
-        return v
-
-
 class MentionRow(_BaseRowModel):
     """Row from mention table."""
 
@@ -1144,8 +1120,7 @@ EXPECTED_TABLES = frozenset([
 ])
 
 # DATABASE INTERFACE
-
-class DatabaseInterface(ABC):
+class DatabaseInterface(ABC):  # noqa: B024
     """
     Base class for stage-specific database adapters.
 
@@ -1470,14 +1445,6 @@ class DatabaseInterface(ABC):
         row = self._fetchone("SELECT * FROM pipeline_run WHERE run_id = ?", (run_id,))
         return PipelineRunRow.model_validate(dict(row)) if row else None
 
-    def update_pipeline_run_status(self, run_id: str, status: str, completed_at: datetime | None = None) -> None:
-        """Update pipeline run status."""
-        self._check_write_access("pipeline_run")
-        self._execute(
-            "UPDATE pipeline_run SET status = ?, completed_at = ? WHERE run_id = ?",
-            (status, completed_at.isoformat() if completed_at else None, run_id),
-        )
-
     def update_pipeline_run_counters(
         self, run_id: str, doc_count_processed: int | None = None,
         doc_count_skipped: int | None = None, doc_count_failed: int | None = None,  # noqa: S608
@@ -1516,17 +1483,6 @@ class DatabaseInterface(ABC):
              row.ingest_run_id, row.processing_status),
         )
 
-    def get_scrape_record(self, scrape_id: str) -> ScrapeRecordRow | None:
-        """Get a scrape record by ID."""
-        self._check_read_access("scrape_record")
-        row = self._fetchone("SELECT * FROM scrape_record WHERE scrape_id = ?", (scrape_id,))
-        return ScrapeRecordRow.model_validate(dict(row)) if row else None
-
-    def update_scrape_record_processing_status(self, scrape_id: str, processing_status: str) -> None:
-        """Update scrape record processing status (only allowed update)."""
-        self._check_write_access("scrape_record")
-        self._execute("UPDATE scrape_record SET processing_status = ? WHERE scrape_id = ?", (processing_status, scrape_id))
-
     def insert_watchlist(self, row: WatchlistRow) -> None:
         """Insert a watchlist entry."""
         self._check_write_access("watchlist")
@@ -1558,12 +1514,6 @@ class DatabaseInterface(ABC):
             (row.document_id, row.publisher_id, row.url_normalized, row.source_published_at.isoformat(),
              row.url_raw_first_seen, row.document_class, row.is_attachment),
         )
-
-    def get_document(self, document_id: str) -> DocumentRow | None:
-        """Get a document by ID."""
-        self._check_read_access("document")
-        row = self._fetchone("SELECT * FROM document WHERE document_id = ?", (document_id,))
-        return DocumentRow.model_validate(dict(row)) if row else None
 
     def get_or_create_document(self, row: DocumentRow) -> DocumentRow:
         """Get or create a document using its natural key."""
@@ -1602,12 +1552,6 @@ class DatabaseInterface(ABC):
         row = self._fetchone("SELECT * FROM document_version WHERE doc_version_id = ?", (doc_version_id,))
         return DocumentVersionRow.model_validate(dict(row)) if row else None
 
-    def list_doc_version_ids(self) -> list[str]:
-        """List all document version IDs in deterministic order."""
-        self._check_read_access("document_version")
-        rows = self._fetchall("SELECT doc_version_id FROM document_version ORDER BY doc_version_id")
-        return [row["doc_version_id"] for row in rows]
-
     def insert_block(self, row: BlockRow) -> None:
         """Insert a block."""
         self._check_write_access("block")
@@ -1619,11 +1563,6 @@ class DatabaseInterface(ABC):
              row.parse_confidence, row.boilerplate_flag, row.boilerplate_reason, row.parent_block_id,
              row.language_hint, row.created_in_run_id),
         )
-
-    def insert_blocks(self, rows: Sequence[BlockRow]) -> None:
-        """Insert multiple blocks."""
-        for row in rows:
-            self.insert_block(row)
 
     def get_blocks_by_doc_version_id(self, doc_version_id: str) -> list[BlockRow]:
         """Get all blocks for a document version."""
@@ -1643,32 +1582,11 @@ class DatabaseInterface(ABC):
              row.mention_boundary_safe, row.token_count_approx, row.created_in_run_id),
         )
 
-    def insert_chunks(self, rows: Sequence[ChunkRow]) -> None:
-        """Insert multiple chunks."""
-        for row in rows:
-            self.insert_chunk(row)
-
-    def get_chunk(self, chunk_id: str) -> ChunkRow | None:
-        """Get a chunk by ID."""
-        self._check_read_access("chunk")
-        row = self._fetchone("SELECT * FROM chunk WHERE chunk_id = ?", (chunk_id,))
-        return ChunkRow.model_validate(dict(row)) if row else None
-
     def get_chunks_by_doc_version_id(self, doc_version_id: str) -> list[ChunkRow]:
         """Get all chunks for a document version."""
         self._check_read_access("chunk")
         rows = self._fetchall("SELECT * FROM chunk WHERE doc_version_id = ? ORDER BY span_start", (doc_version_id,))
         return [ChunkRow.model_validate(dict(row)) for row in rows]
-
-    def search_chunks_fts(self, query: str, limit: int = 10) -> list[tuple[ChunkRow, float]]:
-        """Search chunks using FTS5."""
-        self._check_read_access("chunk")
-        rows = self._fetchall(
-            """SELECT c.*, bm25(chunk_fts) as rank FROM chunk_fts
-            JOIN chunk c ON chunk_fts.chunk_id = c.chunk_id
-            WHERE chunk_fts MATCH ? ORDER BY rank LIMIT ?""", (query, limit),
-        )
-        return [(ChunkRow.model_validate({k: r[k] for k in r.keys() if k != "rank"}), r["rank"]) for r in rows]
 
     def insert_table_extract(self, row: TableExtractRow) -> None:
         """Insert a table extract."""
@@ -1707,12 +1625,6 @@ class DatabaseInterface(ABC):
              row.detected_document_class, row.document_class_confidence, row.metadata_extraction_log, row.created_in_run_id),
         )
 
-    def get_doc_metadata(self, doc_version_id: str) -> DocMetadataRow | None:
-        """Get document metadata by document version ID."""
-        self._check_read_access("doc_metadata")
-        row = self._fetchone("SELECT * FROM doc_metadata WHERE doc_version_id = ?", (doc_version_id,))
-        return DocMetadataRow.model_validate(dict(row)) if row else None
-
     def insert_entity_registry(self, row: EntityRegistryRow) -> None:
         """Insert an entity registry entry."""
         self._check_write_access("entity_registry")
@@ -1727,12 +1639,6 @@ class DatabaseInterface(ABC):
              row.valid_to.isoformat() if row.valid_to else None, row.source_authority,
              _serialize_json(row.disambiguation_hints), row.parent_entity_id),
         )
-
-    def get_entity_registry(self, entity_id: str) -> EntityRegistryRow | None:
-        """Get an entity by ID."""
-        self._check_read_access("entity_registry")
-        row = self._fetchone("SELECT * FROM entity_registry WHERE entity_id = ?", (entity_id,))
-        return EntityRegistryRow.model_validate(dict(row)) if row else None
 
     def list_entity_registry(self) -> list[EntityRegistryRow]:
         """List all entities in the registry."""
@@ -1838,22 +1744,6 @@ class DatabaseInterface(ABC):
             (row.alert_id, row.evidence_id, row.purpose),
         )
 
-    def insert_alert_with_evidence(self, alert: AlertRow, evidence: Sequence[AlertEvidenceRow]) -> None:
-        """Insert an alert with its evidence atomically."""
-        self._check_write_access("alert")
-        self._check_write_access("alert_evidence")
-        self.insert_alert(alert)
-        for ev in evidence:
-            self.insert_alert_evidence(ev)
-
-    def delete_alerts_for_run(self, run_id: str) -> int:
-        """Delete alerts for a run (FK-safe order)."""
-        self._check_write_access("alert_evidence")
-        self._check_write_access("alert")
-        self._execute("DELETE FROM alert_evidence WHERE alert_id IN (SELECT alert_id FROM alert WHERE run_id = ?)", (run_id,))
-        cursor = self._execute("DELETE FROM alert WHERE run_id = ?", (run_id,))
-        return cursor.rowcount
-
     def insert_digest_item(self, row: DigestItemRow) -> None:
         """Insert a digest item."""
         self._check_write_access("digest_item")
@@ -1874,22 +1764,6 @@ class DatabaseInterface(ABC):
             "INSERT INTO digest_item_evidence (item_id, evidence_id, purpose) VALUES (?, ?, ?)",
             (row.item_id, row.evidence_id, row.purpose),
         )
-
-    def insert_digest_item_with_evidence(self, item: DigestItemRow, evidence: Sequence[DigestItemEvidenceRow]) -> None:
-        """Insert a digest item with its evidence atomically."""
-        self._check_write_access("digest_item")
-        self._check_write_access("digest_item_evidence")
-        self.insert_digest_item(item)
-        for ev in evidence:
-            self.insert_digest_item_evidence(ev)
-
-    def delete_digest_items_for_run(self, run_id: str) -> int:
-        """Delete digest items for a run (FK-safe order)."""
-        self._check_write_access("digest_item_evidence")
-        self._check_write_access("digest_item")
-        self._execute("DELETE FROM digest_item_evidence WHERE item_id IN (SELECT item_id FROM digest_item WHERE run_id = ?)", (run_id,))
-        cursor = self._execute("DELETE FROM digest_item WHERE run_id = ?", (run_id,))
-        return cursor.rowcount
 
     def insert_entity_timeline_item(self, row: EntityTimelineItemRow) -> None:
         """Insert an entity timeline item."""

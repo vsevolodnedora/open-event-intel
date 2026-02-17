@@ -48,9 +48,7 @@ logger = get_logger(__name__)
 STAGE_NAME = "stage_02_parse"
 PREREQUISITE_STAGE = "stage_01_ingest"
 
-# ---------------------------------------------------------------------------
 # Diagnostic helpers (logging-only, no functional impact)
-# ---------------------------------------------------------------------------
 _TEMPORAL_HINT_RE = re.compile(
     r"""(?ix)
       \b(?:
