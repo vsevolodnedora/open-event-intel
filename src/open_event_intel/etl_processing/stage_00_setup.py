@@ -89,6 +89,7 @@ class Stage00DatabaseInterface(DatabaseInterface):
         working_db_path: Path,
         source_db_path: Path | None = None,
     ) -> None:
+        """Initialize."""
         super().__init__(
             working_db_path=working_db_path,
             source_db_path=source_db_path,
