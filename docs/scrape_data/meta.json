@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-16T18:37:44Z",
+  "generated_at_utc": "2026-02-17T11:23:54Z",
   "timezone": "CET",
   "publishers": [
     "SMARD",
@@ -18,6 +18,6 @@
   ],
   "available_dates": {
     "min": "1990-01-01",
-    "max": "2026-02-16"
+    "max": "2026-02-17"
   }
 }
