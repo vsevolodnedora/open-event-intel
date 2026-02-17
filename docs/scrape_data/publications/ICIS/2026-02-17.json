@@ -1,0 +1,16 @@
+{
+  "publisher": "ICIS",
+  "published_on": "2026-02-17",
+  "publications": [
+    {
+      "id": "a70a876c0fbdb81e4a5311bcfb21a4eec0119374d4201b0e22d110523170bd93",
+      "title": "europe_mpg_to_remain_supported_by_good_de_icing_demand",
+      "published_on": "2026-02-17 12:00:00",
+      "scraped_on": "2026-02-17 17:40:20.661492",
+      "language": "en",
+      "length_before_preprocessing": 6172,
+      "length_after_preprocessing": 2268,
+      "url": "https://www.icis.com/explore/resources/news/2026/02/17/11180761/europe-mpg-to-remain-supported-by-good-de-icing-demand"
+    }
+  ]
+}

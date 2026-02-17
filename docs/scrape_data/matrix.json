@@ -1351,7 +1351,7 @@
     },
     {
       "publisher": "ACER",
-      "total_scraped": 118,
+      "total_scraped": 120,
       "cells": {
         "2012-03-15": {
           "n_scraped": 1,
@@ -1756,6 +1756,10 @@
         "2026-02-12": {
           "n_scraped": 1,
           "n_preprocessed": 1
+        },
+        "2026-02-17": {
+          "n_scraped": 2,
+          "n_preprocessed": 2
         }
       }
     },
@@ -4149,7 +4153,7 @@
     },
     {
       "publisher": "ICIS",
-      "total_scraped": 741,
+      "total_scraped": 742,
       "cells": {
         "2025-07-30": {
           "n_scraped": 7,
@@ -4718,6 +4722,10 @@
         "2026-02-16": {
           "n_scraped": 10,
           "n_preprocessed": 10
+        },
+        "2026-02-17": {
+          "n_scraped": 1,
+          "n_preprocessed": 1
         }
       }
     },

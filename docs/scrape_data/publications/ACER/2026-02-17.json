@@ -1,0 +1,26 @@
+{
+  "publisher": "ACER",
+  "published_on": "2026-02-17",
+  "publications": [
+    {
+      "id": "2b6e5c2f458e62b4372f3339af2f97d27b1c274b9a07fc6ebf882c14163d002d",
+      "title": "acer_will_consult_economic_input_data_improve_european_electricity_system_modelling",
+      "published_on": "2026-02-17 12:00:00",
+      "scraped_on": "2026-02-17 17:39:26.239162",
+      "language": "en",
+      "length_before_preprocessing": 7940,
+      "length_after_preprocessing": 938,
+      "url": "https://www.acer.europa.eu/news/acer-will-consult-economic-input-data-improve-european-electricity-system-modelling"
+    },
+    {
+      "id": "dfdf06ede7d7460e015ec24a2124d05bac564b8b99ead0d2ec1803c09f7f092c",
+      "title": "acer_decide_amendments_core_regions_long_term_capacity_calculation_methodology",
+      "published_on": "2026-02-17 12:00:00",
+      "scraped_on": "2026-02-17 17:39:26.243878",
+      "language": "en",
+      "length_before_preprocessing": 8098,
+      "length_after_preprocessing": 1039,
+      "url": "https://www.acer.europa.eu/news/acer-decide-amendments-core-regions-long-term-capacity-calculation-methodology"
+    }
+  ]
+}
