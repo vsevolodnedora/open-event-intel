@@ -1,0 +1,80 @@
+name: scrape_posts
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "src/open_event_intel/scraping/scrapers/**"
+  schedule:
+    - cron: "0 18 * * *"
+
+concurrency:
+  group: scrape-preprocess-main
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: Scrape publishers
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      LOG_LEVEL: WARNING
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.5"
+          cache: "pipenv"
+
+      - name: Install pipenv
+        run: python -m pip install --upgrade pip pipenv
+
+      - name: Install Dependencies
+        run: pipenv install --deploy
+
+      - name: Install Playwright Browsers
+        run: pipenv run playwright install --with-deps
+
+      - name: Checkout Private Data Repo
+        uses: actions/checkout@v4
+        with:
+          repository: vsevolodnedora/nlp_news_summary_data
+          token: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
+          path: data_repo
+          fetch-depth: 0
+
+      - name: Prepare scraped DB and private prompts
+        run: |
+          mkdir -p database
+          cp data_repo/database/scraped_posts.db database/scraped_posts.db
+
+          mkdir -p src/tkg
+          cp -r data_repo/prompts_and_definitions src/tkg/prompts_and_definitions
+
+      - name: Install this package (editable)
+        run: pipenv run pip install -e .
+
+      - name: Scrape Publications from Publishers
+        run: pipenv run python -m open_event_intel.scraping.run_scrape --source all --db-path database/scraped_posts.db --output-dir output/posts_raw/ --metadata-dir output/public_view/
+
+      - name: Remove private prompts_and_definitions
+        if: always()
+        run: rm -rf src/tkg/prompts_and_definitions
+
+      - name: Push scraped_posts.db to private repo
+        run: |
+          cp database/scraped_posts.db data_repo/database/scraped_posts.db
+
+          cd data_repo
+          git config user.name 'Collector'
+          git config user.email 'noreply@nedora.digital'
+          git add database/scraped_posts.db
+          git commit -m "Update scraped_posts.db from scrape run at $(date -u)" || echo "No changes to commit in private repo"
+          git push

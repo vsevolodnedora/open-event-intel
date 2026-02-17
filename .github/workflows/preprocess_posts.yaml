@@ -1,34 +1,29 @@
-name: Scrape_Preprocess
+name: preprocess_posts
 
 on:
-  push:
-    branches: ["main"]
-    paths-ignore:
-      - "docs/**"
-      - ".github/workflows/build_deploy.yml"
-      - "README.md"
-  schedule:
-    - cron: "0 18 * * *"
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["scrape_posts"]
+    types: [completed]
 
 concurrency:
   group: scrape-preprocess-main
   cancel-in-progress: false
 
 jobs:
-  scrape:
-    name: Scrape publishers
+  preprocess:
+    name: Preprocess + export for web
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule' || github.ref == 'refs/heads/main'
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: read
     env:
       LOG_LEVEL: WARNING
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repository (same commit as scrape)
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -66,71 +61,21 @@ jobs:
       - name: Install this package (editable)
         run: pipenv run pip install -e .
 
-      - name: Scrape Publications from Publishers
-        run: pipenv run python -m open_event_intel.scraping.run_scrape --source all --db-path database/scraped_posts.db --output-dir output/posts_raw/ --metadata-dir output/public_view/
-
-      - name: Remove private prompts_and_definitions
-        if: always()
-        run: rm -rf src/tkg/prompts_and_definitions
-
-      - name: Upload DBs artifact (for downstream jobs)
-        uses: actions/upload-artifact@v4
-        with:
-          name: dbs
-          path: |
-            database/scraped_posts.db
-            database/preprocessed_posts.db
-
-  preprocess:
-    name: Preprocess + export for web
-    runs-on: ubuntu-latest
-    needs: scrape
-    permissions:
-      contents: read
-    env:
-      LOG_LEVEL: WARNING
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11.5"
-          cache: "pipenv"
-
-      - name: Install pipenv
-        run: python -m pip install --upgrade pip pipenv
-
-      - name: Install Dependencies
-        run: pipenv install --deploy
-
-      - name: Install Playwright Browsers
-        run: pipenv run playwright install --with-deps
-
-      - name: Install this package (editable)
-        run: pipenv run pip install -e .
-
-      - name: Download DBs artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: dbs
-          path: database
-
       - name: Preprocess publications (clean HTML, extract text)
         run: pipenv run python -m open_event_intel.scraping.run_preprocessor --source all --source-db database/scraped_posts.db --target-db database/preprocessed_posts.db --output-dir output/posts_cleaned/ --failed-dir output/failed_preprocess/ --overwrite --metadata-output output/public_view/ --corruptions-file config/possible_corruptions.txt
 
       - name: Export pipeline data for website (docs/)
         run: pipenv run python -m open_event_intel.scraping.export_pipeline_data --scraped-db database/scraped_posts.db --preprocessed-db database/preprocessed_posts.db --output-dir docs/scrape_data/ --window-days 60
 
-      - name: Upload updated DBs artifact
+      - name: Remove private prompts_and_definitions
+        if: always()
+        run: rm -rf src/tkg/prompts_and_definitions
+
+      - name: Upload preprocessed DB artifact (for push job)
         uses: actions/upload-artifact@v4
         with:
-          name: dbs-updated
-          path: |
-            database/scraped_posts.db
-            database/preprocessed_posts.db
+          name: preprocessed-db
+          path: database/preprocessed_posts.db
 
       - name: Upload docs artifact
         uses: actions/upload-artifact@v4
@@ -139,17 +84,17 @@ jobs:
           path: docs/scrape_data
 
   push_private:
-    name: Push DBs to private repo
+    name: Push preprocessed_posts.db to private repo
     runs-on: ubuntu-latest
     needs: preprocess
     permissions:
       contents: read
 
     steps:
-      - name: Download updated DBs artifact
+      - name: Download preprocessed DB artifact
         uses: actions/download-artifact@v4
         with:
-          name: dbs-updated
+          name: preprocessed-db
           path: database
 
       - name: Checkout Private Data Repo
@@ -160,22 +105,21 @@ jobs:
           path: data_repo
           fetch-depth: 0
 
-      - name: Copy DBs and push
+      - name: Copy preprocessed DB and push
         run: |
-          cp database/scraped_posts.db data_repo/database/scraped_posts.db
           cp database/preprocessed_posts.db data_repo/database/preprocessed_posts.db
 
           cd data_repo
           git config user.name 'Collector'
           git config user.email 'noreply@nedora.digital'
-          git add database/scraped_posts.db database/preprocessed_posts.db
-          git commit -m "Update databases from scrape & preprocess run at $(date -u)" || echo "No changes to commit in private repo"
+          git add database/preprocessed_posts.db
+          git commit -m "Update preprocessed_posts.db from preprocess run at $(date -u)" || echo "No changes to commit in private repo"
           git push
 
   publish_docs:
     name: Commit public docs/scrape_data to main
     runs-on: ubuntu-latest
-    needs: preprocess
+    needs: push_private
     permissions:
       contents: write
 
