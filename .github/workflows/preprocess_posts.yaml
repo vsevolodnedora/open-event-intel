@@ -1,31 +1,59 @@
+name: preprocess_posts
+
 on:
+  # Run after the "scrape_posts" workflow completes (only proceed if that run succeeded)
   workflow_run:
     workflows: ["scrape_posts"]
     types: [completed]
+
+  # ALSO run when there is a commit into the specified directory
+  # (and in this case we ignore the workflow_run success requirement)
   push:
     branches: [main]
     paths:
       - "src/open_event_intel/preprocessing/**"
 
+  # Optional: manual trigger
+  workflow_dispatch:
+
 concurrency:
-  group: scrape-preprocess-main
+  # One run per branch at a time (main will serialize)
+  group: scrape-preprocess-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
   preprocess:
     name: Preprocess + export for web
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
+    # If triggered by workflow_run, require success.
+    # If triggered by push (or manual), run regardless.
+    if: >-
+      ${{
+        (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+        || github.event_name == 'push'
+        || github.event_name == 'workflow_dispatch'
+      }}
+
     permissions:
       contents: read
+
     env:
       LOG_LEVEL: WARNING
 
     steps:
-      - name: Checkout Repository (same commit as scrape)
+      - name: Debug trigger context (handy while tuning)
+        run: |
+          echo "event_name=${{ github.event_name }}"
+          echo "sha=${{ github.sha }}"
+          echo "ref=${{ github.ref }}"
+          echo "workflow_run_head_sha=${{ github.event.workflow_run.head_sha }}"
+          echo "workflow_run_conclusion=${{ github.event.workflow_run.conclusion }}"
+
+      - name: Checkout Repository (scrape commit if workflow_run, else current push)
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}
+          ref: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.head_sha) || github.sha }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -64,10 +92,24 @@ jobs:
         run: pipenv run pip install -e .
 
       - name: Preprocess publications (clean HTML, extract text)
-        run: pipenv run python -m open_event_intel.scraping.run_preprocessor --source all --source-db database/scraped_posts.db --target-db database/preprocessed_posts.db --output-dir output/posts_cleaned/ --failed-dir output/failed_preprocess/ --overwrite --metadata-output output/public_view/ --corruptions-file config/possible_corruptions.txt
+        run: |
+          pipenv run python -m open_event_intel.scraping.run_preprocessor \
+            --source all \
+            --source-db database/scraped_posts.db \
+            --target-db database/preprocessed_posts.db \
+            --output-dir output/posts_cleaned/ \
+            --failed-dir output/failed_preprocess/ \
+            --overwrite \
+            --metadata-output output/public_view/ \
+            --corruptions-file config/possible_corruptions.txt
 
       - name: Export pipeline data for website (docs/)
-        run: pipenv run python -m open_event_intel.scraping.export_scrape_pipeline_data --scraped-db database/scraped_posts.db --preprocessed-db database/preprocessed_posts.db --output-dir docs/scrape_data/ --window-days 60
+        run: |
+          pipenv run python -m open_event_intel.scraping.export_scrape_pipeline_data \
+            --scraped-db database/scraped_posts.db \
+            --preprocessed-db database/preprocessed_posts.db \
+            --output-dir docs/scrape_data/ \
+            --window-days 60
 
       - name: Remove private prompts_and_definitions
         if: always()
