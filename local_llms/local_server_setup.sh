@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MODELS_DIR="./models"
 
-# 1) Embeddings
+
 llama-server -m "${MODELS_DIR}/snowflake-arctic-embed-l-v2.0.F16.gguf" \
   --port 8081 --embeddings --ctx-size 8192 \
   --batch-size 2048 --ubatch-size 1024 \

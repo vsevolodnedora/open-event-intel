@@ -1592,6 +1592,9 @@ def parse_args() -> argparse.Namespace:
         help="Working database path (default: ../../../database/processed_posts.db)",
     )
     parser.add_argument(
+        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+    )
+    parser.add_argument(
         "--log-dir",
         type=Path,
         default=Path("../../../output/processed/logs/"),

@@ -1088,6 +1088,9 @@ def parse_args() -> argparse.Namespace:
                         help="Pipeline run ID (SHA256 hex)")
     parser.add_argument("--config-dir", type=Path, default=Path("../../../config/"),
                         help="Directory containing config.yaml (default: ../../../config/)")
+    parser.add_argument(
+        "--source-db", type=Path, default=Path("../../../database/preprocessed_posts.db")
+    )
     parser.add_argument("--working-db", type=Path, default=Path("../../../database/processed_posts.db"),
                         help="Path to working database (default: ../../../database/processed_posts.db)")
     parser.add_argument("--output-dir", type=Path, default=Path("../../../output/processed/"),

@@ -806,6 +806,11 @@ def run_stage(
         )
         logger.info("  run_stage_status set to 'ok' (errors are advisory, stored in validation_failure)")
 
+        # Mark the pipeline run as completed so the run lock is released
+        # and a new run_id can be acquired by stage 00.
+        db.complete_pipeline_run(run_id)
+        logger.info("  pipeline_run status set to 'completed'")
+
     if errors:
         logger.warning(
             "%d validation error(s) recorded — see validation_failure table for details",
@@ -833,10 +838,22 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing config.yaml (default: ../../../config/)",
     )
     parser.add_argument(
+        "--source-db", type=Path, default=Path("../../../database/preprocessed_posts.db")
+    )
+    parser.add_argument(
         "--working-db",
         type=Path,
         default=Path("../../../database/processed_posts.db"),
         help="Path to the working database (default: ../../../database/processed_posts.db)",
+    )
+    parser.add_argument(
+        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+    )
+    parser.add_argument(
+        "--log-dir",
+        type=Path,
+        default=Path("../../../output/processed/logs/"),
+        help="Directory for stage log files",
     )
     parser.add_argument(
         "--prerequisite-stage",

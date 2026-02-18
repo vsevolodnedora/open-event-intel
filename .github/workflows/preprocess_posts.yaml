@@ -65,7 +65,7 @@ jobs:
         run: pipenv run python -m open_event_intel.scraping.run_preprocessor --source all --source-db database/scraped_posts.db --target-db database/preprocessed_posts.db --output-dir output/posts_cleaned/ --failed-dir output/failed_preprocess/ --overwrite --metadata-output output/public_view/ --corruptions-file config/possible_corruptions.txt
 
       - name: Export pipeline data for website (docs/)
-        run: pipenv run python -m open_event_intel.scraping.export_pipeline_data --scraped-db database/scraped_posts.db --preprocessed-db database/preprocessed_posts.db --output-dir docs/scrape_data/ --window-days 60
+        run: pipenv run python -m open_event_intel.scraping.export_scrape_pipeline_data --scraped-db database/scraped_posts.db --preprocessed-db database/preprocessed_posts.db --output-dir docs/scrape_data/ --window-days 60
 
       - name: Remove private prompts_and_definitions
         if: always()

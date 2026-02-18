@@ -117,6 +117,72 @@ def validate_config_stability(
     return False
 
 
+def recover_stale_running_run(
+    db: Stage00DatabaseInterface,
+    current_run_id: str,
+) -> bool:
+    """
+    Detect and fail a stale ``'running'`` pipeline run left by a previous crash.
+
+    If another run is found with ``status='running'`` (and it is not
+    *current_run_id*), this function logs full diagnostics — including
+    the stale run's ID, start time, and last recorded stage — then marks
+    it as ``'failed'`` so the single-running constraint is released.
+
+    :param db: Database interface.
+    :param current_run_id: The run ID we are about to acquire.
+    :return: ``True`` if a stale run was recovered, ``False`` otherwise.
+    """
+    stale_run = db.get_any_running_run()
+
+    if stale_run is None:
+        return False
+
+    if stale_run.run_id == current_run_id:
+        # Same run_id already running — handled by acquire_run (idempotent case)
+        return False
+
+    # ── Gather diagnostics ──────────────────────────────────────────
+    last_stage = db.get_last_stage_for_run(stale_run.run_id)
+
+    last_stage_name = last_stage["stage"] if last_stage else "unknown (no stage recorded)"
+    last_stage_status = last_stage["status"] if last_stage else "n/a"
+    last_stage_error = last_stage.get("error_message") if last_stage else None
+
+    logger.warning(
+        "═══ Stale running run detected ═══\n"
+        "  Stale run_id:    %s\n"
+        "  Started at:      %s\n"
+        "  Last stage:      %s (status='%s')\n"
+        "  Error message:   %s\n"
+        "  Current run_id:  %s\n"
+        "  Action:          Marking stale run as 'failed' to release the run lock.",
+        stale_run.run_id,
+        stale_run.started_at,
+        last_stage_name,
+        last_stage_status,
+        last_stage_error or "(none)",
+        current_run_id,
+    )
+
+    # ── Mark it as failed ───────────────────────────────────────────
+    with db.transaction():
+        db.fail_pipeline_run(
+            stale_run.run_id,
+            error_message=(
+                f"Marked as failed by stage_00_setup: stale 'running' state "
+                f"detected when acquiring new run '{current_run_id}'. "
+                f"Last stage was '{last_stage_name}' (status='{last_stage_status}')."
+            ),
+        )
+
+    logger.warning(
+        "Stale run '%s' marked as 'failed'. Proceeding with new run acquisition.",
+        stale_run.run_id[:16],
+    )
+    return True
+
+
 def acquire_run(
     db: Stage00DatabaseInterface,
     run_id: str,
@@ -257,6 +323,9 @@ def parse_args() -> argparse.Namespace:
         help="Path to working database (created if missing)",
     )
     parser.add_argument(
+        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+    )
+    parser.add_argument(
         "--log-dir",
         type=Path,
         default=Path("../../../output/processed/logs/"),
@@ -336,6 +405,15 @@ def run_setup(
         validate_config_stability(db, config_version)
     except ConfigDriftError as e:
         logger.error("Config stability check failed: %s", e)
+        db.close()
+        return 1
+
+    try:
+        recovered = recover_stale_running_run(db, run_id)
+        if recovered:
+            logger.info("Stale run recovered — continuing with new run acquisition")
+    except Exception as e:
+        logger.error("Failed to recover stale running run: %s", e)
         db.close()
         return 1
 

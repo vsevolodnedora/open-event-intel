@@ -1,4 +1,5 @@
 # Stage identity
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Sequence
 
@@ -16,8 +17,9 @@ class Stage11DatabaseInterface(DatabaseInterface):
     """
     Database adapter for Stage 11 validation.
 
-    Reads broadly across all pipeline tables; writes only to
-    ``validation_failure`` and ``run_stage_status``.
+    Reads broadly across all pipeline tables; writes to
+    ``validation_failure``, ``run_stage_status``, and ``pipeline_run``
+    (to mark the run as completed).
 
     .. note::
        The SQL queries here are stage-specific and should eventually be
@@ -63,7 +65,7 @@ class Stage11DatabaseInterface(DatabaseInterface):
         "story_cluster",
         "story_cluster_member",
     }
-    WRITES: set[str] = {"validation_failure", "run_stage_status"}  # type: ignore[assignment]
+    WRITES: set[str] = {"validation_failure", "run_stage_status", "pipeline_run"}  # type: ignore[assignment]
 
     def __init__(self, working_db_path: Path) -> None:
         """Initialize a Stage 11 validation."""
@@ -428,3 +430,32 @@ class Stage11DatabaseInterface(DatabaseInterface):
             (stage,),
         )
         return row["cnt"] if row else 0
+
+    # Pipeline run completion
+
+    def complete_pipeline_run(self, run_id: str) -> None:
+        """
+        Transition a pipeline run from ``'running'`` to ``'completed'``.
+
+        Sets ``status='completed'`` and ``completed_at`` to the current UTC
+        timestamp.  Only updates rows whose current status is ``'running'``
+        to avoid accidentally overwriting a run that was concurrently failed
+        or aborted.
+
+        :param run_id: The pipeline run ID to mark as completed.
+        :raises DBError: If no row was updated (run not found or not running).
+        """
+        self._check_write_access("pipeline_run")
+        now = datetime.now(timezone.utc).isoformat()
+        cursor = self._execute(
+            """UPDATE pipeline_run
+               SET status = 'completed', completed_at = ?
+               WHERE run_id = ? AND status = 'running'""",
+            (now, run_id),
+        )
+        if cursor.rowcount == 0:
+            from open_event_intel.etl_processing.database_interface import DBError
+            raise DBError(
+                f"Cannot complete pipeline run '{run_id}': "
+                f"no running row found (already completed, failed, or missing)"
+            )

@@ -1534,6 +1534,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--config-dir", type=Path, default=Path("../../../config/"))
     parser.add_argument("--source-db", type=Path, default=Path("../../../database/preprocessed_posts.db"))
     parser.add_argument("--working-db", type=Path, default=Path("../../../database/processed_posts.db"))
+    parser.add_argument(
+        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+    )
+    parser.add_argument(
+        "--log-dir",
+        type=Path,
+        default=Path("../../../output/processed/logs/"),
+        help="Directory for stage log files",
+    )
     parser.add_argument("--verbose", action="store_true", default=False, help="Enable verbose (DEBUG) logging")
     return parser.parse_args()
 

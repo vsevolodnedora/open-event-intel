@@ -20,12 +20,15 @@ import hashlib
 import json
 import struct
 import sys
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
 
-from open_event_intel.etl_processing.config_interface import LLMConfig, ModelDefinition, get_config_version, load_config
+from open_event_intel.etl_processing.config_interface import LLMConfig, ModelDefinition, get_config_version, load_config, \
+    TaskRouting
 from open_event_intel.etl_processing.database_interface import (
     ChunkEmbeddingRow,
     ChunkRow,
@@ -452,7 +455,8 @@ def build_ann_index(
         vectors_flat.extend(struct.unpack(f"<{dim}f", emb_bytes))
 
     ann_dir = output_dir / "ann_indexes"
-    ann_dir.mkdir(parents=True, exist_ok=True)
+    if not ann_dir.exists():
+        ann_dir.mkdir(parents=True)
 
     method: str
     build_params: dict
@@ -554,6 +558,14 @@ def parse_args() -> argparse.Namespace:
         default=Path("../../../database/processed_posts.db"),
     )
     parser.add_argument(
+        "--embedding_model", type=str,
+        default=None,
+    )
+    parser.add_argument(
+        "--embedding_model_base_url", type=str,
+        default=None,
+    )
+    parser.add_argument(
         "--output-dir", type=Path, default=Path("../../../output/processed/"),
     )
     parser.add_argument(
@@ -561,7 +573,6 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--verbose", action="store_true")
     return parser.parse_args()
-
 
 def main_stage_05_embeddings() -> int:
     """
@@ -573,6 +584,102 @@ def main_stage_05_embeddings() -> int:
 
     config = load_config(args.config_dir / "config.yaml")
     config_hash = get_config_version(config)
+
+    # ---- CLI embedding-model override ----------------------------------------
+    # If the user passed --embedding_model (and optionally a base URL), lock
+    # this run to that single model and validate reachability.
+    if args.embedding_model is not None:
+        cli_model_name: str = args.embedding_model
+        cli_base_url: str | None = args.embedding_model_base_url
+
+        # (a) Log warning that the embedding model is being overwritten
+        logger.warning(
+            "CLI override: embedding model forced to '%s' (base_url=%s). "
+            "All other models will be removed from this run's config.",
+            cli_model_name,
+            cli_base_url or "<not overridden>",
+        )
+
+        # (b) Verify the requested model exists in config models and embedding routing
+        model_def_override = config.llm_config.get_model(cli_model_name)
+        if model_def_override is None:
+            logger.error(
+                "Embedding model '%s' not found in llm_config.models. "
+                "Available models: %s",
+                cli_model_name,
+                list(config.llm_config.models.keys()),
+            )
+            return 1
+
+        embedding_routing = config.llm_config.get_routing("embedding")
+        if embedding_routing is None or (
+            cli_model_name != embedding_routing.primary
+            and cli_model_name not in embedding_routing.fallback
+        ):
+            logger.error(
+                "Embedding model '%s' is not referenced in "
+                "llm_config.task_routing.embedding (primary=%s, fallback=%s). "
+                "It must be part of the embedding routing to be used here.",
+                cli_model_name,
+                embedding_routing.primary if embedding_routing else None,
+                embedding_routing.fallback if embedding_routing else [],
+            )
+            return 1
+
+        # Overwrite base_url if a new one was provided via CLI
+        if cli_base_url is not None:
+            logger.info(
+                "Overwriting base_url for model '%s': '%s' -> '%s'",
+                cli_model_name,
+                model_def_override.base_url,
+                cli_base_url,
+            )
+            model_def_override.base_url = cli_base_url
+
+        # (c) Check that the model endpoint is reachable
+        probe_url = (model_def_override.base_url or "").rstrip("/")
+        if probe_url:
+            health_url = f"{probe_url}/models"
+            try:
+                req = urllib.request.Request(health_url, method="GET")
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    logger.info(
+                        "Endpoint reachable: %s (HTTP %d)", health_url, resp.status,
+                    )
+            except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
+                logger.error(
+                    "Embedding model endpoint unreachable at '%s': %s. "
+                    "Ensure the model server is running and the URL is correct.",
+                    health_url,
+                    exc,
+                )
+                return 1
+        else:
+            logger.warning(
+                "No base_url set for model '%s'; skipping reachability check "
+                "(remote provider will use its default endpoint).",
+                cli_model_name,
+            )
+
+        # (d) Remove every other model from config so only the CLI model is usable
+        other_models = [
+            name for name in config.llm_config.models if name != cli_model_name
+        ]
+        for name in other_models:
+            del config.llm_config.models[name]
+
+        # Restrict embedding routing to only this model (drop fallbacks)
+        config.llm_config.task_routing["embedding"] = TaskRouting(
+            primary=cli_model_name, fallback=[],
+        )
+
+        logger.info(
+            "Config locked to single embedding model: '%s' "
+            "(remaining models: %s, embedding routing: primary=%s fallback=[])",
+            cli_model_name,
+            list(config.llm_config.models.keys()),
+            cli_model_name,
+        )
 
     model_def = _resolve_embedding_model(config.llm_config)
 

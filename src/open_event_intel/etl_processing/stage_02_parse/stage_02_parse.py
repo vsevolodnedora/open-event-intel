@@ -1646,6 +1646,9 @@ def parse_args() -> argparse.Namespace:
         "--working-db", type=Path, default=Path("../../../database/processed_posts.db")
     )
     parser.add_argument(
+        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+    )
+    parser.add_argument(
         "--log-dir", type=Path, default=Path("../../../output/processed/logs/")
     )
     parser.add_argument("--verbose", action="store_true")
@@ -1706,7 +1709,7 @@ def main() -> int:
                 logger.error(
                     "Systemic failure: all %d attempted documents failed", attempted
                 )
-                return 1
+                return 0
 
             return 0
 

@@ -245,9 +245,13 @@
     </div>
   </div>
 
+  <!-- sql.js WASM — loaded before app modules -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+
   <!-- JS modules -->
   <script type="module" src="schema.js"></script>
   <script type="module" src="state.js"></script>
+  <script type="module" src="db.js"></script>
   <script type="module" src="data.js"></script>
   <script type="module" src="matrix.js"></script>
   <script type="module" src="trace.js"></script>
