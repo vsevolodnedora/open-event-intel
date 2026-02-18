@@ -1,9 +1,11 @@
-name: preprocess_posts
-
 on:
   workflow_run:
     workflows: ["scrape_posts"]
     types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - "src/open_event_intel/preprocessing/**"
 
 concurrency:
   group: scrape-preprocess-main
