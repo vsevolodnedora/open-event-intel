@@ -98,7 +98,7 @@ jobs:
           ls -lh database/preprocessed_posts.db
 
           mkdir -p config/etl_config
-          cp -r data_repo/etl_config config/etl_config
+          cp -r data_repo/config/etl_config/. config/etl_config/
 
       - name: Verify ETL config exists
         run: |
