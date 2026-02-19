@@ -17,16 +17,13 @@ WORKING_DB="database/processed_posts.db"
 OUTPUT_DIR="output/processed/"
 LOG_DIR="output/processed/logs/"
 
+# Preflight check defaults
+PREFLIGHT_SCRIPT="preflight_check/preflight_check.py"
+SKIP_PREFLIGHT=false
+
 # Embeddings stage (stage_05_embeddings) defaults (can be overridden by CLI flags)
 EMBEDDING_MODEL="arctic-embed"
 EMBEDDING_MODEL_BASE_URL="http://localhost:8081/v1"
-
-# Export script (new IO) defaults
-EXPORT_OUT="docs/etl_data/"
-EXPORT_RUNS=5
-EXPORT_SKIP_TRACES=false
-EXPORT_COMPLETED_ONLY=false
-EXPORT_VERBOSE=false
 
 usage() {
   cat <<EOF
@@ -40,21 +37,24 @@ Pipeline options:
   --output-dir PATH               (default: ${OUTPUT_DIR})
   --log-dir PATH                  (default: ${LOG_DIR})
 
+Preflight options:
+  --preflight-script PATH         (default: ${PREFLIGHT_SCRIPT})
+  --skip-preflight                Skip the preflight check and run the pipeline unconditionally
+
 Embeddings options (stage_05_embeddings.py only):
   --embedding-model NAME          (default: ${EMBEDDING_MODEL})
   --embedding-model-base-url URL  (default: ${EMBEDDING_MODEL_BASE_URL})
 
-Export options (export_pipeline_data.py):
-  --export-out PATH               (default: ${EXPORT_OUT})
-  --export-runs N                 (default: ${EXPORT_RUNS})
-  --export-skip-traces            (default: off)
-  --export-completed-only         (default: off)
-  --export-verbose, -v            (default: off)
-
   -h, --help
 
+Exit codes:
+  0   Pipeline ran successfully (or preflight determined no run needed)
+  1   Fatal error (preflight or pipeline failure)
+  2   Preflight determined no update needed (logged to LOG_DIR)
+
 Example:
-  $(basename "$0") --run-id NONE --log-dir output/processed/logs/ --export-out docs/etl_data/ -v
+  $(basename "$0") --run-id NONE --log-dir output/processed/logs/
+  $(basename "$0") --skip-preflight   # bypass preflight, always run pipeline
 EOF
 }
 
@@ -115,6 +115,16 @@ while [[ $# -gt 0 ]]; do
       shift 2
       ;;
 
+    # Preflight
+    --preflight-script)
+      PREFLIGHT_SCRIPT="${2:?Missing value for --preflight-script}"
+      shift 2
+      ;;
+    --skip-preflight)
+      SKIP_PREFLIGHT=true
+      shift
+      ;;
+
     # Embeddings (stage_05 only)
     --embedding-model)
       EMBEDDING_MODEL="${2:?Missing value for --embedding-model}"
@@ -123,28 +133,6 @@ while [[ $# -gt 0 ]]; do
     --embedding-model-base-url)
       EMBEDDING_MODEL_BASE_URL="${2:?Missing value for --embedding-model-base-url}"
       shift 2
-      ;;
-
-    # Export (new IO)
-    --export-out)
-      EXPORT_OUT="${2:?Missing value for --export-out}"
-      shift 2
-      ;;
-    --export-runs)
-      EXPORT_RUNS="${2:?Missing value for --export-runs}"
-      shift 2
-      ;;
-    --export-skip-traces)
-      EXPORT_SKIP_TRACES=true
-      shift
-      ;;
-    --export-completed-only)
-      EXPORT_COMPLETED_ONLY=true
-      shift
-      ;;
-    --export-verbose|-v)
-      EXPORT_VERBOSE=true
-      shift
       ;;
 
     -h|--help)
@@ -158,6 +146,69 @@ while [[ $# -gt 0 ]]; do
       ;;
   esac
 done
+
+# ----------------------------
+# Ensure output directories exist (safe even if stages also create them)
+# ----------------------------
+mkdir -p "$OUTPUT_DIR" "$LOG_DIR"
+
+# ----------------------------
+# Preflight check
+# ----------------------------
+if [[ "$SKIP_PREFLIGHT" == false ]]; then
+  preflight_path="$SCRIPT_DIR/$PREFLIGHT_SCRIPT"
+  if [[ ! -f "$preflight_path" ]]; then
+    echo "ERROR: Preflight script not found at: $preflight_path" >&2
+    echo "  Use --preflight-script PATH to override, or --skip-preflight to bypass." >&2
+    exit 1
+  fi
+
+  preflight_log="$LOG_DIR/preflight_$(date -u '+%Y%m%dT%H%M%SZ').log"
+
+  echo "==> Running preflight check: python3 $preflight_path --source-db $SOURCE_DB --working-db $WORKING_DB"
+
+  # Run preflight, capture output, and preserve the exit code.
+  # set +e temporarily so the non-zero exit code doesn't kill the script.
+  set +e
+  preflight_output="$(python3 "$preflight_path" \
+    --source-db "$SOURCE_DB" \
+    --working-db "$WORKING_DB" \
+    --verbose 2>&1)"
+  preflight_rc=$?
+  set -e
+
+  case $preflight_rc in
+    0)
+      # Pipeline should run — log preflight output and continue
+      echo "$preflight_output" | tee "$preflight_log"
+      echo "==> Preflight check passed (exit 0): pipeline run required."
+      ;;
+    2)
+      # No update needed — store the preflight output and exit cleanly
+      echo "$preflight_output" | tee "$preflight_log"
+      echo ""
+      echo "==> Preflight check result (exit 2): no update needed."
+      echo "    Preflight log saved to: $preflight_log"
+      exit 2
+      ;;
+    1)
+      # Fatal preflight error
+      echo "$preflight_output" | tee "$preflight_log" >&2
+      echo ""
+      echo "ERROR: Preflight check failed (exit 1). See: $preflight_log" >&2
+      exit 1
+      ;;
+    *)
+      # Unexpected exit code
+      echo "$preflight_output" | tee "$preflight_log" >&2
+      echo ""
+      echo "ERROR: Preflight check returned unexpected exit code $preflight_rc. See: $preflight_log" >&2
+      exit 1
+      ;;
+  esac
+else
+  echo "==> Preflight check skipped (--skip-preflight)."
+fi
 
 # ----------------------------
 # Auto-generate RUN_ID when requested
@@ -175,11 +226,6 @@ if ! [[ "$RUN_ID" =~ ^[0-9a-fA-F]{64}$ ]]; then
   exit 1
 fi
 
-# ----------------------------
-# Ensure output directories exist (safe even if stages also create them)
-# ----------------------------
-mkdir -p "$OUTPUT_DIR" "$LOG_DIR" "$EXPORT_OUT"
-
 ## ----------------------------
 ## Apply path normalization (relative -> relative to SCRIPT_DIR)
 ## ----------------------------
@@ -188,7 +234,6 @@ mkdir -p "$OUTPUT_DIR" "$LOG_DIR" "$EXPORT_OUT"
 #WORKING_DB="$(make_abs "$WORKING_DB")"
 #OUTPUT_DIR="$(make_abs "$OUTPUT_DIR")"
 #LOG_DIR="$(make_abs "$LOG_DIR")"
-#EXPORT_OUT="$(make_abs "$EXPORT_OUT")"
 
 # ----------------------------
 # Pipeline stages (old IO)
@@ -230,22 +275,4 @@ for rel_script in "${pipeline_scripts[@]}"; do
   python3 "$script_path" "${stage_args[@]}"
 done
 
-# ----------------------------
-# Export stage
-# export_pipeline_data.py expects: --db --out --runs [--skip-traces] [--completed-only] [-v]
-# ----------------------------
-export_script="$SCRIPT_DIR/export_etl_pipeline_data.py"
-export_args=(
-  --db "$WORKING_DB"
-  --out "$EXPORT_OUT"
-  --runs "$EXPORT_RUNS"
-)
-
-$EXPORT_SKIP_TRACES && export_args+=(--skip-traces)
-$EXPORT_COMPLETED_ONLY && export_args+=(--completed-only)
-$EXPORT_VERBOSE && export_args+=(-v)
-
-echo "==> Running: python3 $export_script ${export_args[*]}"
-python3 "$export_script" "${export_args[@]}"
-
-echo "All stages completed successfully."
+echo "All pipeline stages completed successfully."

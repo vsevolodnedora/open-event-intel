@@ -62,7 +62,7 @@ class ConfigDriftError(Exception):
             f"Latest completed: {expected_version}. Rebuild required."
         )
 
-
+default=Path("../../../database/processed_posts.db"),
 class CompletedRunReuseError(Exception):
     """Raised when attempting to reuse a completed run_id."""
 
@@ -307,28 +307,28 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config-dir",
         type=Path,
-        default=Path("../../../config/"),
+        default=Path("../../../../config/etl_config/"),
         help="Directory containing config.yaml",
     )
     parser.add_argument(
         "--source-db",
         type=Path,
-        default=Path("../../../database/preprocessed_posts.db"),
+        default=Path("../../../../database/preprocessed_posts.db"),
         help="Path to source database (read-only)",
     )
     parser.add_argument(
         "--working-db",
         type=Path,
-        default=Path("../../../database/processed_posts.db"),
+        default=Path("../../../../database/processed_posts.db"),
         help="Path to working database (created if missing)",
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+        "--output-dir", type=Path, default=Path("../../../../output/processed/"),
     )
     parser.add_argument(
         "--log-dir",
         type=Path,
-        default=Path("../../../output/processed/logs/"),
+        default=Path("../../../../output/processed/logs/"),
         help="Directory for log files",
     )
     parser.add_argument(

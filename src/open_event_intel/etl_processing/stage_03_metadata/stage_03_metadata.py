@@ -1576,29 +1576,29 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config-dir",
         type=Path,
-        default=Path("../../../config/"),
-        help="Configuration directory (default: ../../../config/)",
+        default=Path("../../../../config/etl_config/"),
+        help="Configuration directory",
     )
     parser.add_argument(
         "--source-db",
         type=Path,
-        default=Path("../../../database/preprocessed_posts.db"),
-        help="Source database path (default: ../../../database/preprocewssed_posts.db)",
+        default=Path("../../../../database/preprocessed_posts.db"),
+        help="Source database path",
     )
     parser.add_argument(
         "--working-db",
         type=Path,
-        default=Path("../../../database/processed_posts.db"),
-        help="Working database path (default: ../../../database/processed_posts.db)",
+        default=Path("../../../../database/processed_posts.db"),
+        help="Working database path",
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+        "--output-dir", type=Path, default=Path("../../../../output/processed/"),
     )
     parser.add_argument(
         "--log-dir",
         type=Path,
-        default=Path("../../../output/processed/logs/"),
-        help="Log directory (default: ../../../output/processed/logs/)",
+        default=Path("../../../../output/processed/logs/"),
+        help="Log directory",
     )
     parser.add_argument("--verbose", action="store_true", help="Enable verbose logging")
     return parser.parse_args()

@@ -1241,11 +1241,11 @@ def parse_args() -> argparse.Namespace:
         default="9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
         help="Pipeline run ID (64-char SHA256 hex)",
     )
-    parser.add_argument("--config-dir", type=Path, default=Path("../../../config/"))
-    parser.add_argument("--source-db", type=Path, default=Path("../../../database/preprocessed_posts.db"))
-    parser.add_argument("--working-db", type=Path, default=Path("../../../database/processed_posts.db"))
-    parser.add_argument("--output-dir", type=Path, default=Path("../../../output/processed/"))
-    parser.add_argument("--log-dir", type=Path, default=Path("../../../output/processed/logs/"))
+    parser.add_argument("--config-dir", type=Path, default=Path("../../../../config/etl_config/"))
+    parser.add_argument("--source-db", type=Path, default=Path("../../../../database/preprocessed_posts.db"))
+    parser.add_argument("--working-db", type=Path, default=Path("../../../../database/processed_posts.db"))
+    parser.add_argument("--output-dir", type=Path, default=Path("../../../../output/processed/"))
+    parser.add_argument("--log-dir", type=Path, default=Path("../../../../output/processed/logs/"))
     parser.add_argument("--verbose", action="store_true")
     return parser.parse_args()
 

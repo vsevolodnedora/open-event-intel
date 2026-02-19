@@ -744,28 +744,28 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config-dir",
         type=Path,
-        default=Path("../../../config/"),
+        default=Path("../../../../config/etl_config/"),
         help="Directory containing config.yaml",
     )
     parser.add_argument(
         "--source-db",
         type=Path,
-        default=Path("../../../database/preprocessed_posts.db"),
+        default=Path("../../../../database/preprocessed_posts.db"),
         help="Path to the source (preprocessed) database",
     )
     parser.add_argument(
         "--working-db",
         type=Path,
-        default=Path("../../../database/processed_posts.db"),
+        default=Path("../../../../database/processed_posts.db"),
         help="Path to the working (processed) database",
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+        "--output-dir", type=Path, default=Path("../../../../output/processed/"),
     )
     parser.add_argument(
         "--log-dir",
         type=Path,
-        default=Path("../../../output/processed/logs/"),
+        default=Path("../../../../output/processed/logs/"),
         help="Directory for stage log files",
     )
     parser.add_argument(

@@ -1,0 +1,376 @@
+# etl_processing.yaml
+# Third (and final) workflow in the chain:
+#   scrape_posts ➜ preprocess_posts ➜ THIS
+#
+# NOTE: GitHub Actions limits workflow_run chaining to 3 levels.
+#       This is the 3rd; do NOT add a 4th workflow_run after this one.
+#
+# What it does:
+#   1. Downloads both DBs from the private repo / release.
+#   2. Downloads the GGUF embedding model from a GitHub Release.
+#   3. Installs llama.cpp and starts the embedding server.
+#   4. Runs the full ETL pipeline (run_etl_processing.sh).
+#   5. On success: uploads updated processed_posts.db to the Release.
+#   6. Always: stops the embedding server, cleans up private data.
+#   7. Force-pushes docs/etl_data/ to main (exact mirror, no conflicts).
+name: etl_processing
+
+on:
+  workflow_run:
+    workflows: ["preprocess_posts"]
+    types: [completed]
+    branches: [main]                # security: only trigger from main
+  workflow_dispatch:
+
+concurrency:
+  group: scrape-preprocess-main
+  cancel-in-progress: false
+
+env:
+  # Pin to a known-good llama.cpp release tag.
+  # Asset naming: llama-<tag>-bin-ubuntu-x64.tar.gz
+  # Check https://github.com/ggml-org/llama.cpp/releases when updating.
+  LLAMA_CPP_VERSION: "b7664"
+  EMBEDDING_PORT: "8081"
+  PRIVATE_REPO: "vsevolodnedora/nlp_news_summary_data"
+  MODEL_TAG: "model-arctic-embed-l-v2-f16"
+  MODEL_ASSET: "snowflake-arctic-embed-l-v2.0.F16.gguf.zst"
+  MODEL_FILE: "snowflake-arctic-embed-l-v2.0.F16.gguf"
+  DB_TAG: "db-latest"
+  DB_ASSET: "dbs.tar.zst"
+
+jobs:
+  # JOB 1 – Run the full ETL pipeline
+  etl:
+    name: Run ETL pipeline
+    runs-on: ubuntu-latest
+    if: >-
+      ${{
+        github.event_name == 'workflow_dispatch' ||
+        (
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.head_branch == 'main' &&
+          github.event.workflow_run.event != 'pull_request'
+        )
+      }}
+
+    permissions:
+      contents: read
+    env:
+      LOG_LEVEL: WARNING
+
+    steps:
+      # Source code
+      - name: Checkout repository (same commit as preprocess)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+
+      # Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.5"
+          cache: "pipenv"
+
+      - name: Install pipenv & project dependencies
+        run: |
+          python -m pip install --upgrade pip pipenv
+          pipenv install --deploy
+
+      - name: Install this package (editable)
+        run: pipenv run pip install -e .
+
+      # Private data (for privacy, compliance databases are held in a private repo)
+      - name: Checkout private data repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.PRIVATE_REPO }}
+          token: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
+          path: data_repo
+          fetch-depth: 0
+
+      - name: Prepare databases & private config
+        run: |
+          mkdir -p database
+          cp data_repo/database/preprocessed_posts.db database/preprocessed_posts.db
+          ls -lh database/preprocessed_posts.db
+
+          mkdir -p config/etl_config
+          cp -r data_repo/config/etl_config config/etl_config
+
+      - name: Verify ETL config exists
+        run: |
+          if [[ ! -f "config/etl_config/config.yaml" ]]; then
+            echo "::error::config.yaml not found in config/etl_config — aborting"
+            exit 1
+          fi
+          echo "Found config/etl_config/config.yaml"
+
+      - name: Download processed_posts.db from release (always exists -- fail if not)
+        env:
+          GH_TOKEN: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
+        run: |
+          if gh release view "$DB_TAG" -R "$PRIVATE_REPO" >/dev/null 2>&1; then
+            echo "Downloading $DB_ASSET from release $DB_TAG ..."
+            gh release download "$DB_TAG" \
+              -R "$PRIVATE_REPO" \
+              -p "$DB_ASSET" \
+              -D /tmp || echo "::warning::Asset $DB_ASSET not found; pipeline will create a fresh DB"
+
+            if [[ -f "/tmp/$DB_ASSET" ]]; then
+              tar --use-compress-program=unzstd -xf "/tmp/$DB_ASSET" -C database
+              echo "Restored processed_posts.db from release"
+              ls -lh database/processed_posts.db
+            fi
+          else
+            echo "::notice::Release $DB_TAG does not exist yet — Create first!"
+            exit 1
+          fi
+
+      # Embedding model & server
+      - name: Download embedding model from release (always exists)
+        env:
+          GH_TOKEN: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
+        run: |
+          mkdir -p models
+          echo "Downloading $MODEL_ASSET from release $MODEL_TAG ..."
+          gh release download "$MODEL_TAG" \
+            -R "$PRIVATE_REPO" \
+            -p "$MODEL_ASSET" \
+            -D /tmp
+
+          echo "Decompressing model ..."
+          zstd -d -f "/tmp/$MODEL_ASSET" -o "models/$MODEL_FILE"
+          ls -lh "models/$MODEL_FILE"
+
+      - name: Install llama.cpp server
+        run: |
+          ASSET_NAME="llama-${LLAMA_CPP_VERSION}-bin-ubuntu-x64.tar.gz"
+          ASSET_URL="https://github.com/ggml-org/llama.cpp/releases/download/${LLAMA_CPP_VERSION}/${ASSET_NAME}"
+
+          echo "Downloading ${ASSET_NAME} ..."
+          curl -L --fail --retry 3 -o /tmp/llama.tar.gz "${ASSET_URL}"
+
+          echo "Extracting ..."
+          mkdir -p /tmp/llama
+          tar -xzf /tmp/llama.tar.gz -C /tmp/llama
+
+          # Release tarballs contain a versioned directory (e.g. llama-b7664/)
+          # with bin/ inside it. Find llama-server reliably.
+          LLAMA_BIN="$(find /tmp/llama -name 'llama-server' -type f | head -1)"
+          if [[ -z "$LLAMA_BIN" ]]; then
+            echo "::error::llama-server binary not found in release archive"
+            echo "Archive contents:"
+            find /tmp/llama -type f | head -40
+            exit 1
+          fi
+
+          # The binary needs shared libs (libllama.so, libggml*.so) that
+          # live alongside it. Keep the whole bin/ directory intact.
+          LLAMA_BIN_DIR="$(dirname "$LLAMA_BIN")"
+          echo "LLAMA_BIN_DIR=${LLAMA_BIN_DIR}" >> "$GITHUB_ENV"
+
+          echo "Found llama-server at: $LLAMA_BIN"
+          echo "Shared libraries in bin dir:"
+          ls -lh "${LLAMA_BIN_DIR}"/*.so* 2>/dev/null || echo "(none)"
+
+          chmod +x "$LLAMA_BIN"
+
+      - name: Start embedding server
+        run: |
+          echo "Starting llama-server on port ${EMBEDDING_PORT} ..."
+
+          # Set LD_LIBRARY_PATH so llama-server finds its bundled .so files
+          export LD_LIBRARY_PATH="${LLAMA_BIN_DIR}:${LD_LIBRARY_PATH:-}"
+
+          "${LLAMA_BIN_DIR}/llama-server" \
+            -m "models/$MODEL_FILE" \
+            --port "$EMBEDDING_PORT" \
+            --embeddings \
+            --ctx-size 8192 \
+            --batch-size 2048 \
+            --ubatch-size 1024 \
+            > embeddings.log 2>&1 &
+
+          LLAMA_PID=$!
+          echo "LLAMA_PID=$LLAMA_PID" >> "$GITHUB_ENV"
+
+          # /health returns 503 while loading, 200 when ready.
+          # 250 s timeout: F16 1.6 GB model on 2-vCPU runner can take ~60 s.
+          echo "Waiting for server readiness ..."
+          for i in $(seq 1 250); do
+            if curl -sf "http://localhost:${EMBEDDING_PORT}/health" >/dev/null 2>&1; then
+              echo "Embedding server ready after ${i}s  (PID ${LLAMA_PID})"
+              exit 0
+            fi
+            if ! kill -0 "$LLAMA_PID" 2>/dev/null; then
+              echo "::error::llama-server exited unexpectedly"
+              cat embeddings.log
+              exit 1
+            fi
+            sleep 1
+          done
+
+          echo "::error::Embedding server did not become healthy within 250 s"
+          cat embeddings.log
+          exit 1
+
+      # Prunes "working-db" leaving only last 5 last runs (avoiding size overflow)
+      - name: Prune Large Database
+        run: |
+          pipenv run python -m open_event_intel.etl_processing.prune_database \
+            --working-db database/processed_posts.db \
+            --max-runs 5 \
+            --backup-suffix .pre_prune_backup
+
+      # Main ETL pipeline (writes new data into "working-db" and "output-dir"
+      - name: Run ETL processing pipeline
+        run: |
+          # LD_LIBRARY_PATH must persist for the background llama-server
+          export LD_LIBRARY_PATH="${LLAMA_BIN_DIR}:${LD_LIBRARY_PATH:-}"
+
+          chmod +x src/open_event_intel/etl_processing/run_etl_processing.sh
+
+          # pipenv run ensures python3 inside the script resolves to
+          # the virtualenv Python with all project dependencies.
+          pipenv run bash \
+            src/open_event_intel/etl_processing/run_etl_processing.sh \
+              --run-id NONE \
+              --config-dir config/etl_config/ \
+              --source-db database/preprocessed_posts.db \
+              --working-db database/processed_posts.db \
+              --output-dir output/processed/ \
+              --log-dir output/processed/logs/ \
+              --embedding-model arctic-embed \
+              --embedding-model-base-url "http://localhost:${EMBEDDING_PORT}/v1"
+
+      # Publish the latest status as small databases for the webpage
+      - name: Publish Latest Status
+        run: |
+          pipenv run python -m open_event_intel.etl_processing.export_etl_pipeline_data \
+            --db database/processed_posts.db \
+            --out docs/etl_data/ \
+            --runs 5
+
+      # Cleanup (always)
+      - name: Stop embedding server
+        if: always()
+        run: |
+          if [[ -n "${LLAMA_PID:-}" ]] && kill -0 "$LLAMA_PID" 2>/dev/null; then
+            kill "$LLAMA_PID" || true
+            wait "$LLAMA_PID" 2>/dev/null || true
+            echo "Embedding server stopped (PID ${LLAMA_PID})"
+          else
+            pkill -f "llama-server" || true
+            echo "Embedding server stopped (pkill fallback)"
+          fi
+
+      - name: Remove private config
+        if: always()
+        run: rm -rf config/etl_config
+
+      - name: Upload embedding server log (for debugging)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: embeddings-log
+          path: embeddings.log
+          if-no-files-found: ignore
+
+      # Push updated database into the private repo
+      - name: Upload processed_posts.db to GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
+        run: |
+          tmpdir="$(mktemp -d)"
+          cp database/processed_posts.db "${tmpdir}/processed_posts.db"
+
+          tar --use-compress-program="zstd -19 -T0" \
+            -cf "${tmpdir}/$DB_ASSET" -C "$tmpdir" processed_posts.db
+
+          sha256sum "${tmpdir}/$DB_ASSET" > "${tmpdir}/${DB_ASSET}.sha256"
+
+          UTC_NOW="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+
+          if ! gh release view "$DB_TAG" -R "$PRIVATE_REPO" >/dev/null 2>&1; then
+            gh release create "$DB_TAG" -R "$PRIVATE_REPO" \
+              -t "DB snapshot (latest)" \
+              -n "processed_posts.db uploaded from CI at ${UTC_NOW}"
+          fi
+
+          gh release upload "$DB_TAG" \
+            "${tmpdir}/$DB_ASSET" "${tmpdir}/${DB_ASSET}.sha256" \
+            -R "$PRIVATE_REPO" --clobber
+
+          echo "Uploaded processed_posts.db to release $DB_TAG"
+          rm -rf "$tmpdir"
+
+      - name: Upload docs/etl_data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-etl-data
+          path: docs/etl_data
+
+
+  # JOB 2 – Force-push docs/etl_data/ to main (exact mirror)
+  publish_docs:
+    name: Commit docs/etl_data to main
+    runs-on: ubuntu-latest
+    needs: etl
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository (latest main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download docs artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: docs-etl-data
+          path: docs/etl_data_new
+
+      - name: Force-replace docs/etl_data and push
+        run: |
+          git config user.name  'Collector'
+          git config user.email 'noreply@nedora.digital'
+
+          # ── Sync to the very latest remote main ──
+          git pull --rebase --autostash origin main || true
+
+          # ── Exact mirror: wipe old dir, replace with artifact ──
+          # This ensures stale files no longer in the pipeline output
+          # are deleted from the repo too.
+          rm -rf docs/etl_data
+          mv docs/etl_data_new docs/etl_data
+
+          # Stage additions, modifications, AND deletions
+          git add -f docs/etl_data/
+
+          if git diff --cached --quiet; then
+            echo "No changes in docs/etl_data to commit"
+            exit 0
+          fi
+
+          # [skip ci] prevents this commit from re-triggering
+          # upstream workflows that listen on push to main.
+          git commit -m "Update docs/etl_data from ETL run at $(date -u) [skip ci]"
+
+          # Retry push with rebase in case main moved during the job.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}), rebasing and retrying ..."
+            git pull --rebase origin main || true
+            sleep 2
+          done
+
+          echo "::error::Failed to push docs/etl_data after 3 attempts"
+          exit 1

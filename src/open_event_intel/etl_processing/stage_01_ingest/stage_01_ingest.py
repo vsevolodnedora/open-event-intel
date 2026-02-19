@@ -23,6 +23,7 @@ import hashlib
 import html
 import re
 import sys
+import time
 import unicodedata
 from pathlib import Path
 from urllib.parse import parse_qs, quote, unquote, urlparse, urlunparse
@@ -63,6 +64,9 @@ from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)
 
+# ---------------------------------------------------------------------------
+# Module-level constants (not config-driven; change requires code update)
+# ---------------------------------------------------------------------------
 CLEANING_SPEC_VERSION = "clean_v1"
 
 # Mapping from publisher config key to source DB table name.
@@ -92,21 +96,30 @@ if _map_keys != _valid_keys:
         f"Extra in map: {_map_keys - _valid_keys}"
     )
 
-# Quality score component weights
-QUALITY_WEIGHT_LENGTH = 0.3
-QUALITY_WEIGHT_CONTENT = 0.4
-QUALITY_WEIGHT_BOILERPLATE = 0.3
-# Word count at which length component saturates to 1.0
-QUALITY_LENGTH_REFERENCE_WORDS = 100
+# Quality score component weights (not config-driven; change requires code update).
+QUALITY_WEIGHT_LENGTH: float = 0.3
+QUALITY_WEIGHT_CONTENT: float = 0.4
+QUALITY_WEIGHT_BOILERPLATE: float = 0.3
+# Word count at which length component saturates to 1.0.
+QUALITY_LENGTH_REFERENCE_WORDS: int = 100
+# Fallback min_content_ratio when config is unavailable (should not occur
+# in normal operation; logged as WARNING when used).
+QUALITY_FALLBACK_MIN_CONTENT_RATIO: float = 0.15
+
+# Language detection fallback values when config is unavailable.
+LANGUAGE_FALLBACK_CONFIDENCE_THRESHOLD: float = 0.80
+LANGUAGE_FALLBACK_TO_PUBLISHER: bool = True
 
 # RFC 3986 §2.3 unreserved characters
 _UNRESERVED = frozenset(
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~"
 )
 
-# Default fallback confidence when language detection config is unavailable.
-# Matches the typical config value but only used as a last-resort fallback.
-_FALLBACK_LANGUAGE_CONFIDENCE = 0.80
+# How often to emit progress logs during per-publisher processing.
+PROGRESS_LOG_INTERVAL: int = 50
+
+# Max characters of raw content to show in input-sample logs.
+CONTENT_PREVIEW_CHARS: int = 200
 
 
 class CleaningResult(BaseModel):
@@ -127,6 +140,7 @@ class CleaningResult(BaseModel):
     primary_language: str | None
     secondary_languages: list[str] | None
     language_detection_confidence: float | None
+    raw_encoding_detected: str
 
 
 class IngestStats(BaseModel):
@@ -177,11 +191,21 @@ def normalize_url(url_raw: str, publisher: Publisher | None) -> str:  # noqa: C9
     if publisher and publisher.url_normalization:
         norm = publisher.url_normalization
         if norm.canonical_host:
+            logger.debug(
+                f"URL norm: applying canonical_host={norm.canonical_host!r} "
+                f"(was {netloc!r})"
+            )
             netloc = norm.canonical_host.lower()
         if norm.strip_params:
+            stripped = [p for p in norm.strip_params if p in query_params]
+            if stripped:
+                logger.debug(f"URL norm: stripping params {stripped}")
             for param in norm.strip_params:
                 query_params.pop(param, None)
         if norm.preserve_params:
+            removed = [k for k in query_params if k not in norm.preserve_params]
+            if removed:
+                logger.debug(f"URL norm: removing non-preserved params {removed}")
             query_params = {
                 k: v for k, v in query_params.items() if k in norm.preserve_params
             }
@@ -285,8 +309,9 @@ def _strip_boilerplate(
 
     if removed_count:
         logger.debug(
-            f"Boilerplate: removed {removed_count} lines "
-            f"(mode={publisher.boilerplate_mode})"
+            f"Boilerplate: removed {removed_count}/{len(lines)} lines "
+            f"(mode={publisher.boilerplate_mode}, "
+            f"patterns={len(all_patterns)})"
         )
 
     return "\n".join(cleaned_lines)
@@ -327,6 +352,7 @@ def clean_content(  # noqa: C901
     """
     content_length_raw = len(raw_text)
     encoding_repairs: list[str] = []
+    raw_encoding_detected = "utf-8"
 
     # Step 1: encoding
     text = raw_text
@@ -334,13 +360,22 @@ def clean_content(  # noqa: C901
         if isinstance(raw_text, bytes):
             text = raw_text.decode("utf-8")
             encoding_repairs.append("decoded_utf8")
+            raw_encoding_detected = "utf-8"
     except UnicodeDecodeError:
         try:
             text = raw_text.decode("latin-1")  # type: ignore[union-attr]
             encoding_repairs.append("fallback_latin1")
+            raw_encoding_detected = "latin-1"
+            logger.info(
+                f"Encoding fallback to latin-1 (raw_length={content_length_raw})"
+            )
         except Exception:
             text = str(raw_text)
             encoding_repairs.append("forced_str")
+            raw_encoding_detected = "unknown"
+            logger.warning(
+                f"Forced str() conversion for content (raw_length={content_length_raw})"
+            )
 
     # Step 2: NFC
     text = unicodedata.normalize("NFC", text)
@@ -390,6 +425,7 @@ def clean_content(  # noqa: C901
         primary_language=primary_language,
         secondary_languages=None,
         language_detection_confidence=lang_confidence,
+        raw_encoding_detected=raw_encoding_detected,
     )
 
 
@@ -407,19 +443,17 @@ def _detect_language(
 
     :return: ``(language_code, confidence)``
     """
-    confidence_threshold = _FALLBACK_LANGUAGE_CONFIDENCE
-    indicators: dict[str, list[str]] = {}
-    fallback_to_publisher = True
-
-    if lang_config is not None:
-        confidence_threshold = lang_config.confidence_threshold
-        indicators = lang_config.indicators
-        fallback_to_publisher = lang_config.fallback_to_publisher_default
-    else:
+    if lang_config is None:
         logger.warning(
-            "Language detection config unavailable; using fallback "
-            f"confidence_threshold={_FALLBACK_LANGUAGE_CONFIDENCE}"
+            "Language detection config unavailable; "
+            "falling back to source metadata / publisher default only "
+            "(using LANGUAGE_FALLBACK_CONFIDENCE_THRESHOLD=%s)",
+            LANGUAGE_FALLBACK_CONFIDENCE_THRESHOLD,
         )
+
+    confidence_threshold = lang_config.confidence_threshold if lang_config else LANGUAGE_FALLBACK_CONFIDENCE_THRESHOLD
+    indicators: dict[str, list[str]] = lang_config.indicators if lang_config else {}
+    fallback_to_publisher = lang_config.fallback_to_publisher_default if lang_config else LANGUAGE_FALLBACK_TO_PUBLISHER
 
     # Attempt indicator-based detection
     if indicators and text:
@@ -633,11 +667,17 @@ def _compute_quality_score(
     alpha_count = sum(1 for c in text if c.isalpha())
     content_ratio = alpha_count / max(len(text), 1)
 
-    min_content_ratio = (
-        quality_thresholds.min_content_ratio
-        if quality_thresholds is not None
-        else 0.15
-    )
+    if quality_thresholds is not None:
+        min_content_ratio = quality_thresholds.min_content_ratio
+    else:
+        min_content_ratio = QUALITY_FALLBACK_MIN_CONTENT_RATIO
+        logger.warning(
+            "Quality thresholds config unavailable; "
+            "using module-level fallback min_content_ratio=%s "
+            "(QUALITY_FALLBACK_MIN_CONTENT_RATIO)",
+            min_content_ratio,
+        )
+
     if content_ratio < min_content_ratio:
         content_ratio *= 0.5  # halve contribution when below floor
 
@@ -716,6 +756,11 @@ def seed_tables(db: Stage01DatabaseInterface, config: Config) -> None:
     transaction provided by the caller.
     """
     logger.info("Seeding entity_registry, alert_rule, and watchlist from config")
+    logger.info(
+        f"  Config provides: {len(config.entities)} entities, "
+        f"{len(config.alerts.rules)} alert rules, "
+        f"{len(config.alerts.watchlists)} watchlists"
+    )
 
     entity_count = 0
     for entity in config.entities:
@@ -765,6 +810,66 @@ def seed_tables(db: Stage01DatabaseInterface, config: Config) -> None:
     logger.info(f"Seeded {watchlist_count} watchlists")
 
 
+def _record_quality_skip(
+    db: Stage01DatabaseInterface,
+    scrape_id: str,
+    publisher_id: str,
+    pub: SourcePublicationRow,
+    url_normalized: str,
+    run_id: str,
+    raw_encoding_detected: str,
+) -> None:
+    """Insert a ``scrape_record`` for a quality-skipped publication.
+
+    Records the publication with ``processing_status='quality_skip'`` so that:
+    - Future ingest runs detect it via ``scrape_record_exists`` and skip it
+      as ``already_ingested`` (idempotent).
+    - The preflight check sees it as ingested rather than perpetually "new".
+
+    No ``document``, ``document_version``, or ``doc_stage_status`` rows are
+    created — only the audit-level ``scrape_record``.
+
+    Silently skips the insert if a natural-key duplicate already exists
+    (another source row mapped to the same normalised key).
+    """
+    # Guard: natural key may already be occupied by a different source row
+    if db.scrape_record_exists_by_natural_key(
+        publisher_id=publisher_id,
+        url_normalized=url_normalized,
+        source_published_at=pub.published_on.isoformat(),
+        scrape_kind="page",
+    ):
+        logger.debug(
+            "quality_skip insert skipped for %s: natural-key duplicate "
+            "(publisher=%s, url_normalized=%s, published_at=%s)",
+            pub.id,
+            publisher_id,
+            url_normalized[:120],
+            pub.published_on.isoformat(),
+        )
+        return
+
+    raw_content = pub.content.encode("utf-8")
+    scrape_row = ScrapeRecordRow(
+        scrape_id=scrape_id,
+        publisher_id=publisher_id,
+        source_id=pub.id,
+        url_raw=pub.url,
+        url_normalized=url_normalized,
+        scraped_at=pub.added_on,
+        source_published_at=pub.published_on,
+        source_title=pub.title,
+        source_language=pub.language,
+        raw_content=raw_content,
+        raw_encoding_detected=raw_encoding_detected,
+        scrape_kind="page",
+        ingest_run_id=run_id,
+        processing_status="quality_skip",
+    )
+    with db.transaction():
+        db.insert_scrape_record(scrape_row)
+
+
 def ingest_publication(  # noqa: C901
     db: Stage01DatabaseInterface,
     pub: SourcePublicationRow,
@@ -787,12 +892,45 @@ def ingest_publication(  # noqa: C901
     scrape_id = compute_sha256_id(publisher_id, pub.id, "page")
 
     if db.scrape_record_exists(scrape_id):
-        logger.debug(f"Scrape record {scrape_id[:12]}... already exists, skipping")
         return ("skipped", "already_ingested")
 
     url_normalized = normalize_url(pub.url, publisher)
     logger.debug(
         f"URL normalisation: {pub.url!r} -> {url_normalized!r}"
+    )
+
+    # Check natural-key uniqueness *before* cleaning to avoid wasted work.
+    # The scrape_record table has UNIQUE(publisher_id, url_normalized,
+    # source_published_at, scrape_kind).  Two different source rows can
+    # collide on this natural key after URL normalisation.
+    if db.scrape_record_exists_by_natural_key(
+        publisher_id=publisher_id,
+        url_normalized=url_normalized,
+        source_published_at=pub.published_on.isoformat(),
+        scrape_kind="page",
+    ):
+        logger.info(
+            "Skipped %s (source_id=%s): natural-key duplicate "
+            "(publisher=%s, url_normalized=%s, published_at=%s). "
+            "A different source row already maps to this normalised key.",
+            pub.id[:16] if len(pub.id) > 16 else pub.id,
+            pub.id,
+            publisher_id,
+            url_normalized[:120],
+            pub.published_on.isoformat(),
+        )
+        return ("skipped", "natural_key_duplicate")
+
+    # Log input summary at DEBUG for every publication so issues can be traced
+    logger.debug(
+        "Processing pub source_id=%s: title=%r, url=%r, "
+        "published_on=%s, language=%s, content_len=%d",
+        pub.id,
+        pub.title[:80] if pub.title else None,
+        pub.url[:120] if pub.url else None,
+        pub.published_on.isoformat(),
+        pub.language,
+        len(pub.content),
     )
 
     cleaning_result = clean_content(
@@ -811,6 +949,10 @@ def ingest_publication(  # noqa: C901
             f"Skipped {pub.id}: content_length_clean={cleaning_result.content_length_clean} "
             f"< min_meaningful_text_length={min_meaningful_text_length}"
         )
+        _record_quality_skip(
+            db, scrape_id, publisher_id, pub, url_normalized, run_id,
+            raw_encoding_detected=cleaning_result.raw_encoding_detected,
+        )
         return (
             "skipped",
             f"below_min_text_length:{cleaning_result.content_length_clean}",
@@ -822,13 +964,17 @@ def ingest_publication(  # noqa: C901
             f"Skipped {pub.id}: quality_score={cleaning_result.content_quality_score} "
             f"< threshold={quality_threshold}"
         )
+        _record_quality_skip(
+            db, scrape_id, publisher_id, pub, url_normalized, run_id,
+            raw_encoding_detected=cleaning_result.raw_encoding_detected,
+        )
         return (
             "skipped",
             f"quality_below_threshold:{cleaning_result.content_quality_score}",
         )
 
-    # Log cleaning summary
-    logger.debug(
+    # Log cleaning summary at INFO for visual inspection
+    logger.info(
         f"Cleaned {pub.id}: "
         f"raw={cleaning_result.content_length_raw} -> "
         f"clean={cleaning_result.content_length_clean}, "
@@ -836,9 +982,12 @@ def ingest_publication(  # noqa: C901
         f"quality={cleaning_result.content_quality_score:.3f}, "
         f"lang={cleaning_result.primary_language} "
         f"(conf={cleaning_result.language_detection_confidence}), "
-        f"encoding_repairs={cleaning_result.encoding_repairs}, "
-        f"pii={cleaning_result.pii_mask_log}"
+        f"encoding={cleaning_result.raw_encoding_detected}"
     )
+    if cleaning_result.encoding_repairs:
+        logger.debug(f"  encoding_repairs={cleaning_result.encoding_repairs}")
+    if cleaning_result.pii_mask_log:
+        logger.debug(f"  pii={cleaning_result.pii_mask_log}")
 
     content_hash_raw = hashlib.sha256(pub.content.encode("utf-8")).hexdigest().lower()
     raw_content = pub.content.encode("utf-8")
@@ -870,7 +1019,7 @@ def ingest_publication(  # noqa: C901
             source_title=pub.title,
             source_language=pub.language,
             raw_content=raw_content,
-            raw_encoding_detected="utf-8",
+            raw_encoding_detected=cleaning_result.raw_encoding_detected,
             scrape_kind="page",
             ingest_run_id=run_id,
             processing_status="pending",
@@ -939,7 +1088,14 @@ def run_ingest(
 
     # Resolve config-driven parameters up-front (typed, not dict)
     pii_settings = config.pii_masking.settings
-    pii_masking_enabled = pii_settings.enabled if pii_settings else False
+    if pii_settings is None:
+        logger.warning(
+            "PII masking settings section missing from config; "
+            "PII masking will be disabled"
+        )
+        pii_masking_enabled = False
+    else:
+        pii_masking_enabled = pii_settings.enabled
     pii_config = config.pii_masking if pii_masking_enabled else None
 
     quality_thresholds = config.global_settings.quality_thresholds
@@ -949,12 +1105,23 @@ def run_ingest(
     language_detection_config = config.global_settings.language_detection
 
     logger.info(
-        f"Ingest config: pii_masking={pii_masking_enabled}, "
+        f"Ingest config (from config.yaml): "
+        f"pii_masking={pii_masking_enabled}, "
         f"quality_threshold={quality_threshold}, "
         f"min_meaningful_text_length={min_meaningful_text_length}, "
         f"language_confidence_threshold={language_detection_config.confidence_threshold}, "
         f"min_content_ratio={quality_thresholds.min_content_ratio}, "
-        f"cleaning_spec={CLEANING_SPEC_VERSION}"
+        f"max_link_density={quality_thresholds.max_link_density}, "
+        f"max_navigation_ratio={quality_thresholds.max_navigation_ratio}"
+    )
+    logger.info(
+        f"Ingest constants (module-level): "
+        f"cleaning_spec={CLEANING_SPEC_VERSION}, "
+        f"quality_weights=(length={QUALITY_WEIGHT_LENGTH}, "
+        f"content={QUALITY_WEIGHT_CONTENT}, "
+        f"boilerplate={QUALITY_WEIGHT_BOILERPLATE}), "
+        f"length_reference_words={QUALITY_LENGTH_REFERENCE_WORDS}, "
+        f"progress_interval={PROGRESS_LOG_INTERVAL}"
     )
 
     available_tables = set(db.get_source_table_names())
@@ -965,10 +1132,18 @@ def run_ingest(
         pid for pid in VALID_PUBLISHER_NAMES
         if PUBLISHER_TABLE_MAP.get(pid) in available_tables
     ]
+    skipped_publishers = [
+        pid for pid in VALID_PUBLISHER_NAMES
+        if PUBLISHER_TABLE_MAP.get(pid) not in available_tables
+    ]
     logger.info(
         f"Publishers to process: {len(active_publishers)}/{len(VALID_PUBLISHER_NAMES)} "
         f"({', '.join(active_publishers)})"
     )
+    if skipped_publishers:
+        logger.info(
+            f"Publishers skipped (no source table): {', '.join(skipped_publishers)}"
+        )
 
     for publisher_id in VALID_PUBLISHER_NAMES:
         table_name = PUBLISHER_TABLE_MAP[publisher_id]
@@ -1000,11 +1175,27 @@ def run_ingest(
 
         logger.info(f"Found {len(publications)} publications in '{table_name}'")
 
+        if publications:
+            first_pub = publications[0]
+            last_pub = publications[-1]
+            logger.info(
+                f"  Date range: {first_pub.published_on.isoformat()} .. "
+                f"{last_pub.published_on.isoformat()}"
+            )
+            logger.debug(
+                f"  First publication sample: id={first_pub.id}, "
+                f"title={first_pub.title!r}, "
+                f"url={first_pub.url!r}, "
+                f"content_preview={first_pub.content[:CONTENT_PREVIEW_CHARS]!r}..."
+            )
+
         pub_processed = 0
         pub_skipped = 0
         pub_failed = 0
+        pub_skip_reasons: dict[str, int] = {}
+        pub_start_time = time.monotonic()
 
-        for pub in publications:
+        for idx, pub in enumerate(publications, start=1):
             try:
                 status, error_msg = ingest_publication(
                     db=db,
@@ -1031,6 +1222,9 @@ def run_ingest(
                     stats.skipped_reasons[reason_key] = (
                         stats.skipped_reasons.get(reason_key, 0) + 1
                     )
+                    pub_skip_reasons[reason_key] = (
+                        pub_skip_reasons.get(reason_key, 0) + 1
+                    )
                     if error_msg != "already_ingested":
                         logger.debug(f"Skipped {pub.id}: {error_msg}")
                 else:
@@ -1039,22 +1233,74 @@ def run_ingest(
                     logger.warning(f"Failed {pub.id}: {error_msg}")
 
             except DBConstraintError as e:
-                logger.warning(f"Constraint error for {pub.id}: {e}")
+                logger.warning(
+                    "Constraint error for source_id=%s (publisher=%s, "
+                    "url=%s, published_at=%s): %s",
+                    pub.id,
+                    publisher_id,
+                    pub.url[:120] if pub.url else "N/A",
+                    pub.published_on.isoformat(),
+                    e,
+                )
                 stats.skipped += 1
                 pub_skipped += 1
+                reason_key = "constraint_error"
+                stats.skipped_reasons[reason_key] = (
+                    stats.skipped_reasons.get(reason_key, 0) + 1
+                )
+                pub_skip_reasons[reason_key] = (
+                    pub_skip_reasons.get(reason_key, 0) + 1
+                )
             except ValidationError as e:
-                logger.error(f"Validation error for {pub.id}: {e}")
+                logger.error(
+                    "Validation error for source_id=%s (publisher=%s, "
+                    "url=%s): %s",
+                    pub.id,
+                    publisher_id,
+                    pub.url[:120] if pub.url else "N/A",
+                    e,
+                )
                 stats.failed += 1
                 pub_failed += 1
             except Exception as e:
-                logger.error(f"Unexpected error for {pub.id}: {e}")
+                logger.error(
+                    "Unexpected error for source_id=%s (publisher=%s, "
+                    "url=%s): %s",
+                    pub.id,
+                    publisher_id,
+                    pub.url[:120] if pub.url else "N/A",
+                    e,
+                    exc_info=True,
+                )
                 stats.failed += 1
                 pub_failed += 1
 
+            # Periodic progress log (first at idx=1, then every PROGRESS_LOG_INTERVAL)
+            if idx == 1 or idx % PROGRESS_LOG_INTERVAL == 0:
+                elapsed = time.monotonic() - pub_start_time
+                rate = idx / max(elapsed, 0.001)
+                logger.info(
+                    f"  [{publisher_id}] Progress: {idx}/{len(publications)} "
+                    f"(processed={pub_processed}, skipped={pub_skipped}, "
+                    f"failed={pub_failed}, "
+                    f"rate={rate:.1f} pub/s)"
+                )
+
+        elapsed = time.monotonic() - pub_start_time
         logger.info(
-            f"Publisher {publisher_id} complete: "
+            f"Publisher {publisher_id} complete in {elapsed:.1f}s: "
             f"processed={pub_processed}, skipped={pub_skipped}, failed={pub_failed}"
         )
+        if pub_skip_reasons:
+            logger.info(
+                f"  [{publisher_id}] Skip reasons: {dict(pub_skip_reasons)}"
+            )
+        # Flag suspicious patterns
+        if pub_skipped == len(publications) and len(publications) > 0 and pub_processed == 0:
+            logger.info(
+                f"  [{publisher_id}] All {len(publications)} publications were skipped "
+                f"(no new content to ingest)"
+            )
 
     return stats
 
@@ -1065,34 +1311,34 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--run-id",
         type=str,
-        default="9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+        required=True,
         help="Pipeline run ID (required; created by Stage 00)",
     )
     parser.add_argument(
         "--config-dir",
         type=Path,
-        default=Path("../../../config/"),
-        help="Directory containing config.yaml (default: ../../../config/)",
+        default=Path("../../../../config/etl_config/"),
+        help="Directory containing config.yaml (default: %(default)s)",
     )
     parser.add_argument(
         "--source-db",
         type=Path,
-        default=Path("../../../database/preprocessed_posts.db"),
-        help="Path to the source (preprocessed) database",
+        default=Path("../../../../database/preprocessed_posts.db"),
+        help="Path to the source (preprocessed) database (default: %(default)s)",
     )
     parser.add_argument(
         "--working-db",
         type=Path,
-        default=Path("../../../database/processed_posts.db"),
+        default=Path("../../../../database/processed_posts.db"),
         help="Path to the working (processed) database",
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+        "--output-dir", type=Path, default=Path("../../../../output/processed/"),
     )
     parser.add_argument(
         "--log-dir",
         type=Path,
-        default=Path("../../../output/processed/logs/"),
+        default=Path("../../../../output/processed/logs/"),
         help="Directory for log output",
     )
     parser.add_argument("--verbose", action="store_true", help="Enable debug logging")
@@ -1101,7 +1347,19 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:  # noqa: C901
     """Run main entry point for Stage 01 Ingest."""
+    wall_start = time.monotonic()
     args = parse_args()
+
+    logger.info(
+        f"=== {STAGE_NAME} starting ==="
+    )
+    logger.info(
+        f"Args: run_id={args.run_id[:16]}..., "
+        f"config_dir={args.config_dir}, "
+        f"source_db={args.source_db}, "
+        f"working_db={args.working_db}, "
+        f"verbose={args.verbose}"
+    )
 
     config_path = args.config_dir / "config.yaml"
     if not config_path.exists():
@@ -1116,6 +1374,13 @@ def main() -> int:  # noqa: C901
 
     config_hash = get_config_version(config)
     logger.info(f"Config loaded successfully, version hash: {config_hash}")
+    logger.info(
+        f"Config summary: "
+        f"{len(config.publishers)} publishers, "
+        f"{len(config.entities)} entities, "
+        f"{len(config.alerts.rules)} alert rules, "
+        f"{len(config.alerts.watchlists)} watchlists"
+    )
 
     if not args.source_db.exists():
         logger.error(f"Source database not found: {args.source_db}")
@@ -1146,13 +1411,14 @@ def main() -> int:  # noqa: C901
                 f"config_version={pipeline_run.config_version}"
             )
 
-            # Record run stage start
+            # Record run stage start (pending -> ok/failed at completion)
             db.upsert_run_stage_status(
                 run_id=run_id,
                 stage=STAGE_NAME,
                 config_hash=config_hash,
                 status="pending",
             )
+            logger.info(f"Run stage status set to 'pending' for {STAGE_NAME}")
 
             # Seed tables if fresh DB
             is_fresh = not db.has_completed_runs()
@@ -1166,7 +1432,7 @@ def main() -> int:  # noqa: C901
                 watchlist_count = db.count_watchlists()
                 logger.info(
                     f"Existing DB: {entity_count} entities, {rule_count} alert rules, "
-                    f"{watchlist_count} watchlists"
+                    f"{watchlist_count} watchlists (seed tables not modified)"
                 )
 
             # Run ingest
@@ -1195,14 +1461,17 @@ def main() -> int:  # noqa: C901
             )
 
             # Final summary
+            wall_elapsed = time.monotonic() - wall_start
             logger.info(
-                f"{STAGE_NAME} complete: "
-                f"processed={stats.processed}, "
+                f"=== {STAGE_NAME} complete in {wall_elapsed:.1f}s ==="
+            )
+            logger.info(
+                f"  processed={stats.processed}, "
                 f"skipped={stats.skipped}, "
                 f"failed={stats.failed}"
             )
             if stats.skipped_reasons:
-                logger.info(f"Skip reasons: {dict(stats.skipped_reasons)}")
+                logger.info(f"  Skip reasons: {dict(stats.skipped_reasons)}")
 
             if stats.processed == 0 and stats.failed > 0:
                 logger.error("All attempted documents failed - systemic error")

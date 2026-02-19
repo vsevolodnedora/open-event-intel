@@ -1086,17 +1086,17 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Stage 07: Novelty Detection")
     parser.add_argument("--run-id", type=str, default="9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
                         help="Pipeline run ID (SHA256 hex)")
-    parser.add_argument("--config-dir", type=Path, default=Path("../../../config/"),
-                        help="Directory containing config.yaml (default: ../../../config/)")
+    parser.add_argument("--config-dir", type=Path, default=Path("../../../../config/etl_config/"),
+                        help="Directory containing config.yaml")
     parser.add_argument(
-        "--source-db", type=Path, default=Path("../../../database/preprocessed_posts.db")
+        "--source-db", type=Path, default=Path("../../../../database/preprocessed_posts.db")
     )
-    parser.add_argument("--working-db", type=Path, default=Path("../../../database/processed_posts.db"),
-                        help="Path to working database (default: ../../../database/processed_posts.db)")
-    parser.add_argument("--output-dir", type=Path, default=Path("../../../output/processed/"),
-                        help="Output directory (default: ../../../output/processed/)")
-    parser.add_argument("--log-dir", type=Path, default=Path("../../../output/processed/logs/"),
-                        help="Log directory (default: ../../../output/processed/logs/)")
+    parser.add_argument("--working-db", type=Path, default=Path("../../../../database/processed_posts.db"),
+                        help="Path to working database")
+    parser.add_argument("--output-dir", type=Path, default=Path("../../../../output/processed/"),
+                        help="Output directory")
+    parser.add_argument("--log-dir", type=Path, default=Path("../../../../output/processed/logs/"),
+                        help="Log directory")
     parser.add_argument("--verbose", action="store_true", default=False,
                         help="Enable DEBUG-level logging")
 

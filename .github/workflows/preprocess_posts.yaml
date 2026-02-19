@@ -1,19 +1,10 @@
 name: preprocess_posts
 
 on:
-  # Run after the "scrape_posts" workflow completes (only proceed if that run succeeded)
   workflow_run:
     workflows: ["scrape_posts"]
     types: [completed]
-
-  # ALSO run when there is a commit into the specified directory
-  # (and in this case we ignore the workflow_run success requirement)
-  push:
     branches: [main]
-    paths:
-      - "src/open_event_intel/preprocessing/**"
-
-  # Optional: manual trigger
   workflow_dispatch:
 
 concurrency:
@@ -26,13 +17,10 @@ jobs:
     name: Preprocess + export for web
     runs-on: ubuntu-latest
 
-    # If triggered by workflow_run, require success.
-    # If triggered by push (or manual), run regardless.
     if: >-
       ${{
-        (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
-        || github.event_name == 'push'
-        || github.event_name == 'workflow_dispatch'
+        (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
+        (github.event_name == 'workflow_dispatch' && github.ref_name == 'main')
       }}
 
     permissions:
@@ -85,15 +73,13 @@ jobs:
           cp data_repo/database/scraped_posts.db database/scraped_posts.db
           cp data_repo/database/preprocessed_posts.db database/preprocessed_posts.db
 
-          mkdir -p src/tkg
-          cp -r data_repo/prompts_and_definitions src/tkg/prompts_and_definitions
-
       - name: Install this package (editable)
         run: pipenv run pip install -e .
 
+      # Run the main preprocessing pipeline
       - name: Preprocess publications (clean HTML, extract text)
         run: |
-          pipenv run python -m open_event_intel.scraping.run_preprocessor \
+          pipenv run python -m open_event_intel.preprocessing.run_preprocessor \
             --source all \
             --source-db database/scraped_posts.db \
             --target-db database/preprocessed_posts.db \
@@ -103,17 +89,21 @@ jobs:
             --metadata-output output/public_view/ \
             --corruptions-file config/possible_corruptions.txt
 
+      # Remove (normalized) duplicates so that later ETL does not have to
+      - name: Preprocess publications (clean HTML, extract text)
+        run: |
+          pipenv run python -m open_event_intel.preprocessing.clean_normalize \
+            --source-db database/preprocessed_posts.db \
+            --apply \
+
+      # Export Scraped and cleaned data into small public databases (for the webpage)
       - name: Export pipeline data for website (docs/)
         run: |
-          pipenv run python -m open_event_intel.scraping.export_scrape_pipeline_data \
+          pipenv run python -m open_event_intel.preprocessing.export_scrape_pipeline_data \
             --scraped-db database/scraped_posts.db \
             --preprocessed-db database/preprocessed_posts.db \
             --output-dir docs/scrape_data/ \
             --window-days 60
-
-      - name: Remove private prompts_and_definitions
-        if: always()
-        run: rm -rf src/tkg/prompts_and_definitions
 
       - name: Upload preprocessed DB artifact (for push job)
         uses: actions/upload-artifact@v4

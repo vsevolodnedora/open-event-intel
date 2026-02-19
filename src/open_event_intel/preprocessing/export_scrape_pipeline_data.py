@@ -378,6 +378,7 @@ def run(config: CLIConfig) -> None:
 
 
 def main() -> None:
+    """Set main point."""
     parser = argparse.ArgumentParser(
         description="Export scrape & preprocess data to SQLite.")
     parser.add_argument("--scraped-db", type=Path,

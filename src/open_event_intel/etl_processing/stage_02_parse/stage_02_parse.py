@@ -1248,6 +1248,42 @@ def process_document(  # noqa: C901
             )
         )
 
+    # -----------------------------------------------------------
+    # FIX: Deduplicate parsed_blocks BEFORE chunking.
+    #
+    # Gap recovery and paragraph detection can produce blocks with
+    # identical (span_start, span_end, block_type, block_level).
+    # If these duplicates reach the chunker, it generates chunks
+    # with identical natural keys (doc_version_id, span_start,
+    # span_end, chunk_type), which violate the UNIQUE index on
+    # the chunk table and roll back the entire document.
+    #
+    # Previously, dedup only happened on block_rows (after
+    # chunking).  Moving it here eliminates the root cause.
+    # -----------------------------------------------------------
+    _seen_parsed_keys: set[tuple] = set()
+    deduped_parsed_blocks: list[ParsedBlock] = []
+    for pb in parsed_blocks:
+        key = (pb.span_start, pb.span_end, pb.block_type,
+               pb.block_level if pb.block_level is not None else -1)
+        if key not in _seen_parsed_keys:
+            _seen_parsed_keys.add(key)
+            deduped_parsed_blocks.append(pb)
+        else:
+            logger.debug(
+                "[dedup:parsed_block] Skipping duplicate parsed block: "
+                "type=%s span=%d-%d level=%s",
+                pb.block_type, pb.span_start, pb.span_end, pb.block_level,
+            )
+    if len(deduped_parsed_blocks) < len(parsed_blocks):
+        logger.info(
+            "[dedup:parsed_block] Removed %d duplicate parsed block(s) for "
+            "doc=%s BEFORE chunking (prevents chunk natural-key collisions)",
+            len(parsed_blocks) - len(deduped_parsed_blocks),
+            doc_version_id[:12],
+        )
+    parsed_blocks = deduped_parsed_blocks
+
     block_rows: list[BlockRow] = []
     block_id_map: dict[int, str] = {}
 
@@ -1427,6 +1463,59 @@ def process_document(  # noqa: C901
         )
     block_rows = deduped_block_rows
 
+    # -----------------------------------------------------------
+    # FIX: Deduplicate chunks by their natural key before insertion.
+    #
+    # The UNIQUE index on chunk is:
+    #   (doc_version_id, span_start, span_end, chunk_type)
+    #
+    # Duplicate chunks can arise when:
+    #   (a) duplicate parsed_blocks survived to chunking (now
+    #       prevented by the earlier parsed_block dedup), or
+    #   (b) overlap logic in _split_oversized_chunk produces
+    #       sub-chunks with identical span boundaries, or
+    #   (c) block-aware chunking + validation split produce
+    #       coincidental identical spans.
+    #
+    # This is a defence-in-depth safety net.
+    # -----------------------------------------------------------
+    _seen_chunk_keys: set[tuple] = set()
+    deduped_chunk_rows: list[ChunkRow] = []
+    for cr in chunk_rows:
+        key = (cr.doc_version_id, cr.span_start, cr.span_end, cr.chunk_type)
+        if key not in _seen_chunk_keys:
+            _seen_chunk_keys.add(key)
+            deduped_chunk_rows.append(cr)
+        else:
+            logger.warning(
+                "[dedup:chunk] Skipping duplicate chunk: doc=%s type=%s "
+                "span=%d-%d chunk_id=%s (would violate UNIQUE index "
+                "idx_chunk_natural_key)",
+                cr.doc_version_id[:12], cr.chunk_type,
+                cr.span_start, cr.span_end, cr.chunk_id[:12],
+            )
+    if len(deduped_chunk_rows) < len(chunk_rows):
+        logger.info(
+            "[dedup:chunk] Removed %d duplicate chunk(s) for doc=%s "
+            "(defence-in-depth; investigate parsed_block dedup if this "
+            "occurs frequently)",
+            len(chunk_rows) - len(deduped_chunk_rows),
+            doc_version_id[:12],
+        )
+    chunk_rows = deduped_chunk_rows
+
+    # Also deduplicate evidence_spans by (span_start, span_end)
+    # since get_or_create_evidence_span handles DB-level dedup,
+    # but avoiding redundant calls is cleaner.
+    _seen_evidence_keys: set[tuple] = set()
+    deduped_evidence_spans: list[tuple[int, int]] = []
+    for span_start_e, span_end_e in evidence_spans:
+        key = (span_start_e, span_end_e)
+        if key not in _seen_evidence_keys:
+            _seen_evidence_keys.add(key)
+            deduped_evidence_spans.append((span_start_e, span_end_e))
+    evidence_spans = deduped_evidence_spans
+
     for br in block_rows:
         db.insert_block(br)
 
@@ -1499,11 +1588,12 @@ def process_document(  # noqa: C901
     parse_quality = quality_calc.calculate(parsed_blocks, parsed_tables, len(clean_content))
 
     logger.info(
-        "Processed doc %s: %d blocks, %d chunks, %d tables, quality=%.3f",
+        "Processed doc %s: %d blocks, %d chunks, %d tables, %d evidence_spans, quality=%.3f",
         doc_version_id[:12],
         len(block_rows),
         len(chunk_rows),
         len(table_rows),
+        len(evidence_spans),
         parse_quality,
     )
     # -- diagnostic: output summary for downstream tracing --
@@ -1543,6 +1633,82 @@ def run_stage(
     """
     iteration_set = db.get_iteration_set(run_id)
     logger.info("Stage 02 iteration set: %d documents", len(iteration_set))
+
+    # -----------------------------------------------------------
+    # Pre-flight diagnostics: if iteration set is empty, log why.
+    # This distinguishes "no documents in DB" from "all documents
+    # already processed" from "all docs blocked on stage_01".
+    # -----------------------------------------------------------
+    if not iteration_set:
+        _diag_rows = db._fetchall(
+            "SELECT COUNT(*) AS cnt FROM document_version"
+        )
+        _total_docvers = _diag_rows[0]["cnt"] if _diag_rows else 0
+
+        _diag_rows = db._fetchall(
+            "SELECT COUNT(*) AS cnt FROM document"
+        )
+        _total_docs = _diag_rows[0]["cnt"] if _diag_rows else 0
+
+        if _total_docvers == 0:
+            logger.warning(
+                "[preflight:empty_db] document_version table has 0 rows. "
+                "Has stage_01_ingest been run for this database? "
+                "(document table has %d rows, run_id=%s)",
+                _total_docs, run_id,
+            )
+        else:
+            # Documents exist but none are eligible — check status breakdown
+            _diag_rows = db._fetchall(
+                """
+                SELECT dss.status, COUNT(*) AS cnt
+                FROM doc_stage_status dss
+                WHERE dss.stage = ?
+                GROUP BY dss.status
+                """,
+                (STAGE_NAME,),
+            )
+            _status_dist = {r["status"]: r["cnt"] for r in _diag_rows} if _diag_rows else {}
+
+            _diag_rows = db._fetchall(
+                """
+                SELECT dss.status, COUNT(*) AS cnt
+                FROM doc_stage_status dss
+                WHERE dss.stage = ?
+                GROUP BY dss.status
+                """,
+                (PREREQUISITE_STAGE,),
+            )
+            _prereq_dist = {r["status"]: r["cnt"] for r in _diag_rows} if _diag_rows else {}
+
+            # Count docs with NO stage_02 status at all
+            _diag_rows = db._fetchall(
+                """
+                SELECT COUNT(*) AS cnt
+                FROM document_version dv
+                LEFT JOIN doc_stage_status dss
+                    ON dss.doc_version_id = dv.doc_version_id
+                    AND dss.stage = ?
+                WHERE dss.status IS NULL
+                """,
+                (STAGE_NAME,),
+            )
+            _no_status = _diag_rows[0]["cnt"] if _diag_rows else 0
+
+            logger.warning(
+                "[preflight:no_eligible_docs] %d document_version(s) exist "
+                "but 0 are eligible for stage_02. Breakdown: "
+                "stage_02 statuses=%s | stage_01 statuses=%s | "
+                "docs with no stage_02 status=%d | "
+                "HINT: if all are 'ok', stage_02 already completed for all docs. "
+                "If all are 'failed', check that upsert_doc_stage_status wrote "
+                "'failed' (not 'ok') in the prior run. "
+                "If stage_01 has no 'ok' entries, run stage_01 first.",
+                _total_docvers,
+                _status_dist,
+                _prereq_dist,
+                _no_status,
+            )
 
     ok_count = 0
     failed_count = 0
@@ -1598,7 +1764,21 @@ def run_stage(
                     raise DBError(error_msg or "Unknown processing error")
 
         except Exception as e:
-            logger.warning("Failed to process doc %s: %s", doc_version_id[:12], str(e))
+            error_str = str(e)
+            # Enhanced logging for UNIQUE constraint failures to aid debugging
+            if "UNIQUE constraint" in error_str:
+                logger.warning(
+                    "Failed to process doc %s: %s | "
+                    "DIAGNOSTIC: This indicates duplicate rows were generated "
+                    "despite deduplication. Check parsed_blocks and chunks for "
+                    "identical natural keys. Error detail: %s",
+                    doc_version_id[:12], error_str, error_str,
+                )
+            else:
+                logger.warning(
+                    "Failed to process doc %s: %s",
+                    doc_version_id[:12], error_str,
+                )
             with db.transaction():
                 db.upsert_doc_stage_status(
                     doc_version_id=doc_version_id,
@@ -1637,19 +1817,19 @@ def parse_args() -> argparse.Namespace:
         "--run-id", type=str, default="9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08", help="Pipeline run ID (required)"
     )
     parser.add_argument(
-        "--config-dir", type=Path, default=Path("../../../config/")
+        "--config-dir", type=Path, default=Path("../../../../config/etl_config/")
     )
     parser.add_argument(
-        "--source-db", type=Path, default=Path("../../../database/preprocessed_posts.db")
+        "--source-db", type=Path, default=Path("../../../../database/preprocessed_posts.db")
     )
     parser.add_argument(
-        "--working-db", type=Path, default=Path("../../../database/processed_posts.db")
+        "--working-db", type=Path, default=Path("../../../../database/processed_posts.db")
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path("../../../output/processed/"),
+        "--output-dir", type=Path, default=Path("../../../../output/processed/"),
     )
     parser.add_argument(
-        "--log-dir", type=Path, default=Path("../../../output/processed/logs/")
+        "--log-dir", type=Path, default=Path("../../../../output/processed/logs/")
     )
     parser.add_argument("--verbose", action="store_true")
     return parser.parse_args()
