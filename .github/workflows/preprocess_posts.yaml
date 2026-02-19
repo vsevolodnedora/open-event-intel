@@ -92,7 +92,7 @@ jobs:
       # Remove (normalized) duplicates so that later ETL does not have to
       - name: Preprocess publications (clean HTML, extract text)
         run: |
-          pipenv run python -m open_event_intel.preprocessing.clean_normalize \
+          pipenv run python -m open_event_intel.preprocessing.clean_normalized \
             --source-db database/preprocessed_posts.db \
             --apply \
 
