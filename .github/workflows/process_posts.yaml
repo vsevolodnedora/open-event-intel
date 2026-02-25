@@ -64,7 +64,8 @@ jobs:
       - name: Checkout repository (same commit as preprocess)
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}
+          # workflow_run: use head_sha; workflow_dispatch: use current sha
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.sha }}
           fetch-depth: 0
 
       # Python environment
@@ -108,26 +109,59 @@ jobs:
           fi
           echo "Found config/etl_config/config.yaml"
 
-      - name: Download processed_posts.db from release (always exists -- fail if not)
+      - name: Download processed_posts.db from release (verify checksum; restore into database/)
         env:
           GH_TOKEN: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
         run: |
-          if gh release view "$DB_TAG" -R "$PRIVATE_REPO" >/dev/null 2>&1; then
-            echo "Downloading $DB_ASSET from release $DB_TAG ..."
-            gh release download "$DB_TAG" \
-              -R "$PRIVATE_REPO" \
-              -p "$DB_ASSET" \
-              -D /tmp || echo "::warning::Asset $DB_ASSET not found; pipeline will create a fresh DB"
+          set -euo pipefail
+          DB_SHA_ASSET="${DB_ASSET}.sha256"
+          tmpdl="$(mktemp -d)"
+          trap 'rm -rf "$tmpdl"' EXIT
 
-            if [[ -f "/tmp/$DB_ASSET" ]]; then
-              tar --use-compress-program=unzstd -xf "/tmp/$DB_ASSET" -C database
-              echo "Restored processed_posts.db from release"
-              ls -lh database/processed_posts.db
-            fi
-          else
+          if ! gh release view "$DB_TAG" -R "$PRIVATE_REPO" >/dev/null 2>&1; then
             echo "::notice::Release $DB_TAG does not exist yet — Create first!"
             exit 1
           fi
+
+          echo "Downloading DB assets from release $DB_TAG ..."
+          gh release download "$DB_TAG" -R "$PRIVATE_REPO" -p "$DB_ASSET" -D "$tmpdl" || true
+          gh release download "$DB_TAG" -R "$PRIVATE_REPO" -p "$DB_SHA_ASSET" -D "$tmpdl" || true
+
+          if [[ ! -f "$tmpdl/$DB_ASSET" ]]; then
+            echo "::warning::Asset $DB_ASSET not found in release; pipeline will create a fresh DB"
+            exit 0
+          fi
+
+          if [[ ! -f "$tmpdl/$DB_SHA_ASSET" ]]; then
+            echo "::error::Checksum asset $DB_SHA_ASSET missing in release. Refusing to proceed."
+            exit 1
+          fi
+
+          echo "Verifying checksum ..."
+          (
+            cd "$tmpdl"
+            if command -v sha256sum >/dev/null 2>&1; then
+              sha256sum -c "$DB_SHA_ASSET"
+            elif command -v shasum >/dev/null 2>&1; then
+              shasum -a 256 -c "$DB_SHA_ASSET"
+            else
+              echo "::error::No sha256 verifier found (need sha256sum or shasum)."
+              exit 1
+            fi
+          )
+
+          echo "Restoring processed_posts.db into database/ ..."
+          mkdir -p database
+          # Robust extraction: avoids depending on `unzstd`
+          zstd -d -c "$tmpdl/$DB_ASSET" | tar -xf - -C database
+
+          if [[ ! -f "database/processed_posts.db" ]]; then
+            echo "::error::Extraction completed but database/processed_posts.db not found"
+            exit 1
+          fi
+
+          ls -lh database/processed_posts.db
+          echo "Restored processed_posts.db from release"
 
       # Embedding model & server
       - name: Download embedding model from release (always exists)
@@ -279,40 +313,57 @@ jobs:
           path: embeddings.log
           if-no-files-found: ignore
 
-      # Push updated database into the private repo
-      - name: Upload processed_posts.db to GitHub Release
+      # Push updated database into the private repo (Release assets)
+      - name: Upload processed_posts.db to GitHub Release (portable checksum)
         env:
           GH_TOKEN: ${{ secrets.NLP_NEWS_SUMMARY_DATA }}
         run: |
+          set -euo pipefail
           tmpdir="$(mktemp -d)"
+          trap 'rm -rf "$tmpdir"' EXIT
+
           cp database/processed_posts.db "${tmpdir}/processed_posts.db"
 
+          # Create dbs.tar.zst
           tar --use-compress-program="zstd -19 -T0" \
-            -cf "${tmpdir}/$DB_ASSET" -C "$tmpdir" processed_posts.db
+            -cf "${tmpdir}/${DB_ASSET}" -C "${tmpdir}" processed_posts.db
 
-          sha256sum "${tmpdir}/$DB_ASSET" > "${tmpdir}/${DB_ASSET}.sha256"
+          # Create checksum in portable "<hash><two spaces><basename>" form
+          if command -v sha256sum >/dev/null 2>&1; then
+            hash="$(sha256sum "${tmpdir}/${DB_ASSET}" | awk '{print $1}')"
+          elif command -v shasum >/dev/null 2>&1; then
+            hash="$(shasum -a 256 "${tmpdir}/${DB_ASSET}" | awk '{print $1}')"
+          else
+            echo "::error::Missing checksum tool (need sha256sum or shasum)."
+            exit 1
+          fi
+          printf "%s  %s\n" "$hash" "${DB_ASSET}" > "${tmpdir}/${DB_ASSET}.sha256"
 
           UTC_NOW="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
           if ! gh release view "$DB_TAG" -R "$PRIVATE_REPO" >/dev/null 2>&1; then
             gh release create "$DB_TAG" -R "$PRIVATE_REPO" \
               -t "DB snapshot (latest)" \
-              -n "processed_posts.db uploaded from CI at ${UTC_NOW}"
+              -n "Latest processed_posts.db uploaded from CI at ${UTC_NOW}."
           fi
 
           gh release upload "$DB_TAG" \
-            "${tmpdir}/$DB_ASSET" "${tmpdir}/${DB_ASSET}.sha256" \
+            "${tmpdir}/${DB_ASSET}#${DB_ASSET}" \
+            "${tmpdir}/${DB_ASSET}.sha256#${DB_ASSET}.sha256" \
             -R "$PRIVATE_REPO" --clobber
 
+          # Keep the release notes timestamp fresh each run
+          gh release edit "$DB_TAG" -R "$PRIVATE_REPO" \
+            -t "DB snapshot (latest)" \
+            -n "Latest processed_posts.db uploaded from CI at ${UTC_NOW}."
+
           echo "Uploaded processed_posts.db to release $DB_TAG"
-          rm -rf "$tmpdir"
 
       - name: Upload docs/etl_data artifact
         uses: actions/upload-artifact@v4
         with:
           name: docs-etl-data
           path: docs/etl_data
-
 
   # JOB 2 – Force-push docs/etl_data/ to main (exact mirror)
   publish_docs:
