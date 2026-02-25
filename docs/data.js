@@ -390,7 +390,7 @@ export async function loadScrapePublications(publisher, date, cache) {
             length_before AS length_before_preprocessing,
             length_after AS length_after_preprocessing, url
      FROM publication WHERE publisher = ? AND date_str = ?
-     ORDER BY published_on`,
+     ORDER BY date_str, published_on`,
     [publisher, date]);
 
   if (pubRows.length === 0) {

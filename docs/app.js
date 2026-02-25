@@ -97,6 +97,31 @@ function bindDOMRefs() {
   tabPanels = document.querySelectorAll('.tab-panel');
 }
 
+function clampToAvailableRange(endDate, days) {
+    const meta = state.scrapeMeta;
+    if (!meta?.available_dates) return { endDate, days };
+
+    const { min, max } = meta.available_dates;
+
+    // Clamp end-date to available max
+    if (max && endDate > max) endDate = max;
+
+    // Ensure start-date doesn't go before available min
+    if (min) {
+        const start = new Date(endDate + 'T12:00:00Z');
+        start.setUTCDate(start.getUTCDate() - (days - 1));
+        const startStr = start.toISOString().slice(0, 10);
+        if (startStr < min) {
+            const minD = new Date(min + 'T12:00:00Z');
+            const endD = new Date(endDate + 'T12:00:00Z');
+            days = Math.round((endD - minD) / 86400000) + 1;
+            if (days < 1) days = 1;
+        }
+    }
+
+    return { endDate, days };
+}
+
 function bindControls() {
   // Tab switching
   tabButtons.forEach(btn => {
@@ -140,8 +165,8 @@ function bindControls() {
     showTracePlaceholder();
   });
 
-  // Scrape controls
-  scrapeDateSelectEl.value = getTodayCET();
+  // Scrape controls -- remove the premature set; let loadScrapeData() be the single source of truth
+  // scrapeDateSelectEl.value = getTodayCET();
 
   scrapeDateSelectEl.addEventListener('change', () => {
     update({ scrapeEndDate: scrapeDateSelectEl.value || null });
@@ -156,16 +181,20 @@ function bindControls() {
     showScrapeDetailPlaceholder();
   });
 
+
+
   // Scrape presets
   presetLastWeekBtn.addEventListener('click', () => {
-    const { endDate, days } = getLastWeekRange();
+    let { endDate, days } = getLastWeekRange();
+    ({ endDate, days } = clampToAvailableRange(endDate, days));
     scrapeDateSelectEl.value = endDate;
     setScrapeWindowOption(days);
     update({ scrapeEndDate: endDate, scrapeWindowSize: days });
   });
 
   presetLastMonthBtn.addEventListener('click', () => {
-    const { endDate, days } = getLastMonthRange();
+    let { endDate, days } = getLastMonthRange();
+    ({ endDate, days } = clampToAvailableRange(endDate, days));
     scrapeDateSelectEl.value = endDate;
     setScrapeWindowOption(days);
     update({ scrapeEndDate: endDate, scrapeWindowSize: days });
@@ -274,7 +303,8 @@ function populateRunSelect(runs) {
   for (const run of runs) {
     const opt = document.createElement('option');
     opt.value = run.run_id;
-    const dateStr = (run.completed_at || run.started_at || '').slice(0, 19);
+    const raw = (run.completed_at || run.started_at || '');
+    const dateStr = raw ? raw.slice(0, 19).replace('T', ' ') + ' UTC' : '';
     const statusTag = run.status !== 'completed' ? ` [${run.status}]` : '';
     opt.textContent = `${run.run_id.slice(0, 8)}… — ${dateStr}${statusTag}`;
     runSelectEl.appendChild(opt);

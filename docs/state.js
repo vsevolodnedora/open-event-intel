@@ -258,16 +258,30 @@ export function getScrapeVisibleDates(state) {
 
   // If we have matrix data, use the available dates filtered to the window
   if (state.scrapeMatrix) {
-    const allDates = /** @type {Array<string>} */(state.scrapeMatrix.dates);
+    const availableDates = new Set(state.scrapeMatrix.dates);
 
-    // Generate the full window of dates (not just available ones)
     const dates = [];
     const end = new Date(endDate + 'T12:00:00Z');
     for (let i = windowSize - 1; i >= 0; i--) {
-      const d = new Date(end);
-      d.setUTCDate(d.getUTCDate() - i);
-      dates.push(d.toISOString().slice(0, 10));
+        const d = new Date(end);
+        d.setUTCDate(d.getUTCDate() - i);
+        const iso = d.toISOString().slice(0, 10);
+        dates.push(iso);
     }
+
+    // If NONE of the generated dates have data, shift window to end at last available date
+    if (dates.length > 0 && availableDates.size > 0 &&
+        !dates.some(d => availableDates.has(d))) {
+        const sortedAvail = [...availableDates].sort();
+        const fallbackEnd = new Date(sortedAvail[sortedAvail.length - 1] + 'T12:00:00Z');
+        dates.length = 0;
+        for (let i = windowSize - 1; i >= 0; i--) {
+            const d = new Date(fallbackEnd);
+            d.setUTCDate(d.getUTCDate() - i);
+            dates.push(d.toISOString().slice(0, 10));
+        }
+    }
+
     return dates;
   }
 

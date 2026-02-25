@@ -29,7 +29,7 @@ import re
 from abc import ABC
 from collections import defaultdict
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Callable, Optional, Sequence
 
 from langid import langid
@@ -375,8 +375,6 @@ class GenericPublisherStrategy(BasePublisherStrategy):
     """Generic strategy that uses configuration without customization."""
 
     pass
-
-
 
 
 # Publisher-Specific Strategies
@@ -816,7 +814,6 @@ class StrategyFactory:
         cls._strategy_classes[name] = strategy_class
 
 
-
 # Language Detection for German Preference
 
 class LanguageFilter:
@@ -1109,7 +1106,7 @@ class PublicationPreprocessor:
         logger.info(f"Saved failed publication to: {filepath}")
         return filepath
 
-    def process_table(  # noqa: C901
+    def process_publications_for_the_publisher(  # noqa: C901
         self, source_db: PostsDatabase, target_db: PostsDatabase, table_name: str, *, overwrite: bool = False, allow_failures: bool = False, prefer_german: Optional[bool] = None
     ) -> dict[str, int]:
         """
@@ -1198,6 +1195,10 @@ class PublicationPreprocessor:
                     raise ProcessingError(f"Failed to process {pub.title}: {result.error}")
                 continue
 
+            if pub.published_on > datetime.today() + timedelta(days=1):
+                logger.error(f"Skipping publication {pub.title} - {pub.published_on} exceeds today {datetime.today()}")
+                continue
+
             # Check if there are corrupted characters in the text and fix
             if self.corruption_fixer:
                 result = self.corruption_fixer.scan_result_for_corruption(result, pub)
@@ -1237,7 +1238,7 @@ class PublicationPreprocessor:
         logger.info(f"Completed {table_name}: {stats['processed']} processed, {stats['skipped']} skipped, {stats['failed']} failed")
         return stats
 
-    def process_all_tables(
+    def process_all_publications(
             self,
             source_db: PostsDatabase,
             target_db: PostsDatabase,
@@ -1271,7 +1272,7 @@ class PublicationPreprocessor:
             logger.info(f"Processing {table_name}...")
 
             try:
-                stats = self.process_table(
+                stats = self.process_publications_for_the_publisher(
                     source_db,
                     target_db,
                     table_name,
@@ -1306,7 +1307,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="Preprocess scraped publications from various publishers")
-    parser.add_argument("--source", nargs="?", default="smard", help="Publisher to process (default: all)")
+    parser.add_argument("--source", nargs="?", default="all", help="Publisher to process (default: all)")
     parser.add_argument("--source-db", default="../../../database/scraped_posts.db", help="Path to source database")
     parser.add_argument("--target-db", default="../../../database/preprocessed_posts.db", help="Path to target database")
     parser.add_argument("--output-dir", default="../../../output/posts_cleaned", help="Directory for markdown exports")
@@ -1349,7 +1350,7 @@ def main():
 
     try:
         # Process and export
-        all_stats = preprocessor.process_all_tables(source_db, target_db, tables=publishers, overwrite=args.overwrite, allow_failures=args.allow_failures, output_base_dir=args.output_dir)
+        all_stats = preprocessor.process_all_publications(source_db, target_db, tables=publishers, overwrite=args.overwrite, allow_failures=args.allow_failures, output_base_dir=args.output_dir)
 
         # Print summary
         total = {"processed": 0, "skipped": 0, "failed": 0}
