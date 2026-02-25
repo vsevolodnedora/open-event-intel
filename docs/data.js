@@ -32,6 +32,20 @@ export function setScrapeBasePath(path) {
 /** @type {any} */ let scrapeDb = null;
 /** @type {Map<string, any>} */ const runDbs = new Map();
 
+/**
+ * Reset all module-level DB handles so the next access re-opens
+ * (and thus re-validates) every database via db.js.
+ *
+ * Call this before a full data reload so stale singleton references
+ * are discarded.
+ */
+export function resetConnections() {
+  catalogDb = null;
+  tracesDb = null;
+  scrapeDb = null;
+  runDbs.clear();
+}
+
 async function getCatalog() {
   if (!catalogDb) catalogDb = await openDatabase(`${etlBasePath}/catalog.sqlite`);
   return catalogDb;

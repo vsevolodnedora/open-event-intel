@@ -8,13 +8,13 @@
  */
 
 import { createStore, getVisibleDocs, getTodayCET } from './state.js';
-import { loadMeta, loadDocs, loadRunData, loadTrace, loadImpact, loadScrapeMeta, loadScrapeOverview, loadScrapeMatrix, loadScrapePublications } from './data.js';
+import { loadMeta, loadDocs, loadRunData, loadTrace, loadImpact, loadScrapeMeta, loadScrapeOverview, loadScrapeMatrix, loadScrapePublications, resetConnections } from './data.js';
 import { initMatrix, renderMatrix } from './matrix.js';
 import { initTrace, renderTrace, showTracePlaceholder } from './trace.js';
 import { initTooltip } from './tooltip.js';
 import { initScrapeMatrix, renderScrapeMatrix } from './scrape_matrix.js';
 import { initScrapeDetail, renderScrapeDetail, showScrapeDetailPlaceholder } from './scrape_detail.js';
-import { initDB } from './db.js';
+import { initDB, clearAllCaches } from './db.js';
 
 // ── DOM refs ────────────────────────────────────────────────────────
 
@@ -165,9 +165,6 @@ function bindControls() {
     showTracePlaceholder();
   });
 
-  // Scrape controls -- remove the premature set; let loadScrapeData() be the single source of truth
-  // scrapeDateSelectEl.value = getTodayCET();
-
   scrapeDateSelectEl.addEventListener('change', () => {
     update({ scrapeEndDate: scrapeDateSelectEl.value || null });
   });
@@ -180,8 +177,6 @@ function bindControls() {
     update({ scrapeSelectedPublisher: null, scrapeSelectedDate: null });
     showScrapeDetailPlaceholder();
   });
-
-
 
   // Scrape presets
   presetLastWeekBtn.addEventListener('click', () => {
@@ -463,9 +458,27 @@ function showError(msg) {
   errorOverlay.hidden = false;
 
   const retryBtn = /** @type {HTMLButtonElement} */(document.getElementById('error-retry-btn'));
-  retryBtn.onclick = () => {
+  retryBtn.onclick = async () => {
     errorOverlay.hidden = true;
     loadingOverlay.hidden = false;
+
+    // Purge every cache layer so the retry fetches fresh data
+    await clearAllCaches();
+    resetConnections();
+    scrapeDataLoaded = false;
+    etlDataLoaded = false;
+    update({
+      runDataCache: {},
+      traceCache: {},
+      impactCache: {},
+      scrapeDetailCache: {},
+      scrapeMeta: null,
+      scrapeOverview: null,
+      scrapeMatrix: null,
+      meta: null,
+      docsData: null,
+    });
+
     boot();
   };
 }
