@@ -1,5 +1,5 @@
 {
-  "total_publications": 3174,
+  "total_publications": 3224,
   "total_publishers": 13,
   "publishers": [
     "acer",
@@ -168,6 +168,496 @@
       "language": "en"
     },
     {
+      "id": "f257c478c779410fa27d9bd593c49afefc8d56a4c5566899f4ee6bdaf247b711",
+      "url": "https://www.agora-energiewende.org/news-events/transitioning-pakistans-energy-demand",
+      "length": 15600,
+      "publisher": "agora",
+      "published_on": "2026-02-26T12:00:00",
+      "added_on": "2026-02-23T19:20:48.226058",
+      "title": "transitioning_pakistans_energy_demand",
+      "language": "en"
+    },
+    {
+      "id": "ce864eb0de20c728aa9b1a4ec8489a505099df1ba11d39d67ee962cc801031de",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/24/11182250/insight-asia-mostly-see-lower-effective-tariff-rates-markets-remain-uncertain",
+      "length": 27822,
+      "publisher": "icis",
+      "published_on": "2026-02-24T12:00:00",
+      "added_on": "2026-02-24T19:11:59.790336",
+      "title": "insight_asia_mostly_see_lower_effective_tariff_rates_markets_remain_uncertain",
+      "language": "en"
+    },
+    {
+      "id": "a35a047d072bd806ed55335b3d906d52b8ac45daa944f28bff67e5eae367520e",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/24/11182264/china-tightens-export-controls-on-eneos-other-japanese-entities-over-remilitarization",
+      "length": 21417,
+      "publisher": "icis",
+      "published_on": "2026-02-24T12:00:00",
+      "added_on": "2026-02-24T19:11:59.793094",
+      "title": "china_tightens_export_controls_on_eneos_other_japanese_entities_over_remilitarization",
+      "language": "en"
+    },
+    {
+      "id": "4a086f4663a5276f7e9e6c3d3ccce2f4979f960b05267c8c925cea23867631b3",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181854/asia-shares-mixed-after-trump-announces-new-15-global-tariffs",
+      "length": 24528,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.818111",
+      "title": "asia_shares_mixed_after_trump_announces_new_15_global_tariffs",
+      "language": "en"
+    },
+    {
+      "id": "5aa48342484108392d8e3bc109a9930edfb4091b181d94ead276cafe5c875b5c",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181877/indonesia-s-chandra-asri-ca-edc-unit-construction-50-complete",
+      "length": 24202,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.820815",
+      "title": "indonesia_s_chandra_asri_ca_edc_unit_construction_50_complete",
+      "language": "en"
+    },
+    {
+      "id": "7af06d9ac718063fd7fdbbb1e84eed3eddfb106288bc012f1904a04ab10c91ab",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181326/mexico-s-alpek-credit-rating-slashed-on-shrinking-margins-asia-competition-and-cost-rigidity",
+      "length": 30505,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.822878",
+      "title": "mexico_s_alpek_credit_rating_slashed_on_shrinking_margins_asia_competition_and_cost_rigidity",
+      "language": "en"
+    },
+    {
+      "id": "d1d39e1cc50eec3252819cb7aca781d8f9e0344b6b21ecd6be4cbea7421b556e",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181856/blog-global-petchems-comparative-advantage-shifts-in-new-wave-of-restructuring",
+      "length": 25983,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.825103",
+      "title": "blog_global_petchems_comparative_advantage_shifts_in_new_wave_of_restructuring",
+      "language": "en"
+    },
+    {
+      "id": "a8fc85862db828e31a1b51a1c93b2528f7553c85319dd86fb39363909c941e3a",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181286/europe-top-stories-weekly-summary",
+      "length": 20843,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.827048",
+      "title": "europe_top_stories_weekly_summary",
+      "language": "en"
+    },
+    {
+      "id": "70491fac8f96e77dd7eba1d572375bf47e39f094fc3071336e6a4f122b33c931",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181868/blog-iran-tensions-drive-oil-prices-higher",
+      "length": 23115,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.828837",
+      "title": "blog_iran_tensions_drive_oil_prices_higher",
+      "language": "en"
+    },
+    {
+      "id": "b298cc27a50fb4b32ece229633cdccc9908b3bfa70b9e5ece94089e76e3863e3",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181230/asia-top-stories-weekly-summary",
+      "length": 25723,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-23T19:18:17.831145",
+      "title": "asia_top_stories_weekly_summary",
+      "language": "en"
+    },
+    {
+      "id": "679e1b9e5f6f2d9d193ac09d8e0a999dce9ffa6fdfb77c88553af734b2f5b130",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181940/with-new-statute-replacing-ieepa-tariffs-import-surge-may-not-emerge-linerlytica",
+      "length": 23702,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-24T19:11:59.787530",
+      "title": "with_new_statute_replacing_ieepa_tariffs_import_surge_may_not_emerge_linerlytica",
+      "language": "en"
+    },
+    {
+      "id": "c030a21139495731f6dfd6fe90824dd73e90defce7918af149e2598c5070d9b8",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181913/us-stepan-to-close-new-jersey-surfactants-site-decommission-other-assets-by-mid-2026",
+      "length": 22383,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-24T19:11:59.795284",
+      "title": "us_stepan_to_close_new_jersey_surfactants_site_decommission_other_assets_by_mid_2026",
+      "language": "en"
+    },
+    {
+      "id": "ac81cdaf06515bbe528767e2166bc2ece173a0ff53ff5d665e6d2f7dde5209be",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/23/11181852/americas-top-stories-weekly-summary",
+      "length": 25309,
+      "publisher": "icis",
+      "published_on": "2026-02-23T12:00:00",
+      "added_on": "2026-02-24T19:11:59.796960",
+      "title": "americas_top_stories_weekly_summary",
+      "language": "en"
+    },
+    {
+      "id": "be00b7f09590107465b6da2484718274cbf29b37a23a864cb06beffbf1a293fa",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_91393.html",
+      "length": 41553,
+      "publisher": "amprion",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T19:06:16.532104",
+      "title": "Presse_Detailseite_91393",
+      "language": "de"
+    },
+    {
+      "id": "760229ea6effd22f72f01584414172ada74707a0ba556f22bffc50bb302266ba",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_91392.html",
+      "length": 39819,
+      "publisher": "amprion",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T19:06:16.535968",
+      "title": "Presse_Detailseite_91392",
+      "language": "de"
+    },
+    {
+      "id": "8d897d417dd037659849d11238dfdbdcc284a7f58317a5011e2abf7ef812795f",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260220_Hoechstwert.html",
+      "length": 23114,
+      "publisher": "bnetza",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:21.822149",
+      "title": "Hoechstwert",
+      "language": "de"
+    },
+    {
+      "id": "02bebcbb5704c92f3875598a4554a3a2fa986ecad9e032d5032820a2434084dd",
+      "url": "https://www.entsoe.eu/news/2026/02/20/entso-e-publishes-a-report-on-the-benefits-of-a-coordinated-approach-to-digital-twins-for-the-european-power-system",
+      "length": 10522,
+      "publisher": "entsoe",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:57:18.059955",
+      "title": "entso_e_publishes_a_report_on_the_benefits_of_a_coordinated_approach_to_digital_twins_for_the_european_power_system",
+      "language": "en"
+    },
+    {
+      "id": "2c6575d2ef3ac222bc1b0819ae494791ae1cc70bff5d85d8d85900e2f10aab9c",
+      "url": "https://www.entsoe.eu/news/2026/02/20/entso-e-and-dso-entity-release-a-joint-statement-on-public-procurement",
+      "length": 9664,
+      "publisher": "entsoe",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:57:18.069860",
+      "title": "entso_e_and_dso_entity_release_a_joint_statement_on_public_procurement",
+      "language": "en"
+    },
+    {
+      "id": "bc742fa79e05c00d6cc990bf038cf0a89aa0dea27588a7d1148e96a2804d7042",
+      "url": "https://www.50hertz.com/de/News/Details/16801/suedostlink-ernstfall-bei-rettungsuebung-geprobt",
+      "length": 3379,
+      "publisher": "fifty_hertz",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T19:04:28.605248",
+      "title": "suedostlink_ernstfall_bei_rettungsuebung_geprobt",
+      "language": "de"
+    },
+    {
+      "id": "6b12ae4db9713f2ecb9e98ed49dae07a37bec5d7b37dadf96d3073008d2eb1b9",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181209/usda-expects-corn-plantings-to-be-lower-in-2026-at-94-million-acres-with-soybeans-higher-at-85-million",
+      "length": 22748,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.290514",
+      "title": "usda_expects_corn_plantings_to_be_lower_in_2026_at_94_million_acres_with_soybeans_higher_at_85_million",
+      "language": "en"
+    },
+    {
+      "id": "ad4a3d51a587835347a8022a2e074e2e2abe006d45596d742384e860fe25d02c",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181221/us-japan-trade-deal-indicates-changing-asian-energy-order",
+      "length": 28931,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.293433",
+      "title": "us_japan_trade_deal_indicates_changing_asian_energy_order",
+      "language": "en"
+    },
+    {
+      "id": "f8bff5405813b4bc64d3226f1b36f335bfae2b8527b65ebdf183e95ae2a9dc09",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181256/europe-isocyanates-consumption-still-sluggish-and-no-meaningful-rebound-expected",
+      "length": 27992,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.295524",
+      "title": "europe_isocyanates_consumption_still_sluggish_and_no_meaningful_rebound_expected",
+      "language": "en"
+    },
+    {
+      "id": "9ab6ef30834f7420e2be3e0f2e12dc552b41eee31532087dcbd5008bffc77dc9",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181231/swiss-sika-2025-profit-down-16-2-on-weak-us-dollar",
+      "length": 25478,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.297483",
+      "title": "swiss_sika_2025_profit_down_16_2_on_weak_us_dollar",
+      "language": "en"
+    },
+    {
+      "id": "808555929f6b223514caa6c191e8dd2b050c2021df2f2a710ba9a9a3a5edfa15",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181264/eurozone-economy-improves-in-february-on-manufacturing-boost",
+      "length": 25197,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.299585",
+      "title": "eurozone_economy_improves_in_february_on_manufacturing_boost",
+      "language": "en"
+    },
+    {
+      "id": "319fa29c0154135ac1fb1dff42865867cf12e5c6a56803597c5aa628246c92e7",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181284/brazil-s-braskem-cash-burn-risks-rise-sharply-amid-persistent-weak-petrochemicals-bank",
+      "length": 24554,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.301482",
+      "title": "brazil_s_braskem_cash_burn_risks_rise_sharply_amid_persistent_weak_petrochemicals_bank",
+      "language": "en"
+    },
+    {
+      "id": "e1899c61e2e02cd9abcdcb8261e6e7678817f8a058d2722b30ee1e4fb35c115b",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181277/podcast-uk-chemicals-needs-serious-state-support-as-production-collapses",
+      "length": 24678,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.303284",
+      "title": "podcast_uk_chemicals_needs_serious_state_support_as_production_collapses",
+      "language": "en"
+    },
+    {
+      "id": "de33f8fe84346e4fc9b73a3cb94bf17e503e5a7d20403e357a7a26a07b987c98",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181274/eu-mass-balance-accounting-rules-under-supd-revealed",
+      "length": 23571,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.304980",
+      "title": "eu_mass_balance_accounting_rules_under_supd_revealed",
+      "language": "en"
+    },
+    {
+      "id": "7b38171998f92cbef109470c9def9eb439d2dffc39de2f00da508315495cfcfb",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181215/indonesia-us-finalize-trade-pact-deals-worth-38-4-billion-signed",
+      "length": 23478,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-20T18:59:11.306751",
+      "title": "indonesia_us_finalize_trade_pact_deals_worth_38_4_billion_signed",
+      "language": "en"
+    },
+    {
+      "id": "b1ce1ba58403e183499761d6532576582b6966cdc61accd2cad15bac4224f110",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181323/supreme-court-ruling-on-ieepa-tariffs-could-lead-to-surge-in-us-import-demand-analyst",
+      "length": 28324,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-21T18:45:02.743118",
+      "title": "supreme_court_ruling_on_ieepa_tariffs_could_lead_to_surge_in_us_import_demand_analyst",
+      "language": "en"
+    },
+    {
+      "id": "9a0df2c02596914114ed9e414c0c7bd53e1ae8ed835c0de3d47eaa82fb5d6e88",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181850/us-to-use-another-statute-to-revive-portion-of-tariffs-voided-by-court",
+      "length": 25421,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-21T18:45:02.745723",
+      "title": "us_to_use_another_statute_to_revive_portion_of_tariffs_voided_by_court",
+      "language": "en"
+    },
+    {
+      "id": "782e59dd51fa8b5bfc90edb61cccb31392e6eb59abba99626e6733a03455edda",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/20/11181298/italian-ets-reimbursement-measure-unlikely-to-secure-european-commission-approval-legal-experts",
+      "length": 28386,
+      "publisher": "icis",
+      "published_on": "2026-02-20T12:00:00",
+      "added_on": "2026-02-21T18:45:02.747510",
+      "title": "italian_ets_reimbursement_measure_unlikely_to_secure_european_commission_approval_legal_experts",
+      "language": "en"
+    },
+    {
+      "id": "39cb8bd5dbb0225cce80b34e90c2e34b7324b368020d8ba845d20327532ea305",
+      "url": "https://www.50hertz.com/de/News/Details/16796/baltic-german-powerlink-deutschland-lettland-und-litauen-planen-gemeinsames-stromprojekt-in-der-ostsee",
+      "length": 5819,
+      "publisher": "fifty_hertz",
+      "published_on": "2026-02-19T12:00:00",
+      "added_on": "2026-02-19T18:10:51.071780",
+      "title": "baltic_german_powerlink_deutschland_lettland_und_litauen_planen_gemeinsames_stromprojekt_in_der_ostsee",
+      "language": "de"
+    },
+    {
+      "id": "4a8809f379d3c3385f59b2622f793ad7af6e920667caecd9ce150e8bd5dda002",
+      "url": "https://www.50hertz.com/de/News/Details/16800/erfolgreiche-unterzeichnung-einer-neuen-gruenen-kreditlinie-von-bis-zu-525-milliarden-euro",
+      "length": 3911,
+      "publisher": "fifty_hertz",
+      "published_on": "2026-02-19T12:00:00",
+      "added_on": "2026-02-19T18:12:19.866502",
+      "title": "erfolgreiche_unterzeichnung_einer_neuen_gruenen_kreditlinie_von_bis_zu_525_milliarden_euro",
+      "language": "de"
+    },
+    {
+      "id": "cfa8bc97ac2a022492cc353977d410e076de31b55898e0754cc3c76c9701fbcb",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/19/11181121/china-needs-to-encourage-spending-hasten-property-sector-recovery-in-2026-imf",
+      "length": 23948,
+      "publisher": "icis",
+      "published_on": "2026-02-19T12:00:00",
+      "added_on": "2026-02-19T18:06:04.129989",
+      "title": "china_needs_to_encourage_spending_hasten_property_sector_recovery_in_2026_imf",
+      "language": "en"
+    },
+    {
+      "id": "2e3c125182d63c79bdd73473e3413ddbf6f647a26bed0b651608f1f50db8bd0a",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/19/11181137/indonesia-s-central-bank-keeps-interest-rate-expects-gdp-growth-in-q1",
+      "length": 24821,
+      "publisher": "icis",
+      "published_on": "2026-02-19T12:00:00",
+      "added_on": "2026-02-19T18:06:04.135848",
+      "title": "indonesia_s_central_bank_keeps_interest_rate_expects_gdp_growth_in_q1",
+      "language": "en"
+    },
+    {
+      "id": "e275f16e14fc6fbfb5e3f859d265490340152b60d2a3bafe304afe952c3b2ed6",
+      "url": "https://www.50hertz.com/de/News/Details/16793/mit-informationen-vor-ort-in-schleswig-holstein",
+      "length": 2067,
+      "publisher": "fifty_hertz",
+      "published_on": "2026-02-18T12:00:00",
+      "added_on": "2026-02-18T19:10:52.447451",
+      "title": "mit_informationen_vor_ort_in_schleswig_holstein",
+      "language": "de"
+    },
+    {
+      "id": "00f2736c37c7938703543141eff48b76b5d424ebd74cac48e6a20ac7a66e5698",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/18/11181069/japan-january-chemical-exports-grow-8-overall-shipments-jump-17",
+      "length": 22264,
+      "publisher": "icis",
+      "published_on": "2026-02-18T12:00:00",
+      "added_on": "2026-02-18T19:05:39.853632",
+      "title": "japan_january_chemical_exports_grow_8_overall_shipments_jump_17",
+      "language": "en"
+    },
+    {
+      "id": "3104a5f36ce68294930a80148e875bacb8dbeb6fbe407a70df3fb85e70d797a8",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/18/11181106/us-railroads-up-ns-inform-regulator-of-intent-to-refile-merger-application-on-30-april",
+      "length": 25514,
+      "publisher": "icis",
+      "published_on": "2026-02-18T12:00:00",
+      "added_on": "2026-02-19T18:06:04.133179",
+      "title": "us_railroads_up_ns_inform_regulator_of_intent_to_refile_merger_application_on_30_april",
+      "language": "en"
+    },
+    {
+      "id": "2b6e5c2f458e62b4372f3339af2f97d27b1c274b9a07fc6ebf882c14163d002d",
+      "url": "https://www.acer.europa.eu/news/acer-will-consult-economic-input-data-improve-european-electricity-system-modelling",
+      "length": 47886,
+      "publisher": "acer",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-17T17:39:26.239162",
+      "title": "acer_will_consult_economic_input_data_improve_european_electricity_system_modelling",
+      "language": "en"
+    },
+    {
+      "id": "dfdf06ede7d7460e015ec24a2124d05bac564b8b99ead0d2ec1803c09f7f092c",
+      "url": "https://www.acer.europa.eu/news/acer-decide-amendments-core-regions-long-term-capacity-calculation-methodology",
+      "length": 48013,
+      "publisher": "acer",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-17T17:39:26.243878",
+      "title": "acer_decide_amendments_core_regions_long_term_capacity_calculation_methodology",
+      "language": "en"
+    },
+    {
+      "id": "3a6d9e1afd6a34c55d2b573129e59724aeddb8c5012496ca24f8000357189f42",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260217_Frequenzen.html",
+      "length": 22688,
+      "publisher": "bnetza",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-17T13:41:20.126399",
+      "title": "Frequenzen",
+      "language": "de"
+    },
+    {
+      "id": "dcf202f5359bfae52b85b0d00ffd1cbf3b7f3239d272e3b73b19837d1df31e0a",
+      "url": "https://energy.ec.europa.eu/news/5-things-you-should-know-about-your-electricity-bill-2026-02-17_en",
+      "length": 31815,
+      "publisher": "ec",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-17T13:40:32.915798",
+      "title": "5_things_you_should_know_about_your_electricity_bill",
+      "language": "en"
+    },
+    {
+      "id": "3a93bcba6a20f6338978812c23b568cba4bb236f64a252db6fba84d9d80ce1ca",
+      "url": "https://energy.ec.europa.eu/news/executive-vice-president-ribera-and-commissioner-jorgensen-discuss-energy-security-affordability-and-2026-02-17_en",
+      "length": 18262,
+      "publisher": "ec",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-17T13:40:32.918797",
+      "title": "executive_vice_president_ribera_and_commissioner_jorgensen_discuss_energy_security_affordability_and",
+      "language": "en"
+    },
+    {
+      "id": "a70a876c0fbdb81e4a5311bcfb21a4eec0119374d4201b0e22d110523170bd93",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/17/11180761/europe-mpg-to-remain-supported-by-good-de-icing-demand",
+      "length": 24391,
+      "publisher": "icis",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-17T17:40:20.661492",
+      "title": "europe_mpg_to_remain_supported_by_good_de_icing_demand",
+      "language": "en"
+    },
+    {
+      "id": "6e779488f5c3a0a9d70a65cd585cbcfea0dd1f50a52332592865f7130a582c6e",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/17/11180796/state-attorneys-general-coalition-urges-justice-department-to-review-up-ns-merger",
+      "length": 24088,
+      "publisher": "icis",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-18T19:05:39.838956",
+      "title": "state_attorneys_general_coalition_urges_justice_department_to_review_up_ns_merger",
+      "language": "en"
+    },
+    {
+      "id": "3e8a7f7efcc6a34db55cd82a24cce169583b5f8142305ac2fc34c643d67b9352",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/17/11180783/icis-whitepaper-together-or-apart-fragmentation-stalls-the-eu-s-single-energy-market-as-it-faces-global-risks",
+      "length": 21533,
+      "publisher": "icis",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-18T19:05:39.845457",
+      "title": "icis_whitepaper_together_or_apart_fragmentation_stalls_the_eu_s_single_energy_market_as_it_faces_global_risks",
+      "language": "en"
+    },
+    {
+      "id": "a344b69a459e0f160431ac68ee07e17d92a3f796c4b8423fdbbbc6a1b9bdc242",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/17/11180784/podcast-europe-acn-ammonia-markets-grapple-with-cbam-uncertainty-and-uneven-fundamentals",
+      "length": 21588,
+      "publisher": "icis",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-18T19:05:39.848460",
+      "title": "podcast_europe_acn_ammonia_markets_grapple_with_cbam_uncertainty_and_uneven_fundamentals",
+      "language": "en"
+    },
+    {
+      "id": "d4234568c5e53ec9724ca9b455f6a1e96e848bf9389a4079bfe343b7a8152500",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/17/11180787/china-deal-marks-significant-shift-in-canada-s-trade-policy",
+      "length": 25003,
+      "publisher": "icis",
+      "published_on": "2026-02-17T12:00:00",
+      "added_on": "2026-02-18T19:05:39.851139",
+      "title": "china_deal_marks_significant_shift_in_canada_s_trade_policy",
+      "language": "en"
+    },
+    {
+      "id": "410f405ae978874a82ae938f9223ee1a924b3500a483c743d6c2e52c6e66615d",
+      "url": "https://energy.ec.europa.eu/news/commission-seeks-views-how-simplify-legislation-energy-efficient-products-2026-02-16_en",
+      "length": 18080,
+      "publisher": "ec",
+      "published_on": "2026-02-16T12:00:00",
+      "added_on": "2026-02-16T16:13:22.454699",
+      "title": "commission_seeks_views_how_simplify_legislation_energy_efficient_products",
+      "language": "en"
+    },
+    {
       "id": "11dc062dda3e7a79bdbdb0dcd26448441d8e69c0bb6a7a070e22817e7ac6d5db",
       "url": "https://www.50hertz.com/de/News/Details/16786/netzanschluss-ost-6-1-bau-der-landtrasse-zwischen-dierhagen-und-gnewitz",
       "length": 5473,
@@ -265,6 +755,16 @@
       "published_on": "2026-02-16T12:00:00",
       "added_on": "2026-02-16T15:44:31.669050",
       "title": "americas_top_stories_weekly_summary",
+      "language": "en"
+    },
+    {
+      "id": "13a24e1b973e8d40fa6f9dd43f8a922ad398e8e4c6bd9ca31664ca22f90d100b",
+      "url": "https://www.icis.com/explore/resources/news/2026/02/16/11180530/colombia-s-gdp-up-2-6-in-2025-but-slows-down-in-q4-justice-suspends-minimum-wage-hike",
+      "length": 25463,
+      "publisher": "icis",
+      "published_on": "2026-02-16T12:00:00",
+      "added_on": "2026-02-17T11:16:18.638817",
+      "title": "colombia_s_gdp_up_2_6_in_2025_but_slows_down_in_q4_justice_suspends_minimum_wage_hike",
       "language": "en"
     },
     {

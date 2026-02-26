@@ -18,7 +18,6 @@ logger = get_logger(__name__)
 
 def extract_date_from_markdown(markdown_text:str):
     """Extract date from markdown text."""
-
     # Split text into lines
     lines = markdown_text.splitlines()
 
@@ -42,7 +41,6 @@ def extract_date_from_markdown(markdown_text:str):
 
 def invert_date_format(date_str:str):
     """Invert date format."""
-
     # Split the string by the dash
     year, month, day = date_str.split("-")
     # Rearrange and return in MM-DD-YYYY format
@@ -62,7 +60,7 @@ async def main_scrape_eex_posts(root_url:str, table_name:str, database: PostsDat
     async with (AsyncWebCrawler() as crawler):
 
         # Create a filter that only allows URLs with 'guide' in them
-        url_filter = URLPatternFilter(patterns=["*_news_*"])
+        url_filter = URLPatternFilter(patterns=["*_news_*","newsroom"])
 
         config = CrawlerRunConfig(
             deep_crawl_strategy=BFSDeepCrawlStrategy(
@@ -82,10 +80,10 @@ async def main_scrape_eex_posts(root_url:str, table_name:str, database: PostsDat
 
         logger.info(f"Crawled {len(results)} pages matching '*_news_*'")
         new_articles = []
-        for result in results:  # Show first 3 results
+        for result in results:
             url = result.url
 
-            if fnmatch.fnmatch(url, "*_news_*") \
+            if (fnmatch.fnmatch(url, "*_news_*") or fnmatch.fnmatch(url, "newsroom")) \
                     and ("EEX Press Release" in result.markdown.raw_markdown or "Volume Report" in result.markdown.raw_markdown) \
                     and "_news_" in url:
 
@@ -93,7 +91,7 @@ async def main_scrape_eex_posts(root_url:str, table_name:str, database: PostsDat
                 date_iso = extract_date_from_markdown(result.markdown.raw_markdown) # YYYY-MM-DD
 
                 if date_iso is None:
-                    logger.debug(f"Skipping scraped markdown from {url}. Could not extract date from markdown.")
+                    logger.debug(f"Skipping scraped markdown from {url}. Could not exstract date from markdown.")
                     continue
 
                 # select title based on the contenct

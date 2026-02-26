@@ -40,7 +40,7 @@ SCRAPER_CONFIGS = {
         "params": {"language":"en", "overwrite":False},
     },
     "eex": {
-        "root_url": "https://www.eex.com/en/newsroom/",
+        "root_url": "https://www.eex.com/en/newsroom/news",
         "scraper_func": main_scrape_eex_posts,
         "params": {"language":"en", "overwrite":False},
     },
@@ -254,7 +254,7 @@ Examples:
         "--source",
         "-s",
         nargs="+",
-        default=["smard"],
+        default=["eex"],
         metavar="SOURCE",
         help='Source(s) to scrape or "all" for all sources',
     )
