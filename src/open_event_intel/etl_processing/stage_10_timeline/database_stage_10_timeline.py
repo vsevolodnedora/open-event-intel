@@ -7,7 +7,7 @@ from typing import ClassVar
 
 from pydantic import BaseModel, ConfigDict
 
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     DatabaseInterface,
     EntityRegistryRow,
     EventEntityLinkRow,

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     DatabaseInterface,
     EventCandidateRow,
     EventEntityLinkRow,

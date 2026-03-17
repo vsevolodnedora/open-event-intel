@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import ClassVar
 
-from open_event_intel.etl_processing.database_interface import DatabaseInterface, DocStageStatusRow
+from open_event_intel.etl_processing.processed_posts_db_interface import DatabaseInterface, DocStageStatusRow
 
 STAGE_NAME = "stage_02_parse"
 PREREQUISITE_STAGE = "stage_01_ingest"

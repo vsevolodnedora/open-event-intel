@@ -27,7 +27,7 @@ from typing import ClassVar
 from pydantic import BaseModel
 
 from open_event_intel.etl_processing.config_interface import Config, get_config_version, load_config
-from open_event_intel.etl_processing.database_interface import AnotherRunActiveError, DatabaseInterface, DBConstraintError, DBError, DBSchemaError, PipelineRunRow
+from open_event_intel.etl_processing.processed_posts_db_interface import AnotherRunActiveError, DatabaseInterface, DBConstraintError, DBError, DBSchemaError, PipelineRunRow
 from open_event_intel.etl_processing.stage_00_setup.database_00_setup import Stage00DatabaseInterface
 from open_event_intel.logger import get_logger
 

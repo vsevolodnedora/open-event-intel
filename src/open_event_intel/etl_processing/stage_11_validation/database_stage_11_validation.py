@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Sequence
 
-from open_event_intel.etl_processing.database_interface import DatabaseInterface
+from open_event_intel.etl_processing.processed_posts_db_interface import DatabaseInterface
 
 # Sampling defaults (override via argparse)
 DEFAULT_EVIDENCE_ID_SAMPLE_SIZE = 200
@@ -454,7 +454,7 @@ class Stage11DatabaseInterface(DatabaseInterface):
             (now, run_id),
         )
         if cursor.rowcount == 0:
-            from open_event_intel.etl_processing.database_interface import DBError
+            from open_event_intel.etl_processing.processed_posts_db_interface import DBError
             raise DBError(
                 f"Cannot complete pipeline run '{run_id}': "
                 f"no running row found (already completed, failed, or missing)"

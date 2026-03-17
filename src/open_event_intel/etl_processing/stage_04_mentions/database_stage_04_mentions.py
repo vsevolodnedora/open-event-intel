@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from typing import Sequence
 
-from open_event_intel.etl_processing.database_interface import DatabaseInterface, DocStageStatusRow, MentionLinkRow, RegistryUpdateProposalRow, _serialize_json
+from open_event_intel.etl_processing.processed_posts_db_interface import DatabaseInterface, DocStageStatusRow, MentionLinkRow, RegistryUpdateProposalRow, _serialize_json
 
 STAGE_NAME = "stage_04_mentions"
 PREREQUISITE_STAGE = "stage_02_parse"

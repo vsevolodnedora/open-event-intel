@@ -28,7 +28,7 @@ from openai import OpenAI, OpenAIError
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from open_event_intel.etl_processing.config_interface import LLMConfig, ModelDefinition, ModelProvider, PromptDefinition
-from open_event_intel.etl_processing.database_interface import DatabaseInterface, LLMCacheRow, LLMUsageLogRow, compute_sha256_id
+from open_event_intel.etl_processing.processed_posts_db_interface import DatabaseInterface, LLMCacheRow, LLMUsageLogRow, compute_sha256_id
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)

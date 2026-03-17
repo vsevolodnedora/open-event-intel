@@ -32,7 +32,7 @@ from pathlib import Path
 
 from pydantic import BaseModel, ConfigDict
 
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     DBError,
     DBSchemaError,
     compute_sha256_id,

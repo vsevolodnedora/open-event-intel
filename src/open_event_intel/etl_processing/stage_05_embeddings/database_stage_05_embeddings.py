@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import ClassVar, Sequence
 
-from open_event_intel.etl_processing.database_interface import ChunkEmbeddingRow, DatabaseInterface, DocStageStatusRow, EmbeddingIndexRow, _serialize_json
+from open_event_intel.etl_processing.processed_posts_db_interface import ChunkEmbeddingRow, DatabaseInterface, DocStageStatusRow, EmbeddingIndexRow, _serialize_json
 
 STAGE_NAME = "stage_05_embeddings"
 STAGE_NAME_INDEX = "stage_05_embeddings_index"

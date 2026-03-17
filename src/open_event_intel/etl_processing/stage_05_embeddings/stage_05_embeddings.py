@@ -27,15 +27,14 @@ from pathlib import Path
 
 import numpy as np
 
-from open_event_intel.etl_processing.config_interface import LLMConfig, ModelDefinition, get_config_version, load_config, \
-    TaskRouting
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.config_interface import LLMConfig, ModelDefinition, TaskRouting, get_config_version, load_config
+from open_event_intel.etl_processing.llm_interface import EmbeddingResult, LLMError, LLMInterface
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     ChunkEmbeddingRow,
     ChunkRow,
     EmbeddingIndexRow,
     compute_sha256_id,
 )
-from open_event_intel.etl_processing.llm_interface import EmbeddingResult, LLMError, LLMInterface
 from open_event_intel.etl_processing.stage_05_embeddings.database_stage_05_embeddings import PREREQUISITE_STAGE, STAGE_NAME, STAGE_NAME_INDEX, Stage05DatabaseInterface
 from open_event_intel.logger import get_logger
 

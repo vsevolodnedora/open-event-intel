@@ -4,7 +4,7 @@ from pathlib import Path
 
 from pydantic import BaseModel, ConfigDict
 
-from open_event_intel.etl_processing.database_interface import AlertRuleRow, DatabaseInterface, EventRevisionRow, EventRow, MetricObservationRow, MetricSeriesPointRow, MetricSeriesRow, WatchlistRow
+from open_event_intel.etl_processing.processed_posts_db_interface import AlertRuleRow, DatabaseInterface, EventRevisionRow, EventRow, MetricObservationRow, MetricSeriesPointRow, MetricSeriesRow, WatchlistRow
 from open_event_intel.logger import get_logger
 
 logger = get_logger(__name__)

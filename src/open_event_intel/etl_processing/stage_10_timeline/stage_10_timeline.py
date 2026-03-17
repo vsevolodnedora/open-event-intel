@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import Sequence
 
 from open_event_intel.etl_processing.config_interface import Config, get_config_version, load_config
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     DBError,
     EntityRegistryRow,
     EntityTimelineItemEvidenceRow,

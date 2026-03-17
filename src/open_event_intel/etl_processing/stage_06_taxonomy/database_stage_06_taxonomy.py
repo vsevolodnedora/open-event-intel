@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from open_event_intel.etl_processing.database_interface import DatabaseInterface, FacetAssignmentEvidenceRow, FacetAssignmentRow, _serialize_json
+from open_event_intel.etl_processing.processed_posts_db_interface import DatabaseInterface, FacetAssignmentEvidenceRow, FacetAssignmentRow, _serialize_json
 
 STAGE_NAME = "stage_06_taxonomy"
 PREREQUISITE_STAGES: tuple[str, ...] = ("stage_03_metadata", "stage_04_mentions")

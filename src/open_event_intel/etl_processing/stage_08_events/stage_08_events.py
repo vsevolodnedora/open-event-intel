@@ -22,7 +22,7 @@ from typing import Any
 from pydantic import BaseModel, ConfigDict, Field
 
 from open_event_intel.etl_processing.config_interface import Config, EventSlot, EventType, Extraction, get_config_version, load_config
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     EntityRegistryRow,
     EventCandidateRow,
     EventEntityLinkRow,

@@ -47,7 +47,7 @@ from open_event_intel.etl_processing.config_interface import (
 from open_event_intel.etl_processing.config_interface import (
     Watchlist as ConfigWatchlist,
 )
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     AlertRuleRow,
     DBConstraintError,
     DBError,

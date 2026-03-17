@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import ClassVar
 
-from open_event_intel.etl_processing.database_interface import DatabaseInterface, DBError
+from open_event_intel.etl_processing.processed_posts_db_interface import DatabaseInterface, DBError
 
 
 class Stage00DatabaseInterface(DatabaseInterface):

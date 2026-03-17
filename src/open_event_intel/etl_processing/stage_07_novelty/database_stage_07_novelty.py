@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 
-from open_event_intel.etl_processing.database_interface import (
+from open_event_intel.etl_processing.processed_posts_db_interface import (
     ChunkEmbeddingRow,
     ChunkNoveltyRow,
     ChunkNoveltyScoreRow,
