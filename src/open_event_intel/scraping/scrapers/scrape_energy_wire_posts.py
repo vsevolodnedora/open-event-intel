@@ -29,10 +29,12 @@ async def fetch_articles(page_url: str):
     soup = BeautifulSoup(html, "lxml")
 
     articles = []
-    # Loop through each teaser article
-    for art in soup.select("article.m-node--list--teaser"):
+    # CLEW renders the news list as Drupal "views" rows. Each row contains a
+    # title anchor linking to /news/<slug> and a date field formatted like
+    # "08 Jun 2026, 12:35".
+    for art in soup.select("div.views-row"):
         # Title & URL
-        a = art.select_one("h3.m-node--list--teaser__title > a")
+        a = art.select_one("a[href^='/news/']")
         if not a:
             continue
         href  = a["href"]
@@ -40,7 +42,7 @@ async def fetch_articles(page_url: str):
         url   = urllib.parse.urljoin(page_url, href)
 
         # Date
-        date_tag = art.select_one("span.date-display-single")
+        date_tag = art.select_one("div.views-field-field-global-date .field-content")
         date_str = date_tag.get_text(strip=True) if date_tag else None
 
         articles.append({
@@ -68,7 +70,21 @@ async def main_scrape_energy_wire_posts(root_url: str, database: PostsDatabase, 
             article_title = article_url.split("/")[-1]
             article_title = article_title.replace("-","_")
 
-            dt = datetime.strptime(article["date"], "%d %b %Y - %H:%M")
+            if not article["date"]:
+                logger.warning(f"No date found for {article['url']}; skipping")
+                continue
+            # CLEW currently formats dates as "08 Jun 2026, 12:35"; older pages
+            # used a dash separator. Accept both, skip if neither parses.
+            dt = None
+            for fmt in ("%d %b %Y, %H:%M", "%d %b %Y - %H:%M"):
+                try:
+                    dt = datetime.strptime(article["date"], fmt)
+                    break
+                except ValueError:
+                    continue
+            if dt is None:
+                logger.warning(f"Unparseable date {article['date']!r} for {article['url']}; skipping")
+                continue
             formatted_datetime = dt.strftime("%Y-%m-%d %H:%M")
 
             # check for post in the database before trying to pull it as it is long

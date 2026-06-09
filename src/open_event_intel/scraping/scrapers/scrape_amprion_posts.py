@@ -99,6 +99,7 @@ async def main_scrape_amprion_posts(root_url:str, table_name:str, database: Post
                     post=result.markdown.raw_markdown,
                     overwrite=params["overwrite"]
                 )
+                new_articles.append(url)
 
         await asyncio.sleep(5) # to avoid IP blocking
 

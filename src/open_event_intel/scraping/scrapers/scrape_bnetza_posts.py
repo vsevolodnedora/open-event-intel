@@ -130,6 +130,7 @@ async def main_scrape_bnetza_posts(
                 post=result.markdown.raw_markdown,
                 overwrite=params["overwrite"]
             )
+            new_articles.append(url)
 
             await asyncio.sleep(5) # to avoid IP blocking
 
