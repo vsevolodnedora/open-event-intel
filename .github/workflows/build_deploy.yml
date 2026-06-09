@@ -9,9 +9,11 @@ on:
       - 'docs/**'
       - 'output/public_view/**'
 
-  # Also rebuild after the Scrape_Preprocess workflow completes successfully
+  # Also rebuild after the ETL pipeline (final workflow in the chain) completes
+  # successfully. etl_processing force-pushes docs/etl_data with [skip ci], so a
+  # push trigger would not fire here — workflow_run is what republishes the site.
   workflow_run:
-    workflows: ['Scrape_Preprocess']
+    workflows: ['etl_processing']
     types: [completed]
 
   # Allow manual runs from the Actions tab
@@ -30,7 +32,7 @@ concurrency:
 
 jobs:
   deploy:
-    # For workflow_run: only proceed when Scrape_Preprocess succeeded
+    # For workflow_run: only proceed when etl_processing succeeded
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
 
     environment:

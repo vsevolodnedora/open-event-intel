@@ -3,8 +3,10 @@
 # Navigate to the directory where the script is located (optional safety)
 cd "$(dirname "$0")"
 
-# Relative path to the actual database
-TARGET="/Users/vsevolod/Git/nlp_news_summary_data/prompts_and_definitions"
+# Relative path to the actual prompts/definitions in the sibling private data repo.
+# Resolved relative to this script's directory (src/tkg/):
+#   src/tkg -> src -> repo-root -> parent dir holding nlp_news_summary_data
+TARGET="../../../nlp_news_summary_data/prompts_and_definitions"
 LINK_NAME="prompts_and_definitions"
 
 ln -sfn "$TARGET" "$LINK_NAME"

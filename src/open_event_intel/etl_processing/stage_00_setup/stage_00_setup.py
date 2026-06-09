@@ -62,7 +62,7 @@ class ConfigDriftError(Exception):
             f"Latest completed: {expected_version}. Rebuild required."
         )
 
-default=Path("../../../database/processed_posts.db"),
+
 class CompletedRunReuseError(Exception):
     """Raised when attempting to reuse a completed run_id."""
 

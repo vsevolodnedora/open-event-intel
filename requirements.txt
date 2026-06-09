@@ -1,1 +1,6 @@
-# TODO fix me
+# Install this project and its runtime dependencies (declared in pyproject.toml):
+#   pip install -r requirements.txt
+#
+# For fully pinned, reproducible installs (used by CI) use pipenv instead:
+#   pipenv install --deploy
+-e .

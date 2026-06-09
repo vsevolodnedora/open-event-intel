@@ -1313,8 +1313,8 @@ def main():
     parser.add_argument("--output-dir", default="../../../output/posts_cleaned", help="Directory for markdown exports")
     parser.add_argument("--failed-dir", default="../../../output/failed_preprocess/", help="Directory for failed preprocessing outputs")
     parser.add_argument("--corruptions-file", default="../../../config/possible_corruptions.txt", help="Path to file containing character corruption mappings")
-    parser.add_argument("--overwrite", default=True, action="store_true", help="Overwrite existing publications")
-    parser.add_argument("--allow-failures", default=True, action="store_true", help="Continue processing on failures")
+    parser.add_argument("--overwrite", default=True, action=argparse.BooleanOptionalAction, help="Overwrite existing publications (use --no-overwrite to disable)")
+    parser.add_argument("--allow-failures", default=True, action=argparse.BooleanOptionalAction, help="Continue processing on failures (use --no-allow-failures to abort on first failure)")
     parser.add_argument("--list-publishers", action="store_true", help="List available publishers and exit")
     parser.add_argument("--metadata-output", default="../../../output/public_view/", help="Directory for metadata export")
 

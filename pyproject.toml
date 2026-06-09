@@ -7,6 +7,51 @@ name = "open-event-intel"
 version = "0.1.0"
 description = "Open event intelligence scraping and NLP"
 requires-python = ">=3.9"
+# Runtime dependencies. Kept unpinned (matching the Pipfile's "*" philosophy);
+# Pipfile.lock remains the source of truth for reproducible CI installs.
+# NOTE: do not add the PyPI "asyncio" backport here — it shadows the stdlib
+# module and breaks modern Python.
+dependencies = [
+    # Core / shared
+    "pydantic",
+    "PyYAML",
+    "python-dotenv",
+    "python-dateutil",
+    "pytz",
+    "holidays",
+    "tqdm",
+    "joblib",
+    # HTTP / scraping
+    "requests",
+    "requests-cache",
+    "retry-requests",
+    "httpx",
+    "aiohttp",
+    "user-agent",
+    "lxml",
+    "beautifulsoup4",
+    "markdownify",
+    "playwright",
+    "selenium",
+    "cloudscraper",
+    "crawl4ai",
+    # NLP / data / numerics
+    "langid",
+    "numpy",
+    "scipy",
+    "pandas",
+    "pyarrow",
+    "fastparquet",
+    "matplotlib",
+    "statsmodels",
+    "networkx",
+    "rapidfuzz",
+    # LLM / embeddings
+    "openai",
+    "tiktoken",
+    "jinja2",
+    "hnswlib",
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
